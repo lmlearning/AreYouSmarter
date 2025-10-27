@@ -2,9 +2,10 @@ import { HeroSection } from "@/components/hero-section";
 import { CategoryCard } from "@/components/category-card";
 import { Card } from "@/components/ui/card";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { categories, categoryIcons } from "@/lib/mockData";
+import { categoryIcons } from "@/lib/mockData";
 import { useLocation } from "wouter";
-import { CheckCircle2, Brain, Sparkles } from "lucide-react";
+import { useQuery } from "@tanstack/react-query";
+import { Category } from "@shared/schema";
 import {
   Accordion,
   AccordionContent,
@@ -14,6 +15,10 @@ import {
 
 export default function Home() {
   const [, setLocation] = useLocation();
+
+  const { data: categories = [], isLoading } = useQuery<Category[]>({
+    queryKey: ["/api/categories"],
+  });
 
   const handleStartQuiz = () => {
     setLocation("/quiz");
@@ -73,22 +78,30 @@ export default function Home() {
 
         <div className="mb-20">
           <h2 className="text-3xl font-bold mb-8 text-center">Choose Your Challenge</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {categories.map((category) => {
-              const IconComponent = categoryIcons[category.icon as keyof typeof categoryIcons];
-              return (
-                <CategoryCard
-                  key={category.id}
-                  name={category.name}
-                  icon={IconComponent}
-                  description={category.description}
-                  questionCount={category.questionCount}
-                  difficulty={category.difficulty}
-                  onClick={() => handleCategorySelect(category.id)}
-                />
-              );
-            })}
-          </div>
+          {isLoading ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[...Array(6)].map((_, i) => (
+                <Card key={i} className="p-6 h-32 animate-pulse bg-muted" />
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {categories.map((category) => {
+                const IconComponent = categoryIcons[category.icon as keyof typeof categoryIcons];
+                return (
+                  <CategoryCard
+                    key={category.id}
+                    name={category.name}
+                    icon={IconComponent}
+                    description={category.description}
+                    questionCount={category.questionCount}
+                    difficulty={category.difficulty}
+                    onClick={() => handleCategorySelect(category.id)}
+                  />
+                );
+              })}
+            </div>
+          )}
         </div>
 
         <div className="max-w-3xl mx-auto mb-20">

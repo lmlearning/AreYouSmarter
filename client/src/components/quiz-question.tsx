@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { CheckCircle2, XCircle, ChevronRight } from "lucide-react";
-import { useState } from "react";
 
 type QuizQuestionProps = {
   questionNumber: number;
@@ -12,8 +11,11 @@ type QuizQuestionProps = {
   difficulty: "Easy" | "Medium" | "Hard";
   question: string;
   options: string[];
-  correctAnswer: number;
+  correctAnswer?: number;
   explanation: string;
+  selectedAnswer?: number | null;
+  showFeedback?: boolean;
+  onAnswerSelect?: (index: number) => void;
   onNext: () => void;
 };
 
@@ -32,18 +34,20 @@ export function QuizQuestion({
   options,
   correctAnswer,
   explanation,
+  selectedAnswer = null,
+  showFeedback = false,
+  onAnswerSelect,
   onNext,
 }: QuizQuestionProps) {
-  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const progress = (questionNumber / totalQuestions) * 100;
 
   const handleAnswerClick = (index: number) => {
-    if (selectedAnswer === null) {
-      setSelectedAnswer(index);
+    if (selectedAnswer === null && onAnswerSelect) {
+      onAnswerSelect(index);
     }
   };
 
-  const isCorrect = selectedAnswer === correctAnswer;
+  const isCorrect = correctAnswer !== undefined && selectedAnswer === correctAnswer;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
@@ -68,13 +72,12 @@ export function QuizQuestion({
         <div className="space-y-3 mb-6">
           {options.map((option, index) => {
             const isSelected = selectedAnswer === index;
-            const isCorrectOption = index === correctAnswer;
-            const showFeedback = selectedAnswer !== null;
+            const isCorrectOption = correctAnswer !== undefined && index === correctAnswer;
 
             let buttonVariant: "outline" | "default" = "outline";
             let additionalClasses = "";
 
-            if (showFeedback) {
+            if (showFeedback && correctAnswer !== undefined) {
               if (isCorrectOption) {
                 additionalClasses = "border-green-500 bg-green-500/10 text-green-700 dark:text-green-400";
               } else if (isSelected && !isCorrectOption) {
@@ -92,10 +95,10 @@ export function QuizQuestion({
                 data-testid={`button-answer-${index}`}
               >
                 <span className="flex-1">{option}</span>
-                {showFeedback && isCorrectOption && (
+                {showFeedback && correctAnswer !== undefined && isCorrectOption && (
                   <CheckCircle2 className="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0" />
                 )}
-                {showFeedback && isSelected && !isCorrectOption && (
+                {showFeedback && correctAnswer !== undefined && isSelected && !isCorrectOption && (
                   <XCircle className="h-5 w-5 text-red-600 dark:text-red-400 flex-shrink-0" />
                 )}
               </Button>
@@ -103,7 +106,7 @@ export function QuizQuestion({
           })}
         </div>
 
-        {selectedAnswer !== null && (
+        {showFeedback && correctAnswer !== undefined && (
           <div className="space-y-4">
             <div className={`p-4 rounded-lg border ${
               isCorrect

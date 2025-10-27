@@ -1,5 +1,5 @@
 import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, integer } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, integer, jsonb, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
@@ -33,11 +33,26 @@ export type AIModel = {
   color: string;
 };
 
+export type QuizSession = {
+  id: string;
+  questions: Question[];
+  currentQuestionIndex: number;
+  answers: Record<string, number>;
+  score: number;
+  completed: boolean;
+  categoryId?: string;
+};
+
 export type QuizResult = {
   score: number;
   totalQuestions: number;
+  percentage: number;
   categoryBreakdown: Record<string, { correct: number; total: number }>;
-  aiComparisons: AIModel[];
+  aiComparisons: Array<{
+    name: string;
+    accuracy: number;
+    categoryBreakdown?: { category: string; score: number }[];
+  }>;
 };
 
 export type Category = {
