@@ -6,7 +6,7 @@ import { CheckCircle2, XCircle, ChevronRight, Sparkles } from "lucide-react";
 import { LatexText } from "@/components/latex-text";
 import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
+import { useToast } from "@/hooks/use-toast";
 import type { AIExplanation } from "@shared/schema";
 
 type QuizQuestionProps = {
@@ -50,6 +50,7 @@ export function QuizQuestion({
 }: QuizQuestionProps) {
   const progress = (questionNumber / totalQuestions) * 100;
   const [aiExplanation, setAiExplanation] = useState<AIExplanation | null>(null);
+  const { toast } = useToast();
 
   const handleAnswerClick = (index: number) => {
     if (selectedAnswer === null && onAnswerSelect) {
@@ -71,6 +72,13 @@ export function QuizQuestion({
     },
     onSuccess: (data) => {
       setAiExplanation(data);
+    },
+    onError: () => {
+      toast({
+        title: "Error",
+        description: "Failed to generate AI explanation. Please try again.",
+        variant: "destructive",
+      });
     },
   });
 
@@ -151,16 +159,23 @@ export function QuizQuestion({
             </div>
 
             {questionId && sessionId && !aiExplanation && (
-              <Button
-                onClick={() => getExplanationMutation.mutate()}
-                variant="outline"
-                className="w-full"
-                disabled={getExplanationMutation.isPending}
-                data-testid="button-get-ai-explanation"
-              >
-                <Sparkles className="mr-2 h-4 w-4" />
-                {getExplanationMutation.isPending ? "Getting AI Explanation..." : "Get AI Explanation"}
-              </Button>
+              <div className="space-y-2">
+                <Button
+                  onClick={() => getExplanationMutation.mutate()}
+                  variant="outline"
+                  className="w-full"
+                  disabled={getExplanationMutation.isPending}
+                  data-testid="button-get-ai-explanation"
+                >
+                  <Sparkles className="mr-2 h-4 w-4" />
+                  {getExplanationMutation.isPending ? "Getting AI Explanation..." : "Get AI Explanation"}
+                </Button>
+                {getExplanationMutation.isPending && (
+                  <p className="text-xs text-center text-muted-foreground">
+                    This may take 30-60 seconds as the AI reasons through the solution...
+                  </p>
+                )}
+              </div>
             )}
 
             {aiExplanation && (
