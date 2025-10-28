@@ -14,6 +14,9 @@ A quiz application that challenges users to compete against AI models using ques
 - Both category-specific and mixed quizzes support custom question counts
 - Created data processing scripts to convert Hugging Face parquet data to TypeScript format
 - **Fixed LaTeX rendering**: Added KaTeX library to properly render mathematical expressions in questions, options, and explanations
+  - Added custom LaTeX macros for MMLU-specific commands: `\norm`, `\abs`, `\RR`, `\NN`, `\ZZ`, `\CC`, `\QQ`
+  - `\norm{x}` renders as ||x|| with proper double vertical bars
+  - All mathematical notation displays correctly without red error text
 - **Fixed text overflow**: Answer buttons now properly wrap long text across multiple lines
 
 ## User Preferences

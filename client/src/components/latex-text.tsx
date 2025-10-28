@@ -53,6 +53,16 @@ export function LatexText({ text, className = "", inline = true }: LatexTextProp
             const html = katex.renderToString(part.content, {
               throwOnError: false,
               displayMode: !inline,
+              macros: {
+                "\\norm": "\\lVert#1\\rVert",
+                "\\abs": "\\lvert#1\\rvert",
+                "\\set": "\\{#1\\}",
+                "\\RR": "\\mathbb{R}",
+                "\\NN": "\\mathbb{N}",
+                "\\ZZ": "\\mathbb{Z}",
+                "\\CC": "\\mathbb{C}",
+                "\\QQ": "\\mathbb{Q}",
+              },
             });
             return (
               <span
