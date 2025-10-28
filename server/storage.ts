@@ -1,4 +1,4 @@
-import { type User, type InsertUser, type QuizSession, type Question, type Category } from "@shared/schema";
+import { type User, type InsertUser, type QuizSession, type Question, type Category, type AIExplanation } from "@shared/schema";
 import { randomUUID } from "crypto";
 import { categories, questions as questionBank } from "./data/questions";
 
@@ -14,15 +14,20 @@ export interface IStorage {
   createQuizSession(questions: Question[], categoryId?: string): Promise<QuizSession>;
   getQuizSession(sessionId: string): Promise<QuizSession | undefined>;
   updateQuizSession(sessionId: string, session: Partial<QuizSession>): Promise<QuizSession | undefined>;
+  
+  getAIExplanation(questionId: string): Promise<AIExplanation | undefined>;
+  saveAIExplanation(explanation: AIExplanation): Promise<void>;
 }
 
 export class MemStorage implements IStorage {
   private users: Map<string, User>;
   private quizSessions: Map<string, QuizSession>;
+  private aiExplanations: Map<string, AIExplanation>;
 
   constructor() {
     this.users = new Map();
     this.quizSessions = new Map();
+    this.aiExplanations = new Map();
   }
 
   async getUser(id: string): Promise<User | undefined> {
@@ -89,6 +94,14 @@ export class MemStorage implements IStorage {
     const updatedSession = { ...session, ...updates };
     this.quizSessions.set(sessionId, updatedSession);
     return updatedSession;
+  }
+
+  async getAIExplanation(questionId: string): Promise<AIExplanation | undefined> {
+    return this.aiExplanations.get(questionId);
+  }
+
+  async saveAIExplanation(explanation: AIExplanation): Promise<void> {
+    this.aiExplanations.set(explanation.questionId, explanation);
   }
 }
 

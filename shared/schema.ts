@@ -63,3 +63,11 @@ export type Category = {
   questionCount: number;
   difficulty: "Easy" | "Medium" | "Hard";
 };
+
+export type AIExplanation = {
+  questionId: string;
+  explanation: string;
+  reasoning: string;
+  steps: string[];
+  generatedAt: string;
+};
