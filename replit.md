@@ -7,12 +7,14 @@ A quiz application that challenges users to compete against AI models using ques
 ## Recent Changes
 
 ### October 28, 2025 - Full MMLU Dataset Integration & Question Count Selector
-- Downloaded and integrated complete MMLU dataset with 3,005 questions from 15 academic subjects
-- Added question count selector feature allowing users to choose 5, 10, 20, or 50 questions per quiz
+- **Expanded to 14,042 questions** across **17 MMLU categories** (up from 3,005 questions in 8 categories)
+- Added 9 new categories: Business, Law, Medicine, Psychology, Computer Science, Astronomy, Engineering, Social Sciences, General Knowledge
+- Question count selector feature allows users to choose 5, 10, 20, or 50 questions per quiz
 - Updated backend API to accept `numberOfQuestions` parameter (defaults to 10)
 - Both category-specific and mixed quizzes support custom question counts
 - Created data processing scripts to convert Hugging Face parquet data to TypeScript format
 - **Fixed LaTeX rendering**: Added KaTeX library to properly render mathematical expressions in questions, options, and explanations
+- **Fixed text overflow**: Answer buttons now properly wrap long text across multiple lines
 
 ## User Preferences
 
@@ -71,7 +73,12 @@ Preferred communication style: Simple, everyday language.
 - Interface-based design (IStorage) for future database migration
 - Question bank and categories loaded from static data files (server/data/questions.ts)
 - Quiz sessions stored transiently in memory
-- MMLU Dataset: 3,005 questions across 15 subjects (physics, mathematics, history, geography, biology, chemistry, philosophy, literature, formal logic, and more)
+- MMLU Dataset: **14,042 questions across 17 categories**:
+  - Physics (488), History (930), Mathematics (1,064), Geography (198)
+  - Biology (1,515), Literature (171), Chemistry (303), Philosophy (1,841)
+  - Business (719), Law (1,763), Medicine (710), Psychology (1,157)
+  - Computer Science (412), Astronomy (152), Engineering (145)
+  - Social Sciences (1,481), General Knowledge (993)
 
 **Data Models**
 - User accounts (username, password)

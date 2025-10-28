@@ -1,5 +1,8 @@
 import { Question, Category, AIModel } from "@shared/schema";
-import { Atom, History, Calculator, Globe, Dna, BookOpen, Lightbulb, Languages, Microscope } from "lucide-react";
+import { 
+  Atom, History, Calculator, Globe, Dna, BookOpen, Lightbulb, Languages, Microscope,
+  Briefcase, Scale, Stethoscope, Brain, Laptop, Telescope, Cog, Users, Book
+} from "lucide-react";
 
 export const categories: Category[] = [
   {
@@ -86,6 +89,15 @@ export const categoryIcons = {
   Lightbulb,
   Languages,
   Microscope,
+  Briefcase,
+  Scale,
+  Stethoscope,
+  Brain,
+  Laptop,
+  Telescope,
+  Cog,
+  Users,
+  Book,
 };
 
 export const sampleQuestions: Question[] = [
