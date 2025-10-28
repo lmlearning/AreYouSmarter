@@ -92,12 +92,12 @@ export function QuizQuestion({
               <Button
                 key={index}
                 variant={buttonVariant}
-                className={`w-full justify-start text-left h-auto py-4 px-6 ${additionalClasses}`}
+                className={`w-full justify-start text-left h-auto py-4 px-6 whitespace-normal ${additionalClasses}`}
                 onClick={() => handleAnswerClick(index)}
                 disabled={selectedAnswer !== null}
                 data-testid={`button-answer-${index}`}
               >
-                <span className="flex-1">
+                <span className="flex-1 break-words">
                   <LatexText text={option} />
                 </span>
                 {showFeedback && correctAnswer !== undefined && isCorrectOption && (
