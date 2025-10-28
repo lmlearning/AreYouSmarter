@@ -145,24 +145,29 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   app.post("/api/explanation/:questionId", async (req, res) => {
     try {
+      console.log(`[AI Explanation] Request received for question: ${req.params.questionId}`);
       const { questionId } = req.params;
       const { sessionId } = req.body;
 
       const session = await storage.getQuizSession(sessionId);
       if (!session) {
+        console.log(`[AI Explanation] Session not found: ${sessionId}`);
         return res.status(404).json({ error: "Quiz session not found" });
       }
 
       const question = session.questions.find(q => q.id === questionId);
       if (!question) {
+        console.log(`[AI Explanation] Question not found in session: ${questionId}`);
         return res.status(404).json({ error: "Question not found in session" });
       }
 
       const cached = await storage.getAIExplanation(questionId);
       if (cached) {
+        console.log(`[AI Explanation] Returning cached explanation for: ${questionId}`);
         return res.json(cached);
       }
 
+      console.log(`[AI Explanation] Generating new explanation for: ${questionId}`);
       const correctOption = question.options[question.correctAnswer];
       const prompt = `You are an expert educator. Provide a detailed, step-by-step explanation for why the correct answer is right.
 
@@ -185,6 +190,7 @@ Format your response as JSON with these fields:
   "steps": ["Step 1: ...", "Step 2: ...", "Step 3: ..."]
 }`;
 
+      console.log(`[AI Explanation] Calling OpenAI responses API...`);
       const completion = await openai.responses.create({
         model: "gpt-5",
         input: [
@@ -203,6 +209,7 @@ Format your response as JSON with these fields:
         }
       });
 
+      console.log(`[AI Explanation] Received response from OpenAI`);
       const response = completion.output_text;
       if (!response) {
         throw new Error("No response from AI");
@@ -219,10 +226,15 @@ Format your response as JSON with these fields:
       };
 
       await storage.saveAIExplanation(aiExplanation);
+      console.log(`[AI Explanation] Explanation saved and returned successfully`);
 
       res.json(aiExplanation);
     } catch (error) {
-      console.error("Error generating AI explanation:", error);
+      console.error("[AI Explanation] Error:", error);
+      if (error instanceof Error) {
+        console.error("[AI Explanation] Error message:", error.message);
+        console.error("[AI Explanation] Error stack:", error.stack);
+      }
       res.status(500).json({ error: "Failed to generate AI explanation" });
     }
   });
