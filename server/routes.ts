@@ -190,21 +190,28 @@ Format your response as JSON with these fields:
   "steps": ["Step 1: ...", "Step 2: ...", "Step 3: ..."]
 }`;
 
-      console.log(`[AI Explanation] Calling OpenAI chat completions API...`);
-      const completion = await openai.chat.completions.create({
-        model: "gpt-4-turbo",
-        messages: [
+      console.log(`[AI Explanation] Calling OpenAI Responses API with GPT-5...`);
+      const completion = await openai.responses.create({
+        model: "gpt-5",
+        input: [
           {
             role: "user",
             content: prompt
           }
         ],
-        response_format: { type: "json_object" },
-        temperature: 0.7,
+        reasoning: {
+          effort: "high"
+        },
+        text: {
+          verbosity: "medium",
+          format: {
+            type: "json_object"
+          }
+        }
       });
 
       console.log(`[AI Explanation] Received response from OpenAI`);
-      const response = completion.choices[0].message.content;
+      const response = completion.output_text;
       if (!response) {
         throw new Error("No response from AI");
       }
