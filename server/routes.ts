@@ -185,19 +185,25 @@ Format your response as JSON with these fields:
   "steps": ["Step 1: ...", "Step 2: ...", "Step 3: ..."]
 }`;
 
-      const completion = await openai.chat.completions.create({
-        model: "o3-mini",
-        messages: [
+      const completion = await openai.responses.create({
+        model: "gpt-5",
+        input: [
           {
             role: "user",
-            content: prompt
+            content: [
+              {
+                type: "input_text",
+                text: prompt
+              }
+            ]
           }
         ],
-        response_format: { type: "json_object" },
-        reasoning_effort: "high"
+        reasoning: {
+          effort: "high"
+        }
       });
 
-      const response = completion.choices[0].message.content;
+      const response = completion.output_text;
       if (!response) {
         throw new Error("No response from AI");
       }
