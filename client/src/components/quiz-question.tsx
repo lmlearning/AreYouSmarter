@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { CheckCircle2, XCircle, ChevronRight } from "lucide-react";
+import { LatexText } from "@/components/latex-text";
 
 type QuizQuestionProps = {
   questionNumber: number;
@@ -67,7 +68,9 @@ export function QuizQuestion({
       </div>
 
       <Card className="p-8">
-        <h2 className="text-xl font-medium mb-8 leading-relaxed">{question}</h2>
+        <h2 className="text-xl font-medium mb-8 leading-relaxed">
+          <LatexText text={question} />
+        </h2>
 
         <div className="space-y-3 mb-6">
           {options.map((option, index) => {
@@ -94,7 +97,9 @@ export function QuizQuestion({
                 disabled={selectedAnswer !== null}
                 data-testid={`button-answer-${index}`}
               >
-                <span className="flex-1">{option}</span>
+                <span className="flex-1">
+                  <LatexText text={option} />
+                </span>
                 {showFeedback && correctAnswer !== undefined && isCorrectOption && (
                   <CheckCircle2 className="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0" />
                 )}
@@ -116,7 +121,9 @@ export function QuizQuestion({
               <p className="font-medium mb-2">
                 {isCorrect ? "Correct!" : "Incorrect"}
               </p>
-              <p className="text-sm text-muted-foreground">{explanation}</p>
+              <p className="text-sm text-muted-foreground">
+                <LatexText text={explanation} />
+              </p>
             </div>
 
             <Button

@@ -12,6 +12,7 @@ A quiz application that challenges users to compete against AI models using ques
 - Updated backend API to accept `numberOfQuestions` parameter (defaults to 10)
 - Both category-specific and mixed quizzes support custom question counts
 - Created data processing scripts to convert Hugging Face parquet data to TypeScript format
+- **Fixed LaTeX rendering**: Added KaTeX library to properly render mathematical expressions in questions, options, and explanations
 
 ## User Preferences
 
@@ -33,6 +34,7 @@ Preferred communication style: Simple, everyday language.
 - Tailwind CSS for styling with custom design tokens
 - Class Variance Authority (CVA) for component variant management
 - Custom theme system supporting light/dark modes
+- KaTeX for rendering LaTeX mathematical expressions
 
 **Design Principles**
 - Mobile-first responsive design
