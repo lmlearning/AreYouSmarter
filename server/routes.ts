@@ -2,6 +2,12 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { aiModels } from "./data/ai-models";
+import OpenAI from "openai";
+
+const openai = new OpenAI({
+  apiKey: process.env.AI_INTEGRATIONS_OPENAI_API_KEY,
+  baseURL: process.env.AI_INTEGRATIONS_OPENAI_BASE_URL,
+});
 
 export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/categories", async (_req, res) => {
@@ -134,6 +140,84 @@ export async function registerRoutes(app: Express): Promise<Server> {
       });
     } catch (error) {
       res.status(500).json({ error: "Failed to fetch results" });
+    }
+  });
+
+  app.post("/api/explanation/:questionId", async (req, res) => {
+    try {
+      const { questionId } = req.params;
+      const { sessionId } = req.body;
+
+      const session = await storage.getQuizSession(sessionId);
+      if (!session) {
+        return res.status(404).json({ error: "Quiz session not found" });
+      }
+
+      const question = session.questions.find(q => q.id === questionId);
+      if (!question) {
+        return res.status(404).json({ error: "Question not found in session" });
+      }
+
+      const cached = await storage.getAIExplanation(questionId);
+      if (cached) {
+        return res.json(cached);
+      }
+
+      const correctOption = question.options[question.correctAnswer];
+      const prompt = `You are an expert educator. Provide a detailed, step-by-step explanation for why the correct answer is right.
+
+Question: ${question.question}
+
+Options:
+${question.options.map((opt, idx) => `${idx + 1}. ${opt}`).join('\n')}
+
+Correct Answer: ${correctOption}
+
+Please provide:
+1. A clear explanation of why this answer is correct
+2. Step-by-step reasoning showing your thought process
+3. Context about the key concepts involved
+
+Format your response as JSON with these fields:
+{
+  "explanation": "Brief overview of why the answer is correct",
+  "reasoning": "Detailed reasoning process",
+  "steps": ["Step 1: ...", "Step 2: ...", "Step 3: ..."]
+}`;
+
+      const completion = await openai.chat.completions.create({
+        model: "gpt-5",
+        messages: [
+          {
+            role: "user",
+            content: prompt
+          }
+        ],
+        response_format: { type: "json_object" },
+        reasoning_effort: "high"
+      });
+
+      const response = completion.choices[0].message.content;
+      if (!response) {
+        throw new Error("No response from AI");
+      }
+
+      const parsed = JSON.parse(response);
+      
+      const aiExplanation = {
+        questionId,
+        explanation: parsed.explanation || "No explanation provided",
+        reasoning: parsed.reasoning || "No reasoning provided",
+        steps: parsed.steps || [],
+        generatedAt: new Date().toISOString(),
+      };
+
+      await storage.saveAIExplanation(aiExplanation);
+
+      res.json(aiExplanation);
+    } catch (error) {
+      console.error("Error generating AI explanation:", error);
+      res.status(500).json({ error: "Failed to generate AI explanation" });
     }
   });
 
