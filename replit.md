@@ -6,6 +6,16 @@ A quiz application that challenges users to compete against AI models using ques
 
 ## Recent Changes
 
+### October 28, 2025 - AI Explanation Feature with GPT-5 Reasoning
+- **NEW: AI Explanation Feature** - Get detailed, step-by-step solutions from GPT-5
+  - "Get AI Explanation" button appears after answering any question
+  - Uses GPT-5 with high reasoning effort for expert-level explanations
+  - Displays three sections: Overview, Reasoning, and Step-by-Step solution
+  - Explanations are cached - first request takes 30-60 seconds, subsequent requests are instant
+  - All explanations support LaTeX rendering for mathematical content
+  - Error handling with user feedback if generation fails
+  - Integrated using Replit AI Integrations (no API key required, charges billed to credits)
+
 ### October 28, 2025 - Full MMLU Dataset Integration & Question Count Selector
 - **Expanded to 14,042 questions** across **17 MMLU categories** (up from 3,005 questions in 8 categories)
 - Added 9 new categories: Business, Law, Medicine, Psychology, Computer Science, Astronomy, Engineering, Social Sciences, General Knowledge
@@ -89,6 +99,7 @@ Preferred communication style: Simple, everyday language.
 - Quiz sessions (questions, current index, answers, score)
 - Categories (name, icon, description, question count)
 - AI model comparisons (name, accuracy, category breakdown)
+- AI explanations (question ID, explanation, reasoning, steps, generated timestamp)
 
 ### External Dependencies
 
@@ -121,3 +132,4 @@ Preferred communication style: Simple, everyday language.
 **Third-Party Services**
 - Google Fonts for typography (Inter, DM Sans, Architects Daughter, Fira Code, Geist Mono)
 - Session storage using connect-pg-simple (configured for PostgreSQL)
+- OpenAI GPT-5 via Replit AI Integrations for generating detailed question explanations with step-by-step reasoning
