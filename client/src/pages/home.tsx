@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { HeroSection } from "@/components/hero-section";
 import { CategoryCard } from "@/components/category-card";
 import { Card } from "@/components/ui/card";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Label } from "@/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { categoryIcons } from "@/lib/mockData";
 import { useLocation } from "wouter";
 import { useQuery } from "@tanstack/react-query";
@@ -15,17 +18,18 @@ import {
 
 export default function Home() {
   const [, setLocation] = useLocation();
+  const [numberOfQuestions, setNumberOfQuestions] = useState("10");
 
   const { data: categories = [], isLoading } = useQuery<Category[]>({
     queryKey: ["/api/categories"],
   });
 
   const handleStartQuiz = () => {
-    setLocation("/quiz");
+    setLocation(`/quiz?questions=${numberOfQuestions}`);
   };
 
   const handleCategorySelect = (categoryId: string) => {
-    setLocation(`/quiz?category=${categoryId}`);
+    setLocation(`/quiz?category=${categoryId}&questions=${numberOfQuestions}`);
   };
 
   return (
@@ -72,6 +76,28 @@ export default function Home() {
             <h3 className="font-semibold text-lg mb-2">Compare Results</h3>
             <p className="text-sm text-muted-foreground">
               See how you stack up against GPT-4, Claude, and other AI models
+            </p>
+          </Card>
+        </div>
+
+        <div className="mb-12">
+          <Card className="p-6 max-w-md mx-auto">
+            <Label htmlFor="question-count" className="text-base font-semibold mb-3 block">
+              Number of Questions
+            </Label>
+            <Select value={numberOfQuestions} onValueChange={setNumberOfQuestions}>
+              <SelectTrigger id="question-count" data-testid="select-question-count">
+                <SelectValue placeholder="Select number of questions" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="5">5 Questions</SelectItem>
+                <SelectItem value="10">10 Questions</SelectItem>
+                <SelectItem value="20">20 Questions</SelectItem>
+                <SelectItem value="50">50 Questions</SelectItem>
+              </SelectContent>
+            </Select>
+            <p className="text-sm text-muted-foreground mt-2">
+              Choose how many questions you want to answer in your quiz
             </p>
           </Card>
         </div>

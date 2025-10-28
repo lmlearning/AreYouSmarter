@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { aiModels } from "./data/questions";
+import { aiModels } from "./data/ai-models";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/categories", async (_req, res) => {
@@ -15,8 +15,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   app.post("/api/quiz/start", async (req, res) => {
     try {
-      const { categoryId } = req.body;
-      const limit = 10;
+      const { categoryId, numberOfQuestions } = req.body;
+      const limit = numberOfQuestions || 10;
       
       let questions;
       if (categoryId) {

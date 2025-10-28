@@ -33,6 +33,7 @@ export default function Quiz() {
   const searchParams = useSearch();
   const params = new URLSearchParams(searchParams);
   const categoryId = params.get("category");
+  const numberOfQuestions = parseInt(params.get("questions") || "10", 10);
   const { toast } = useToast();
 
   const [sessionId, setSessionId] = useState<string | null>(null);
@@ -43,10 +44,10 @@ export default function Quiz() {
   const [quizComplete, setQuizComplete] = useState(false);
 
   const startQuizMutation = useMutation({
-    mutationFn: async (categoryId: string | null) => {
+    mutationFn: async ({ categoryId, numberOfQuestions }: { categoryId: string | null; numberOfQuestions: number }) => {
       const response = await fetch("/api/quiz/start", {
         method: "POST",
-        body: JSON.stringify({ categoryId }),
+        body: JSON.stringify({ categoryId, numberOfQuestions }),
         headers: { "Content-Type": "application/json" },
       });
       if (!response.ok) throw new Error("Failed to start quiz");
@@ -105,7 +106,7 @@ export default function Quiz() {
   });
 
   useEffect(() => {
-    startQuizMutation.mutate(categoryId);
+    startQuizMutation.mutate({ categoryId, numberOfQuestions });
   }, []);
 
   const currentQuestion = questions[currentQuestionIndex];
@@ -164,7 +165,7 @@ export default function Quiz() {
           categoryBreakdown={results.categoryBreakdown}
           aiComparisons={results.aiComparisons}
           onRetake={() => {
-            startQuizMutation.mutate(categoryId);
+            startQuizMutation.mutate({ categoryId, numberOfQuestions });
           }}
           onGoHome={() => setLocation("/")}
         />

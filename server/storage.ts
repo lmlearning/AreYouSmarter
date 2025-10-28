@@ -1,6 +1,6 @@
 import { type User, type InsertUser, type QuizSession, type Question, type Category } from "@shared/schema";
 import { randomUUID } from "crypto";
-import { categories, questionBank } from "./data/questions";
+import { categories, questions as questionBank } from "./data/questions";
 
 export interface IStorage {
   getUser(id: string): Promise<User | undefined>;
@@ -51,7 +51,7 @@ export class MemStorage implements IStorage {
     if (!category) return [];
     
     const categoryQuestions = questionBank.filter(q => 
-      q.subject.toLowerCase() === category.name.toLowerCase()
+      q.subject.toLowerCase() === categoryId.toLowerCase()
     );
     
     const shuffled = [...categoryQuestions].sort(() => Math.random() - 0.5);
