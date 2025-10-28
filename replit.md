@@ -6,10 +6,10 @@ A quiz application that challenges users to compete against AI models using ques
 
 ## Recent Changes
 
-### October 28, 2025 - AI Explanation Feature with GPT-5 Reasoning
-- **NEW: AI Explanation Feature** - Get detailed, step-by-step solutions from GPT-5
+### October 28, 2025 - AI Explanation Feature with o3-mini Reasoning
+- **NEW: AI Explanation Feature** - Get detailed, step-by-step solutions from o3-mini
   - "Get AI Explanation" button appears after answering any question
-  - Uses GPT-5 with high reasoning effort for expert-level explanations
+  - Uses o3-mini (OpenAI's reasoning model) with high reasoning effort for expert-level explanations
   - Displays three sections: Overview, Reasoning, and Step-by-Step solution
   - Explanations are cached - first request takes 30-60 seconds, subsequent requests are instant
   - All explanations support LaTeX rendering for mathematical content
@@ -132,4 +132,4 @@ Preferred communication style: Simple, everyday language.
 **Third-Party Services**
 - Google Fonts for typography (Inter, DM Sans, Architects Daughter, Fira Code, Geist Mono)
 - Session storage using connect-pg-simple (configured for PostgreSQL)
-- OpenAI GPT-5 via Replit AI Integrations for generating detailed question explanations with step-by-step reasoning
+- OpenAI o3-mini (reasoning model) via Replit AI Integrations for generating detailed question explanations with step-by-step reasoning

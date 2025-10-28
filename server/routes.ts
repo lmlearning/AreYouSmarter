@@ -186,7 +186,7 @@ Format your response as JSON with these fields:
 }`;
 
       const completion = await openai.chat.completions.create({
-        model: "gpt-5",
+        model: "o3-mini",
         messages: [
           {
             role: "user",
