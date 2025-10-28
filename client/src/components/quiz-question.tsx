@@ -2,8 +2,12 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { CheckCircle2, XCircle, ChevronRight } from "lucide-react";
+import { CheckCircle2, XCircle, ChevronRight, Sparkles } from "lucide-react";
 import { LatexText } from "@/components/latex-text";
+import { useState } from "react";
+import { useMutation } from "@tanstack/react-query";
+import { apiRequest } from "@/lib/queryClient";
+import type { AIExplanation } from "@shared/schema";
 
 type QuizQuestionProps = {
   questionNumber: number;
@@ -18,6 +22,8 @@ type QuizQuestionProps = {
   showFeedback?: boolean;
   onAnswerSelect?: (index: number) => void;
   onNext: () => void;
+  questionId?: string;
+  sessionId?: string;
 };
 
 const difficultyColors = {
@@ -39,8 +45,11 @@ export function QuizQuestion({
   showFeedback = false,
   onAnswerSelect,
   onNext,
+  questionId,
+  sessionId,
 }: QuizQuestionProps) {
   const progress = (questionNumber / totalQuestions) * 100;
+  const [aiExplanation, setAiExplanation] = useState<AIExplanation | null>(null);
 
   const handleAnswerClick = (index: number) => {
     if (selectedAnswer === null && onAnswerSelect) {
@@ -49,6 +58,21 @@ export function QuizQuestion({
   };
 
   const isCorrect = correctAnswer !== undefined && selectedAnswer === correctAnswer;
+
+  const getExplanationMutation = useMutation({
+    mutationFn: async () => {
+      const response = await fetch(`/api/explanation/${questionId}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId }),
+      });
+      if (!response.ok) throw new Error("Failed to get AI explanation");
+      return response.json() as Promise<AIExplanation>;
+    },
+    onSuccess: (data) => {
+      setAiExplanation(data);
+    },
+  });
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
@@ -125,6 +149,59 @@ export function QuizQuestion({
                 <LatexText text={explanation} />
               </p>
             </div>
+
+            {questionId && sessionId && !aiExplanation && (
+              <Button
+                onClick={() => getExplanationMutation.mutate()}
+                variant="outline"
+                className="w-full"
+                disabled={getExplanationMutation.isPending}
+                data-testid="button-get-ai-explanation"
+              >
+                <Sparkles className="mr-2 h-4 w-4" />
+                {getExplanationMutation.isPending ? "Getting AI Explanation..." : "Get AI Explanation"}
+              </Button>
+            )}
+
+            {aiExplanation && (
+              <Card className="p-6 bg-blue-500/5 border-blue-500/20">
+                <div className="flex items-center gap-2 mb-4">
+                  <Sparkles className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+                  <h3 className="font-semibold text-blue-600 dark:text-blue-400">
+                    AI Explanation
+                  </h3>
+                </div>
+
+                <div className="space-y-4 text-sm">
+                  <div>
+                    <p className="font-medium mb-1">Overview</p>
+                    <p className="text-muted-foreground">
+                      <LatexText text={aiExplanation.explanation} />
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="font-medium mb-1">Reasoning</p>
+                    <p className="text-muted-foreground">
+                      <LatexText text={aiExplanation.reasoning} />
+                    </p>
+                  </div>
+
+                  {aiExplanation.steps && aiExplanation.steps.length > 0 && (
+                    <div>
+                      <p className="font-medium mb-2">Step-by-Step</p>
+                      <ol className="space-y-2 list-decimal list-inside">
+                        {aiExplanation.steps.map((step, idx) => (
+                          <li key={idx} className="text-muted-foreground">
+                            <LatexText text={step} className="inline" />
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  )}
+                </div>
+              </Card>
+            )}
 
             <Button
               onClick={onNext}

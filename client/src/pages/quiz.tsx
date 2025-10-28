@@ -225,6 +225,8 @@ export default function Quiz() {
         onAnswerSelect={handleAnswerSelect}
         showFeedback={answerFeedback !== null}
         onNext={handleNext}
+        questionId={currentQuestion.id}
+        sessionId={sessionId ?? undefined}
       />
     </div>
   );
