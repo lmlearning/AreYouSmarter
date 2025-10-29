@@ -190,22 +190,23 @@ Format your response as JSON with these fields:
   "steps": ["Step 1: ...", "Step 2: ...", "Step 3: ..."]
 }`;
 
-      console.log(`[AI Explanation] Calling OpenAI responses API...`);
+      console.log(`[AI Explanation] Calling OpenAI Responses API with GPT-5...`);
       const completion = await openai.responses.create({
         model: "gpt-5",
         input: [
           {
             role: "user",
-            content: [
-              {
-                type: "input_text",
-                text: prompt
-              }
-            ]
+            content: prompt
           }
         ],
         reasoning: {
           effort: "high"
+        },
+        text: {
+          verbosity: "medium",
+          format: {
+            type: "json_object"
+          }
         }
       });
 
