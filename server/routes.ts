@@ -4,9 +4,16 @@ import { storage } from "./storage";
 import { aiModels } from "./data/ai-models";
 import OpenAI from "openai";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Lazy-initialize OpenAI client to ensure env vars are loaded first
+let openai: OpenAI;
+function getOpenAI() {
+  if (!openai) {
+    openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+  }
+  return openai;
+}
 
 export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/categories", async (_req, res) => {
@@ -190,7 +197,7 @@ Format your response as JSON with these fields:
 }`;
 
       console.log(`[AI Explanation] Calling OpenAI Responses API with GPT-5...`);
-      const completion = await openai.responses.create({
+      const completion = await getOpenAI().responses.create({
         model: "gpt-5",
         input: [
           {
