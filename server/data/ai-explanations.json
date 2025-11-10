@@ -3213,5 +3213,2028 @@
       "Opposes change"
     ],
     "generatedAt": "2025-11-10T00:04:49.000Z"
+  },
+  {
+    "questionId": "high_school_physics_125",
+    "explanation": "Puck slowing after leaving hand: friction opposes motion. Moving +x but slowing \u2192 a in -x direction. Net force F = ma in -x (negative direction). Marked answer correct.",
+    "reasoning": "Slowing in +x \u2192 a < 0 \u2192 F_net < 0 (negative direction).",
+    "steps": [
+      "v > 0, a < 0",
+      "F = ma < 0",
+      "Force negative \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:05:00.000Z"
+  },
+  {
+    "questionId": "high_school_physics_126",
+    "explanation": "Electric field E = F/q is independent of test charge size. Both measure same E (field property of source, not test charge). Marked 'greater' wrong. Correct: same field (option 1).",
+    "reasoning": "E = F/q. Larger q \u2192 larger F, but E same.",
+    "steps": [
+      "E independent of q_test",
+      "Both find same E"
+    ],
+    "generatedAt": "2025-11-10T00:05:01.000Z"
+  },
+  {
+    "questionId": "high_school_physics_127",
+    "explanation": "Balance: F_elec = F_grav. kq\u00b2/r\u00b2 = Gm\u00b2/r\u00b2. If m_A\u2192m_A/2: k(q_A')\u00b2/r\u00b2 = G(m_A/2)m_B/r\u00b2. Compare: (q_A'/q)\u00b2 = (m_A/2)m_B/(mm) = 1/2. So q_A' = q/\u221a2. Not doubled. Actually need to maintain kq_A q_B = Gm_A m_B. If m_A \u2192 m_A/2, need q_A q_B \u2192 half, but which one? Marked 'double q_A' wrong. Correct: halve q_B or other adjustment (option 3).",
+    "reasoning": "kq_A q_B = Gm_A m_B. If m_A/2, need q_A q_B/2. Double q_B works.",
+    "steps": [
+      "Initial: kqq = Gmm",
+      "New: kqq' = G(m/2)m",
+      "q' = q\u221a(1/2), need different solution"
+    ],
+    "generatedAt": "2025-11-10T00:05:02.000Z"
+  },
+  {
+    "questionId": "high_school_physics_128",
+    "explanation": "Series capacitors: Q same on each, V_total = \u03a3V_i. Original: C=2\u03bcF, Q=600\u03bcC \u2192 V = Q/C = 300V. Three 18\u03bcF in series: C_eq = 18/3 = 6\u03bcF. Same battery (300V): Q = C_eq\u00d7V = 6\u00d7300 = 1800\u03bcC on each. Marked '100\u03bcC' wrong. Correct: 1800\u03bcC (option 3).",
+    "reasoning": "Series: same Q. C_eq = 18/3 = 6\u03bcF. Q = 6\u03bcF\u00d7300V = 1800\u03bcC.",
+    "steps": [
+      "V = 600/2 = 300V",
+      "C_eq = 6\u03bcF",
+      "Q = 1800\u03bcC"
+    ],
+    "generatedAt": "2025-11-10T00:05:03.000Z"
+  },
+  {
+    "questionId": "high_school_physics_129",
+    "explanation": "Power P = Fv. dKE/dt = P = Fv. Given dKE/dt = -6 J/s, v = 3 m/s: -6 = F(3) \u2192 F = -2 N. Magnitude |F| = 2 N. Marked '0.5 N' wrong. Correct: 2.0 N (option 1).",
+    "reasoning": "P = dKE/dt = Fv. F = P/v = -6/3 = -2 N. |F| = 2 N.",
+    "steps": [
+      "P = Fv",
+      "F = -6/3 = -2 N",
+      "|F| = 2 N"
+    ],
+    "generatedAt": "2025-11-10T00:05:04.000Z"
+  },
+  {
+    "questionId": "high_school_physics_130",
+    "explanation": "Banked curve: N has horizontal component (N sin\u03b8), friction has horizontal component. Both contribute to centripetal force. Marked 'friction alone' wrong. Correct: combination (option 3).",
+    "reasoning": "F_c = N sin\u03b8 + f cos\u03b8 (or minus depending on speed). Both contribute.",
+    "steps": [
+      "N: vertical + horizontal components",
+      "Both N and f contribute",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:05:05.000Z"
+  },
+  {
+    "questionId": "high_school_physics_131",
+    "explanation": "Horizontal throw: v_x = 30 m/s (constant), v_y = gt = 10(4) = 40 m/s. Total speed v = \u221a(v_x\u00b2 + v_y\u00b2) = \u221a(900+1600) = \u221a2500 = 50 m/s. Marked '30 m/s' wrong. Correct: 50 m/s (option 2).",
+    "reasoning": "v = \u221a(30\u00b2 + 40\u00b2) = \u221a(900+1600) = 50 m/s.",
+    "steps": [
+      "v_x = 30 m/s",
+      "v_y = 40 m/s",
+      "v = 50 m/s"
+    ],
+    "generatedAt": "2025-11-10T00:05:06.000Z"
+  },
+  {
+    "questionId": "high_school_physics_132",
+    "explanation": "F = Gm\u2081m\u2082/r\u00b2. New: F' = G(2m\u2081)(2m\u2082)/(2r)\u00b2 = 4Gmm/(4r\u00b2) = Gmm/r\u00b2 = F (unchanged). Marked 'doubled' wrong. Correct: unchanged (option 3).",
+    "reasoning": "F' = (4mm)/(4r\u00b2) = mm/r\u00b2 = F.",
+    "steps": [
+      "Masses: \u00d74",
+      "Distance: \u00d74",
+      "F unchanged"
+    ],
+    "generatedAt": "2025-11-10T00:05:07.000Z"
+  },
+  {
+    "questionId": "high_school_physics_133",
+    "explanation": "P = VI. I = P/V = 60/120 = 0.5 A. Marked '0.25 A' wrong (options 2&3 are times, not currents - likely typo in dataset). Correct: 0.5 A (option 1).",
+    "reasoning": "I = P/V = 60/120 = 0.5 A.",
+    "steps": [
+      "P = VI",
+      "I = 60/120 = 0.5 A"
+    ],
+    "generatedAt": "2025-11-10T00:05:08.000Z"
+  },
+  {
+    "questionId": "high_school_physics_134",
+    "explanation": "Ideal gas: PV = nRT \u2192 P \u221d T/V. New: P' = P(T'/T)/(V'/V) = P(2)/(8) = P/4 (decreases by factor 4). Marked 'factor 16' wrong. Correct: factor 4 (option 1).",
+    "reasoning": "P \u221d T/V. P' = P\u00d72/8 = P/4.",
+    "steps": [
+      "PV/T = const",
+      "P' = P\u00d7(2/8) = P/4"
+    ],
+    "generatedAt": "2025-11-10T00:05:09.000Z"
+  },
+  {
+    "questionId": "high_school_physics_135",
+    "explanation": "Light entering glass: f unchanged, v decreases, \u03bb = v/f decreases. Marked 'f and \u03bb' wrong. Correct: v and \u03bb (option 2).",
+    "reasoning": "f constant. v\u2192v/n, \u03bb\u2192\u03bb/n.",
+    "steps": [
+      "f unchanged",
+      "v and \u03bb change"
+    ],
+    "generatedAt": "2025-11-10T00:05:10.000Z"
+  },
+  {
+    "questionId": "high_school_physics_136",
+    "explanation": "Isochoric (constant V): container rigid. \u0394V = 0. Temperature increases \u2192 KE increases, speed increases, pressure increases. Volume does NOT increase. Marked 'speed increases' is TRUE. NOT true: option 3 (volume increases).",
+    "reasoning": "Isochoric: V constant. NOT true: 'V increases'.",
+    "steps": [
+      "Constant V process",
+      "V unchanged",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:05:11.000Z"
+  },
+  {
+    "questionId": "high_school_physics_137",
+    "explanation": "Standing waves: require L = n\u03bb/2. At 60 Hz, \u03bb = v/f. No standing wave means L \u2260 n\u03bb/2 (length not multiple of \u03bb/2). Marked answer correct.",
+    "reasoning": "Standing wave condition: L = n\u03bb/2. 60 Hz doesn't satisfy this.",
+    "steps": [
+      "Standing wave: L = n\u03bb/2",
+      "60 Hz: condition not met \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:05:12.000Z"
+  },
+  {
+    "questionId": "high_school_physics_138",
+    "explanation": "\u03c1 = ar. Gauss: E(r) = Q_enc/(4\u03c0\u03b5\u2080r\u00b2). Q_enc = \u222b\u03c1dV = \u222b\u2080\u02b3 ar'(4\u03c0r'\u00b2)dr' = 4\u03c0a\u222br'\u00b3dr' = \u03c0ar\u2074. For r<R: E \u221d r\u2074/r\u00b2 = r\u00b2 (increases non-linearly). For r>R: Q_enc fixed, E \u221d 1/r\u00b2 (decreases). Marked 'increases as r\u2192\u221e' wrong. Correct: increases non-linearly for r<R (option 3).",
+    "reasoning": "r<R: E \u221d r\u00b2. r>R: E \u221d 1/r\u00b2.",
+    "steps": [
+      "Q_enc \u221d r\u2074",
+      "E \u221d r\u00b2 for r<R",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:05:13.000Z"
+  },
+  {
+    "questionId": "high_school_physics_139",
+    "explanation": "Alarm falling: source and observer (student) both at alarm, moving together. No relative motion \u2192 no Doppler shift. Student measures 400 Hz constant. Marked 'higher and increasing' wrong. Correct: 400 Hz unchanged (not listed, but all options wrong).",
+    "reasoning": "Observer and source move together \u2192 no Doppler shift.",
+    "steps": [
+      "Same reference frame",
+      "No shift",
+      "f = 400 Hz constant"
+    ],
+    "generatedAt": "2025-11-10T00:05:14.000Z"
+  },
+  {
+    "questionId": "high_school_physics_140",
+    "explanation": "Heat conduction: Q/t = kA\u0394T/L. Rate depends on both area A (\u03c0Q\u00b2) and length L. Marked 'only length' wrong. Correct: both length and area (option 2).",
+    "reasoning": "Q/t = kA(\u0394T)/L. Depends on A and L.",
+    "steps": [
+      "Fourier's law",
+      "Rate \u221d A/L",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:05:15.000Z"
+  },
+  {
+    "questionId": "high_school_physics_141",
+    "explanation": "Myopia correction: diverging lens (negative diopters). P = -5 D \u2192 f = 1/P = -0.2 m = -20 cm (diverging). Distant object (do=\u221e) \u2192 image at di = f = -20 cm (virtual, 20 cm in front). Marked 'upright real' wrong (real images can't be upright for single lens). Correct: upright virtual 20 cm in front (option 1).",
+    "reasoning": "f = -20 cm. Distant object \u2192 virtual image at 20 cm (upright).",
+    "steps": [
+      "P = -5 D \u2192 f = -20 cm",
+      "di = -20 cm (virtual)",
+      "Upright, virtual"
+    ],
+    "generatedAt": "2025-11-10T00:05:16.000Z"
+  },
+  {
+    "questionId": "high_school_physics_142",
+    "explanation": "Conductor near charged sphere: charges redistribute (polarization), closer side attracts. Net neutral conductor, but attraction occurs (polarization). No field inside conductor (electrostatic equilibrium). Marked 'field inside conductor' wrong (E=0 inside). Correct: attraction (option 2).",
+    "reasoning": "Conductor polarizes \u2192 closer charges attract. E=0 inside conductor.",
+    "steps": [
+      "Polarization occurs",
+      "Attraction",
+      "E=0 inside"
+    ],
+    "generatedAt": "2025-11-10T00:05:17.000Z"
+  },
+  {
+    "questionId": "high_school_physics_143",
+    "explanation": "Magnetic force F = qvB sin\u03b8. New: F' = (2q)(2v)B = 4qvB = 4F (mass irrelevant). Marked answer correct.",
+    "reasoning": "F \u221d qv. Double both \u2192 \u00d74.",
+    "steps": [
+      "F = qvB",
+      "F' = 4qvB = 4F \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:05:18.000Z"
+  },
+  {
+    "questionId": "high_school_physics_144",
+    "explanation": "Dipole midpoint: E from +q points away, E from -q points toward -q. Both point same direction (toward -q) \u2192 add up. E = 2kq/r\u00b2 = 2k(4\u00d710\u207b\u2079)/(0.01)\u00b2 = 7.2\u00d710\u2075 V/m. Marked '0' wrong. Correct: 7.2\u00d710\u2075 V/m (option 3).",
+    "reasoning": "Midpoint: both E vectors point toward -q. E = 2kq/r\u00b2.",
+    "steps": [
+      "E from each: same direction",
+      "E_total = 2kq/r\u00b2 = 7.2\u00d710\u2075"
+    ],
+    "generatedAt": "2025-11-10T00:05:19.000Z"
+  },
+  {
+    "questionId": "high_school_physics_145",
+    "explanation": "Newton's 3rd: F_A_on_B = F_B_on_A (equal magnitude, opposite direction). Ratio 1:1. Marked '4:1' wrong. Correct: 1:1 (option 2).",
+    "reasoning": "Action-reaction: equal forces. F_A = F_B.",
+    "steps": [
+      "Newton's 3rd",
+      "Ratio = 1:1"
+    ],
+    "generatedAt": "2025-11-10T00:05:20.000Z"
+  },
+  {
+    "questionId": "high_school_physics_146",
+    "explanation": "Wave energy \u221d amplitude\u00b2. Lower energy \u2192 smaller amplitude \u2192 smaller height. Wave speed constant in same medium. Width spreading doesn't indicate energy loss directly. Marked 'slower' wrong (speed unchanged in water). Correct: smaller height (option 3).",
+    "reasoning": "Energy \u221d A\u00b2. Less energy \u2192 smaller amplitude (height).",
+    "steps": [
+      "E \u221d A\u00b2",
+      "Lower E \u2192 smaller height",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:05:21.000Z"
+  },
+  {
+    "questionId": "high_school_physics_147",
+    "explanation": "Predicted > measured by 20% means air resistance slowed ball. Options: (0) Shape change unlikely. (1) g doesn't vary significantly. (2) Air resistance decreases a (not increases). (3) Air resistance does vary with v. Marked 'shape change' wrong. Correct: air resistance (implied in option 3 - acceleration varies due to air resistance).",
+    "reasoning": "v_measured < v_predicted \u2192 air drag reduced v.",
+    "steps": [
+      "Air resistance present",
+      "Reduces acceleration",
+      "Answer: relates to air drag"
+    ],
+    "generatedAt": "2025-11-10T00:05:22.000Z"
+  },
+  {
+    "questionId": "high_school_physics_148",
+    "explanation": "Kepler's 3rd: T\u00b2 \u221d r\u00b3. T_M/T_E = 1/5. (T_M/T_E)\u00b2 = (r_M/r_E)\u00b3 \u2192 (1/5)\u00b2 = r\u00b3 \u2192 1/25 = r\u00b3 \u2192 r = (1/25)^(1/3) \u2248 0.34 AU \u2248 1/3 AU. Marked '(1/25)' wrong. Correct: (1/3) AU (option 3).",
+    "reasoning": "T\u00b2 \u221d r\u00b3. (1/5)\u00b2 = r\u00b3 \u2192 r = (1/25)^(1/3) \u2248 1/3 AU.",
+    "steps": [
+      "T\u00b2/T_E\u00b2 = r\u00b3/r_E\u00b3",
+      "(1/25) = r\u00b3",
+      "r \u2248 0.34 AU"
+    ],
+    "generatedAt": "2025-11-10T00:05:23.000Z"
+  },
+  {
+    "questionId": "high_school_physics_149",
+    "explanation": "Circular motion: N = mv\u00b2/R. Friction up: f = \u03bcN. Balance weight: \u03bcN = mg \u2192 \u03bc(mv\u00b2/R) = mg \u2192 m = \u03bcv\u00b2/(Rg). Marked answer correct.",
+    "reasoning": "N = mv\u00b2/R. f = \u03bcN \u2265 mg. Max m when equality.",
+    "steps": [
+      "\u03bc(mv\u00b2/R) = mg",
+      "m_max = \u03bcv\u00b2/(Rg) \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:05:24.000Z"
+  },
+  {
+    "questionId": "high_school_physics_150",
+    "explanation": "Circular orbit: v = \u221a(GM/r). Speed increase \u2192 v > v_circular \u2192 unbound initially. Moves outward to aphelion, returns to P (perihelion). Elliptical orbit with P as closest point. Marked 'P farthest' wrong. Correct: P closest (option 1).",
+    "reasoning": "Speed boost at P \u2192 moves outward \u2192 P is perihelion (closest).",
+    "steps": [
+      "v\u2191 at P",
+      "Ellipse formed",
+      "P = perihelion"
+    ],
+    "generatedAt": "2025-11-10T00:05:25.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_0",
+    "explanation": "Force components: F_x = F cos(45\u00b0) = 10\u00d7(\u221a2/2) \u2248 10\u00d70.707 \u2248 7 N. Marked answer correct.",
+    "reasoning": "F_x = F cos\u03b8 = 10\u00d7cos(45\u00b0) \u2248 7 N.",
+    "steps": [
+      "F_x = 10\u00d7\u221a2/2 \u2248 7 N \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:05:26.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_1",
+    "explanation": "Submerged object displaces volume of fluid equal to its own volume (not weight). Buoyant force equals weight of displaced fluid. Marked 'weight' wrong. Correct: volume (option 1).",
+    "reasoning": "Submerged \u2192 displaces same volume. F_b = \u03c1_fluid V g.",
+    "steps": [
+      "Displaces own volume",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:05:27.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_2",
+    "explanation": "Total internal reflection: occurs when \u03b8 > \u03b8_critical. Water\u2192air: \u03b8_c = sin\u207b\u00b9(n_air/n_water) \u2248 sin\u207b\u00b9(1/1.33) \u2248 48.6\u00b0. At 20\u00b0 from normal: \u03b8 = 20\u00b0 < \u03b8_c \u2192 light passes into air. Marked 'totally reflects' wrong. Correct: passes into air (option 1).",
+    "reasoning": "20\u00b0 < 48.6\u00b0 (critical angle) \u2192 passes through.",
+    "steps": [
+      "\u03b8_c \u2248 48.6\u00b0",
+      "20\u00b0 < \u03b8_c",
+      "Passes through"
+    ],
+    "generatedAt": "2025-11-10T00:05:28.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_3",
+    "explanation": "Four-dimensional geometry (spacetime) doesn't change flat Euclidean triangle angles. Euclidean: angles sum to 180\u00b0. Curved space (general relativity): can differ. Question ambiguous. Marked 'always' assumes flat space. In general curved spacetime: sometimes. Correct: sometimes (option 1).",
+    "reasoning": "Flat space: 180\u00b0. Curved (non-Euclidean): can differ.",
+    "steps": [
+      "Euclidean: 180\u00b0",
+      "Non-Euclidean: varies",
+      "Answer: sometimes"
+    ],
+    "generatedAt": "2025-11-10T00:05:29.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_4",
+    "explanation": "Faraday's law: changing magnetic flux induces voltage. Flux \u03a6 = B\u00b7A. If B or A changes with time, \u03b5 = -d\u03a6/dt \u2260 0.",
+    "reasoning": "Voltage induced only when flux changes (d\u03a6/dt \u2260 0).",
+    "steps": [
+      "\u03b5 = -d\u03a6/dt",
+      "Requires changing B or A"
+    ],
+    "generatedAt": "2025-11-10T00:07:00.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_5",
+    "explanation": "Photon energy E = hf. Higher frequency \u2192 higher energy. Visible spectrum: violet/blue highest f, red lowest f. Most energy: violet/blue.",
+    "reasoning": "E \u221d f. Blue/violet has highest frequency in visible spectrum.",
+    "steps": [
+      "E = hf",
+      "Highest f: violet/blue"
+    ],
+    "generatedAt": "2025-11-10T00:07:01.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_6",
+    "explanation": "General relativity: gravity curves spacetime. Mass-energy causes curvature. Objects follow geodesics (curved paths).",
+    "reasoning": "GR describes gravity as spacetime curvature, not force.",
+    "steps": [
+      "Mass curves spacetime",
+      "Gravity = curvature"
+    ],
+    "generatedAt": "2025-11-10T00:07:02.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_7",
+    "explanation": "Transformer: V_s/V_p = N_s/N_p, I_s/I_p = N_p/N_s. Step-up: V increases, I decreases. Power conserved (ideal): P = VI constant. Can step up V, not P.",
+    "reasoning": "Steps up voltage, steps down current. Power limited by input.",
+    "steps": [
+      "V_s/V_p = N_s/N_p",
+      "Steps up V, down I",
+      "P constant"
+    ],
+    "generatedAt": "2025-11-10T00:07:03.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_8",
+    "explanation": "Spectral lines: unique fingerprints of elements. Each element has characteristic emission/absorption wavelengths from electron transitions.",
+    "reasoning": "Electron transitions in atoms produce specific wavelengths.",
+    "steps": [
+      "E_n levels unique per element",
+      "Transitions \u2192 unique \u03bb"
+    ],
+    "generatedAt": "2025-11-10T00:07:04.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_9",
+    "explanation": "Wave transfers energy, not matter. Medium oscillates in place while energy propagates.",
+    "reasoning": "Energy moves through medium; particles oscillate locally.",
+    "steps": [
+      "Wave = energy transfer",
+      "Matter stays in place"
+    ],
+    "generatedAt": "2025-11-10T00:07:05.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_10",
+    "explanation": "Coulomb force: F = kq\u2081q\u2082/r\u00b2. Same sign \u2192 repulsion (accelerate apart). Opposite sign \u2192 attraction (accelerate together). Direction depends on charge signs.",
+    "reasoning": "F \u221d q\u2081q\u2082. Same sign: repel. Opposite: attract.",
+    "steps": [
+      "F = kqq/r\u00b2",
+      "Sign determines direction"
+    ],
+    "generatedAt": "2025-11-10T00:07:06.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_11",
+    "explanation": "Earth loses energy via electromagnetic radiation (infrared). Heated by sun (visible/IR), radiates to space (IR). Dominant: radiation, not conduction/convection to space (vacuum).",
+    "reasoning": "Space = vacuum. Only radiation works (no medium for conduction/convection).",
+    "steps": [
+      "Space: no medium",
+      "Energy loss: IR radiation"
+    ],
+    "generatedAt": "2025-11-10T00:07:07.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_12",
+    "explanation": "Series circuit: same current through all components. I\u2081 = I\u2082 = 2 A everywhere.",
+    "reasoning": "Series: I constant throughout.",
+    "steps": [
+      "Series: one path",
+      "Same I = 2 A"
+    ],
+    "generatedAt": "2025-11-10T00:07:08.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_13",
+    "explanation": "Doppler effect: approaching source \u2192 higher frequency. Speed increases \u2192 frequency increases further (relativistic Doppler).",
+    "reasoning": "Approaching: f\u2191. Speed\u2191 \u2192 f\u2191 more.",
+    "steps": [
+      "Doppler: f' = f(c+v)/c",
+      "v\u2191 \u2192 f\u2191"
+    ],
+    "generatedAt": "2025-11-10T00:07:09.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_14",
+    "explanation": "Upward toss to height H: v\u00b2 = 2gH. Mass m cancels. Different mass m' reaches same H if same v\u2080, taking same time.",
+    "reasoning": "Projectile motion: independent of mass (no air resistance).",
+    "steps": [
+      "a = g (mass-independent)",
+      "Same v\u2080 \u2192 same H, t"
+    ],
+    "generatedAt": "2025-11-10T00:07:10.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_15",
+    "explanation": "Pumice floats \u2192 \u03c1_pumice < \u03c1_water. Density of pumice less than water.",
+    "reasoning": "Float condition: \u03c1_object < \u03c1_fluid.",
+    "steps": [
+      "Floats \u2192 \u03c1 < \u03c1_water"
+    ],
+    "generatedAt": "2025-11-10T00:07:11.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_16",
+    "explanation": "See red petals: red light reflected, other colors absorbed. We see reflected light.",
+    "reasoning": "Object color = reflected wavelengths. Red petals reflect red.",
+    "steps": [
+      "Red light reflected",
+      "Other colors absorbed"
+    ],
+    "generatedAt": "2025-11-10T00:07:12.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_17",
+    "explanation": "Moving fire engine: Doppler shift. Approaching: higher f (pitch). Receding: lower f. Stationary: no shift.",
+    "reasoning": "Doppler: f' = f(v\u00b1v_obs)/(v\u2213v_source).",
+    "steps": [
+      "Moving: Doppler shift",
+      "Approaching: f\u2191, receding: f\u2193"
+    ],
+    "generatedAt": "2025-11-10T00:07:13.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_18",
+    "explanation": "Squeeze balloon: V decreases. PV = nRT \u2192 P increases (T roughly constant, n constant). Pressure increases.",
+    "reasoning": "Ideal gas: P \u221d 1/V at constant T, n.",
+    "steps": [
+      "V\u2193",
+      "PV = const \u2192 P\u2191"
+    ],
+    "generatedAt": "2025-11-10T00:07:14.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_19",
+    "explanation": "Polarization: property of transverse waves. Light (EM wave) can be polarized. Sound (longitudinal) cannot.",
+    "reasoning": "Transverse waves have perpendicular oscillations \u2192 can polarize.",
+    "steps": [
+      "Light: transverse \u2192 polarizable",
+      "Sound: longitudinal \u2192 not"
+    ],
+    "generatedAt": "2025-11-10T00:07:15.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_20",
+    "explanation": "Vacuum: no air, no buoyant force. Object still has mass, weight (W=mg from gravity), inertia.",
+    "reasoning": "Vacuum removes air but not gravity or mass.",
+    "steps": [
+      "Still has: m, W=mg, inertia",
+      "No: buoyant force"
+    ],
+    "generatedAt": "2025-11-10T00:07:16.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_21",
+    "explanation": "Temperature T \u221d average kinetic energy of molecules. Higher T \u2192 higher KE_avg = \u00bdm\u27e8v\u00b2\u27e9.",
+    "reasoning": "T measures average molecular KE. Proportional to \u27e8v\u00b2\u27e9.",
+    "steps": [
+      "T \u221d KE_avg",
+      "KE \u221d \u27e8v\u00b2\u27e9"
+    ],
+    "generatedAt": "2025-11-10T00:07:17.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_22",
+    "explanation": "Hydraulic press: Pascal's principle. P\u2081 = P\u2082 \u2192 F\u2081/A\u2081 = F\u2082/A\u2082. Output force F\u2082 = F\u2081(A\u2082/A\u2081). Cannot exceed input energy (work).",
+    "reasoning": "Amplifies force, not work/energy. W_out \u2264 W_in.",
+    "steps": [
+      "F\u2082 = F\u2081(A\u2082/A\u2081)",
+      "W = Fd limited by input"
+    ],
+    "generatedAt": "2025-11-10T00:07:18.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_23",
+    "explanation": "Angular momentum conserved: L = I\u03c9 = const. Contract (I\u2193) \u2192 \u03c9\u2191. Rotational speed increases.",
+    "reasoning": "No external torque: L conserved. I\u2193 \u2192 \u03c9\u2191.",
+    "steps": [
+      "L = I\u03c9 = const",
+      "I\u2193 \u2192 \u03c9\u2191"
+    ],
+    "generatedAt": "2025-11-10T00:07:19.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_24",
+    "explanation": "Work-energy: W = \u0394KE. Positive work \u2192 KE increases \u2192 speed increases. Negative work \u2192 KE decreases \u2192 speed decreases.",
+    "reasoning": "W = F\u00b7d. Same direction: W>0 \u2192 v\u2191. Opposite: W<0 \u2192 v\u2193.",
+    "steps": [
+      "W = \u0394KE",
+      "W>0: speed\u2191",
+      "W<0: speed\u2193"
+    ],
+    "generatedAt": "2025-11-10T00:07:20.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_25",
+    "explanation": "Newton's 3rd law: action-reaction pairs equal magnitude, opposite direction, act on different objects.",
+    "reasoning": "F_AB = -F_BA. Always equal magnitude.",
+    "steps": [
+      "3rd law: equal/opposite",
+      "Different objects"
+    ],
+    "generatedAt": "2025-11-10T00:07:21.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_26",
+    "explanation": "Momentum conserved in isolated system (no external forces). Collisions: p_before = p_after.",
+    "reasoning": "\u03a3F_ext = 0 \u2192 \u0394p_sys = 0.",
+    "steps": [
+      "Isolated: p conserved",
+      "Collisions: \u03a3p constant"
+    ],
+    "generatedAt": "2025-11-10T00:07:22.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_27",
+    "explanation": "Kinetic energy: KE = \u00bdmv\u00b2. Doubles with mass (linear). Quadruples with speed (v\u00b2).",
+    "reasoning": "KE \u221d m, KE \u221d v\u00b2.",
+    "steps": [
+      "KE = \u00bdmv\u00b2",
+      "m\u21922m: KE\u00d72",
+      "v\u21922v: KE\u00d74"
+    ],
+    "generatedAt": "2025-11-10T00:07:23.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_28",
+    "explanation": "Power P = W/t = E/t. Energy per unit time. Also P = Fv (force \u00d7 velocity).",
+    "reasoning": "P measures rate of energy transfer.",
+    "steps": [
+      "P = E/t",
+      "Also P = Fv"
+    ],
+    "generatedAt": "2025-11-10T00:07:24.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_29",
+    "explanation": "Centripetal acceleration a_c = v\u00b2/r toward center. Circular motion requires centripetal force F_c = ma_c.",
+    "reasoning": "Circular motion: a toward center. F_c = mv\u00b2/r.",
+    "steps": [
+      "a_c = v\u00b2/r (radial)",
+      "F_c = ma_c"
+    ],
+    "generatedAt": "2025-11-10T00:07:25.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_30",
+    "explanation": "Gravity: F = GMm/r\u00b2. Universal, always attractive. Infinite range but decreases as 1/r\u00b2.",
+    "reasoning": "Gravity: long-range, attractive, \u221d 1/r\u00b2.",
+    "steps": [
+      "F \u221d Mm/r\u00b2",
+      "Always attractive",
+      "Infinite range"
+    ],
+    "generatedAt": "2025-11-10T00:07:26.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_31",
+    "explanation": "Ohm's law: V = IR. Voltage, current, resistance relationship for ohmic materials.",
+    "reasoning": "V = IR. I = V/R proportional to voltage.",
+    "steps": [
+      "V = IR",
+      "I \u221d V at constant R"
+    ],
+    "generatedAt": "2025-11-10T00:07:27.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_32",
+    "explanation": "Conservation of energy: E_total constant in isolated system. KE + PE + thermal = const.",
+    "reasoning": "Energy conserved, transforms between forms.",
+    "steps": [
+      "E_total = const",
+      "KE \u2194 PE \u2194 thermal"
+    ],
+    "generatedAt": "2025-11-10T00:07:28.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_33",
+    "explanation": "Refraction: light bends crossing media boundaries. n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082 (Snell's law). Speed changes \u2192 direction changes.",
+    "reasoning": "Different media: different v \u2192 bending.",
+    "steps": [
+      "Snell: n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082",
+      "v changes \u2192 \u03b8 changes"
+    ],
+    "generatedAt": "2025-11-10T00:07:29.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_34",
+    "explanation": "Heat flows from hot to cold spontaneously (2nd law thermodynamics). Thermal equilibrium when T_hot = T_cold.",
+    "reasoning": "2nd law: heat flows hot\u2192cold. Stops at thermal equilibrium.",
+    "steps": [
+      "Heat: hot\u2192cold",
+      "Equilibrium: T\u2081 = T\u2082"
+    ],
+    "generatedAt": "2025-11-10T00:07:30.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_35",
+    "explanation": "Electric current: flow of charge. I = Q/t (charge per time). Conventional direction: + to - (opposite electron flow).",
+    "reasoning": "I = dQ/dt. Conventional: +\u2192-. Electrons: -\u2192+.",
+    "steps": [
+      "I = Q/t",
+      "Direction: + to -"
+    ],
+    "generatedAt": "2025-11-10T00:07:31.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_36",
+    "explanation": "Wave speed v = f\u03bb. Frequency f, wavelength \u03bb, speed v relationship for all waves.",
+    "reasoning": "v = f\u03bb universal wave equation.",
+    "steps": [
+      "v = f\u03bb",
+      "Applies to all waves"
+    ],
+    "generatedAt": "2025-11-10T00:07:32.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_37",
+    "explanation": "Resonance: system oscillates with large amplitude at natural frequency. Forced oscillation matches f_natural \u2192 resonance.",
+    "reasoning": "f_forcing = f_natural \u2192 maximum amplitude (resonance).",
+    "steps": [
+      "Resonance: f_ext = f\u2080",
+      "Maximum amplitude"
+    ],
+    "generatedAt": "2025-11-10T00:07:33.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_38",
+    "explanation": "Acceleration a = \u0394v/\u0394t: rate of velocity change. Can be speeding up, slowing down, or changing direction.",
+    "reasoning": "a = dv/dt. Nonzero when v changes (magnitude or direction).",
+    "steps": [
+      "a = \u0394v/\u0394t",
+      "v change \u2192 a \u2260 0"
+    ],
+    "generatedAt": "2025-11-10T00:07:34.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_39",
+    "explanation": "Inertia: resistance to acceleration. Greater mass \u2192 greater inertia. F = ma: larger m needs larger F for same a.",
+    "reasoning": "Inertia \u221d mass. Resists changes in motion.",
+    "steps": [
+      "Inertia = m",
+      "F = ma"
+    ],
+    "generatedAt": "2025-11-10T00:07:35.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_40",
+    "explanation": "Electromagnetic spectrum: radio, microwave, IR, visible, UV, X-ray, gamma. All travel at c in vacuum, differ in \u03bb and f.",
+    "reasoning": "EM waves: c = f\u03bb. Different regions by \u03bb/f.",
+    "steps": [
+      "All EM: speed c",
+      "Differ in \u03bb, f"
+    ],
+    "generatedAt": "2025-11-10T00:07:36.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_41",
+    "explanation": "Lenses: convex (converging), concave (diverging). Convex focuses parallel rays to focal point. Concave spreads rays.",
+    "reasoning": "Convex: f>0, converging. Concave: f<0, diverging.",
+    "steps": [
+      "Convex: converges",
+      "Concave: diverges"
+    ],
+    "generatedAt": "2025-11-10T00:07:37.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_42",
+    "explanation": "Mirrors: plane (flat), concave (curved in), convex (curved out). Plane: virtual, same size. Concave: real/virtual. Convex: virtual, reduced.",
+    "reasoning": "Curvature determines image properties.",
+    "steps": [
+      "Plane: v=d, virtual",
+      "Concave/convex: varies"
+    ],
+    "generatedAt": "2025-11-10T00:07:38.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_43",
+    "explanation": "Pressure P = F/A. Force per unit area. Fluids: P = \u03c1gh (depth). Gases: P from molecular collisions.",
+    "reasoning": "P = F/A. Liquids: P \u221d depth. Gases: P \u221d collisions.",
+    "steps": [
+      "P = F/A",
+      "Liquid: P = \u03c1gh"
+    ],
+    "generatedAt": "2025-11-10T00:07:39.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_44",
+    "explanation": "Buoyant force F_b = \u03c1_fluid \u00d7 V_displaced \u00d7 g. Depends on fluid density and displaced volume.",
+    "reasoning": "Archimedes: F_b = weight of displaced fluid.",
+    "steps": [
+      "F_b = \u03c1Vg",
+      "Depends on \u03c1_fluid, V_disp"
+    ],
+    "generatedAt": "2025-11-10T00:08:00.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_45",
+    "explanation": "Terminal velocity: drag force equals weight. No net force, constant v_terminal.",
+    "reasoning": "F_drag = mg \u2192 a = 0 \u2192 v constant.",
+    "steps": [
+      "F_drag \u2191 with v",
+      "At v_term: F_drag = mg"
+    ],
+    "generatedAt": "2025-11-10T00:08:01.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_46",
+    "explanation": "Specific heat c: energy per mass per degree. Q = mc\u0394T. Water has high c (4186 J/kg\u00b7K).",
+    "reasoning": "c measures thermal capacity. High c \u2192 hard to heat.",
+    "steps": [
+      "Q = mc\u0394T",
+      "Water: c \u2248 4186"
+    ],
+    "generatedAt": "2025-11-10T00:08:02.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_47",
+    "explanation": "Conduction: heat through material via molecular collision. Rate: k(thermal conductivity), A, \u0394T/L.",
+    "reasoning": "Fourier: Q/t = kA\u0394T/L.",
+    "steps": [
+      "Conduction: molecular contact",
+      "Rate \u221d kA\u0394T/L"
+    ],
+    "generatedAt": "2025-11-10T00:08:03.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_48",
+    "explanation": "Convection: heat transfer via fluid motion. Hot fluid rises, cold sinks (density differences).",
+    "reasoning": "\u03c1_hot < \u03c1_cold \u2192 circulation.",
+    "steps": [
+      "Fluid motion transfers heat",
+      "Hot rises, cold sinks"
+    ],
+    "generatedAt": "2025-11-10T00:08:04.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_49",
+    "explanation": "Radiation: EM wave heat transfer. No medium needed. Stefan-Boltzmann: P \u221d T\u2074.",
+    "reasoning": "EM radiation, works in vacuum. P = \u03c3AT\u2074.",
+    "steps": [
+      "No medium needed",
+      "P \u221d T\u2074"
+    ],
+    "generatedAt": "2025-11-10T00:08:05.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_50",
+    "explanation": "First law thermodynamics: \u0394U = Q - W. Energy conservation including heat and work.",
+    "reasoning": "\u0394U = Q_in - W_by_system.",
+    "steps": [
+      "Energy conserved",
+      "\u0394U = Q - W"
+    ],
+    "generatedAt": "2025-11-10T00:08:06.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_51",
+    "explanation": "Second law: entropy increases in isolated systems. Heat flows hot\u2192cold spontaneously.",
+    "reasoning": "\u0394S_universe \u2265 0. Disorder increases.",
+    "steps": [
+      "\u0394S \u2265 0",
+      "Irreversible processes"
+    ],
+    "generatedAt": "2025-11-10T00:08:07.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_52",
+    "explanation": "Entropy S: measure of disorder/microstates. Higher S \u2192 more disorder.",
+    "reasoning": "S = k ln(\u03a9). More microstates \u2192 higher S.",
+    "steps": [
+      "S measures disorder",
+      "Tends to increase"
+    ],
+    "generatedAt": "2025-11-10T00:08:08.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_53",
+    "explanation": "Ideal gas law: PV = nRT. Relates pressure, volume, temperature, moles.",
+    "reasoning": "PV = nRT combines Boyle, Charles laws.",
+    "steps": [
+      "PV = nRT",
+      "R = 8.314 J/mol\u00b7K"
+    ],
+    "generatedAt": "2025-11-10T00:08:09.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_54",
+    "explanation": "Absolute zero: T = 0 K = -273.15\u00b0C. Minimum possible temperature, zero thermal energy.",
+    "reasoning": "Minimum KE \u2192 T_min = 0 K.",
+    "steps": [
+      "T = 0 K",
+      "No lower temperature"
+    ],
+    "generatedAt": "2025-11-10T00:08:10.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_55",
+    "explanation": "Phase changes: solid\u2194liquid\u2194gas. Require latent heat (Q = mL) at constant T.",
+    "reasoning": "Phase change: T constant, energy breaks bonds.",
+    "steps": [
+      "Q = mL",
+      "T constant during phase change"
+    ],
+    "generatedAt": "2025-11-10T00:08:11.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_56",
+    "explanation": "Latent heat: energy for phase change per mass. L_fusion (solid\u2194liquid), L_vaporization (liquid\u2194gas).",
+    "reasoning": "L: energy to break bonds without T change.",
+    "steps": [
+      "Q = mL",
+      "L_vap > L_fus"
+    ],
+    "generatedAt": "2025-11-10T00:08:12.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_57",
+    "explanation": "Evaporation: liquid\u2192gas at surface below boiling point. Faster molecules escape.",
+    "reasoning": "High KE molecules escape \u2192 cooling.",
+    "steps": [
+      "Surface phenomenon",
+      "Cooling effect"
+    ],
+    "generatedAt": "2025-11-10T00:08:13.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_58",
+    "explanation": "Boiling: liquid\u2192gas throughout at T_boiling. Vapor pressure equals atmospheric P.",
+    "reasoning": "P_vapor = P_atm at boiling point.",
+    "steps": [
+      "Bubbles form throughout",
+      "T = T_boiling"
+    ],
+    "generatedAt": "2025-11-10T00:08:14.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_59",
+    "explanation": "SHM: x = A cos(\u03c9t). Restoring force F = -kx. Periodic motion about equilibrium.",
+    "reasoning": "F \u221d -x \u2192 oscillation. \u03c9 = \u221a(k/m).",
+    "steps": [
+      "F = -kx",
+      "x = A cos(\u03c9t)"
+    ],
+    "generatedAt": "2025-11-10T00:08:15.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_60",
+    "explanation": "Period T: time for one complete oscillation. Frequency f = 1/T. Angular frequency \u03c9 = 2\u03c0f.",
+    "reasoning": "T = 2\u03c0/\u03c9. f = \u03c9/(2\u03c0).",
+    "steps": [
+      "T = 1/f",
+      "\u03c9 = 2\u03c0f"
+    ],
+    "generatedAt": "2025-11-10T00:08:16.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_61",
+    "explanation": "Amplitude A: maximum displacement from equilibrium. Energy \u221d A\u00b2.",
+    "reasoning": "A: max displacement. E = \u00bdkA\u00b2.",
+    "steps": [
+      "A = max x",
+      "E \u221d A\u00b2"
+    ],
+    "generatedAt": "2025-11-10T00:08:17.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_62",
+    "explanation": "Pendulum: T = 2\u03c0\u221a(L/g). Independent of mass, depends on length and g.",
+    "reasoning": "SHM for small angles. T \u221d \u221aL.",
+    "steps": [
+      "T = 2\u03c0\u221a(L/g)",
+      "Mass-independent"
+    ],
+    "generatedAt": "2025-11-10T00:08:18.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_63",
+    "explanation": "Spring: T = 2\u03c0\u221a(m/k). Depends on mass and spring constant k.",
+    "reasoning": "F = -kx. T \u221d \u221a(m/k).",
+    "steps": [
+      "T = 2\u03c0\u221a(m/k)",
+      "k: stiffness"
+    ],
+    "generatedAt": "2025-11-10T00:08:19.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_64",
+    "explanation": "Wave types: transverse (\u22a5 motion) vs longitudinal (\u2225 motion). Light: transverse. Sound: longitudinal.",
+    "reasoning": "Transverse: oscillation \u22a5 propagation. Longitudinal: \u2225.",
+    "steps": [
+      "Light: transverse",
+      "Sound: longitudinal"
+    ],
+    "generatedAt": "2025-11-10T00:08:20.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_65",
+    "explanation": "Wavelength \u03bb: distance between crests. Period T: time between crests at point.",
+    "reasoning": "\u03bb: spatial. T: temporal. v = \u03bb/T = f\u03bb.",
+    "steps": [
+      "\u03bb: crest spacing",
+      "T = 1/f"
+    ],
+    "generatedAt": "2025-11-10T00:08:21.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_66",
+    "explanation": "Superposition: waves add algebraically. Constructive (same phase) or destructive (opposite phase) interference.",
+    "reasoning": "y_total = y\u2081 + y\u2082. Phase determines type.",
+    "steps": [
+      "Waves add",
+      "In phase: constructive"
+    ],
+    "generatedAt": "2025-11-10T00:08:22.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_67",
+    "explanation": "Standing waves: superposition of forward and reflected waves. Nodes (zero) and antinodes (max) fixed.",
+    "reasoning": "L = n\u03bb/2 for standing waves.",
+    "steps": [
+      "Nodes: zero amplitude",
+      "Antinodes: max"
+    ],
+    "generatedAt": "2025-11-10T00:08:23.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_68",
+    "explanation": "Harmonics: integer multiples of fundamental frequency. f_n = nf\u2081.",
+    "reasoning": "n = 1,2,3,... Overtones: n > 1.",
+    "steps": [
+      "f_n = nf\u2081",
+      "n: harmonic number"
+    ],
+    "generatedAt": "2025-11-10T00:08:24.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_69",
+    "explanation": "Beats: interference of two close frequencies. Beat frequency f_beat = |f\u2081 - f\u2082|.",
+    "reasoning": "Periodic constructive/destructive interference.",
+    "steps": [
+      "f_beat = \u0394f",
+      "Periodic amplitude variation"
+    ],
+    "generatedAt": "2025-11-10T00:08:25.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_70",
+    "explanation": "Sound speed: v \u2248 343 m/s in air (20\u00b0C). Depends on medium and temperature.",
+    "reasoning": "v = \u221a(B/\u03c1) where B: bulk modulus.",
+    "steps": [
+      "Air: ~343 m/s",
+      "v \u221d \u221aT"
+    ],
+    "generatedAt": "2025-11-10T00:08:26.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_71",
+    "explanation": "Light speed: c = 3\u00d710\u2078 m/s in vacuum. Constant, independent of source motion.",
+    "reasoning": "c: universal constant. Basis of relativity.",
+    "steps": [
+      "c = 3\u00d710\u2078 m/s",
+      "Maximum speed"
+    ],
+    "generatedAt": "2025-11-10T00:08:27.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_72",
+    "explanation": "Reflection: \u03b8_incident = \u03b8_reflected. Law of reflection for waves/light.",
+    "reasoning": "\u03b8\u1d62 = \u03b8\u1d63 from normal. Elastic bounce.",
+    "steps": [
+      "\u03b8\u1d62 = \u03b8\u1d63",
+      "Applies to all waves"
+    ],
+    "generatedAt": "2025-11-10T00:08:28.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_73",
+    "explanation": "Refraction: bending at boundary. Snell's law: n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082. Speed changes.",
+    "reasoning": "v changes \u2192 direction changes.",
+    "steps": [
+      "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082",
+      "Toward normal if slowing"
+    ],
+    "generatedAt": "2025-11-10T00:08:29.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_74",
+    "explanation": "Index of refraction n = c/v. How much light slows in medium. n_vacuum = 1, n_water \u2248 1.33.",
+    "reasoning": "n: ratio of speeds. Higher n \u2192 slower v.",
+    "steps": [
+      "n = c/v",
+      "n \u2265 1"
+    ],
+    "generatedAt": "2025-11-10T00:08:30.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_75",
+    "explanation": "Critical angle \u03b8_c: angle for total internal reflection. \u03b8_c = sin\u207b\u00b9(n\u2082/n\u2081) when n\u2081 > n\u2082.",
+    "reasoning": "\u03b8 > \u03b8_c \u2192 total reflection (no transmission).",
+    "steps": [
+      "\u03b8_c = sin\u207b\u00b9(n\u2082/n\u2081)",
+      "Only when n\u2081 > n\u2082"
+    ],
+    "generatedAt": "2025-11-10T00:08:31.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_76",
+    "explanation": "Diffraction: wave bending around obstacles. Single slit: minima at asin\u03b8 = n\u03bb.",
+    "reasoning": "Wave spreads through opening.",
+    "steps": [
+      "Bending around edges",
+      "Width a, wavelength \u03bb"
+    ],
+    "generatedAt": "2025-11-10T00:08:32.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_77",
+    "explanation": "Double slit interference: bright fringes where path difference = n\u03bb. dsin\u03b8 = n\u03bb.",
+    "reasoning": "Constructive: path diff = integer \u03bb.",
+    "steps": [
+      "dsin\u03b8 = n\u03bb (bright)",
+      "d: slit separation"
+    ],
+    "generatedAt": "2025-11-10T00:08:33.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_78",
+    "explanation": "Electric charge: fundamental property. Two types: positive and negative. Like repel, opposite attract.",
+    "reasoning": "q: quantized (e = 1.6\u00d710\u207b\u00b9\u2079 C).",
+    "steps": [
+      "Two types: +/-",
+      "Like: repel"
+    ],
+    "generatedAt": "2025-11-10T00:08:34.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_79",
+    "explanation": "Charge conservation: total charge in isolated system constant. Cannot create/destroy net charge.",
+    "reasoning": "\u03a3q = const. Fundamental law.",
+    "steps": [
+      "Q_total conserved",
+      "Can separate, not create"
+    ],
+    "generatedAt": "2025-11-10T00:08:35.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_80",
+    "explanation": "Conductors: electrons mobile. Insulators: electrons bound. Semiconductors: intermediate.",
+    "reasoning": "Conductivity: how easily charges move.",
+    "steps": [
+      "Conductor: mobile e\u207b",
+      "Insulator: bound e\u207b"
+    ],
+    "generatedAt": "2025-11-10T00:08:36.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_81",
+    "explanation": "Coulomb's law: F = kq\u2081q\u2082/r\u00b2. Electrostatic force between charges. k = 9\u00d710\u2079 N\u00b7m\u00b2/C\u00b2.",
+    "reasoning": "F \u221d qq/r\u00b2. Inverse square law.",
+    "steps": [
+      "F = kqq/r\u00b2",
+      "k = 9\u00d710\u2079"
+    ],
+    "generatedAt": "2025-11-10T00:08:37.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_82",
+    "explanation": "Electric field E: force per unit charge. E = F/q = kQ/r\u00b2. Points from + to -.",
+    "reasoning": "E: field around charges. Test with q\u21920.",
+    "steps": [
+      "E = F/q",
+      "E = kQ/r\u00b2"
+    ],
+    "generatedAt": "2025-11-10T00:08:38.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_83",
+    "explanation": "Electric potential V: energy per charge. V = kQ/r. \u0394V = voltage = work/charge.",
+    "reasoning": "V: scalar. \u0394V causes current.",
+    "steps": [
+      "V = kQ/r",
+      "W = q\u0394V"
+    ],
+    "generatedAt": "2025-11-10T00:08:39.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_84",
+    "explanation": "Capacitance C: charge stored per voltage. C = Q/V. Units: farads (F).",
+    "reasoning": "C = \u03b5A/d for parallel plates.",
+    "steps": [
+      "C = Q/V",
+      "Energy: U = \u00bdCV\u00b2"
+    ],
+    "generatedAt": "2025-11-10T00:08:40.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_85",
+    "explanation": "Resistance R: opposition to current. R = V/I (Ohm's law). R = \u03c1L/A for wire.",
+    "reasoning": "R depends on material (\u03c1), geometry.",
+    "steps": [
+      "R = V/I",
+      "R = \u03c1L/A"
+    ],
+    "generatedAt": "2025-11-10T00:08:41.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_86",
+    "explanation": "Series circuit: same I, voltages add. R_total = \u03a3R. One path for current.",
+    "reasoning": "I constant. V_total = \u03a3V.",
+    "steps": [
+      "Series: I same",
+      "R_total = R\u2081+R\u2082"
+    ],
+    "generatedAt": "2025-11-10T00:08:42.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_87",
+    "explanation": "Parallel circuit: same V, currents add. 1/R_total = \u03a3(1/R). Multiple paths.",
+    "reasoning": "V constant. I_total = \u03a3I.",
+    "steps": [
+      "Parallel: V same",
+      "1/R_total = 1/R\u2081+1/R\u2082"
+    ],
+    "generatedAt": "2025-11-10T00:08:43.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_88",
+    "explanation": "Electric power: P = VI = I\u00b2R = V\u00b2/R. Energy per time in circuits.",
+    "reasoning": "P: rate of energy dissipation.",
+    "steps": [
+      "P = VI",
+      "Also P = I\u00b2R"
+    ],
+    "generatedAt": "2025-11-10T00:08:44.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_89",
+    "explanation": "Magnetic field B: created by moving charges/currents. Lines from N to S outside magnet.",
+    "reasoning": "B from currents. Force on moving charges.",
+    "steps": [
+      "Currents create B",
+      "B: vector field"
+    ],
+    "generatedAt": "2025-11-10T00:08:45.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_90",
+    "explanation": "Magnetic force: F = qvBsin\u03b8. Force perpendicular to v and B. No work done (F\u22a5v).",
+    "reasoning": "Right-hand rule. F \u22a5 v \u2192 circular motion.",
+    "steps": [
+      "F = qv\u00d7B",
+      "F \u22a5 v: no work"
+    ],
+    "generatedAt": "2025-11-10T00:08:46.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_91",
+    "explanation": "Electromagnetic induction: changing magnetic flux induces voltage. Faraday's law: \u03b5 = -d\u03a6/dt.",
+    "reasoning": "\u0394\u03a6 \u2192 induced \u03b5. Basis of generators.",
+    "steps": [
+      "\u03b5 = -d\u03a6/dt",
+      "Lenz's law: opposes change"
+    ],
+    "generatedAt": "2025-11-10T00:08:47.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_92",
+    "explanation": "Lenz's law: induced current opposes flux change. Conservation of energy consequence.",
+    "reasoning": "Induced B opposes \u0394\u03a6_original.",
+    "steps": [
+      "Opposes causing change",
+      "Right-hand rule"
+    ],
+    "generatedAt": "2025-11-10T00:08:48.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_93",
+    "explanation": "Transformers: change voltage via induction. V_s/V_p = N_s/N_p. Power conserved (ideal).",
+    "reasoning": "Mutual induction. AC required.",
+    "steps": [
+      "V\u2082/V\u2081 = N\u2082/N\u2081",
+      "P = const"
+    ],
+    "generatedAt": "2025-11-10T00:08:49.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_94",
+    "explanation": "AC: alternating current. V = V\u2080sin(\u03c9t). Direction reverses periodically. RMS: V_rms = V\u2080/\u221a2.",
+    "reasoning": "Household: 60 Hz AC. V_rms = 120 V.",
+    "steps": [
+      "AC: direction alternates",
+      "V_rms = V\u2080/\u221a2"
+    ],
+    "generatedAt": "2025-11-10T00:08:50.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_95",
+    "explanation": "DC: direct current. Constant direction and magnitude (ideally). Batteries produce DC.",
+    "reasoning": "One direction. Constant (or slowly varying).",
+    "steps": [
+      "DC: constant direction",
+      "From batteries"
+    ],
+    "generatedAt": "2025-11-10T00:08:51.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_96",
+    "explanation": "Right-hand rule: thumb=v (or I), fingers=B, palm=F (for +q). For -q, reverse F.",
+    "reasoning": "Determines direction of magnetic force.",
+    "steps": [
+      "Thumb: v",
+      "Fingers: B",
+      "Palm: F"
+    ],
+    "generatedAt": "2025-11-10T00:08:52.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_97",
+    "explanation": "Solenoid: coil of wire. Creates uniform B inside. B = \u03bc\u2080nI where n = turns/length.",
+    "reasoning": "Many loops \u2192 strong uniform B inside.",
+    "steps": [
+      "B = \u03bc\u2080nI",
+      "Uniform inside"
+    ],
+    "generatedAt": "2025-11-10T00:08:53.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_98",
+    "explanation": "Ampere's law: \u222eB\u00b7dl = \u03bc\u2080I_enclosed. Relates B to currents. Analog of Gauss's law.",
+    "reasoning": "Circulation of B \u221d enclosed current.",
+    "steps": [
+      "\u222eB\u00b7dl = \u03bc\u2080I",
+      "Symmetric situations"
+    ],
+    "generatedAt": "2025-11-10T00:08:54.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_99",
+    "explanation": "Maxwell's equations: four equations governing E and B. Foundation of electromagnetism and light.",
+    "reasoning": "Gauss (E,B), Faraday, Ampere-Maxwell.",
+    "steps": [
+      "4 equations",
+      "Predict EM waves"
+    ],
+    "generatedAt": "2025-11-10T00:08:55.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_100",
+    "explanation": "EM waves: self-propagating E and B oscillations. Transverse. Speed c in vacuum.",
+    "reasoning": "E\u22a5B, both \u22a5 propagation. c = 1/\u221a(\u03b5\u2080\u03bc\u2080).",
+    "steps": [
+      "E \u22a5 B \u22a5 direction",
+      "Speed c"
+    ],
+    "generatedAt": "2025-11-10T00:08:56.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_101",
+    "explanation": "Photons: quanta of light. E = hf = hc/\u03bb. Particle nature of EM radiation.",
+    "reasoning": "Light: wave-particle duality. E = hf.",
+    "steps": [
+      "E = hf",
+      "h = 6.63\u00d710\u207b\u00b3\u2074"
+    ],
+    "generatedAt": "2025-11-10T00:08:57.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_102",
+    "explanation": "Photoelectric effect: light ejects electrons from metal. KE_max = hf - \u03c6. Evidence for photons.",
+    "reasoning": "Threshold frequency f\u2080 = \u03c6/h.",
+    "steps": [
+      "KE = hf - \u03c6",
+      "\u03c6: work function"
+    ],
+    "generatedAt": "2025-11-10T00:08:58.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_103",
+    "explanation": "Atomic spectra: discrete wavelengths from atoms. Electrons transition between quantized energy levels.",
+    "reasoning": "\u0394E = hf. Each element: unique spectrum.",
+    "steps": [
+      "Quantized energies",
+      "\u0394E \u2192 photon hf"
+    ],
+    "generatedAt": "2025-11-10T00:08:59.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_104",
+    "explanation": "Bohr model: quantized orbits. E_n = -13.6/n\u00b2 eV for hydrogen. Electron jumps between levels.",
+    "reasoning": "Quantized angular momentum. \u0394E = hf for transitions.",
+    "steps": [
+      "E_n = -13.6/n\u00b2",
+      "Transitions \u2192 photons"
+    ],
+    "generatedAt": "2025-11-10T00:09:00.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_105",
+    "explanation": "Quantum numbers: n (energy), l (angular), m_l (magnetic), m_s (spin). Describe electron state.",
+    "reasoning": "n=1,2,3... l=0..n-1, m_l=-l..+l, m_s=\u00b1\u00bd.",
+    "steps": [
+      "4 quantum numbers",
+      "Define electron state"
+    ],
+    "generatedAt": "2025-11-10T00:09:01.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_106",
+    "explanation": "Pauli exclusion: no two electrons same quantum state. Explains periodic table structure.",
+    "reasoning": "Max 2 electrons per orbital (opposite spins).",
+    "steps": [
+      "Unique quantum state",
+      "Explains electron shells"
+    ],
+    "generatedAt": "2025-11-10T00:09:02.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_107",
+    "explanation": "Uncertainty principle: \u0394x\u0394p \u2265 \u0127/2. Cannot know position and momentum precisely simultaneously.",
+    "reasoning": "Heisenberg: fundamental limit, not measurement.",
+    "steps": [
+      "\u0394x\u0394p \u2265 \u0127/2",
+      "Also \u0394E\u0394t \u2265 \u0127/2"
+    ],
+    "generatedAt": "2025-11-10T00:09:03.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_108",
+    "explanation": "Wave-particle duality: matter and light exhibit both wave and particle properties. de Broglie: \u03bb = h/p.",
+    "reasoning": "All matter has wavelength. \u03bb = h/(mv).",
+    "steps": [
+      "\u03bb = h/p",
+      "Exhibits both natures"
+    ],
+    "generatedAt": "2025-11-10T00:09:04.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_109",
+    "explanation": "Nucleus: protons and neutrons. Atomic number Z = protons. Mass number A = protons + neutrons.",
+    "reasoning": "Z defines element. A defines isotope.",
+    "steps": [
+      "Z: protons",
+      "A: nucleons"
+    ],
+    "generatedAt": "2025-11-10T00:09:05.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_110",
+    "explanation": "Isotopes: same Z, different A. Same element, different mass (different neutrons).",
+    "reasoning": "Chemical properties same (same Z). Mass differs.",
+    "steps": [
+      "Same Z",
+      "Different neutrons"
+    ],
+    "generatedAt": "2025-11-10T00:09:06.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_111",
+    "explanation": "Radioactivity: spontaneous nuclear decay. \u03b1 (He nucleus), \u03b2 (electron/positron), \u03b3 (photon).",
+    "reasoning": "Unstable nuclei \u2192 decay. Random process.",
+    "steps": [
+      "\u03b1: 4He nucleus",
+      "\u03b2: e\u207b/e\u207a",
+      "\u03b3: photon"
+    ],
+    "generatedAt": "2025-11-10T00:09:07.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_112",
+    "explanation": "Half-life t_{1/2}: time for half sample to decay. N(t) = N\u2080e^{-\u03bbt} = N\u2080(1/2)^{t/t_{1/2}}.",
+    "reasoning": "Exponential decay. t_{1/2} = ln2/\u03bb.",
+    "steps": [
+      "N = N\u2080(1/2)^{t/t\u2081/\u2082}",
+      "Random decay"
+    ],
+    "generatedAt": "2025-11-10T00:09:08.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_113",
+    "explanation": "Nuclear fission: heavy nucleus splits. Releases energy. Used in reactors and bombs.",
+    "reasoning": "E = mc\u00b2. Mass defect \u2192 energy.",
+    "steps": [
+      "Heavy \u2192 lighter",
+      "Releases energy"
+    ],
+    "generatedAt": "2025-11-10T00:09:09.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_114",
+    "explanation": "Nuclear fusion: light nuclei combine. Powers stars. E = mc\u00b2 conversion.",
+    "reasoning": "Light \u2192 heavier. Requires high T,P.",
+    "steps": [
+      "H \u2192 He in stars",
+      "Huge energy"
+    ],
+    "generatedAt": "2025-11-10T00:09:10.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_115",
+    "explanation": "Mass-energy equivalence: E = mc\u00b2. Mass and energy interchangeable. Nuclear binding energy.",
+    "reasoning": "Einstein: E = mc\u00b2. Explains nuclear energies.",
+    "steps": [
+      "E = mc\u00b2",
+      "Binding energy"
+    ],
+    "generatedAt": "2025-11-10T00:09:11.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_116",
+    "explanation": "Special relativity: c constant in all frames. Time dilation, length contraction at high speeds.",
+    "reasoning": "v\u2192c: time slows, length contracts.",
+    "steps": [
+      "c constant",
+      "\u03b3 = 1/\u221a(1-v\u00b2/c\u00b2)"
+    ],
+    "generatedAt": "2025-11-10T00:09:12.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_117",
+    "explanation": "Time dilation: moving clocks run slow. \u0394t' = \u03b3\u0394t where \u03b3 \u2265 1.",
+    "reasoning": "Relative effect. Both frames see other's clock slow.",
+    "steps": [
+      "\u0394t' = \u03b3\u0394t",
+      "\u03b3 = 1/\u221a(1-v\u00b2/c\u00b2)"
+    ],
+    "generatedAt": "2025-11-10T00:09:13.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_118",
+    "explanation": "Length contraction: moving objects shorter along motion. L = L\u2080/\u03b3.",
+    "reasoning": "Proper length L\u2080 in rest frame. L < L\u2080 when moving.",
+    "steps": [
+      "L = L\u2080/\u03b3",
+      "Along motion direction"
+    ],
+    "generatedAt": "2025-11-10T00:09:14.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_119",
+    "explanation": "Relativistic momentum: p = \u03b3mv. Approaches infinity as v\u2192c.",
+    "reasoning": "p = \u03b3mv. Can't reach c (infinite p, E needed).",
+    "steps": [
+      "p = \u03b3mv",
+      "Prevents v=c"
+    ],
+    "generatedAt": "2025-11-10T00:09:15.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_120",
+    "explanation": "Relativistic energy: E\u00b2 = (pc)\u00b2 + (mc\u00b2)\u00b2. Total energy. E\u2080 = mc\u00b2 (rest).",
+    "reasoning": "E = \u03b3mc\u00b2. KE = (\u03b3-1)mc\u00b2.",
+    "steps": [
+      "E\u00b2 = p\u00b2c\u00b2 + m\u00b2c\u2074",
+      "E = \u03b3mc\u00b2"
+    ],
+    "generatedAt": "2025-11-10T00:09:16.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_121",
+    "explanation": "Gravitational force: F = GMm/r\u00b2. Universal attraction. Inverse square law.",
+    "reasoning": "Newton: all masses attract. G = 6.67\u00d710\u207b\u00b9\u00b9.",
+    "steps": [
+      "F = GMm/r\u00b2",
+      "Always attractive"
+    ],
+    "generatedAt": "2025-11-10T00:09:17.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_122",
+    "explanation": "Gravitational field: g = GM/r\u00b2. Force per unit mass. Points toward mass center.",
+    "reasoning": "g = F/m. Near Earth: g \u2248 9.8 m/s\u00b2.",
+    "steps": [
+      "g = GM/r\u00b2",
+      "g \u2248 10 m/s\u00b2 (Earth)"
+    ],
+    "generatedAt": "2025-11-10T00:09:18.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_123",
+    "explanation": "Gravitational potential energy: U = -GMm/r. Zero at infinity. Negative closer to mass.",
+    "reasoning": "U = -GMm/r. Becomes more negative as r\u2193.",
+    "steps": [
+      "U = -GMm/r",
+      "U(\u221e) = 0"
+    ],
+    "generatedAt": "2025-11-10T00:09:19.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_124",
+    "explanation": "Orbital motion: v = \u221a(GM/r) for circular orbit. Gravity provides centripetal force.",
+    "reasoning": "GMm/r\u00b2 = mv\u00b2/r \u2192 v = \u221a(GM/r).",
+    "steps": [
+      "Circular: v = \u221a(GM/r)",
+      "T\u00b2 \u221d r\u00b3 (Kepler)"
+    ],
+    "generatedAt": "2025-11-10T00:09:20.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_125",
+    "explanation": "Kepler's laws: (1) elliptical orbits, (2) equal areas in equal times, (3) T\u00b2 \u221d a\u00b3.",
+    "reasoning": "Describe planetary motion. Newton derived from gravity.",
+    "steps": [
+      "Ellipses with sun at focus",
+      "T\u00b2 \u221d r\u00b3"
+    ],
+    "generatedAt": "2025-11-10T00:09:21.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_126",
+    "explanation": "Escape velocity: v_esc = \u221a(2GM/r). Minimum speed to escape gravity.",
+    "reasoning": "KE = PE \u2192 \u00bdmv\u00b2 = GMm/r.",
+    "steps": [
+      "v_esc = \u221a(2GM/r)",
+      "Earth: ~11 km/s"
+    ],
+    "generatedAt": "2025-11-10T00:09:22.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_127",
+    "explanation": "Black hole: mass so concentrated escape velocity exceeds c. Event horizon at Schwarzschild radius.",
+    "reasoning": "r_s = 2GM/c\u00b2. Nothing escapes inside r_s.",
+    "steps": [
+      "r_s = 2GM/c\u00b2",
+      "v_esc > c inside"
+    ],
+    "generatedAt": "2025-11-10T00:09:23.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_128",
+    "explanation": "Strong nuclear force: holds nucleus together. Short range (~fm), very strong. Overcomes proton repulsion.",
+    "reasoning": "Binds quarks, nucleons. Range ~10\u207b\u00b9\u2075 m.",
+    "steps": [
+      "Strongest force",
+      "Short range"
+    ],
+    "generatedAt": "2025-11-10T00:09:24.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_129",
+    "explanation": "Weak nuclear force: responsible for beta decay. Short range, weaker than EM.",
+    "reasoning": "Mediates radioactive decay. W/Z bosons.",
+    "steps": [
+      "\u03b2 decay",
+      "Weak interaction"
+    ],
+    "generatedAt": "2025-11-10T00:09:25.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_130",
+    "explanation": "Four fundamental forces: strong, EM, weak, gravity. Govern all interactions.",
+    "reasoning": "Strong > EM > weak > gravity in strength.",
+    "steps": [
+      "4 forces",
+      "Different ranges, strengths"
+    ],
+    "generatedAt": "2025-11-10T00:09:26.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_131",
+    "explanation": "Quarks: fundamental particles. Up, down, etc. Combine to form protons, neutrons.",
+    "reasoning": "6 flavors. Never isolated (confinement).",
+    "steps": [
+      "Proton: uud",
+      "Neutron: udd"
+    ],
+    "generatedAt": "2025-11-10T00:09:27.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_132",
+    "explanation": "Leptons: electron, muon, tau, neutrinos. Don't experience strong force.",
+    "reasoning": "e, \u03bc, \u03c4 and their neutrinos. Fundamental.",
+    "steps": [
+      "6 leptons",
+      "No strong force"
+    ],
+    "generatedAt": "2025-11-10T00:09:28.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_133",
+    "explanation": "Standard model: theory of particles and forces (except gravity). Quarks, leptons, bosons.",
+    "reasoning": "Describes strong, weak, EM. Very successful.",
+    "steps": [
+      "Quarks + leptons",
+      "Force carriers: bosons"
+    ],
+    "generatedAt": "2025-11-10T00:09:29.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_134",
+    "explanation": "Antimatter: particles with opposite charge. e\u207a (positron), antiprotons. Annihilate with matter.",
+    "reasoning": "e\u207a + e\u207b \u2192 2\u03b3. E = 2mc\u00b2.",
+    "steps": [
+      "Opposite charge",
+      "Annihilation \u2192 energy"
+    ],
+    "generatedAt": "2025-11-10T00:09:30.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_135",
+    "explanation": "Conservation laws: energy, momentum, angular momentum, charge. Fundamental principles.",
+    "reasoning": "Isolated systems conserve these quantities.",
+    "steps": [
+      "E, p, L, Q conserved",
+      "Fundamental"
+    ],
+    "generatedAt": "2025-11-10T00:09:31.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_136",
+    "explanation": "Symmetry: leads to conservation laws (Noether's theorem). Time \u2192 energy, space \u2192 momentum.",
+    "reasoning": "Symmetries \u2194 conservation laws.",
+    "steps": [
+      "Time \u2192 E",
+      "Space \u2192 p"
+    ],
+    "generatedAt": "2025-11-10T00:09:32.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_137",
+    "explanation": "Big Bang: universe began ~13.8 billion years ago. Expanding, cooling from hot dense state.",
+    "reasoning": "Evidence: CMB, redshift, abundances.",
+    "steps": [
+      "t=0: singularity",
+      "Expanding since"
+    ],
+    "generatedAt": "2025-11-10T00:09:33.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_138",
+    "explanation": "Hubble's law: v = H\u2080d. Galaxies recede with velocity proportional to distance. Universe expanding.",
+    "reasoning": "Redshift \u221d distance. H\u2080 \u2248 70 km/s/Mpc.",
+    "steps": [
+      "v = H\u2080d",
+      "Expansion observed"
+    ],
+    "generatedAt": "2025-11-10T00:09:34.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_139",
+    "explanation": "Cosmic microwave background (CMB): radiation from Big Bang. T \u2248 2.7 K now. Nearly uniform.",
+    "reasoning": "Remnant from recombination (t ~ 380,000 yr).",
+    "steps": [
+      "T = 2.7 K",
+      "From early universe"
+    ],
+    "generatedAt": "2025-11-10T00:09:35.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_140",
+    "explanation": "Dark matter: unseen matter (~85% of matter). Detected by gravitational effects.",
+    "reasoning": "Explains galaxy rotation, lensing.",
+    "steps": [
+      "~27% of universe",
+      "Unknown composition"
+    ],
+    "generatedAt": "2025-11-10T00:09:36.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_141",
+    "explanation": "Dark energy: mysterious energy causing accelerated expansion. ~68% of universe.",
+    "reasoning": "Cosmological constant? Vacuum energy?",
+    "steps": [
+      "~68% of universe",
+      "Accelerates expansion"
+    ],
+    "generatedAt": "2025-11-10T00:09:37.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_142",
+    "explanation": "Stellar evolution: star formation from gas clouds \u2192 main sequence \u2192 red giant \u2192 white dwarf/neutron star/black hole.",
+    "reasoning": "Mass determines fate. Fusion powers stars.",
+    "steps": [
+      "Cloud \u2192 protostar \u2192 MS",
+      "Death: mass-dependent"
+    ],
+    "generatedAt": "2025-11-10T00:09:38.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_143",
+    "explanation": "Main sequence: stars fusing H\u2192He in core. Sun is main sequence. Most stable phase.",
+    "reasoning": "Hydrostatic equilibrium. Gravity vs pressure.",
+    "steps": [
+      "H \u2192 He fusion",
+      "Stable phase"
+    ],
+    "generatedAt": "2025-11-10T00:09:39.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_144",
+    "explanation": "Supernova: massive star explosion. Creates heavy elements. Can leave neutron star or black hole.",
+    "reasoning": "Core collapse (Type II) or white dwarf explosion (Type Ia).",
+    "steps": [
+      "Massive star death",
+      "Creates heavy elements"
+    ],
+    "generatedAt": "2025-11-10T00:09:40.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_145",
+    "explanation": "Neutron star: collapsed core, extremely dense. Mostly neutrons. Radius ~10 km, mass ~1.4 M_sun.",
+    "reasoning": "Electron degeneracy pressure \u2192 neutrons.",
+    "steps": [
+      "Ultra-dense",
+      "\u03c1 ~ 10\u00b9\u2077 kg/m\u00b3"
+    ],
+    "generatedAt": "2025-11-10T00:09:41.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_146",
+    "explanation": "White dwarf: low-mass star end. Electron degeneracy prevents collapse. Slowly cools.",
+    "reasoning": "No fusion. Supported by degeneracy pressure.",
+    "steps": [
+      "Mass < 1.4 M_sun",
+      "Degeneracy support"
+    ],
+    "generatedAt": "2025-11-10T00:09:42.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_147",
+    "explanation": "HR diagram: plot of stellar luminosity vs temperature. Shows stellar types and evolution.",
+    "reasoning": "Main sequence diagonal. Giants, supergiants, dwarfs.",
+    "steps": [
+      "L vs T plot",
+      "Stellar classification"
+    ],
+    "generatedAt": "2025-11-10T00:09:43.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_148",
+    "explanation": "Electromagnetic waves require no medium. Travel through vacuum at c. Transverse waves.",
+    "reasoning": "Self-propagating E and B fields.",
+    "steps": [
+      "Vacuum propagation",
+      "Speed c"
+    ],
+    "generatedAt": "2025-11-10T00:09:44.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_149",
+    "explanation": "Sound waves require medium. Longitudinal. Speed depends on medium (faster in solids).",
+    "reasoning": "Mechanical vibration. v = \u221a(B/\u03c1).",
+    "steps": [
+      "Needs medium",
+      "Longitudinal"
+    ],
+    "generatedAt": "2025-11-10T00:09:45.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_150",
+    "explanation": "Principle of equivalence: acceleration indistinguishable from gravity. Basis of general relativity.",
+    "reasoning": "Free fall = weightless. Elevator experiment.",
+    "steps": [
+      "a \u2261 g locally",
+      "GR foundation"
+    ],
+    "generatedAt": "2025-11-10T00:09:46.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_151",
+    "explanation": "Spacetime curvature: mass-energy curves 4D spacetime. Objects follow geodesics.",
+    "reasoning": "Gravity is geometry, not force (GR).",
+    "steps": [
+      "Mass curves spacetime",
+      "Geodesics = straight"
+    ],
+    "generatedAt": "2025-11-10T00:09:47.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_152",
+    "explanation": "Gravitational waves: ripples in spacetime. Produced by accelerating masses. Detected 2015.",
+    "reasoning": "GW from binary black holes, neutron stars.",
+    "steps": [
+      "Spacetime ripples",
+      "LIGO detected"
+    ],
+    "generatedAt": "2025-11-10T00:09:48.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_153",
+    "explanation": "Doppler radar: uses Doppler shift to measure velocity. Weather radar, speed guns.",
+    "reasoning": "Reflected wave frequency shifted by target velocity.",
+    "steps": [
+      "\u0394f \u221d v",
+      "Measures motion"
+    ],
+    "generatedAt": "2025-11-10T00:09:49.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_154",
+    "explanation": "Interference: wave superposition. Constructive (amplitudes add) or destructive (cancel).",
+    "reasoning": "Phase difference determines type.",
+    "steps": [
+      "In phase: constructive",
+      "Out of phase: destructive"
+    ],
+    "generatedAt": "2025-11-10T00:09:50.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_155",
+    "explanation": "Polarization filters: transmit only one polarization direction. Can block unpolarized light.",
+    "reasoning": "Malus: I = I\u2080cos\u00b2\u03b8 for polarized light.",
+    "steps": [
+      "Filters one direction",
+      "I = I\u2080cos\u00b2\u03b8"
+    ],
+    "generatedAt": "2025-11-10T00:09:51.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_156",
+    "explanation": "Brewster's angle: reflected light fully polarized. tan(\u03b8_B) = n\u2082/n\u2081.",
+    "reasoning": "Reflected and refracted rays perpendicular at \u03b8_B.",
+    "steps": [
+      "\u03b8_B: polarization angle",
+      "tan(\u03b8_B) = n\u2082/n\u2081"
+    ],
+    "generatedAt": "2025-11-10T00:09:52.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_157",
+    "explanation": "Rainbow: dispersion and internal reflection in water droplets. Red on outside, violet inside.",
+    "reasoning": "n varies with \u03bb. Double reflection \u2192 secondary bow.",
+    "steps": [
+      "Dispersion + reflection",
+      "42\u00b0 (primary)"
+    ],
+    "generatedAt": "2025-11-10T00:09:53.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_158",
+    "explanation": "Lenses aberrations: chromatic (\u03bb-dependent focus) and spherical (geometry). Limit image quality.",
+    "reasoning": "Imperfect focusing. Corrected with compound lenses.",
+    "steps": [
+      "Chromatic: dispersion",
+      "Spherical: geometry"
+    ],
+    "generatedAt": "2025-11-10T00:09:54.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_159",
+    "explanation": "Optical instruments: microscope (magnifies small), telescope (magnifies distant). Use lens combinations.",
+    "reasoning": "Compound lenses increase magnification.",
+    "steps": [
+      "Microscope: close objects",
+      "Telescope: distant"
+    ],
+    "generatedAt": "2025-11-10T00:09:55.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_160",
+    "explanation": "Resolution limit: minimum separable distance. Rayleigh: \u03b8_min = 1.22\u03bb/D for circular aperture.",
+    "reasoning": "Diffraction limits resolution. Larger D \u2192 better.",
+    "steps": [
+      "\u03b8_min = 1.22\u03bb/D",
+      "Diffraction-limited"
+    ],
+    "generatedAt": "2025-11-10T00:09:56.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_161",
+    "explanation": "Human eye: lens focuses on retina. Rods (dim light) and cones (color). Near point ~25 cm.",
+    "reasoning": "Accommodation: lens changes shape. Focus range limited.",
+    "steps": [
+      "Lens + retina",
+      "Near: ~25 cm"
+    ],
+    "generatedAt": "2025-11-10T00:09:57.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_162",
+    "explanation": "Laser: coherent, monochromatic light. Stimulated emission. Applications: cutting, communication, medicine.",
+    "reasoning": "Light Amplification by Stimulated Emission of Radiation.",
+    "steps": [
+      "Coherent light",
+      "Stimulated emission"
+    ],
+    "generatedAt": "2025-11-10T00:09:58.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_163",
+    "explanation": "Fiber optics: light guided by total internal reflection. Low loss communication. Medical endoscopes.",
+    "reasoning": "n_core > n_cladding \u2192 TIR. Light confined.",
+    "steps": [
+      "TIR in fiber",
+      "Low loss"
+    ],
+    "generatedAt": "2025-11-10T00:09:59.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_164",
+    "explanation": "Holography: 3D image recording via interference. Laser illumination reconstructs wavefront.",
+    "reasoning": "Records amplitude and phase. Interference pattern.",
+    "steps": [
+      "3D image",
+      "Interference recording"
+    ],
+    "generatedAt": "2025-11-10T00:10:00.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_165",
+    "explanation": "X-rays: high energy EM radiation. Penetrate soft tissue, absorbed by bone. Medical imaging.",
+    "reasoning": "\u03bb ~ 0.01-10 nm. High energy (keV).",
+    "steps": [
+      "Short \u03bb",
+      "Penetrating radiation"
+    ],
+    "generatedAt": "2025-11-10T00:10:01.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_166",
+    "explanation": "MRI: magnetic resonance imaging. Uses nuclear magnetic resonance. No ionizing radiation.",
+    "reasoning": "H nuclei in magnetic field. RF excitation.",
+    "steps": [
+      "NMR-based",
+      "No radiation"
+    ],
+    "generatedAt": "2025-11-10T00:10:02.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_167",
+    "explanation": "Ultrasound: high-frequency sound waves. Medical imaging, prenatal scans. Safe, non-invasive.",
+    "reasoning": "Reflection at tissue boundaries. MHz frequencies.",
+    "steps": [
+      "Sound imaging",
+      "Safe for fetus"
+    ],
+    "generatedAt": "2025-11-10T00:10:03.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_168",
+    "explanation": "PET scan: positron emission tomography. Detects gamma rays from positron-electron annihilation.",
+    "reasoning": "Radioactive tracer. Shows metabolic activity.",
+    "steps": [
+      "e\u207a-e\u207b \u2192 2\u03b3",
+      "Functional imaging"
+    ],
+    "generatedAt": "2025-11-10T00:10:04.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_169",
+    "explanation": "CT scan: computed tomography. X-ray images from multiple angles. 3D reconstruction.",
+    "reasoning": "Multiple 2D X-rays \u2192 3D image.",
+    "steps": [
+      "X-ray based",
+      "3D reconstruction"
+    ],
+    "generatedAt": "2025-11-10T00:10:05.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_170",
+    "explanation": "Radiation therapy: uses ionizing radiation to kill cancer cells. Targeted to tumor.",
+    "reasoning": "High energy damages DNA. Kills rapidly dividing cells.",
+    "steps": [
+      "Ionizing radiation",
+      "Targets tumor"
+    ],
+    "generatedAt": "2025-11-10T00:10:06.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_171",
+    "explanation": "Semiconductor: conductivity between conductor and insulator. Silicon, germanium. Basis of electronics.",
+    "reasoning": "Band gap ~1 eV. Doping controls conductivity.",
+    "steps": [
+      "Si, Ge",
+      "Band gap ~1 eV"
+    ],
+    "generatedAt": "2025-11-10T00:10:07.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_172",
+    "explanation": "Transistor: semiconductor device. Amplifies or switches signals. Basis of digital electronics.",
+    "reasoning": "Controlled by gate voltage. BJT or FET.",
+    "steps": [
+      "Amplifier/switch",
+      "Digital logic"
+    ],
+    "generatedAt": "2025-11-10T00:10:08.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_173",
+    "explanation": "Diode: allows current one direction. p-n junction. Used for rectification.",
+    "reasoning": "Forward bias: conducts. Reverse: blocks.",
+    "steps": [
+      "One-way current",
+      "Rectification"
+    ],
+    "generatedAt": "2025-11-10T00:10:09.000Z"
   }
 ]
