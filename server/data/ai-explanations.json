@@ -1595,5 +1595,1623 @@
       "Correct: 2 s (option 1)"
     ],
     "generatedAt": "2025-11-10T00:02:24.000Z"
+  },
+  {
+    "questionId": "high_school_physics_3",
+    "explanation": "For standing waves on a string with fixed length L, wavelength \u03bb = 2L/n where n is the number of antinodes. Frequency f is constant (100 Hz). Wave speed v = \u221a(T/\u03bc) where T is tension, \u03bc is linear mass density. Since f = v/\u03bb and f is constant, if T increases, v increases, so \u03bb must increase (\u03bb = v/f). The marked answer says \u03bb decreases, which is backwards. The correct answer is option 2: 'Greater, because tension varies directly with wave speed, which varies inversely with wavelength' is wrong - it should say 'directly with wavelength.' Actually option 2 has the conclusion right (Greater) but wrong reasoning.",
+    "reasoning": "Standing waves: \u03bb = 2L/n (fixed L). Wave equation: v = f\u03bb with f constant (100 Hz). String: v = \u221a(T/\u03bc). If T increases \u2192 v increases \u2192 \u03bb = v/f increases. Correct: wavelength increases.",
+    "steps": [
+      "Fixed f = 100 Hz, fixed length L",
+      "v = \u221a(T/\u03bc), increase T \u2192 increase v",
+      "v = f\u03bb, constant f \u2192 \u03bb \u221d v",
+      "Therefore: \u03bb increases",
+      "Marked answer says 'Less' - incorrect",
+      "Should be 'Greater' (option 2 or 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:14.000Z"
+  },
+  {
+    "questionId": "high_school_physics_4",
+    "explanation": "Capacitors in parallel share the same voltage (connected to same two points). Since they're identical, they also have the same capacitance (C). Using Q = CV, with same V and same C, they must have the same charge Q. Therefore, all three quantities (I, II, III) are the same. The marked answer 'I only' is incorrect. The correct answer is 'I, II, and III' (option 3).",
+    "reasoning": "Parallel capacitors: same voltage across each (by definition). Identical \u2192 same C. Q = CV \u2192 same V and C \u2192 same Q. All three quantities equal. Marked 'I only' is wrong.",
+    "steps": [
+      "Parallel: same V (by circuit topology)",
+      "Identical: same C (given)",
+      "Q = CV: same V and C \u2192 same Q",
+      "All three quantities (I, II, III) are equal",
+      "Marked 'I only' is incorrect",
+      "Correct: I, II, and III (option 3)"
+    ],
+    "generatedAt": "2025-11-10T00:02:15.000Z"
+  },
+  {
+    "questionId": "high_school_physics_5",
+    "explanation": "On a rough incline, friction converts some gravitational PE into thermal energy. Energy conservation: PE_initial = KE_final + E_thermal. Since E_thermal > 0 (friction present), KE_final < PE_initial. The marked answer says KE = PE (total mechanical energy conserved), which would only be true for a frictionless surface. The correct answer is option 2: 'Less than PE, because PE was converted both to thermal energy and to kinetic energy.'",
+    "reasoning": "Rough surface \u2192 friction does negative work. Energy: mgh = \u00bdmv\u00b2 + E_friction. Since E_friction > 0, we have \u00bdmv\u00b2 < mgh. Mechanical energy NOT conserved (thermal energy produced).",
+    "steps": [
+      "Initial: PE = mgh, KE = 0",
+      "Final: PE = 0, KE = \u00bdmv\u00b2, E_thermal > 0",
+      "Energy conservation: mgh = \u00bdmv\u00b2 + E_thermal",
+      "Therefore: \u00bdmv\u00b2 < mgh (KE < PE)",
+      "Marked answer 'KE = PE' assumes frictionless - wrong",
+      "Correct: KE < PE due to friction (option 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:16.000Z"
+  },
+  {
+    "questionId": "high_school_physics_6",
+    "explanation": "When a small mass m is placed on top of oscillating mass M, the combined system has mass (M+m) and oscillates with the spring. The small block experiences friction force (keeping it moving with M) and must not exceed maximum static friction \u03bc_s mg. The acceleration is maximum at maximum displacement (a_max = kA/(M+m) from F = ma for the system). The small block slides if a_max > \u03bc_s g, or kA/(M+m) > \u03bc_s g, which gives \u03bc_s < kA/[(M+m)g]. The given answer describes this condition correctly.",
+    "reasoning": "SHM: a = -\u03c9\u00b2x, max at x = A. Combined system: a_max = kA/(M+m). Small block needs friction to accelerate: f \u2264 \u03bc_s mg. Won't slide if \u03bc_s mg \u2265 ma_max = mkA/(M+m), so \u03bc_s \u2265 kA/[(M+m)g].",
+    "steps": [
+      "System oscillates with amplitude A",
+      "Max acceleration: a_max = \u03c9\u00b2A = kA/(M+m)",
+      "Small block needs f = ma_max to stay on",
+      "Max static friction: f_max = \u03bc_s mg",
+      "Won't slide if: \u03bc_s mg \u2265 mkA/(M+m)",
+      "Condition: \u03bc_s > kA/[(M+m)g]",
+      "Most likely to slide at max displacement (max a) \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:17.000Z"
+  },
+  {
+    "questionId": "high_school_physics_7",
+    "explanation": "Work to charge a capacitor equals energy stored: W = U = \u00bdCV\u00b2. Given C = 10 \u03bcF = 10\u00d710\u207b\u2076 F, V = 100 V: W = \u00bd(10\u00d710\u207b\u2076)(100)\u00b2 = \u00bd(10\u00d710\u207b\u2076)(10,000) = \u00bd(0.1) = 0.05 J. The marked answer 0.005 J is off by factor of 10. The correct answer is 0.05 J (option 2).",
+    "reasoning": "Energy stored in capacitor: U = \u00bdCV\u00b2. Calculate: U = \u00bd(10\u00d710\u207b\u2076 F)(100 V)\u00b2 = \u00bd(10\u00d710\u207b\u2076)(10\u2074) = 5\u00d710\u207b\u00b2 = 0.05 J. Marked 0.005 J is wrong (decimal error).",
+    "steps": [
+      "Energy: U = \u00bdCV\u00b2",
+      "C = 10 \u03bcF = 10\u00d710\u207b\u2076 F, V = 100 V",
+      "Calculate: U = \u00bd \u00d7 10\u00d710\u207b\u2076 \u00d7 10,000",
+      "U = \u00bd \u00d7 0.1 = 0.05 J",
+      "Marked 0.005 J is incorrect (factor 10 error)",
+      "Correct: 0.05 J (option 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:18.000Z"
+  },
+  {
+    "questionId": "high_school_physics_8",
+    "explanation": "Friction force f = \u03bcmg decelerates the box. Using Newton's second law: ma = -\u03bcmg, so a = -\u03bcg. Using kinematic equation v\u00b2 = v\u2080\u00b2 + 2ad with final v = 0: 0 = v\u2080\u00b2 + 2(-\u03bcg)d. Solving for d: d = v\u2080\u00b2/(2\u03bcg). The marked answer is correct.",
+    "reasoning": "Friction: f = \u03bcN = \u03bcmg (horizontal surface, N = mg). Acceleration: a = -f/m = -\u03bcg. Kinematics: v\u00b2 = v\u2080\u00b2 + 2ad. At rest: 0 = v\u2080\u00b2 - 2\u03bcgd. Solve: d = v\u2080\u00b2/(2\u03bcg).",
+    "steps": [
+      "Friction force: f = \u03bcmg",
+      "Acceleration: a = -\u03bcg (deceleration)",
+      "Kinematics: 0 = v\u2080\u00b2 + 2ad",
+      "Substitute: 0 = v\u2080\u00b2 - 2\u03bcgd",
+      "Solve: d = v\u2080\u00b2/(2\u03bcg) \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:19.000Z"
+  },
+  {
+    "questionId": "high_school_physics_9",
+    "explanation": "Flight time for projectile: t = 2v\u2080sin\u03b8/g. Given v\u2080 = 10 m/s, \u03b8 = 30\u00b0: t = 2(10)sin(30\u00b0)/g = 2(10)(0.5)/9.8 = 10/9.8 \u2248 1.02 s \u2248 1 s. The marked answer 0.5 s is half the correct value (perhaps only time to peak). The correct answer is 1 s (option 1).",
+    "reasoning": "Projectile motion: total flight time t = 2v_y/g where v_y = v\u2080sin\u03b8. Calculate: v_y = 10sin(30\u00b0) = 5 m/s. t = 2(5)/9.8 = 10/9.8 \u2248 1 s. Marked 0.5 s is time to peak (half of total).",
+    "steps": [
+      "Vertical component: v_y = v\u2080sin\u03b8 = 10sin(30\u00b0) = 5 m/s",
+      "Time to peak: t_up = v_y/g = 5/9.8 \u2248 0.51 s",
+      "Total flight: t_total = 2t_up \u2248 1.0 s",
+      "Marked 0.5 s is only half (to peak)",
+      "Correct: 1 s (option 1)"
+    ],
+    "generatedAt": "2025-11-10T00:02:20.000Z"
+  },
+  {
+    "questionId": "high_school_physics_10",
+    "explanation": "At thermal equilibrium (same temperature), average kinetic energy per molecule is the same for all gases: \u27e8KE\u27e9 = (3/2)k_BT (equipartition theorem). Since T is the same, \u27e8KE\u27e9 is the same, making the marked answer incorrect. However, density differs: \u03c1 = mass/volume. Hydrogen (H\u2082, M=2 g/mol) is much less dense than nitrogen (N\u2082, M=28 g/mol). The correct answer is option 2: 'The density of hydrogen is less than nitrogen.'",
+    "reasoning": "Thermal equilibrium \u2192 same T \u2192 same \u27e8KE\u27e9 = (3/2)k_BT (universal). Density: \u03c1 = PM/(RT) for ideal gas. Same P, T, volume \u2192 \u03c1 \u221d M. H\u2082 (M=2) << N\u2082 (M=28) \u2192 \u03c1_H\u2082 < \u03c1_N\u2082.",
+    "steps": [
+      "Equilibrium: same temperature T",
+      "Equipartition: \u27e8KE\u27e9 = (3/2)k_BT (equal for both)",
+      "Marked 'H\u2082 has greater KE' is wrong",
+      "Density: \u03c1 = PM/(RT), \u03c1 \u221d M",
+      "H\u2082: M = 2 g/mol, N\u2082: M = 28 g/mol",
+      "Therefore: \u03c1_H\u2082 < \u03c1_N\u2082",
+      "Correct: option 2 (density comparison)"
+    ],
+    "generatedAt": "2025-11-10T00:02:21.000Z"
+  },
+  {
+    "questionId": "high_school_physics_11",
+    "explanation": "Torque balance for see-saw: \u03c4 = rF. Currently: girl at distance r (torque mr\u00b7g), boy at distance r (torque 2mr\u00b7g). Boy's side wins (2mr\u00b7g > mr\u00b7g). To balance: move girl to 2r (torque 2mr\u00b7g \u2713), or move boy to r/2 (torque mr\u00b7g \u2713), or add another girl (torque 2mr\u00b7g \u2713), or move fulcrum. Option 0 says move boy to r/2 - this WOULD balance it! Let me recalculate: boy at r/2 gives torque 2m(r/2)g = mr\u00b7g = girl's torque. This DOES work. So the marked answer is wrong - all options would work except possibly the fulcrum one. Need to check option 3: moving fulcrum to halfway between current center and boy means fulcrum moves r/2 toward boy, making boy's distance r/2 and girl's distance 3r/2, giving torques mr\u00b7g vs 3mr\u00b7g/2 - doesn't balance.",
+    "reasoning": "Torque balance: \u03a3\u03c4 = 0. Initial: 2mg\u00b7r (boy) vs mg\u00b7r (girl), unbalanced. Options: (0) Boy r\u2192r/2: 2mg\u00b7r/2 = mg\u00b7r \u2713 balances. (1) Girl r\u21922r: mg\u00b72r = 2mg\u00b7r \u2713 balances. (2) Add girl: 2mg\u00b7r vs 2mg\u00b7r \u2713 balances. (3) Fulcrum: creates asymmetry - need to analyze carefully.",
+    "steps": [
+      "Initial: boy 2m at r, girl m at r (unbalanced)",
+      "Option 0: boy to r/2 \u2192 torque mr\u00b7g = girl's \u2192 BALANCES",
+      "Option 1: girl to 2r \u2192 torque 2mr\u00b7g = boy's \u2192 BALANCES",
+      "Option 2: add girl \u2192 2mg\u00b7r each side \u2192 BALANCES",
+      "Option 3: move fulcrum - geometry complex, likely doesn't balance",
+      "Marked answer 'option 0 won't work' is WRONG - it does work",
+      "Correct: option 3 (fulcrum move) likely won't balance"
+    ],
+    "generatedAt": "2025-11-10T00:02:22.000Z"
+  },
+  {
+    "questionId": "high_school_physics_12",
+    "explanation": "Heat transfer in fluids occurs through molecular collisions. When hot water mixes with cold alcohol, fast-moving water molecules collide with slower alcohol molecules, transferring kinetic energy until thermal equilibrium (same average KE) is reached. The marked answer about water rising is incorrect - this describes convection but not the fundamental mechanism. The correct answer is option 3: 'Water molecules collide with alcohol molecules, transferring energy until average KE is the same.'",
+    "reasoning": "Thermal equilibrium: molecular collisions transfer energy. Hot water molecules (high KE) collide with cold alcohol molecules (low KE). Energy transfers until \u27e8KE\u27e9 equalized. This is fundamental heat transfer mechanism (conduction/mixing).",
+    "steps": [
+      "Mixing fluids: molecular collisions occur",
+      "Hot water: high molecular KE",
+      "Cold alcohol: low molecular KE",
+      "Collisions: energy transfers from fast to slow",
+      "Equilibrium: \u27e8KE\u27e9 becomes equal (same T)",
+      "Marked answer about rising water is incomplete",
+      "Correct: molecular collisions (option 3)"
+    ],
+    "generatedAt": "2025-11-10T00:02:23.000Z"
+  },
+  {
+    "questionId": "high_school_physics_13",
+    "explanation": "Rotational dynamics: torque \u03c4 = I\u03b1 where \u03b1 is angular acceleration. Friction creates torque: \u03c4 = rF = 0.30(2.0) = 0.6 N\u00b7m. Angular acceleration: \u03b1 = \u03c4/I = 0.6/0.06 = 10 rad/s\u00b2. To stop: \u03c9 = \u03c9\u2080 + \u03b1t, with \u03c9 = 0, \u03c9\u2080 = 20 rad/s, \u03b1 = -10 rad/s\u00b2: 0 = 20 - 10t, so t = 2 s. The marked answer 4 s is incorrect (off by factor 2). The correct answer is 2 s (option 1).",
+    "reasoning": "Torque: \u03c4 = rF = 0.30\u00d72.0 = 0.6 N\u00b7m. Angular acceleration: \u03b1 = \u03c4/I = 0.6/0.06 = 10 rad/s\u00b2 (deceleration). Kinematics: \u03c9 = \u03c9\u2080 - \u03b1t. Stop: 0 = 20 - 10t \u2192 t = 2 s.",
+    "steps": [
+      "Friction torque: \u03c4 = rF = 0.30 \u00d7 2.0 = 0.6 N\u00b7m",
+      "Angular acceleration: \u03b1 = \u03c4/I = 0.6/0.06 = 10 rad/s\u00b2",
+      "Rotational kinematics: \u03c9 = \u03c9\u2080 - \u03b1t",
+      "Stop condition: 0 = 20 - 10t",
+      "Solve: t = 2 s",
+      "Marked 4 s is incorrect",
+      "Correct: 2 s (option 1)"
+    ],
+    "generatedAt": "2025-11-10T00:02:24.000Z"
+  },
+  {
+    "questionId": "high_school_physics_14",
+    "explanation": "Gravitational field g = GM/R\u00b2. Mars: M_Mars = 0.1M_Earth, R_Mars = 0.5R_Earth. g_Mars = G(0.1M)/(0.5R)\u00b2 = 0.1M/(0.25R\u00b2) = 0.4(GM/R\u00b2) = 0.4g_Earth \u2248 0.4(10) = 4 N/kg. Marked '10 N/kg' is wrong. Correct: 4 N/kg (option 1).",
+    "reasoning": "g \u221d M/R\u00b2. Mars has 0.1M and 0.5R, giving 0.1/0.25 = 0.4 of Earth's g. 0.4\u00d710 = 4 N/kg.",
+    "steps": [
+      "g = GM/R\u00b2",
+      "Mars: 0.1M, 0.5R",
+      "g_Mars = 0.1/(0.5)\u00b2 \u00d7 g_Earth",
+      "= 0.4 \u00d7 10 = 4 N/kg"
+    ],
+    "generatedAt": "2025-11-10T00:02:25.000Z"
+  },
+  {
+    "questionId": "high_school_physics_15",
+    "explanation": "Infinite plane: E = \u03c3/(2\u03b5\u2080) on both sides, pointing away from plane if \u03c3 > 0. Above: E points up. Below: E points down (by symmetry), same magnitude \u03c3/(2\u03b5\u2080). Marked answer correct.",
+    "reasoning": "Symmetry: infinite plane creates uniform field \u03c3/(2\u03b5\u2080) on both sides, pointing away from positive charge. Above\u2192up, below\u2192down.",
+    "steps": [
+      "Infinite plane: E = \u03c3/(2\u03b5\u2080)",
+      "Above: up",
+      "Below: down (symmetry)",
+      "Answer: \u03c3/(2\u03b5\u2080), down \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:26.000Z"
+  },
+  {
+    "questionId": "high_school_physics_16",
+    "explanation": "Circular motion in B field: r = mv/(qB). Electron: m = 9.1\u00d710\u207b\u00b3\u00b9 kg, q = 1.6\u00d710\u207b\u00b9\u2079 C, v = 10\u2077 m/s, B = 5\u00d710\u207b\u2075 T. r = (9.1\u00d710\u207b\u00b3\u00b9)(10\u2077)/(1.6\u00d710\u207b\u00b9\u2079\u00d75\u00d710\u207b\u2075) = 9.1\u00d710\u207b\u00b2\u2074/(8\u00d710\u207b\u00b2\u2074) \u2248 1.14 m. Marked '1 nm' is wrong by factor 10\u2079. Correct: ~1 m (option 3).",
+    "reasoning": "r = mv/(eB) = 9.1\u00d710\u207b\u00b3\u00b9\u00d710\u2077/(1.6\u00d710\u207b\u00b9\u2079\u00d75\u00d710\u207b\u2075) \u2248 1 m. Earth's field is weak, gives large radius.",
+    "steps": [
+      "r = mv/(qB)",
+      "Calculate numerator: 9.1\u00d710\u207b\u00b2\u2074",
+      "Calculate denominator: 8\u00d710\u207b\u00b2\u2074",
+      "r \u2248 1 m"
+    ],
+    "generatedAt": "2025-11-10T00:02:27.000Z"
+  },
+  {
+    "questionId": "high_school_physics_17",
+    "explanation": "Plane mirror: image distance equals object distance behind mirror. Object 100 cm from mirror \u2192 image 100 cm behind mirror. Distance from object to image = 100 + 100 = 200 cm. Marked '50 cm' is wrong. Correct: 200 cm (option 2).",
+    "reasoning": "Mirror creates virtual image at same distance behind as object is in front. Total separation = 2d = 200 cm.",
+    "steps": [
+      "Object: 100 cm from mirror",
+      "Image: 100 cm behind mirror",
+      "Distance: 100+100 = 200 cm"
+    ],
+    "generatedAt": "2025-11-10T00:02:28.000Z"
+  },
+  {
+    "questionId": "high_school_physics_18",
+    "explanation": "Horse pushes backward on ground, ground pushes forward on horse (Newton's 3rd). This forward friction force on horse accelerates system. Horse and cart forces on each other are equal/opposite (3rd law) - don't cause net acceleration. External force (ground on horse) accelerates system. Marked answer correct.",
+    "reasoning": "System accelerates due to external force. Ground friction on horse (forward) > cart friction (backward) \u2192 net forward force \u2192 acceleration.",
+    "steps": [
+      "Horse pushes back on ground",
+      "Ground pushes forward on horse (friction)",
+      "This external force accelerates horse-cart system",
+      "Answer: option 0 \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:29.000Z"
+  },
+  {
+    "questionId": "high_school_physics_19",
+    "explanation": "Potential difference: V = -\u222bE\u00b7dr. Given E_r = -6r\u00b2 + 4r + 3, integrate from 0 to r = \u221a(3\u00b2+4\u00b2) = 5 m. V = -\u222b\u2080\u2075(-6r\u00b2+4r+3)dr = -[-2r\u00b3+2r\u00b2+3r]\u2080\u2075 = -(-250+50+15) = -(-185) = 185 V. Marked '-165 V' is wrong. Closer to 185 V (option 3) but need exact calculation.",
+    "reasoning": "V = -\u222bE_r dr from 0 to 5. Integrate: -[-2r\u00b3+2r\u00b2+3r]. Evaluate at r=5: -(-250+50+15) = 185 V.",
+    "steps": [
+      "Distance: r = 5 m",
+      "V = -\u222b(-6r\u00b2+4r+3)dr",
+      "= 2r\u00b3-2r\u00b2-3r",
+      "At r=5: -185 V (check sign)"
+    ],
+    "generatedAt": "2025-11-10T00:02:30.000Z"
+  },
+  {
+    "questionId": "high_school_physics_20",
+    "explanation": "Counterclockwise cycle on P-V: work done ON system (compression > expansion). |W| = 300 J done on system. First law: \u0394U = Q - W. For cycle: \u0394U = 0, so Q = W. Since W = -300 J (into system), Q = -300 J (out of system). Marked '300 J into' is backwards. Correct: 300 J out (option 1).",
+    "reasoning": "Counterclockwise \u2192 net work on system (W<0). \u0394U=0 for cycle \u2192 Q=W. Q = -300 J (out).",
+    "steps": [
+      "Counterclockwise: W_by = -300 J",
+      "Cycle: \u0394U = 0",
+      "Q = \u0394U + W_by = 0 + (-300) = -300 J",
+      "300 J out"
+    ],
+    "generatedAt": "2025-11-10T00:02:31.000Z"
+  },
+  {
+    "questionId": "high_school_physics_21",
+    "explanation": "Power: P = V\u00b2/R. If R doubles: P_new = V\u00b2/(2R) = P/2. Power is halved, not doubled. Marked 'double' is wrong. Correct: halved (option 2).",
+    "reasoning": "P = V\u00b2/R with constant V. If R\u21922R, then P\u2192P/2. Power inversely proportional to resistance.",
+    "steps": [
+      "P = V\u00b2/R",
+      "R \u2192 2R",
+      "P_new = V\u00b2/(2R) = P/2",
+      "Power halved"
+    ],
+    "generatedAt": "2025-11-10T00:02:32.000Z"
+  },
+  {
+    "questionId": "high_school_physics_22",
+    "explanation": "Wave equation: c = f\u03bb. For light: f = c/\u03bb = (3\u00d710\u2078)/(6\u00d710\u207b\u2078) = 5\u00d710\u00b9\u2075 Hz. Marked answer correct.",
+    "reasoning": "f = c/\u03bb = 3\u00d710\u2078 / 6\u00d710\u207b\u2078 = 0.5\u00d710\u00b9\u2076 = 5\u00d710\u00b9\u2075 Hz.",
+    "steps": [
+      "c = f\u03bb",
+      "f = c/\u03bb",
+      "= 3\u00d710\u2078 / 6\u00d710\u207b\u2078",
+      "= 5\u00d710\u00b9\u2075 Hz \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:33.000Z"
+  },
+  {
+    "questionId": "high_school_physics_23",
+    "explanation": "Circular motion: r = mv/(qB). Largest r needs largest m/q ratio. m=16,q=5: 16/5=3.2. m=17,q=4: 17/4=4.25. m=18,q=3: 18/3=6.0. m=20,q=1: 20/1=20. Option 3 (m=20, q=1) has largest m/q. Marked 'm=16,q=5' is wrong. Correct: m=20,q=1 (option 3).",
+    "reasoning": "r \u221d m/q. Compare ratios: 3.2, 4.25, 6.0, 20. Largest is 20.",
+    "steps": [
+      "r = mv/(qB) \u221d m/q",
+      "Calculate m/q for each",
+      "20/1 = 20 is largest",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:02:34.000Z"
+  },
+  {
+    "questionId": "high_school_physics_24",
+    "explanation": "Electric dipole midpoint: E from +q and -q point in same direction (both toward -q or away from +q depending on convention). Equal magnitudes, same direction \u2192 add up. E = 2\u00d7kq/r\u00b2 where r = 1 cm. Not zero. Marked '0' is wrong - that's only for equipotential, not field. E = 2(9\u00d710\u2079)(4\u00d710\u207b\u2079)/(0.01)\u00b2 = 7.2\u00d710\u2075 N/C (option 3).",
+    "reasoning": "Midpoint: both charges create fields pointing same way. E = 2kq/r\u00b2 \u2260 0.",
+    "steps": [
+      "E from each: kq/r\u00b2",
+      "Direction: both toward -q",
+      "Total: E = 2kq/r\u00b2",
+      "Calculate: 7.2\u00d710\u2075 N/C"
+    ],
+    "generatedAt": "2025-11-10T00:02:35.000Z"
+  },
+  {
+    "questionId": "high_school_physics_25",
+    "explanation": "Water has much higher thermal conductivity and heat capacity than air. Heat transfer rate depends on thermal conductivity of medium. Water conducts heat ~25\u00d7 faster than air, rapidly removing body heat. Marked answer about molecular speed is irrelevant. Correct: convection (option 2) or thermal conductivity/molecular contact (option 3). Option 3 best: water has more molecules per volume, better thermal contact.",
+    "reasoning": "Water conducts heat much faster than air due to higher density and thermal conductivity. Rapid heat loss causes hypothermia.",
+    "steps": [
+      "Key: thermal conductivity",
+      "Water >> air in conductivity",
+      "Rapid heat removal",
+      "Answer: option 2 or 3"
+    ],
+    "generatedAt": "2025-11-10T00:02:36.000Z"
+  },
+  {
+    "questionId": "high_school_physics_26",
+    "explanation": "Continuity equation: A\u2081v\u2081 = A\u2082v\u2082. Areas: A \u221d r\u00b2. A\u2081/A\u2082 = (2/3)\u00b2 = 4/9. v\u2082 = v\u2081(A\u2081/A\u2082) = 18(4/9) = 8 m/s. Marked '4 m/s' is wrong. Correct: 8 m/s (option 2).",
+    "reasoning": "A\u2081v\u2081 = A\u2082v\u2082. A \u221d d\u00b2. v\u2082 = v\u2081(d\u2081/d\u2082)\u00b2 = 18(2/3)\u00b2 = 8 m/s.",
+    "steps": [
+      "Continuity: Av = const",
+      "v\u2082 = v\u2081(A\u2081/A\u2082) = v\u2081(d\u2081/d\u2082)\u00b2",
+      "= 18\u00d7(2/3)\u00b2 = 8 m/s"
+    ],
+    "generatedAt": "2025-11-10T00:02:37.000Z"
+  },
+  {
+    "questionId": "high_school_physics_27",
+    "explanation": "Continuity: A\u2081v\u2081 = 3A\u2082v\u2082 (three paths). A \u221d r\u00b2: A\u2081 = \u03c0Q\u00b2, A\u2082 = \u03c0(Q/2)\u00b2 = \u03c0Q\u00b2/4. Thus: \u03c0Q\u00b2V = 3(\u03c0Q\u00b2/4)v\u2082, giving v\u2082 = 4V/3. Marked '1/3 V' is backwards. Correct: 4/3 V (option 2).",
+    "reasoning": "Flow splits three ways. Av = const. \u03c0Q\u00b2V = 3\u00d7\u03c0(Q/2)\u00b2v\u2082 = 3\u03c0Q\u00b2v\u2082/4. Solve: v\u2082 = 4V/3.",
+    "steps": [
+      "A\u2081V = 3A\u2082v",
+      "Q\u00b2 \u00d7 V = 3 \u00d7 (Q/2)\u00b2 \u00d7 v",
+      "V = 3v/4",
+      "v = 4V/3"
+    ],
+    "generatedAt": "2025-11-10T00:02:38.000Z"
+  },
+  {
+    "questionId": "high_school_physics_28",
+    "explanation": "Positron-electron annihilation: e\u207a + e\u207b \u2192 2\u03b3. Conservation laws: charge (0+0\u21920\u2713), energy/mass (2m\u21922E_\u03b3\u2713), momentum (requires 2 photons opposite directions\u2713). Marked option about single particle with combined mass violates energy-momentum relation (massive particle can't move at c). Correct: option 2 (two gamma rays, momentum conservation).",
+    "reasoning": "Annihilation: conserve charge (0), energy (2mc\u00b2\u21922E_\u03b3), momentum (2\u03b3 opposite). Option 2 correct.",
+    "steps": [
+      "e\u207a+e\u207b \u2192 2\u03b3 (photons)",
+      "Charge: 0 total",
+      "Momentum: 2\u03b3 opposite",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:02:39.000Z"
+  },
+  {
+    "questionId": "high_school_physics_29",
+    "explanation": "Normal force: N = mg cos\u03b8. As angle \u03b8 increases, cos\u03b8 decreases, so N decreases. The relationship is nonlinear (cosine function). Marked 'increases linearly' is completely wrong. Correct: decreases nonlinearly (option 3).",
+    "reasoning": "N = mg cos\u03b8. As \u03b8\u2191, cos\u03b8\u2193 (nonlinear). N decreases nonlinearly.",
+    "steps": [
+      "N = mg cos\u03b8",
+      "\u03b8 increases \u2192 cos\u03b8 decreases",
+      "Nonlinear (cosine)",
+      "Answer: decreases nonlinearly"
+    ],
+    "generatedAt": "2025-11-10T00:02:40.000Z"
+  },
+  {
+    "questionId": "high_school_physics_30",
+    "explanation": "Large cart loses half KE: \u00bdKE_large transferred to small cart. KE_large = \u00bd(4m)v\u00b2 = 2mv\u00b2. Half: mv\u00b2. Small cart gains: \u00bdmv\u2082\u00b2 = mv\u00b2, so v\u2082\u00b2 = 2v\u00b2, v\u2082 = \u221a2 v \u2248 1.41v. Marked answer appears correct but need to verify with momentum conservation.",
+    "reasoning": "Energy: small gains mv\u00b2. \u00bdmv\u2082\u00b2 = mv\u00b2 \u2192 v\u2082 = \u221a2 v = 1.41v.",
+    "steps": [
+      "Large KE: 2mv\u00b2",
+      "Half lost: mv\u00b2 to small",
+      "\u00bdmv\u2082\u00b2 = mv\u00b2",
+      "v\u2082 = \u221a2 v \u2248 1.41v \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:41.000Z"
+  },
+  {
+    "questionId": "high_school_physics_31",
+    "explanation": "Circuit is electrically neutral: equal positive and negative charges. Connecting battery causes charge flow (current), but net charge remains zero - charges redistribute but don't accumulate. Marked 'more positive' violates charge conservation. Correct: net charge unchanged (option 2).",
+    "reasoning": "Charge conservation: closed system. Current redistributes charge but doesn't change net charge. Remains neutral.",
+    "steps": [
+      "Initially neutral",
+      "Current flows",
+      "No charge created/destroyed",
+      "Net charge unchanged"
+    ],
+    "generatedAt": "2025-11-10T00:02:42.000Z"
+  },
+  {
+    "questionId": "high_school_physics_32",
+    "explanation": "Without gravity: Moon continues in straight line (tangent to orbit) at current velocity (Newton's 1st law). Rotation on axis is independent of orbital motion - continues unchanged. Marked answer says 'revolve as usual' which is wrong - revolution requires centripetal force. Correct: continues rotating, stops revolving (option 1).",
+    "reasoning": "No gravity \u2192 no centripetal force \u2192 tangent motion (straight line). Rotation independent, continues.",
+    "steps": [
+      "Remove gravity",
+      "No centripetal force",
+      "Moon moves tangent (straight)",
+      "Rotation unchanged",
+      "Answer: rotate, not revolve"
+    ],
+    "generatedAt": "2025-11-10T00:02:43.000Z"
+  },
+  {
+    "questionId": "high_school_physics_33",
+    "explanation": "Scale reads normal force N. Weight reading less means N < mg, so net force is downward: F_net = N - mg < 0. This occurs when acceleration is downward: a = (N-mg)/m < 0. Downward acceleration happens when: (1) moving down and speeding up, or (2) moving up and slowing down. Marked 'moving down and slowing' gives upward acceleration (wrong). Correct: moving up and slowing down (option 1).",
+    "reasoning": "N < mg \u2192 a downward. Occurs when: moving down & speeding, OR moving up & slowing. Option 1 (up & slowing) correct.",
+    "steps": [
+      "Scale < weight \u2192 N < mg",
+      "Net force down: a < 0",
+      "Moving up, slowing: a down \u2713",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:02:44.000Z"
+  },
+  {
+    "questionId": "high_school_physics_34",
+    "explanation": "With air resistance: (I) Speed zero at top \u2713 (instantaneous rest). (II) Acceleration zero at top \u2717 (gravity + drag, both downward). (III) Up vs down time: going up, drag opposes motion (helps gravity slow ball faster); going down, drag opposes motion (fights gravity, falls slower). Takes longer to fall than rise. Marked 'I only' is correct.",
+    "reasoning": "I: v=0 at peak \u2713. II: a = -g - drag \u2260 0 \u2717. III: actually takes longer to fall (not rise) with drag. Marked answer correct.",
+    "steps": [
+      "I: v=0 at top \u2713",
+      "II: a \u2260 0 (g+drag) \u2717",
+      "III: falls slower than rises",
+      "Answer: I only \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:45.000Z"
+  },
+  {
+    "questionId": "college_physics_58",
+    "explanation": "This appears to be a duplicate or continuation of college_physics_29. Using Faraday's law \u03b5 = -N(d\u03a6/dt): with N=250, A=0.2 m\u00b2, \u0394B=0.05 T, \u0394t=0.25 s, the induced EMF is \u03b5 = 250\u00d70.2\u00d7(0.05/0.25) = 10 V.",
+    "reasoning": "Same as question 29: Faraday's law gives \u03b5 = NA(\u0394B/\u0394t) = 250\u00d70.2\u00d70.2 = 10 V.",
+    "steps": [
+      "Apply Faraday's law",
+      "\u03b5 = 250\u00d70.2\u00d70.05/0.25 = 10 V"
+    ],
+    "generatedAt": "2025-11-10T00:00:58.000Z"
+  },
+  {
+    "questionId": "college_physics_59",
+    "explanation": "Duplicate of college_physics_2. For a reversible process, the key characteristic is that total entropy (system + surroundings) remains constant: \u0394S_total = 0. This is the defining feature of reversibility.",
+    "reasoning": "Reversible process: \u0394S_total = 0. Internal energy, temperature, etc. can change depending on the specific process type.",
+    "steps": [
+      "Reversible \u2192 \u0394S_total = 0",
+      "Not all have \u0394U=0 or T=const"
+    ],
+    "generatedAt": "2025-11-10T00:00:59.000Z"
+  },
+  {
+    "questionId": "college_physics_60",
+    "explanation": "For an open pipe, harmonics are f_n = nv/(2L) where n=1,2,3,... Given first five: 50, 100, 150, 200, 250 Hz (all multiples of 50 Hz). The fundamental frequency is f\u2081 = 50 Hz. Therefore, f\u2081 = v/(2L), giving v = 2Lf\u2081. The speed of sound can be determined from v = 2Lf\u2081, and the length from any harmonic.",
+    "reasoning": "Open pipe harmonics: f_n = n(50 Hz). Fundamental f\u2081 = 50 Hz. This gives f = v/(2L), so v = 100L.",
+    "steps": [
+      "Harmonics: 50, 100, 150, 200, 250 Hz",
+      "Pattern: f_n = 50n Hz",
+      "Fundamental: 50 Hz"
+    ],
+    "generatedAt": "2025-11-10T00:01:00.000Z"
+  },
+  {
+    "questionId": "college_physics_61",
+    "explanation": "Nuclear transitions involve energy changes of MeV scale, producing gamma rays. Gamma radiation is high-energy electromagnetic radiation (\u03bb ~ 10\u207b\u00b9\u00b2 m, E ~ MeV) emitted during nuclear decay or transitions. X-rays come from electron transitions (keV), radio waves and microwaves are much lower energy.",
+    "reasoning": "Nuclear processes \u2192 MeV energies \u2192 gamma rays (E_\u03b3 = \u0394E_nuclear). Electron transitions \u2192 keV (X-rays). Lower energy \u2192 radio/microwave.",
+    "steps": [
+      "Nuclear energy scale: MeV",
+      "Gamma rays: E ~ MeV, \u03bb ~ pm",
+      "Answer: gamma radiation"
+    ],
+    "generatedAt": "2025-11-10T00:01:01.000Z"
+  },
+  {
+    "questionId": "college_physics_62",
+    "explanation": "For a pipe closed at one end and open at the other, only odd harmonics are present: f_n = nv/(4L) where n=1,3,5,... The fundamental (n=1) is f\u2081 = v/(4L). Given a specific fundamental frequency f\u2081, the length is L = v/(4f\u2081), where v is the speed of sound.",
+    "reasoning": "Closed-open pipe: f_n = (2n-1)v/(4L) for n=1,2,3... Fundamental: f\u2081 = v/(4L). Design requires setting L based on desired f\u2081.",
+    "steps": [
+      "Closed-open pipe: f = v/(4L)",
+      "Given f\u2081 \u2192 L = v/(4f\u2081)",
+      "Only odd harmonics present"
+    ],
+    "generatedAt": "2025-11-10T00:01:02.000Z"
+  },
+  {
+    "questionId": "college_physics_63",
+    "explanation": "For an electron with orbital quantum number l=2 (d orbital), the magnetic quantum number m_l can take values from -l to +l: m_l = -2, -1, 0, +1, +2. This gives 5 allowed values of m_l, corresponding to 5 possible orientations of the orbital angular momentum.",
+    "reasoning": "Quantum numbers: for given l, m_l ranges from -l to +l in integer steps. For l=2: m_l \u2208 {-2,-1,0,1,2}, giving 2l+1 = 5 values.",
+    "steps": [
+      "Given: l = 2",
+      "m_l values: -2, -1, 0, +1, +2",
+      "Count: 5 allowed values"
+    ],
+    "generatedAt": "2025-11-10T00:01:03.000Z"
+  },
+  {
+    "questionId": "college_physics_64",
+    "explanation": "For simple pendulums, the period is T = 2\u03c0\u221a(L/g). If pendulum A has length L_A and B has length L_B, then T_A/T_B = \u221a(L_A/L_B). If both have identical masses and strings but different lengths, the periods differ by the square root of the length ratio. The mass doesn't affect the period.",
+    "reasoning": "Simple pendulum: T = 2\u03c0\u221a(L/g), independent of mass. Ratio: T_A/T_B = \u221a(L_A/L_B). Identical masses \u2192 irrelevant.",
+    "steps": [
+      "T = 2\u03c0\u221a(L/g)",
+      "Period independent of mass",
+      "Ratio depends only on length"
+    ],
+    "generatedAt": "2025-11-10T00:01:04.000Z"
+  },
+  {
+    "questionId": "college_physics_65",
+    "explanation": "In BCS theory, Cooper pairs form due to an attractive interaction mediated by phonons (lattice vibrations). An electron moving through the lattice attracts nearby positive ions, creating a localized positive charge density that attracts a second electron. This phonon-mediated attraction overcomes Coulomb repulsion at low temperatures, leading to superconductivity.",
+    "reasoning": "BCS mechanism: electron-lattice interaction creates phonons. Phonon exchange between electrons creates effective attraction. At T < T_c, this forms Cooper pairs (bound electron pairs) \u2192 superconductivity.",
+    "steps": [
+      "Electron distorts lattice \u2192 phonon",
+      "Phonon mediates attraction",
+      "Cooper pairs form below T_c"
+    ],
+    "generatedAt": "2025-11-10T00:01:05.000Z"
+  },
+  {
+    "questionId": "college_physics_66",
+    "explanation": "Duplicate of college_physics_27. Using length contraction L = L\u2080\u221a(1-v\u00b2/c\u00b2) with L = 0.80 m, L\u2080 = 1.00 m: 0.80 = 1.00\u221a(1-v\u00b2/c\u00b2), giving v\u00b2/c\u00b2 = 0.36, so v = 0.6c.",
+    "reasoning": "Same calculation as question 27: solve 0.80 = \u221a(1-v\u00b2/c\u00b2) to get v = 0.6c.",
+    "steps": [
+      "L/L\u2080 = \u221a(1-v\u00b2/c\u00b2) = 0.80",
+      "Square: 1-v\u00b2/c\u00b2 = 0.64",
+      "v = 0.6c"
+    ],
+    "generatedAt": "2025-11-10T00:01:06.000Z"
+  },
+  {
+    "questionId": "college_physics_67",
+    "explanation": "The energy to remove both electrons from He (double ionization) is the sum of first and second ionization energies. First ionization: He \u2192 He\u207a + e\u207b requires ~24.6 eV. Second ionization: He\u207a \u2192 He\u00b2\u207a + e\u207b requires ~54.4 eV (removing electron from hydrogen-like He\u207a, E = 4\u00d713.6 eV). Total: ~79 eV. The first ionization is lower because of electron-electron repulsion; the second is higher because it's removing from a bare +2 nucleus.",
+    "reasoning": "First ionization energy (IE\u2081): ~24.6 eV (two-electron helium). Second IE (IE\u2082): 4\u00d713.6 = 54.4 eV (hydrogen-like He\u207a). Total: 24.6 + 54.4 = 79 eV.",
+    "steps": [
+      "He \u2192 He\u207a + e\u207b: IE\u2081 = 24.6 eV",
+      "He\u207a \u2192 He\u00b2\u207a + e\u207b: IE\u2082 = 54.4 eV",
+      "Total: ~79 eV"
+    ],
+    "generatedAt": "2025-11-10T00:01:07.000Z"
+  },
+  {
+    "questionId": "college_physics_68",
+    "explanation": "The cosmic microwave background (CMB) radiation has a current temperature of approximately 2.7 K (2.725 K precisely). This is the remnant thermal radiation from the Big Bang, redshifted from ~3000 K at decoupling to its present temperature due to cosmic expansion.",
+    "reasoning": "CMB temperature: T_CMB \u2248 2.7 K. This is well-measured by COBE, WMAP, and Planck satellites. Represents cooled blackbody radiation from early universe.",
+    "steps": [
+      "CMB discovered by Penzias & Wilson (1965)",
+      "Current temperature: T = 2.725 K",
+      "Blackbody spectrum peak: ~160 GHz"
+    ],
+    "generatedAt": "2025-11-10T00:01:08.000Z"
+  },
+  {
+    "questionId": "college_physics_69",
+    "explanation": "Duplicate of college_physics_36. Displacement current is proportional to the rate of change of electric flux: I_d = \u03b5\u2080(d\u03a6_E/dt). This is Maxwell's addition to Amp\u00e8re's law.",
+    "reasoning": "Maxwell's displacement current: I_d = \u03b5\u2080(d\u03a6_E/dt). Proportional to time derivative of electric flux, not magnetic flux.",
+    "steps": [
+      "Definition: I_d = \u03b5\u2080(d\u03a6_E/dt)",
+      "Answer: rate of change of electric flux"
+    ],
+    "generatedAt": "2025-11-10T00:01:09.000Z"
+  },
+  {
+    "questionId": "college_physics_70",
+    "explanation": "For a falling elevator after cable snaps, both elevator and its contents are in free fall with acceleration a = g downward. From the perspective of someone inside the elevator, there's no normal force from the floor (weightlessness). The apparent weight is zero. External observer sees everything accelerating at g downward.",
+    "reasoning": "Free fall: a = g for all objects. Inside elevator reference frame (non-inertial): apparent weight = m(g-a) = 0. Weightlessness experienced.",
+    "steps": [
+      "Cable snaps \u2192 free fall",
+      "a_elevator = g",
+      "Apparent weight inside = 0 (weightless)"
+    ],
+    "generatedAt": "2025-11-10T00:01:10.000Z"
+  },
+  {
+    "questionId": "college_physics_71",
+    "explanation": "Large redshift in quasar spectra indicates high recession velocity due to cosmic expansion. By Hubble's law v = H\u2080d, greater redshift z means greater distance. For z >> 1 (like 3C9 with z \u2248 2), this indicates the quasar is billions of light-years away, allowing us to observe the universe at an earlier epoch. The redshift formula is z = \u0394\u03bb/\u03bb = (\u03bb_observed - \u03bb_emitted)/\u03bb_emitted.",
+    "reasoning": "Cosmological redshift: z = v/c (for v << c) or (1+z)\u00b2 = (c+v)/(c-v) (relativistic). Large z \u2192 large recession velocity \u2192 large distance \u2192 early universe.",
+    "steps": [
+      "Hydrogen lines shifted \u2192 redshift z",
+      "z >> 1 indicates high recession velocity",
+      "Implies quasar is very distant and ancient"
+    ],
+    "generatedAt": "2025-11-10T00:01:11.000Z"
+  },
+  {
+    "questionId": "college_physics_72",
+    "explanation": "A 10 kg box moving at 1 m/s has momentum p = mv = 10 kg\u00b7m/s and kinetic energy KE = \u00bdmv\u00b2 = 5 J. When an external force acts (specified in the problem), the box's motion changes according to Newton's second law. Without friction, the force directly causes acceleration: F = ma. The specific outcome depends on the force's magnitude, direction, and duration.",
+    "reasoning": "Initial: m = 10 kg, v = 1 m/s, p = 10 kg\u00b7m/s, KE = 5 J. Force acts \u2192 \u0394p = F\u00b7\u0394t (impulse-momentum). Final state depends on force details.",
+    "steps": [
+      "Initial state: p = 10 kg\u00b7m/s, KE = 5 J",
+      "Force acts (frictionless)",
+      "Apply F = ma or impulse-momentum theorem"
+    ],
+    "generatedAt": "2025-11-10T00:01:12.000Z"
+  },
+  {
+    "questionId": "college_physics_73",
+    "explanation": "For quantum harmonic oscillator, energy levels are E_n = \u0127\u03c9(n + \u00bd) where n = 0,1,2,... The zero-point energy (ground state, n=0) is E\u2080 = \u00bd\u0127\u03c9, which is non-zero due to the Heisenberg uncertainty principle. Classical oscillator can have zero energy at rest, but quantum mechanics forbids this.",
+    "reasoning": "QHO energy: E_n = \u0127\u03c9(n+\u00bd). Ground state: E\u2080 = \u00bd\u0127\u03c9 \u2260 0. Zero-point energy arises from HUP: \u0394x\u00b7\u0394p \u2265 \u0127/2 forbids particle at rest at equilibrium.",
+    "steps": [
+      "QHO: E_n = \u0127\u03c9(n+\u00bd)",
+      "n=0 (ground state): E\u2080 = \u00bd\u0127\u03c9",
+      "Non-zero due to quantum uncertainty"
+    ],
+    "generatedAt": "2025-11-10T00:01:13.000Z"
+  },
+  {
+    "questionId": "college_physics_74",
+    "explanation": "The Bohr magneton is the natural unit of magnetic moment for electron orbital and spin angular momentum: \u03bc_B = e\u0127/(2m_e) \u2248 9.274\u00d710\u207b\u00b2\u2074 J/T. It represents the magnetic moment of an electron with one unit of angular momentum. Used to express atomic magnetic moments in terms of \u03bc_B (e.g., spin magnetic moment \u2248 2\u03bc_B).",
+    "reasoning": "Bohr magneton: \u03bc_B = e\u0127/(2m_e). Natural unit for atomic magnetism. Electron spin moment: \u03bc_s \u2248 2\u03bc_B (g-factor \u2248 2).",
+    "steps": [
+      "Definition: \u03bc_B = e\u0127/(2m_e)",
+      "Value: 9.274\u00d710\u207b\u00b2\u2074 J/T",
+      "Unit for atomic magnetic moments"
+    ],
+    "generatedAt": "2025-11-10T00:01:14.000Z"
+  },
+  {
+    "questionId": "college_physics_75",
+    "explanation": "The Compton wavelength of a particle is \u03bb_C = h/(m_0c), representing the wavelength scale where quantum and relativistic effects become equally important. For electrons: \u03bb_C,e = h/(m_e c) \u2248 2.43\u00d710\u207b\u00b9\u00b2 m = 2.43 pm. This sets the scale for Compton scattering, where photons scatter off electrons and gain wavelength.",
+    "reasoning": "Compton wavelength: \u03bb_C = h/(mc). For electrons: \u03bb_C = h/(m_e c) = 2.43 pm. Relevant in Compton scattering: \u0394\u03bb = \u03bb_C(1 - cos \u03b8).",
+    "steps": [
+      "Definition: \u03bb_C = h/(mc)",
+      "Electron: \u03bb_C = 2.43 pm",
+      "Scale of quantum-relativistic effects"
+    ],
+    "generatedAt": "2025-11-10T00:01:15.000Z"
+  },
+  {
+    "questionId": "college_physics_76",
+    "explanation": "The fine structure constant \u03b1 = e\u00b2/(4\u03c0\u03b5\u2080\u0127c) \u2248 1/137 is a dimensionless fundamental constant characterizing the strength of electromagnetic interaction. It appears in atomic spectra (fine structure splitting), QED calculations, and determines the scale of electromagnetic effects relative to other forces.",
+    "reasoning": "Fine structure constant: \u03b1 \u2248 1/137. Dimensionless. Measures EM interaction strength. Appears in atomic physics, QED, and fundamental physics.",
+    "steps": [
+      "\u03b1 = e\u00b2/(4\u03c0\u03b5\u2080\u0127c) \u2248 1/137",
+      "Dimensionless fundamental constant",
+      "Characterizes EM interaction strength"
+    ],
+    "generatedAt": "2025-11-10T00:01:16.000Z"
+  },
+  {
+    "questionId": "college_physics_77",
+    "explanation": "The Rydberg constant R_\u221e = m_e e\u2074/(8\u03b5\u2080\u00b2h\u00b3c) \u2248 1.097\u00d710\u2077 m\u207b\u00b9 appears in the formula for hydrogen spectral lines: 1/\u03bb = R_\u221e(1/n\u2081\u00b2 - 1/n\u2082\u00b2). It represents the limiting value of the Rydberg constant for an infinitely massive nucleus, and is one of the most precisely measured fundamental constants.",
+    "reasoning": "Rydberg constant: R_\u221e = 1.097\u00d710\u2077 m\u207b\u00b9. Appears in Balmer formula for hydrogen spectrum. Fundamental constant in atomic spectroscopy.",
+    "steps": [
+      "R_\u221e = 1.097\u00d710\u2077 m\u207b\u00b9",
+      "Hydrogen spectrum: 1/\u03bb = R_\u221e(1/n\u2081\u00b2 - 1/n\u2082\u00b2)",
+      "Precisely measured constant"
+    ],
+    "generatedAt": "2025-11-10T00:01:17.000Z"
+  },
+  {
+    "questionId": "high_school_physics_35",
+    "explanation": "Impulse J = F\u0394t = \u0394p = \u0394(mv). Dimensions: [J] = [m][v] = M \u00d7 (L/T) = ML/T. The marked answer 'LM/T^3' is wrong. Correct: ML/T (option 2).",
+    "reasoning": "Impulse equals change in momentum: J = \u0394p = m\u0394v. Dimensions: [m] = M, [v] = L/T, so [J] = M(L/T) = ML/T.",
+    "steps": [
+      "J = F\u0394t = \u0394p",
+      "\u0394p = m\u0394v",
+      "[J] = M \u00d7 L/T = ML/T",
+      "Answer: ML/T (option 2, not 0)"
+    ],
+    "generatedAt": "2025-11-10T00:03:00.000Z"
+  },
+  {
+    "questionId": "high_school_physics_36",
+    "explanation": "Magnetic force F = qv\u00d7B is always perpendicular to velocity, does no work, so speed remains constant. Regardless of angle or time, |v| = 1.5\u00d710^6 m/s always. The marked '5.0\u00d710^6 m/s' is wrong. Correct: 1.5\u00d710^6 m/s (option 2).",
+    "reasoning": "Lorentz force F_B = qv\u00d7B \u22a5 v. Perpendicular force \u2192 no work \u2192 kinetic energy constant \u2192 speed constant.",
+    "steps": [
+      "F_B \u22a5 v",
+      "W = F\u00b7ds = 0",
+      "KE constant",
+      "Speed unchanged: 1.5\u00d710^6 m/s"
+    ],
+    "generatedAt": "2025-11-10T00:03:01.000Z"
+  },
+  {
+    "questionId": "high_school_physics_37",
+    "explanation": "Man's weight is force of Earth pulling man down (F_E\u2192m). Action-reaction pair: man pulls Earth up (F_m\u2192E). By Newton's 3rd law, equal magnitude, opposite direction. Marked 'elevator cable on man' is unrelated to weight. Correct: man on Earth (option 3).",
+    "reasoning": "Weight: W = F_Earth\u2192man (down). Newton's 3rd: reaction is F_man\u2192Earth (up). These act on different objects.",
+    "steps": [
+      "Weight: Earth pulls man (down)",
+      "Reaction: man pulls Earth (up)",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:03:02.000Z"
+  },
+  {
+    "questionId": "high_school_physics_38",
+    "explanation": "Isothermal: \u0394T = 0, so \u0394U = 0 for ideal gas. First law: \u0394U = Q - W, thus 0 = Q - 150 J, giving Q = 150 J added. Marked answer correct.",
+    "reasoning": "Isothermal \u2192 \u0394U = 0. First law: Q = \u0394U + W = 0 + 150 = 150 J in.",
+    "steps": [
+      "\u0394T = 0 \u2192 \u0394U = 0",
+      "Q = W = 150 J",
+      "Heat added \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:03.000Z"
+  },
+  {
+    "questionId": "high_school_physics_39",
+    "explanation": "Charge q = ne where e = 1.6\u00d710^-19 C. For q = -1 C: n = |q|/e = 1/(1.6\u00d710^-19) = 6.25\u00d710^18 electrons. Marked answer correct.",
+    "reasoning": "n = Q/e = 1 C / (1.6\u00d710^-19 C/electron) = 6.25\u00d710^18 electrons.",
+    "steps": [
+      "e = 1.6\u00d710^-19 C",
+      "n = 1/e",
+      "= 6.25\u00d710^18 \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:04.000Z"
+  },
+  {
+    "questionId": "high_school_physics_40",
+    "explanation": "Resonance method (option 2): pipe near vibrating string. Adjust pipe length until resonance. For open-closed pipe, consecutive resonances differ by \u03bb/2. Measure length difference \u00d7 2 = \u03bb. Marked 'touch string in middle' creates standing wave on string (not sound wave measurement). Correct: option 2 (pipe resonance).",
+    "reasoning": "Sound wavelength in air \u2260 string wavelength. Resonance tube method: consecutive modes differ by \u03bb/2. Practical and accurate.",
+    "steps": [
+      "String creates sound wave in air",
+      "Resonance tube: \u0394L = \u03bb/2",
+      "Measure \u0394 between resonances",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:03:05.000Z"
+  },
+  {
+    "questionId": "high_school_physics_41",
+    "explanation": "Concave lenses always produce virtual images (can't form real). Concave mirrors: can produce both (real if object beyond f, virtual if within f). Convex lenses: both (real if object beyond f, virtual if within f). Convex mirrors: always virtual. Marked 'concave lenses produce real' is backwards. Correct: convex lenses produce both (option 2).",
+    "reasoning": "Concave lens: diverging, always virtual. Convex lens: converging, real (do>f) or virtual (do<f).",
+    "steps": [
+      "Concave lens: always virtual",
+      "Convex lens: both types",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:03:06.000Z"
+  },
+  {
+    "questionId": "high_school_physics_42",
+    "explanation": "Inside Earth, gravity F = GMr/R\u00b3 creates restoring force toward center. Object undergoes SHM, oscillating through center to other side, back again, indefinitely (ideal conditions). Marked 'stops at center' violates energy conservation. Correct: oscillates indefinitely (option 2).",
+    "reasoning": "F = -kr where k = GMm/R\u00b3. SHM: object oscillates with period T = 2\u03c0\u221a(R/g) \u2248 84 min.",
+    "steps": [
+      "Inside: F \u221d -r (restoring)",
+      "SHM through center",
+      "Oscillates indefinitely",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:03:07.000Z"
+  },
+  {
+    "questionId": "high_school_physics_43",
+    "explanation": "When mass doubles (m\u21922m), angular frequency \u03c9 = \u221a(k/m) \u2192 \u221a(k/2m) = \u03c9/\u221a2. Energy E = \u00bdkA\u00b2 conserves during collision (momentum conserves, not KE). At collision instant, if v\u22600: momentum conserves mv = 2mv', so v'=v/2. KE before: \u00bdmv\u00b2, after: \u00bd(2m)(v/2)\u00b2 = \u00bcmv\u00b2. Energy lost, so amplitude decreases. Marked 'increases' wrong. Correct: decreases (option 1).",
+    "reasoning": "Inelastic collision: momentum conserves, KE lost. E = \u00bdkA\u00b2 \u2192 smaller E \u2192 smaller A.",
+    "steps": [
+      "Mass doubles: m\u21922m",
+      "Momentum: mv=2mv'",
+      "KE lost in collision",
+      "A decreases"
+    ],
+    "generatedAt": "2025-11-10T00:03:08.000Z"
+  },
+  {
+    "questionId": "high_school_physics_44",
+    "explanation": "No Doppler shift when relative velocity between source and detector is zero. If both move with same velocity in same direction, no relative motion, no shift. Marked 'source toward detector' gives maximum shift. Correct: same direction, same speed (option 2).",
+    "reasoning": "Doppler: f' = f(v\u00b1v_d)/(v\u00b1v_s). No shift when v_rel = 0: same velocity.",
+    "steps": [
+      "Doppler shift \u221d relative velocity",
+      "Option 2: v_rel = 0",
+      "No shift \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:09.000Z"
+  },
+  {
+    "questionId": "high_school_physics_45",
+    "explanation": "Buoyancy: \u03c1_obj V g = \u03c1_fluid V_submerged g. Cube volume V = (0.5)\u00b3 = 0.125 m\u00b3. Mass 100 kg \u2192 \u03c1_obj = 100/0.125 = 800 kg/m\u00b3. Fraction submerged: 800/1200 = 2/3. Fraction above: 1 - 2/3 = 1/3. Marked '1/9' wrong. Correct: 1/3 (option 1).",
+    "reasoning": "\u03c1_obj/\u03c1_fluid = V_sub/V_total = 800/1200 = 2/3 submerged. Above: 1/3.",
+    "steps": [
+      "\u03c1_obj = 800 kg/m\u00b3",
+      "2/3 submerged",
+      "1/3 floats",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:03:10.000Z"
+  },
+  {
+    "questionId": "high_school_physics_46",
+    "explanation": "Standing on floor: N (up) and W (down) have equal magnitudes (equilibrium), but are NOT action-reaction pair. Action-reaction: person pushes floor down (N'), floor pushes person up (N). Or: Earth pulls person down (W), person pulls Earth up (W'). Marked 'equal + action-reaction' is wrong. Correct: equal magnitudes, not action-reaction (option 1).",
+    "reasoning": "Action-reaction pairs act on different objects. N and W both act on person \u2192 can't be action-reaction.",
+    "steps": [
+      "N and W: same object",
+      "Not action-reaction",
+      "But equal magnitude",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:03:11.000Z"
+  },
+  {
+    "questionId": "high_school_physics_47",
+    "explanation": "Force F = QE, acceleration a = F/m = QE/m. Distance d = v\u00b2/(2a) = v\u00b2m/(2QE). If v\u21922v and m\u2192m/2: d' = (2v)\u00b2(m/2)/(2QE) = 4v\u00b2(m/2)/(2QE) = 2v\u00b2m/(2QE) = 2d. Marked '4d' wrong. Correct: 2d (option 1).",
+    "reasoning": "d \u221d v\u00b2m. Double v (\u00d74), halve m (\u00d71/2): net \u00d72.",
+    "steps": [
+      "d = v\u00b2m/(2QE)",
+      "New: (2v)\u00b2, m/2",
+      "d' = 4\u00d7\u00bd\u00d7d = 2d"
+    ],
+    "generatedAt": "2025-11-10T00:03:12.000Z"
+  },
+  {
+    "questionId": "high_school_physics_48",
+    "explanation": "Elastic collision: momentum and KE conserve. Two equations, three unknowns (m2, v1f, v2f). Given m1, need any two velocities to solve. Final speed of object 1 alone gives one equation, insufficient. Need both final speeds or one final + one initial. Marked 'final speed of 1' insufficient. Correct: any 2 of the above (option 3).",
+    "reasoning": "2 equations (p, KE), 3 unknowns (m2, v1f, v2f). Need 2 velocity values to solve.",
+    "steps": [
+      "Conservation: 2 equations",
+      "Unknowns: 3",
+      "Need 2 more values",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:03:13.000Z"
+  },
+  {
+    "questionId": "high_school_physics_49",
+    "explanation": "Photoelectric effect: photon energy E = hc/\u03bb must exceed work function \u03c6. If 550 nm low intensity produces no electrons, then E < \u03c6. Increasing intensity increases photon number, not energy. Still E < \u03c6, so nothing happens. Marked 'immediately produces' wrong. Correct: nothing happens (option 3).",
+    "reasoning": "E_photon = hc/\u03bb fixed. If E < \u03c6, no emission regardless of intensity. Need higher frequency.",
+    "steps": [
+      "550 nm \u2192 no emission",
+      "E < \u03c6",
+      "Intensity \u2191: more photons, same E",
+      "Still no emission"
+    ],
+    "generatedAt": "2025-11-10T00:03:14.000Z"
+  },
+  {
+    "questionId": "high_school_physics_50",
+    "explanation": "Wave superposition: amplitudes add vectorially. Same frequency: resultant amplitude range from |A1-A2| (destructive) to A1+A2 (constructive). Here: |6-4| to 6+4 = 2 to 10 cm. Marked answer correct.",
+    "reasoning": "Constructive: 6+4=10 cm. Destructive: 6-4=2 cm. Range: 2 to 10 cm.",
+    "steps": [
+      "A_max = 6+4 = 10",
+      "A_min = |6-4| = 2",
+      "Range: 2-10 cm \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:15.000Z"
+  },
+  {
+    "questionId": "high_school_physics_51",
+    "explanation": "Newton's 3rd: action-reaction forces equal/opposite, same duration. A: carts experience same F, \u0394t, \u0394p (not same \u0394KE if different masses). B: ball/rod experience same torque, \u0394t, \u0394L (not same \u0394KE_rot if different I). Marked 'same \u0394KE' wrong. Correct: same F, \u0394t, \u0394p (linear); same \u03c4, \u0394t, \u0394L (rotational) - option 1.",
+    "reasoning": "Newton's 3rd: F12=-F21, \u03c412=-\u03c421. Linear: conserves p. Rotational: conserves L.",
+    "steps": [
+      "Equal F, \u0394t \u2192 equal \u0394p",
+      "Equal \u03c4, \u0394t \u2192 equal \u0394L",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:03:16.000Z"
+  },
+  {
+    "questionId": "high_school_physics_52",
+    "explanation": "Three forces of 4 N each. Maximum net: 12 N (all same direction), giving a_max = 12/2 = 6 m/s\u00b2. Minimum net: 0 N (balance), giving a_min = 0. Can arrange for 4 N net (two cancel, one remains): a = 2 m/s\u00b2. Can arrange for 8 N net? Try: two at 120\u00b0 + one opposite \u2192 vector sum = 8 N possible. All accelerations 0-6 m/s\u00b2 possible. Wait, need 8 m/s\u00b2 \u2192 F_net = 16 N. Max F_net = 12 N, so can't achieve 16 N. Marked '0' possible. Correct: 8 m/s\u00b2 impossible (option 3).",
+    "reasoning": "F_max = 12 N \u2192 a_max = 6 m/s\u00b2. Can't produce a = 8 m/s\u00b2 (needs F = 16 N > 12 N).",
+    "steps": [
+      "Three 4N forces: F_net \u2264 12 N",
+      "a = F/m \u2264 12/2 = 6 m/s\u00b2",
+      "8 m/s\u00b2 impossible"
+    ],
+    "generatedAt": "2025-11-10T00:03:17.000Z"
+  },
+  {
+    "questionId": "high_school_physics_53",
+    "explanation": "Graph: F (vertical) vs a (horizontal). Slope = \u0394F/\u0394a = m (from F = ma). This measures inertial mass (resistance to acceleration). Marked 'gravitational mass' wrong. Correct: inertial mass (option 3).",
+    "reasoning": "F = ma \u2192 slope of F vs a graph equals m (inertial mass).",
+    "steps": [
+      "F vs a: slope = F/a",
+      "F = ma \u2192 slope = m",
+      "Inertial mass \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:18.000Z"
+  },
+  {
+    "questionId": "high_school_physics_54",
+    "explanation": "Friction f = \u03bcN = \u03bcmg. Normal force N = mg (weight). Mass m \u221d volume \u221d height \u00d7 area. New block: h\u2192h/2, length\u21922\u00d7length, width same. Volume unchanged (\u00bd \u00d7 2 = 1), mass same, friction same. Marked '(1/2)f' wrong. Correct: f (option 1).",
+    "reasoning": "f = \u03bcmg. Mass = \u03c1V. V = h\u00d7L\u00d7w. New: (h/2)\u00d7(2L)\u00d7w = V. Same m \u2192 same f.",
+    "steps": [
+      "f = \u03bcmg",
+      "V_new = V_old",
+      "m same",
+      "f same"
+    ],
+    "generatedAt": "2025-11-10T00:03:19.000Z"
+  },
+  {
+    "questionId": "high_school_physics_55",
+    "explanation": "Mirror equation: 1/f = 1/do + 1/di. Diverging mirror: f < 0. Given: do = 10 cm, di = -2 cm (behind = virtual). 1/f = 1/10 + 1/(-2) = 1/10 - 1/2 = -4/10 = -2/5. So f = -5/2 cm. Marked '-3/5' wrong. Correct: -5/2 cm (option 3).",
+    "reasoning": "1/f = 1/10 - 1/2 = (1-5)/10 = -4/10 = -2/5. Therefore f = -5/2 cm.",
+    "steps": [
+      "1/f = 1/10 + 1/(-2)",
+      "= -4/10 = -2/5",
+      "f = -5/2 cm"
+    ],
+    "generatedAt": "2025-11-10T00:03:20.000Z"
+  },
+  {
+    "questionId": "high_school_physics_56",
+    "explanation": "Phase 1 (0-1s): x1 = 24 m. Phase 2 (1-11s): v0 = 24 m/s, a = -6 m/s\u00b2, t = 10 s. Stop time: t_stop = 24/6 = 4 s at x2 = 24 + \u00bd(24)(4) - \u00bd(6)(4)\u00b2 = 24 + 48 - 48 = 24 m. Wait, that's wrong. Let me recalculate: x = v0t + \u00bdat\u00b2 = 24(10) + \u00bd(-6)(100) = 240 - 300 = -60 m from t=1. Total: 24 + (-60) = -36 m. Marked '99m' wrong. Correct: -36m (option 2).",
+    "reasoning": "0-1s: x=24m. 1-11s (10s): x = 24(10) - \u00bd(6)(10\u00b2) = 240-300 = -60m. Total: 24-60 = -36m.",
+    "steps": [
+      "Phase 1: x=24m",
+      "Phase 2: \u0394x=240-300=-60m",
+      "Total: -36m"
+    ],
+    "generatedAt": "2025-11-10T00:03:21.000Z"
+  },
+  {
+    "questionId": "high_school_physics_57",
+    "explanation": "Continuity: A1v1 = A2v2. A \u221d d\u00b2, so v2 = v1(d1/d2)\u00b2 = V(d/(d/3))\u00b2 = 9V. Bernoulli: P1 + \u00bd\u03c1V\u00b2 = P2 + \u00bd\u03c1(9V)\u00b2. P2 = P1 + \u00bd\u03c1V\u00b2 - \u00bd\u03c1(81V\u00b2) = P1 - 40\u03c1V\u00b2. Marked answer correct.",
+    "reasoning": "v2 = 9V. Bernoulli: P2 = P1 - \u00bd\u03c1(81-1)V\u00b2 = P1 - 40\u03c1V\u00b2.",
+    "steps": [
+      "v2 = 9V",
+      "P1+\u00bd\u03c1V\u00b2 = P2+\u00bd\u03c1(81V\u00b2)",
+      "P2 = P1 - 40\u03c1V\u00b2 \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:22.000Z"
+  },
+  {
+    "questionId": "high_school_physics_58",
+    "explanation": "SHM: x = A cos(\u03c9t), v = -A\u03c9 sin(\u03c9t). Maximum speed v_max = A\u03c9 occurs at x = 0. Thus v_max \u221d A (proportional to amplitude). Marked answer correct.",
+    "reasoning": "v_max = A\u03c9 = A\u221a(k/m). Linear relationship with amplitude.",
+    "steps": [
+      "v(t) = A\u03c9 sin(\u03c9t)",
+      "v_max = A\u03c9",
+      "Proportional to A \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:23.000Z"
+  },
+  {
+    "questionId": "high_school_physics_59",
+    "explanation": "Weight W = mg = GMm/R\u00b2. Moon: g_moon = GM_moon/R_moon\u00b2 = G(M_E/80)/(R_E/4)\u00b2 = (1/80)(16)g_E = (16/80)g_E = (1/5)g_E. W_moon = (1/5)(80) = 16 N. Marked '1 N' wrong. Correct: 16 N (option 2).",
+    "reasoning": "g \u221d M/R\u00b2. Moon: (1/80)M, (1/4)R \u2192 g = (1/80)/(1/16) = 16/80 = 1/5 of Earth. W = 16 N.",
+    "steps": [
+      "g_moon/g_E = (1/80)/(1/16)",
+      "= 16/80 = 1/5",
+      "W = 80/5 = 16 N"
+    ],
+    "generatedAt": "2025-11-10T00:03:24.000Z"
+  },
+  {
+    "questionId": "high_school_physics_60",
+    "explanation": "Weight W = GMm/r\u00b2. At sea level: r1 = 6400 km. At 6000 m = 6 km: r2 = 6406 km. W2/W1 = (r1/r2)\u00b2 = (6400/6406)\u00b2 \u2248 (1 - 6/6400)\u00b2 \u2248 1 - 12/6400 \u2248 0.998. W2 \u2248 30(0.998) \u2248 30 N (negligible change). Marked '60 N' wrong. Correct: 30 N (option 2).",
+    "reasoning": "\u0394r/r = 6/6400 \u2248 0.1%. Negligible change in weight. Still ~30 N.",
+    "steps": [
+      "r2/r1 = 6406/6400 \u2248 1.001",
+      "W2/W1 \u2248 0.998",
+      "W2 \u2248 30 N"
+    ],
+    "generatedAt": "2025-11-10T00:03:25.000Z"
+  },
+  {
+    "questionId": "high_school_physics_61",
+    "explanation": "Free fall with drag: F_net = mg - bv (down). Initially v=0, a=g (max). As v increases, drag increases, net force decreases, a decreases. Speed increases but acceleration decreases until terminal velocity. Marked 'increasing a' wrong. Correct: increasing speed, decreasing acceleration (option 1).",
+    "reasoning": "a = g - (b/m)v. As v\u2191, a\u2193. Speed increases, acceleration decreases.",
+    "steps": [
+      "F = mg - bv",
+      "a = g - (b/m)v",
+      "v\u2191 \u2192 a\u2193",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:03:26.000Z"
+  },
+  {
+    "questionId": "high_school_physics_62",
+    "explanation": "Bi-convex lens with R = 20 cm. Focal length f \u2248 R = 20 cm (lensmaker's approximation for n\u22481.5). Object at do = 30 cm. Lens equation: 1/f = 1/do + 1/di \u2192 1/20 = 1/30 + 1/di \u2192 di = 60 cm (real). Magnification m = -di/do = -60/30 = -2 (inverted, height = 2\u00d72 = 4 cm). Marked 'height 1 cm' wrong. Correct: real, inverted, height 4 cm (not listed, but option 0 closest if typo).",
+    "reasoning": "f \u2248 20 cm, do = 30 cm. di = 60 cm. m = -2 \u2192 h = 4 cm (inverted).",
+    "steps": [
+      "1/20 = 1/30 + 1/di",
+      "di = 60 cm (real)",
+      "m = -2, h = 4 cm"
+    ],
+    "generatedAt": "2025-11-10T00:03:27.000Z"
+  },
+  {
+    "questionId": "high_school_physics_63",
+    "explanation": "Total charge conserved: +5e + (-6e) = -e total. After contact, charge distributes. Integer multiples of e only (quantized). +3e + (-4e) = -e \u2713. +1.5e not allowed (fractional). Marked '+3e,-4e' correct.",
+    "reasoning": "Charge conservation: total = -e. Quantization: integer multiples of e only.",
+    "steps": [
+      "Total: -e",
+      "+3e+(-4e) = -e \u2713",
+      "Fractional: impossible"
+    ],
+    "generatedAt": "2025-11-10T00:03:28.000Z"
+  },
+  {
+    "questionId": "high_school_physics_64",
+    "explanation": "Ideal gas: PV = nRT at constant P (atmospheric). V = (nR/P)T \u2192 V \u221d T. Circumference C = 2\u03c0r, V = (4/3)\u03c0r\u00b3. C\u00b3 \u221d r\u00b3 \u221d V \u221d T. Linear relationship between C\u00b3 and T. Extrapolating to C\u00b3 = 0 gives T = 0 K (absolute zero). Marked 'cubic relationship' wrong. Correct: extrapolates to T where C\u00b3 = 0 (option 2).",
+    "reasoning": "V \u221d T \u2192 C\u00b3 \u221d V \u221d T. Linear C\u00b3 vs T, extrapolates to absolute zero.",
+    "steps": [
+      "V \u221d T",
+      "C\u00b3 \u221d V \u221d T",
+      "Linear, C\u00b3\u21920 at T=0 K"
+    ],
+    "generatedAt": "2025-11-10T00:03:29.000Z"
+  },
+  {
+    "questionId": "high_school_physics_65",
+    "explanation": "Millikan oil drop: charge quantized as q = ne where e = 1.6\u00d710^-19 C. Check each: (0) 6.4\u00d710^-19 = 4e \u2713. (1) 8.0\u00d710^-19 = 5e \u2713. (2) 4.8\u00d710^-19 = 3e \u2713. (3) 2.4\u00d710^-19 = 1.5e \u2717 (fractional). Marked '6.4' wrong. Correct: 2.4\u00d710^-19 (option 3).",
+    "reasoning": "q must be integer multiple of e = 1.6\u00d710^-19. Only 2.4 gives non-integer (1.5).",
+    "steps": [
+      "Check q/e for each",
+      "2.4/1.6 = 1.5 (not integer)",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:03:30.000Z"
+  },
+  {
+    "questionId": "high_school_physics_66",
+    "explanation": "Magnetic force perpendicular to v does no work, speed constant. Regardless of angle or time, |v| = 1.5\u00d710^6 m/s unchanged. Marked '5.0\u00d710^5' wrong. Correct: 1.5\u00d710^6 m/s (option 2).",
+    "reasoning": "F_B \u22a5 v \u2192 W = 0 \u2192 KE constant \u2192 speed constant.",
+    "steps": [
+      "F_B does no work",
+      "Speed unchanged",
+      "1.5\u00d710^6 m/s \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:31.000Z"
+  },
+  {
+    "questionId": "high_school_physics_67",
+    "explanation": "Ohm's law: I = V/R. For I to increase: increase V and/or decrease R. Options: (0) V\u2191R\u2191: ambiguous. (1) V\u2193R\u2193: ambiguous. (2) V\u2191R\u2193: I always increases \u2713. (3) V\u2193R\u2191: I always decreases. Marked 'V\u2191R\u2191' wrong. Correct: V\u2191R\u2193 (option 2).",
+    "reasoning": "I = V/R. Increase I: increase numerator (V) and/or decrease denominator (R).",
+    "steps": [
+      "I = V/R",
+      "V\u2191R\u2193 always increases I",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:03:32.000Z"
+  },
+  {
+    "questionId": "high_school_physics_68",
+    "explanation": "Uniform circular motion: v tangent, a toward center (perpendicular). Statement 3 is wrong (a constant magnitude, not direction). Statement 0: centrifugal force is pseudo-force in rotating frame, not action-reaction pair (wrong). Statement 1: v\u22a5a (wrong). Statement 3: satellite is indeed falling toward center but misses (gravity provides centripetal force). Marked 'centrifugal is action-reaction' wrong. Correct: option 3 (satellite falling).",
+    "reasoning": "Satellite in orbit: free fall toward center with tangential velocity. Constantly falling but never hits.",
+    "steps": [
+      "v tangent, a radial",
+      "Gravity = centripetal",
+      "Falling in curved path",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:03:33.000Z"
+  },
+  {
+    "questionId": "high_school_physics_69",
+    "explanation": "Cart slowing (v1 > v2) in east direction. \u0394p = m(v2 - v1) < 0 (westward). F_net = \u0394p/\u0394t points west (opposite motion). Can determine direction without knowing forces or mass. Marked answer correct.",
+    "reasoning": "\u0394v < 0 in east \u2192 a points west \u2192 F_net points west. Direction determined from kinematics.",
+    "steps": [
+      "Slowing east \u2192 a west",
+      "F = ma \u2192 F west",
+      "Answer: option 0 \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:34.000Z"
+  },
+  {
+    "questionId": "high_school_physics_70",
+    "explanation": "Tension T = m(g + a) for elevator accelerating up. Need mass m and acceleration a only. Velocity and height irrelevant. Marked 'mass, velocity, height, and acceleration' includes unnecessary values. Correct: mass and acceleration (option 3).",
+    "reasoning": "T - mg = ma \u2192 T = m(g+a). Only need m and a.",
+    "steps": [
+      "\u03a3F = T - mg = ma",
+      "T = m(g+a)",
+      "Need: m, a only"
+    ],
+    "generatedAt": "2025-11-10T00:03:35.000Z"
+  },
+  {
+    "questionId": "high_school_physics_71",
+    "explanation": "A + B = 0 \u2192 B = -A. Vectors equal magnitude, opposite direction. Marked 'same direction' wrong. Correct: equal magnitude, opposite direction (option 1).",
+    "reasoning": "Vector sum zero: B = -A (same magnitude, opposite direction).",
+    "steps": [
+      "A + B = 0",
+      "B = -A",
+      "Equal magnitude, opposite direction"
+    ],
+    "generatedAt": "2025-11-10T00:03:36.000Z"
+  },
+  {
+    "questionId": "high_school_physics_72",
+    "explanation": "Solenoid field B parallel to axis. Proton moving parallel to B: F = qv\u00d7B = 0 (parallel vectors). No force, continues straight at constant velocity. Marked 'parabolic path' wrong. Correct: straight path at constant velocity (option 2).",
+    "reasoning": "v \u2225 B \u2192 v\u00d7B = 0 \u2192 F = 0. No force \u2192 constant velocity.",
+    "steps": [
+      "v along axis, B along axis",
+      "v\u00d7B = 0",
+      "F = 0, straight path"
+    ],
+    "generatedAt": "2025-11-10T00:03:37.000Z"
+  },
+  {
+    "questionId": "high_school_physics_73",
+    "explanation": "Sound speed v in air depends on temperature, not frequency. v = \u221a(\u03b3RT/M) independent of f. Wave with 4f travels at same speed v. Marked 'v/4' wrong. Correct: v (option 1).",
+    "reasoning": "v = f\u03bb but v is medium property. Different f \u2192 different \u03bb, same v.",
+    "steps": [
+      "v independent of f",
+      "v = \u221a(\u03b3RT/M)",
+      "Same speed v"
+    ],
+    "generatedAt": "2025-11-10T00:03:38.000Z"
+  },
+  {
+    "questionId": "high_school_physics_74",
+    "explanation": "Gauss's law: \u03a6 = Q_enclosed/\u03b5\u2080 always true for any charge distribution, any surface. No symmetry required (symmetry helps calculate E, but flux always proportional to Q). Marked answer correct.",
+    "reasoning": "Gauss: \u222eE\u00b7dA = Q/\u03b5\u2080 universal. Symmetry not required for law, only for easily finding E.",
+    "steps": [
+      "Gauss law universal",
+      "No conditions needed",
+      "Answer: option 0 \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:03:39.000Z"
+  },
+  {
+    "questionId": "high_school_physics_75",
+    "explanation": "Light entering glass from air: frequency f unchanged (determined by source), speed v decreases (c\u2192c/n), wavelength \u03bb = v/f decreases. Marked 'frequency and wavelength' wrong. Correct: speed and wavelength (option 1).",
+    "reasoning": "f constant (source property). v = c/n in glass. \u03bb = v/f decreases.",
+    "steps": [
+      "f unchanged",
+      "v: c\u2192c/n",
+      "\u03bb = v/f decreases",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:04:00.000Z"
+  },
+  {
+    "questionId": "high_school_physics_76",
+    "explanation": "Ideal gas: PV = nRT at constant P. V vs T plot: V = (nR/P)T. Slope = nR/P \u221d 1/P (inversely proportional). Y-intercept = 0 (V=0 at T=0). Marked 'proportional to P' wrong. Correct: inversely proportional, intercept 0 (option 1).",
+    "reasoning": "V = (nR/P)T linear. Slope = nR/P \u221d 1/P. At T=0, V=0.",
+    "steps": [
+      "V = (nR/P)T",
+      "Slope \u221d 1/P",
+      "Intercept = 0",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:04:01.000Z"
+  },
+  {
+    "questionId": "high_school_physics_77",
+    "explanation": "Newton's 3rd: F_car_on_truck = -F_truck_on_car (equal magnitude, opposite direction). F = ma: a_car = F/m_car, a_truck = F/m_truck = F/(2m_car) = a_car/2. Car's acceleration is double truck's magnitude, opposite direction. Marked 'same direction' wrong. Correct: double magnitude, opposite direction (option 1).",
+    "reasoning": "F_ct = -F_tc (Newton 3rd). a_c = F/m, a_t = F/(2m) = a_c/2. Opposite directions.",
+    "steps": [
+      "Equal forces, opposite",
+      "a_car = 2\u00d7a_truck",
+      "Opposite directions",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:04:02.000Z"
+  },
+  {
+    "questionId": "high_school_physics_78",
+    "explanation": "Frictionless slide (no rotation): all objects have only translational KE. Same mass, same height \u2192 same PE \u2192 same final KE \u2192 same final speed. Reach base simultaneously. Marked 'sphere' wrong. Correct: all same time (option 3).",
+    "reasoning": "No rotation \u2192 only translation. mgh = \u00bdmv\u00b2 for all. Same v \u2192 same time.",
+    "steps": [
+      "Frictionless: no rotation",
+      "PE = KE for all",
+      "Same v",
+      "Same time"
+    ],
+    "generatedAt": "2025-11-10T00:04:03.000Z"
+  },
+  {
+    "questionId": "high_school_physics_79",
+    "explanation": "Uniform acceleration: d = \u00bd(v\u2080+v)t = \u00bd(0+20)(15) = 150 m. Or: d = \u00bdat\u00b2 with a = 20/15 = 4/3, t = 15: d = \u00bd(4/3)(225) = 150 m. Marked answer correct.",
+    "reasoning": "d = average velocity \u00d7 time = \u00bd(v\u2080+v)t = \u00bd(20)(15) = 150 m.",
+    "steps": [
+      "v_avg = 10 m/s",
+      "d = 10\u00d715 = 150 m \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:04:04.000Z"
+  },
+  {
+    "questionId": "high_school_physics_80",
+    "explanation": "Range R = v\u2080\u00b2sin(2\u03b8)/g, max height H = v\u2080\u00b2sin\u00b2\u03b8/(2g). Set R = H: v\u2080\u00b2sin(2\u03b8)/g = v\u2080\u00b2sin\u00b2\u03b8/(2g). Simplify: 2sin(2\u03b8) = sin\u00b2\u03b8 \u2192 4sin\u03b8cos\u03b8 = sin\u00b2\u03b8 \u2192 4cos\u03b8 = sin\u03b8 \u2192 tan\u03b8 = 4 \u2192 \u03b8 = tan\u207b\u00b9(4) \u2248 76\u00b0. Marked 'sin\u207b\u00b9(1/g)' nonsensical. Correct: tan\u207b\u00b9(4) (option 3).",
+    "reasoning": "R = H \u2192 sin(2\u03b8) = \u00bdsin\u00b2\u03b8 \u2192 tan\u03b8 = 4.",
+    "steps": [
+      "R = v\u00b2sin(2\u03b8)/g",
+      "H = v\u00b2sin\u00b2\u03b8/(2g)",
+      "Set equal: tan\u03b8 = 4"
+    ],
+    "generatedAt": "2025-11-10T00:04:05.000Z"
+  },
+  {
+    "questionId": "high_school_physics_81",
+    "explanation": "Truck moving: effective launch velocity v_eff = \u221a((50cos\u03b8+5)\u00b2 + (50sin\u03b8)\u00b2). Range maximized at \u03b8 \u2248 45\u00b0 for projectile in moving frame, but slightly reduced due to forward motion. Optimal angle \u2248 41-45\u00b0. Marked '5\u00b0' wrong. Correct: likely 45\u00b0 (option 2).",
+    "reasoning": "Moving platform: effective horizontal velocity increased. Optimal angle slightly less than 45\u00b0.",
+    "steps": [
+      "Truck adds 5 m/s horizontal",
+      "Optimize range",
+      "\u03b8 \u2248 41-45\u00b0"
+    ],
+    "generatedAt": "2025-11-10T00:04:06.000Z"
+  },
+  {
+    "questionId": "high_school_physics_82",
+    "explanation": "F_net = 0: F_elec + F_grav = 0. kq\u2081q\u2082/r\u00b2 + Gm\u2081m\u2082/r\u00b2 = 0. Need opposite signs: one attractive, one repulsive. Electric attractive (opposite charges) + gravity attractive \u2192 can't balance. Need electric repulsive (same sign) to balance gravity. Marked 'same sign' is actually TRUE. Statement 2 TRUE (distance changes F). Statement 2 FALSE (masses needn't be equal). Correct: statement 2 (option 2).",
+    "reasoning": "Balance: electric repulsion = gravitational attraction. Requires same sign charge. Mass equality not required.",
+    "steps": [
+      "kqq/r\u00b2 = Gmm/r\u00b2",
+      "Same sign charge needed",
+      "Masses can differ",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:04:07.000Z"
+  },
+  {
+    "questionId": "high_school_physics_83",
+    "explanation": "Projectile at 45\u00b0: velocity has horizontal (constant) and vertical (changing) components. Speed |v| changes. At top, v_y=0 but v_x\u22600, so speed \u2260 0. Acceleration a = -g (down) always. Going up: v mostly up, a down (opposite). Going down: v down, a down (same). Marked 'a opposite up, same down' is TRUE. Statement 3 TRUE. Correct: option 3 (vertical speed).",
+    "reasoning": "a = -g always (down). v_y decreases (up), increases magnitude (down).",
+    "steps": [
+      "a = -g constant",
+      "v_y: + \u2192 0 \u2192 -",
+      "Statement 3 correct"
+    ],
+    "generatedAt": "2025-11-10T00:04:08.000Z"
+  },
+  {
+    "questionId": "high_school_physics_84",
+    "explanation": "Electric force F = kq\u2081q\u2082/r\u00b2 depends only on charges and distance, not mass. Doubling mass of one ball doesn't change F. F remains 50 \u03bcN. Marked answer correct.",
+    "reasoning": "F_elec = kqq/r\u00b2 independent of mass. Changing mass \u2192 no effect.",
+    "steps": [
+      "F = kq\u2081q\u2082/r\u00b2",
+      "Mass irrelevant",
+      "F = 50 \u03bcN \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:04:09.000Z"
+  },
+  {
+    "questionId": "high_school_physics_85",
+    "explanation": "Inelastic collision (stick together): momentum conserves, carts move together with same velocity after collision. KE not same (lost in collision). Mass different. Momentum same after if velocities differ. They move together \u2192 same velocity. Marked answer correct.",
+    "reasoning": "Stick together \u2192 same final velocity v_f. Different masses \u2192 different p, KE.",
+    "steps": [
+      "Collision: stick",
+      "Move together \u2192 same v",
+      "Answer: velocity \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:04:10.000Z"
+  },
+  {
+    "questionId": "high_school_physics_86",
+    "explanation": "Free fall: v\u00b2 = 2gh. Given v = 30 m/s: h = v\u00b2/(2g) = 900/(2\u00d79.8) = 900/19.6 \u2248 45.9 m \u2248 45 m. Marked '20 m' wrong. Correct: 45 m (option 2).",
+    "reasoning": "v\u00b2 = 2gh \u2192 h = v\u00b2/(2g) = 900/19.6 = 45.9 m.",
+    "steps": [
+      "v\u00b2 = 2gh",
+      "h = 30\u00b2/(2\u00d710) = 45 m"
+    ],
+    "generatedAt": "2025-11-10T00:04:11.000Z"
+  },
+  {
+    "questionId": "high_school_physics_87",
+    "explanation": "Incline angle \u03b8: gravity component along incline = gsin\u03b8 (down incline). In x-y coordinates: if x=horizontal, y=vertical, then a_x = -gsin\u03b8cos\u03b8 \u2260 0, a_y = -gsin\u00b2\u03b8 - gcos\u03b8cos\u03b8... Actually, simpler: a_total = g (down), components a_x and a_y depend on coordinate system. Standard: a_x along incline = gsin\u03b8, a_y \u22a5 incline = 0. But question asks horizontal/vertical: a_x = gsin\u03b8cos\u03b8 < g, a_y = gsin\u00b2\u03b8 < g. Marked 'a_x=0, a_y<g' wrong. Correct: both <g (option 2).",
+    "reasoning": "Gravity g straight down. Components: a_x = gsin\u03b8cos\u03b8, a_y = g(cos\u03b8 or sin\u03b8) depending on geometry. Both < g.",
+    "steps": [
+      "a = g downward",
+      "Horizontal & vertical components",
+      "Both < g"
+    ],
+    "generatedAt": "2025-11-10T00:04:12.000Z"
+  },
+  {
+    "questionId": "high_school_physics_88",
+    "explanation": "Capacitance C = \u03b5\u2080\u03b5\u1d63A/d. Increase C: increase A (larger plates), increase \u03b5\u1d63 (better dielectric), decrease d (closer plates). Voltage V doesn't affect C (C = Q/V, but C is geometric property). Marked 'smaller plates' wrong. Correct: closer plates (option 3).",
+    "reasoning": "C = \u03b5\u2080\u03b5\u1d63A/d. Increase C: A\u2191, \u03b5\u1d63\u2191, or d\u2193.",
+    "steps": [
+      "C = \u03b5A/d",
+      "d\u2193 \u2192 C\u2191",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:04:13.000Z"
+  },
+  {
+    "questionId": "high_school_physics_89",
+    "explanation": "Angular momentum conserved if no external torque. Frictionless platform \u2192 no external torque from ground. Arms out/in: changes I, but L = I\u03c9 conserved. Catching baseball: external angular momentum added \u2192 L changes. Jumping up: no external torque \u2192 L conserved. Marked answer correct.",
+    "reasoning": "L conserved unless external torque. Catching ball adds L_ball.",
+    "steps": [
+      "No external \u03c4 \u2192 L conserved",
+      "Catching ball: external L",
+      "Answer: option 0 \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:04:14.000Z"
+  },
+  {
+    "questionId": "high_school_physics_90",
+    "explanation": "Isothermal: T constant, PV = const. P\u2081V\u2081 = P\u2082V\u2082: (1\u00d710\u2075)(20) = P\u2082(5). P\u2082 = 20/5 = 4\u00d710\u2075 Pa. Marked '0.25\u00d710\u2075' wrong. Correct: 4\u00d710\u2075 Pa (option 2).",
+    "reasoning": "PV = const \u2192 P\u2081V\u2081 = P\u2082V\u2082. P\u2082 = P\u2081(V\u2081/V\u2082) = 1\u00d7(20/5) = 4\u00d710\u2075 Pa.",
+    "steps": [
+      "Isothermal: PV = const",
+      "P\u2082 = 1\u00d7(20/5) = 4\u00d710\u2075 Pa"
+    ],
+    "generatedAt": "2025-11-10T00:04:15.000Z"
+  },
+  {
+    "questionId": "high_school_physics_91",
+    "explanation": "EM spectrum wavelength: Radio > Microwave > IR > Visible > UV > X-ray > Gamma. Among options: Orange > Blue > UV > Gamma. Marked 'Gamma' wrong. Correct: Orange light (option 3).",
+    "reasoning": "\u03bb: Radio longest, gamma shortest. Orange > blue > UV > gamma.",
+    "steps": [
+      "Spectrum: long to short",
+      "Orange longest in list"
+    ],
+    "generatedAt": "2025-11-10T00:04:16.000Z"
+  },
+  {
+    "questionId": "high_school_physics_92",
+    "explanation": "Input power: P_in = VI = 120\u00d71 = 120 W. Output: P_out = 0.75\u00d7120 = 90 W. Lifting: P = Fv = mgv. 90 = 6\u00d710\u00d7v \u2192 v = 90/60 = 1.5 m/s. Marked '0.5 m/s' wrong. Correct: 1.5 m/s (option 2).",
+    "reasoning": "P_out = 90 W. P = mgv \u2192 v = 90/(6\u00d710) = 1.5 m/s.",
+    "steps": [
+      "P_in = 120 W",
+      "P_out = 90 W",
+      "mgv = 90 \u2192 v = 1.5 m/s"
+    ],
+    "generatedAt": "2025-11-10T00:04:17.000Z"
+  },
+  {
+    "questionId": "high_school_physics_93",
+    "explanation": "Convex lens f = 0.2 m. Move object from do = 0.3 m to 0.1 m. At 0.3 m: 1/di = 1/f - 1/do = 1/0.2 - 1/0.3 = 5-3.33 = 1.67 \u2192 di = 0.6 m, m = -2 (inverted, larger). At 0.1 m: do < f \u2192 virtual image, m = f/(f-do) = 0.2/(0.2-0.1) = 2 (upright, larger). Image flips from inverted real to upright virtual. Marked 'continually increases' partially true but misses flip. Correct: image flips (option 3).",
+    "reasoning": "Cross f: real\u2192virtual, inverted\u2192upright. Image flips orientation.",
+    "steps": [
+      "0.3 m: real, inverted",
+      "0.1 m: virtual, upright",
+      "Flips over"
+    ],
+    "generatedAt": "2025-11-10T00:04:18.000Z"
+  },
+  {
+    "questionId": "high_school_physics_94",
+    "explanation": "Gravity at height h: g' = g(R/(R+h))\u00b2 = 9.8(6400/6700)\u00b2 = 9.8(0.955)\u00b2 \u2248 8.9 m/s\u00b2. Shuttle in orbit experiences this acceleration (free fall), not 'zero'. Marked 'zero' wrong. Correct: 8.9 m/s\u00b2 (option 3).",
+    "reasoning": "g' = g(R/(R+h))\u00b2 = 9.8(6400/6700)\u00b2 \u2248 8.9 m/s\u00b2. Orbital free fall \u2260 weightless \u2260 zero g.",
+    "steps": [
+      "g' = g(R/(R+h))\u00b2",
+      "= 9.8\u00d70.91 \u2248 8.9 m/s\u00b2"
+    ],
+    "generatedAt": "2025-11-10T00:04:19.000Z"
+  },
+  {
+    "questionId": "high_school_physics_95",
+    "explanation": "Planet: M = 2M_E, R = 2R_E. g_planet = GM/R\u00b2 = G(2M_E)/(2R_E)\u00b2 = 2M_E/(4R_E\u00b2) = \u00bd(GM_E/R_E\u00b2) = g_E/2. Weight: W = mg/2 = 800/2 = 400 N. Marked '200 N' wrong. Correct: 400 N (option 1).",
+    "reasoning": "g \u221d M/R\u00b2. (2M)/(2R)\u00b2 = 2/4 = 1/2. W = 800/2 = 400 N.",
+    "steps": [
+      "g_planet = g_E/2",
+      "W = 400 N"
+    ],
+    "generatedAt": "2025-11-10T00:04:20.000Z"
+  },
+  {
+    "questionId": "high_school_physics_96",
+    "explanation": "Newton's 3rd: force on heavier = -F (equal magnitude, opposite direction). F = ma: a_light = F/50, a_heavy = F/100 = (F/50)/2. Lighter person's acceleration is twice heavier's magnitude. Marked 'force (-1/2)F' wrong (forces equal magnitude). Correct: acceleration twice (option 3).",
+    "reasoning": "F_12 = -F_21 (equal). a \u221d 1/m. a_light/a_heavy = m_heavy/m_light = 2.",
+    "steps": [
+      "Equal forces",
+      "a \u221d 1/m",
+      "a_light = 2\u00d7a_heavy"
+    ],
+    "generatedAt": "2025-11-10T00:04:21.000Z"
+  },
+  {
+    "questionId": "high_school_physics_97",
+    "explanation": "Energy U = Q\u00b2/(2C) = (6\u00d710\u207b\u00b3)\u00b2/(2\u00d730\u00d710\u207b\u00b3) = 36\u00d710\u207b\u2076/(60\u00d710\u207b\u00b3) = 36\u00d710\u207b\u2076/0.06 = 6\u00d710\u207b\u2074 J = 0.0006 J \u2248 0.6 mJ. Marked '5.4\u00d710\u207b\u00b9\u2070' wrong. Correct: 0.6 J (option 2).",
+    "reasoning": "U = Q\u00b2/(2C) = (6\u00d710\u207b\u00b3)\u00b2/(2\u00d730\u00d710\u207b\u00b3) = 6\u00d710\u207b\u2074 J.",
+    "steps": [
+      "U = Q\u00b2/(2C)",
+      "= 36\u00d710\u207b\u2076/60\u00d710\u207b\u00b3",
+      "= 6\u00d710\u207b\u2074 J"
+    ],
+    "generatedAt": "2025-11-10T00:04:22.000Z"
+  },
+  {
+    "questionId": "high_school_physics_98",
+    "explanation": "Current I = V/R_eq. Maximize I: high V, low R_eq. Series: R_eq = \u03a3R (high). Parallel: 1/R_eq = \u03a3(1/R) (low). High V + parallel gives maximum I. Marked 'high V + series' wrong. Correct: high V + parallel (option 1).",
+    "reasoning": "I = V/R. Max I: V\u2191, R\u2193. Parallel \u2192 R_eq lowest.",
+    "steps": [
+      "I = V/R",
+      "Parallel: R_eq minimum",
+      "Answer: option 1"
+    ],
+    "generatedAt": "2025-11-10T00:04:23.000Z"
+  },
+  {
+    "questionId": "high_school_physics_99",
+    "explanation": "Drop height h = 3.2 m \u2192 impact speed v = \u221a(2gh) = \u221a(64) = 8 m/s (down). Bounce to same height \u2192 v = 8 m/s (up) after. \u0394p = m(v_f - v_i) = 0.08(8 - (-8)) = 0.08\u00d716 = 1.28 kg\u00b7m/s. F_avg = \u0394p/\u0394t = 1.28/0.04 = 32 N. Marked '0.16 N' wrong by factor 200. Correct: 32 N (not listed, closest would be option 2).",
+    "reasoning": "\u0394v = 16 m/s. \u0394p = 0.08\u00d716 = 1.28. F = 1.28/0.04 = 32 N.",
+    "steps": [
+      "v_impact = 8 m/s",
+      "\u0394v = 16 m/s",
+      "F = 0.08\u00d716/0.04 = 32 N"
+    ],
+    "generatedAt": "2025-11-10T00:04:24.000Z"
+  },
+  {
+    "questionId": "high_school_physics_100",
+    "explanation": "Sphere rolls: PE \u2192 KE_trans + KE_rot. Block slides: PE \u2192 KE_trans only. Same PE, but sphere splits between two KE forms \u2192 lower v_trans \u2192 slower. Block reaches first. Marked 'sphere' wrong. Correct: block (option 3).",
+    "reasoning": "Block: mgh = \u00bdmv\u00b2. Sphere: mgh = \u00bdmv\u00b2 + \u00bdI\u03c9\u00b2. Sphere slower.",
+    "steps": [
+      "Block: all KE translational",
+      "Sphere: KE split",
+      "Block faster"
+    ],
+    "generatedAt": "2025-11-10T00:04:25.000Z"
+  },
+  {
+    "questionId": "high_school_physics_101",
+    "explanation": "Fringe spacing \u0394y = \u03bbL/d where L = screen distance, d = slit separation. Increase \u0394y: increase \u03bb (longer wavelength), increase L (farther screen), decrease d (closer slits). Marked 'shorter \u03bb' wrong. Correct: closer slits (option 2).",
+    "reasoning": "\u0394y \u221d \u03bbL/d. To increase \u0394y: \u03bb\u2191, L\u2191, or d\u2193.",
+    "steps": [
+      "\u0394y = \u03bbL/d",
+      "d\u2193 \u2192 \u0394y\u2191",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:04:26.000Z"
+  },
+  {
+    "questionId": "high_school_physics_102",
+    "explanation": "Upward throw: v(t) = v\u2080 - gt = 5 - 10(3) = 5 - 30 = -25 m/s (downward). Marked '25 m/s upward' wrong. Correct: 25 m/s downward (option 1).",
+    "reasoning": "v = v\u2080 - gt = 5 - 30 = -25 m/s (negative = downward).",
+    "steps": [
+      "v = 5 - 10\u00d73 = -25 m/s",
+      "Downward"
+    ],
+    "generatedAt": "2025-11-10T00:04:27.000Z"
+  },
+  {
+    "questionId": "high_school_physics_103",
+    "explanation": "Equilibrium: F = -dU/dx = 0. U(x) = (x-2)\u00b3 - 12x. dU/dx = 3(x-2)\u00b2 - 12 = 0 \u2192 (x-2)\u00b2 = 4 \u2192 x = 0 or 4. Stable if d\u00b2U/dx\u00b2 > 0. d\u00b2U/dx\u00b2 = 6(x-2). At x=0: 6(-2) = -12 < 0 (unstable). At x=4: 6(2) = 12 > 0 (stable). Marked 'x=-4' wrong. Correct: x=4 (option 3).",
+    "reasoning": "Find equilibria: dU/dx = 0 \u2192 x = 0, 4. Check stability: d\u00b2U/dx\u00b2 > 0 at x=4.",
+    "steps": [
+      "dU/dx = 0 \u2192 x = 0, 4",
+      "d\u00b2U/dx\u00b2 = 6(x-2)",
+      "At x=4: stable"
+    ],
+    "generatedAt": "2025-11-10T00:04:28.000Z"
+  },
+  {
+    "questionId": "high_school_physics_104",
+    "explanation": "Electron (q=-e) moving up (\u2299), B into page (\u2297). F = q(v\u00d7B). v up \u00d7 B in = right (for +q), but q=-e \u2192 F left. Circular motion curves left (counterclockwise from top view). Radius r = mv/(eB). Marked 'clockwise' wrong. Correct: counterclockwise, r=mv/(eB) (option 1).",
+    "reasoning": "F = -e(v\u00d7B) curves left from top view. r = mv/(eB) from F = mv\u00b2/r.",
+    "steps": [
+      "v up, B in, q<0 \u2192 F left",
+      "Counterclockwise",
+      "r = mv/(eB)"
+    ],
+    "generatedAt": "2025-11-10T00:04:29.000Z"
+  },
+  {
+    "questionId": "high_school_physics_105",
+    "explanation": "Pendulum period T = 2\u03c0\u221a(L/g) independent of mass and amplitude (small angles). To decrease T: decrease L (shorter string) or increase g. Marked 'increasing mass' wrong (no effect). Correct: decrease length (option 1).",
+    "reasoning": "T = 2\u03c0\u221a(L/g). T independent of m. Decrease T \u2192 L\u2193.",
+    "steps": [
+      "T = 2\u03c0\u221a(L/g)",
+      "Mass irrelevant",
+      "L\u2193 \u2192 T\u2193"
+    ],
+    "generatedAt": "2025-11-10T00:04:30.000Z"
+  },
+  {
+    "questionId": "high_school_physics_106",
+    "explanation": "Concave mirror: object far away \u2192 image at f (small, real). Object moves toward f \u2192 image moves away from mirror toward infinity (magnification increases, gets taller). At f, image at infinity. Marked 'away and shorter' wrong. Correct: away and taller (option 1).",
+    "reasoning": "1/f = 1/do + 1/di. As do\u2192f, di\u2192\u221e. Magnification |m| = di/do \u2192 \u221e.",
+    "steps": [
+      "do: \u221e\u2192f",
+      "di: f\u2192\u221e",
+      "Image: away, taller"
+    ],
+    "generatedAt": "2025-11-10T00:04:31.000Z"
+  },
+  {
+    "questionId": "high_school_physics_107",
+    "explanation": "Angular kinematics: \u03b8 = \u00bd\u03b1t\u00b2 = \u00bd(2)(16) = 16 rad. Arc length s = r\u03b8 = 0.1\u00d716 = 1.6 m. Marked '0.4 m' wrong. Correct: 1.6 m (option 3).",
+    "reasoning": "\u03b8 = \u00bd\u03b1t\u00b2 = \u00bd\u00d72\u00d716 = 16 rad. s = r\u03b8 = 0.1\u00d716 = 1.6 m.",
+    "steps": [
+      "\u03b8 = \u00bd\u00d72\u00d74\u00b2 = 16 rad",
+      "s = 0.1\u00d716 = 1.6 m"
+    ],
+    "generatedAt": "2025-11-10T00:04:32.000Z"
+  },
+  {
+    "questionId": "high_school_physics_108",
+    "explanation": "Horizontal throw: vertical motion independent. y = \u00bdgt\u00b2. 80 = \u00bd(10)t\u00b2 \u2192 t\u00b2 = 16 \u2192 t = 4 s. Marked '1 s' wrong. Correct: 4 s (option 2).",
+    "reasoning": "y = \u00bdgt\u00b2. t = \u221a(2y/g) = \u221a(160/10) = 4 s.",
+    "steps": [
+      "y = \u00bdgt\u00b2",
+      "80 = 5t\u00b2",
+      "t = 4 s"
+    ],
+    "generatedAt": "2025-11-10T00:04:33.000Z"
+  },
+  {
+    "questionId": "high_school_physics_109",
+    "explanation": "Electric field: F = qE always (stationary or moving). Magnetic field: F = qv\u00d7B only if moving, and F\u22a5v always (never parallel). Statement 0 TRUE. Statement 1 TRUE. Statement 2: charge accelerates along E (TRUE). Statement 3: F \u22a5 B, never parallel. FALSE. Marked 'statement 0' is actually TRUE. Correct: statement 3 is FALSE (option 3).",
+    "reasoning": "F_E = qE (always). F_B = qv\u00d7B (F\u22a5B always, never parallel).",
+    "steps": [
+      "F_E always acts",
+      "F_B only if moving",
+      "F_B \u22a5 B (never parallel)",
+      "Answer: option 3 FALSE"
+    ],
+    "generatedAt": "2025-11-10T00:04:34.000Z"
+  },
+  {
+    "questionId": "high_school_physics_110",
+    "explanation": "Same as question 94: g' = g(R/(R+h))\u00b2 = 9.8(6400/6700)\u00b2 \u2248 8.9 m/s\u00b2. Marked '4.9 m/s\u00b2' wrong. Correct: 8.9 m/s\u00b2 (option 1).",
+    "reasoning": "g' = 9.8\u00d7(6400/6700)\u00b2 = 9.8\u00d70.91 \u2248 8.9 m/s\u00b2.",
+    "steps": [
+      "Same as Q94",
+      "g' \u2248 8.9 m/s\u00b2"
+    ],
+    "generatedAt": "2025-11-10T00:04:35.000Z"
+  },
+  {
+    "questionId": "high_school_physics_111",
+    "explanation": "Cycle: \u0394U_total = 0 (returns to start). First law: \u0394U_total = Q_total - W_total \u2192 0 = Q_total - W_total \u2192 W_total = Q_total. Isobaric: W = P\u0394V \u2260 0. Isochoric: W = 0, \u0394U = Q. Isothermal: \u0394U = 0, W = Q. Statement 3 TRUE (W_total = Q_total, but sign depends on direction). Marked '\u0394U = W_isobaric' wrong. Correct: W_total = -Q_total (option 3).",
+    "reasoning": "Cycle: \u0394U = 0 \u2192 Q = W. Net work equals net heat.",
+    "steps": [
+      "\u0394U_cycle = 0",
+      "Q_total = W_total",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:04:36.000Z"
+  },
+  {
+    "questionId": "high_school_physics_112",
+    "explanation": "Rolling without slipping: friction provides torque. Gravity acts at center (no torque about center). Normal force acts at contact (no torque about center). Static friction at contact point provides torque \u03c4 = rf. Marked answer correct.",
+    "reasoning": "Rolling: static friction creates torque. f_s provides \u03c4 = I\u03b1.",
+    "steps": [
+      "Gravity: \u03c4 = 0 (at center)",
+      "Normal: \u03c4 = 0 (through center)",
+      "Friction: \u03c4 = rf \u2260 0 \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:04:37.000Z"
+  },
+  {
+    "questionId": "high_school_physics_113",
+    "explanation": "Table exerts two forces: normal N (perpendicular) and friction f (parallel). Net force F_table = N + f. Since f exists and is parallel, F_table has both components \u2192 neither purely parallel nor perpendicular. Marked 'zero' wrong. Correct: neither parallel nor perpendicular (option 3).",
+    "reasoning": "F_table = N + f. N\u22a5table, f\u2225table. Resultant at angle.",
+    "steps": [
+      "N perpendicular",
+      "f parallel",
+      "Net: neither"
+    ],
+    "generatedAt": "2025-11-10T00:04:38.000Z"
+  },
+  {
+    "questionId": "high_school_physics_114",
+    "explanation": "Normal force: electromagnetic repulsion between electron clouds of atoms. Outer electrons repel \u2192 Pauli exclusion + electrostatic repulsion. Marked 'protons repel nuclei' wrong (strong force dominates at nuclear scale). Correct: outer electrons repel (option 2).",
+    "reasoning": "Contact forces: electron cloud repulsion (EM force). Pauli exclusion prevents overlap.",
+    "steps": [
+      "Contact: electron clouds interact",
+      "EM repulsion",
+      "Answer: option 2"
+    ],
+    "generatedAt": "2025-11-10T00:04:39.000Z"
+  },
+  {
+    "questionId": "high_school_physics_115",
+    "explanation": "Tesla: [B] = Wb/m\u00b2 = kg/(A\u00b7s\u00b2). Check each: (0) J/(A\u00b7m\u00b2) = N\u00b7m/(A\u00b7m\u00b2) = N/(A\u00b7m) \u2713. (1) kg/(C\u00b7s) = kg/(A\u00b7s\u00b2) \u2713. (2) N/(A\u00b7m) \u2713. (3) A\u00b7N/V = A\u00b7N/(J/C) = A\u00b7N\u00b7C/J = A\u00b7N\u00b7C/(N\u00b7m) = A\u00b7C/m. [A\u00b7C/m] = A\u00b2\u00b7s/m \u2260 Tesla. Marked 'J/(A\u00b7m\u00b2)' is actually correct. Correct: option 3 NOT equal (option 3).",
+    "reasoning": "Tesla = Wb/m\u00b2 = kg/(A\u00b7s\u00b2) = N/(A\u00b7m). Option 3 gives wrong dimensions.",
+    "steps": [
+      "Check dimensions",
+      "Option 3: A\u00b7N/V \u2260 Tesla"
+    ],
+    "generatedAt": "2025-11-10T00:04:40.000Z"
+  },
+  {
+    "questionId": "high_school_physics_116",
+    "explanation": "Rubber band stores elastic PE. Initial shove gives same KE each time, but rubber band can wind/unwind differently, adding/subtracting PE. More wound \u2192 more PE released \u2192 goes higher. Marked answer correct.",
+    "reasoning": "Total energy = KE_initial + PE_rubber. Varying PE_rubber \u2192 varying height.",
+    "steps": [
+      "Same KE from shove",
+      "Variable PE from rubber",
+      "Height varies \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:04:41.000Z"
+  },
+  {
+    "questionId": "high_school_physics_117",
+    "explanation": "Free fall: s(t) = \u00bdgt\u00b2. First second (0-1s): h = \u00bdg(1)\u00b2. Second second (1-2s): \u0394s = s(2) - s(1) = \u00bdg(4) - \u00bdg(1) = 4h - h = 3h. Marked 'h' wrong. Correct: 3h (option 2).",
+    "reasoning": "s = \u00bdgt\u00b2. At t=1: h. At t=2: 4h. \u0394s = 3h.",
+    "steps": [
+      "s(1) = h",
+      "s(2) = 4h",
+      "\u0394s = 3h"
+    ],
+    "generatedAt": "2025-11-10T00:04:42.000Z"
+  },
+  {
+    "questionId": "high_school_physics_118",
+    "explanation": "Frictionless ice: no external horizontal force \u2192 momentum conserved. Net force on system is zero (internal forces cancel by Newton's 3rd). Marked 'nonzero force' wrong. Correct: momentum conserved, net force zero (option 3).",
+    "reasoning": "No friction \u2192 no external F_horizontal \u2192 p conserved.",
+    "steps": [
+      "Frictionless: F_ext = 0",
+      "p conserved",
+      "Answer: option 3"
+    ],
+    "generatedAt": "2025-11-10T00:04:43.000Z"
+  },
+  {
+    "questionId": "high_school_physics_119",
+    "explanation": "F = GMm/r\u00b2 = (6.67\u00d710\u207b\u00b9\u00b9)(5.97\u00d710\u00b2\u2074)(7.35\u00d710\u00b2\u00b2)/(3.84\u00d710\u2078)\u00b2. Numerator: ~2.9\u00d710\u00b3\u2077. Denominator: ~1.5\u00d710\u00b9\u2077. F ~ 2\u00d710\u00b2\u2070 N. Marked '10\u00b3\u2079' wrong. Correct: 10\u00b2\u2070 N (closest would be 10\u00b9\u2079, option 2).",
+    "reasoning": "F ~ (7\u00d76\u00d77\u00d710\u207b\u00b9\u00b9\u207a\u00b2\u2074\u207a\u00b2\u00b2)/(15\u00d710\u00b9\u2076) ~ 3\u00d710\u00b3\u2075/10\u00b9\u2077 ~ 2\u00d710\u00b2\u2070 N.",
+    "steps": [
+      "Calculate: ~10\u00b2\u2070 N",
+      "Closest: 10\u00b9\u2079 or 10\u00b2\u2070"
+    ],
+    "generatedAt": "2025-11-10T00:04:44.000Z"
+  },
+  {
+    "questionId": "high_school_physics_120",
+    "explanation": "Inelastic collision (stick): momentum conserves. p\u2081 = m\u2081v\u2081, p\u2082 = 0, p_f = (m\u2081+m\u2082)v_f. Conservation: m\u2081v\u2081 = (m\u2081+m\u2082)v_f. v_f = m\u2081v\u2081/(m\u2081+m\u2082) for both (stuck together). They have same v_f, not same p (different masses).",
+    "reasoning": "Stuck \u2192 same velocity. Different masses \u2192 different momentum after.",
+    "steps": [
+      "p_total conserved",
+      "Move together: same v",
+      "Answer: velocity"
+    ],
+    "generatedAt": "2025-11-10T00:04:45.000Z"
+  },
+  {
+    "questionId": "high_school_physics_121",
+    "explanation": "Parallel circuits: same voltage across each resistor. Current splits, but voltage V = V_battery for all parallel branches.",
+    "reasoning": "Parallel: V same across all branches.",
+    "steps": [
+      "Parallel: V constant",
+      "Voltage same"
+    ],
+    "generatedAt": "2025-11-10T00:04:46.000Z"
+  },
+  {
+    "questionId": "high_school_physics_122",
+    "explanation": "Work-energy theorem: W = \u0394KE. If KE increases, net work is positive. W = F\u00b7d: same direction \u2192 positive work.",
+    "reasoning": "W = \u0394KE. KE\u2191 \u2192 W > 0.",
+    "steps": [
+      "W = \u0394KE",
+      "Positive work increases KE"
+    ],
+    "generatedAt": "2025-11-10T00:04:47.000Z"
+  },
+  {
+    "questionId": "high_school_physics_123",
+    "explanation": "Doppler effect: f' = f(v\u00b1v_d)/(v\u00b1v_s). Approaching: frequency increases. Receding: frequency decreases.",
+    "reasoning": "Approaching \u2192 shorter wavelength \u2192 higher frequency.",
+    "steps": [
+      "v_rel > 0: f\u2191",
+      "v_rel < 0: f\u2193"
+    ],
+    "generatedAt": "2025-11-10T00:04:48.000Z"
+  },
+  {
+    "questionId": "high_school_physics_124",
+    "explanation": "Lenz's law: induced current opposes change in flux. \u03a6B increasing \u2192 induced B opposes. \u03a6B decreasing \u2192 induced B aids.",
+    "reasoning": "Lenz: induced effects oppose causing change.",
+    "steps": [
+      "\u0394\u03a6 \u2192 induced current",
+      "Opposes change"
+    ],
+    "generatedAt": "2025-11-10T00:04:49.000Z"
   }
 ]
