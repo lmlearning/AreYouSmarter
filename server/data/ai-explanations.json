@@ -1248,5 +1248,352 @@
       "Verify"
     ],
     "generatedAt": "2025-11-10T00:01:31.000Z"
+  },
+  {
+    "questionId": "college_physics_91",
+    "explanation": "This is a duplicate of college_physics_38. The speed of light in a dielectric with \u03b5_r = 4.0 is v = c/n = c/\u221a\u03b5_r = (3\u00d710\u2078 m/s)/2 = 1.5\u00d710\u2078 m/s. The marked answer of 1.2\u00d710\u2079 m/s is incorrect (it exceeds c, which violates relativity). The correct answer is 1.5\u00d710\u2078 m/s (option 2).",
+    "reasoning": "For non-magnetic dielectrics: n = \u221a\u03b5_r = \u221a4 = 2. Speed in medium: v = c/n = 3\u00d710\u2078/2 = 1.5\u00d710\u2078 m/s. The marked answer 1.2\u00d710\u2079 m/s is physically impossible (faster than light).",
+    "steps": [
+      "Refractive index: n = \u221a\u03b5_r = \u221a4 = 2",
+      "Speed in dielectric: v = c/n = (3\u00d710\u2078)/2",
+      "Result: v = 1.5\u00d710\u2078 m/s",
+      "Marked answer 1.2\u00d710\u2079 m/s is incorrect"
+    ],
+    "generatedAt": "2025-11-10T00:02:00.000Z"
+  },
+  {
+    "questionId": "college_physics_92",
+    "explanation": "For capacitors in series, the equivalent capacitance is 1/C_eq = 1/C\u2081 + 1/C\u2082 = 1/3 + 1/6 = 1/2, so C_eq = 2 \u03bcF. Energy stored: U = \u00bdC_eq V\u00b2 = \u00bd(2\u00d710\u207b\u2076)(300)\u00b2 = \u00bd(2\u00d710\u207b\u2076)(9\u00d710\u2074) = 9\u00d710\u207b\u00b2 J = 0.09 J. The marked answer is correct.",
+    "reasoning": "Series capacitors: 1/C_eq = 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2, so C_eq = 2 \u03bcF. Energy: U = \u00bdCV\u00b2 = \u00bd(2\u00d710\u207b\u2076 F)(300 V)\u00b2 = \u00bd(2\u00d710\u207b\u2076)(90,000) = 0.09 J.",
+    "steps": [
+      "Series: 1/C_eq = 1/3 + 1/6 = 1/2",
+      "C_eq = 2 \u03bcF = 2\u00d710\u207b\u2076 F",
+      "Energy: U = \u00bdC_eq V\u00b2 = \u00bd(2\u00d710\u207b\u2076)(300)\u00b2",
+      "Calculate: U = \u00bd(2\u00d710\u207b\u2076)(90,000) = 0.09 J"
+    ],
+    "generatedAt": "2025-11-10T00:02:01.000Z"
+  },
+  {
+    "questionId": "college_physics_93",
+    "explanation": "This is a duplicate of college_physics_42. For electron diffraction with lattice spacing d = 0.4 nm, the de Broglie wavelength must be comparable: \u03bb \u2248 d. Using \u03bb = h/\u221a(2m_e KE) and solving for KE: KE = h\u00b2/(2m_e \u03bb\u00b2) \u2248 10 eV. The marked answer 0.1 eV would give \u03bb \u2248 4 nm, too large for diffraction. The correct answer is 10 eV (option 2).",
+    "reasoning": "Diffraction requires \u03bb \u2248 d = 0.4 nm. Calculate: KE = h\u00b2/(2m_e \u03bb\u00b2) = (6.626\u00d710\u207b\u00b3\u2074)\u00b2/(2\u00d79.109\u00d710\u207b\u00b3\u00b9\u00d71.6\u00d710\u207b\u00b9\u2079) \u2248 10 eV. At 0.1 eV, \u03bb \u2248 4 nm (no diffraction).",
+    "steps": [
+      "Diffraction condition: \u03bb \u2248 d = 0.4 nm",
+      "De Broglie: \u03bb = h/\u221a(2m_e KE)",
+      "Solve: KE = h\u00b2/(2m_e \u03bb\u00b2)",
+      "Calculate: KE \u2248 10 eV",
+      "Marked answer 0.1 eV is incorrect"
+    ],
+    "generatedAt": "2025-11-10T00:02:02.000Z"
+  },
+  {
+    "questionId": "college_physics_94",
+    "explanation": "For circular orbits, angular momentum L = mvr. Using Kepler's third law and v = \u221a(GM/r), we get L = m\u221a(GMr). If r_A = 2r_B and masses are identical: L_A/L_B = \u221a(r_A/r_B) = \u221a2. The marked answer '4' is incorrect; it would be correct for L \u221d r\u00b2 (not the case). The correct answer is \u221a2 (option 2).",
+    "reasoning": "Orbital velocity: v = \u221a(GM/r). Angular momentum: L = mvr = m\u221a(GM/r)\u00b7r = m\u221a(GMr). Ratio: L_A/L_B = \u221a(r_A/r_B) = \u221a(2r_B/r_B) = \u221a2. Marked answer 4 = (r_A/r_B)\u00b2 is wrong formula.",
+    "steps": [
+      "Circular orbit: v = \u221a(GM/r)",
+      "Angular momentum: L = mvr = m\u221a(GMr)",
+      "Given: r_A = 2r_B, same masses",
+      "Ratio: L_A/L_B = \u221a(r_A/r_B) = \u221a2",
+      "Marked answer 4 is incorrect",
+      "Correct: \u221a2 (option 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:03.000Z"
+  },
+  {
+    "questionId": "college_physics_95",
+    "explanation": "Horizontal projectile motion: vertical displacement h = \u00bdgt\u00b2 (no initial vertical velocity). Given t = 2.0 s: h = \u00bd(9.8 m/s\u00b2)(2.0 s)\u00b2 = \u00bd(9.8)(4.0) = 19.6 m. The marked answer 4.9 m would correspond to t = 1.0 s, not 2.0 s. The correct answer is 19.6 m (option 3).",
+    "reasoning": "Projectile motion: horizontal and vertical components independent. Vertical: h = \u00bdgt\u00b2 (starting from rest vertically). Calculate: h = \u00bd(9.8)(2.0)\u00b2 = \u00bd(9.8)(4) = 19.6 m. Note: horizontal speed (20 m/s) doesn't affect vertical motion.",
+    "steps": [
+      "Vertical motion: h = \u00bdgt\u00b2 (v\u2080_y = 0)",
+      "Given: t = 2.0 s, g = 9.8 m/s\u00b2",
+      "Calculate: h = \u00bd(9.8)(2.0)\u00b2",
+      "h = \u00bd(9.8)(4.0) = 19.6 m",
+      "Marked answer 4.9 m is wrong (would be t=1s)",
+      "Correct: 19.6 m (option 3)"
+    ],
+    "generatedAt": "2025-11-10T00:02:04.000Z"
+  },
+  {
+    "questionId": "college_physics_96",
+    "explanation": "Inelastic collision: momentum conserved, energy not. Initial: KE_i = \u00bd(2m)v\u00b2. After sticking: p_f = p_i gives (3m)v_f = (2m)v, so v_f = (2/3)v. Final KE: KE_f = \u00bd(3m)v_f\u00b2 = \u00bd(3m)(4v\u00b2/9) = (2/3)mv\u00b2. Fraction lost: (KE_i - KE_f)/KE_i = (mv\u00b2 - 2mv\u00b2/3)/mv\u00b2 = 1/3. The marked answer '0' suggests elastic collision, which is wrong for 'stick together.' The correct answer is 1/3 (option 2).",
+    "reasoning": "Perfectly inelastic (stick): momentum conserved, KE not. p_i = 2mv, p_f = 3mv_f \u2192 v_f = 2v/3. KE_i = mv\u00b2, KE_f = \u00bd(3m)(2v/3)\u00b2 = 2mv\u00b2/3. Lost: \u0394KE/KE_i = (mv\u00b2 - 2mv\u00b2/3)/mv\u00b2 = 1/3.",
+    "steps": [
+      "Initial: m\u2081 = 2m at v, m\u2082 = m at rest",
+      "Momentum: p_i = 2mv",
+      "After sticking: (3m)v_f = 2mv \u2192 v_f = 2v/3",
+      "KE_i = \u00bd(2m)v\u00b2 = mv\u00b2",
+      "KE_f = \u00bd(3m)(2v/3)\u00b2 = 2mv\u00b2/3",
+      "Fraction lost: 1 - KE_f/KE_i = 1/3",
+      "Marked answer 0 is incorrect",
+      "Correct: 1/3 (option 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:05.000Z"
+  },
+  {
+    "questionId": "college_physics_97",
+    "explanation": "This is a duplicate of college_physics_1. Thin film interference with oil (n=1.5) on water (n=1.33). For constructive interference with two phase shifts (both interfaces reflect from denser medium, net effect cancels): 2nt = m\u03bb. For m=3: \u03bb = 2nt/3 = 2(1.5)(500)/3 = 500 nm. The marked answer is correct for this specific order of interference.",
+    "reasoning": "Oil film on water: phase shifts at both interfaces cancel (2\u03c0 = 0 net). Constructive interference: 2nt = m\u03bb. For m=3: \u03bb = 2(1.5)(500)/3 = 1500/3 = 500 nm.",
+    "steps": [
+      "Oil: n=1.5, t=500 nm, on water n=1.33",
+      "Phase shifts cancel (net 0)",
+      "Constructive: 2nt = m\u03bb",
+      "For m=3: \u03bb = 2(1.5)(500)/3 = 500 nm",
+      "Answer: 500 nm \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:06.000Z"
+  },
+  {
+    "questionId": "college_physics_98",
+    "explanation": "Cyclotron frequency: f = qB/(2\u03c0m). Given: q = 2e, B = \u03c0/4 T, f = 1600 Hz. Solve for m: m = qB/(2\u03c0f) = 2e(\u03c0/4)/(2\u03c0\u00d71600) = 2(1.602\u00d710\u207b\u00b9\u2079)(\u03c0/4)/(2\u03c0\u00d71600) = e/(4\u00d71600) = (1.602\u00d710\u207b\u00b9\u2079)/(6400) = 2.5\u00d710\u207b\u00b2\u00b3 kg. The marked answer is correct.",
+    "reasoning": "Cyclotron frequency: f = qB/(2\u03c0m) for charged particle in magnetic field. Rearrange: m = qB/(2\u03c0f). Substitute: m = 2e(\u03c0/4)/(2\u03c0\u00d71600) = e/6400 = 2.5\u00d710\u207b\u00b2\u00b3 kg.",
+    "steps": [
+      "Cyclotron: f = qB/(2\u03c0m)",
+      "Given: q = 2e, B = \u03c0/4 T, f = 1600 Hz",
+      "Solve: m = qB/(2\u03c0f)",
+      "m = 2(1.602\u00d710\u207b\u00b9\u2079)(\u03c0/4)/(2\u03c0\u00d71600)",
+      "m = (1.602\u00d710\u207b\u00b9\u2079)/6400",
+      "m = 2.5\u00d710\u207b\u00b2\u00b3 kg \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:07.000Z"
+  },
+  {
+    "questionId": "college_physics_99",
+    "explanation": "Relative to the plane, the payload has zero horizontal velocity (both travel at 100 m/s north initially, horizontal velocity maintained). After 4.0 s, payload has fallen with vertical velocity v_y = gt = 9.8(4) = 39.2 \u2248 40 m/s downward. Relative to plane (which maintains altitude), payload velocity is 40 m/s down. The marked answer '0' is incorrect. The correct answer is '40 m/s down' (option 1).",
+    "reasoning": "In plane's reference frame: payload starts at rest (relative motion). Gravity acts: v_y = gt = 9.8\u00d74 = 39.2 m/s downward. Horizontal: no relative motion (both at 100 m/s north). Relative velocity: 40 m/s down.",
+    "steps": [
+      "Initially: both at 100 m/s north (no relative motion horizontally)",
+      "After release: payload's horizontal velocity unchanged (100 m/s north)",
+      "Vertical: v_y = gt = 9.8(4) = 39.2 m/s down",
+      "Relative to plane: 0 horizontal, 40 m/s vertical",
+      "Answer: 40 m/s down (option 1)",
+      "Marked answer '0' is incorrect"
+    ],
+    "generatedAt": "2025-11-10T00:02:08.000Z"
+  },
+  {
+    "questionId": "college_physics_100",
+    "explanation": "Positronium: electron and positron orbit their common center of mass. Reduced mass \u03bc = m_e/2 (since both have mass m_e). Energy levels: E_n = -13.6 eV/(2n\u00b2) (half of hydrogen due to reduced mass). Transition n=3 to n=1: \u0394E = 13.6/2(1/1\u00b2 - 1/3\u00b2) = 6.8(1 - 1/9) = 6.8(8/9) = 6.04 \u2248 6.0 eV. The marked answer '6.0 eV' is approximately correct, though '6.8 eV' (option 1 if corrected) would be more accurate as 13.6/2 = 6.8 eV for the full n=1 level.",
+    "reasoning": "Positronium: reduced mass system \u03bc = m_e m_e/(m_e + m_e) = m_e/2. Bohr energies scale with reduced mass: E_n = -13.6(\u03bc/m_e)/n\u00b2 = -6.8/n\u00b2 eV. Transition: \u0394E = 6.8(1 - 1/9) = 6.04 eV \u2248 6.0 eV.",
+    "steps": [
+      "Positronium: e\u207b and e\u207a, reduced mass \u03bc = m_e/2",
+      "Energy levels: E_n = -6.8/n\u00b2 eV (half of hydrogen)",
+      "n=3\u2192n=1: \u0394E = 6.8(1/1\u00b2 - 1/3\u00b2)",
+      "\u0394E = 6.8(8/9) = 6.04 eV",
+      "Answer: \u22486.0 eV \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:09.000Z"
+  },
+  {
+    "questionId": "college_physics_101",
+    "explanation": "Kepler's third law: T\u00b2 \u221d R\u00b3/M. Therefore T \u221d R^(3/2)/\u221aM. The period depends on the planet's mass M (not independent) and is proportional to R^(3/2). The marked answer 'independent of M' is incorrect. The correct answer is 'proportional to R^(3/2)' (option 3).",
+    "reasoning": "Orbital mechanics: centripetal force = gravity gives v\u00b2/R = GM/R\u00b2. Velocity v = 2\u03c0R/T. Substitute: 4\u03c0\u00b2R/T\u00b2 = GM/R\u00b2. Solve: T\u00b2 = 4\u03c0\u00b2R\u00b3/(GM), so T = 2\u03c0\u221a(R\u00b3/GM) \u221d R^(3/2)/\u221aM.",
+    "steps": [
+      "Centripetal: mv\u00b2/R = GMm/R\u00b2",
+      "Orbital: v = 2\u03c0R/T",
+      "Combine: 4\u03c0\u00b2R/T\u00b2 = GM/R\u00b2",
+      "Kepler's 3rd law: T\u00b2 = 4\u03c0\u00b2R\u00b3/(GM)",
+      "T \u221d R^(3/2) (and T \u221d 1/\u221aM)",
+      "Marked 'independent of M' is wrong",
+      "Correct: proportional to R^(3/2) (option 3)"
+    ],
+    "generatedAt": "2025-11-10T00:02:10.000Z"
+  },
+  {
+    "questionId": "high_school_physics_0",
+    "explanation": "Capacitor charge-voltage relation: Q = CV. Given C = 2 mF = 2\u00d710\u207b\u00b3 F and V = 5 V: Q = (2\u00d710\u207b\u00b3)(5) = 10\u00d710\u207b\u00b3 = 0.01 C. The marked answer 0.005 C is half the correct value. The correct answer is 0.01 C (option 1).",
+    "reasoning": "Basic capacitor equation: Q = CV. Calculate: Q = (2\u00d710\u207b\u00b3 F)(5 V) = 10\u00d710\u207b\u00b3 C = 0.01 C. Marked answer 0.005 C is incorrect (factor of 2 error).",
+    "steps": [
+      "Capacitor: Q = CV",
+      "Given: C = 2 mF = 2\u00d710\u207b\u00b3 F, V = 5 V",
+      "Calculate: Q = 2\u00d710\u207b\u00b3 \u00d7 5 = 0.01 C",
+      "Marked 0.005 C is wrong",
+      "Correct: 0.01 C (option 1)"
+    ],
+    "generatedAt": "2025-11-10T00:02:11.000Z"
+  },
+  {
+    "questionId": "high_school_physics_1",
+    "explanation": "Electric field strength vs. distance for different charge geometries: Point charge: E \u221d 1/r\u00b2 (inverse square). Finite rod: E \u221d 1/r\u00b2 (far field, like point charge). Infinite cylinder: E \u221d 1/r (Gauss's law, cylindrical symmetry). Infinite plane: E = constant (independent of distance). Infinite wire (magnetic): B \u221d 1/r. The finite rod behaves like a point charge at large distances, giving E \u221d 1/r\u00b2. The marked answer is correct.",
+    "reasoning": "Far-field behavior: finite charged rod \u2192 equivalent to point charge \u2192 E \u221d 1/r\u00b2. Other geometries: infinite cylinder E \u221d 1/r, plane E = const, wire B \u221d 1/r. Only finite rod gives 1/r\u00b2.",
+    "steps": [
+      "Point/finite source: E \u221d 1/r\u00b2",
+      "Infinite cylinder: E \u221d 1/r",
+      "Infinite plane: E = constant",
+      "Finite rod far field: E \u221d 1/r\u00b2",
+      "Answer: finite-length charged rod \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:12.000Z"
+  },
+  {
+    "questionId": "high_school_physics_2",
+    "explanation": "For a conductor with non-uniform surface charge, the electric field inside is zero (electrostatic equilibrium). Outside, the field is NOT zero (it depends on the total charge distribution). Very close to the surface, the boundary condition gives E_\u22a5 = \u03c3/\u03b5\u2080, where \u03c3 is local surface charge density. The marked answer 'E outside is zero' is completely wrong. The correct answer is option 3: E just outside surface equals \u03c3/\u03b5\u2080.",
+    "reasoning": "Conductor in equilibrium: E_inside = 0 always. E_outside \u2260 0 (depends on charge). Boundary condition at surface: E_\u22a5 = \u03c3/\u03b5\u2080 (perpendicular component). Marked answer 'E=0 outside' violates Maxwell's equations.",
+    "steps": [
+      "Conductor: E_inside = 0 (equilibrium)",
+      "E_outside \u2260 0 (charges create field)",
+      "Boundary: E_\u22a5 = \u03c3/\u03b5\u2080 at surface",
+      "\u03c3 varies with position (non-uniform)",
+      "Marked 'E=0 outside' is completely wrong",
+      "Correct: E = \u03c3/\u03b5\u2080 near surface (option 3)"
+    ],
+    "generatedAt": "2025-11-10T00:02:13.000Z"
+  },
+  {
+    "questionId": "high_school_physics_3",
+    "explanation": "For standing waves on a string with fixed length L, wavelength \u03bb = 2L/n where n is the number of antinodes. Frequency f is constant (100 Hz). Wave speed v = \u221a(T/\u03bc) where T is tension, \u03bc is linear mass density. Since f = v/\u03bb and f is constant, if T increases, v increases, so \u03bb must increase (\u03bb = v/f). The marked answer says \u03bb decreases, which is backwards. The correct answer is option 2: 'Greater, because tension varies directly with wave speed, which varies inversely with wavelength' is wrong - it should say 'directly with wavelength.' Actually option 2 has the conclusion right (Greater) but wrong reasoning.",
+    "reasoning": "Standing waves: \u03bb = 2L/n (fixed L). Wave equation: v = f\u03bb with f constant (100 Hz). String: v = \u221a(T/\u03bc). If T increases \u2192 v increases \u2192 \u03bb = v/f increases. Correct: wavelength increases.",
+    "steps": [
+      "Fixed f = 100 Hz, fixed length L",
+      "v = \u221a(T/\u03bc), increase T \u2192 increase v",
+      "v = f\u03bb, constant f \u2192 \u03bb \u221d v",
+      "Therefore: \u03bb increases",
+      "Marked answer says 'Less' - incorrect",
+      "Should be 'Greater' (option 2 or 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:14.000Z"
+  },
+  {
+    "questionId": "high_school_physics_4",
+    "explanation": "Capacitors in parallel share the same voltage (connected to same two points). Since they're identical, they also have the same capacitance (C). Using Q = CV, with same V and same C, they must have the same charge Q. Therefore, all three quantities (I, II, III) are the same. The marked answer 'I only' is incorrect. The correct answer is 'I, II, and III' (option 3).",
+    "reasoning": "Parallel capacitors: same voltage across each (by definition). Identical \u2192 same C. Q = CV \u2192 same V and C \u2192 same Q. All three quantities equal. Marked 'I only' is wrong.",
+    "steps": [
+      "Parallel: same V (by circuit topology)",
+      "Identical: same C (given)",
+      "Q = CV: same V and C \u2192 same Q",
+      "All three quantities (I, II, III) are equal",
+      "Marked 'I only' is incorrect",
+      "Correct: I, II, and III (option 3)"
+    ],
+    "generatedAt": "2025-11-10T00:02:15.000Z"
+  },
+  {
+    "questionId": "high_school_physics_5",
+    "explanation": "On a rough incline, friction converts some gravitational PE into thermal energy. Energy conservation: PE_initial = KE_final + E_thermal. Since E_thermal > 0 (friction present), KE_final < PE_initial. The marked answer says KE = PE (total mechanical energy conserved), which would only be true for a frictionless surface. The correct answer is option 2: 'Less than PE, because PE was converted both to thermal energy and to kinetic energy.'",
+    "reasoning": "Rough surface \u2192 friction does negative work. Energy: mgh = \u00bdmv\u00b2 + E_friction. Since E_friction > 0, we have \u00bdmv\u00b2 < mgh. Mechanical energy NOT conserved (thermal energy produced).",
+    "steps": [
+      "Initial: PE = mgh, KE = 0",
+      "Final: PE = 0, KE = \u00bdmv\u00b2, E_thermal > 0",
+      "Energy conservation: mgh = \u00bdmv\u00b2 + E_thermal",
+      "Therefore: \u00bdmv\u00b2 < mgh (KE < PE)",
+      "Marked answer 'KE = PE' assumes frictionless - wrong",
+      "Correct: KE < PE due to friction (option 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:16.000Z"
+  },
+  {
+    "questionId": "high_school_physics_6",
+    "explanation": "When a small mass m is placed on top of oscillating mass M, the combined system has mass (M+m) and oscillates with the spring. The small block experiences friction force (keeping it moving with M) and must not exceed maximum static friction \u03bc_s mg. The acceleration is maximum at maximum displacement (a_max = kA/(M+m) from F = ma for the system). The small block slides if a_max > \u03bc_s g, or kA/(M+m) > \u03bc_s g, which gives \u03bc_s < kA/[(M+m)g]. The given answer describes this condition correctly.",
+    "reasoning": "SHM: a = -\u03c9\u00b2x, max at x = A. Combined system: a_max = kA/(M+m). Small block needs friction to accelerate: f \u2264 \u03bc_s mg. Won't slide if \u03bc_s mg \u2265 ma_max = mkA/(M+m), so \u03bc_s \u2265 kA/[(M+m)g].",
+    "steps": [
+      "System oscillates with amplitude A",
+      "Max acceleration: a_max = \u03c9\u00b2A = kA/(M+m)",
+      "Small block needs f = ma_max to stay on",
+      "Max static friction: f_max = \u03bc_s mg",
+      "Won't slide if: \u03bc_s mg \u2265 mkA/(M+m)",
+      "Condition: \u03bc_s > kA/[(M+m)g]",
+      "Most likely to slide at max displacement (max a) \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:17.000Z"
+  },
+  {
+    "questionId": "high_school_physics_7",
+    "explanation": "Work to charge a capacitor equals energy stored: W = U = \u00bdCV\u00b2. Given C = 10 \u03bcF = 10\u00d710\u207b\u2076 F, V = 100 V: W = \u00bd(10\u00d710\u207b\u2076)(100)\u00b2 = \u00bd(10\u00d710\u207b\u2076)(10,000) = \u00bd(0.1) = 0.05 J. The marked answer 0.005 J is off by factor of 10. The correct answer is 0.05 J (option 2).",
+    "reasoning": "Energy stored in capacitor: U = \u00bdCV\u00b2. Calculate: U = \u00bd(10\u00d710\u207b\u2076 F)(100 V)\u00b2 = \u00bd(10\u00d710\u207b\u2076)(10\u2074) = 5\u00d710\u207b\u00b2 = 0.05 J. Marked 0.005 J is wrong (decimal error).",
+    "steps": [
+      "Energy: U = \u00bdCV\u00b2",
+      "C = 10 \u03bcF = 10\u00d710\u207b\u2076 F, V = 100 V",
+      "Calculate: U = \u00bd \u00d7 10\u00d710\u207b\u2076 \u00d7 10,000",
+      "U = \u00bd \u00d7 0.1 = 0.05 J",
+      "Marked 0.005 J is incorrect (factor 10 error)",
+      "Correct: 0.05 J (option 2)"
+    ],
+    "generatedAt": "2025-11-10T00:02:18.000Z"
+  },
+  {
+    "questionId": "high_school_physics_8",
+    "explanation": "Friction force f = \u03bcmg decelerates the box. Using Newton's second law: ma = -\u03bcmg, so a = -\u03bcg. Using kinematic equation v\u00b2 = v\u2080\u00b2 + 2ad with final v = 0: 0 = v\u2080\u00b2 + 2(-\u03bcg)d. Solving for d: d = v\u2080\u00b2/(2\u03bcg). The marked answer is correct.",
+    "reasoning": "Friction: f = \u03bcN = \u03bcmg (horizontal surface, N = mg). Acceleration: a = -f/m = -\u03bcg. Kinematics: v\u00b2 = v\u2080\u00b2 + 2ad. At rest: 0 = v\u2080\u00b2 - 2\u03bcgd. Solve: d = v\u2080\u00b2/(2\u03bcg).",
+    "steps": [
+      "Friction force: f = \u03bcmg",
+      "Acceleration: a = -\u03bcg (deceleration)",
+      "Kinematics: 0 = v\u2080\u00b2 + 2ad",
+      "Substitute: 0 = v\u2080\u00b2 - 2\u03bcgd",
+      "Solve: d = v\u2080\u00b2/(2\u03bcg) \u2713"
+    ],
+    "generatedAt": "2025-11-10T00:02:19.000Z"
+  },
+  {
+    "questionId": "high_school_physics_9",
+    "explanation": "Flight time for projectile: t = 2v\u2080sin\u03b8/g. Given v\u2080 = 10 m/s, \u03b8 = 30\u00b0: t = 2(10)sin(30\u00b0)/g = 2(10)(0.5)/9.8 = 10/9.8 \u2248 1.02 s \u2248 1 s. The marked answer 0.5 s is half the correct value (perhaps only time to peak). The correct answer is 1 s (option 1).",
+    "reasoning": "Projectile motion: total flight time t = 2v_y/g where v_y = v\u2080sin\u03b8. Calculate: v_y = 10sin(30\u00b0) = 5 m/s. t = 2(5)/9.8 = 10/9.8 \u2248 1 s. Marked 0.5 s is time to peak (half of total).",
+    "steps": [
+      "Vertical component: v_y = v\u2080sin\u03b8 = 10sin(30\u00b0) = 5 m/s",
+      "Time to peak: t_up = v_y/g = 5/9.8 \u2248 0.51 s",
+      "Total flight: t_total = 2t_up \u2248 1.0 s",
+      "Marked 0.5 s is only half (to peak)",
+      "Correct: 1 s (option 1)"
+    ],
+    "generatedAt": "2025-11-10T00:02:20.000Z"
+  },
+  {
+    "questionId": "high_school_physics_10",
+    "explanation": "At thermal equilibrium (same temperature), average kinetic energy per molecule is the same for all gases: \u27e8KE\u27e9 = (3/2)k_BT (equipartition theorem). Since T is the same, \u27e8KE\u27e9 is the same, making the marked answer incorrect. However, density differs: \u03c1 = mass/volume. Hydrogen (H\u2082, M=2 g/mol) is much less dense than nitrogen (N\u2082, M=28 g/mol). The correct answer is option 2: 'The density of hydrogen is less than nitrogen.'",
+    "reasoning": "Thermal equilibrium \u2192 same T \u2192 same \u27e8KE\u27e9 = (3/2)k_BT (universal). Density: \u03c1 = PM/(RT) for ideal gas. Same P, T, volume \u2192 \u03c1 \u221d M. H\u2082 (M=2) << N\u2082 (M=28) \u2192 \u03c1_H\u2082 < \u03c1_N\u2082.",
+    "steps": [
+      "Equilibrium: same temperature T",
+      "Equipartition: \u27e8KE\u27e9 = (3/2)k_BT (equal for both)",
+      "Marked 'H\u2082 has greater KE' is wrong",
+      "Density: \u03c1 = PM/(RT), \u03c1 \u221d M",
+      "H\u2082: M = 2 g/mol, N\u2082: M = 28 g/mol",
+      "Therefore: \u03c1_H\u2082 < \u03c1_N\u2082",
+      "Correct: option 2 (density comparison)"
+    ],
+    "generatedAt": "2025-11-10T00:02:21.000Z"
+  },
+  {
+    "questionId": "high_school_physics_11",
+    "explanation": "Torque balance for see-saw: \u03c4 = rF. Currently: girl at distance r (torque mr\u00b7g), boy at distance r (torque 2mr\u00b7g). Boy's side wins (2mr\u00b7g > mr\u00b7g). To balance: move girl to 2r (torque 2mr\u00b7g \u2713), or move boy to r/2 (torque mr\u00b7g \u2713), or add another girl (torque 2mr\u00b7g \u2713), or move fulcrum. Option 0 says move boy to r/2 - this WOULD balance it! Let me recalculate: boy at r/2 gives torque 2m(r/2)g = mr\u00b7g = girl's torque. This DOES work. So the marked answer is wrong - all options would work except possibly the fulcrum one. Need to check option 3: moving fulcrum to halfway between current center and boy means fulcrum moves r/2 toward boy, making boy's distance r/2 and girl's distance 3r/2, giving torques mr\u00b7g vs 3mr\u00b7g/2 - doesn't balance.",
+    "reasoning": "Torque balance: \u03a3\u03c4 = 0. Initial: 2mg\u00b7r (boy) vs mg\u00b7r (girl), unbalanced. Options: (0) Boy r\u2192r/2: 2mg\u00b7r/2 = mg\u00b7r \u2713 balances. (1) Girl r\u21922r: mg\u00b72r = 2mg\u00b7r \u2713 balances. (2) Add girl: 2mg\u00b7r vs 2mg\u00b7r \u2713 balances. (3) Fulcrum: creates asymmetry - need to analyze carefully.",
+    "steps": [
+      "Initial: boy 2m at r, girl m at r (unbalanced)",
+      "Option 0: boy to r/2 \u2192 torque mr\u00b7g = girl's \u2192 BALANCES",
+      "Option 1: girl to 2r \u2192 torque 2mr\u00b7g = boy's \u2192 BALANCES",
+      "Option 2: add girl \u2192 2mg\u00b7r each side \u2192 BALANCES",
+      "Option 3: move fulcrum - geometry complex, likely doesn't balance",
+      "Marked answer 'option 0 won't work' is WRONG - it does work",
+      "Correct: option 3 (fulcrum move) likely won't balance"
+    ],
+    "generatedAt": "2025-11-10T00:02:22.000Z"
+  },
+  {
+    "questionId": "high_school_physics_12",
+    "explanation": "Heat transfer in fluids occurs through molecular collisions. When hot water mixes with cold alcohol, fast-moving water molecules collide with slower alcohol molecules, transferring kinetic energy until thermal equilibrium (same average KE) is reached. The marked answer about water rising is incorrect - this describes convection but not the fundamental mechanism. The correct answer is option 3: 'Water molecules collide with alcohol molecules, transferring energy until average KE is the same.'",
+    "reasoning": "Thermal equilibrium: molecular collisions transfer energy. Hot water molecules (high KE) collide with cold alcohol molecules (low KE). Energy transfers until \u27e8KE\u27e9 equalized. This is fundamental heat transfer mechanism (conduction/mixing).",
+    "steps": [
+      "Mixing fluids: molecular collisions occur",
+      "Hot water: high molecular KE",
+      "Cold alcohol: low molecular KE",
+      "Collisions: energy transfers from fast to slow",
+      "Equilibrium: \u27e8KE\u27e9 becomes equal (same T)",
+      "Marked answer about rising water is incomplete",
+      "Correct: molecular collisions (option 3)"
+    ],
+    "generatedAt": "2025-11-10T00:02:23.000Z"
+  },
+  {
+    "questionId": "high_school_physics_13",
+    "explanation": "Rotational dynamics: torque \u03c4 = I\u03b1 where \u03b1 is angular acceleration. Friction creates torque: \u03c4 = rF = 0.30(2.0) = 0.6 N\u00b7m. Angular acceleration: \u03b1 = \u03c4/I = 0.6/0.06 = 10 rad/s\u00b2. To stop: \u03c9 = \u03c9\u2080 + \u03b1t, with \u03c9 = 0, \u03c9\u2080 = 20 rad/s, \u03b1 = -10 rad/s\u00b2: 0 = 20 - 10t, so t = 2 s. The marked answer 4 s is incorrect (off by factor 2). The correct answer is 2 s (option 1).",
+    "reasoning": "Torque: \u03c4 = rF = 0.30\u00d72.0 = 0.6 N\u00b7m. Angular acceleration: \u03b1 = \u03c4/I = 0.6/0.06 = 10 rad/s\u00b2 (deceleration). Kinematics: \u03c9 = \u03c9\u2080 - \u03b1t. Stop: 0 = 20 - 10t \u2192 t = 2 s.",
+    "steps": [
+      "Friction torque: \u03c4 = rF = 0.30 \u00d7 2.0 = 0.6 N\u00b7m",
+      "Angular acceleration: \u03b1 = \u03c4/I = 0.6/0.06 = 10 rad/s\u00b2",
+      "Rotational kinematics: \u03c9 = \u03c9\u2080 - \u03b1t",
+      "Stop condition: 0 = 20 - 10t",
+      "Solve: t = 2 s",
+      "Marked 4 s is incorrect",
+      "Correct: 2 s (option 1)"
+    ],
+    "generatedAt": "2025-11-10T00:02:24.000Z"
   }
 ]
