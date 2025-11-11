@@ -26109,5 +26109,215 @@
       "Answer: Use of confounding variable to control placebo effect"
     ],
     "generatedAt": "2025-11-10T08:23:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_71",
+    "explanation": "Let's examine each statement about Type I and Type II errors: (A) Type II error doesn't depend on Type I error probability: While \u03b1 (Type I error) and \u03b2 (Type II error) are inversely related in practice, they are defined independently. \u03b2 depends on effect size, sample size, and the true parameter value, not directly on \u03b1. This statement has some truth but is nuanced. (B) Simultaneously make both errors: IMPOSSIBLE. Type I error = rejecting true H\u2080. Type II error = failing to reject false H\u2080. H\u2080 is either true or false (not both), so you can't make both errors on the same test. (C) Type II error from assuming normality: This is a violation of assumptions, not a Type II error. (D) When you choose \u03b1, you set P(Type I error) = \u03b1: TRUE. This is the definition of significance level.",
+    "reasoning": "By definition, significance level \u03b1 = P(Type I error | H\u2080 true). When we choose \u03b1 = 0.05, we're directly setting the Type I error rate to 5%. This is a fundamental principle of hypothesis testing.",
+    "steps": [
+      "Type I error occurs when H\u2080 is true but rejected",
+      "Type II error occurs when H\u2080 is false but not rejected",
+      "Statement B: Can't make both errors (H\u2080 is either true or false)",
+      "Statement D: \u03b1 = P(Type I error) by definition \u2713",
+      "Answer: Setting \u03b1 sets P(Type I error) to exactly \u03b1"
+    ],
+    "generatedAt": "2025-11-10T08:40:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_72",
+    "explanation": "The measurement is defined as (60th percentile) - (40th percentile). Percentiles divide data into ordered sections. The difference between the 60th and 40th percentiles spans 20% of the data in the middle-lower portion of the distribution. This measures the SPREAD or VARIABILITY of the central portion of data, not central tendency (which would be measures like mean or median). It's similar to the interquartile range (Q3 - Q1), which measures spread. This measurement tells us about how spread out or compressed the data values are in that middle range.",
+    "reasoning": "Any measure of distance or difference between data points indicates variability/spread. The 60th-40th percentile difference measures the spread of the middle portion of the distribution, making it a measure of variability.",
+    "steps": [
+      "60th percentile - 40th percentile = span of middle 20% of data",
+      "This measures spread/width of distribution",
+      "Central tendency = single value representing center (mean, median)",
+      "Variability = how spread out data is (range, IQR, SD)",
+      "This measurement indicates spread",
+      "Answer: Variability"
+    ],
+    "generatedAt": "2025-11-10T08:42:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_73",
+    "explanation": "Binomial distribution requirements: (1) Fixed number of trials n. (2) Each trial has exactly two outcomes (success/failure). (3) Trials are independent. (4) Constant probability p of success. Let's check the options: (A) Success or failure: REQUIRED for binomial. (B) Independent trials: REQUIRED for binomial. (C) Number of trials until first success: This describes a GEOMETRIC distribution, NOT binomial. Binomial counts successes in a fixed number of trials, not trials until success. (D) Fixed number of trials: REQUIRED for binomial. Option C describes a different probability distribution (geometric), so it's NOT required for binomial.",
+    "reasoning": "Binomial = fixed n trials, counting number of successes. Geometric = variable number of trials until first success. These are different distributions. Statement C describes geometric, not binomial.",
+    "steps": [
+      "Binomial requirements: fixed n, two outcomes, independent, constant p",
+      "Option A: Success/failure - binomial requirement \u2713",
+      "Option B: Independence - binomial requirement \u2713",
+      "Option C: Trials until first success - geometric distribution \u2717",
+      "Option D: Fixed trials - binomial requirement \u2713",
+      "Answer: Trials until first success (not required for binomial)"
+    ],
+    "generatedAt": "2025-11-10T08:44:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_74",
+    "explanation": "We need to find the standard deviation of total weight = books + box + packing. Given: Books: \u03bc = 25 lb, \u03c3 = 2 lb. Box: \u03bc = 1 lb, \u03c3 = 0.15 lb. Packing: \u03bc = 2 lb, \u03c3 = 0.25 lb. For INDEPENDENT random variables, when adding: Var(X + Y + Z) = Var(X) + Var(Y) + Var(Z). Calculate variances: Var(books) = 2\u00b2 = 4, Var(box) = 0.15\u00b2 = 0.0225, Var(packing) = 0.25\u00b2 = 0.0625. Total variance = 4 + 0.0225 + 0.0625 = 4.085. Standard deviation = \u221a4.085 \u2248 2.021 pounds.",
+    "reasoning": "When adding independent random variables, variances add (not standard deviations). SD(total) = \u221a[Var(books) + Var(box) + Var(packing)] = \u221a[4 + 0.0225 + 0.0625] = \u221a4.085 \u2248 2.021.",
+    "steps": [
+      "Variances add for independent RVs: Var(X+Y+Z) = Var(X) + Var(Y) + Var(Z)",
+      "Var(books) = 2\u00b2 = 4.000",
+      "Var(box) = 0.15\u00b2 = 0.0225",
+      "Var(packing) = 0.25\u00b2 = 0.0625",
+      "Total variance = 4.085",
+      "SD = \u221a4.085 \u2248 2.021 pounds",
+      "Answer: 2.021 pounds"
+    ],
+    "generatedAt": "2025-11-10T08:46:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_75",
+    "explanation": "Sample size increases from 200 to 2,000. The sampling distribution of sample proportion p\u0302 has standard error: SE = \u221a[p(1-p)/n]. When sample size increases, the denominator increases, so SE DECREASES. A smaller standard error means the distribution becomes LESS spread out (more concentrated around the true proportion). This follows from the law of large numbers - larger samples give more precise estimates. Therefore, increasing sample size from 200 to 2,000 will make the distribution of sample proportion LESS spread out, not more spread out.",
+    "reasoning": "SE of sample proportion = \u221a[p(1-p)/n]. When n increases (200 \u2192 2000), SE decreases (denominator gets bigger). Smaller SE means less spread, more precision, distribution more tightly concentrated around p.",
+    "steps": [
+      "SE(p\u0302) = \u221a[p(1-p)/n]",
+      "Increase n: 200 \u2192 2,000 (10 times larger)",
+      "Effect: SE becomes \u221a10 \u2248 3.16 times smaller",
+      "Smaller SE = less spread = more concentrated",
+      "Answer: Distribution will be LESS spread out"
+    ],
+    "generatedAt": "2025-11-10T08:48:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_76",
+    "explanation": "Survey: 256 out of 400 are undecided. Sample proportion: p\u0302 = 256/400 = 0.64 or 64%. Question asks: how sure are we that the true proportion is between 60% and 68%? This asks for the confidence level corresponding to the interval (0.60, 0.68). Standard error: SE = \u221a[0.64(0.36)/400] = \u221a0.000576 = 0.024. Margin of error to reach 0.60 or 0.68: |0.64 - 0.60| = 0.04 or |0.68 - 0.64| = 0.04. Number of SEs: 0.04/0.024 = 1.67. Looking at z-table: z = 1.67 corresponds to about 90.4% confidence (captures middle 90.4% of distribution).",
+    "reasoning": "The interval 0.60 to 0.68 is p\u0302 \u00b1 0.04. With SE = 0.024, this is p\u0302 \u00b1 1.67 SE. For z = 1.67, the two-tailed probability is about 0.904 or 90.4%.",
+    "steps": [
+      "p\u0302 = 256/400 = 0.64",
+      "SE = \u221a[0.64(0.36)/400] = 0.024",
+      "Interval: 0.60 to 0.68 = 0.64 \u00b1 0.04",
+      "z-score: 0.04/0.024 \u2248 1.67",
+      "P(|Z| < 1.67) \u2248 0.904 = 90.4%",
+      "Answer: 90.4%"
+    ],
+    "generatedAt": "2025-11-10T08:50:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_77",
+    "explanation": "Individual player weight: \u03bc = 248 lb, \u03c3 = 47 lb. Random variable W = total weight of 4 players = X\u2081 + X\u2082 + X\u2083 + X\u2084. For independent random variables: E(W) = E(X\u2081 + X\u2082 + X\u2083 + X\u2084) = 4\u03bc = 4(248) = 992 lb \u2713 (matches given). For standard deviation: Var(W) = Var(X\u2081) + Var(X\u2082) + Var(X\u2083) + Var(X\u2084) = 4\u03c3\u00b2 = 4(47\u00b2) = 4(2209) = 8836. Therefore: SD(W) = \u221a8836 = 94 pounds.",
+    "reasoning": "When adding n independent identically distributed variables: E(sum) = n\u03bc and Var(sum) = n\u03c3\u00b2. So SD(sum) = \u221a(n\u03c3\u00b2) = \u03c3\u221an. Here: SD(W) = 47\u221a4 = 47(2) = 94 pounds.",
+    "steps": [
+      "W = X\u2081 + X\u2082 + X\u2083 + X\u2084 (4 players)",
+      "E(W) = 4(248) = 992 lb \u2713",
+      "Var(W) = 4(47\u00b2) = 4(2209) = 8836",
+      "SD(W) = \u221a8836 = 94 pounds",
+      "Or directly: SD = \u03c3\u221an = 47\u221a4 = 94",
+      "Answer: 94 pounds"
+    ],
+    "generatedAt": "2025-11-10T08:52:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_78",
+    "explanation": "P-value = 0.20 means: IF the null hypothesis were true, there's a 20% probability of getting results as extreme as (or more extreme than) what we actually observed, just by random chance. This is the formal definition of a P-value. Let's evaluate options: (A) Probability of getting finding at least as extreme by chance if H\u2080 true = 0.20: CORRECT. This is the definition. (B) Probability from repeated sampling = 0.20: Incomplete/unclear. (C) Probability finding is significant = 0.20: Incorrect - P-value is NOT probability of significance. (D) Probability of getting this finding = 0.20: Incomplete - missing 'if H\u2080 true' condition.",
+    "reasoning": "P-value = P(observed data or more extreme | H\u2080 is true). It's a conditional probability that assumes H\u2080 is true. Option A correctly states this definition.",
+    "steps": [
+      "P-value definition: P(data as extreme or more | H\u2080 true)",
+      "Given: P-value = 0.20",
+      "Option A: Correct definition with 'if H\u2080 true' condition \u2713",
+      "Option C: P-value \u2260 P(significant)",
+      "Option D: Missing conditional 'if H\u2080 true'",
+      "Answer: Probability of \u2265 this extreme by chance if H\u2080 true"
+    ],
+    "generatedAt": "2025-11-10T08:54:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_79",
+    "explanation": "Chi-square test for independence uses contingency tables. Let's examine what's true: (A) Categories not numerical: TRUE - chi-square for independence uses categorical variables. (B) Observed frequencies should be whole numbers: TRUE - you observe counts (people, items), which are integers. (C) Expected frequencies should be whole numbers: FALSE - expected values are calculated as (row total \u00d7 column total)/grand total, which often produces decimals like 12.7 or 8.3. Expected frequencies don't need to be whole numbers. (D) Expected frequencies \u2265 5 per cell: TRUE - this is the rule of thumb for validity. Statement C is NOT true.",
+    "reasoning": "Expected frequencies are calculated values (not counted data), so they're typically decimal values. For example, if expected = (40 \u00d7 30)/100 = 12, but usually you get values like 12.7. Only observed frequencies must be whole numbers.",
+    "steps": [
+      "Observed frequencies: actual counts \u2192 whole numbers \u2713",
+      "Expected frequencies: (row total \u00d7 col total)/n \u2192 often decimals",
+      "Option C: Expected should be whole numbers - FALSE \u2717",
+      "Expected frequencies are calculated, not counted",
+      "They're typically decimal values",
+      "Answer: Expected frequencies should be whole numbers (NOT TRUE)"
+    ],
+    "generatedAt": "2025-11-10T08:56:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_80",
+    "explanation": "Z-score = -2 for this week's running time. The z-score formula is z = (x - \u03bc)/\u03c3, where x is the value, \u03bc is the mean, and \u03c3 is the standard deviation. A z-score of -2 means: z = (this week's time - average time) / SD = -2. This tells us: this week's time = average time - 2(SD). In other words, this week's time was 2 STANDARD DEVIATIONS lower (faster, since lower time is better) than his average time, NOT 2 minutes lower. We don't know if SD = 1 minute or 5 minutes - z-scores measure deviations in units of standard deviation, not raw time units.",
+    "reasoning": "Z-score measures how many standard deviations a value is from the mean. z = -2 means 2 SDs below the mean. Without knowing \u03c3, we can't say it's 2 minutes - could be 2(\u03c3) minutes where \u03c3 is unknown.",
+    "steps": [
+      "Given: z = -2 for this week's time",
+      "Formula: z = (x - \u03bc)/\u03c3",
+      "-2 = (x - \u03bc)/\u03c3 \u2192 x = \u03bc - 2\u03c3",
+      "Interpretation: 2 standard deviations below average",
+      "NOT 2 minutes (unless \u03c3 = 1 minute)",
+      "Answer: Two standard deviations lower than average"
+    ],
+    "generatedAt": "2025-11-10T08:58:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_81",
+    "explanation": "LSAT scores: \u03bc = 650, \u03c3 = 45, normally distributed. Only applicants with scores > 700 are considered. Among those considered (scores > 700), what percentage have scores < 740? This is a conditional probability problem. Calculate z-scores: For 700: z = (700-650)/45 = 50/45 \u2248 1.11. For 740: z = (740-650)/45 = 90/45 = 2.0. P(X > 700) = P(Z > 1.11) \u2248 0.1335 or 13.35%. P(X > 740) = P(Z > 2.0) \u2248 0.0228 or 2.28%. Among those with X > 700, the proportion with X < 740: P(700 < X < 740 | X > 700) = P(700 < X < 740) / P(X > 700) = (0.1335 - 0.0228) / 0.1335 = 0.1107 / 0.1335 \u2248 0.829 or 82.9%.",
+    "reasoning": "Among applicants with scores > 700, we want P(X < 740 | X > 700) = P(700 < X < 740) / P(X > 700). Calculate both areas and divide.",
+    "steps": [
+      "z-score for 700: (700-650)/45 \u2248 1.11",
+      "z-score for 740: (740-650)/45 = 2.0",
+      "P(Z > 1.11) \u2248 0.1335 (above 700)",
+      "P(Z > 2.0) \u2248 0.0228 (above 740)",
+      "P(700 < X < 740) = 0.1335 - 0.0228 = 0.1107",
+      "Conditional: 0.1107/0.1335 \u2248 0.829 = 82.9%",
+      "Answer: 82.9%"
+    ],
+    "generatedAt": "2025-11-10T09:00:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_82",
+    "explanation": "Mary scored at 64th percentile, Pam at 56th percentile. Percentiles tell us the percentage of scores below a given value, but NOT the actual point values or differences. Let's evaluate: (A) Mary scored 8 more points: FALSE - percentile difference \u2260 point difference. Mary could have scored 85 and Pam 84 (1 point apart) if many people scored around 84-85. (B) Mary's score 8% higher: FALSE - we don't know actual scores to calculate percentage. (C) 8% scored between Pam and Mary: TRUE - Mary is at 64th percentile (64% scored below her), Pam is at 56th percentile (56% scored below her). Therefore, 64% - 56% = 8% scored between them. (D) 36 people scored higher than both: We don't know total number of test-takers, so can't determine this.",
+    "reasoning": "Percentile difference tells us the percentage of the distribution between two values. 64th percentile - 56th percentile = 8% of test-takers scored between Pam and Mary.",
+    "steps": [
+      "Mary: 64th percentile (64% scored below her)",
+      "Pam: 56th percentile (56% scored below her)",
+      "Between them: 64% - 56% = 8% of test-takers",
+      "Option A: Percentiles \u2260 point differences \u2717",
+      "Option C: 8% scored between them \u2713",
+      "Answer: 8% scored between Pam and Mary"
+    ],
+    "generatedAt": "2025-11-10T09:02:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_83",
+    "explanation": "This is an OBSERVATIONAL study showing association between green tea consumption and lower depression incidence. From observational studies, we CANNOT conclude causation - we can only identify associations. Let's evaluate statements: (A) Possible that tea drinkers have healthier lifestyles: TRUE and SHOULD be stated - this is a potential confounding variable. (B) Possible tea drinkers have more positive outlook: TRUE and SHOULD be stated - another potential confounding variable. (C) Association doesn't indicate causation: TRUE and SHOULD be stated - fundamental principle for observational data. (D) People should consider drinking tea to avoid depression: SHOULD NOT be stated - this implies causation, which observational studies cannot establish. We don't know if tea causes lower depression or if other factors are responsible.",
+    "reasoning": "Observational studies cannot prove causation. Making recommendations based on observational associations (option D) is inappropriate - it suggests causation when we only have correlation. Options A, B, C appropriately acknowledge limitations.",
+    "steps": [
+      "Study is observational (not experimental)",
+      "Can show association, NOT causation",
+      "Options A, B, C: Acknowledge confounding/limitations \u2713",
+      "Option D: Recommends action based on correlation",
+      "D implies causation from observational data",
+      "Answer: Should NOT recommend drinking tea based on this study"
+    ],
+    "generatedAt": "2025-11-10T09:04:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_84",
+    "explanation": "Sampling procedure: The 125 school districts serve as strata. Within each district, a random sample of principals is selected. This is STRATIFIED random sampling - the population is divided into strata (districts), and random samples are taken from each stratum. Let's evaluate: (A) Simple random sample: FALSE - not all samples of size n have equal probability (some combinations can't occur if they span unevenly across districts). (B) Cluster sample: FALSE - in cluster sampling, you select entire clusters; here, you're sampling WITHIN each district. (C) Systematic sampling: FALSE - no systematic selection pattern is described. (D) Stratified sample: TRUE - population divided into strata (districts), random sampling within each stratum. This design ensures representation from each district and may give comparative information across districts.",
+    "reasoning": "Stratified sampling: divide population into homogeneous groups (strata), then randomly sample from each group. Here, 125 districts are strata, and principals are randomly sampled within each. This is classic stratified random sampling.",
+    "steps": [
+      "Population divided into 125 districts (strata)",
+      "Random sample taken from each district",
+      "Ensures representation from all districts",
+      "This is stratified random sampling",
+      "Allows comparisons between districts",
+      "Answer: Stratified sample with comparative information"
+    ],
+    "generatedAt": "2025-11-10T09:06:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_85",
+    "explanation": "The control group in an experiment serves as a baseline for comparison with the treatment group. The key principle is that the control group should be IDENTICAL to the experimental group EXCEPT for the treatment being studied. Let's evaluate: (A) Opposite treatment: FALSE - this would introduce a different treatment, not serve as a control. (B) Same treatment without knowing: FALSE - this describes a placebo effect setup but isn't accurate for control groups generally. (C) Identical procedure except for NOT receiving the treatment: TRUE - control group gets everything the same except they don't receive the actual treatment under examination. This isolates the effect of the treatment. (D) Random decision on treatment: FALSE - control group specifically does NOT get treatment.",
+    "reasoning": "Control group purpose: isolate treatment effect by keeping everything identical except the treatment itself. Control receives no treatment (or placebo), while experimental receives treatment. Everything else must be the same.",
+    "steps": [
+      "Control group = baseline for comparison",
+      "Should be identical to experimental except for treatment",
+      "Control group does NOT receive the treatment",
+      "Everything else (procedures, measurements) identical",
+      "This isolates the treatment effect",
+      "Answer: Identical procedure except for receiving treatment"
+    ],
+    "generatedAt": "2025-11-10T09:08:00.000Z"
   }
 ]
