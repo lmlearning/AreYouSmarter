@@ -5236,5 +5236,1795 @@
       "Rectification"
     ],
     "generatedAt": "2025-11-10T00:10:09.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_174",
+    "explanation": "Integrated circuits: miniaturized electronic circuits on semiconductor chip. Contains transistors, resistors, capacitors.",
+    "reasoning": "Moore's Law: transistors double ~every 2 years. Basis of computers.",
+    "steps": [
+      "Billions of transistors",
+      "Miniaturized circuits"
+    ],
+    "generatedAt": "2025-11-10T00:11:00.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_175",
+    "explanation": "Digital vs analog: digital uses discrete values (0,1), analog continuous. Digital more noise-resistant.",
+    "reasoning": "Binary (0,1) easier to process, less noise corruption.",
+    "steps": [
+      "Digital: discrete",
+      "Analog: continuous"
+    ],
+    "generatedAt": "2025-11-10T00:11:01.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_176",
+    "explanation": "Binary: base-2 number system. Only digits 0 and 1. Foundation of digital computing.",
+    "reasoning": "2^n place values. Easy to implement with on/off switches.",
+    "steps": [
+      "Base-2",
+      "0 and 1 only"
+    ],
+    "generatedAt": "2025-11-10T00:11:02.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_177",
+    "explanation": "Logic gates: AND, OR, NOT, etc. Building blocks of digital circuits. Boolean algebra.",
+    "reasoning": "Combine to form complex circuits. Process binary information.",
+    "steps": [
+      "Basic: AND, OR, NOT",
+      "Boolean logic"
+    ],
+    "generatedAt": "2025-11-10T00:11:03.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_178",
+    "explanation": "Computer memory: RAM (volatile), ROM (non-volatile). Storage: HDD, SSD.",
+    "reasoning": "RAM: fast, temporary. ROM: permanent. Storage: long-term.",
+    "steps": [
+      "RAM: temporary",
+      "ROM: permanent"
+    ],
+    "generatedAt": "2025-11-10T00:11:04.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_179",
+    "explanation": "CPU: central processing unit. Executes instructions. Fetches, decodes, executes cycles.",
+    "reasoning": "Brain of computer. GHz clock speed. Multiple cores.",
+    "steps": [
+      "Fetch-decode-execute",
+      "Clock speed: GHz"
+    ],
+    "generatedAt": "2025-11-10T00:11:05.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_180",
+    "explanation": "Internet: global network of computers. Packet switching. TCP/IP protocols.",
+    "reasoning": "Decentralized. Packets routed independently. Robust.",
+    "steps": [
+      "Packet switching",
+      "TCP/IP protocols"
+    ],
+    "generatedAt": "2025-11-10T00:11:06.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_181",
+    "explanation": "Bandwidth: data transfer rate. Measured in bits/second (bps). Higher = faster.",
+    "reasoning": "Throughput: how much data per time. Mbps, Gbps.",
+    "steps": [
+      "Data rate",
+      "Units: bps"
+    ],
+    "generatedAt": "2025-11-10T00:11:07.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_182",
+    "explanation": "Encryption: scrambles data for security. Public/private key systems. Protects communication.",
+    "reasoning": "Cryptography: encodes message. Only key holder can decode.",
+    "steps": [
+      "Scrambles data",
+      "Keys: public/private"
+    ],
+    "generatedAt": "2025-11-10T00:11:08.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_183",
+    "explanation": "Quantum computing: uses qubits (superposition). Potentially exponentially faster for some problems.",
+    "reasoning": "Qubit: 0, 1, or both (superposition). Entanglement enables parallel processing.",
+    "steps": [
+      "Qubits: superposition",
+      "Exponential speedup"
+    ],
+    "generatedAt": "2025-11-10T00:11:09.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_184",
+    "explanation": "Superconductivity: zero resistance below critical temperature T_c. Meissner effect (expels magnetic field).",
+    "reasoning": "Cooper pairs: electrons pair up. No scattering \u2192 no resistance.",
+    "steps": [
+      "R = 0 below T_c",
+      "Meissner effect"
+    ],
+    "generatedAt": "2025-11-10T00:11:10.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_185",
+    "explanation": "Superfluidity: zero viscosity. Helium-4 below 2.17 K. Climbs walls of container.",
+    "reasoning": "Quantum fluid. Bose-Einstein condensate behavior.",
+    "steps": [
+      "Zero viscosity",
+      "He-4 < 2.17 K"
+    ],
+    "generatedAt": "2025-11-10T00:11:11.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_186",
+    "explanation": "Bose-Einstein condensate (BEC): matter state at ultra-low T. All atoms in same quantum state.",
+    "reasoning": "Bosons condense to ground state. Macroscopic quantum phenomenon.",
+    "steps": [
+      "Ultra-cold bosons",
+      "Same quantum state"
+    ],
+    "generatedAt": "2025-11-10T00:11:12.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_187",
+    "explanation": "Plasma: ionized gas. Fourth state of matter. Sun and stars are plasma.",
+    "reasoning": "High T: electrons stripped from atoms. Conducts electricity.",
+    "steps": [
+      "Ionized gas",
+      "Stars, lightning"
+    ],
+    "generatedAt": "2025-11-10T00:11:13.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_188",
+    "explanation": "Fusion reactor: controlled fusion for energy. D-T reaction. ITER project.",
+    "reasoning": "Fuse light nuclei \u2192 energy. Challenge: confinement at 100M K.",
+    "steps": [
+      "D + T \u2192 He + n",
+      "Huge energy potential"
+    ],
+    "generatedAt": "2025-11-10T00:11:14.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_189",
+    "explanation": "Fission reactor: splits heavy nuclei. U-235 chain reaction. Nuclear power plants.",
+    "reasoning": "Neutron-induced fission. Control rods moderate reaction rate.",
+    "steps": [
+      "U-235 + n \u2192 fission",
+      "Chain reaction"
+    ],
+    "generatedAt": "2025-11-10T00:11:15.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_190",
+    "explanation": "Chain reaction: one fission triggers more. Critical mass required for sustained reaction.",
+    "reasoning": "Each fission releases neutrons \u2192 trigger more fissions.",
+    "steps": [
+      "Self-sustaining",
+      "Critical mass needed"
+    ],
+    "generatedAt": "2025-11-10T00:11:16.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_191",
+    "explanation": "Radioactive dating: uses decay rates to determine age. Carbon-14 for organic, uranium for rocks.",
+    "reasoning": "Known half-life \u2192 measure remaining isotope \u2192 calculate age.",
+    "steps": [
+      "C-14: organic",
+      "U-238: rocks"
+    ],
+    "generatedAt": "2025-11-10T00:11:17.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_192",
+    "explanation": "Geiger counter: detects ionizing radiation. Clicking indicates radiation level.",
+    "reasoning": "Radiation ionizes gas \u2192 electrical pulse \u2192 click.",
+    "steps": [
+      "Ionization detector",
+      "Click rate \u221d radiation"
+    ],
+    "generatedAt": "2025-11-10T00:11:18.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_193",
+    "explanation": "Dosimeter: measures accumulated radiation dose. Worn by workers in radiation environments.",
+    "reasoning": "Integrates dose over time. Safety monitoring.",
+    "steps": [
+      "Cumulative dose",
+      "Worker safety"
+    ],
+    "generatedAt": "2025-11-10T00:11:19.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_194",
+    "explanation": "Alpha particle: helium nucleus (2p + 2n). Low penetration (paper stops). High ionization.",
+    "reasoning": "\u03b1: 4He nucleus. +2 charge. Stopped by skin/paper.",
+    "steps": [
+      "\u03b1 = 4He nucleus",
+      "Low penetration"
+    ],
+    "generatedAt": "2025-11-10T00:11:20.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_195",
+    "explanation": "Beta particle: electron or positron from nucleus. Medium penetration (mm of aluminum).",
+    "reasoning": "\u03b2\u207b: electron. \u03b2\u207a: positron. From weak decay.",
+    "steps": [
+      "\u03b2: e\u207b or e\u207a",
+      "Medium penetration"
+    ],
+    "generatedAt": "2025-11-10T00:11:21.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_196",
+    "explanation": "Gamma ray: high-energy photon from nucleus. High penetration (cm of lead needed).",
+    "reasoning": "\u03b3: EM radiation. No charge. Very penetrating.",
+    "steps": [
+      "\u03b3: photon",
+      "High penetration"
+    ],
+    "generatedAt": "2025-11-10T00:11:22.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_197",
+    "explanation": "Nuclear binding energy: energy holding nucleus together. Mass defect \u00d7 c\u00b2. Peak at Fe-56.",
+    "reasoning": "E_b per nucleon peaks at iron. Fusion below, fission above releases energy.",
+    "steps": [
+      "E_b = \u0394m \u00d7 c\u00b2",
+      "Peak at Fe-56"
+    ],
+    "generatedAt": "2025-11-10T00:11:23.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_198",
+    "explanation": "Mass defect: difference between nucleon masses and nucleus mass. Converted to binding energy.",
+    "reasoning": "Sum of parts > nucleus mass. \u0394m \u2192 binding energy.",
+    "steps": [
+      "\u0394m = \u03a3m_nucleons - m_nucleus",
+      "E = \u0394mc\u00b2"
+    ],
+    "generatedAt": "2025-11-10T00:11:24.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_199",
+    "explanation": "Antimatter: opposite charge particles. Annihilate with matter \u2192 pure energy (2\u03b3).",
+    "reasoning": "e\u207ae\u207b \u2192 2\u03b3. E = 2mc\u00b2 = 1.022 MeV for e\u207ae\u207b.",
+    "steps": [
+      "Opposite charge",
+      "Matter + antimatter \u2192 energy"
+    ],
+    "generatedAt": "2025-11-10T00:11:25.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_200",
+    "explanation": "Particle accelerator: accelerates charged particles to high energy. LHC, Fermilab.",
+    "reasoning": "EM fields accelerate particles. Collide for physics research.",
+    "steps": [
+      "High energy collisions",
+      "Research fundamental physics"
+    ],
+    "generatedAt": "2025-11-10T00:11:26.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_201",
+    "explanation": "Higgs boson: gives mass to particles. Discovered 2012 at LHC. Confirms Standard Model.",
+    "reasoning": "Higgs field: particles interact \u2192 acquire mass.",
+    "steps": [
+      "Mass mechanism",
+      "Found at LHC 2012"
+    ],
+    "generatedAt": "2025-11-10T00:11:27.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_202",
+    "explanation": "Neutrino: nearly massless, no charge. Weakly interacting. Three flavors (e, \u03bc, \u03c4).",
+    "reasoning": "Trillions pass through you/second. Very hard to detect.",
+    "steps": [
+      "Nearly massless",
+      "Weakly interacting"
+    ],
+    "generatedAt": "2025-11-10T00:11:28.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_203",
+    "explanation": "Solar neutrinos: from sun's fusion. Detected on Earth. Neutrino oscillation discovered.",
+    "reasoning": "pp chain produces neutrinos. Oscillate between flavors.",
+    "steps": [
+      "From sun fusion",
+      "Flavor oscillation"
+    ],
+    "generatedAt": "2025-11-10T00:11:29.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_204",
+    "explanation": "Cosmic rays: high-energy particles from space. Mostly protons. Create air showers.",
+    "reasoning": "Galactic/extragalactic origin. Interact with atmosphere.",
+    "steps": [
+      "Space particles",
+      "Create showers"
+    ],
+    "generatedAt": "2025-11-10T00:11:30.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_205",
+    "explanation": "Cherenkov radiation: blue glow when particle exceeds light speed in medium. Detection method.",
+    "reasoning": "v > c/n in medium \u2192 EM shock wave (blue light).",
+    "steps": [
+      "Faster than c/n",
+      "Blue glow"
+    ],
+    "generatedAt": "2025-11-10T00:11:31.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_206",
+    "explanation": "Synchrotron radiation: EM radiation from accelerating charged particles. Circular motion emits.",
+    "reasoning": "Centripetal acceleration \u2192 EM emission. Used in X-ray sources.",
+    "steps": [
+      "Accelerating charges",
+      "X-ray sources"
+    ],
+    "generatedAt": "2025-11-10T00:11:32.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_207",
+    "explanation": "Fluorescence: absorption then emission of light. Lower energy emitted (Stokes shift).",
+    "reasoning": "Absorb UV, emit visible. Non-radiative loss between.",
+    "steps": [
+      "Absorb high E",
+      "Emit lower E"
+    ],
+    "generatedAt": "2025-11-10T00:11:33.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_208",
+    "explanation": "Phosphorescence: slow emission after excitation stops. Glow-in-dark materials.",
+    "reasoning": "Metastable state: electrons trapped, slowly release.",
+    "steps": [
+      "Delayed emission",
+      "Glow-in-dark"
+    ],
+    "generatedAt": "2025-11-10T00:11:34.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_209",
+    "explanation": "LED: light-emitting diode. Semiconductor p-n junction emits light when forward biased.",
+    "reasoning": "Electron-hole recombination \u2192 photon. Energy gap determines color.",
+    "steps": [
+      "p-n junction",
+      "E_gap \u2192 photon color"
+    ],
+    "generatedAt": "2025-11-10T00:11:35.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_210",
+    "explanation": "Solar cell: photovoltaic device. Converts light to electricity. Semiconductor p-n junction.",
+    "reasoning": "Photon \u2192 electron-hole pair \u2192 current. ~15-20% efficiency.",
+    "steps": [
+      "Light \u2192 electricity",
+      "p-n junction"
+    ],
+    "generatedAt": "2025-11-10T00:11:36.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_211",
+    "explanation": "Thermoelectric effect: temperature difference \u2192 voltage (Seebeck). Or current \u2192 heating/cooling (Peltier).",
+    "reasoning": "Temperature gradient drives charge carriers.",
+    "steps": [
+      "\u0394T \u2192 V (Seebeck)",
+      "I \u2192 \u0394T (Peltier)"
+    ],
+    "generatedAt": "2025-11-10T00:11:37.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_212",
+    "explanation": "Piezoelectric effect: mechanical stress \u2192 voltage. Or voltage \u2192 deformation. Quartz crystals.",
+    "reasoning": "Crystal asymmetry: stress \u2192 charge separation.",
+    "steps": [
+      "Stress \u2192 V",
+      "V \u2192 deformation"
+    ],
+    "generatedAt": "2025-11-10T00:11:38.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_213",
+    "explanation": "Doppler ultrasound: measures blood flow velocity using Doppler shift of ultrasound.",
+    "reasoning": "Reflected frequency shifts with blood velocity.",
+    "steps": [
+      "Ultrasound Doppler",
+      "Blood flow measurement"
+    ],
+    "generatedAt": "2025-11-10T00:11:39.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_214",
+    "explanation": "Electrocardiogram (ECG): records heart's electrical activity. Detects rhythm abnormalities.",
+    "reasoning": "Electrodes measure potential differences from heart muscle.",
+    "steps": [
+      "Heart electrical signals",
+      "Rhythm analysis"
+    ],
+    "generatedAt": "2025-11-10T00:11:40.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_215",
+    "explanation": "Electroencephalogram (EEG): measures brain electrical activity. Detects seizures, sleep stages.",
+    "reasoning": "Scalp electrodes detect neuron electrical signals.",
+    "steps": [
+      "Brain waves",
+      "Medical diagnosis"
+    ],
+    "generatedAt": "2025-11-10T00:11:41.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_216",
+    "explanation": "Pacemaker: implanted device regulating heartbeat. Electrical pulses trigger contractions.",
+    "reasoning": "Battery-powered. Senses and paces heart rhythm.",
+    "steps": [
+      "Electrical pulses",
+      "Heart rhythm control"
+    ],
+    "generatedAt": "2025-11-10T00:11:42.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_217",
+    "explanation": "Defibrillator: delivers electric shock to restore normal heart rhythm. Stops fibrillation.",
+    "reasoning": "High voltage depolarizes all cells \u2192 reset rhythm.",
+    "steps": [
+      "Electric shock",
+      "Stops fibrillation"
+    ],
+    "generatedAt": "2025-11-10T00:11:43.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_218",
+    "explanation": "Thermography: infrared imaging. Detects temperature differences. Medical, building inspection.",
+    "reasoning": "IR camera detects heat radiation. Different tissues/materials emit different amounts.",
+    "steps": [
+      "IR imaging",
+      "Temperature mapping"
+    ],
+    "generatedAt": "2025-11-10T00:11:44.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_219",
+    "explanation": "Radioactive tracers: radioactive isotopes track biological processes. PET scans, medical diagnostics.",
+    "reasoning": "Inject tracer \u2192 follows metabolism \u2192 detect gamma rays.",
+    "steps": [
+      "Radioactive markers",
+      "Track processes"
+    ],
+    "generatedAt": "2025-11-10T00:11:45.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_220",
+    "explanation": "Gamma knife: focused gamma radiation for brain surgery. Non-invasive tumor treatment.",
+    "reasoning": "Multiple beams converge on tumor. Minimal damage to surrounding tissue.",
+    "steps": [
+      "Focused radiation",
+      "Brain tumors"
+    ],
+    "generatedAt": "2025-11-10T00:11:46.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_221",
+    "explanation": "Endoscopy: fiber optic camera for internal examination. Minimally invasive.",
+    "reasoning": "Optical fibers transmit light and image. Through natural openings or small incisions.",
+    "steps": [
+      "Fiber optics",
+      "Internal imaging"
+    ],
+    "generatedAt": "2025-11-10T00:11:47.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_222",
+    "explanation": "Lithotripsy: ultrasound breaks kidney stones. Non-surgical stone removal.",
+    "reasoning": "Focused shock waves shatter stones into passable fragments.",
+    "steps": [
+      "Ultrasound shock",
+      "Breaks stones"
+    ],
+    "generatedAt": "2025-11-10T00:11:48.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_223",
+    "explanation": "Spectroscopy: analyzes light spectra. Identifies elements/molecules by absorption/emission lines.",
+    "reasoning": "Each element: unique spectrum. \u03bb identifies composition.",
+    "steps": [
+      "Spectrum analysis",
+      "Element identification"
+    ],
+    "generatedAt": "2025-11-10T00:11:49.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_224",
+    "explanation": "Absorption spectrum: dark lines where wavelengths absorbed. Cool gas in front of hot source.",
+    "reasoning": "Atoms absorb specific \u03bb. Creates dark lines in continuous spectrum.",
+    "steps": [
+      "Dark lines",
+      "Absorption by atoms"
+    ],
+    "generatedAt": "2025-11-10T00:11:50.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_225",
+    "explanation": "Emission spectrum: bright lines at specific wavelengths. Hot/excited gas emits.",
+    "reasoning": "Electron transitions \u2192 photons at specific \u03bb. Unique fingerprint.",
+    "steps": [
+      "Bright lines",
+      "Emission from atoms"
+    ],
+    "generatedAt": "2025-11-10T00:11:51.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_226",
+    "explanation": "Continuous spectrum: all wavelengths present. From hot solids/dense gases. Rainbow of colors.",
+    "reasoning": "Blackbody radiation. T determines peak wavelength (Wien's law).",
+    "steps": [
+      "All wavelengths",
+      "Hot dense sources"
+    ],
+    "generatedAt": "2025-11-10T00:11:52.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_227",
+    "explanation": "Blackbody radiation: ideal emitter/absorber. Stefan-Boltzmann: P \u221d T\u2074. Wien: \u03bb_max \u221d 1/T.",
+    "reasoning": "Perfect absorber (\u03b1=1). Spectrum depends only on T.",
+    "steps": [
+      "P \u221d T\u2074",
+      "\u03bb_max \u221d 1/T"
+    ],
+    "generatedAt": "2025-11-10T00:11:53.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_228",
+    "explanation": "Wien's displacement law: \u03bb_max T = 2.898\u00d710\u207b\u00b3 m\u00b7K. Peak wavelength shifts with temperature.",
+    "reasoning": "Hotter objects \u2192 shorter peak \u03bb (blue shift).",
+    "steps": [
+      "\u03bb_max T = const",
+      "Hot: blue, cool: red"
+    ],
+    "generatedAt": "2025-11-10T00:11:54.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_229",
+    "explanation": "Stefan-Boltzmann law: P = \u03c3AT\u2074. Radiated power proportional to T\u2074.",
+    "reasoning": "\u03c3 = 5.67\u00d710\u207b\u2078 W/(m\u00b2\u00b7K\u2074). Very sensitive to temperature.",
+    "steps": [
+      "P = \u03c3AT\u2074",
+      "T doubles \u2192 16\u00d7 power"
+    ],
+    "generatedAt": "2025-11-10T00:11:55.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_230",
+    "explanation": "Greenhouse effect: atmosphere traps infrared radiation. CO\u2082, H\u2082O absorb IR, warm planet.",
+    "reasoning": "Visible passes through, IR absorbed/re-emitted. Net warming.",
+    "steps": [
+      "IR trapped",
+      "CO\u2082, H\u2082O gases"
+    ],
+    "generatedAt": "2025-11-10T00:11:56.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_231",
+    "explanation": "Albedo: reflectivity. Ice/snow: high (~0.9). Ocean/forest: low (~0.1). Affects climate.",
+    "reasoning": "High albedo \u2192 reflects sunlight \u2192 cooler. Low \u2192 absorbs \u2192 warmer.",
+    "steps": [
+      "Reflectivity",
+      "Ice: high, ocean: low"
+    ],
+    "generatedAt": "2025-11-10T00:11:57.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_232",
+    "explanation": "Ozone layer: O\u2083 in stratosphere. Absorbs UV radiation, protects life.",
+    "reasoning": "UV \u2192 O\u2083 \u2192 O\u2082 + O. Filters harmful UV-B and UV-C.",
+    "steps": [
+      "Stratospheric O\u2083",
+      "Absorbs UV"
+    ],
+    "generatedAt": "2025-11-10T00:11:58.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_233",
+    "explanation": "Ozone depletion: CFCs destroy ozone. Antarctic ozone hole. Montreal Protocol banned CFCs.",
+    "reasoning": "Cl from CFCs catalyzes O\u2083 destruction. Recovering slowly.",
+    "steps": [
+      "CFCs destroy O\u2083",
+      "Now banned"
+    ],
+    "generatedAt": "2025-11-10T00:11:59.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_234",
+    "explanation": "Coriolis effect: deflects moving objects on rotating Earth. Right in NH, left in SH.",
+    "reasoning": "Inertial effect in rotating frame. Affects winds, ocean currents.",
+    "steps": [
+      "Rotation effect",
+      "Right (NH), left (SH)"
+    ],
+    "generatedAt": "2025-11-10T00:12:00.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_235",
+    "explanation": "Jet stream: fast-moving air currents in upper atmosphere. Affects weather patterns.",
+    "reasoning": "Temperature gradient + Coriolis \u2192 high-altitude winds.",
+    "steps": [
+      "Upper atmosphere winds",
+      "Weather patterns"
+    ],
+    "generatedAt": "2025-11-10T00:12:01.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_236",
+    "explanation": "Pressure gradient: drives wind from high to low pressure. Steeper gradient \u2192 stronger winds.",
+    "reasoning": "Air flows from high P to low P. Balanced by Coriolis, friction.",
+    "steps": [
+      "High \u2192 low pressure",
+      "Drives wind"
+    ],
+    "generatedAt": "2025-11-10T00:12:02.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_237",
+    "explanation": "Bernoulli's principle: faster fluid \u2192 lower pressure. Explains lift on airplane wings.",
+    "reasoning": "P + \u00bd\u03c1v\u00b2 + \u03c1gh = constant. v\u2191 \u2192 P\u2193.",
+    "steps": [
+      "Fast flow: low P",
+      "Airplane lift"
+    ],
+    "generatedAt": "2025-11-10T00:12:03.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_238",
+    "explanation": "Venturi effect: fluid speeds up through constriction, pressure drops. Carburetor, atomizer.",
+    "reasoning": "Continuity: A\u2081v\u2081 = A\u2082v\u2082. Narrow \u2192 fast \u2192 low P.",
+    "steps": [
+      "Constriction \u2192 speed\u2191",
+      "Pressure\u2193"
+    ],
+    "generatedAt": "2025-11-10T00:12:04.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_239",
+    "explanation": "Continuity equation: A\u2081v\u2081 = A\u2082v\u2082. Flow rate constant for incompressible fluid.",
+    "reasoning": "Mass conservation. Narrow pipe \u2192 faster flow.",
+    "steps": [
+      "Av = const",
+      "Mass conserved"
+    ],
+    "generatedAt": "2025-11-10T00:12:05.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_240",
+    "explanation": "Viscosity: fluid's resistance to flow. Honey > water > air. Temperature dependent.",
+    "reasoning": "Internal friction. \u03b7: coefficient of viscosity.",
+    "steps": [
+      "Flow resistance",
+      "\u03b7: viscosity"
+    ],
+    "generatedAt": "2025-11-10T00:12:06.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_241",
+    "explanation": "Reynolds number: Re = \u03c1vL/\u03b7. Predicts laminar (Re<2300) vs turbulent (Re>4000) flow.",
+    "reasoning": "Dimensionless. Ratio of inertial to viscous forces.",
+    "steps": [
+      "Re = \u03c1vL/\u03b7",
+      "Low: laminar, high: turbulent"
+    ],
+    "generatedAt": "2025-11-10T00:12:07.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_242",
+    "explanation": "Laminar flow: smooth, layered flow. Low Re. Parabolic velocity profile.",
+    "reasoning": "Viscous forces dominate. Orderly, predictable.",
+    "steps": [
+      "Smooth layers",
+      "Low Re"
+    ],
+    "generatedAt": "2025-11-10T00:12:08.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_243",
+    "explanation": "Turbulent flow: chaotic, mixing flow. High Re. Eddies and vortices.",
+    "reasoning": "Inertial forces dominate. Chaotic, enhanced mixing.",
+    "steps": [
+      "Chaotic flow",
+      "High Re"
+    ],
+    "generatedAt": "2025-11-10T00:12:09.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_244",
+    "explanation": "Surface tension: cohesive force at liquid surface. Water has high surface tension.",
+    "reasoning": "Molecular attraction creates 'skin'. \u03b3 measured in N/m.",
+    "steps": [
+      "Surface force",
+      "Water: high \u03b3"
+    ],
+    "generatedAt": "2025-11-10T00:12:10.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_245",
+    "explanation": "Capillary action: liquid rises/falls in narrow tube. Adhesion vs cohesion.",
+    "reasoning": "Water in glass: adhesion > cohesion \u2192 rises. Mercury: opposite.",
+    "steps": [
+      "Narrow tube flow",
+      "h \u221d 1/r"
+    ],
+    "generatedAt": "2025-11-10T00:12:11.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_246",
+    "explanation": "Contact angle: angle at liquid-solid interface. \u03b8 < 90\u00b0 wetting, \u03b8 > 90\u00b0 non-wetting.",
+    "reasoning": "Determines wetting behavior. Water on glass: low \u03b8 (wets).",
+    "steps": [
+      "Interface angle",
+      "<90\u00b0: wets"
+    ],
+    "generatedAt": "2025-11-10T00:12:12.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_247",
+    "explanation": "Osmosis: water flows through semipermeable membrane toward higher solute concentration.",
+    "reasoning": "Equalizes concentrations. Important in biology (cell membranes).",
+    "steps": [
+      "Membrane transport",
+      "Toward high solute"
+    ],
+    "generatedAt": "2025-11-10T00:12:13.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_248",
+    "explanation": "Diffusion: molecules spread from high to low concentration. Random thermal motion.",
+    "reasoning": "Fick's law: J \u221d -dC/dx. Driven by concentration gradient.",
+    "steps": [
+      "High \u2192 low concentration",
+      "Random motion"
+    ],
+    "generatedAt": "2025-11-10T00:12:14.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_249",
+    "explanation": "Brownian motion: random motion of particles suspended in fluid. Evidence for atoms.",
+    "reasoning": "Molecular collisions cause random walk. Einstein explained 1905.",
+    "steps": [
+      "Random particle motion",
+      "Evidence for molecules"
+    ],
+    "generatedAt": "2025-11-10T00:12:15.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_250",
+    "explanation": "Perpetual motion: impossible machine. Violates thermodynamics laws. No over-unity devices.",
+    "reasoning": "1st law: can't create energy. 2nd law: entropy increases.",
+    "steps": [
+      "Impossible",
+      "Violates thermodynamics"
+    ],
+    "generatedAt": "2025-11-10T00:12:16.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_251",
+    "explanation": "Efficiency: useful output / total input. Always < 100%. Carnot efficiency: 1 - T_c/T_h.",
+    "reasoning": "Real engines < Carnot limit. Energy lost to friction, heat.",
+    "steps": [
+      "\u03b7 = W_out/Q_in",
+      "\u03b7 < 1 always"
+    ],
+    "generatedAt": "2025-11-10T00:12:17.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_252",
+    "explanation": "Heat engine: converts heat to work. Requires hot and cold reservoir. Car engines, power plants.",
+    "reasoning": "Q_h \u2192 W + Q_c. Must reject some heat (2nd law).",
+    "steps": [
+      "Heat \u2192 work",
+      "Q_h \u2192 W + Q_c"
+    ],
+    "generatedAt": "2025-11-10T00:12:18.000Z"
+  },
+  {
+    "questionId": "conceptual_physics_253",
+    "explanation": "Carnot cycle: idealized reversible cycle. Maximum possible efficiency. Four stages.",
+    "reasoning": "\u03b7_Carnot = 1 - T_c/T_h. Real engines always less efficient.",
+    "steps": [
+      "Ideal cycle",
+      "\u03b7 = 1 - T_c/T_h"
+    ],
+    "generatedAt": "2025-11-10T00:12:19.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_0",
+    "explanation": "US history question requiring analysis of historical events, documents, or periods. Identify key dates, figures, causes, and effects.",
+    "reasoning": "Historical context essential. Consider political, economic, social factors.",
+    "steps": [
+      "Analyze time period",
+      "Identify key factors",
+      "Evaluate impact"
+    ],
+    "generatedAt": "2025-11-10T00:13:00.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_1",
+    "explanation": "Colonial America: English, French, Spanish colonies. 13 British colonies established 1607-1732. Economic motives, religious freedom.",
+    "reasoning": "Jamestown (1607), Plymouth (1620), diverse economies.",
+    "steps": [
+      "Settlement patterns",
+      "Colonial economies",
+      "Relations with natives"
+    ],
+    "generatedAt": "2025-11-10T00:13:01.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_2",
+    "explanation": "Revolutionary War (1775-1783): American independence from Britain. Taxation without representation sparked conflict.",
+    "reasoning": "Tea Act, Intolerable Acts \u2192 Continental Congress \u2192 Declaration (1776).",
+    "steps": [
+      "Causes: taxation",
+      "War: 1775-1783",
+      "Treaty of Paris 1783"
+    ],
+    "generatedAt": "2025-11-10T00:13:02.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_3",
+    "explanation": "Constitution (1787): Replaced Articles of Confederation. Federalism, separation of powers, checks and balances.",
+    "reasoning": "Constitutional Convention. Compromise: Great, 3/5ths.",
+    "steps": [
+      "1787: Constitution",
+      "Ratification 1788",
+      "Bill of Rights 1791"
+    ],
+    "generatedAt": "2025-11-10T00:13:03.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_4",
+    "explanation": "Federalists vs Anti-Federalists: Debate over Constitution. Hamilton vs Jefferson. Strong central vs states' rights.",
+    "reasoning": "Federalist Papers advocated ratification. Bill of Rights compromise.",
+    "steps": [
+      "Federalists: strong central",
+      "Anti-Fed: states' rights",
+      "Compromise: Bill of Rights"
+    ],
+    "generatedAt": "2025-11-10T00:13:04.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_5",
+    "explanation": "Louisiana Purchase (1803): Jefferson bought from France. Doubled US size. $15 million.",
+    "reasoning": "Napoleon needed funds. Opened westward expansion.",
+    "steps": [
+      "1803: purchased",
+      "Doubled territory",
+      "Lewis & Clark explored"
+    ],
+    "generatedAt": "2025-11-10T00:13:05.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_6",
+    "explanation": "War of 1812: US vs Britain. Trade restrictions, impressment. Ended in stalemate.",
+    "reasoning": "\"Second War of Independence.\" Burned White House.",
+    "steps": [
+      "1812-1815",
+      "Trade issues",
+      "Status quo restored"
+    ],
+    "generatedAt": "2025-11-10T00:13:06.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_7",
+    "explanation": "Monroe Doctrine (1823): No European colonization in Americas. US foreign policy cornerstone.",
+    "reasoning": "Declared Western Hemisphere off-limits to European powers.",
+    "steps": [
+      "1823: Monroe",
+      "No new colonies",
+      "US sphere"
+    ],
+    "generatedAt": "2025-11-10T00:13:07.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_8",
+    "explanation": "Jacksonian Democracy (1820s-1840s): Expansion of white male suffrage. Common man empowerment.",
+    "reasoning": "Jackson: populist president. Indian Removal Act (1830).",
+    "steps": [
+      "Voting expanded",
+      "Common man",
+      "Indian removal"
+    ],
+    "generatedAt": "2025-11-10T00:13:08.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_9",
+    "explanation": "Manifest Destiny: Belief US destined to expand across continent. Justified westward expansion.",
+    "reasoning": "1840s ideology. Mexican-American War result.",
+    "steps": [
+      "Expansion ideology",
+      "Coast to coast",
+      "Mexican War 1846-48"
+    ],
+    "generatedAt": "2025-11-10T00:13:09.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_10",
+    "explanation": "Mexican-American War (1846-48): US acquired Southwest. California, Texas, New Mexico.",
+    "reasoning": "Treaty of Guadalupe Hidalgo. Added vast territory.",
+    "steps": [
+      "1846-1848",
+      "US victory",
+      "SW territories gained"
+    ],
+    "generatedAt": "2025-11-10T00:13:10.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_11",
+    "explanation": "Compromise of 1850: Attempted to resolve slavery expansion. California free, Fugitive Slave Act.",
+    "reasoning": "Clay's compromise. Delayed Civil War decade.",
+    "steps": [
+      "CA: free state",
+      "Fugitive Slave Act",
+      "Temporary solution"
+    ],
+    "generatedAt": "2025-11-10T00:13:11.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_12",
+    "explanation": "Kansas-Nebraska Act (1854): Popular sovereignty for slavery. Led to 'Bleeding Kansas' violence.",
+    "reasoning": "Repealed Missouri Compromise. Violence ensued.",
+    "steps": [
+      "1854: popular sovereignty",
+      "Bleeding Kansas",
+      "North-South tension\u2191"
+    ],
+    "generatedAt": "2025-11-10T00:13:12.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_13",
+    "explanation": "Dred Scott (1857): Supreme Court ruled slaves not citizens. Inflamed tensions.",
+    "reasoning": "Taney court. Slaves = property, not citizens.",
+    "steps": [
+      "1857: Dred Scott",
+      "Not citizens",
+      "Increased tensions"
+    ],
+    "generatedAt": "2025-11-10T00:13:13.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_14",
+    "explanation": "Civil War (1861-65): North vs South over slavery, states' rights. Union victory.",
+    "reasoning": "Fort Sumter (1861) \u2192 Lee surrenders Appomattox (1865).",
+    "steps": [
+      "1861-1865",
+      "Slavery central issue",
+      "Union victory"
+    ],
+    "generatedAt": "2025-11-10T00:13:14.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_15",
+    "explanation": "Emancipation Proclamation (1863): Lincoln freed slaves in rebel states. War aim shifted.",
+    "reasoning": "Jan 1, 1863. Military + moral strategy.",
+    "steps": [
+      "1863: Lincoln",
+      "Freed rebel slaves",
+      "War goal: abolition"
+    ],
+    "generatedAt": "2025-11-10T00:13:15.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_16",
+    "explanation": "Reconstruction (1865-1877): Rebuilding South, integrating freed slaves. Ended with Compromise of 1877.",
+    "reasoning": "13th, 14th, 15th Amendments. Freedmen's Bureau.",
+    "steps": [
+      "1865-1877",
+      "Amendments 13-15",
+      "Jim Crow followed"
+    ],
+    "generatedAt": "2025-11-10T00:13:16.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_17",
+    "explanation": "Gilded Age (1870s-1900): Rapid industrialization. Robber barons, labor unrest, inequality.",
+    "reasoning": "Carnegie, Rockefeller. Unions form. Political corruption.",
+    "steps": [
+      "Industrialization",
+      "Robber barons",
+      "Labor movement"
+    ],
+    "generatedAt": "2025-11-10T00:13:17.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_18",
+    "explanation": "Progressive Era (1890s-1920s): Social/political reforms. Trust-busting, women's suffrage.",
+    "reasoning": "TR, Wilson. Muckrakers exposed problems.",
+    "steps": [
+      "Reform movement",
+      "Trust-busting",
+      "Women vote (1920)"
+    ],
+    "generatedAt": "2025-11-10T00:13:18.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_19",
+    "explanation": "Spanish-American War (1898): US gained territories (Philippines, Puerto Rico, Guam). Imperialism.",
+    "reasoning": "Remember the Maine! US becomes world power.",
+    "steps": [
+      "1898: Spain defeated",
+      "Territories gained",
+      "US imperialism"
+    ],
+    "generatedAt": "2025-11-10T00:13:19.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_20",
+    "explanation": "WWI (1914-18): US entered 1917. Wilson's 14 Points, League of Nations (US didn't join).",
+    "reasoning": "Neutrality \u2192 Lusitania, Zimmermann \u2192 war entry.",
+    "steps": [
+      "1917: US enters",
+      "Allied victory 1918",
+      "League rejected"
+    ],
+    "generatedAt": "2025-11-10T00:13:20.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_21",
+    "explanation": "Roaring '20s: Economic boom, cultural change. Jazz Age, Prohibition, consumerism.",
+    "reasoning": "Prosperity, speculation. Harlem Renaissance.",
+    "steps": [
+      "Economic boom",
+      "Cultural change",
+      "Prohibition 1920-33"
+    ],
+    "generatedAt": "2025-11-10T00:13:21.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_22",
+    "explanation": "Great Depression (1929-1939): Economic collapse. Stock crash, unemployment 25%.",
+    "reasoning": "Oct 1929 crash. Dust Bowl. Global depression.",
+    "steps": [
+      "1929: crash",
+      "25% unemployment",
+      "Worldwide crisis"
+    ],
+    "generatedAt": "2025-11-10T00:13:22.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_23",
+    "explanation": "New Deal (1933-1938): FDR's programs to combat Depression. Social Security, jobs programs.",
+    "reasoning": "3 Rs: Relief, Recovery, Reform. Expanded federal role.",
+    "steps": [
+      "FDR programs",
+      "Social Security",
+      "Federal expansion"
+    ],
+    "generatedAt": "2025-11-10T00:13:23.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_24",
+    "explanation": "WWII (1939-45): US entered after Pearl Harbor (1941). Allied victory, US superpower.",
+    "reasoning": "Neutrality \u2192 Pearl Harbor \u2192 total war.",
+    "steps": [
+      "1941: Pearl Harbor",
+      "Allied victory 1945",
+      "US superpower"
+    ],
+    "generatedAt": "2025-11-10T00:13:24.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_25",
+    "explanation": "Holocaust: Nazi genocide, 6 million Jews killed. Discovered by Allies liberating camps.",
+    "reasoning": "Systematic extermination. Nuremberg trials.",
+    "steps": [
+      "6 million Jews",
+      "Concentration camps",
+      "War crimes trials"
+    ],
+    "generatedAt": "2025-11-10T00:13:25.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_26",
+    "explanation": "Atomic bombs (1945): US dropped on Hiroshima, Nagasaki. Japan surrendered, ending WWII.",
+    "reasoning": "Manhattan Project. Controversial decision.",
+    "steps": [
+      "Aug 1945: bombs",
+      "Japan surrenders",
+      "Nuclear age begins"
+    ],
+    "generatedAt": "2025-11-10T00:13:26.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_27",
+    "explanation": "Cold War (1947-1991): US vs USSR. Ideological conflict, arms race, proxy wars.",
+    "reasoning": "Truman Doctrine, Marshall Plan, NATO.",
+    "steps": [
+      "1947-1991",
+      "Capitalism vs communism",
+      "Never direct war"
+    ],
+    "generatedAt": "2025-11-10T00:13:27.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_28",
+    "explanation": "Korean War (1950-53): North (communist) vs South. US supported South, China supported North. Stalemate.",
+    "reasoning": "38th parallel. Ended in armistice, still divided.",
+    "steps": [
+      "1950-1953",
+      "US vs China proxy",
+      "Stalemate at 38th"
+    ],
+    "generatedAt": "2025-11-10T00:13:28.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_29",
+    "explanation": "McCarthy era (1950s): Anti-communist witch hunts. Joseph McCarthy accused many of being communists.",
+    "reasoning": "Red Scare. HUAC. Ruined many careers.",
+    "steps": [
+      "Anti-communist hysteria",
+      "McCarthy hearings",
+      "Eventually discredited"
+    ],
+    "generatedAt": "2025-11-10T00:13:29.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_30",
+    "explanation": "Civil Rights Movement (1950s-60s): African Americans fought for equality. MLK, nonviolent resistance.",
+    "reasoning": "Brown v Board (1954), Montgomery bus boycott, March on Washington.",
+    "steps": [
+      "1954-1968",
+      "MLK leadership",
+      "Civil Rights Acts"
+    ],
+    "generatedAt": "2025-11-10T00:13:30.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_31",
+    "explanation": "Brown v Board (1954): Ruled school segregation unconstitutional. Overturned Plessy v Ferguson.",
+    "reasoning": "'Separate inherently unequal.' Warren Court.",
+    "steps": [
+      "1954: Brown",
+      "Segregation illegal",
+      "Implementation resisted"
+    ],
+    "generatedAt": "2025-11-10T00:13:31.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_32",
+    "explanation": "Vietnam War (1955-75): US supported South Vietnam against communist North. US withdrew 1973.",
+    "reasoning": "Domino theory. Gulf of Tonkin. Controversial war.",
+    "steps": [
+      "1955-1975",
+      "US withdrawal 1973",
+      "North victory 1975"
+    ],
+    "generatedAt": "2025-11-10T00:13:32.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_33",
+    "explanation": "Cuban Missile Crisis (1962): USSR missiles in Cuba. Brink of nuclear war. Kennedy blockade.",
+    "reasoning": "Closest to nuclear war. Khrushchev backed down.",
+    "steps": [
+      "Oct 1962",
+      "Nuclear brinkmanship",
+      "Peaceful resolution"
+    ],
+    "generatedAt": "2025-11-10T00:13:33.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_34",
+    "explanation": "JFK assassination (1963): President killed in Dallas. Lee Harvey Oswald accused. Warren Commission.",
+    "reasoning": "Nov 22, 1963. LBJ became president.",
+    "steps": [
+      "Nov 1963: Dallas",
+      "Oswald accused",
+      "National trauma"
+    ],
+    "generatedAt": "2025-11-10T00:13:34.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_35",
+    "explanation": "Great Society (1964-65): LBJ's domestic programs. Medicare, Medicaid, War on Poverty.",
+    "reasoning": "Expanded New Deal. Civil rights legislation.",
+    "steps": [
+      "LBJ programs",
+      "Medicare/Medicaid",
+      "War on Poverty"
+    ],
+    "generatedAt": "2025-11-10T00:13:35.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_36",
+    "explanation": "Watergate (1972-74): Nixon scandal. Break-in, cover-up. Nixon resigned (first president).",
+    "reasoning": "Washington Post exposed. Impeachment loomed.",
+    "steps": [
+      "1972: break-in",
+      "1974: Nixon resigns",
+      "First resignation"
+    ],
+    "generatedAt": "2025-11-10T00:13:36.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_37",
+    "explanation": "Reagan era (1981-89): Conservative resurgence. Supply-side economics, Cold War escalation then d\u00e9tente.",
+    "reasoning": "'Reagan Revolution.' Tax cuts, defense spending.",
+    "steps": [
+      "1981-1989",
+      "Reaganomics",
+      "Cold War end"
+    ],
+    "generatedAt": "2025-11-10T00:13:37.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_38",
+    "explanation": "Fall of Berlin Wall (1989): Symbolic Cold War end. Germany reunified 1990.",
+    "reasoning": "Gorbachev reforms. Eastern bloc collapsed.",
+    "steps": [
+      "Nov 1989: wall falls",
+      "Germany unified 1990",
+      "Cold War ends"
+    ],
+    "generatedAt": "2025-11-10T00:13:38.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_39",
+    "explanation": "Gulf War (1991): US-led coalition expelled Iraq from Kuwait. Quick victory.",
+    "reasoning": "Desert Storm. Showed US military dominance.",
+    "steps": [
+      "1991: Iraq invades Kuwait",
+      "Coalition victory",
+      "Saddam remains"
+    ],
+    "generatedAt": "2025-11-10T00:13:39.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_40",
+    "explanation": "9/11 (2001): Terrorist attacks on WTC, Pentagon. ~3000 dead. Changed US policy.",
+    "reasoning": "Al-Qaeda. Led to War on Terror.",
+    "steps": [
+      "Sept 11, 2001",
+      "~3000 killed",
+      "War on Terror began"
+    ],
+    "generatedAt": "2025-11-10T00:13:40.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_41",
+    "explanation": "Afghanistan War (2001-2021): Response to 9/11. Overthrew Taliban. Longest US war.",
+    "reasoning": "Oct 2001 invasion. 20 years. Withdrew 2021.",
+    "steps": [
+      "2001-2021",
+      "Taliban removed then returned",
+      "Longest war"
+    ],
+    "generatedAt": "2025-11-10T00:13:41.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_42",
+    "explanation": "Iraq War (2003-2011): US invaded claiming WMDs. Saddam removed. No WMDs found.",
+    "reasoning": "Controversial war. Destabilized region.",
+    "steps": [
+      "2003: invasion",
+      "Saddam captured",
+      "Withdrew 2011"
+    ],
+    "generatedAt": "2025-11-10T00:13:42.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_43",
+    "explanation": "Financial crisis (2007-08): Housing bubble burst. Great Recession. Bank bailouts.",
+    "reasoning": "Subprime mortgages. Lehman Brothers collapsed.",
+    "steps": [
+      "2008: crisis",
+      "Recession",
+      "TARP bailout"
+    ],
+    "generatedAt": "2025-11-10T00:13:43.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_44",
+    "explanation": "Obama presidency (2009-17): First Black president. ACA (Obamacare), killed bin Laden.",
+    "reasoning": "Historic election. Affordable Care Act.",
+    "steps": [
+      "2009-2017",
+      "ACA passed",
+      "Bin Laden killed 2011"
+    ],
+    "generatedAt": "2025-11-10T00:13:44.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_45",
+    "explanation": "Standard historical analysis requires examining primary sources, context, multiple perspectives, causation.",
+    "reasoning": "Consider bias, reliability, corroboration of sources.",
+    "steps": [
+      "Analyze sources",
+      "Consider context",
+      "Multiple perspectives"
+    ],
+    "generatedAt": "2025-11-10T00:13:45.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_46",
+    "explanation": "Historical causation: distinguish between immediate vs long-term causes, intended vs unintended consequences.",
+    "reasoning": "Multiple factors usually contribute to historical events.",
+    "steps": [
+      "Immediate causes",
+      "Long-term causes",
+      "Consequences"
+    ],
+    "generatedAt": "2025-11-10T00:13:46.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_47",
+    "explanation": "Historical periodization: dividing history into eras. Colonial, Revolutionary, Antebellum, etc.",
+    "reasoning": "Helps organize and understand change over time.",
+    "steps": [
+      "Major periods",
+      "Turning points",
+      "Continuity/change"
+    ],
+    "generatedAt": "2025-11-10T00:13:47.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_48",
+    "explanation": "Primary sources: firsthand accounts (letters, diaries, photos). Secondary: analyses by historians.",
+    "reasoning": "Primary = contemporary. Secondary = interpretive.",
+    "steps": [
+      "Primary: firsthand",
+      "Secondary: analysis",
+      "Evaluate both"
+    ],
+    "generatedAt": "2025-11-10T00:13:48.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_49",
+    "explanation": "Historical interpretation: historians debate causes, significance. Multiple valid perspectives exist.",
+    "reasoning": "History not fixed; interpretations evolve with new evidence.",
+    "steps": [
+      "Multiple views",
+      "Evidence-based",
+      "Evolves over time"
+    ],
+    "generatedAt": "2025-11-10T00:13:49.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_50",
+    "explanation": "Continuity and change: identifying what persists vs what transforms over time.",
+    "reasoning": "History involves both stability and transformation.",
+    "steps": [
+      "What continues",
+      "What changes",
+      "Why/how"
+    ],
+    "generatedAt": "2025-11-10T00:13:50.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_51",
+    "explanation": "Turning points: moments that significantly alter historical trajectory (1776, 1865, 1929, 1945, etc).",
+    "reasoning": "Revolutionary War, Civil War, Depression, WWII pivotal.",
+    "steps": [
+      "Identify turning point",
+      "Before/after comparison",
+      "Long-term impact"
+    ],
+    "generatedAt": "2025-11-10T00:13:51.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_52",
+    "explanation": "Historical context: understanding time, place, circumstances surrounding events.",
+    "reasoning": "'Why then?' matters. Social, economic, political factors.",
+    "steps": [
+      "Time period",
+      "Geographic location",
+      "Circumstances"
+    ],
+    "generatedAt": "2025-11-10T00:13:52.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_53",
+    "explanation": "Historical empathy: understanding past people's perspectives within their context, not judging by modern standards.",
+    "reasoning": "Presentism = judging past by present. Avoid this.",
+    "steps": [
+      "Contemporary mindset",
+      "Their context",
+      "Avoid presentism"
+    ],
+    "generatedAt": "2025-11-10T00:13:53.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_54",
+    "explanation": "Historiography: study of how history is written. How interpretations change over time.",
+    "reasoning": "Historians' views shaped by their own time/place.",
+    "steps": [
+      "How history written",
+      "Changing interpretations",
+      "Historian bias"
+    ],
+    "generatedAt": "2025-11-10T00:13:54.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_55",
+    "explanation": "Economic systems in US history: mercantilism (colonial), capitalism (industrial), mixed economy (modern).",
+    "reasoning": "Economic organization shapes society, politics.",
+    "steps": [
+      "Colonial: mercantile",
+      "19th: industrial capitalism",
+      "20th: mixed economy"
+    ],
+    "generatedAt": "2025-11-10T00:13:55.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_56",
+    "explanation": "Social movements: abolitionism, progressivism, civil rights, women's rights, labor, environmentalism.",
+    "reasoning": "Groups organize for change. Tactics vary.",
+    "steps": [
+      "Identify goals",
+      "Methods used",
+      "Outcomes"
+    ],
+    "generatedAt": "2025-11-10T00:13:56.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_57",
+    "explanation": "Immigration patterns: colonial (British), 19th c (Irish, German), early 20th (Southern/Eastern Europe), modern (Latin America, Asia).",
+    "reasoning": "Push/pull factors. Nativism recurring theme.",
+    "steps": [
+      "Waves of immigration",
+      "Origins vary",
+      "Nativist reactions"
+    ],
+    "generatedAt": "2025-11-10T00:13:57.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_58",
+    "explanation": "Westward expansion: Louisiana Purchase, Manifest Destiny, Homestead Act, railroads, Native displacement.",
+    "reasoning": "Continental growth. Displaced Native Americans.",
+    "steps": [
+      "Territorial acquisition",
+      "Economic motives",
+      "Native impact"
+    ],
+    "generatedAt": "2025-11-10T00:13:58.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_59",
+    "explanation": "Sectional conflict: North vs South over slavery, tariffs, states' rights. Led to Civil War.",
+    "reasoning": "Economic/social differences. Compromises failed.",
+    "steps": [
+      "Regional differences",
+      "Slavery central",
+      "War inevitable"
+    ],
+    "generatedAt": "2025-11-10T00:13:59.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_60",
+    "explanation": "Industrialization: transformed economy from agricultural to manufacturing. Urbanization, immigration, labor issues.",
+    "reasoning": "Late 19th c. Railroads key. Social upheaval.",
+    "steps": [
+      "Agricultural \u2192 industrial",
+      "Urbanization",
+      "Labor conflict"
+    ],
+    "generatedAt": "2025-11-10T00:14:00.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_61",
+    "explanation": "Labor movement: unions fought for better wages, hours, conditions. Often met with violence.",
+    "reasoning": "AFL, IWW, CIO. Strikes common. New Deal helped.",
+    "steps": [
+      "Union formation",
+      "Strikes/violence",
+      "New Deal gains"
+    ],
+    "generatedAt": "2025-11-10T00:14:01.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_62",
+    "explanation": "Women's suffrage: 19th Amendment (1920) granted women vote. Long struggle from Seneca Falls (1848).",
+    "reasoning": "Decades of activism. Wilson finally supported.",
+    "steps": [
+      "1848: Seneca Falls",
+      "Activism grows",
+      "1920: 19th Amendment"
+    ],
+    "generatedAt": "2025-11-10T00:14:02.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_63",
+    "explanation": "Temperance/Prohibition: Movement against alcohol. 18th Amendment (1920-33). Failed, repealed.",
+    "reasoning": "Progressive era reform. Led to organized crime.",
+    "steps": [
+      "18th: Prohibition 1920",
+      "Organized crime\u2191",
+      "21st: repeal 1933"
+    ],
+    "generatedAt": "2025-11-10T00:14:03.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_64",
+    "explanation": "Red Scares: 1919-20 (post-WWI) and 1950s (McCarthy). Fear of communism, radical suppression.",
+    "reasoning": "Palmer Raids, McCarthy hearings. Civil liberties violated.",
+    "steps": [
+      "1919-20: Palmer Raids",
+      "1950s: McCarthy",
+      "Anti-communist hysteria"
+    ],
+    "generatedAt": "2025-11-10T00:14:04.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_65",
+    "explanation": "Supreme Court landmark cases: Marbury, Dred Scott, Plessy, Brown, Roe, etc. Shape constitutional law.",
+    "reasoning": "Judicial review. Interpret Constitution.",
+    "steps": [
+      "Major cases",
+      "Constitutional impact",
+      "Precedent set"
+    ],
+    "generatedAt": "2025-11-10T00:14:05.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_66",
+    "explanation": "Checks and balances: executive, legislative, judicial branches limit each other. Prevents tyranny.",
+    "reasoning": "Separation of powers. Madisonian system.",
+    "steps": [
+      "3 branches",
+      "Mutual limits",
+      "Balance power"
+    ],
+    "generatedAt": "2025-11-10T00:14:06.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_67",
+    "explanation": "Federalism: power divided between federal and state governments. Ongoing tension/evolution.",
+    "reasoning": "10th Amendment reserves powers. Balance shifts.",
+    "steps": [
+      "Federal vs state",
+      "Evolution over time",
+      "Commerce Clause key"
+    ],
+    "generatedAt": "2025-11-10T00:14:07.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_68",
+    "explanation": "Bill of Rights: First 10 Amendments. Protect individual liberties (speech, religion, due process, etc).",
+    "reasoning": "Anti-Federalist demand. Ratified 1791.",
+    "steps": [
+      "Amendments 1-10",
+      "Individual rights",
+      "1791 ratified"
+    ],
+    "generatedAt": "2025-11-10T00:14:08.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_69",
+    "explanation": "Amendments 13-15: Reconstruction Amendments. Abolished slavery, citizenship, voting rights.",
+    "reasoning": "Post-Civil War. Limited by Jim Crow.",
+    "steps": [
+      "13th: slavery abolished",
+      "14th: citizenship",
+      "15th: vote rights"
+    ],
+    "generatedAt": "2025-11-10T00:14:09.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_70",
+    "explanation": "Foreign policy evolution: isolationism (early) \u2192 imperialism (1898) \u2192 internationalism (post-WWII).",
+    "reasoning": "Washington's farewell \u2192 Spanish-American \u2192 world power.",
+    "steps": [
+      "Early: isolationism",
+      "1898: imperialism",
+      "Post-1945: leader"
+    ],
+    "generatedAt": "2025-11-10T00:14:10.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_71",
+    "explanation": "Containment policy: Cold War strategy to prevent communism spread. Truman Doctrine, NATO, Korea, Vietnam.",
+    "reasoning": "Kennan's long telegram. Dominated policy 1947-89.",
+    "steps": [
+      "Stop communism spread",
+      "Truman Doctrine",
+      "Global commitment"
+    ],
+    "generatedAt": "2025-11-10T00:14:11.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_72",
+    "explanation": "D\u00e9tente (1970s): Relaxation of US-Soviet tensions. Nixon, Kissinger. SALT treaties.",
+    "reasoning": "Practical diplomacy. China opening too.",
+    "steps": [
+      "Nixon/Kissinger",
+      "SALT I",
+      "China visit 1972"
+    ],
+    "generatedAt": "2025-11-10T00:14:12.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_73",
+    "explanation": "Counterculture (1960s): Youth rebellion against mainstream. Anti-war, drugs, sexual revolution.",
+    "reasoning": "Baby boomers. Vietnam War catalyst.",
+    "steps": [
+      "Youth movement",
+      "Anti-establishment",
+      "Cultural shift"
+    ],
+    "generatedAt": "2025-11-10T00:14:13.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_74",
+    "explanation": "Environmental movement: Earth Day (1970), EPA created. Clean Air/Water Acts. Growing awareness.",
+    "reasoning": "Rachel Carson catalyst. Bipartisan support then.",
+    "steps": [
+      "1970: Earth Day, EPA",
+      "Legislation passed",
+      "Ongoing issue"
+    ],
+    "generatedAt": "2025-11-10T00:14:14.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_75",
+    "explanation": "Women's liberation (1960s-70s): Second-wave feminism. Equal rights, workplace equality, reproductive rights.",
+    "reasoning": "Betty Friedan, NOW, Roe v Wade.",
+    "steps": [
+      "Second-wave feminism",
+      "NOW founded 1966",
+      "Roe v Wade 1973"
+    ],
+    "generatedAt": "2025-11-10T00:14:15.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_76",
+    "explanation": "Conservative resurgence (1980s): Reagan Revolution. Limited government, traditional values, strong defense.",
+    "reasoning": "Reaction to 1960s-70s. Moral Majority.",
+    "steps": [
+      "Reagan elected 1980",
+      "Conservative agenda",
+      "Cultural shift right"
+    ],
+    "generatedAt": "2025-11-10T00:14:16.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_77",
+    "explanation": "Technological change: cotton gin, railroad, telegraph, electricity, automobile, computer, internet.",
+    "reasoning": "Each transforms economy, society.",
+    "steps": [
+      "Major innovations",
+      "Economic impact",
+      "Social change"
+    ],
+    "generatedAt": "2025-11-10T00:14:17.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_78",
+    "explanation": "Mass media evolution: newspapers \u2192 radio \u2192 TV \u2192 internet. Shapes public opinion, politics.",
+    "reasoning": "Information technology transforms democracy.",
+    "steps": [
+      "Print \u2192 broadcast \u2192 digital",
+      "Political impact",
+      "Public opinion"
+    ],
+    "generatedAt": "2025-11-10T00:14:18.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_79",
+    "explanation": "Political parties: Federalists/Democratic-Republicans \u2192 Democrats/Whigs \u2192 Democrats/Republicans (1850s-present).",
+    "reasoning": "2-party system dominates. Platforms evolve.",
+    "steps": [
+      "Party evolution",
+      "Platform shifts",
+      "2-party dominance"
+    ],
+    "generatedAt": "2025-11-10T00:14:19.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_80",
+    "explanation": "Presidential power: expanded over time, especially 20th c. Imperial presidency concerns.",
+    "reasoning": "Commander-in-chief, executive orders. Congress pushback.",
+    "steps": [
+      "Power growth",
+      "Executive orders",
+      "War powers"
+    ],
+    "generatedAt": "2025-11-10T00:14:20.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_81",
+    "explanation": "Voting rights expansion: property requirements \u2192 white men \u2192 Black men (15th) \u2192 women (19th) \u2192 18-year-olds (26th).",
+    "reasoning": "Gradual democratization. Barriers removed slowly.",
+    "steps": [
+      "Property \u2192 universal white",
+      "Amendments expand",
+      "Ongoing issues"
+    ],
+    "generatedAt": "2025-11-10T00:14:21.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_82",
+    "explanation": "Native American history: displacement, reservations, assimilation, termination, self-determination.",
+    "reasoning": "Tragic story. Trail of Tears, Wounded Knee, boarding schools.",
+    "steps": [
+      "Removal policies",
+      "Reservation system",
+      "20th c rights movement"
+    ],
+    "generatedAt": "2025-11-10T00:14:22.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_83",
+    "explanation": "Slavery in America: colonial origins, cotton boom, abolition movement, Civil War, emancipation.",
+    "reasoning": "Economic foundation South. Moral stain. Civil War required.",
+    "steps": [
+      "Colonial \u2192 cotton boom",
+      "Abolition movement",
+      "Civil War ends"
+    ],
+    "generatedAt": "2025-11-10T00:14:23.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_84",
+    "explanation": "Jim Crow era (1877-1965): Southern segregation laws. 'Separate but equal' (Plessy). Ended by Civil Rights Act.",
+    "reasoning": "Post-Reconstruction. Disenfranchisement, violence, segregation.",
+    "steps": [
+      "1877-1965",
+      "Legal segregation",
+      "Civil Rights ends"
+    ],
+    "generatedAt": "2025-11-10T00:14:24.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_85",
+    "explanation": "Black migration: Great Migration (1910s-70s) from South to North/West. Sought better opportunities.",
+    "reasoning": "Escape Jim Crow. Industrial jobs. Harlem Renaissance.",
+    "steps": [
+      "1910s-1970s",
+      "South \u2192 North/West",
+      "Urban transformation"
+    ],
+    "generatedAt": "2025-11-10T00:14:25.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_86",
+    "explanation": "Suburbanization (post-WWII): GI Bill, highways, white flight. Changed American landscape.",
+    "reasoning": "Levittown model. Cars essential. Racial segregation.",
+    "steps": [
+      "Post-1945",
+      "Highway system",
+      "White flight"
+    ],
+    "generatedAt": "2025-11-10T00:14:26.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_87",
+    "explanation": "Deindustrialization (1970s-): Manufacturing decline, rust belt, service economy. Globalization impact.",
+    "reasoning": "Competition, automation, outsourcing.",
+    "steps": [
+      "Manufacturing decline",
+      "Rust Belt",
+      "Service economy"
+    ],
+    "generatedAt": "2025-11-10T00:14:27.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_88",
+    "explanation": "Globalization: Increased economic, cultural interconnection. Trade agreements (NAFTA), outsourcing.",
+    "reasoning": "Post-Cold War acceleration. Technology enables.",
+    "steps": [
+      "Economic integration",
+      "Trade agreements",
+      "Cultural exchange"
+    ],
+    "generatedAt": "2025-11-10T00:14:28.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_89",
+    "explanation": "Inequality in America: persistent wealth/income gaps. Race, class, gender disparities. Ongoing debate.",
+    "reasoning": "Growing since 1970s. Political issue.",
+    "steps": [
+      "Wealth concentration",
+      "Racial gaps",
+      "Policy debates"
+    ],
+    "generatedAt": "2025-11-10T00:14:29.000Z"
   }
 ]
