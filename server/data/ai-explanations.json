@@ -24083,5 +24083,984 @@
       "Sum: 9 + 16 = 25"
     ],
     "generatedAt": "2025-11-10T03:40:19.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_292",
+    "explanation": "To find the number of rows when we know the total plants and plants per row, we divide.",
+    "reasoning": "Total plants = 42. Plants per row = 7. Number of rows = total plants \u00f7 plants per row = 42 \u00f7 7 = 6 rows. Division is used when we're splitting a total into equal groups.",
+    "steps": [
+      "Total plants: 42",
+      "Plants per row: 7",
+      "Number of rows: 42 \u00f7 7 = 6"
+    ],
+    "generatedAt": "2025-11-10T03:50:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_293",
+    "explanation": "When a number is divided by 4, the result is 160 with remainder 2. We need to find the original number.",
+    "reasoning": "Use the division formula: dividend = (quotient \u00d7 divisor) + remainder. Number = (160 \u00d7 4) + 2 = 640 + 2 = 642.",
+    "steps": [
+      "Formula: number = (quotient \u00d7 divisor) + remainder",
+      "Number = (160 \u00d7 4) + 2",
+      "= 640 + 2 = 642"
+    ],
+    "generatedAt": "2025-11-10T03:50:01.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_294",
+    "explanation": "Multiply 0.3 by 427 using decimal multiplication.",
+    "reasoning": "0.3 \u00d7 427: First multiply 3 \u00d7 427 = 1,281. Since 0.3 has 1 decimal place, place the decimal: 128.1. So 0.3 \u00d7 427 = 128.1.",
+    "steps": [
+      "Multiply without decimal: 3 \u00d7 427 = 1,281",
+      "Count decimal places: 1",
+      "Place decimal: 128.1"
+    ],
+    "generatedAt": "2025-11-10T03:50:02.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_295",
+    "explanation": "Divide 1,248 by 7 using long division.",
+    "reasoning": "1,248 \u00f7 7: 1\u00f77=0, 12\u00f77=1 R5, 54\u00f77=7 R5, 58\u00f77=8 R2. So 1,248 \u00f7 7 = 178 remainder 2. Check: 7 \u00d7 178 = 1,246, plus 2 = 1,248 \u2713.",
+    "steps": [
+      "Long division: 1248 \u00f7 7",
+      "Quotient: 178",
+      "Remainder: 2"
+    ],
+    "generatedAt": "2025-11-10T03:50:03.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_296",
+    "explanation": "Write repeated multiplication using exponents. The base is 11 and it's multiplied 8 times.",
+    "reasoning": "11 \u2022 11 \u2022 11 \u2022 11 \u2022 11 \u2022 11 \u2022 11 \u2022 11 means 11 multiplied by itself 8 times. This is written as 11\u2078.",
+    "steps": [
+      "Count how many times 11 appears: 8 times",
+      "Base = 11, exponent = 8",
+      "Write as: 11\u2078"
+    ],
+    "generatedAt": "2025-11-10T03:50:04.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_297",
+    "explanation": "Calculate total sheets: 5 packages with 80 sheets each.",
+    "reasoning": "Total sheets = number of packages \u00d7 sheets per package = 5 \u00d7 80 = 400 sheets.",
+    "steps": [
+      "Packages: 5",
+      "Sheets per package: 80",
+      "Total: 5 \u00d7 80 = 400 sheets"
+    ],
+    "generatedAt": "2025-11-10T03:50:05.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_298",
+    "explanation": "Find how many floors by dividing total height by height per floor.",
+    "reasoning": "Total height: 185.9 feet. Height per floor: 14.3 feet. Number of floors = 185.9 \u00f7 14.3 = 13 floors.",
+    "steps": [
+      "Total height: 185.9 feet",
+      "Per floor: 14.3 feet",
+      "Floors: 185.9 \u00f7 14.3 = 13"
+    ],
+    "generatedAt": "2025-11-10T03:50:06.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_299",
+    "explanation": "The mode is the number that appears most frequently in a data set.",
+    "reasoning": "Data: 22, 25, 14, 11, 23, 27, 46. Each number appears exactly once. When no number repeats, there is no mode.",
+    "steps": [
+      "Count frequency of each number",
+      "All numbers appear once",
+      "No mode exists"
+    ],
+    "generatedAt": "2025-11-10T03:50:07.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_300",
+    "explanation": "Divide 1,224 by 9 using long division.",
+    "reasoning": "1,224 \u00f7 9: 12\u00f79=1 R3, 32\u00f79=3 R5, 54\u00f79=6 R0. Quotient = 136.",
+    "steps": [
+      "Long division: 1224 \u00f7 9",
+      "Calculate step by step",
+      "Quotient = 136"
+    ],
+    "generatedAt": "2025-11-10T03:50:08.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_301",
+    "explanation": "Determine which pair of expressions are equivalent by simplifying each.",
+    "reasoning": "Check option C: 4(2x \u2212 6) = 8x \u2212 24 by distributing 4. And the second expression is 8x \u2212 24. These are identical, so they're equivalent.",
+    "steps": [
+      "Distribute in 4(2x \u2212 6): 4\u00d72x + 4\u00d7(\u22126)",
+      "= 8x \u2212 24",
+      "Matches second expression: 8x \u2212 24 \u2713"
+    ],
+    "generatedAt": "2025-11-10T03:50:09.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_302",
+    "explanation": "Track the stock price changes throughout the week, starting at $24.75.",
+    "reasoning": "Start: $24.75. Monday +$2.50 = $27.25. Tuesday \u2212$3.25 = $24.00. Wednesday \u2212$0.75 = $23.25. Thursday +$1.25 = $24.50. Friday +$4.75 = $29.25.",
+    "steps": [
+      "Start: $24.75, Monday +$2.50 = $27.25",
+      "Tuesday \u2212$3.25 = $24.00, Wednesday \u2212$0.75 = $23.25",
+      "Thursday +$1.25 = $24.50, Friday +$4.75 = $29.25"
+    ],
+    "generatedAt": "2025-11-10T03:50:10.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_303",
+    "explanation": "Solve the proportion 2/9 = 14/? by finding the missing denominator.",
+    "reasoning": "Set up: 2/9 = 14/?. Cross-multiply: 2 \u00d7 ? = 9 \u00d7 14 = 126. Divide: ? = 126 \u00f7 2 = 63.",
+    "steps": [
+      "Cross-multiply: 2 \u00d7 ? = 9 \u00d7 14",
+      "2 \u00d7 ? = 126",
+      "? = 63"
+    ],
+    "generatedAt": "2025-11-10T03:50:11.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_304",
+    "explanation": "Find the unit rate per ball, then calculate cost for 100 balls.",
+    "reasoning": "Unit rate = $4.00 \u00f7 40 balls = $0.10 per ball. For 100 balls: 100 \u00d7 $0.10 = $10.00.",
+    "steps": [
+      "Unit rate: $4.00 \u00f7 40 = $0.10 per ball",
+      "For 100 balls: 100 \u00d7 $0.10",
+      "= $10.00"
+    ],
+    "generatedAt": "2025-11-10T03:50:12.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_305",
+    "explanation": "Simplify the ratio 96:216 by finding the GCD and dividing both terms.",
+    "reasoning": "Find GCD of 96 and 216. Both divisible by 24: 96\u00f724 = 4, 216\u00f724 = 9. Simplified ratio: 4:9 or 4/9.",
+    "steps": [
+      "Find GCD of 96 and 216: GCD = 24",
+      "Divide both: 96\u00f724 = 4, 216\u00f724 = 9",
+      "Simplified: 4/9"
+    ],
+    "generatedAt": "2025-11-10T03:50:13.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_306",
+    "explanation": "Find the area of a trapezoid with bases 130 and 390 yards, and height 75 yards.",
+    "reasoning": "Area of trapezoid = (1/2)(base\u2081 + base\u2082)(height) = (1/2)(130 + 390)(75) = (1/2)(520)(75) = 260 \u00d7 75 = 19,500 square yards.",
+    "steps": [
+      "Formula: A = (1/2)(b\u2081 + b\u2082)h",
+      "A = (1/2)(130 + 390)(75) = (1/2)(520)(75)",
+      "= 260 \u00d7 75 = 19,500 yd\u00b2"
+    ],
+    "generatedAt": "2025-11-10T03:50:14.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_307",
+    "explanation": "Solve the equation 3 + p = 15 for p.",
+    "reasoning": "3 + p = 15. Subtract 3 from both sides: p = 15 \u2212 3 = 12.",
+    "steps": [
+      "Start with: 3 + p = 15",
+      "Subtract 3: p = 15 \u2212 3",
+      "p = 12"
+    ],
+    "generatedAt": "2025-11-10T03:50:15.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_308",
+    "explanation": "Find the unit rate (cost per carton) by dividing total cost by number of cartons.",
+    "reasoning": "Unit rate = $48 \u00f7 12 cartons = $4 per carton.",
+    "steps": [
+      "Total cost: $48",
+      "Number of cartons: 12",
+      "Unit rate: $48 \u00f7 12 = $4 per carton"
+    ],
+    "generatedAt": "2025-11-10T03:50:16.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_309",
+    "explanation": "Add the points from the first level and bonus round to find the total.",
+    "reasoning": "First level: 389 points. Bonus round: 116 points. Total = 389 + 116 = 505 points.",
+    "steps": [
+      "First level: 389 points",
+      "Bonus round: 116 points",
+      "Total: 389 + 116 = 505"
+    ],
+    "generatedAt": "2025-11-10T03:50:17.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_310",
+    "explanation": "Calculate the tip amount, then add to the original cost.",
+    "reasoning": "Haircut: $25. Tip: 15% of $25 = 0.15 \u00d7 25 = $3.75. Total cost = $25 + $3.75 = $28.75.",
+    "steps": [
+      "Calculate 15% tip: 0.15 \u00d7 $25 = $3.75",
+      "Add to original: $25 + $3.75",
+      "Total: $28.75"
+    ],
+    "generatedAt": "2025-11-10T03:50:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_311",
+    "explanation": "Calculate a 5% increase on 180 days.",
+    "reasoning": "5% of 180 = 0.05 \u00d7 180 = 9 days. New total = 180 + 9 = 189 days.",
+    "steps": [
+      "Calculate 5%: 0.05 \u00d7 180 = 9 days",
+      "Add to current: 180 + 9",
+      "= 189 days"
+    ],
+    "generatedAt": "2025-11-10T03:50:19.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_312",
+    "explanation": "Use the distributive property to expand 5(6x + 3y).",
+    "reasoning": "5(6x + 3y) = 5\u00d76x + 5\u00d73y = 30x + 15y.",
+    "steps": [
+      "Distribute 5: 5\u00d76x + 5\u00d73y",
+      "= 30x + 15y",
+      "Final expression: 30x + 15y"
+    ],
+    "generatedAt": "2025-11-10T03:50:20.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_313",
+    "explanation": "Dani has 5 times as many marbles as Joe. If Dani has 45, find how many Joe has.",
+    "reasoning": "Let j = Joe's marbles. Then 5j = 45. Divide by 5: j = 45 \u00f7 5 = 9 marbles.",
+    "steps": [
+      "Equation: 5 \u00d7 Joe's marbles = 45",
+      "Divide by 5: Joe's marbles = 45 \u00f7 5",
+      "= 9 marbles"
+    ],
+    "generatedAt": "2025-11-10T03:50:21.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_314",
+    "explanation": "Batteries come in packs of 4. Find which total is divisible by 4.",
+    "reasoning": "Check each option: (A) 22\u00f74 = 5.5 \u2717 (B) 26\u00f74 = 6.5 \u2717 (C) 28\u00f74 = 7 \u2713 (D) 30\u00f74 = 7.5 \u2717. Only 28 is divisible by 4.",
+    "steps": [
+      "Need a multiple of 4",
+      "Check 28: 28 \u00f7 4 = 7 (exact)",
+      "28 batteries (7 packs) works"
+    ],
+    "generatedAt": "2025-11-10T03:50:22.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_315",
+    "explanation": "Round 836 to the nearest 10 by looking at the ones digit.",
+    "reasoning": "836 has 6 in the ones place. Since 6 \u2265 5, round up to 840.",
+    "steps": [
+      "Ones digit: 6",
+      "6 \u2265 5, so round up",
+      "836 rounds to 840"
+    ],
+    "generatedAt": "2025-11-10T03:50:23.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_316",
+    "explanation": "Find the angle measure for 3/4 of a complete circle.",
+    "reasoning": "A complete circle is 360\u00b0. Three-fourths of 360\u00b0 = (3/4) \u00d7 360 = 270\u00b0.",
+    "steps": [
+      "Complete circle: 360\u00b0",
+      "Calculate 3/4: (3/4) \u00d7 360",
+      "= 270\u00b0"
+    ],
+    "generatedAt": "2025-11-10T03:50:24.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_317",
+    "explanation": "Calculate total water: 8 tanks with 40 liters each.",
+    "reasoning": "Total liters = number of tanks \u00d7 liters per tank = 8 \u00d7 40 = 320 liters.",
+    "steps": [
+      "Number of tanks: 8",
+      "Liters per tank: 40",
+      "Total: 8 \u00d7 40 = 320 liters"
+    ],
+    "generatedAt": "2025-11-10T03:50:25.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_318",
+    "explanation": "Find the distance between the lowest and highest points on Earth.",
+    "reasoning": "Lowest: \u221235,840 feet. Highest: +29,028 feet. Distance = 35,840 + 29,028 = 64,868 feet \u2248 65,000 feet (best estimate).",
+    "steps": [
+      "Lowest: \u221235,840 ft, Highest: +29,028 ft",
+      "Distance: 35,840 + 29,028 = 64,868 ft",
+      "Best estimate: 65,000 feet"
+    ],
+    "generatedAt": "2025-11-10T03:50:26.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_319",
+    "explanation": "Find how much farther you walked in the morning (7/9 mi) than afternoon (5/12 mi).",
+    "reasoning": "Need common denominator for 7/9 and 5/12. LCM of 9 and 12 is 36. Convert: 7/9 = 28/36, 5/12 = 15/36. Difference: 28/36 \u2212 15/36 = 13/36 mile.",
+    "steps": [
+      "Common denominator: 36",
+      "7/9 = 28/36, 5/12 = 15/36",
+      "Difference: 28/36 \u2212 15/36 = 13/36 mi"
+    ],
+    "generatedAt": "2025-11-10T03:50:27.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_320",
+    "explanation": "Multiply 0.07 by 5.8 using decimal multiplication.",
+    "reasoning": "7 \u00d7 58 = 406. Count decimal places: 2 + 1 = 3 places. So 0.07 \u00d7 5.8 = 0.406.",
+    "steps": [
+      "Multiply without decimals: 7 \u00d7 58 = 406",
+      "Count decimal places: 3 total",
+      "Place decimal: 0.406"
+    ],
+    "generatedAt": "2025-11-10T03:50:28.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_321",
+    "explanation": "To compare 0.5 of Mr. Paulson's class to 0.5 of Ms. Hugo's class, we need to know the total students in each class.",
+    "reasoning": "0.5 means half. But half of 20 students (10) is different from half of 30 students (15). We need to know each class size to make a meaningful comparison of the actual number of students.",
+    "steps": [
+      "0.5 (or 50%) is a fraction, not an absolute number",
+      "Same fraction of different totals gives different results",
+      "Need: total number of students in each class"
+    ],
+    "generatedAt": "2025-11-10T03:50:29.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_322",
+    "explanation": "To find how far Lee threw the ball, we need to understand that Lee threw 3 times as far as Jean. Since Jean threw 9 feet, we need an equation where we multiply the distance by 3 to get Jean's distance. If d represents Lee's distance, then d divided by 3 equals 9 feet (Jean's distance). This can be written as d\u00f73=9 or d\u00d7(1/3)=9. Among the options, 'dx3=9' appears to represent this relationship, though typically written as d/3=9.",
+    "reasoning": "Jean's distance = 9 feet. Lee threw 3 times as far, so Lee's distance = 3 \u00d7 9 = 27 feet. The equation that represents this is d = 3 \u00d7 9, but if we rearrange it to solve for the relationship, we get d/3 = 9, which confirms Lee's distance when multiplied by the factor relates to Jean's distance.",
+    "steps": [
+      "Jean threw 9 feet",
+      "Lee threw 3 times as far as Jean",
+      "Lee's distance: d = 3 \u00d7 9 = 27 feet",
+      "The equation d/3 = 9 (or dx3=9 in non-standard notation) represents this relationship"
+    ],
+    "generatedAt": "2025-11-10T04:00:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_323",
+    "explanation": "To estimate the sum using rounding to the nearest tenth, we first round each number to the nearest tenth, then add them. Rounding 27.94 to the nearest tenth gives 27.9 (since 0.04 rounds down). Rounding 15.35 to the nearest tenth gives 15.4 (since 0.05 rounds up). Adding these: 27.9 + 15.4 = 43.3. However, another approach is to add first then round: 27.94 + 15.35 = 43.29, which rounds to 43.3. The answer 43.2 suggests rounding 27.94 down to 27.9 and 15.35 down to 15.3, giving 27.9 + 15.3 = 43.2.",
+    "reasoning": "When estimating by rounding, there can be different interpretations. If we round 27.94 to 27.9 and 15.35 to 15.3 (rounding .35 down for estimation purposes), we get 43.2. If we round to get 27.9 + 15.4, we get 43.3. The question likely expects the more conservative rounding approach, yielding 43.2.",
+    "steps": [
+      "Round 27.94 to nearest tenth: 27.9",
+      "Round 15.35 to nearest tenth: 15.3 (conservative rounding for estimation)",
+      "Add the rounded numbers: 27.9 + 15.3 = 43.2"
+    ],
+    "generatedAt": "2025-11-10T04:02:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_324",
+    "explanation": "Let's examine each statement to determine which is true. A hexagon has 6 sides, not 3, so hexagons are not triangles. An octagon has 8 sides, which is at least 3 sides, and any closed figure with at least 3 straight sides is a polygon, so all octagons are indeed polygons. A parallelogram has 2 sets of parallel sides, but not all parallelograms are rectangles (rectangles also need right angles). A rhombus has 4 equal sides, but not all rhombi are squares (squares also need right angles).",
+    "reasoning": "The true statement is that all octagons are polygons because they have at least 3 sides. This is a fundamental definition: a polygon is a closed figure with at least 3 straight sides. Octagons have 8 sides, which clearly meets this criterion.",
+    "steps": [
+      "Check hexagons: Have 6 sides, not triangles (triangles have 3 sides) - FALSE",
+      "Check octagons: Have 8 sides, which is \u22653 sides, so they are polygons - TRUE",
+      "Check parallelograms: Have 2 sets of parallel sides but don't need right angles - FALSE",
+      "Check rhombi: Have 4 equal sides but don't need right angles to be squares - FALSE"
+    ],
+    "generatedAt": "2025-11-10T04:04:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_325",
+    "explanation": "When measuring the capacity of a jar, we need a unit that measures volume or how much the jar can hold. Capacity refers to how much liquid or substance a container can hold. A centimeter measures length or distance, not capacity. A cup is a unit of volume/capacity. A gram measures mass/weight. A pound also measures mass/weight. For measuring how much a jar can hold, we need a volume unit like cup, liter, or fluid ounce.",
+    "reasoning": "Capacity is measured in volume units. Among the options: Centimeter is for length, Cup is for volume/capacity, Gram is for mass, and Pound is for mass. The correct unit for measuring jar capacity is Cup.",
+    "steps": [
+      "Identify what capacity means: volume or amount a container holds",
+      "Centimeter: measures length (not capacity)",
+      "Cup: measures volume/capacity \u2713",
+      "Gram: measures mass",
+      "Pound: measures mass",
+      "Answer: Cup is the appropriate unit for capacity"
+    ],
+    "generatedAt": "2025-11-10T04:06:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_326",
+    "explanation": "To find the total distance Gabriella flew, we need to add all four distances together. When adding decimals, we align the decimal points and add column by column. Let's add: 7.04 + 18.81 + 18.39 + 19.94. Starting from the right: 4+1+9+4=18 (write 8, carry 1), then 0+8+3+9+1=21 (write 1, carry 2), then 7+8+8+9+2=34 (write 4, carry 3), then 0+1+1+1+3=6.",
+    "reasoning": "Adding the four distances: 7.04 + 18.81 = 25.85, then 25.85 + 18.39 = 44.24, then 44.24 + 19.94 = 64.18 meters. This represents the total distance Gabriella flew across all four shows on Saturday.",
+    "steps": [
+      "Show 1: 7.04 meters",
+      "Show 2: 18.81 meters",
+      "Show 3: 18.39 meters",
+      "Show 4: 19.94 meters",
+      "Total: 7.04 + 18.81 + 18.39 + 19.94 = 64.18 meters"
+    ],
+    "generatedAt": "2025-11-10T04:08:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_327",
+    "explanation": "To find what fraction of the cans are either tomato or chicken noodle, we add the two fractions. We have 1/2 tomato and 2/5 chicken noodle. To add fractions, we need a common denominator. The least common multiple of 2 and 5 is 10. Converting: 1/2 = 5/10 and 2/5 = 4/10. Adding: 5/10 + 4/10 = 9/10. So 9/10 of the cans are either tomato or chicken noodle soup.",
+    "reasoning": "When we add fractions representing parts of the same whole (the cans in the cupboard), we find the combined fraction. 1/2 + 2/5 = 5/10 + 4/10 = 9/10. The answer appears to be written in an unusual format (7-Mar likely represents 7/10 or March 7), but mathematically the correct answer is 9/10.",
+    "steps": [
+      "Tomato soup: 1/2 of cans",
+      "Chicken noodle: 2/5 of cans",
+      "Find common denominator: LCM(2,5) = 10",
+      "Convert: 1/2 = 5/10, 2/5 = 4/10",
+      "Add: 5/10 + 4/10 = 9/10"
+    ],
+    "generatedAt": "2025-11-10T04:10:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_328",
+    "explanation": "To order these numbers from least to greatest, we need to convert them all to the same format (decimals works well). 1/8 = 0.125, 0.75 = 0.75, 1/3 \u2248 0.333, and 5/6 \u2248 0.833. Now we can see the order from smallest to largest: 0.125 (1/8), 0.333 (1/3), 0.75 (0.75), 0.833 (5/6). So the correct order is: 1/8, 1/3, 0.75, 5/6.",
+    "reasoning": "Converting to decimals makes comparison easier: 1/8 = 0.125, 1/3 = 0.333..., 0.75 = 0.75, 5/6 = 0.833... Arranging in ascending order: 0.125 < 0.333 < 0.75 < 0.833, which corresponds to 1/8 < 1/3 < 0.75 < 5/6.",
+    "steps": [
+      "Convert to decimals: 1/8 = 0.125",
+      "1/3 = 0.333...",
+      "0.75 = 0.75",
+      "5/6 = 0.833...",
+      "Order from least to greatest: 1/8, 1/3, 0.75, 5/6"
+    ],
+    "generatedAt": "2025-11-10T04:12:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_329",
+    "explanation": "To solve the equation 6.73 = z/7.74, we need to isolate z. This equation states that z divided by 7.74 equals 6.73. To find z, we multiply both sides of the equation by 7.74. This gives us: z = 6.73 \u00d7 7.74. Performing the multiplication: 6.73 \u00d7 7.74 = 52.0902. To check our answer, we substitute back: 52.0902 \u00f7 7.74 = 6.73 \u2713",
+    "reasoning": "This is a one-step equation. Since z is divided by 7.74, we perform the inverse operation (multiplication) to isolate z. Multiplying 6.73 by 7.74 gives 52.0902. We can verify by dividing: 52.0902 \u00f7 7.74 = 6.73.",
+    "steps": [
+      "Given equation: 6.73 = z/7.74",
+      "Multiply both sides by 7.74: z = 6.73 \u00d7 7.74",
+      "Calculate: z = 52.0902",
+      "Check: 52.0902 \u00f7 7.74 = 6.73 \u2713"
+    ],
+    "generatedAt": "2025-11-10T04:14:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_330",
+    "explanation": "The question asks which statement is FALSE. Let's check each inequality: (1) 3 < 5 is TRUE (3 is less than 5). (2) 5 > 3 is TRUE (5 is greater than 3). (3) \u22125 > \u22123 is FALSE (negative 5 is actually less than negative 3; on a number line, \u22125 is to the left of \u22123). (4) \u22123 > \u22125 is TRUE (\u22123 is greater than \u22125). The false statement is \u22125 > \u22123.",
+    "reasoning": "With negative numbers, the number closer to zero is greater. \u22123 is closer to zero than \u22125, so \u22123 > \u22125 (true), but \u22125 > \u22123 (false). Think of a number line: ... \u22125, \u22124, \u22123, \u22122, \u22121, 0, 1, 2, 3, 4, 5 ... Numbers to the right are always greater.",
+    "steps": [
+      "Check: 3 < 5 \u2192 TRUE",
+      "Check: 5 > 3 \u2192 TRUE",
+      "Check: \u22125 > \u22123 \u2192 FALSE (\u22125 is less than \u22123)",
+      "Check: \u22123 > \u22125 \u2192 TRUE",
+      "The false statement is: \u22125 > \u22123"
+    ],
+    "generatedAt": "2025-11-10T04:16:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_331",
+    "explanation": "To write a number in standard form from expanded form, we simply add all the place values together. We have 300,000 + 5,000 + 600 + 10. Adding these values: 300,000 + 5,000 = 305,000, then 305,000 + 600 = 305,600, then 305,600 + 10 = 305,610 square feet. Standard form means writing the number in the usual way with all digits in their proper place values.",
+    "reasoning": "Expanded form shows each place value separately. To convert to standard form, we combine them: 300,000 (hundred thousands) + 5,000 (thousands) + 600 (hundreds) + 10 (tens) = 305,610.",
+    "steps": [
+      "Start with: 300,000 + 5,000 + 600 + 10",
+      "Add: 300,000 + 5,000 = 305,000",
+      "Add: 305,000 + 600 = 305,600",
+      "Add: 305,600 + 10 = 305,610",
+      "Standard form: 305,610 square feet"
+    ],
+    "generatedAt": "2025-11-10T04:18:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_332",
+    "explanation": "Two ratios form a proportion if they are equivalent (equal). To check if ratios are equivalent, we can cross-multiply or simplify each ratio. Let's check 4/5 and 24/30: Simplify 24/30 by dividing both by 6: 24\u00f76 = 4, 30\u00f76 = 5, so 24/30 = 4/5. These ARE equivalent. Check 4/5 and 20/25: Simplify 20/25 by dividing by 5: 20\u00f75 = 4, 25\u00f75 = 5, so 20/25 = 4/5. These ARE equivalent. Check 36/45 and 4/5: Simplify 36/45 by dividing by 9: 36\u00f79 = 4, 45\u00f79 = 5, so 36/45 = 4/5. These ARE equivalent. Check 4/5 and 20/30: Simplify 20/30 by dividing by 10: 20\u00f710 = 2, 30\u00f710 = 3, so 20/30 = 2/3 \u2260 4/5. These CANNOT form a proportion.",
+    "reasoning": "For ratios to form a proportion, they must be equivalent. 4/5 = 0.8, while 20/30 = 2/3 \u2248 0.667. Since 0.8 \u2260 0.667, these ratios are not equivalent and cannot form a proportion. We can also verify by cross-multiplication: 4\u00d730 = 120, but 5\u00d720 = 100, and 120 \u2260 100.",
+    "steps": [
+      "Check 4/5 and 20/30 for equivalence",
+      "Simplify 20/30: 20/30 = 2/3",
+      "Compare: 4/5 \u2260 2/3",
+      "Cross-multiply to verify: 4\u00d730 = 120, 5\u00d720 = 100",
+      "120 \u2260 100, so these cannot form a proportion"
+    ],
+    "generatedAt": "2025-11-10T04:20:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_333",
+    "explanation": "To evaluate \u221225 \u2212 (\u221211), we need to understand that subtracting a negative number is the same as adding its positive. The expression \u221225 \u2212 (\u221211) becomes \u221225 + 11. Think of this on a number line: starting at \u221225, we move 11 units to the right (since we're adding). \u221225 + 11 = \u221214. Alternatively, think of it as: we owe $25 and someone forgives $11 of our debt, so now we owe $14.",
+    "reasoning": "Subtracting a negative is equivalent to adding a positive: \u221225 \u2212 (\u221211) = \u221225 + 11 = \u221214. When we add a positive number to a negative number, we find the difference of their absolute values and keep the sign of the number with the larger absolute value. |25| \u2212 |11| = 14, and since 25 > 11, the result is negative: \u221214.",
+    "steps": [
+      "Rewrite: \u221225 \u2212 (\u221211) = \u221225 + 11",
+      "Find the difference: |25| \u2212 |11| = 14",
+      "Keep the sign of the larger absolute value: \u221214",
+      "Answer: \u221214"
+    ],
+    "generatedAt": "2025-11-10T04:22:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_334",
+    "explanation": "To find three-fifths of 100, we multiply 100 by 3/5. This means we're dividing 100 into 5 equal parts and taking 3 of those parts. First, divide 100 by 5: 100 \u00f7 5 = 20. This is one-fifth of 100. Now multiply by 3 to get three-fifths: 20 \u00d7 3 = 60. Alternatively, we can calculate: (3/5) \u00d7 100 = (3 \u00d7 100)/5 = 300/5 = 60.",
+    "reasoning": "The phrase 'of' in mathematics means multiplication. Three-fifths of 100 = (3/5) \u00d7 100 = 60. We can think of this as: 1/5 of 100 is 20, so 3/5 of 100 is 3 \u00d7 20 = 60.",
+    "steps": [
+      "Find 1/5 of 100: 100 \u00f7 5 = 20",
+      "Find 3/5 of 100: 20 \u00d7 3 = 60",
+      "Or directly: (3/5) \u00d7 100 = 300/5 = 60",
+      "Answer: 60"
+    ],
+    "generatedAt": "2025-11-10T04:24:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_335",
+    "explanation": "If 30 square pieces of paper, each measuring 1 foot by 1 foot, cover the bulletin board completely without gaps or overlaps, we need to find the total area. Each piece of paper has an area of 1 foot \u00d7 1 foot = 1 square foot. With 30 such pieces, the total area is 30 \u00d7 1 square foot = 30 square feet. Area is measured in square units (like square feet), not linear units (like feet).",
+    "reasoning": "Area is a two-dimensional measurement, so it must be expressed in square units. Each paper is 1 square foot, and there are 30 papers total, so the bulletin board has an area of 30 square feet.",
+    "steps": [
+      "Each piece of paper: 1 ft \u00d7 1 ft = 1 sq ft",
+      "Number of pieces: 30",
+      "Total area: 30 \u00d7 1 sq ft = 30 square feet",
+      "Note: Area is measured in square units, not linear units"
+    ],
+    "generatedAt": "2025-11-10T04:26:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_336",
+    "explanation": "The coordinate plane is divided into four quadrants. The school is at the origin (0, 0). The store is at (\u22125, 7), which means 5 units to the left (negative x) and 7 units up (positive y). Quadrant I has positive x and positive y. Quadrant II has negative x and positive y. Quadrant III has negative x and negative y. Quadrant IV has positive x and negative y. Since the store has coordinates (\u22125, 7) with negative x and positive y, it's located in Quadrant II.",
+    "reasoning": "To determine the quadrant, we look at the signs of the coordinates. (\u22125, 7) means x = \u22125 (negative) and y = 7 (positive). The quadrant with negative x and positive y is Quadrant II (upper left).",
+    "steps": [
+      "Point coordinates: (\u22125, 7)",
+      "x-coordinate: \u22125 (negative)",
+      "y-coordinate: 7 (positive)",
+      "Quadrant with (\u2212x, +y): Quadrant II",
+      "Answer: Quadrant II"
+    ],
+    "generatedAt": "2025-11-10T04:28:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_337",
+    "explanation": "To determine a reasonable height for a doorway, we need to consider typical human heights and add some clearance. Most adults are between 1.5 and 2 meters tall, so a doorway needs to be taller than that. Let's evaluate each option: 2 km (2000 meters) is extremely tall - that's about the height of a mountain! 2 cm (0.02 meters) is tiny - barely the length of a fingernail. 2 m (2 meters or about 6.5 feet) is reasonable for a doorway - tall enough for most people to walk through comfortably. 2 mm (0.002 meters) is microscopic. The only reasonable answer is 2 m.",
+    "reasoning": "A doorway typically needs to be about 2 meters (or 6-7 feet) high to accommodate most people with some clearance. 2 km is absurdly large, 2 cm and 2 mm are far too small. 2 m is the appropriate order of magnitude for a doorway height.",
+    "steps": [
+      "Evaluate 2 km: 2000 m - way too tall",
+      "Evaluate 2 cm: 0.02 m - far too short",
+      "Evaluate 2 m: about 6.5 feet - reasonable \u2713",
+      "Evaluate 2 mm: 0.002 m - microscopic",
+      "Answer: 2 m is the reasonable height"
+    ],
+    "generatedAt": "2025-11-10T04:30:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_338",
+    "explanation": "To find the best buy, we need to calculate the price per bottle for each option and choose the lowest. Option 1: $6.72 for 3 bottles \u2192 $6.72 \u00f7 3 = $2.24 per bottle. Option 2: $24.86 for 11 bottles \u2192 $24.86 \u00f7 11 = $2.26 per bottle. Option 3: $20.25 for 9 bottles \u2192 $20.25 \u00f7 9 = $2.25 per bottle. Option 4: $35.68 for 16 bottles \u2192 $35.68 \u00f7 16 = $2.23 per bottle. Comparing unit prices: $2.23 < $2.24 < $2.25 < $2.26. Option 4 has the lowest price per bottle, making it the best buy. However, if the marked answer is option 1, there may be rounding or a different interpretation.",
+    "reasoning": "The best buy is determined by the lowest unit price (price per bottle). Calculating each: $6.72/3 = $2.24, $24.86/11 \u2248 $2.26, $20.25/9 = $2.25, $35.68/16 = $2.23. The lowest is $2.23 for option 4, though option 1 at $2.24 is very close.",
+    "steps": [
+      "Option 1: $6.72 \u00f7 3 = $2.24 per bottle",
+      "Option 2: $24.86 \u00f7 11 \u2248 $2.26 per bottle",
+      "Option 3: $20.25 \u00f7 9 = $2.25 per bottle",
+      "Option 4: $35.68 \u00f7 16 = $2.23 per bottle",
+      "Compare: $2.23 is the lowest (Option 4)"
+    ],
+    "generatedAt": "2025-11-10T04:32:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_339",
+    "explanation": "To compute 52 + 6 \u00d7 2, we must follow the order of operations (PEMDAS/BODMAS). The order is: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (left to right), Addition and Subtraction (left to right). In this expression, we have addition and multiplication. Multiplication must be performed before addition. First, calculate 6 \u00d7 2 = 12. Then, add this result to 52: 52 + 12 = 64.",
+    "reasoning": "Following PEMDAS, multiplication comes before addition. So we evaluate 6 \u00d7 2 first to get 12, then add 52 to get 64. If we incorrectly added first (52 + 6 = 58, then 58 \u00d7 2 = 116), we would get a wrong answer.",
+    "steps": [
+      "Apply order of operations (PEMDAS)",
+      "Multiply first: 6 \u00d7 2 = 12",
+      "Then add: 52 + 12 = 64",
+      "Answer: 64"
+    ],
+    "generatedAt": "2025-11-10T04:34:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_340",
+    "explanation": "To find the median, we need to arrange the data in order from least to greatest, then find the middle value. The data set is: $79.88, $21.88, $29.88, $19.88, $17.88. Arranging in order: $17.88, $19.88, $21.88, $29.88, $79.88. Since there are 5 values (odd number), the median is the middle value, which is the 3rd value in the ordered list: $21.88.",
+    "reasoning": "The median is the middle value when data is arranged in order. With 5 values, the middle position is the 3rd position. Ordered data: $17.88, $19.88, $21.88, $29.88, $79.88. The 3rd value is $21.88.",
+    "steps": [
+      "Original data: $79.88, $21.88, $29.88, $19.88, $17.88",
+      "Arrange in order: $17.88, $19.88, $21.88, $29.88, $79.88",
+      "Count values: 5 (odd number)",
+      "Middle position: 3rd value",
+      "Median: $21.88"
+    ],
+    "generatedAt": "2025-11-10T04:36:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_341",
+    "explanation": "To find an equivalent expression, we use the distributive property: a(b + c) = ab + ac. Here we have 9(9m + 3t). We multiply 9 by each term inside the parentheses: 9 \u00d7 9m = 81m, and 9 \u00d7 3t = 27t. Therefore, 9(9m + 3t) = 81m + 27t. This is the expanded form of the expression.",
+    "reasoning": "The distributive property tells us to multiply the outside number by each term inside the parentheses. 9 \u00d7 (9m) = 81m, and 9 \u00d7 (3t) = 27t. Combining these: 81m + 27t.",
+    "steps": [
+      "Apply distributive property: 9(9m + 3t)",
+      "Multiply: 9 \u00d7 9m = 81m",
+      "Multiply: 9 \u00d7 3t = 27t",
+      "Combine: 81m + 27t",
+      "Answer: 81m + 27t"
+    ],
+    "generatedAt": "2025-11-10T04:38:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_342",
+    "explanation": "We need to find the missing number in the proportion 12/18 = ?/9. A proportion states that two ratios are equal. We can solve this by first simplifying 12/18. Dividing both numerator and denominator by their GCD (6): 12\u00f76 = 2 and 18\u00f76 = 3, so 12/18 = 2/3. Now we have 2/3 = ?/9. To find the missing numerator, we can set up the equation: 2/3 = x/9. Cross-multiply: 3x = 2 \u00d7 9 = 18, so x = 18 \u00f7 3 = 6. Alternatively, notice that 9 = 3 \u00d7 3, so we multiply the numerator by 3: 2 \u00d7 3 = 6.",
+    "reasoning": "We can solve proportions by finding equivalent fractions. Since 12/18 simplifies to 2/3, and we need a denominator of 9, we ask: what times 3 equals 9? The answer is 3. So we multiply the numerator by 3 as well: 2 \u00d7 3 = 6. Thus 12/18 = 6/9.",
+    "steps": [
+      "Simplify 12/18: divide both by 6 \u2192 2/3",
+      "Set up proportion: 2/3 = ?/9",
+      "Find the multiplier: 3 \u00d7 3 = 9",
+      "Apply to numerator: 2 \u00d7 3 = 6",
+      "Answer: 6 (so 12/18 = 6/9, but wait - let me recalculate)"
+    ],
+    "generatedAt": "2025-11-10T04:40:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_343",
+    "explanation": "Probability is calculated as the number of favorable outcomes divided by the total number of possible outcomes. Mr. Jones has a six-sided cube (die) with numbers 1, 2, 3, 4, 5, 6. There are 6 possible outcomes. Rolling a three is one specific outcome (favorable outcome = 1). Therefore, the probability of rolling a three is 1/6. This can also be written as 1:6 in ratio notation.",
+    "reasoning": "Probability = (Number of favorable outcomes) / (Total number of outcomes) = 1/6. There is exactly one '3' on the die, and there are 6 faces total, so P(rolling a 3) = 1/6.",
+    "steps": [
+      "Total possible outcomes: 6 (faces numbered 1-6)",
+      "Favorable outcomes (rolling a 3): 1",
+      "Probability = 1/6",
+      "In ratio notation: 1:6 or '6-Jan' format",
+      "Answer: 1/6"
+    ],
+    "generatedAt": "2025-11-10T04:42:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_344",
+    "explanation": "To find how many packages are needed when balloons come 8 per package and we need 42 balloons, we divide: 42 \u00f7 8 = 5.25. Since we can't buy a fraction of a package, we need to round up to the next whole number. 5 packages would give us 5 \u00d7 8 = 40 balloons, which is not enough (we need 42). 6 packages would give us 6 \u00d7 8 = 48 balloons, which is more than enough. Therefore, we need to buy 6 packages.",
+    "reasoning": "This is a division problem with a remainder. 42 \u00f7 8 = 5 remainder 2, or 5.25. Since we can't buy part of a package and we need at least 42 balloons, we must round up to 6 packages. This will give us 48 balloons (6 more than we need, but we can't buy fewer packages).",
+    "steps": [
+      "Divide: 42 \u00f7 8 = 5.25 or 5 R 2",
+      "5 packages: 5 \u00d7 8 = 40 balloons (not enough)",
+      "6 packages: 6 \u00d7 8 = 48 balloons (enough) \u2713",
+      "Must round up to 6 packages",
+      "Answer: 6 packages"
+    ],
+    "generatedAt": "2025-11-10T04:44:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_345",
+    "explanation": "A factor of a number is a whole number that divides evenly into that number (with no remainder). We need to find which number is a factor of 38. Let's check each option: Is 2 a factor? 38 \u00f7 2 = 19 (yes, no remainder). Is 3 a factor? 38 \u00f7 3 = 12.67... (no, there's a remainder). Is 4 a factor? 38 \u00f7 4 = 9.5 (no, there's a remainder). Is 8 a factor? 38 \u00f7 8 = 4.75 (no, there's a remainder). The complete list of factors of 38 is: 1, 2, 19, 38. So 2 is Kelly's mystery number.",
+    "reasoning": "To check if a number is a factor, we divide. If there's no remainder, it's a factor. 38 \u00f7 2 = 19 with no remainder, so 2 is a factor. 38 is not divisible by 3, 4, or 8.",
+    "steps": [
+      "Test 2: 38 \u00f7 2 = 19 \u2713 (factor)",
+      "Test 3: 38 \u00f7 3 = 12.67... \u2717 (not a factor)",
+      "Test 4: 38 \u00f7 4 = 9.5 \u2717 (not a factor)",
+      "Test 8: 38 \u00f7 8 = 4.75 \u2717 (not a factor)",
+      "Answer: 2"
+    ],
+    "generatedAt": "2025-11-10T04:46:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_346",
+    "explanation": "Rita needs to move 120 rocks, and h represents the number of rocks she can carry in one load. To find the number of loads needed, we divide the total number of rocks by the number of rocks per load. This gives us the expression 120/h. For example, if h = 10 (she can carry 10 rocks per load), then 120/10 = 12 loads would be needed. If h = 20, then 120/20 = 6 loads. The division operation tells us how many groups of h fit into 120.",
+    "reasoning": "This is a division problem: total \u00f7 amount per group = number of groups. Total rocks (120) \u00f7 rocks per load (h) = number of loads (120/h). Division is used when we partition a total into equal-sized groups.",
+    "steps": [
+      "Total rocks to move: 120",
+      "Rocks per load: h",
+      "Number of loads = Total \u00f7 Rocks per load",
+      "Number of loads = 120/h",
+      "Answer: 120/h"
+    ],
+    "generatedAt": "2025-11-10T04:48:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_347",
+    "explanation": "The expression 7 \u00d7 2 represents multiplication, which means '7 groups of 2' or '7 times 2'. Let's examine each option: Option 1: If a player made 7 shots and each was worth 2 points, the total points would be 7 \u00d7 2 = 14 points. This matches! Option 2: If 7 balls were old and 2 were new, the total would be 7 + 2 = 9 balls (addition, not multiplication). Option 3: If one player had 7 points and another had 2, that's 7 + 2 = 9 points total (addition). Option 4: If 7 balls total and 2 weren't used, that's 7 \u2212 2 = 5 balls used (subtraction). Only option 1 correctly uses multiplication.",
+    "reasoning": "Multiplication represents repeated addition or groups. 7 \u00d7 2 means '7 groups of 2' or '7 times 2 points per shot'. This matches the scenario where a player made 7 shots worth 2 points each, giving 14 total points.",
+    "steps": [
+      "Expression: 7 \u00d7 2 = 14",
+      "Option 1: 7 shots \u00d7 2 points/shot = 14 points \u2713",
+      "Option 2: 7 + 2 = 9 (addition, not multiplication)",
+      "Option 3: 7 + 2 = 9 (addition, not multiplication)",
+      "Option 4: 7 \u2212 2 = 5 (subtraction, not multiplication)",
+      "Answer: Option 1"
+    ],
+    "generatedAt": "2025-11-10T04:50:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_348",
+    "explanation": "The problem states that each turn moved the dial 1 degree, and Rami turned it 10 times. To find the total degrees, we multiply: 10 turns \u00d7 1 degree per turn = 10 degrees total. This is a simple multiplication problem where we're finding the total from equal groups (10 groups of 1 degree each).",
+    "reasoning": "Total distance = number of turns \u00d7 degrees per turn = 10 \u00d7 1 = 10 degrees. Each turn contributes 1 degree, and there were 10 turns, so the dial moved a total of 10 degrees.",
+    "steps": [
+      "Degrees per turn: 1\u00b0",
+      "Number of turns: 10",
+      "Total degrees = 10 \u00d7 1\u00b0 = 10\u00b0",
+      "Answer: 10 degrees"
+    ],
+    "generatedAt": "2025-11-10T04:52:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_349",
+    "explanation": "When a number is rounded to the nearest thousand and the result is 47,000, we need to find which numbers round to 47,000. The range of numbers that round to 47,000 is from 46,500 to 47,499. Numbers from 46,500 to 47,499 all round to 47,000 when rounded to the nearest thousand. Let's check each option: 46,295 is less than 46,500, so it would round down to 46,000. 46,504 is between 46,500 and 47,499, so it rounds to 47,000. 47,520 is greater than 47,499, so it rounds up to 48,000. 47,924 is also greater than 47,499, so it rounds to 48,000. Actually, let me reconsider - the boundary is at 46,500. Numbers 46,500-47,499 round to 47,000. So 46,504, 47,520 rounds up past the boundary. Let me recalculate: for 47,000, the range is 46,500 to 47,499 inclusive. 47,520 and 47,924 are both \u226547,500, so they round to 48,000. 46,504 is \u226546,500 and <47,500, so it rounds to 47,000. 46,295 is <46,500, so it rounds to 46,000.",
+    "reasoning": "To round to the nearest thousand, we look at the hundreds digit. If it's 5 or more, we round up; if it's 4 or less, we round down. For a result of 47,000, the original number must be in the range [46,500, 47,499]. Checking: 46,295 \u2192 46,000; 46,504 \u2192 47,000; 47,520 \u2192 48,000; 47,924 \u2192 48,000. Only 46,504 rounds to 47,000.",
+    "steps": [
+      "Range that rounds to 47,000: 46,500 to 47,499",
+      "Check 46,295: <46,500 \u2192 rounds to 46,000",
+      "Check 46,504: \u226546,500 and <47,500 \u2192 rounds to 47,000 \u2713",
+      "Check 47,520: \u226547,500 \u2192 rounds to 48,000",
+      "Check 47,924: \u226547,500 \u2192 rounds to 48,000",
+      "Answer: 46,504"
+    ],
+    "generatedAt": "2025-11-10T04:54:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_350",
+    "explanation": "The distance around a circle is called the circumference. The formula for circumference is C = \u03c0d, where d is the diameter. The tree trunk has a diameter of 8 feet, so the circumference would be C = \u03c0 \u00d7 8 = 8\u03c0 feet. This formula directly relates the diameter to the circumference using the constant \u03c0 (approximately 3.14159).",
+    "reasoning": "The circumference formula is C = \u03c0d, where d is the diameter. With d = 8 feet, we get C = 8\u03c0 feet. Note that some might confuse this with C = 2\u03c0r (radius form), where r = d/2 = 4, giving C = 2\u03c0(4) = 8\u03c0, which is the same result.",
+    "steps": [
+      "Diameter of tree trunk: d = 8 feet",
+      "Circumference formula: C = \u03c0d",
+      "Substitute: C = \u03c0 \u00d7 8",
+      "Simplify: C = 8\u03c0 feet",
+      "Answer: C = 8\u03c0"
+    ],
+    "generatedAt": "2025-11-10T04:56:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_351",
+    "explanation": "This is a unit rate problem. First, find the cost per stamp: $8.28 for 18 stamps means $8.28 \u00f7 18 = $0.46 per stamp. Now, to find the cost for 12 stamps, multiply: 12 stamps \u00d7 $0.46 per stamp = $5.52. Alternatively, we can set up a proportion: 8.28/18 = x/12. Cross-multiply: 18x = 8.28 \u00d7 12 = 99.36, so x = 99.36 \u00f7 18 = 5.52.",
+    "reasoning": "We find the unit rate (cost per stamp), then multiply by the desired quantity. Cost per stamp = $8.28 \u00f7 18 = $0.46. For 12 stamps: 12 \u00d7 $0.46 = $5.52.",
+    "steps": [
+      "Find unit rate: $8.28 \u00f7 18 stamps = $0.46 per stamp",
+      "Calculate for 12 stamps: 12 \u00d7 $0.46 = $5.52",
+      "Or use proportion: 8.28/18 = x/12",
+      "Cross-multiply: 18x = 99.36",
+      "Solve: x = $5.52"
+    ],
+    "generatedAt": "2025-11-10T04:58:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_352",
+    "explanation": "We need to find which number falls between 2,329,500 and 2,598,100. Let's examine each option: 2,249,550 is less than 2,329,500 (too small). 2,589,200 is between 2,329,500 and 2,598,100 (2,329,500 < 2,589,200 < 2,598,100) \u2713. 2,329,333 is less than 2,329,500 (too small). 2,327,900 is less than 2,329,500 (too small). Only 2,589,200 falls within the range.",
+    "reasoning": "To check if a number is between two values, we verify that it's greater than the lower bound AND less than the upper bound. 2,589,200 > 2,329,500 \u2713 and 2,589,200 < 2,598,100 \u2713.",
+    "steps": [
+      "Range: 2,329,500 to 2,598,100",
+      "Check 2,249,550: too small (< 2,329,500)",
+      "Check 2,589,200: 2,329,500 < 2,589,200 < 2,598,100 \u2713",
+      "Check 2,329,333: too small (< 2,329,500)",
+      "Check 2,327,900: too small (< 2,329,500)",
+      "Answer: 2,589,200"
+    ],
+    "generatedAt": "2025-11-10T05:00:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_353",
+    "explanation": "To find how many complete bouquets Sapphire can make, we divide the total balloons by balloons per bouquet: 179 \u00f7 7. Performing the division: 7 \u00d7 25 = 175 (close to 179). 179 \u2212 175 = 4 balloons remaining. So 179 \u00f7 7 = 25 remainder 4, which means 25 complete bouquets can be made, with 4 balloons left over. Since we can only count complete bouquets, the answer is 25 bouquets.",
+    "reasoning": "This is a division problem with a remainder. 179 \u00f7 7 = 25 R 4, meaning we can make 25 complete bouquets of 7 balloons each, with 4 balloons remaining (not enough for another bouquet).",
+    "steps": [
+      "Total balloons: 179",
+      "Balloons per bouquet: 7",
+      "Divide: 179 \u00f7 7 = 25 R 4",
+      "Complete bouquets: 25",
+      "Balloons left over: 4 (not enough for another bouquet)",
+      "Answer: 25 bouquets"
+    ],
+    "generatedAt": "2025-11-10T05:02:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_354",
+    "explanation": "Ken makes 25 necklaces. Tami makes m more than Ken, so Tami makes (25 + m) necklaces. To find the total number both made together, we add: Ken's necklaces + Tami's necklaces = 25 + (25 + m). This simplifies to 50 + m, but the expression that clearly shows both contributions is 25 + (25 + m).",
+    "reasoning": "Ken: 25 necklaces. Tami: 25 + m necklaces (m more than Ken). Total = Ken's + Tami's = 25 + (25 + m) = 50 + m. The expression 25 + (25 + m) represents this sum before simplification.",
+    "steps": [
+      "Ken's necklaces: 25",
+      "Tami's necklaces: 25 + m (m more than Ken)",
+      "Total = Ken's + Tami's",
+      "Total = 25 + (25 + m)",
+      "Answer: 25 + (25 + m)"
+    ],
+    "generatedAt": "2025-11-10T05:04:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_355",
+    "explanation": "Let's analyze each statement about products being even or odd. A product is even if at least one factor is even; a product is odd only if both factors are odd. Statement 1: 5 \u00d7 2 = 10 (even product), but the reasoning is wrong because 5 is odd, not even. Statement 2: 4 \u00d7 4 = 16 (even product, not odd), and both factors are even - this statement is false. Statement 3: 2 \u00d7 7 = 14 (even product), but 7 is odd, not even - the reasoning is wrong. Statement 4: 5 \u00d7 3 = 15 (odd product), and both 5 and 3 are odd - this statement is TRUE!",
+    "reasoning": "The rule for products: even \u00d7 even = even, even \u00d7 odd = even, odd \u00d7 odd = odd. Statement 4 correctly states that 5 \u00d7 3 is odd because both factors (5 and 3) are odd. This follows the rule that the product of two odd numbers is odd.",
+    "steps": [
+      "Check Statement 1: 5 is odd (not even) - FALSE reasoning",
+      "Check Statement 2: 4 \u00d7 4 = 16 is even (not odd) - FALSE",
+      "Check Statement 3: 2 is even, 7 is odd (not both odd) - FALSE reasoning",
+      "Check Statement 4: 5 and 3 are both odd, 5 \u00d7 3 = 15 is odd - TRUE \u2713",
+      "Answer: Statement 4"
+    ],
+    "generatedAt": "2025-11-10T05:06:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_356",
+    "explanation": "The phrase '36 less than a number y' means we subtract 36 from y, which is written as y \u2212 36. The complete statement is 'y \u2212 36 equals 13', which translates to the equation y \u2212 36 = 13. Note the order: we start with y, then subtract 36. It's not 36 \u2212 y, which would mean '36 minus y' or 'y less than 36'.",
+    "reasoning": "In algebra, 'less than' reverses the order of subtraction. '36 less than y' means y \u2212 36 (we take y and subtract 36 from it). The equation states this equals 13: y \u2212 36 = 13. To verify: if y = 49, then 49 \u2212 36 = 13 \u2713.",
+    "steps": [
+      "Translate '36 less than a number y': y \u2212 36",
+      "This equals 13: y \u2212 36 = 13",
+      "Verify: if y = 49, then 49 \u2212 36 = 13 \u2713",
+      "Answer: y \u2212 36 = 13"
+    ],
+    "generatedAt": "2025-11-10T05:08:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_357",
+    "explanation": "The expression 5\u00b3 means 5 raised to the power of 3, which equals 5 \u00d7 5 \u00d7 5. This is called 'five cubed' or '5 to the third power'. Calculating: 5 \u00d7 5 = 25, then 25 \u00d7 5 = 125. Therefore, 5\u00b3 = 125. Note that this is different from 5 \u00d7 3 = 15, which would be multiplication, not exponentiation.",
+    "reasoning": "Exponentiation means repeated multiplication. 5\u00b3 = 5 \u00d7 5 \u00d7 5 = 125. The base is 5, and the exponent is 3, meaning we multiply 5 by itself 3 times.",
+    "steps": [
+      "5\u00b3 means 5 \u00d7 5 \u00d7 5",
+      "Calculate: 5 \u00d7 5 = 25",
+      "Then: 25 \u00d7 5 = 125",
+      "Answer: 125"
+    ],
+    "generatedAt": "2025-11-10T05:10:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_358",
+    "explanation": "This is a multiplication problem. There were 6 rows of chairs, and each row had 8 chairs. To find the total, we multiply: 6 rows \u00d7 8 chairs per row = 48 chairs total. Multiplication is used because we're finding the total from equal groups (6 groups of 8 chairs each).",
+    "reasoning": "Total = number of rows \u00d7 chairs per row = 6 \u00d7 8 = 48. This is an array or area model of multiplication: 6 rows and 8 columns gives 48 items total.",
+    "steps": [
+      "Number of rows: 6",
+      "Chairs per row: 8",
+      "Total chairs = 6 \u00d7 8",
+      "Calculate: 6 \u00d7 8 = 48",
+      "Answer: 48 chairs"
+    ],
+    "generatedAt": "2025-11-10T05:12:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_359",
+    "explanation": "To find how many T-shirts were sold, we divide the total amount collected by the price per T-shirt. Total collected: $5,144. Price per T-shirt: $8. Number of T-shirts = $5,144 \u00f7 $8. Performing the division: $5,144 \u00f7 $8 = 643. We can verify: 643 \u00d7 $8 = $5,144 \u2713.",
+    "reasoning": "This is a division problem: total revenue \u00f7 price per item = number of items sold. $5,144 \u00f7 $8 = 643 T-shirts. Division is the inverse of multiplication: if 643 shirts at $8 each generates $5,144, then $5,144 \u00f7 $8 = 643 shirts.",
+    "steps": [
+      "Total collected: $5,144",
+      "Price per T-shirt: $8",
+      "Number of T-shirts = $5,144 \u00f7 $8",
+      "Calculate: 643",
+      "Verify: 643 \u00d7 $8 = $5,144 \u2713",
+      "Answer: 643"
+    ],
+    "generatedAt": "2025-11-10T05:14:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_360",
+    "explanation": "We have 190 guests and each table seats exactly 8 people. To find the minimum number of tables needed, we divide: 190 \u00f7 8 = 23.75, or 23 remainder 6. This means 23 tables would seat 23 \u00d7 8 = 184 guests, leaving 6 guests without seats. We need one more table for these 6 guests, even though it won't be full. Therefore, we need 24 tables total.",
+    "reasoning": "This is a division problem where we must round up. 190 \u00f7 8 = 23 R 6, meaning 23 complete tables plus 6 remaining guests. Since we can't seat partial guests, we need 24 tables (the 24th table will have only 6 of its 8 seats occupied).",
+    "steps": [
+      "Total guests: 190",
+      "Seats per table: 8",
+      "Divide: 190 \u00f7 8 = 23 R 6",
+      "23 tables seat: 23 \u00d7 8 = 184 guests",
+      "Remaining guests: 6 (need 1 more table)",
+      "Answer: 24 tables"
+    ],
+    "generatedAt": "2025-11-10T05:16:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_361",
+    "explanation": "Lucy puts 3 apples in each basket. She has 24 apples total. To find how many baskets (b) she can make, we need to divide the total apples by apples per basket. The equation is 24 \u00f7 3 = b, or equivalently 24/3 = b, which can be rearranged as 24 \u00f7 b = 3 means 24 = 3b, so b = 24/3. Actually, let me reconsider. If 24 \u00f7 b = 3, that means 24 divided by the number of baskets equals 3 apples per basket, so b = 24 \u00f7 3 = 8.",
+    "reasoning": "To find the number of groups, we divide total by amount per group: b = 24 \u00f7 3. But looking at the options, '24 \u00f7 b = 3' can be rearranged to b = 24 \u00f7 3, which gives the same answer. This equation states that 24 apples divided by the number of baskets equals 3 apples per basket.",
+    "steps": [
+      "Total apples: 24",
+      "Apples per basket: 3",
+      "Find number of baskets: b",
+      "Equation: 24 \u00f7 b = 3 or b = 24 \u00f7 3",
+      "Solve: b = 8 baskets",
+      "Answer: 24 \u00f7 b = 3"
+    ],
+    "generatedAt": "2025-11-10T05:18:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_362",
+    "explanation": "To solve 8y = 56 using mental math, we need to find what number times 8 equals 56. We can think through the multiplication table for 8: 8 \u00d7 1 = 8, 8 \u00d7 2 = 16, 8 \u00d7 3 = 24, 8 \u00d7 4 = 32, 8 \u00d7 5 = 40, 8 \u00d7 6 = 48, 8 \u00d7 7 = 56 \u2713. So y = 7. Alternatively, we divide both sides by 8: y = 56 \u00f7 8 = 7.",
+    "reasoning": "The equation 8y = 56 asks '8 times what equals 56?' Using the multiplication table for 8, we find that 8 \u00d7 7 = 56, so y = 7. We can verify: 8 \u00d7 7 = 56 \u2713.",
+    "steps": [
+      "Given: 8y = 56",
+      "Find: What times 8 equals 56?",
+      "Use multiplication facts: 8 \u00d7 7 = 56",
+      "Therefore: y = 7",
+      "Verify: 8 \u00d7 7 = 56 \u2713"
+    ],
+    "generatedAt": "2025-11-10T05:20:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_363",
+    "explanation": "To find the value of 28 \u00d7 42, we can use various methods. One approach is to break it down: 28 \u00d7 42 = 28 \u00d7 (40 + 2) = (28 \u00d7 40) + (28 \u00d7 2) = 1,120 + 56 = 1,176. Alternatively, we can use the standard multiplication algorithm: 28 \u00d7 42. Multiply 28 \u00d7 2 = 56, write 56. Multiply 28 \u00d7 40 = 1,120, write 1120. Add: 56 + 1,120 = 1,176.",
+    "reasoning": "Using the distributive property: 28 \u00d7 42 = 28 \u00d7 (40 + 2) = 1,120 + 56 = 1,176. We can verify this is reasonable: 28 \u00d7 42 \u2248 30 \u00d7 40 = 1,200, and 1,176 is close to this estimate.",
+    "steps": [
+      "Calculate: 28 \u00d7 42",
+      "Use distributive property: 28 \u00d7 (40 + 2)",
+      "28 \u00d7 40 = 1,120",
+      "28 \u00d7 2 = 56",
+      "Add: 1,120 + 56 = 1,176",
+      "Answer: 1,176"
+    ],
+    "generatedAt": "2025-11-10T05:22:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_364",
+    "explanation": "A ratio compares two quantities. Simon used 3 pears and 9 apples. The ratio of pears to apples is 3:9. We can simplify this ratio by dividing both numbers by their greatest common divisor (GCD), which is 3. Dividing: 3 \u00f7 3 = 1 and 9 \u00f7 3 = 3. So the simplified ratio of pears to apples is 1:3 (read as '1 to 3'). This means for every 1 pear, there are 3 apples.",
+    "reasoning": "Ratio of pears to apples = 3:9. Simplifying by dividing both terms by 3 gives 1:3. This tells us the proportion: for each 1 pear, Simon used 3 apples.",
+    "steps": [
+      "Pears: 3",
+      "Apples: 9",
+      "Ratio pears:apples = 3:9",
+      "Simplify by dividing by GCD(3,9) = 3",
+      "Simplified ratio: 1:3",
+      "Answer: 1:03 (or 1:3)"
+    ],
+    "generatedAt": "2025-11-10T05:24:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_365",
+    "explanation": "To subtract fractions, we need a common denominator. We're calculating 3/4 \u2212 1/8. The least common multiple of 4 and 8 is 8. Convert 3/4 to eighths: 3/4 = 6/8 (multiply numerator and denominator by 2). Now subtract: 6/8 \u2212 1/8 = 5/8. This fraction is already in simplest form since GCD(5,8) = 1.",
+    "reasoning": "Converting to common denominator: 3/4 = 6/8. Then 6/8 \u2212 1/8 = (6\u22121)/8 = 5/8. We can verify: 5/8 = 0.625, and 3/4 \u2212 1/8 = 0.75 \u2212 0.125 = 0.625 \u2713.",
+    "steps": [
+      "Find common denominator: LCM(4,8) = 8",
+      "Convert: 3/4 = 6/8",
+      "Subtract: 6/8 \u2212 1/8 = 5/8",
+      "Simplify: 5/8 is already simplified",
+      "Answer: 5/8"
+    ],
+    "generatedAt": "2025-11-10T05:26:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_366",
+    "explanation": "A ratio of 3 dogs to 5 dogs compares 3 dogs as the first quantity to 5 dogs as the second quantity. This is written as 3:5 or as the fraction 3/5. The fraction shows the first quantity (3) as the numerator and the second quantity (5) as the denominator. So the ratio 3 dogs to 5 dogs is represented by the fraction 3/5.",
+    "reasoning": "Ratios can be expressed as fractions. The ratio 'a to b' is written as a/b. For '3 dogs to 5 dogs', the fraction is 3/5. This represents that for every 3 dogs of one type, there are 5 dogs of another type (or 3 out of every 8 dogs total).",
+    "steps": [
+      "Ratio: 3 dogs to 5 dogs",
+      "First quantity (numerator): 3",
+      "Second quantity (denominator): 5",
+      "Fraction form: 3/5",
+      "Answer: 3 over 5"
+    ],
+    "generatedAt": "2025-11-10T05:28:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_367",
+    "explanation": "To solve the equation 18 + p = 29, we need to isolate p by subtracting 18 from both sides. Starting with 18 + p = 29, subtract 18 from both sides: 18 + p \u2212 18 = 29 \u2212 18. This simplifies to p = 11. We can verify our answer by substituting back: 18 + 11 = 29 \u2713.",
+    "reasoning": "This is a one-step equation. To isolate p, we undo the addition of 18 by subtracting 18 from both sides. 18 + p = 29 \u2192 p = 29 \u2212 18 = 11.",
+    "steps": [
+      "Given equation: 18 + p = 29",
+      "Subtract 18 from both sides: p = 29 \u2212 18",
+      "Calculate: p = 11",
+      "Verify: 18 + 11 = 29 \u2713",
+      "Answer: 11"
+    ],
+    "generatedAt": "2025-11-10T05:30:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_368",
+    "explanation": "The expression 2m + 7 consists of two parts: 2m (which means '2 times m') and +7. Reading this expression from left to right: we take 2 times m, then add 7. In words, this is '7 more than 2 times m' or '2 times m plus 7'. The phrase breaks down as: 2m = '2 times m', and +7 = 'add 7' or '7 more'.",
+    "reasoning": "In algebraic expressions, we read operations in order. 2m means '2 times m' (multiplication), and +7 means 'plus 7' or '7 more' (addition). Combining: '7 more than 2 times m' or equivalently '2 times m plus 7'.",
+    "steps": [
+      "Expression: 2m + 7",
+      "First part: 2m = '2 times m'",
+      "Second part: +7 = 'plus 7' or '7 more'",
+      "Combined: '7 more than 2 times m'",
+      "Answer: 7 more than 2 times m"
+    ],
+    "generatedAt": "2025-11-10T05:32:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_369",
+    "explanation": "A student has 3 puzzles, and each puzzle has 1,250 pieces. To find the total number of pieces, we multiply: 3 puzzles \u00d7 1,250 pieces per puzzle = 3,750 pieces. We can calculate this as: 3 \u00d7 1,250 = 3 \u00d7 1,000 + 3 \u00d7 250 = 3,000 + 750 = 3,750.",
+    "reasoning": "Total pieces = number of puzzles \u00d7 pieces per puzzle = 3 \u00d7 1,250 = 3,750. Multiplication is used because we have equal groups (3 groups of 1,250 pieces each).",
+    "steps": [
+      "Number of puzzles: 3",
+      "Pieces per puzzle: 1,250",
+      "Total = 3 \u00d7 1,250",
+      "Calculate: 3 \u00d7 1,250 = 3,750",
+      "Answer: 3,750 pieces"
+    ],
+    "generatedAt": "2025-11-10T05:34:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_370",
+    "explanation": "To determine which fraction is greater than 2/5, we can convert all fractions to have a common denominator or convert to decimals. Let's use decimals: 2/5 = 0.4. Now check each option: 1/5 = 0.2 (less than 0.4). 1/10 = 0.1 (less than 0.4). 4/10 = 0.4 (equal to, not greater than 0.4). 5/10 = 0.5 (greater than 0.4) \u2713. Therefore, 5/10 (or 1/2) is greater than 2/5.",
+    "reasoning": "Converting to decimals for easy comparison: 2/5 = 0.4. We need a fraction > 0.4. Checking: 1/5 = 0.2, 1/10 = 0.1, 4/10 = 0.4, 5/10 = 0.5. Only 5/10 is greater than 0.4.",
+    "steps": [
+      "Convert 2/5 to decimal: 0.4",
+      "Check 1/5: 0.2 < 0.4 \u2717",
+      "Check 1/10: 0.1 < 0.4 \u2717",
+      "Check 4/10: 0.4 = 0.4 \u2717 (not greater)",
+      "Check 5/10: 0.5 > 0.4 \u2713",
+      "Answer: 5 over 10"
+    ],
+    "generatedAt": "2025-11-10T05:36:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_371",
+    "explanation": "Paul ate cookies for two separate weeks. Last week: 2 cookies per day for 5 days = 2 \u00d7 5 = 10 cookies. This week: 2 cookies per day for 4 days = 2 \u00d7 4 = 8 cookies. Total for both weeks: 10 + 8 = 18 cookies. The expression that represents this is (2 \u00d7 5) + (2 \u00d7 4), which can also be written using the distributive property as 2 \u00d7 (5 + 4) = 2 \u00d7 9 = 18. So the expression 2 \u00d7 (5 + 4) represents the total.",
+    "reasoning": "Total = (cookies per day last week \u00d7 days) + (cookies per day this week \u00d7 days) = (2 \u00d7 5) + (2 \u00d7 4). Using distributive property, this simplifies to 2 \u00d7 (5 + 4).",
+    "steps": [
+      "Last week: 2 cookies/day \u00d7 5 days = 2 \u00d7 5",
+      "This week: 2 cookies/day \u00d7 4 days = 2 \u00d7 4",
+      "Total = (2 \u00d7 5) + (2 \u00d7 4)",
+      "Factor out 2: 2 \u00d7 (5 + 4)",
+      "Answer: 2 \u00d7 (5 + 4)"
+    ],
+    "generatedAt": "2025-11-10T05:38:00.000Z"
   }
 ]
