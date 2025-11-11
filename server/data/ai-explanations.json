@@ -8708,5 +8708,2949 @@
       "Cold War thaw."
     ],
     "generatedAt": "2025-11-10T00:16:78.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_0",
+    "explanation": "Renaissance: 14th-17th c cultural rebirth",
+    "reasoning": "Humanism, art, science",
+    "steps": [
+      "Italy origin",
+      "Da Vinci, Michelangelo."
+    ],
+    "generatedAt": "2025-11-10T00:17:00.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_1",
+    "explanation": "Protestant Reformation: Luther's 95 Theses (1517)",
+    "reasoning": "Challenge Catholic Church",
+    "steps": [
+      "Religious wars follow."
+    ],
+    "generatedAt": "2025-11-10T00:17:01.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_2",
+    "explanation": "Henry VIII: English Reformation",
+    "reasoning": "Break from Rome for divorce",
+    "steps": [
+      "Anglican Church established."
+    ],
+    "generatedAt": "2025-11-10T00:17:02.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_3",
+    "explanation": "Thirty Years' War (1618-48): Religious/political conflict",
+    "reasoning": "Devastated Germany",
+    "steps": [
+      "Peace of Westphalia."
+    ],
+    "generatedAt": "2025-11-10T00:17:03.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_4",
+    "explanation": "Absolute monarchy: Divine right",
+    "reasoning": "Louis XIV exemplar",
+    "steps": [
+      "'L'\u00e9tat, c'est moi.' Versailles."
+    ],
+    "generatedAt": "2025-11-10T00:17:04.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_5",
+    "explanation": "Scientific Revolution: Copernicus, Galileo, Newton",
+    "reasoning": "Heliocentric model",
+    "steps": [
+      "Empiricism rises."
+    ],
+    "generatedAt": "2025-11-10T00:17:05.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_6",
+    "explanation": "Enlightenment: Reason, individual rights",
+    "reasoning": "Locke, Voltaire, Rousseau",
+    "steps": [
+      "Social contract theory."
+    ],
+    "generatedAt": "2025-11-10T00:17:06.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_7",
+    "explanation": "French Revolution (1789): Bastille stormed",
+    "reasoning": "Liberty, equality, fraternity",
+    "steps": [
+      "Reign of Terror."
+    ],
+    "generatedAt": "2025-11-10T00:17:07.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_8",
+    "explanation": "Napoleon: Rose from Revolution",
+    "reasoning": "Emperor 1804",
+    "steps": [
+      "Conquered Europe",
+      "Waterloo 1815."
+    ],
+    "generatedAt": "2025-11-10T00:17:08.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_9",
+    "explanation": "Congress of Vienna (1815): Redrew Europe",
+    "reasoning": "Conservatism",
+    "steps": [
+      "Balance of power",
+      "Metternich."
+    ],
+    "generatedAt": "2025-11-10T00:17:09.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_10",
+    "explanation": "Industrial Revolution: Britain first",
+    "reasoning": "Steam, coal, factories",
+    "steps": [
+      "Urbanization",
+      "Social upheaval."
+    ],
+    "generatedAt": "2025-11-10T00:17:10.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_11",
+    "explanation": "Revolutions of 1848: Liberal, nationalist uprisings",
+    "reasoning": "'Springtime of peoples.' Mostly failed.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:11.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_12",
+    "explanation": "Unification of Italy: Cavour, Garibaldi",
+    "reasoning": "1861 kingdom",
+    "steps": [
+      "Rome added 1870."
+    ],
+    "generatedAt": "2025-11-10T00:17:12.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_13",
+    "explanation": "Unification of Germany: Bismarck",
+    "reasoning": "Prussia dominant",
+    "steps": [
+      "Franco-Prussian War",
+      "1871 empire."
+    ],
+    "generatedAt": "2025-11-10T00:17:13.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_14",
+    "explanation": "Imperialism: European powers colonized Africa, Asia",
+    "reasoning": "'Scramble for Africa.' Berlin Conference 1884.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:14.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_15",
+    "explanation": "WWI (1914-18): Assassination Sarajevo",
+    "reasoning": "Trench warfare",
+    "steps": [
+      "Millions dead",
+      "Versailles Treaty."
+    ],
+    "generatedAt": "2025-11-10T00:17:15.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_16",
+    "explanation": "Russian Revolution (1917): Bolsheviks",
+    "reasoning": "Lenin",
+    "steps": [
+      "Tsar abdicated",
+      "Soviet Union born."
+    ],
+    "generatedAt": "2025-11-10T00:17:16.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_17",
+    "explanation": "Weimar Republic: German democracy 1919-33",
+    "reasoning": "Hyperinflation",
+    "steps": [
+      "Instability",
+      "Hitler rose."
+    ],
+    "generatedAt": "2025-11-10T00:17:17.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_18",
+    "explanation": "Great Depression: 1929 crash global impact",
+    "reasoning": "Unemployment, despair",
+    "steps": [
+      "Fascism appeal grew."
+    ],
+    "generatedAt": "2025-11-10T00:17:18.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_19",
+    "explanation": "Rise of fascism: Mussolini (Italy 1922), Hitler (Germany 1933)",
+    "reasoning": "Totalitarianism, nationalism.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:19.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_20",
+    "explanation": "Spanish Civil War (1936-39): Fascists vs Republicans",
+    "reasoning": "Franco won",
+    "steps": [
+      "WWII rehearsal."
+    ],
+    "generatedAt": "2025-11-10T00:17:20.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_21",
+    "explanation": "WWII (1939-45): Hitler invaded Poland",
+    "reasoning": "Holocaust",
+    "steps": [
+      "Allied victory",
+      "Europe devastated."
+    ],
+    "generatedAt": "2025-11-10T00:17:21.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_22",
+    "explanation": "Holocaust: Nazi genocide",
+    "reasoning": "6 million Jews",
+    "steps": [
+      "Systematic extermination",
+      "Auschwitz, camps."
+    ],
+    "generatedAt": "2025-11-10T00:17:22.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_23",
+    "explanation": "D-Day (1944): Allied invasion Normandy",
+    "reasoning": "Began liberation Western Europe.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:23.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_24",
+    "explanation": "Yalta Conference (1945): Big Three divided Europe",
+    "reasoning": "Cold War seeds planted.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:24.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_25",
+    "explanation": "Iron Curtain: Churchill's term",
+    "reasoning": "East-West division",
+    "steps": [
+      "Communist vs democratic Europe."
+    ],
+    "generatedAt": "2025-11-10T00:17:25.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_26",
+    "explanation": "Marshall Plan: US aid rebuilt Western Europe",
+    "reasoning": "$13 billion",
+    "steps": [
+      "Stopped communism."
+    ],
+    "generatedAt": "2025-11-10T00:17:26.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_27",
+    "explanation": "NATO (1949): Western alliance",
+    "reasoning": "Collective defense",
+    "steps": [
+      "Countered Soviet threat."
+    ],
+    "generatedAt": "2025-11-10T00:17:27.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_28",
+    "explanation": "Warsaw Pact (1955): Soviet bloc alliance",
+    "reasoning": "Eastern European communist states.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:28.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_29",
+    "explanation": "Hungarian Revolution (1956): Anti-Soviet uprising",
+    "reasoning": "Crushed by tanks",
+    "steps": [
+      "Brief freedom."
+    ],
+    "generatedAt": "2025-11-10T00:17:29.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_30",
+    "explanation": "Berlin Wall (1961-89): Divided city",
+    "reasoning": "Symbol Cold War",
+    "steps": [
+      "Fall 1989 historic."
+    ],
+    "generatedAt": "2025-11-10T00:17:30.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_31",
+    "explanation": "Prague Spring (1968): Czech liberalization",
+    "reasoning": "Dub\u010dek",
+    "steps": [
+      "Soviet tanks crushed",
+      "Brezhnev Doctrine."
+    ],
+    "generatedAt": "2025-11-10T00:17:31.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_32",
+    "explanation": "D\u00e9tente (1970s): Relaxation East-West",
+    "reasoning": "Helsinki Accords",
+    "steps": [
+      "Arms control."
+    ],
+    "generatedAt": "2025-11-10T00:17:32.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_33",
+    "explanation": "Solidarity (1980s): Polish trade union",
+    "reasoning": "Wa\u0142\u0119sa",
+    "steps": [
+      "Challenged communism",
+      "Eventually won."
+    ],
+    "generatedAt": "2025-11-10T00:17:33.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_34",
+    "explanation": "Gorbachev reforms: Glasnost (openness), perestroika (restructuring)",
+    "reasoning": "Unintended consequences.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:34.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_35",
+    "explanation": "Fall of Berlin Wall (Nov 1989): East Germans freed",
+    "reasoning": "Reunification followed 1990.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:35.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_36",
+    "explanation": "Velvet Revolution (1989): Czechoslovakia peaceful transition",
+    "reasoning": "Havel president.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:36.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_37",
+    "explanation": "Romanian Revolution (1989): Violent overthrow Ceau\u0219escu",
+    "reasoning": "Executed",
+    "steps": [
+      "Communism ended."
+    ],
+    "generatedAt": "2025-11-10T00:17:37.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_38",
+    "explanation": "Collapse of USSR (1991): Soviet Union dissolved",
+    "reasoning": "15 independent states",
+    "steps": [
+      "Cold War ended."
+    ],
+    "generatedAt": "2025-11-10T00:17:38.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_39",
+    "explanation": "Yugoslav Wars (1991-99): Ethnic conflict",
+    "reasoning": "Bosnia, Kosovo",
+    "steps": [
+      "Genocide",
+      "NATO intervened."
+    ],
+    "generatedAt": "2025-11-10T00:17:39.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_40",
+    "explanation": "Maastricht Treaty (1992): Created EU",
+    "reasoning": "Single market",
+    "steps": [
+      "Euro currency path."
+    ],
+    "generatedAt": "2025-11-10T00:17:40.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_41",
+    "explanation": "Eurozone: Single currency euro",
+    "reasoning": "Adopted 1999",
+    "steps": [
+      "Economic integration",
+      "Debt crises."
+    ],
+    "generatedAt": "2025-11-10T00:17:41.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_42",
+    "explanation": "Brexit (2016-20): UK voted leave EU",
+    "reasoning": "Divisive",
+    "steps": [
+      "Completed 2020",
+      "Historic."
+    ],
+    "generatedAt": "2025-11-10T00:17:42.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_43",
+    "explanation": "Feudalism: Medieval system",
+    "reasoning": "Lords, vassals, serfs",
+    "steps": [
+      "Land for loyalty."
+    ],
+    "generatedAt": "2025-11-10T00:17:43.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_44",
+    "explanation": "Black Death (1347-51): Bubonic plague",
+    "reasoning": "Killed 1/3 Europe",
+    "steps": [
+      "Social upheaval."
+    ],
+    "generatedAt": "2025-11-10T00:17:44.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_45",
+    "explanation": "Hundred Years' War (1337-1453): England vs France",
+    "reasoning": "Joan of Arc",
+    "steps": [
+      "France won."
+    ],
+    "generatedAt": "2025-11-10T00:17:45.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_46",
+    "explanation": "Magna Carta (1215): Limited king's power",
+    "reasoning": "Rule of law",
+    "steps": [
+      "English liberty foundation."
+    ],
+    "generatedAt": "2025-11-10T00:17:46.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_47",
+    "explanation": "Gutenberg printing press (1450s): Revolutionized communication",
+    "reasoning": "Books accessible",
+    "steps": [
+      "Reformation enabled."
+    ],
+    "generatedAt": "2025-11-10T00:17:47.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_48",
+    "explanation": "Spanish Inquisition (1478-1834): Catholic persecution",
+    "reasoning": "Torquemada",
+    "steps": [
+      "Jews, Muslims targeted."
+    ],
+    "generatedAt": "2025-11-10T00:17:48.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_49",
+    "explanation": "Age of Exploration: Columbus (1492), da Gama, Magellan",
+    "reasoning": "New World",
+    "steps": [
+      "Trade routes."
+    ],
+    "generatedAt": "2025-11-10T00:17:49.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_50",
+    "explanation": "Treaty of Tordesillas (1494): Spain-Portugal divided New World",
+    "reasoning": "Pope mediated.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:50.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_51",
+    "explanation": "Enclosure movement: Common lands privatized",
+    "reasoning": "England",
+    "steps": [
+      "Displaced peasants",
+      "Urbanization."
+    ],
+    "generatedAt": "2025-11-10T00:17:51.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_52",
+    "explanation": "Glorious Revolution (1688): English constitutional monarchy",
+    "reasoning": "William & Mary",
+    "steps": [
+      "Bill of Rights."
+    ],
+    "generatedAt": "2025-11-10T00:17:52.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_53",
+    "explanation": "Peter the Great: Westernized Russia",
+    "reasoning": "St",
+    "steps": [
+      "Petersburg built",
+      "Modernization forced."
+    ],
+    "generatedAt": "2025-11-10T00:17:53.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_54",
+    "explanation": "Catherine the Great: Enlightened absolutism Russia",
+    "reasoning": "Expanded empire",
+    "steps": [
+      "Pugachev revolt."
+    ],
+    "generatedAt": "2025-11-10T00:17:54.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_55",
+    "explanation": "Seven Years' War (1756-63): Global conflict",
+    "reasoning": "Britain vs France",
+    "steps": [
+      "Britain dominant."
+    ],
+    "generatedAt": "2025-11-10T00:17:55.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_56",
+    "explanation": "Estates-General (1789): French assembly",
+    "reasoning": "Three estates",
+    "steps": [
+      "Third Estate broke away."
+    ],
+    "generatedAt": "2025-11-10T00:17:56.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_57",
+    "explanation": "Tennis Court Oath (1789): Vowed write constitution",
+    "reasoning": "Revolutionary moment.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:57.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_58",
+    "explanation": "Declaration Rights of Man (1789): Liberty, equality principles",
+    "reasoning": "Revolutionary document.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:58.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_59",
+    "explanation": "Reign of Terror (1793-94): Robespierre",
+    "reasoning": "Guillotine",
+    "steps": [
+      "Radicals vs moderates."
+    ],
+    "generatedAt": "2025-11-10T00:17:59.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_60",
+    "explanation": "Thermidorian Reaction (1794): Ended Terror",
+    "reasoning": "Robespierre executed",
+    "steps": [
+      "Moderates returned."
+    ],
+    "generatedAt": "2025-11-10T00:17:60.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_61",
+    "explanation": "Directory (1795-99): Weak government",
+    "reasoning": "Corruption",
+    "steps": [
+      "Napoleon's coup ended it."
+    ],
+    "generatedAt": "2025-11-10T00:17:61.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_62",
+    "explanation": "Napoleonic Code: Legal reform",
+    "reasoning": "Equality before law",
+    "steps": [
+      "Spread through empire."
+    ],
+    "generatedAt": "2025-11-10T00:17:62.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_63",
+    "explanation": "Continental System: Napoleon's trade embargo Britain",
+    "reasoning": "Weakened by smuggling.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:63.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_64",
+    "explanation": "Peninsular War (1808-14): Spanish guerrilla vs Napoleon",
+    "reasoning": "Drained French resources.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:64.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_65",
+    "explanation": "Battle of Leipzig (1813): 'Battle of Nations.' Napoleon defeated",
+    "reasoning": "Abdicated.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:65.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_66",
+    "explanation": "Hundred Days (1815): Napoleon's return",
+    "reasoning": "Waterloo defeat",
+    "steps": [
+      "Exiled St",
+      "Helena."
+    ],
+    "generatedAt": "2025-11-10T00:17:66.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_67",
+    "explanation": "Concert of Europe: Great powers cooperation",
+    "reasoning": "Prevented major war 1815-54.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:67.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_68",
+    "explanation": "Decembrist Revolt (1825): Russian officers' uprising",
+    "reasoning": "Failed",
+    "steps": [
+      "Nicholas I repressed."
+    ],
+    "generatedAt": "2025-11-10T00:17:68.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_69",
+    "explanation": "Greek independence (1821-32): Ottoman revolt",
+    "reasoning": "Byron died",
+    "steps": [
+      "Great Powers helped."
+    ],
+    "generatedAt": "2025-11-10T00:17:69.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_70",
+    "explanation": "Reform Act 1832: British voting reform",
+    "reasoning": "Expanded franchise",
+    "steps": [
+      "Middle class power."
+    ],
+    "generatedAt": "2025-11-10T00:17:70.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_71",
+    "explanation": "Chartism: British working-class movement",
+    "reasoning": "Voting rights",
+    "steps": [
+      "People's Charter",
+      "Failed."
+    ],
+    "generatedAt": "2025-11-10T00:17:71.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_72",
+    "explanation": "Irish Potato Famine (1845-49): Blight, British policy",
+    "reasoning": "Million dead",
+    "steps": [
+      "Mass emigration."
+    ],
+    "generatedAt": "2025-11-10T00:17:72.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_73",
+    "explanation": "Communist Manifesto (1848): Marx, Engels",
+    "reasoning": "Class struggle",
+    "steps": [
+      "Workers unite",
+      "Revolutionary."
+    ],
+    "generatedAt": "2025-11-10T00:17:73.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_74",
+    "explanation": "Second Empire France: Napoleon III",
+    "reasoning": "Modernized Paris",
+    "steps": [
+      "Fell Franco-Prussian War."
+    ],
+    "generatedAt": "2025-11-10T00:17:74.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_75",
+    "explanation": "Crimean War (1853-56): Russia vs Ottoman, Britain, France",
+    "reasoning": "Modern war",
+    "steps": [
+      "Russia lost."
+    ],
+    "generatedAt": "2025-11-10T00:17:75.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_76",
+    "explanation": "Emancipation serfs Russia (1861): Alexander II freed serfs",
+    "reasoning": "Reforms",
+    "steps": [
+      "Assassination 1881."
+    ],
+    "generatedAt": "2025-11-10T00:17:76.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_77",
+    "explanation": "Social Darwinism: Misapplied evolution",
+    "reasoning": "Justified imperialism, inequality",
+    "steps": [
+      "Racist ideology."
+    ],
+    "generatedAt": "2025-11-10T00:17:77.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_78",
+    "explanation": "Dreyfus Affair (1894-1906): French Jewish officer wrongly convicted",
+    "reasoning": "Anti-Semitism",
+    "steps": [
+      "Zola defended."
+    ],
+    "generatedAt": "2025-11-10T00:17:78.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_79",
+    "explanation": "Triple Alliance: Germany, Austria-Hungary, Italy (1882)",
+    "reasoning": "Defensive pact.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:79.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_80",
+    "explanation": "Triple Entente: France, Russia, Britain (1907)",
+    "reasoning": "Countered Triple Alliance.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:80.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_81",
+    "explanation": "Assassination Archduke Franz Ferdinand (1914): Sarajevo",
+    "reasoning": "Sparked WWI",
+    "steps": [
+      "Gavrilo Princip."
+    ],
+    "generatedAt": "2025-11-10T00:17:81.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_82",
+    "explanation": "Schlieffen Plan: German war plan",
+    "reasoning": "Attack France through Belgium",
+    "steps": [
+      "Failed."
+    ],
+    "generatedAt": "2025-11-10T00:17:82.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_83",
+    "explanation": "Battle of Verdun (1916): Longest WWI battle",
+    "reasoning": "700,000 casualties",
+    "steps": [
+      "Stalemate."
+    ],
+    "generatedAt": "2025-11-10T00:17:83.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_84",
+    "explanation": "Battle of Somme (1916): British offensive",
+    "reasoning": "First day 57,000 casualties",
+    "steps": [
+      "Horrific."
+    ],
+    "generatedAt": "2025-11-10T00:17:84.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_85",
+    "explanation": "Treaty of Brest-Litovsk (1918): Russia-Germany peace",
+    "reasoning": "Russia lost territory.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:85.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_86",
+    "explanation": "Treaty of Versailles (1919): Ended WWI",
+    "reasoning": "Harsh on Germany",
+    "steps": [
+      "League of Nations",
+      "War guilt."
+    ],
+    "generatedAt": "2025-11-10T00:17:86.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_87",
+    "explanation": "Weimar hyperinflation (1923): German currency collapsed",
+    "reasoning": "Wheelbarrows of money",
+    "steps": [
+      "Savings destroyed."
+    ],
+    "generatedAt": "2025-11-10T00:17:87.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_88",
+    "explanation": "Locarno Treaties (1925): Normalized Germany relations",
+    "reasoning": "Brief stability",
+    "steps": [
+      "False hope."
+    ],
+    "generatedAt": "2025-11-10T00:17:88.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_89",
+    "explanation": "Kellogg-Briand Pact (1928): Outlawed war",
+    "reasoning": "Idealistic",
+    "steps": [
+      "No enforcement",
+      "Failed."
+    ],
+    "generatedAt": "2025-11-10T00:17:89.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_90",
+    "explanation": "Five-Year Plans: Soviet industrialization",
+    "reasoning": "Stalin",
+    "steps": [
+      "Collectivization",
+      "Millions died."
+    ],
+    "generatedAt": "2025-11-10T00:17:90.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_91",
+    "explanation": "Great Purge (1936-38): Stalin's terror",
+    "reasoning": "Show trials",
+    "steps": [
+      "Millions executed, imprisoned."
+    ],
+    "generatedAt": "2025-11-10T00:17:91.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_92",
+    "explanation": "Munich Agreement (1938): Appeasement",
+    "reasoning": "Gave Czechoslovakia to Hitler",
+    "steps": [
+      "Chamberlain",
+      "Failure."
+    ],
+    "generatedAt": "2025-11-10T00:17:92.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_93",
+    "explanation": "Nazi-Soviet Pact (1939): Molotov-Ribbentrop",
+    "reasoning": "Divided Poland",
+    "steps": [
+      "Shocked world."
+    ],
+    "generatedAt": "2025-11-10T00:17:93.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_94",
+    "explanation": "Blitzkrieg: Lightning war",
+    "reasoning": "German tactics",
+    "steps": [
+      "Rapid armored assault",
+      "Early success."
+    ],
+    "generatedAt": "2025-11-10T00:17:94.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_95",
+    "explanation": "Battle of Britain (1940): RAF defeated Luftwaffe",
+    "reasoning": "Churchill: 'Finest hour.' Invasion prevented.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:95.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_96",
+    "explanation": "Operation Barbarossa (1941): German invasion USSR",
+    "reasoning": "Largest operation",
+    "steps": [
+      "Eventually failed."
+    ],
+    "generatedAt": "2025-11-10T00:17:96.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_97",
+    "explanation": "Battle of Stalingrad (1942-43): Turning point Eastern Front",
+    "reasoning": "Soviet victory",
+    "steps": [
+      "Germans encircled."
+    ],
+    "generatedAt": "2025-11-10T00:17:97.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_98",
+    "explanation": "Normandy invasion (1944): D-Day",
+    "reasoning": "Allied liberation Western Europe began.",
+    "steps": [
+      "Analyze period",
+      "Key events",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:17:98.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_99",
+    "explanation": "VE Day (May 8, 1945): Victory Europe",
+    "reasoning": "Germany surrendered",
+    "steps": [
+      "Celebrations",
+      "War continued Japan."
+    ],
+    "generatedAt": "2025-11-10T00:18:00.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_100",
+    "explanation": "Nuremberg Trials (1945-46): Nazi war criminals prosecuted",
+    "reasoning": "International law precedent.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:01.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_101",
+    "explanation": "Potsdam Conference (1945): Truman, Stalin, Churchill/Attlee",
+    "reasoning": "Divided Germany",
+    "steps": [
+      "Cold War begins."
+    ],
+    "generatedAt": "2025-11-10T00:18:02.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_102",
+    "explanation": "Truman Doctrine (1947): Contain communism",
+    "reasoning": "Aid Greece, Turkey",
+    "steps": [
+      "Cold War policy."
+    ],
+    "generatedAt": "2025-11-10T00:18:03.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_103",
+    "explanation": "Marshall Plan (1947-51): Rebuilt Western Europe",
+    "reasoning": "$13B",
+    "steps": [
+      "Economic miracle",
+      "Stopped communism."
+    ],
+    "generatedAt": "2025-11-10T00:18:04.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_104",
+    "explanation": "Berlin Blockade (1948-49): Soviet blockade West Berlin",
+    "reasoning": "Allied airlift",
+    "steps": [
+      "Stalin backed down."
+    ],
+    "generatedAt": "2025-11-10T00:18:05.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_105",
+    "explanation": "Council of Europe (1949): Human rights body",
+    "reasoning": "Strasbourg",
+    "steps": [
+      "European integration early step."
+    ],
+    "generatedAt": "2025-11-10T00:18:06.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_106",
+    "explanation": "Schuman Declaration (1950): French-German coal/steel",
+    "reasoning": "EU origins",
+    "steps": [
+      "Prevented future wars."
+    ],
+    "generatedAt": "2025-11-10T00:18:07.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_107",
+    "explanation": "Korean War (1950-53): Communist North vs South",
+    "reasoning": "Europe worried",
+    "steps": [
+      "NATO strengthened."
+    ],
+    "generatedAt": "2025-11-10T00:18:08.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_108",
+    "explanation": "Stalin death (1953): Succession struggle",
+    "reasoning": "Khrushchev emerged",
+    "steps": [
+      "De-Stalinization began."
+    ],
+    "generatedAt": "2025-11-10T00:18:09.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_109",
+    "explanation": "European Coal & Steel Community (1951): Six nations",
+    "reasoning": "Schuman Plan",
+    "steps": [
+      "EU foundation."
+    ],
+    "generatedAt": "2025-11-10T00:18:10.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_110",
+    "explanation": "Treaty of Rome (1957): Created EEC (Common Market)",
+    "reasoning": "Six founding members.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:11.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_111",
+    "explanation": "Sputnik (1957): Soviet satellite",
+    "reasoning": "Space race",
+    "steps": [
+      "European technology push."
+    ],
+    "generatedAt": "2025-11-10T00:18:12.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_112",
+    "explanation": "Charles de Gaulle: French leader",
+    "reasoning": "Fifth Republic",
+    "steps": [
+      "Independent foreign policy",
+      "NATO withdrawal."
+    ],
+    "generatedAt": "2025-11-10T00:18:13.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_113",
+    "explanation": "Algerian War (1954-62): French colony independence",
+    "reasoning": "Brutal",
+    "steps": [
+      "France withdrew",
+      "De Gaulle."
+    ],
+    "generatedAt": "2025-11-10T00:18:14.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_114",
+    "explanation": "Suez Crisis (1956): Britain, France, Israel vs Egypt",
+    "reasoning": "US opposed",
+    "steps": [
+      "European decline shown."
+    ],
+    "generatedAt": "2025-11-10T00:18:15.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_115",
+    "explanation": "Treaty of Rome (1957): Common Market created",
+    "reasoning": "Economic integration began.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:16.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_116",
+    "explanation": "European Free Trade Association (1960): Britain-led alternative EEC",
+    "reasoning": "Eventually most joined EC.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:17.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_117",
+    "explanation": "Berlin Wall built (1961): East Germany stopped emigration",
+    "reasoning": "Divided city",
+    "steps": [
+      "Checkpoint Charlie."
+    ],
+    "generatedAt": "2025-11-10T00:18:18.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_118",
+    "explanation": "Cuban Missile Crisis (1962): Europe feared nuclear war",
+    "reasoning": "Khrushchev-Kennedy showdown.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:19.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_119",
+    "explanation": "Second Vatican Council (1962-65): Catholic modernization",
+    "reasoning": "Vernacular mass",
+    "steps": [
+      "Ecumenism."
+    ],
+    "generatedAt": "2025-11-10T00:18:20.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_120",
+    "explanation": "Beatlemania (1960s): British cultural phenomenon",
+    "reasoning": "Spread globally",
+    "steps": [
+      "Youth culture."
+    ],
+    "generatedAt": "2025-11-10T00:18:21.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_121",
+    "explanation": "May 1968 France: Student protests",
+    "reasoning": "General strike",
+    "steps": [
+      "De Gaulle shaken",
+      "Cultural revolution."
+    ],
+    "generatedAt": "2025-11-10T00:18:22.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_122",
+    "explanation": "Ostpolitik (1969-74): West German eastern policy",
+    "reasoning": "Brandt",
+    "steps": [
+      "Normalized relations",
+      "Nobel Peace Prize."
+    ],
+    "generatedAt": "2025-11-10T00:18:23.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_123",
+    "explanation": "Northern Ireland Troubles (1968-98): Catholic-Protestant conflict",
+    "reasoning": "IRA, British Army",
+    "steps": [
+      "Bloody Sunday."
+    ],
+    "generatedAt": "2025-11-10T00:18:24.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_124",
+    "explanation": "OPEC oil crisis (1973): Oil embargo",
+    "reasoning": "Prices soared",
+    "steps": [
+      "European economies hit",
+      "End of boom."
+    ],
+    "generatedAt": "2025-11-10T00:18:25.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_125",
+    "explanation": "Portuguese Revolution (1974): Carnation Revolution",
+    "reasoning": "Ended dictatorship",
+    "steps": [
+      "Democracy established."
+    ],
+    "generatedAt": "2025-11-10T00:18:26.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_126",
+    "explanation": "Spanish transition (1975-82): Franco died",
+    "reasoning": "Juan Carlos",
+    "steps": [
+      "Democracy peacefully",
+      "EU entry 1986."
+    ],
+    "generatedAt": "2025-11-10T00:18:27.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_127",
+    "explanation": "Greek military junta (1967-74): Colonels' dictatorship",
+    "reasoning": "Overthrown",
+    "steps": [
+      "Democracy restored."
+    ],
+    "generatedAt": "2025-11-10T00:18:28.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_128",
+    "explanation": "Helsinki Accords (1975): CSCE",
+    "reasoning": "Human rights",
+    "steps": [
+      "D\u00e9tente",
+      "Dissidents used it."
+    ],
+    "generatedAt": "2025-11-10T00:18:29.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_129",
+    "explanation": "Baader-Meinhof Gang: West German terrorists",
+    "reasoning": "Red Army Faction",
+    "steps": [
+      "1970s violence."
+    ],
+    "generatedAt": "2025-11-10T00:18:30.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_130",
+    "explanation": "IRA bombings: Northern Ireland conflict",
+    "reasoning": "Mainland Britain attacks",
+    "steps": [
+      "Long struggle."
+    ],
+    "generatedAt": "2025-11-10T00:18:31.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_131",
+    "explanation": "Margaret Thatcher (1979-90): Conservative PM",
+    "reasoning": "Free market",
+    "steps": [
+      "Falklands War",
+      "'Iron Lady.'"
+    ],
+    "generatedAt": "2025-11-10T00:18:32.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_132",
+    "explanation": "Falklands War (1982): Britain vs Argentina",
+    "reasoning": "Thatcher popular",
+    "steps": [
+      "Nationalism",
+      "Quick victory."
+    ],
+    "generatedAt": "2025-11-10T00:18:33.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_133",
+    "explanation": "Solidarity Poland (1980-89): Wa\u0142\u0119sa",
+    "reasoning": "Trade union",
+    "steps": [
+      "Challenged communism",
+      "Eventually triumphed."
+    ],
+    "generatedAt": "2025-11-10T00:18:34.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_134",
+    "explanation": "Pope John Paul II: Polish pope (1978-2005)",
+    "reasoning": "Helped end communism",
+    "steps": [
+      "Influential."
+    ],
+    "generatedAt": "2025-11-10T00:18:35.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_135",
+    "explanation": "Chernobyl (1986): Nuclear disaster Ukraine",
+    "reasoning": "Radiation spread",
+    "steps": [
+      "Soviet weakness exposed."
+    ],
+    "generatedAt": "2025-11-10T00:18:36.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_136",
+    "explanation": "Single European Act (1986): Deepened integration",
+    "reasoning": "Single market 1992",
+    "steps": [
+      "EU advancing."
+    ],
+    "generatedAt": "2025-11-10T00:18:37.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_137",
+    "explanation": "Perestroika: Gorbachev economic reform",
+    "reasoning": "Restructuring",
+    "steps": [
+      "Unintended consequences",
+      "System collapsed."
+    ],
+    "generatedAt": "2025-11-10T00:18:38.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_138",
+    "explanation": "Glasnost: Gorbachev openness policy",
+    "reasoning": "Free speech",
+    "steps": [
+      "Criticism allowed",
+      "Undermined system."
+    ],
+    "generatedAt": "2025-11-10T00:18:39.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_139",
+    "explanation": "INF Treaty (1987): Reagan-Gorbachev",
+    "reasoning": "Eliminated intermediate missiles",
+    "steps": [
+      "Cold War thaw."
+    ],
+    "generatedAt": "2025-11-10T00:18:40.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_140",
+    "explanation": "Pan Am 103 Lockerbie (1988): Terrorist bombing",
+    "reasoning": "Libya",
+    "steps": [
+      "270 killed",
+      "Scotland."
+    ],
+    "generatedAt": "2025-11-10T00:18:41.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_141",
+    "explanation": "Velvet Divorce (1993): Czechoslovakia split",
+    "reasoning": "Czech Republic, Slovakia",
+    "steps": [
+      "Peaceful separation."
+    ],
+    "generatedAt": "2025-11-10T00:18:42.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_142",
+    "explanation": "Good Friday Agreement (1998): Northern Ireland peace",
+    "reasoning": "Power-sharing",
+    "steps": [
+      "Clinton, Blair, Ahern."
+    ],
+    "generatedAt": "2025-11-10T00:18:43.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_143",
+    "explanation": "Kosovo War (1998-99): Ethnic cleansing",
+    "reasoning": "NATO bombed Serbia",
+    "steps": [
+      "Independence 2008."
+    ],
+    "generatedAt": "2025-11-10T00:18:44.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_144",
+    "explanation": "Euro currency (1999): Single currency launched",
+    "reasoning": "12 nations initially",
+    "steps": [
+      "Eurozone created."
+    ],
+    "generatedAt": "2025-11-10T00:18:45.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_145",
+    "explanation": "Putin rise (1999-): Russian strongman",
+    "reasoning": "Authoritarian",
+    "steps": [
+      "Nationalist",
+      "Expansionist."
+    ],
+    "generatedAt": "2025-11-10T00:18:46.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_146",
+    "explanation": "9/11 attacks (2001): Al-Qaeda",
+    "reasoning": "Europe allied with US",
+    "steps": [
+      "Afghanistan",
+      "Solidarity."
+    ],
+    "generatedAt": "2025-11-10T00:18:47.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_147",
+    "explanation": "Madrid train bombings (2004): Al-Qaeda",
+    "reasoning": "193 killed",
+    "steps": [
+      "Spain withdrew Iraq."
+    ],
+    "generatedAt": "2025-11-10T00:18:48.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_148",
+    "explanation": "London bombings (2005): 7/7 attacks",
+    "reasoning": "52 killed",
+    "steps": [
+      "Homegrown terrorism."
+    ],
+    "generatedAt": "2025-11-10T00:18:49.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_149",
+    "explanation": "EU enlargement (2004): 10 new members",
+    "reasoning": "Eastern Europe",
+    "steps": [
+      "Historic expansion."
+    ],
+    "generatedAt": "2025-11-10T00:18:50.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_150",
+    "explanation": "Orange Revolution Ukraine (2004): Pro-Western protests",
+    "reasoning": "Yushchenko",
+    "steps": [
+      "Russia opposed."
+    ],
+    "generatedAt": "2025-11-10T00:18:51.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_151",
+    "explanation": "Lisbon Treaty (2007): Reformed EU governance",
+    "reasoning": "Enhanced powers",
+    "steps": [
+      "Irish referendum drama."
+    ],
+    "generatedAt": "2025-11-10T00:18:52.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_152",
+    "explanation": "Financial crisis (2008): Global crash",
+    "reasoning": "Europe hit hard",
+    "steps": [
+      "Banks bailed out."
+    ],
+    "generatedAt": "2025-11-10T00:18:53.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_153",
+    "explanation": "Greek debt crisis (2009-): Eurozone crisis",
+    "reasoning": "Austerity",
+    "steps": [
+      "Troika",
+      "Near Grexit."
+    ],
+    "generatedAt": "2025-11-10T00:18:54.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_154",
+    "explanation": "Arab Spring (2011): Middle East revolutions",
+    "reasoning": "European migration increased",
+    "steps": [
+      "Libya intervention."
+    ],
+    "generatedAt": "2025-11-10T00:18:55.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_155",
+    "explanation": "Norwegian massacre (2011): Breivik killed 77",
+    "reasoning": "Far-right terrorism",
+    "steps": [
+      "Shocking."
+    ],
+    "generatedAt": "2025-11-10T00:18:56.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_156",
+    "explanation": "Syrian refugee crisis (2015-): Million refugees",
+    "reasoning": "Merkel 'Wir schaffen das.' Divisive.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:57.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_157",
+    "explanation": "Paris attacks (2015): Bataclan, stadium",
+    "reasoning": "ISIS",
+    "steps": [
+      "130 killed",
+      "State of emergency."
+    ],
+    "generatedAt": "2025-11-10T00:18:58.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_158",
+    "explanation": "Brexit referendum (2016): UK voted leave EU 52-48",
+    "reasoning": "Cameron resigned",
+    "steps": [
+      "Historic."
+    ],
+    "generatedAt": "2025-11-10T00:18:59.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_159",
+    "explanation": "Catalan independence (2017): Referendum",
+    "reasoning": "Madrid opposed",
+    "steps": [
+      "Leaders jailed",
+      "Ongoing tension."
+    ],
+    "generatedAt": "2025-11-10T00:18:00.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_160",
+    "explanation": "Yellow Vests France (2018-19): Anti-Macron protests",
+    "reasoning": "Every Saturday",
+    "steps": [
+      "Inequality focus."
+    ],
+    "generatedAt": "2025-11-10T00:18:01.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_161",
+    "explanation": "Notre-Dame fire (2019): Paris cathedral burned",
+    "reasoning": "Spire collapsed",
+    "steps": [
+      "Restoration planned."
+    ],
+    "generatedAt": "2025-11-10T00:18:02.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_162",
+    "explanation": "COVID-19 pandemic (2020-): Lockdowns, deaths",
+    "reasoning": "Economic crisis",
+    "steps": [
+      "EU recovery fund."
+    ],
+    "generatedAt": "2025-11-10T00:18:03.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_163",
+    "explanation": "Brexit completed (2020): UK left EU",
+    "reasoning": "Trade deal",
+    "steps": [
+      "Northern Ireland protocol issues."
+    ],
+    "generatedAt": "2025-11-10T00:18:04.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_164",
+    "explanation": "Russian invasion Ukraine (2022): Full-scale war",
+    "reasoning": "Europe united response",
+    "steps": [
+      "Sanctions, aid."
+    ],
+    "generatedAt": "2025-11-10T00:18:05.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_165",
+    "explanation": "Energy crisis (2022): Russia cut gas",
+    "reasoning": "Prices soared",
+    "steps": [
+      "Winter preparations",
+      "Renewables push."
+    ],
+    "generatedAt": "2025-11-10T00:18:06.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_166",
+    "explanation": "Feudal obligations: Lords-vassals",
+    "reasoning": "Military service",
+    "steps": [
+      "Land grants",
+      "Hierarchical."
+    ],
+    "generatedAt": "2025-11-10T00:18:07.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_167",
+    "explanation": "Medieval guilds: Craft associations",
+    "reasoning": "Quality control",
+    "steps": [
+      "Training",
+      "Urban power."
+    ],
+    "generatedAt": "2025-11-10T00:18:08.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_168",
+    "explanation": "Hanseatic League: Northern European trade network",
+    "reasoning": "L\u00fcbeck center",
+    "steps": [
+      "Commercial power."
+    ],
+    "generatedAt": "2025-11-10T00:18:09.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_169",
+    "explanation": "Great Schism (1378-1417): Multiple popes",
+    "reasoning": "Divided Church",
+    "steps": [
+      "Councils resolved."
+    ],
+    "generatedAt": "2025-11-10T00:18:10.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_170",
+    "explanation": "Council of Constance (1414-18): Ended Schism",
+    "reasoning": "Burned Hus",
+    "steps": [
+      "Church reform."
+    ],
+    "generatedAt": "2025-11-10T00:18:11.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_171",
+    "explanation": "Wars of Roses (1455-87): English civil war",
+    "reasoning": "Lancaster vs York",
+    "steps": [
+      "Tudor victory."
+    ],
+    "generatedAt": "2025-11-10T00:18:12.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_172",
+    "explanation": "Spanish Armada (1588): Failed invasion England",
+    "reasoning": "Storm, Drake",
+    "steps": [
+      "Spanish decline begins."
+    ],
+    "generatedAt": "2025-11-10T00:18:13.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_173",
+    "explanation": "Dutch Revolt (1568-1648): Independence from Spain",
+    "reasoning": "Religious, economic",
+    "steps": [
+      "Republic formed."
+    ],
+    "generatedAt": "2025-11-10T00:18:14.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_174",
+    "explanation": "Edict of Nantes (1598): Religious tolerance France",
+    "reasoning": "Huguenots protected",
+    "steps": [
+      "Revoked 1685."
+    ],
+    "generatedAt": "2025-11-10T00:18:15.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_175",
+    "explanation": "Stuart dynasty: English/Scottish kings",
+    "reasoning": "Charles I executed",
+    "steps": [
+      "James II deposed."
+    ],
+    "generatedAt": "2025-11-10T00:18:16.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_176",
+    "explanation": "English Civil War (1642-51): Parliamentarians vs Royalists",
+    "reasoning": "Cromwell",
+    "steps": [
+      "Republic brief."
+    ],
+    "generatedAt": "2025-11-10T00:18:17.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_177",
+    "explanation": "Cromwell's rule (1653-58): Lord Protector",
+    "reasoning": "Puritan dictatorship",
+    "steps": [
+      "Monarchy restored 1660."
+    ],
+    "generatedAt": "2025-11-10T00:18:18.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_178",
+    "explanation": "Great Fire London (1666): Destroyed medieval city",
+    "reasoning": "Rebuilt",
+    "steps": [
+      "Wren's churches."
+    ],
+    "generatedAt": "2025-11-10T00:18:19.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_179",
+    "explanation": "War of Spanish Succession (1701-14): European powers vs France",
+    "reasoning": "Utrecht Treaty.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:20.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_180",
+    "explanation": "Great Northern War (1700-21): Sweden vs Russia, others",
+    "reasoning": "Russian victory",
+    "steps": [
+      "Baltic power shift."
+    ],
+    "generatedAt": "2025-11-10T00:18:21.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_181",
+    "explanation": "Enlightened despots: Frederick II, Catherine II, Joseph II",
+    "reasoning": "Reform from above.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:22.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_182",
+    "explanation": "Partitions of Poland (1772, 1793, 1795): Prussia, Russia, Austria divided",
+    "reasoning": "Poland disappeared.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:23.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_183",
+    "explanation": "French Directory (1795-99): Five directors",
+    "reasoning": "Corruption",
+    "steps": [
+      "Napoleon's coup ended."
+    ],
+    "generatedAt": "2025-11-10T00:18:24.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_184",
+    "explanation": "Battle of Trafalgar (1805): Nelson defeated French-Spanish fleet",
+    "reasoning": "British naval supremacy.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:25.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_185",
+    "explanation": "Battle of Austerlitz (1805): Napoleon's masterpiece",
+    "reasoning": "Three Emperors",
+    "steps": [
+      "French victory."
+    ],
+    "generatedAt": "2025-11-10T00:18:26.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_186",
+    "explanation": "Continental System (1806-14): Napoleon's blockade Britain",
+    "reasoning": "Enforcement problems",
+    "steps": [
+      "Failed."
+    ],
+    "generatedAt": "2025-11-10T00:18:27.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_187",
+    "explanation": "War of 1812: Britain vs US",
+    "reasoning": "Europe distracted",
+    "steps": [
+      "Stalemate",
+      "Minor European impact."
+    ],
+    "generatedAt": "2025-11-10T00:18:28.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_188",
+    "explanation": "Carlsbad Decrees (1819): Metternich repressed liberals",
+    "reasoning": "Censorship",
+    "steps": [
+      "Universities controlled."
+    ],
+    "generatedAt": "2025-11-10T00:18:29.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_189",
+    "explanation": "Monroe Doctrine (1823): US warned Europe off Americas",
+    "reasoning": "European powers noted.",
+    "steps": [
+      "Analyze",
+      "Context",
+      "Impact"
+    ],
+    "generatedAt": "2025-11-10T00:18:30.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_190",
+    "explanation": "July Revolution France (1830): Bourbon overthrown",
+    "reasoning": "Louis Philippe",
+    "steps": [
+      "Constitutional monarchy."
+    ],
+    "generatedAt": "2025-11-10T00:18:31.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_191",
+    "explanation": "Belgian independence (1830): Revolt against Netherlands",
+    "reasoning": "Britain, France supported",
+    "steps": [
+      "Succeeded."
+    ],
+    "generatedAt": "2025-11-10T00:18:32.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_192",
+    "explanation": "Polish Uprising (1830-31): Against Russian rule",
+    "reasoning": "Crushed",
+    "steps": [
+      "Thousands exiled."
+    ],
+    "generatedAt": "2025-11-10T00:18:33.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_193",
+    "explanation": "Young Italy: Mazzini's movement",
+    "reasoning": "Romantic nationalism",
+    "steps": [
+      "Republican",
+      "Failed uprisings."
+    ],
+    "generatedAt": "2025-11-10T00:18:34.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_194",
+    "explanation": "Corn Laws repeal (1846): British free trade",
+    "reasoning": "Peel",
+    "steps": [
+      "Economic liberalism",
+      "Ireland factor."
+    ],
+    "generatedAt": "2025-11-10T00:18:35.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_195",
+    "explanation": "February Revolution (1848): French republic proclaimed",
+    "reasoning": "Louis Napoleon elected",
+    "steps": [
+      "Short-lived."
+    ],
+    "generatedAt": "2025-11-10T00:18:36.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_196",
+    "explanation": "June Days (1848): Paris workers revolt",
+    "reasoning": "Crushed brutally",
+    "steps": [
+      "Class conflict."
+    ],
+    "generatedAt": "2025-11-10T00:18:37.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_197",
+    "explanation": "Frankfurt Parliament (1848-49): German unification attempt",
+    "reasoning": "Liberal",
+    "steps": [
+      "Failed",
+      "Prussia refused crown."
+    ],
+    "generatedAt": "2025-11-10T00:18:38.000Z"
+  },
+  {
+    "questionId": "high_school_european_history_198",
+    "explanation": "Crimean War nurses: Florence Nightingale",
+    "reasoning": "Modern nursing",
+    "steps": [
+      "Sanitation",
+      "Medical revolution."
+    ],
+    "generatedAt": "2025-11-10T00:18:39.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_0",
+    "explanation": "Mesopotamia: Cradle of civilization",
+    "reasoning": "Tigris-Euphrates",
+    "steps": [
+      "Sumerians, Akkadians, Babylonians",
+      "Cuneiform writing."
+    ],
+    "generatedAt": "2025-11-10T00:19:00.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_1",
+    "explanation": "Ancient Egypt: Nile River",
+    "reasoning": "Pharaohs, pyramids",
+    "steps": [
+      "3000+ years",
+      "Hieroglyphics",
+      "Sophisticated culture."
+    ],
+    "generatedAt": "2025-11-10T00:19:01.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_2",
+    "explanation": "Indus Valley: Harappa, Mohenjo-Daro",
+    "reasoning": "Advanced urban planning",
+    "steps": [
+      "Declined mysteriously",
+      "Bronze Age."
+    ],
+    "generatedAt": "2025-11-10T00:19:02.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_3",
+    "explanation": "Ancient China: Yellow River",
+    "reasoning": "Shang, Zhou dynasties",
+    "steps": [
+      "Mandate of Heaven",
+      "Confucius, Laozi."
+    ],
+    "generatedAt": "2025-11-10T00:19:03.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_4",
+    "explanation": "Persian Empire: Cyrus, Darius",
+    "reasoning": "Vast multicultural empire",
+    "steps": [
+      "Royal Road",
+      "Zoroastrianism."
+    ],
+    "generatedAt": "2025-11-10T00:19:04.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_5",
+    "explanation": "Classical Greece: Athens, Sparta",
+    "reasoning": "Democracy, philosophy",
+    "steps": [
+      "Alexander",
+      "Golden Age culture."
+    ],
+    "generatedAt": "2025-11-10T00:19:05.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_6",
+    "explanation": "Mauryan Empire: Chandragupta, Ashoka",
+    "reasoning": "United India",
+    "steps": [
+      "Buddhism spread",
+      "Pillars of Ashoka."
+    ],
+    "generatedAt": "2025-11-10T00:19:06.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_7",
+    "explanation": "Qin Dynasty: First emperor",
+    "reasoning": "United China",
+    "steps": [
+      "Great Wall",
+      "Terracotta Army",
+      "Legalism"
+    ],
+    "generatedAt": "2025-11-10T00:19:07.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_8",
+    "explanation": "Han Dynasty: 400 years",
+    "reasoning": "Silk Road",
+    "steps": [
+      "Paper invented",
+      "Confucian state",
+      "Expansion."
+    ],
+    "generatedAt": "2025-11-10T00:19:08.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_9",
+    "explanation": "Roman Republic: SPQR",
+    "reasoning": "Senate, consuls",
+    "steps": [
+      "Punic Wars",
+      "Caesar",
+      "Fell 27 BCE."
+    ],
+    "generatedAt": "2025-11-10T00:19:09.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_10",
+    "explanation": "Roman Empire: Augustus",
+    "reasoning": "Pax Romana",
+    "steps": [
+      "Mediterranean dominance",
+      "Christianity adopted",
+      "Split 395 CE."
+    ],
+    "generatedAt": "2025-11-10T00:19:10.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_11",
+    "explanation": "Byzantine Empire: Eastern Rome",
+    "reasoning": "Constantinople",
+    "steps": [
+      "Greek culture",
+      "Justinian",
+      "Fell 1453."
+    ],
+    "generatedAt": "2025-11-10T00:19:11.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_12",
+    "explanation": "Islamic Golden Age: 7th-13th c",
+    "reasoning": "Baghdad",
+    "steps": [
+      "Algebra, medicine, astronomy",
+      "Preserved Greek texts."
+    ],
+    "generatedAt": "2025-11-10T00:19:12.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_13",
+    "explanation": "Tang Dynasty: China's golden age",
+    "reasoning": "Poetry, art",
+    "steps": [
+      "Cosmopolitan",
+      "An Lushan rebellion."
+    ],
+    "generatedAt": "2025-11-10T00:19:13.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_14",
+    "explanation": "Song Dynasty: Economic revolution",
+    "reasoning": "Neo-Confucianism",
+    "steps": [
+      "Gunpowder, printing",
+      "Mongol conquest."
+    ],
+    "generatedAt": "2025-11-10T00:19:14.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_15",
+    "explanation": "Mongol Empire: Genghis Khan",
+    "reasoning": "Largest land empire",
+    "steps": [
+      "Pax Mongolica",
+      "Yuan Dynasty China."
+    ],
+    "generatedAt": "2025-11-10T00:19:15.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_16",
+    "explanation": "Crusades: 1095-1291",
+    "reasoning": "Christians vs Muslims",
+    "steps": [
+      "Holy Land",
+      "Failed overall",
+      "Cultural exchange."
+    ],
+    "generatedAt": "2025-11-10T00:19:16.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_17",
+    "explanation": "Mali Empire: West Africa",
+    "reasoning": "Mansa Musa",
+    "steps": [
+      "Gold, salt trade",
+      "Timbuktu",
+      "Islamic learning."
+    ],
+    "generatedAt": "2025-11-10T00:19:17.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_18",
+    "explanation": "Aztec Empire: Mesoamerica",
+    "reasoning": "Tenochtitlan",
+    "steps": [
+      "Human sacrifice",
+      "Cort\u00e9s conquered 1521."
+    ],
+    "generatedAt": "2025-11-10T00:19:18.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_19",
+    "explanation": "Inca Empire: Andes",
+    "reasoning": "Cuzco",
+    "steps": [
+      "No writing but quipu",
+      "Pizarro conquered 1533."
+    ],
+    "generatedAt": "2025-11-10T00:19:19.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_20",
+    "explanation": "Ming Dynasty: Great Wall rebuilt",
+    "reasoning": "Zheng He voyages",
+    "steps": [
+      "Forbidden City",
+      "Isolationism later."
+    ],
+    "generatedAt": "2025-11-10T00:19:20.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_21",
+    "explanation": "Qing Dynasty: Last Chinese dynasty",
+    "reasoning": "Manchu rulers",
+    "steps": [
+      "Opium Wars",
+      "Boxer Rebellion",
+      "Fell 1912."
+    ],
+    "generatedAt": "2025-11-10T00:19:21.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_22",
+    "explanation": "Mughal Empire: India 1526-1857",
+    "reasoning": "Akbar, Shah Jahan (Taj Mahal)",
+    "steps": [
+      "Hindu-Muslim synthesis."
+    ],
+    "generatedAt": "2025-11-10T00:19:22.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_23",
+    "explanation": "Ottoman Empire: 1299-1922",
+    "reasoning": "Constantinople 1453",
+    "steps": [
+      "Suleiman Magnificent",
+      "Sick man of Europe."
+    ],
+    "generatedAt": "2025-11-10T00:19:23.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_24",
+    "explanation": "Safavid Empire: Persia",
+    "reasoning": "Shi'a Islam",
+    "steps": [
+      "Isfahan",
+      "Arts flourished",
+      "Rival to Ottomans."
+    ],
+    "generatedAt": "2025-11-10T00:19:24.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_25",
+    "explanation": "Tokugawa Shogunate: Japan 1603-1868",
+    "reasoning": "Isolation",
+    "steps": [
+      "Edo",
+      "Samurai",
+      "Meiji Restoration ended."
+    ],
+    "generatedAt": "2025-11-10T00:19:25.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_26",
+    "explanation": "Atlantic slave trade: 12+ million Africans",
+    "reasoning": "Middle Passage",
+    "steps": [
+      "Americas",
+      "Triangular trade",
+      "Abolished 19th c."
+    ],
+    "generatedAt": "2025-11-10T00:19:26.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_27",
+    "explanation": "Columbian Exchange: Old-New World exchange",
+    "reasoning": "Crops, animals, diseases",
+    "steps": [
+      "Transformed both."
+    ],
+    "generatedAt": "2025-11-10T00:19:27.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_28",
+    "explanation": "Age of Discovery: European exploration",
+    "reasoning": "Portugal, Spain lead",
+    "steps": [
+      "Americas, routes to Asia."
+    ],
+    "generatedAt": "2025-11-10T00:19:28.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_29",
+    "explanation": "Protestant Reformation: Luther, Calvin",
+    "reasoning": "Broke Catholic Church unity",
+    "steps": [
+      "Religious wars",
+      "Print key."
+    ],
+    "generatedAt": "2025-11-10T00:19:29.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_30",
+    "explanation": "Scientific Revolution: Copernicus to Newton",
+    "reasoning": "Heliocentric, calculus, empiricism",
+    "steps": [
+      "Enlightenment basis."
+    ],
+    "generatedAt": "2025-11-10T00:19:30.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_31",
+    "explanation": "Enlightenment: Reason, individual rights",
+    "reasoning": "Locke, Rousseau, Voltaire",
+    "steps": [
+      "American, French Revolutions inspired."
+    ],
+    "generatedAt": "2025-11-10T00:19:31.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_32",
+    "explanation": "American Revolution: 1776 independence",
+    "reasoning": "Republic established",
+    "steps": [
+      "Influenced global democratic movements."
+    ],
+    "generatedAt": "2025-11-10T00:19:32.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_33",
+    "explanation": "French Revolution: 1789",
+    "reasoning": "Overthrew monarchy",
+    "steps": [
+      "Rights of Man",
+      "Terror",
+      "Napoleon followed."
+    ],
+    "generatedAt": "2025-11-10T00:19:33.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_34",
+    "explanation": "Haitian Revolution: 1791-1804",
+    "reasoning": "Only successful slave revolt",
+    "steps": [
+      "Toussaint",
+      "First black republic."
+    ],
+    "generatedAt": "2025-11-10T00:19:34.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_35",
+    "explanation": "Latin American independence: Bolivar, San Martin",
+    "reasoning": "Spanish colonies freed 1810s-20s",
+    "steps": [
+      "Caudillos."
+    ],
+    "generatedAt": "2025-11-10T00:19:35.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_36",
+    "explanation": "Industrial Revolution: Britain first 1760s",
+    "reasoning": "Steam, coal, factories",
+    "steps": [
+      "Spread Europe, US",
+      "Social transformation."
+    ],
+    "generatedAt": "2025-11-10T00:19:36.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_37",
+    "explanation": "Opium Wars: Britain vs China 1839-60",
+    "reasoning": "Unequal treaties",
+    "steps": [
+      "Opened China",
+      "Humiliation."
+    ],
+    "generatedAt": "2025-11-10T00:19:37.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_38",
+    "explanation": "Meiji Restoration: Japan 1868",
+    "reasoning": "Rapid modernization",
+    "steps": [
+      "Western technology",
+      "Avoided colonization."
+    ],
+    "generatedAt": "2025-11-10T00:19:38.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_39",
+    "explanation": "Scramble for Africa: European colonization 1880s-1914",
+    "reasoning": "Berlin Conference",
+    "steps": [
+      "Resistance crushed."
+    ],
+    "generatedAt": "2025-11-10T00:19:39.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_40",
+    "explanation": "Indian independence: Gandhi nonviolence",
+    "reasoning": "1947 partition",
+    "steps": [
+      "India, Pakistan",
+      "Nehru, Jinnah."
+    ],
+    "generatedAt": "2025-11-10T00:19:40.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_41",
+    "explanation": "Chinese Civil War: Communists vs Nationalists",
+    "reasoning": "1927-49",
+    "steps": [
+      "Mao won",
+      "Taiwan refuge."
+    ],
+    "generatedAt": "2025-11-10T00:19:41.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_42",
+    "explanation": "Partition of India: 1947",
+    "reasoning": "Hindu-Muslim violence",
+    "steps": [
+      "Million dead",
+      "Kashmir dispute ongoing."
+    ],
+    "generatedAt": "2025-11-10T00:19:42.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_43",
+    "explanation": "Arab-Israeli conflict: 1948 Israel created",
+    "reasoning": "Palestinians displaced",
+    "steps": [
+      "Multiple wars",
+      "Ongoing."
+    ],
+    "generatedAt": "2025-11-10T00:19:43.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_44",
+    "explanation": "Decolonization: Post-WWII",
+    "reasoning": "Africa, Asia independence",
+    "steps": [
+      "Cold War influence",
+      "Borders problematic."
+    ],
+    "generatedAt": "2025-11-10T00:19:44.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_45",
+    "explanation": "Korean War: 1950-53",
+    "reasoning": "North (China/USSR) vs South (US/UN)",
+    "steps": [
+      "Stalemate",
+      "Divided still."
+    ],
+    "generatedAt": "2025-11-10T00:19:45.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_46",
+    "explanation": "Vietnam War: 1955-75",
+    "reasoning": "Communist North vs South",
+    "steps": [
+      "US intervened",
+      "North won",
+      "Domino theory."
+    ],
+    "generatedAt": "2025-11-10T00:19:46.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_47",
+    "explanation": "Cultural Revolution China: 1966-76",
+    "reasoning": "Mao's radical campaign",
+    "steps": [
+      "Red Guards",
+      "Chaos, deaths",
+      "Gang of Four."
+    ],
+    "generatedAt": "2025-11-10T00:19:47.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_48",
+    "explanation": "Bangladesh independence: 1971",
+    "reasoning": "East Pakistan revolt",
+    "steps": [
+      "India aided",
+      "Genocide",
+      "Bangladesh created."
+    ],
+    "generatedAt": "2025-11-10T00:19:48.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_49",
+    "explanation": "Iranian Revolution: 1979",
+    "reasoning": "Shah overthrown",
+    "steps": [
+      "Khomeini",
+      "Islamic Republic",
+      "Hostage crisis."
+    ],
+    "generatedAt": "2025-11-10T00:19:49.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_50",
+    "explanation": "Soviet-Afghan War: 1979-89",
+    "reasoning": "USSR invaded",
+    "steps": [
+      "Mujahideen resisted",
+      "Soviet defeat",
+      "Taliban rose."
+    ],
+    "generatedAt": "2025-11-10T00:19:50.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_51",
+    "explanation": "Tiananmen Square: 1989",
+    "reasoning": "Pro-democracy protests",
+    "steps": [
+      "Tank Man",
+      "CCP crackdown",
+      "Democracy denied."
+    ],
+    "generatedAt": "2025-11-10T00:19:51.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_52",
+    "explanation": "Rwandan genocide: 1994",
+    "reasoning": "Hutu vs Tutsi",
+    "steps": [
+      "800,000 killed",
+      "UN failed",
+      "RPF victory."
+    ],
+    "generatedAt": "2025-11-10T00:19:52.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_53",
+    "explanation": "Apartheid South Africa: Racial segregation",
+    "reasoning": "Mandela imprisoned",
+    "steps": [
+      "International pressure",
+      "Ended 1994."
+    ],
+    "generatedAt": "2025-11-10T00:19:53.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_54",
+    "explanation": "Neolithic Revolution: Agriculture begins",
+    "reasoning": "10,000 BCE",
+    "steps": [
+      "Sedentary life",
+      "Population growth",
+      "Civilization basis."
+    ],
+    "generatedAt": "2025-11-10T00:19:54.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_55",
+    "explanation": "Bronze Age: 3300-1200 BCE",
+    "reasoning": "Metal tools",
+    "steps": [
+      "Writing",
+      "Complex societies",
+      "Mediterranean, Asia."
+    ],
+    "generatedAt": "2025-11-10T00:19:55.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_56",
+    "explanation": "Iron Age: 1200 BCE onward",
+    "reasoning": "Stronger tools",
+    "steps": [
+      "Spread widely",
+      "Empires expanded."
+    ],
+    "generatedAt": "2025-11-10T00:19:56.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_57",
+    "explanation": "Silk Road: Ancient trade route",
+    "reasoning": "China-Mediterranean",
+    "steps": [
+      "Silk, spices, ideas",
+      "Cultural exchange."
+    ],
+    "generatedAt": "2025-11-10T00:19:57.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_58",
+    "explanation": "Spread of Buddhism: India origin",
+    "reasoning": "Ashoka spread",
+    "steps": [
+      "China, Japan, SE Asia",
+      "Adapted locally."
+    ],
+    "generatedAt": "2025-11-10T00:19:58.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_59",
+    "explanation": "Spread of Christianity: Roman Empire",
+    "reasoning": "Constantine",
+    "steps": [
+      "Missionaries",
+      "Europe, Americas, Africa."
+    ],
+    "generatedAt": "2025-11-10T00:19:59.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_60",
+    "explanation": "Spread of Islam: 7th c Arabia",
+    "reasoning": "Rapid expansion",
+    "steps": [
+      "Trade, conquest",
+      "Spain to Indonesia."
+    ],
+    "generatedAt": "2025-11-10T00:19:60.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_61",
+    "explanation": "Black Death: 1347-51",
+    "reasoning": "Bubonic plague",
+    "steps": [
+      "Killed 30-60% Europe",
+      "Social upheaval",
+      "Recurring."
+    ],
+    "generatedAt": "2025-11-10T00:19:61.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_62",
+    "explanation": "Printing press: Gutenberg 1450s",
+    "reasoning": "Revolutionized knowledge",
+    "steps": [
+      "Reformation enabled",
+      "Modern world key."
+    ],
+    "generatedAt": "2025-11-10T00:19:62.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_63",
+    "explanation": "Gunpowder empires: Ottomans, Safavids, Mughals",
+    "reasoning": "Military technology",
+    "steps": [
+      "Centralized states."
+    ],
+    "generatedAt": "2025-11-10T00:19:63.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_64",
+    "explanation": "Columbian Exchange diseases: Smallpox decimated Americas",
+    "reasoning": "No immunity",
+    "steps": [
+      "Population collapsed."
+    ],
+    "generatedAt": "2025-11-10T00:19:64.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_65",
+    "explanation": "Seven Years' War: 1756-63",
+    "reasoning": "Global conflict",
+    "steps": [
+      "Britain vs France",
+      "Britain won",
+      "Colonial dominance."
+    ],
+    "generatedAt": "2025-11-10T00:19:65.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_66",
+    "explanation": "Congress of Vienna: 1815",
+    "reasoning": "Post-Napoleon",
+    "steps": [
+      "Conservative order",
+      "Balance of power",
+      "Metternich."
+    ],
+    "generatedAt": "2025-11-10T00:19:66.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_67",
+    "explanation": "Opium trade: British India-China",
+    "reasoning": "Addiction crisis",
+    "steps": [
+      "Led to wars",
+      "Unequal treaties."
+    ],
+    "generatedAt": "2025-11-10T00:19:67.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_68",
+    "explanation": "Suez Canal: 1869",
+    "reasoning": "Connected Mediterranean-Red Sea",
+    "steps": [
+      "Shortened trade",
+      "British controlled."
+    ],
+    "generatedAt": "2025-11-10T00:19:68.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_69",
+    "explanation": "Panama Canal: 1904-14",
+    "reasoning": "US built",
+    "steps": [
+      "Atlantic-Pacific",
+      "Strategic, economic importance."
+    ],
+    "generatedAt": "2025-11-10T00:19:69.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_70",
+    "explanation": "Scramble for Africa Berlin Conference: 1884-85",
+    "reasoning": "European powers divided Africa",
+    "steps": [
+      "No African input."
+    ],
+    "generatedAt": "2025-11-10T00:19:70.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_71",
+    "explanation": "Boxer Rebellion: 1899-1901",
+    "reasoning": "Anti-foreign China",
+    "steps": [
+      "Eight-Nation Alliance crushed",
+      "Humiliation."
+    ],
+    "generatedAt": "2025-11-10T00:19:71.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_72",
+    "explanation": "Russo-Japanese War: 1904-05",
+    "reasoning": "Japan won",
+    "steps": [
+      "First Asian victory over European",
+      "Russia weakened."
+    ],
+    "generatedAt": "2025-11-10T00:19:72.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_73",
+    "explanation": "Mexican Revolution: 1910-20",
+    "reasoning": "Peasant revolt",
+    "steps": [
+      "Land reform",
+      "PRI emerged",
+      "Villa, Zapata."
+    ],
+    "generatedAt": "2025-11-10T00:19:73.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_74",
+    "explanation": "Chinese Revolution 1911: Qing Dynasty overthrown",
+    "reasoning": "Republic proclaimed",
+    "steps": [
+      "Sun Yat-sen",
+      "Chaos followed."
+    ],
+    "generatedAt": "2025-11-10T00:19:74.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_75",
+    "explanation": "WWI impact globally: European dominance weakened",
+    "reasoning": "US rose",
+    "steps": [
+      "Colonial unrest",
+      "League of Nations."
+    ],
+    "generatedAt": "2025-11-10T00:19:75.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_76",
+    "explanation": "Treaty of Versailles: 1919",
+    "reasoning": "Germany harsh terms",
+    "steps": [
+      "Self-determination",
+      "New nations",
+      "WWII seeds."
+    ],
+    "generatedAt": "2025-11-10T00:19:76.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_77",
+    "explanation": "League of Nations: First international organization",
+    "reasoning": "US didn't join",
+    "steps": [
+      "Failed prevent WWII."
+    ],
+    "generatedAt": "2025-11-10T00:19:77.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_78",
+    "explanation": "Sykes-Picot Agreement: 1916",
+    "reasoning": "Britain-France divided Middle East",
+    "steps": [
+      "Artificial borders",
+      "Problems persist."
+    ],
+    "generatedAt": "2025-11-10T00:19:78.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_79",
+    "explanation": "Balfour Declaration: 1917",
+    "reasoning": "British support Jewish homeland Palestine",
+    "steps": [
+      "Arab opposition",
+      "Conflict basis."
+    ],
+    "generatedAt": "2025-11-10T00:19:79.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_80",
+    "explanation": "Weimar Republic: 1919-33",
+    "reasoning": "German democracy",
+    "steps": [
+      "Hyperinflation",
+      "Depression",
+      "Hitler rise."
+    ],
+    "generatedAt": "2025-11-10T00:19:80.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_81",
+    "explanation": "Stalin's USSR: Totalitarian",
+    "reasoning": "Five-Year Plans",
+    "steps": [
+      "Collectivization",
+      "Great Purge",
+      "Millions died."
+    ],
+    "generatedAt": "2025-11-10T00:19:81.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_82",
+    "explanation": "WWII global: 60+ million dead",
+    "reasoning": "Holocaust",
+    "steps": [
+      "Atomic bombs",
+      "Superpowers emerged",
+      "Decolonization."
+    ],
+    "generatedAt": "2025-11-10T00:19:82.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_83",
+    "explanation": "United Nations: 1945",
+    "reasoning": "Replace League",
+    "steps": [
+      "Security Council",
+      "Universal Declaration",
+      "Cold War limited."
+    ],
+    "generatedAt": "2025-11-10T00:19:83.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_84",
+    "explanation": "Bretton Woods: 1944",
+    "reasoning": "Post-war economic order",
+    "steps": [
+      "IMF, World Bank",
+      "Dollar standard."
+    ],
+    "generatedAt": "2025-11-10T00:19:84.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_85",
+    "explanation": "NATO: 1949",
+    "reasoning": "Western military alliance",
+    "steps": [
+      "Collective defense",
+      "Cold War institution."
+    ],
+    "generatedAt": "2025-11-10T00:19:85.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_86",
+    "explanation": "Bandung Conference: 1955",
+    "reasoning": "Non-Aligned Movement",
+    "steps": [
+      "Afro-Asian solidarity",
+      "Nehru, Sukarno, Nasser."
+    ],
+    "generatedAt": "2025-11-10T00:19:86.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_87",
+    "explanation": "Great Leap Forward: 1958-62",
+    "reasoning": "Mao's campaign",
+    "steps": [
+      "Communes",
+      "Famine",
+      "30+ million died."
+    ],
+    "generatedAt": "2025-11-10T00:19:87.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_88",
+    "explanation": "Cuban Revolution: 1959",
+    "reasoning": "Castro overthrew Batista",
+    "steps": [
+      "Communist",
+      "US embargo",
+      "Soviet ally."
+    ],
+    "generatedAt": "2025-11-10T00:19:88.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_89",
+    "explanation": "Vietnam War global impact: Anti-war movement",
+    "reasoning": "US credibility damaged",
+    "steps": [
+      "Domino theory discredited."
+    ],
+    "generatedAt": "2025-11-10T00:19:89.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_90",
+    "explanation": "Six-Day War: 1967",
+    "reasoning": "Israel vs Arab states",
+    "steps": [
+      "Israeli victory",
+      "Territories occupied",
+      "Ongoing dispute."
+    ],
+    "generatedAt": "2025-11-10T00:19:90.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_91",
+    "explanation": "Prague Spring: 1968",
+    "reasoning": "Czech liberalization",
+    "steps": [
+      "'Socialism with human face.' Soviet tanks crushed."
+    ],
+    "generatedAt": "2025-11-10T00:19:91.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_92",
+    "explanation": "Nixon China visit: 1972",
+    "reasoning": "Opened relations",
+    "steps": [
+      "Triangular diplomacy",
+      "Geopolitics shifted."
+    ],
+    "generatedAt": "2025-11-10T00:19:92.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_93",
+    "explanation": "Yom Kippur War: 1973",
+    "reasoning": "Egypt-Syria vs Israel",
+    "steps": [
+      "Oil embargo",
+      "D\u00e9tente strained."
+    ],
+    "generatedAt": "2025-11-10T00:19:93.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_94",
+    "explanation": "Cambodian genocide: 1975-79",
+    "reasoning": "Khmer Rouge",
+    "steps": [
+      "Pol Pot",
+      "2 million killed",
+      "Year Zero."
+    ],
+    "generatedAt": "2025-11-10T00:19:94.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_95",
+    "explanation": "Iranian hostage crisis: 1979-81",
+    "reasoning": "US embassy",
+    "steps": [
+      "444 days",
+      "Carter defeated",
+      "Reagan freed."
+    ],
+    "generatedAt": "2025-11-10T00:19:95.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_96",
+    "explanation": "Soviet collapse: 1991",
+    "reasoning": "USSR dissolved",
+    "steps": [
+      "Cold War ended",
+      "Unipolar moment",
+      "15 nations."
+    ],
+    "generatedAt": "2025-11-10T00:19:96.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_97",
+    "explanation": "Gulf War: 1991",
+    "reasoning": "Iraq invaded Kuwait",
+    "steps": [
+      "US-led coalition",
+      "Quick victory",
+      "Saddam remained."
+    ],
+    "generatedAt": "2025-11-10T00:19:97.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_98",
+    "explanation": "Rwandan genocide: 1994",
+    "reasoning": "Hutu Power",
+    "steps": [
+      "800,000 Tutsi killed",
+      "UN failure."
+    ],
+    "generatedAt": "2025-11-10T00:19:98.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_99",
+    "explanation": "9/11 attacks: 2001",
+    "reasoning": "Al-Qaeda",
+    "steps": [
+      "3000 dead",
+      "War on Terror",
+      "Afghanistan, Iraq wars."
+    ],
+    "generatedAt": "2025-11-10T00:19:99.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_100",
+    "explanation": "Arab Spring: 2010-12",
+    "reasoning": "Tunisia to region",
+    "steps": [
+      "Democracy hopes",
+      "Syria war",
+      "Mixed results."
+    ],
+    "generatedAt": "2025-11-10T00:19:100.000Z"
   }
 ]
