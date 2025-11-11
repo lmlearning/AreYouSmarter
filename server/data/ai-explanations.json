@@ -21993,5 +21993,555 @@
       "Simplify"
     ],
     "generatedAt": "2025-11-10T02:30:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_102",
+    "explanation": "To solve this scale problem, we need to set up a proportion. The scale is 1.5 cm : 50 m.",
+    "reasoning": "If 1.5 cm represents 50 m, then we need to find how many cm represent 150 m. We can set up the proportion: 1.5/50 = x/150. Cross-multiplying: 50x = 1.5 \u00d7 150 = 225. Dividing both sides by 50: x = 225/50 = 4.5 cm.",
+    "steps": [
+      "Set up proportion: 1.5 cm / 50 m = x cm / 150 m",
+      "Cross-multiply: 50x = 225",
+      "Solve for x: x = 4.5 cm"
+    ],
+    "generatedAt": "2025-11-10T03:00:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_103",
+    "explanation": "Elizabeth divides her stickers equally among 3 people (herself and 2 friends), and each person gets 4 stickers.",
+    "reasoning": "If we divide the total number of stickers s by 3 people, each person gets s/3 stickers. Since each person gets 4 stickers, we have the equation s/3 = 4. This means the total number of stickers divided by 3 equals 4.",
+    "steps": [
+      "Identify: 3 people total (Elizabeth + 2 friends)",
+      "Each person gets: 4 stickers",
+      "Total stickers divided by 3 people: s/3 = 4"
+    ],
+    "generatedAt": "2025-11-10T03:00:01.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_104",
+    "explanation": "To round 2,448 to the nearest thousand, we look at the hundreds digit.",
+    "reasoning": "The number 2,448 is between 2,000 and 3,000. To decide which thousand it's closer to, we look at the hundreds place, which is 4. Since 4 is less than 5, we round down to 2,000. If the hundreds digit were 5 or greater, we would round up to 3,000.",
+    "steps": [
+      "Identify the thousands place: 2 in 2,448",
+      "Look at the hundreds place: 4",
+      "Since 4 < 5, round down to 2,000"
+    ],
+    "generatedAt": "2025-11-10T03:00:02.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_105",
+    "explanation": "Two ratios form a proportion if they are equivalent (equal when simplified).",
+    "reasoning": "Let's check each option: (A) 2/5 and 8/10: Simplify 8/10 = 4/5, which is NOT equal to 2/5. (B) 2/5 and 10/15: Simplify 10/15 = 2/3, not equal to 2/5. (C) 2/5 and 4/25: Cannot simplify to 2/5. (D) 2/5 and 6/15: Simplify 6/15 = 2/5. These are equal, so they form a proportion.",
+    "steps": [
+      "Check option D: 6/15 = 6\u00f73 / 15\u00f73 = 2/5",
+      "Compare: 2/5 = 2/5 \u2713",
+      "These ratios are equivalent, so they form a proportion"
+    ],
+    "generatedAt": "2025-11-10T03:00:03.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_106",
+    "explanation": "If 2 out of 5 seniors attend graduate school, we need to find what 2/5 of 750 equals.",
+    "reasoning": "The fraction 2/5 means 2 out of every 5 seniors. To find 2/5 of 750, we multiply: (2/5) \u00d7 750. First, divide 750 by 5 to get 150, then multiply by 2 to get 300. So 300 seniors would be expected to attend graduate school.",
+    "steps": [
+      "Calculate 2/5 of 750",
+      "750 \u00f7 5 = 150",
+      "150 \u00d7 2 = 300 seniors"
+    ],
+    "generatedAt": "2025-11-10T03:00:04.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_107",
+    "explanation": "Looking at the pattern 5, 9, 13, 17, 21, 25, 29, we need to find the rule that generates it.",
+    "reasoning": "Let's check the differences between consecutive terms: 9-5=4, 13-9=4, 17-13=4, 21-17=4, 25-21=4, 29-25=4. Each term increases by 4. The first term is 5, so the rule is: Start with 5, add 4 each time to get the next number.",
+    "steps": [
+      "Find the common difference: 9 - 5 = 4",
+      "Verify pattern: each term adds 4",
+      "Rule: Start with 5, add 4 each time"
+    ],
+    "generatedAt": "2025-11-10T03:00:05.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_108",
+    "explanation": "We need to find an expression that estimates the total strawberries remaining after Max and Jonathon ate some.",
+    "reasoning": "Max picked 187 (\u2248190), Jonathon picked 223 (\u2248220). Together they have about 190+220=410. They ate 26 (\u224830). But we need to be more careful with rounding. 187+223=410, minus 26=384. Let's check the options. Option A: 190+220-30+4 = 384. This works because we rounded up by 3 and 3 (total +6), rounded up by 4 eating (-4 extra), so we add back 4 to balance: 410-30+4=384.",
+    "steps": [
+      "Round 187 to 190 (+3), 223 to 220 (-3)",
+      "Total picked: 190 + 220 = 410 (net 0 rounding)",
+      "They ate 26, round to 30 (-4 extra), add back: 410 - 30 + 4 = 384"
+    ],
+    "generatedAt": "2025-11-10T03:00:06.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_109",
+    "explanation": "If there are 20 more girls than boys, and there are 180 girls, we need to find the number of boys.",
+    "reasoning": "Let b = number of boys. The statement 'there are 20 more girls than boys' means: number of girls = number of boys + 20. So 180 = b + 20. To find b, we subtract 20 from both sides: b = 180 - 20 = 160 boys.",
+    "steps": [
+      "Write equation: girls = boys + 20",
+      "Substitute: 180 = boys + 20",
+      "Solve: boys = 180 - 20 = 160"
+    ],
+    "generatedAt": "2025-11-10T03:00:07.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_110",
+    "explanation": "We need to find the time to fill 500 bottles when the machine fills 200 bottles in 12 minutes.",
+    "reasoning": "First, find the rate: 200 bottles / 12 minutes. To fill 500 bottles, set up a proportion: 200/12 = 500/x. Cross-multiply: 200x = 500 \u00d7 12 = 6000. Divide: x = 6000/200 = 30 minutes.",
+    "steps": [
+      "Set up proportion: 200 bottles / 12 min = 500 bottles / x min",
+      "Cross-multiply: 200x = 6000",
+      "Solve: x = 30 minutes"
+    ],
+    "generatedAt": "2025-11-10T03:00:08.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_111",
+    "explanation": "The restaurant used 231 eggs total, of which 46 were brown and the rest (w) were white.",
+    "reasoning": "The total eggs (231) equals brown eggs (46) plus white eggs (w). So we write: 46 + w = 231. This equation represents the relationship: brown eggs plus white eggs equals total eggs.",
+    "steps": [
+      "Total eggs = brown eggs + white eggs",
+      "231 = 46 + w",
+      "This simplifies to: 46 + w = 231"
+    ],
+    "generatedAt": "2025-11-10T03:00:09.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_112",
+    "explanation": "To find how many boxes are needed for 81 shirts when each box holds 9 shirts, we divide.",
+    "reasoning": "Number of boxes needed = total shirts \u00f7 shirts per box = 81 \u00f7 9 = 9 boxes. Each box holds exactly 9 shirts, so 9 boxes \u00d7 9 shirts/box = 81 shirts total.",
+    "steps": [
+      "Total shirts: 81",
+      "Shirts per box: 9",
+      "Number of boxes: 81 \u00f7 9 = 9 boxes"
+    ],
+    "generatedAt": "2025-11-10T03:00:10.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_113",
+    "explanation": "To subtract 1,709 from 2,396, we align the digits by place value and subtract from right to left.",
+    "reasoning": "Starting from the ones place: 6-9 requires borrowing. Borrow from tens: 9-1=8, 16-9=7. Tens: 8-0=8. Hundreds: 3-7 requires borrowing. Borrow from thousands: 2-1=1, 13-7=6. Thousands: 1-1=0. Result: 687.",
+    "steps": [
+      "Align digits: 2,396 - 1,709",
+      "Subtract with borrowing where needed",
+      "Result: 687"
+    ],
+    "generatedAt": "2025-11-10T03:00:11.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_114",
+    "explanation": "First find Jerry's reading rate, then use it to calculate time for 320 pages.",
+    "reasoning": "Reading rate = 200 pages / 10 hours = 20 pages per hour. For 320 pages: time = 320 pages / 20 pages per hour = 16 hours.",
+    "steps": [
+      "Find rate: 200 pages \u00f7 10 hours = 20 pages/hour",
+      "Calculate time for 320 pages: 320 \u00f7 20 = 16 hours",
+      "Answer: 16 hours"
+    ],
+    "generatedAt": "2025-11-10T03:00:12.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_115",
+    "explanation": "We need to find what number times 4 equals 36.",
+    "reasoning": "Let x be the unknown number. We have: 4 \u00d7 x = 36. To solve for x, divide both sides by 4: x = 36 \u00f7 4 = 9.",
+    "steps": [
+      "Write equation: 4x = 36",
+      "Divide both sides by 4: x = 36 \u00f7 4",
+      "x = 9"
+    ],
+    "generatedAt": "2025-11-10T03:00:13.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_116",
+    "explanation": "To convert 34 L 18 cL to liters, we need to know that 1 liter = 100 centiliters.",
+    "reasoning": "We have 34 liters plus 18 centiliters. Convert 18 cL to liters: 18 cL \u00f7 100 = 0.18 L. Add to 34 L: 34 + 0.18 = 34.18 L.",
+    "steps": [
+      "Convert centiliters to liters: 18 cL = 18/100 L = 0.18 L",
+      "Add to whole liters: 34 + 0.18 = 34.18 L",
+      "Answer: 34.18 L"
+    ],
+    "generatedAt": "2025-11-10T03:00:14.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_117",
+    "explanation": "Flow rate is the volume divided by time. We need gallons per second.",
+    "reasoning": "Volume = 50 gallons, Time = 20 seconds. Flow rate = 50 gallons \u00f7 20 seconds = 2.5 gallons per second.",
+    "steps": [
+      "Identify: Volume = 50 gallons, Time = 20 seconds",
+      "Calculate rate: 50 \u00f7 20 = 2.5",
+      "Flow rate = 2.5 gallons per second"
+    ],
+    "generatedAt": "2025-11-10T03:00:15.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_118",
+    "explanation": "Find Tara's rate, then calculate time for 8 rolls.",
+    "reasoning": "Rate = 2 rolls / 18 minutes. For 8 rolls, set up proportion: 2 rolls/18 min = 8 rolls/x min. Cross-multiply: 2x = 144. Solve: x = 72 minutes = 1 hour 12 minutes.",
+    "steps": [
+      "Set up proportion: 2/18 = 8/x",
+      "Cross-multiply: 2x = 144",
+      "Solve: x = 72 minutes = 1 hour 12 minutes"
+    ],
+    "generatedAt": "2025-11-10T03:00:16.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_119",
+    "explanation": "Let's analyze the clues: 2 faces, no vertices (corners), and can roll.",
+    "reasoning": "A cone has 1 flat circular face and 1 curved face (2 faces total). It has 1 vertex at the point, so this doesn't work. A cylinder has 2 flat circular faces, 0 vertices, and can roll - this matches! A sphere has 1 curved surface (1 face), no vertices, and can roll. A prism has multiple faces and vertices. The answer is cylinder.",
+    "steps": [
+      "Check cylinder: 2 circular faces \u2713, 0 vertices \u2713, can roll \u2713",
+      "Verify other shapes don't match all criteria",
+      "Answer: cylinder"
+    ],
+    "generatedAt": "2025-11-10T03:00:17.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_120",
+    "explanation": "We need to solve 3.5x = 49 to find John's hourly rate.",
+    "reasoning": "The equation 3.5x = 49 means 3.5 hours times the hourly rate equals $49 total. Divide both sides by 3.5: x = 49 \u00f7 3.5 = 14. John's hourly rate is $14.00.",
+    "steps": [
+      "Write equation: 3.5x = 49",
+      "Divide both sides by 3.5: x = 49 \u00f7 3.5",
+      "x = 14, so hourly rate is $14.00"
+    ],
+    "generatedAt": "2025-11-10T03:00:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_121",
+    "explanation": "We need to compare the place values of the digit 5 in both numbers.",
+    "reasoning": "In 24,513, the 5 is in the hundreds place, so its value is 500. In 357, the 5 is in the tens place, so its value is 50. To find how many times: 500 \u00f7 50 = 10. The value of 5 in 24,513 is 10 times the value of 5 in 357.",
+    "steps": [
+      "Value of 5 in 24,513: 500 (hundreds place)",
+      "Value of 5 in 357: 50 (tens place)",
+      "Ratio: 500 \u00f7 50 = 10 times"
+    ],
+    "generatedAt": "2025-11-10T03:00:19.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_122",
+    "explanation": "We need to simplify 5(4x + 3) - 2x using the distributive property.",
+    "reasoning": "First, distribute the 5: 5(4x + 3) = 20x + 15. Then subtract 2x: 20x + 15 - 2x = 18x + 15.",
+    "steps": [
+      "Distribute 5: 5(4x + 3) = 20x + 15",
+      "Subtract 2x: 20x - 2x + 15",
+      "Combine like terms: 18x + 15"
+    ],
+    "generatedAt": "2025-11-10T03:00:20.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_123",
+    "explanation": "Mr. Lucci puts 19 black pens and 12 red pens in each of 5 bags. We need an expression for the total.",
+    "reasoning": "In each bag: 19 + 12 = 31 pens. For 5 bags: 5 \u00d7 (19 + 12). This equals 5 \u00d7 31 = 155 total pens. The expression 5 \u00d7 (19 + 12) represents this calculation.",
+    "steps": [
+      "Pens per bag: 19 + 12",
+      "Number of bags: 5",
+      "Total expression: 5 \u00d7 (19 + 12)"
+    ],
+    "generatedAt": "2025-11-10T03:00:21.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_124",
+    "explanation": "Sonia and Negin start with $27.00 total. We subtract their purchases to find what remains.",
+    "reasoning": "Starting amount: $27.00. Sonia's purchase: $12.35. Negin's purchase: $10.11. Total spent: $12.35 + $10.11 = $22.46. Money remaining: $27.00 - $22.46 = $4.54.",
+    "steps": [
+      "Total spent: $12.35 + $10.11 = $22.46",
+      "Money remaining: $27.00 - $22.46",
+      "Answer: $4.54"
+    ],
+    "generatedAt": "2025-11-10T03:00:22.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_125",
+    "explanation": "Eighteen thousand ninety-six is written as 18,096. We need the expanded form.",
+    "reasoning": "18,096 = 10,000 + 8,000 + 0 + 90 + 6. We can write this as: 10,000 + 8,000 + 90 + 6. The hundreds place is 0, so we don't need to write + 0.",
+    "steps": [
+      "Write number: 18,096",
+      "Break into place values: 10,000 + 8,000 + 90 + 6",
+      "Expanded form: 10,000 + 8,000 + 90 + 6"
+    ],
+    "generatedAt": "2025-11-10T03:00:23.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_126",
+    "explanation": "We need to convert 3\u00be gallons to cups, quarts, and pints to find which is NOT equivalent.",
+    "reasoning": "3\u00be gal = 15/4 gal. Conversions: 1 gal = 4 qt, so 15/4 gal = 15 qt. 1 gal = 8 pt, so 15/4 gal = 30 pt. 1 gal = 16 c, so 15/4 gal = 60 c. Wait, let me recalculate: 3.75 \u00d7 4 = 15 qt \u2713, 3.75 \u00d7 8 = 30 pt \u2713, 3.75 \u00d7 16 = 60 c \u2713. But option D says 13 qt, which is NOT equal to 15 qt.",
+    "steps": [
+      "Convert 3\u00be gal to quarts: 3.75 \u00d7 4 = 15 qt (not 13)",
+      "Check: 60 c \u2713, 15 qt \u2713, 30 pt \u2713",
+      "13 qt is NOT equivalent"
+    ],
+    "generatedAt": "2025-11-10T03:00:24.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_127",
+    "explanation": "Jess scored 18 points, and each basket is worth 2 points. We need to find the number of baskets.",
+    "reasoning": "Let b = number of baskets. Each basket is worth 2 points, so: 2b = 18. Divide both sides by 2: b = 18 \u00f7 2 = 9 baskets.",
+    "steps": [
+      "Write equation: 2 \u00d7 (number of baskets) = 18",
+      "2b = 18",
+      "b = 9 baskets"
+    ],
+    "generatedAt": "2025-11-10T03:00:25.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_128",
+    "explanation": "Tayshawn divides 56 marbles into equal groups with no remainder. We need to find which division works.",
+    "reasoning": "We need to find factors of 56. Check each option: (A) 6 \u00d7 8 = 48 \u2717 (B) 7 \u00d7 7 = 49 \u2717 (C) 8 \u00d7 7 = 56 \u2713 (D) 9 \u00d7 6 = 54 \u2717. Option C gives us exactly 56 marbles: 8 groups with 7 marbles each.",
+    "steps": [
+      "Find factors of 56",
+      "Check option C: 8 \u00d7 7 = 56 \u2713",
+      "Answer: 8 groups of 7 marbles each"
+    ],
+    "generatedAt": "2025-11-10T03:00:26.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_129",
+    "explanation": "To multiply 2,816 by 7, we can use standard multiplication.",
+    "reasoning": "2,816 \u00d7 7: Start from the right: 6\u00d77=42 (write 2, carry 4). 1\u00d77=7, plus 4 carried = 11 (write 1, carry 1). 8\u00d77=56, plus 1 carried = 57 (write 7, carry 5). 2\u00d77=14, plus 5 carried = 19. Result: 19,712.",
+    "steps": [
+      "Multiply: 2,816 \u00d7 7",
+      "Calculate each place value with carrying",
+      "Result: 19,712"
+    ],
+    "generatedAt": "2025-11-10T03:00:27.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_130",
+    "explanation": "In 444.44, we need to compare the values of different 4 digits.",
+    "reasoning": "The digits are: 400 (hundreds), 40 (tens), 4 (ones), 0.4 (tenths), 0.04 (hundredths). Let's check option D: The 4 in tenths place = 0.4. The 4 in hundredths place = 0.04. Is 0.4 ten times 0.04? Yes: 0.04 \u00d7 10 = 0.4 \u2713.",
+    "steps": [
+      "Identify place values: 400, 40, 4, 0.4, 0.04",
+      "Check: 0.4 (tenths) = 10 \u00d7 0.04 (hundredths)",
+      "0.4 is 10 times greater than 0.04 \u2713"
+    ],
+    "generatedAt": "2025-11-10T03:00:28.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_131",
+    "explanation": "Unit rate is distance divided by time: kilometers per hour.",
+    "reasoning": "Distance = 308 km, Time = 4 hours. Unit rate = 308 \u00f7 4 = 77 km/h.",
+    "steps": [
+      "Calculate: 308 km \u00f7 4 h",
+      "308 \u00f7 4 = 77",
+      "Unit rate: 77 km/h"
+    ],
+    "generatedAt": "2025-11-10T03:00:29.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_132",
+    "explanation": "A city swimming pool is typically an Olympic-size or standard community pool.",
+    "reasoning": "Olympic pools are 50 meters long. Community pools are typically 25 meters long. 1 meter would be way too short (that's about 3 feet). 1 kilometer (1000 meters) would be extremely long - that's over half a mile! 25 kilometers is unrealistic. The most reasonable estimate is 25 meters for a city pool.",
+    "steps": [
+      "Consider realistic pool sizes",
+      "Olympic pool: 50 m, Community pool: 25 m",
+      "Most reasonable estimate: 25 meters"
+    ],
+    "generatedAt": "2025-11-10T03:01:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_133",
+    "explanation": "We need to calculate the total length including sets and breaks.",
+    "reasoning": "The expression given is 3(20 + 10) + 40. Let's evaluate: First, calculate inside parentheses: 20 + 10 = 30. Then multiply: 3 \u00d7 30 = 90. Finally add: 90 + 40 = 130 minutes. This represents 3 sets of 20 minutes each, plus 3 breaks of 10 minutes each (after sets 1, 2, and 3), plus one 40-minute set.",
+    "steps": [
+      "Evaluate: 3(20 + 10) + 40",
+      "= 3(30) + 40 = 90 + 40",
+      "= 130 minutes total"
+    ],
+    "generatedAt": "2025-11-10T03:01:01.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_134",
+    "explanation": "LCM (Least Common Multiple) is the smallest number that both numbers divide into evenly.",
+    "reasoning": "Find the prime factorizations: 24 = 2\u00b3 \u00d7 3, and 36 = 2\u00b2 \u00d7 3\u00b2. For the LCM, take the highest power of each prime: 2\u00b3 \u00d7 3\u00b2 = 8 \u00d7 9 = 72. The LCM of 24 and 36 is 72.",
+    "steps": [
+      "Prime factorization: 24 = 2\u00b3 \u00d7 3, 36 = 2\u00b2 \u00d7 3\u00b2",
+      "LCM uses highest powers: 2\u00b3 \u00d7 3\u00b2 ",
+      "Calculate: 8 \u00d7 9 = 72"
+    ],
+    "generatedAt": "2025-11-10T03:01:02.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_135",
+    "explanation": "Last year Chesa made 32 one-cup servings. This year she'll make twice that amount.",
+    "reasoning": "This year's amount in cups: 2 \u00d7 32 = 64 cups. Now convert to gallons. Since 1 gallon = 16 cups, we divide: 64 cups \u00f7 16 cups/gallon = 4 gallons.",
+    "steps": [
+      "This year's cups: 2 \u00d7 32 = 64 cups",
+      "Convert to gallons: 64 \u00f7 16",
+      "= 4 gallons"
+    ],
+    "generatedAt": "2025-11-10T03:01:03.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_136",
+    "explanation": "To find the most popular team at the game, we need an unbiased sample of attendees.",
+    "reasoning": "Let's evaluate each option: (A) Home team cheerleaders are biased toward the home team. (B) People wearing visiting team hats are biased toward visitors. (C) People in line for tickets represent a random cross-section of all attendees - this is the most unbiased sample. (D) People who don't live in the home city are likely biased toward the visiting team. Option C provides the most accurate results.",
+    "steps": [
+      "Identify bias in each sample group",
+      "Option C (ticket line) is most random/unbiased",
+      "This gives the most accurate representation"
+    ],
+    "generatedAt": "2025-11-10T03:01:04.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_137",
+    "explanation": "The ratio of blue to white cars is 5:3. If 15 white cars are made, how many blue cars?",
+    "reasoning": "Set up a proportion: 5 blue / 3 white = x blue / 15 white. Cross-multiply: 3x = 5 \u00d7 15 = 75. Divide: x = 75 \u00f7 3 = 25 blue cars.",
+    "steps": [
+      "Set up proportion: 5/3 = x/15",
+      "Cross-multiply: 3x = 75",
+      "Solve: x = 25 blue cars"
+    ],
+    "generatedAt": "2025-11-10T03:01:05.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_138",
+    "explanation": "Volume of a rectangular prism is length \u00d7 width \u00d7 height.",
+    "reasoning": "Given: length = 12 cm, width = 6.5 cm, height = 1.25 cm. Volume = 12 \u00d7 6.5 \u00d7 1.25. First: 12 \u00d7 6.5 = 78. Then: 78 \u00d7 1.25 = 97.5 cubic centimeters.",
+    "steps": [
+      "Formula: V = l \u00d7 w \u00d7 h",
+      "V = 12 \u00d7 6.5 \u00d7 1.25",
+      "= 78 \u00d7 1.25 = 97.5 cm\u00b3"
+    ],
+    "generatedAt": "2025-11-10T03:01:06.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_139",
+    "explanation": "To find how many bunches Chris sold, divide total collected by price per bunch.",
+    "reasoning": "Total collected: $339.80. Price per bunch: $16.99. Number of bunches = $339.80 \u00f7 $16.99 = 20 bunches.",
+    "steps": [
+      "Total \u00f7 price per bunch",
+      "$339.80 \u00f7 $16.99",
+      "= 20 bunches"
+    ],
+    "generatedAt": "2025-11-10T03:01:07.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_140",
+    "explanation": "If 48 vanilla milkshakes represent 40% of the total, we need to find 100% of the total.",
+    "reasoning": "Let x = total milkshakes. Then 40% of x = 48. Write as equation: 0.40x = 48. Divide both sides by 0.40: x = 48 \u00f7 0.40 = 120 total milkshakes.",
+    "steps": [
+      "Write equation: 0.40x = 48",
+      "Divide by 0.40: x = 48 \u00f7 0.40",
+      "x = 120 total milkshakes"
+    ],
+    "generatedAt": "2025-11-10T03:01:08.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_141",
+    "explanation": "Substitute a = 5, b = 3, c = 2 into the expression (c\u00b2 \u2212 b\u00b2)\u00b2 + a\u00b2.",
+    "reasoning": "First calculate c\u00b2 = 2\u00b2 = 4 and b\u00b2 = 3\u00b2 = 9. Then c\u00b2 \u2212 b\u00b2 = 4 \u2212 9 = \u22125. Next: (\u22125)\u00b2 = 25. Finally add a\u00b2: 25 + 5\u00b2 = 25 + 25 = 50.",
+    "steps": [
+      "Calculate: c\u00b2 \u2212 b\u00b2 = 4 \u2212 9 = \u22125",
+      "Square it: (\u22125)\u00b2 = 25",
+      "Add a\u00b2: 25 + 25 = 50"
+    ],
+    "generatedAt": "2025-11-10T03:01:09.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_142",
+    "explanation": "Solve the equation x \u2212 3 = 6 for x.",
+    "reasoning": "To isolate x, add 3 to both sides of the equation: x \u2212 3 + 3 = 6 + 3. This simplifies to: x = 9.",
+    "steps": [
+      "Start with: x \u2212 3 = 6",
+      "Add 3 to both sides: x = 6 + 3",
+      "x = 9"
+    ],
+    "generatedAt": "2025-11-10T03:01:10.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_143",
+    "explanation": "Joe finished 4 minutes before Mike. Mike finished at 4:02 PM, so when did Joe finish?",
+    "reasoning": "If Joe finished 4 minutes before Mike, and Mike finished at 4:02 PM, we subtract 4 minutes from 4:02 PM. 4:02 PM \u2212 4 minutes = 3:58 PM.",
+    "steps": [
+      "Mike finished: 4:02 PM",
+      "Joe was 4 minutes earlier",
+      "4:02 \u2212 0:04 = 3:58 PM"
+    ],
+    "generatedAt": "2025-11-10T03:01:11.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_144",
+    "explanation": "Estimate the combined width of cardboard strips: 5/6 ft and 2/3 ft.",
+    "reasoning": "Convert to common denominator: 5/6 and 2/3 = 4/6. Add: 5/6 + 4/6 = 9/6 = 1.5 ft. The best estimate from the choices is 1\u00bd ft, but let's check if we're estimating. 5/6 \u2248 1 (rounded up) and 2/3 \u2248 1 (rounded up), so estimate is about 1 + 1 = 2 ft when rounding up.",
+    "steps": [
+      "Convert: 5/6 + 2/3 = 5/6 + 4/6 = 9/6",
+      "Exact answer: 1.5 ft",
+      "Estimate by rounding: \u2248 2 ft"
+    ],
+    "generatedAt": "2025-11-10T03:01:12.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_145",
+    "explanation": "Find the total area of a shape made of 12 equal right triangles, each with base 4 cm and height 5 cm.",
+    "reasoning": "Area of one right triangle = (1/2) \u00d7 base \u00d7 height = (1/2) \u00d7 4 \u00d7 5 = 10 cm\u00b2. Total area for 12 triangles = 12 \u00d7 10 = 120 cm\u00b2.",
+    "steps": [
+      "Area of one triangle: (1/2) \u00d7 4 \u00d7 5 = 10 cm\u00b2",
+      "Total for 12 triangles: 12 \u00d7 10",
+      "= 120 cm\u00b2"
+    ],
+    "generatedAt": "2025-11-10T03:01:13.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_146",
+    "explanation": "Find the ratio of low-fat milk (40 gallons) to chocolate milk (15 gallons).",
+    "reasoning": "The ratio is 40:15. To simplify, find the GCD of 40 and 15, which is 5. Divide both by 5: 40\u00f75 : 15\u00f75 = 8:3.",
+    "steps": [
+      "Initial ratio: 40:15",
+      "Find GCD: 5",
+      "Simplify: 8:3"
+    ],
+    "generatedAt": "2025-11-10T03:01:14.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_147",
+    "explanation": "There are 20 students in Mr. Clark's class. The entire fourth grade has 5 times as many students.",
+    "reasoning": "If Mr. Clark's class has 20 students, and the entire grade has 5 times that amount, then: n = 5 \u00d7 20. This gives us n = 100 students total. So the equation is 20 \u00d7 5 = n.",
+    "steps": [
+      "Mr. Clark's class: 20 students",
+      "Total grade = 5 times Mr. Clark's class",
+      "Equation: 20 \u00d7 5 = n"
+    ],
+    "generatedAt": "2025-11-10T03:01:15.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_148",
+    "explanation": "Evaluate 4x + 9 when x = 4.",
+    "reasoning": "Substitute x = 4 into the expression: 4(4) + 9 = 16 + 9 = 25.",
+    "steps": [
+      "Substitute x = 4: 4(4) + 9",
+      "Multiply: 16 + 9",
+      "= 25"
+    ],
+    "generatedAt": "2025-11-10T03:01:16.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_149",
+    "explanation": "Rewrite 4(3 + 2) using the Distributive Property without simplifying.",
+    "reasoning": "The Distributive Property states that a(b + c) = ab + ac. Applying this to 4(3 + 2): we multiply 4 by each term inside: 4(3) + 4(2). We do not simplify further.",
+    "steps": [
+      "Apply distributive property: a(b + c) = ab + ac",
+      "4(3 + 2) = 4(3) + 4(2)",
+      "Do not simplify"
+    ],
+    "generatedAt": "2025-11-10T03:01:17.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_150",
+    "explanation": "If 7 pennies have a height of 1 cm, and Nick's stack is 4 cm tall, how many pennies does Nick have?",
+    "reasoning": "Set up a proportion: 7 pennies / 1 cm = n pennies / 4 cm. Cross-multiply: 1 \u00d7 n = 7 \u00d7 4. So n = 28 pennies. The equation is n = 7 \u00d7 4.",
+    "steps": [
+      "Set up proportion: 7/1 = n/4",
+      "Cross-multiply: n = 7 \u00d7 4",
+      "n = 28 pennies"
+    ],
+    "generatedAt": "2025-11-10T03:01:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_151",
+    "explanation": "Estimate 4,286 \u00d7 390 by rounding to simpler numbers.",
+    "reasoning": "Round 4,286 to 4,000 and 390 to 400. Multiply: 4,000 \u00d7 400 = 1,600,000. This is the best estimate from the given options.",
+    "steps": [
+      "Round: 4,286 \u2248 4,000 and 390 \u2248 400",
+      "Multiply: 4,000 \u00d7 400",
+      "= 1,600,000"
+    ],
+    "generatedAt": "2025-11-10T03:01:19.000Z"
   }
 ]
