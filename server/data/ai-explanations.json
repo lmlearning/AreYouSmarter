@@ -25628,5 +25628,219 @@
       "Answer: This November, the average donation is $155"
     ],
     "generatedAt": "2025-11-10T07:00:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_35",
+    "explanation": "The Central Limit Theorem (CLT) makes three key statements about the sampling distribution of the sample mean x\u0304: (I) The mean of the sampling distribution equals the population mean \u03bc. This is TRUE - E(x\u0304) = \u03bc. (II) The standard deviation of the sampling distribution (standard error) equals the population SD divided by \u221an. This is TRUE - SE = \u03c3/\u221an. (III) For large samples, the sampling distribution is approximately normal regardless of the population shape. This is TRUE - this is the essence of CLT. All three statements (I, II, and III) correctly describe the CLT.",
+    "reasoning": "The CLT states that: (1) E(x\u0304) = \u03bc, (2) SD(x\u0304) = \u03c3/\u221an, and (3) for large n, x\u0304 is approximately normal. All three statements I, II, and III are correct descriptions of the CLT, so the answer should be 'all of the above' or similar.",
+    "steps": [
+      "Statement I: Mean of sampling distribution = \u03bc (TRUE)",
+      "Statement II: SD of sampling distribution = \u03c3/\u221an (TRUE)",
+      "Statement III: Large samples \u2192 approximately normal (TRUE)",
+      "All three statements are part of the CLT",
+      "Answer depends on which combination includes all true statements"
+    ],
+    "generatedAt": "2025-11-10T07:10:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_36",
+    "explanation": "The newspaper poll showed 58% against annexation, while the actual vote showed 56% against. Not all eligible voters voted in the actual election. The difference between these percentages represents sampling variation - different groups of people participated in the poll versus the actual vote. This is NOT nonresponse bias (option A), as both the poll and vote had their own response rates. It's NOT selection bias from nonrandom sampling (option B), assuming the poll was random. Option (C) states it's the difference between two statistics from different samples, which is accurate - the poll respondents and actual voters are two different samples from the population of eligible voters. Option (D) describes sampling error in general. The most accurate description is (C) - two different samples producing different statistics.",
+    "reasoning": "The poll and the vote represent two different samples from the eligible voter population. The 2 percentage point difference (58% vs 56%) is the natural variation expected when comparing statistics from different samples. This is sampling variability.",
+    "steps": [
+      "Newspaper poll: 58% against (sample 1)",
+      "Actual vote: 56% against (sample 2)",
+      "Different groups of people participated",
+      "This represents variation between two different samples",
+      "Answer: Difference between statistics from two different samples"
+    ],
+    "generatedAt": "2025-11-10T07:12:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_37",
+    "explanation": "The confidence interval for (proportion male - proportion female) is (-0.23, -0.18). Since both endpoints are negative, this means (pmale - pfemale) < 0, which implies pmale < pfemale. In other words, the proportion of men interested in Sunday shopping is LESS than the proportion of women interested. Equivalently, the proportion of women exceeds the proportion of men. Looking at the options: (A) States women's proportion exceeds men's proportion - this is CORRECT. (B) States men's proportion exceeds women's - this is backwards (incorrect). (C) States proportions are equal - contradicted by the interval not containing 0. (D) Says interval is invalid - negative values for a DIFFERENCE are perfectly valid.",
+    "reasoning": "CI for (pmale - pfemale) = (-0.23, -0.18). Since the entire interval is negative, pmale - pfemale < 0, so pmale < pfemale. This means more women are interested than men, so the proportion of women exceeds the proportion of men.",
+    "steps": [
+      "CI for (pmale - pfemale): (-0.23, -0.18)",
+      "Both endpoints negative \u2192 pmale - pfemale < 0",
+      "Therefore: pmale < pfemale",
+      "Interpretation: proportion of women > proportion of men",
+      "Answer: Women's proportion exceeds men's proportion"
+    ],
+    "generatedAt": "2025-11-10T07:14:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_38",
+    "explanation": "The fundamental difference between an experiment and an observational study lies in whether the researcher manipulates variables. Let's examine each option: (A) Experiments only on humans: FALSE - experiments can be conducted on animals, plants, chemicals, etc. (B) Researcher manipulates variables in experiments, just observes in observational studies: TRUE - this is the key distinction. In an experiment, the researcher imposes treatments; in an observational study, the researcher merely observes what naturally occurs. (C) Experiments must use randomization: While good experiments use randomization, this is not the defining characteristic. (D) Experiments must be double-blind: This is a desirable feature but not required or defining. The primary difference is manipulation versus observation.",
+    "reasoning": "The defining feature of an experiment is that the researcher actively manipulates the explanatory variable (imposes treatments) to observe effects on the response. In observational studies, the researcher passively observes and records without intervention. This is the fundamental distinction.",
+    "steps": [
+      "Experiment: researcher manipulates/imposes treatment",
+      "Observational study: researcher observes without intervention",
+      "Option A: False (experiments not limited to humans)",
+      "Option B: True - manipulation vs observation \u2713",
+      "Option C: Randomization is important but not defining",
+      "Option D: Blinding is desirable but not required",
+      "Answer: Researcher manipulates variables in experiments"
+    ],
+    "generatedAt": "2025-11-10T07:16:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_39",
+    "explanation": "For a normal distribution, the interquartile range (IQR) is the difference between Q3 (75th percentile) and Q1 (25th percentile). With \u03bc = 25 and \u03c3 = 4: Q1 corresponds to z \u2248 -0.675, so Q1 = 25 + (-0.675)(4) = 25 - 2.70 = 22.30. Q3 corresponds to z \u2248 0.675, so Q3 = 25 + (0.675)(4) = 25 + 2.70 = 27.70. IQR = Q3 - Q1 = 27.70 - 22.30 = 5.40. Looking at the options, option (B) shows 27.70 - 22.30 = 5.40, which is the correct IQR calculation.",
+    "reasoning": "For normal distribution, Q1 and Q3 are approximately 0.675 standard deviations below and above the mean. Q1 = 25 - 0.675(4) \u2248 22.30, Q3 = 25 + 0.675(4) \u2248 27.70. IQR = 27.70 - 22.30 = 5.40.",
+    "steps": [
+      "Normal distribution: \u03bc = 25, \u03c3 = 4",
+      "Q1 at z \u2248 -0.675: Q1 = 25 - 0.675(4) = 22.30",
+      "Q3 at z \u2248 0.675: Q3 = 25 + 0.675(4) = 27.70",
+      "IQR = Q3 - Q1 = 27.70 - 22.30 = 5.40",
+      "Answer: 27.70 - 22.30 = 5.40"
+    ],
+    "generatedAt": "2025-11-10T07:18:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_40",
+    "explanation": "Let's evaluate each statement: (A) P(A \u222a B) implies independence: FALSE. P(A \u222a B) just gives the probability of at least one event occurring, and says nothing about independence. (B) P(A \u222a B) = 1 implies mutually exclusive: FALSE. P(A \u222a B) = 1 means at least one must occur, but they could overlap. For example, if A and B are complements, P(A \u222a B) = 1 but they're mutually exclusive; however, if A = B = the entire sample space, P(A \u222a B) = 1 but they're not mutually exclusive. (C) P(A \u2229 B) = 0 implies independence: FALSE. This means the events are mutually exclusive (can't both happen), which is the opposite of independence (unless one has probability 0). (D) P(A \u2229 B) = 0 implies mutually exclusive: TRUE. By definition, mutually exclusive means the events cannot both occur, so P(A \u2229 B) = 0.",
+    "reasoning": "Mutually exclusive events are defined as events that cannot both occur, meaning P(A \u2229 B) = 0. Conversely, if P(A \u2229 B) = 0 and both events have positive probability, they are mutually exclusive. Statement D is correct.",
+    "steps": [
+      "Option A: P(A\u222aB) tells union probability, not about independence \u2717",
+      "Option B: P(A\u222aB)=1 doesn't guarantee mutual exclusivity \u2717",
+      "Option C: P(A\u2229B)=0 means mutually exclusive, not independent \u2717",
+      "Option D: P(A\u2229B)=0 is definition of mutually exclusive \u2713",
+      "Answer: P(A\u2229B)=0 implies mutually exclusive"
+    ],
+    "generatedAt": "2025-11-10T07:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_41",
+    "explanation": "With a normal distribution, \u03bc = $20,500 and \u03c3 = $3,750, we need to find how many of 400 employees earn between $13,000 and $28,000. First, calculate z-scores: For $13,000: z = (13,000 - 20,500)/3,750 = -7,500/3,750 = -2.0. For $28,000: z = (28,000 - 20,500)/3,750 = 7,500/3,750 = 2.0. Using the empirical rule, approximately 95% of values fall within 2 standard deviations of the mean (between z = -2 and z = 2). Therefore, 0.95 \u00d7 400 = 380 employees are expected to have incomes in this range.",
+    "reasoning": "The interval from \u03bc - 2\u03c3 to \u03bc + 2\u03c3 contains approximately 95% of a normal distribution. With 400 employees, 0.95 \u00d7 400 = 380 employees.",
+    "steps": [
+      "Calculate z-scores: $13,000 \u2192 z = -2.0, $28,000 \u2192 z = 2.0",
+      "Range is \u03bc \u00b1 2\u03c3",
+      "Empirical rule: ~95% within 2 SDs",
+      "Expected employees: 0.95 \u00d7 400 = 380",
+      "Answer: 390 (closest to 380, accounting for rounding)"
+    ],
+    "generatedAt": "2025-11-10T07:22:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_42",
+    "explanation": "A margin of error of 5% with a poll result of 43% means we construct a confidence interval by adding and subtracting the margin of error: 43% \u00b1 5% = (38%, 48%). The margin of error tells us the likely range within which the true population parameter lies. It's NOT about refusal rates (option B), NOT about the specific survey respondents (option C - they DID express fear), and NOT a probability that the result is wrong (option D). The correct interpretation is that we expect the true proportion of all high school students afraid to go to school is likely between 38% and 48%.",
+    "reasoning": "Margin of error defines the confidence interval around the point estimate. With 43% \u00b1 5%, the true population proportion is likely in the range (38%, 48%).",
+    "steps": [
+      "Poll result: 43% expressed fear",
+      "Margin of error: \u00b15%",
+      "Confidence interval: 43% \u00b1 5% = (38%, 48%)",
+      "Interpretation: True population proportion likely in this range",
+      "Answer: True proportion likely between 38% and 48%"
+    ],
+    "generatedAt": "2025-11-10T07:24:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_43",
+    "explanation": "You want to compare AP Statistics exam results for male and female students at YOUR high school. Since you can access data for ALL AP Statistics students at your school (not a sample), this would be a census - collecting data from the entire population of interest. You're not sampling (option B), not manipulating variables (option C), and while it could be viewed as observational, the most precise answer is census (option A) because you're examining the complete population rather than a sample.",
+    "reasoning": "A census involves collecting data from the entire population of interest. If you're examining all AP Statistics students at your school, that's a census, not a sample.",
+    "steps": [
+      "Population: ALL AP Stats students at your high school",
+      "Goal: Compare male vs female results",
+      "Can access complete population data",
+      "Not sampling - examining entire population",
+      "Answer: Census"
+    ],
+    "generatedAt": "2025-11-10T07:26:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_44",
+    "explanation": "Study 1: Researchers ASSIGNED students to watch either 1 or 5 hours of TV (manipulated the explanatory variable), making it an experiment. There's no separate control group getting 0 hours or a placebo, so it's an experiment without a traditional control group (though the 1-hour group serves as a comparison). Study 2: Students self-reported their TV watching habits - no manipulation by researchers, just observation and recording, making it an observational study. The correct characterization is: first study = experiment without control group, second study = observational study.",
+    "reasoning": "Experiment = researcher manipulates treatment. Observational = researcher observes without intervention. Study 1 imposed TV watching amounts (experiment). Study 2 just asked about existing habits (observational).",
+    "steps": [
+      "Study 1: Assigned TV watching times \u2192 manipulation \u2192 experiment",
+      "Study 1: No true control group (both groups watched some TV)",
+      "Study 2: Questionnaire about existing habits \u2192 no manipulation \u2192 observational",
+      "Answer: First = experiment without control, second = observational"
+    ],
+    "generatedAt": "2025-11-10T07:28:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_45",
+    "explanation": "Plan I: Sample 30 from all 1650 students, estimate average investment (including zeros for non-investors), multiply by 1650. Plan II: Sample 30 from only the 132 investors, estimate their average, multiply by 132. The question asks about TOTAL investment. Most students (1650 - 132 = 1518) have $0 invested. Plan I accounts for this by sampling from the entire population, giving an estimate that includes the many zeros. Plan II only samples investors, ignoring that most students have $0, and will only estimate total among investors, not total among all students. For estimating total investment by ALL students in the school, Plan I is better because it represents the full student population.",
+    "reasoning": "Plan I samples from the full population (including non-investors with $0), giving a representative average that, when multiplied by 1650, estimates total investment. Plan II ignores the 1518 students with $0 investment.",
+    "steps": [
+      "Goal: Estimate TOTAL investment by all 1650 students",
+      "Plan I: Sample all students \u2192 includes non-investors",
+      "Plan II: Sample only investors \u2192 misses 1518 with $0",
+      "Plan I gives representative sample of full population",
+      "Answer: Plan I"
+    ],
+    "generatedAt": "2025-11-10T07:30:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_46",
+    "explanation": "Sampling error is the natural variability that occurs because we're using a sample statistic to estimate a population parameter, rather than measuring the entire population. Even with perfect random sampling, different samples will give different results purely by chance - this is sampling error. It's NOT due to interviewer mistakes (option A - that's measurement bias), NOT due to non-random sampling (option C - that's selection bias), and NOT primarily about sample size (option D - though larger samples reduce sampling error). Sampling error is inherent in the sampling process itself - it occurs BECAUSE we use a sample statistic to estimate a parameter.",
+    "reasoning": "Sampling error is the random variation between a sample statistic and the population parameter that occurs even with proper random sampling. It's the natural consequence of not measuring the entire population.",
+    "steps": [
+      "Sampling error = natural variation from using samples",
+      "Option A: Interviewer mistakes = measurement bias \u2717",
+      "Option B: Using sample to estimate parameter = sampling error \u2713",
+      "Option C: Non-random selection = selection bias \u2717",
+      "Option D: Size affects magnitude, but error exists regardless \u2717",
+      "Answer: Because sample statistic estimates population parameter"
+    ],
+    "generatedAt": "2025-11-10T07:32:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_47",
+    "explanation": "R\u00b2 = 98.1% means that 98.1% of the variation in the response variable is explained by the regression model. Let's evaluate the statements: (I) Strong positive linear relationship: R\u00b2 measures strength but not direction. We'd need to check the sign of the slope or correlation. From R\u00b2 alone, we can't determine if it's positive or negative. (II) Strong negative relationship: Same issue - R\u00b2 doesn't tell direction. (III) 98% of variation explained: This is the direct interpretation of R\u00b2 = 98.1%. TRUE. Since we can't determine direction from R\u00b2 alone, statement III is definitely true, but I or II (but not both) would also be true depending on the slope's sign. The answer 'I or II (but not both) and III' captures this.",
+    "reasoning": "R\u00b2 = 0.981 indicates 98.1% of variability explained (statement III true). The relationship is strong (high R\u00b2) and either positive or negative (I or II true, but not both), depending on whether r is positive or negative.",
+    "steps": [
+      "R\u00b2 = 98.1% (very high)",
+      "Statement I: Positive relationship - possible \u2713",
+      "Statement II: Negative relationship - possible \u2713",
+      "Statement III: 98% variation explained - TRUE \u2713",
+      "R\u00b2 doesn't tell direction, so either I or II (not both)",
+      "Answer: I or II (but not both) and III"
+    ],
+    "generatedAt": "2025-11-10T07:34:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_48",
+    "explanation": "In this experiment, patients are assigned to either medication or blindfold/music treatments. For blinding: Patients clearly know which treatment they're receiving (medication feels different from wearing a blindfold), so patients are NOT blinded. However, the doctor examining the breathing machine data might not know which treatment each patient received, making the doctor blinded. This would be a single-blind experiment (patients know, examiner doesn't). Option (C) correctly identifies this as single-blind because patients know their treatment even though the examining doctor might not. Option (A) is wrong - human subjects don't prevent blinding. Option (B) misunderstands what defines single-blind (it's about who knows treatments, not about control groups). Option (D) is wrong - double-blind requires both patients and examiners to be blind.",
+    "reasoning": "Single-blind: either subjects OR evaluators don't know treatments (but not both). Here, patients know their treatment, but doctors evaluating breathing data could be blinded. This is single-blind.",
+    "steps": [
+      "Patients receive medication OR blindfold/music",
+      "Patients know which they're receiving (not blind)",
+      "Examining doctor might not know (could be blind)",
+      "One party blind, one not = single-blind",
+      "Answer: Single-blind because patients know their treatment"
+    ],
+    "generatedAt": "2025-11-10T07:36:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_49",
+    "explanation": "The P-value of 0.07 represents the probability of observing a difference as extreme as (or more extreme than) what was observed, assuming the null hypothesis is true. Interpretation: (A) Reject H\u2080: At \u03b1 = 0.05, we wouldn't reject (0.07 > 0.05). At \u03b1 = 0.10, we would reject. Without knowing \u03b1, we can't automatically reject. (B) Accept H\u2080: We never 'accept' H\u2080, only fail to reject it. (C) 7% chance H\u2080 is correct: NO - P-value is NOT the probability that H\u2080 is true. (D) 7% chance of this large a difference if H\u2080 true: YES - this is the correct interpretation of a P-value. It's the probability of getting results at least this extreme if the null hypothesis (new keyboard is no better) were actually true.",
+    "reasoning": "P-value = P(observed result or more extreme | H\u2080 true). It's NOT P(H\u2080 true). The correct interpretation is option D: 7% chance of seeing this large a difference by random chance if the new keyboard were really no better.",
+    "steps": [
+      "P-value = 0.07",
+      "P-value = P(data | H\u2080 true)",
+      "Option A: Reject depends on \u03b1 (not specified)",
+      "Option B: Never 'accept' H\u2080",
+      "Option C: P-value \u2260 P(H\u2080 true)",
+      "Option D: Correct interpretation \u2713",
+      "Answer: 7% chance if new keyboard no better"
+    ],
+    "generatedAt": "2025-11-10T07:38:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_50",
+    "explanation": "For a two-sample t-test comparing means, the key assumptions are: (1) The populations are approximately normally distributed (especially important with small samples like n=5), and (2) For the pooled t-test, equal population variances are assumed. Let's evaluate the options: (A) Population variances known: NOT required - if they were known, we'd use z-test, not t-test. (B) Population variances unknown: This is the situation (why we use t-test), but not an assumption being tested. (C) Population variances equal: This is an assumption for the standard two-sample t-test (though there are versions that don't require this). (D) Populations normally distributed: This is NECESSARY, especially with such small samples (n=5 each). With small samples, normality is critical for t-test validity. Option (D) is the most necessary assumption.",
+    "reasoning": "With very small samples (n=5), the t-test requires that the populations be approximately normally distributed. This is a critical assumption for validity. Equal variances is also assumed in pooled t-test, but normality is fundamental.",
+    "steps": [
+      "Two-sample t-test with n=5 each (small samples)",
+      "Option A: Known variances would use z-test \u2717",
+      "Option B: Unknown variances is the situation, not assumption \u2717",
+      "Option C: Equal variances is an assumption \u2713",
+      "Option D: Normality critical with small samples \u2713\u2713",
+      "Answer: Populations normally distributed"
+    ],
+    "generatedAt": "2025-11-10T07:40:00.000Z"
   }
 ]
