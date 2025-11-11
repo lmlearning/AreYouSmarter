@@ -7026,5 +7026,1687 @@
       "Policy debates"
     ],
     "generatedAt": "2025-11-10T00:14:29.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_90",
+    "explanation": "US History requires analyzing causes/effects, continuity/change, multiple perspectives on events.",
+    "reasoning": "Critical thinking, evidence evaluation, context essential.",
+    "steps": [
+      "Analyze sources",
+      "Consider context",
+      "Multiple views"
+    ],
+    "generatedAt": "2025-11-10T00:15:00.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_91",
+    "explanation": "Colonial economies: North (trade, fishing, shipping), Middle (grain), South (tobacco, rice, slavery).",
+    "reasoning": "Regional specialization. Climate, geography influence.",
+    "steps": [
+      "Regional economies",
+      "Climate factors",
+      "Trade patterns"
+    ],
+    "generatedAt": "2025-11-10T00:15:01.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_92",
+    "explanation": "Mercantilism: British economic policy. Colonies exist for mother country's benefit. Navigation Acts.",
+    "reasoning": "Colonies provide raw materials, buy finished goods.",
+    "steps": [
+      "Mother country benefits",
+      "Navigation Acts",
+      "Colonial resentment"
+    ],
+    "generatedAt": "2025-11-10T00:15:02.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_93",
+    "explanation": "French & Indian War (1754-63): Part of Seven Years' War. British victory, huge debt led to colonial taxation.",
+    "reasoning": "Britain gains territory but massive debt. Tax colonies.",
+    "steps": [
+      "1754-1763",
+      "British victory",
+      "Debt \u2192 taxation"
+    ],
+    "generatedAt": "2025-11-10T00:15:03.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_94",
+    "explanation": "Stamp Act (1765): Direct tax on colonials. 'No taxation without representation' cry. Repealed 1766.",
+    "reasoning": "First direct tax. Protests effective. Precedent set.",
+    "steps": [
+      "1765: Stamp Act",
+      "Protests",
+      "Repealed 1766"
+    ],
+    "generatedAt": "2025-11-10T00:15:04.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_95",
+    "explanation": "Boston Massacre (1770): British soldiers killed 5 colonists. Propaganda tool for patriots.",
+    "reasoning": "Crispus Attucks first victim. Paul Revere engraving.",
+    "steps": [
+      "March 1770",
+      "5 killed",
+      "Propaganda value"
+    ],
+    "generatedAt": "2025-11-10T00:15:05.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_96",
+    "explanation": "Boston Tea Party (1773): Colonists dumped British tea to protest Tea Act. Led to Coercive Acts.",
+    "reasoning": "Protest monopoly, taxation. Escalated conflict.",
+    "steps": [
+      "Dec 1773",
+      "Tea dumped",
+      "Coercive Acts follow"
+    ],
+    "generatedAt": "2025-11-10T00:15:06.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_97",
+    "explanation": "First Continental Congress (1774): Colonial delegates met, declared rights, organized resistance.",
+    "reasoning": "Response to Coercive Acts. Not yet independence.",
+    "steps": [
+      "Sept 1774",
+      "Organized resistance",
+      "Not independence yet"
+    ],
+    "generatedAt": "2025-11-10T00:15:07.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_98",
+    "explanation": "Lexington & Concord (Apr 1775): First shots of Revolution. 'Shot heard round the world.'",
+    "reasoning": "British sought weapons. Minutemen resisted.",
+    "steps": [
+      "April 1775",
+      "First battles",
+      "War begins"
+    ],
+    "generatedAt": "2025-11-10T00:15:08.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_99",
+    "explanation": "Common Sense (1776): Paine's pamphlet arguing for independence. Huge influence.",
+    "reasoning": "Simple language. Made case for republic. Bestseller.",
+    "steps": [
+      "Jan 1776",
+      "Paine's pamphlet",
+      "Swayed opinion"
+    ],
+    "generatedAt": "2025-11-10T00:15:09.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_100",
+    "explanation": "Declaration of Independence (July 4, 1776): Jefferson wrote, Continental Congress adopted",
+    "reasoning": "Natural rights philosophy.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:110.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_101",
+    "explanation": "Battle of Saratoga (1777): Turning point",
+    "reasoning": "Convinced France to ally with US",
+    "steps": [
+      "Game changer."
+    ],
+    "generatedAt": "2025-11-10T00:15:111.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_102",
+    "explanation": "Valley Forge (1777-78): Washington's army survived harsh winter",
+    "reasoning": "Emerged stronger, trained by von Steuben.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:112.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_103",
+    "explanation": "Articles of Confederation (1781): First US government",
+    "reasoning": "Weak central govt",
+    "steps": [
+      "Failed, replaced by Constitution."
+    ],
+    "generatedAt": "2025-11-10T00:15:113.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_104",
+    "explanation": "Treaty of Paris (1783): Ended Revolution",
+    "reasoning": "Britain recognized US independence",
+    "steps": [
+      "Mississippi River boundary."
+    ],
+    "generatedAt": "2025-11-10T00:15:114.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_105",
+    "explanation": "Shays' Rebellion (1786-87): Farmers' revolt",
+    "reasoning": "Exposed Articles' weakness",
+    "steps": [
+      "Led to Constitutional Convention."
+    ],
+    "generatedAt": "2025-11-10T00:15:115.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_106",
+    "explanation": "Constitutional Convention (1787): Philadelphia",
+    "reasoning": "Created Constitution",
+    "steps": [
+      "Federalism, checks/balances."
+    ],
+    "generatedAt": "2025-11-10T00:15:116.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_107",
+    "explanation": "Federalist Papers: Hamilton, Madison, Jay argued for ratification",
+    "reasoning": "Explained Constitution.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:117.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_108",
+    "explanation": "Washington's presidency (1789-97): Set precedents",
+    "reasoning": "Cabinet, 2 terms",
+    "steps": [
+      "Farewell Address warned of parties."
+    ],
+    "generatedAt": "2025-11-10T00:15:118.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_109",
+    "explanation": "Hamilton's economic plan: National bank, assume state debts, tariffs",
+    "reasoning": "Opposed by Jefferson.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:119.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_110",
+    "explanation": "Whiskey Rebellion (1794): Tax protest",
+    "reasoning": "Washington led troops",
+    "steps": [
+      "Showed federal authority."
+    ],
+    "generatedAt": "2025-11-10T00:15:120.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_111",
+    "explanation": "Jay's Treaty (1795): Avoided war with Britain",
+    "reasoning": "Controversial",
+    "steps": [
+      "Jefferson opposed."
+    ],
+    "generatedAt": "2025-11-10T00:15:121.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_112",
+    "explanation": "XYZ Affair (1797): French demanded bribes",
+    "reasoning": "Nearly war",
+    "steps": [
+      "Undeclared naval war."
+    ],
+    "generatedAt": "2025-11-10T00:15:122.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_113",
+    "explanation": "Alien & Sedition Acts (1798): Adams",
+    "reasoning": "Restricted immigrants, limited speech",
+    "steps": [
+      "Controversial."
+    ],
+    "generatedAt": "2025-11-10T00:15:123.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_114",
+    "explanation": "Kentucky/Virginia Resolutions (1798-99): States' rights argument",
+    "reasoning": "Jefferson, Madison",
+    "steps": [
+      "Nullification seeds."
+    ],
+    "generatedAt": "2025-11-10T00:15:124.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_115",
+    "explanation": "Revolution of 1800: Jefferson elected",
+    "reasoning": "Peaceful power transfer",
+    "steps": [
+      "End of Federalist era."
+    ],
+    "generatedAt": "2025-11-10T00:15:125.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_116",
+    "explanation": "Marbury v Madison (1803): Established judicial review",
+    "reasoning": "Marshall Court",
+    "steps": [
+      "Landmark case."
+    ],
+    "generatedAt": "2025-11-10T00:15:126.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_117",
+    "explanation": "Embargo Act (1807): Jefferson banned trade to avoid war",
+    "reasoning": "Economic disaster",
+    "steps": [
+      "Unpopular."
+    ],
+    "generatedAt": "2025-11-10T00:15:127.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_118",
+    "explanation": "War Hawks (1810s): Clay, Calhoun pushed for War of 1812",
+    "reasoning": "Nationalism, expansion motives.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:128.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_119",
+    "explanation": "Battle of New Orleans (1815): Jackson's victory",
+    "reasoning": "Occurred after peace treaty",
+    "steps": [
+      "Made Jackson hero."
+    ],
+    "generatedAt": "2025-11-10T00:15:129.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_120",
+    "explanation": "Era of Good Feelings (1815-25): One-party system",
+    "reasoning": "Monroe",
+    "steps": [
+      "Nationalism high."
+    ],
+    "generatedAt": "2025-11-10T00:15:130.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_121",
+    "explanation": "Missouri Compromise (1820): Maine free, Missouri slave",
+    "reasoning": "36\u00b030' line",
+    "steps": [
+      "Delayed crisis."
+    ],
+    "generatedAt": "2025-11-10T00:15:131.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_122",
+    "explanation": "Corrupt Bargain (1824): Adams-Clay deal? Controversial election",
+    "reasoning": "Jackson claimed theft.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:132.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_123",
+    "explanation": "Indian Removal Act (1830): Jackson forced Cherokee west",
+    "reasoning": "Trail of Tears",
+    "steps": [
+      "Tragic."
+    ],
+    "generatedAt": "2025-11-10T00:15:133.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_124",
+    "explanation": "Nullification Crisis (1832-33): SC threatened secession over tariffs",
+    "reasoning": "Jackson firm",
+    "steps": [
+      "Compromise reached."
+    ],
+    "generatedAt": "2025-11-10T00:15:134.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_125",
+    "explanation": "Second Bank controversy: Jackson vetoed recharter",
+    "reasoning": "Destroyed bank",
+    "steps": [
+      "Economic effects debated."
+    ],
+    "generatedAt": "2025-11-10T00:15:135.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_126",
+    "explanation": "Whig Party (1830s): Opposed Jackson",
+    "reasoning": "Clay, Webster",
+    "steps": [
+      "Eventually collapsed over slavery."
+    ],
+    "generatedAt": "2025-11-10T00:15:136.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_127",
+    "explanation": "Transcendentalism: Emerson, Thoreau",
+    "reasoning": "Individualism, nature, reform",
+    "steps": [
+      "Cultural movement."
+    ],
+    "generatedAt": "2025-11-10T00:15:137.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_128",
+    "explanation": "Second Great Awakening: Religious revival",
+    "reasoning": "Camp meetings",
+    "steps": [
+      "Social reform linked."
+    ],
+    "generatedAt": "2025-11-10T00:15:138.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_129",
+    "explanation": "Seneca Falls Convention (1848): Women's rights",
+    "reasoning": "Stanton, Mott",
+    "steps": [
+      "Declaration of Sentiments."
+    ],
+    "generatedAt": "2025-11-10T00:15:139.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_130",
+    "explanation": "Abolitionism: Garrison, Douglass, Truth",
+    "reasoning": "Immediate emancipation",
+    "steps": [
+      "Growing movement."
+    ],
+    "generatedAt": "2025-11-10T00:15:140.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_131",
+    "explanation": "Underground Railroad: Network helping escaped slaves",
+    "reasoning": "Tubman key figure",
+    "steps": [
+      "Dangerous."
+    ],
+    "generatedAt": "2025-11-10T00:15:141.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_132",
+    "explanation": "Compromise of 1850: California free, Fugitive Slave Act",
+    "reasoning": "Clay's last effort",
+    "steps": [
+      "Temporary."
+    ],
+    "generatedAt": "2025-11-10T00:15:142.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_133",
+    "explanation": "Uncle Tom's Cabin (1852): Stowe's novel",
+    "reasoning": "Humanized slavery",
+    "steps": [
+      "Inflamed North."
+    ],
+    "generatedAt": "2025-11-10T00:15:143.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_134",
+    "explanation": "Republican Party (1854): Formed to oppose slavery expansion",
+    "reasoning": "Lincoln joined",
+    "steps": [
+      "Major party."
+    ],
+    "generatedAt": "2025-11-10T00:15:144.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_135",
+    "explanation": "Lincoln-Douglas Debates (1858): Senate race",
+    "reasoning": "Popular sovereignty vs free soil",
+    "steps": [
+      "Lincoln lost but gained fame."
+    ],
+    "generatedAt": "2025-11-10T00:15:145.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_136",
+    "explanation": "John Brown's Raid (1859): Harpers Ferry",
+    "reasoning": "Failed slave revolt",
+    "steps": [
+      "Brown executed",
+      "Martyr or terrorist?"
+    ],
+    "generatedAt": "2025-11-10T00:15:146.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_137",
+    "explanation": "Election of 1860: Lincoln won",
+    "reasoning": "South saw threat",
+    "steps": [
+      "7 states seceded before inauguration."
+    ],
+    "generatedAt": "2025-11-10T00:15:147.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_138",
+    "explanation": "Fort Sumter (April 1861): First shots",
+    "reasoning": "SC fired on federal fort",
+    "steps": [
+      "War began."
+    ],
+    "generatedAt": "2025-11-10T00:15:148.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_139",
+    "explanation": "Border states: Delaware, Maryland, Kentucky, Missouri",
+    "reasoning": "Stayed in Union",
+    "steps": [
+      "Strategic."
+    ],
+    "generatedAt": "2025-11-10T00:15:149.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_140",
+    "explanation": "First Battle of Bull Run (1861): First major battle",
+    "reasoning": "Confederate victory",
+    "steps": [
+      "Shocked North."
+    ],
+    "generatedAt": "2025-11-10T00:15:150.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_141",
+    "explanation": "Antietam (Sept 1862): Bloodiest day",
+    "reasoning": "Union tactical victory",
+    "steps": [
+      "Enabled Emancipation Proclamation."
+    ],
+    "generatedAt": "2025-11-10T00:15:151.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_142",
+    "explanation": "Gettysburg (July 1863): Turning point",
+    "reasoning": "Lee's invasion failed",
+    "steps": [
+      "Huge casualties."
+    ],
+    "generatedAt": "2025-11-10T00:15:152.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_143",
+    "explanation": "Gettysburg Address (Nov 1863): Lincoln's speech",
+    "reasoning": "'Four score...' Redefined war purpose.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:153.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_144",
+    "explanation": "Sherman's March (1864): Total war through Georgia",
+    "reasoning": "Devastated South",
+    "steps": [
+      "Controversial tactics."
+    ],
+    "generatedAt": "2025-11-10T00:15:154.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_145",
+    "explanation": "Appomattox (April 1865): Lee surrendered to Grant",
+    "reasoning": "War effectively over",
+    "steps": [
+      "Generous terms."
+    ],
+    "generatedAt": "2025-11-10T00:15:155.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_146",
+    "explanation": "Lincoln assassination (April 14, 1865): Booth shot Lincoln",
+    "reasoning": "Ford's Theatre",
+    "steps": [
+      "Johnson president."
+    ],
+    "generatedAt": "2025-11-10T00:15:156.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_147",
+    "explanation": "13th Amendment (1865): Abolished slavery",
+    "reasoning": "Ratified end of 1865",
+    "steps": [
+      "Fulfilled Proclamation."
+    ],
+    "generatedAt": "2025-11-10T00:15:157.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_148",
+    "explanation": "Black Codes (1865-66): Southern laws restricting freedmen",
+    "reasoning": "Led to Radical Reconstruction.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:158.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_149",
+    "explanation": "14th Amendment (1868): Citizenship, equal protection, due process",
+    "reasoning": "Cornerstone of rights.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:159.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_150",
+    "explanation": "15th Amendment (1870): Voting rights regardless of race",
+    "reasoning": "Circumvented by Jim Crow.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:160.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_151",
+    "explanation": "Carpetbaggers/scalawags: Northern Republicans, Southern white Republicans",
+    "reasoning": "Pejorative terms.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:161.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_152",
+    "explanation": "KKK: White supremacist terror organization",
+    "reasoning": "Founded 1866",
+    "steps": [
+      "Resisted Reconstruction."
+    ],
+    "generatedAt": "2025-11-10T00:15:162.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_153",
+    "explanation": "Compromise of 1877: Hayes president, troops withdrawn",
+    "reasoning": "Reconstruction ended",
+    "steps": [
+      "Jim Crow begun."
+    ],
+    "generatedAt": "2025-11-10T00:15:163.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_154",
+    "explanation": "Transcontinental Railroad (1869): Completed at Promontory Point",
+    "reasoning": "Connected coasts",
+    "steps": [
+      "Transformed economy."
+    ],
+    "generatedAt": "2025-11-10T00:15:164.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_155",
+    "explanation": "Homestead Act (1862): Free land West",
+    "reasoning": "160 acres",
+    "steps": [
+      "Encouraged settlement."
+    ],
+    "generatedAt": "2025-11-10T00:15:165.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_156",
+    "explanation": "Battle of Little Bighorn (1876): Custer defeated by Sioux",
+    "reasoning": "Lakota, Cheyenne",
+    "steps": [
+      "Short-lived victory."
+    ],
+    "generatedAt": "2025-11-10T00:15:166.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_157",
+    "explanation": "Wounded Knee (1890): Massacre of Lakota",
+    "reasoning": "Last major conflict",
+    "steps": [
+      "Tragic."
+    ],
+    "generatedAt": "2025-11-10T00:15:167.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_158",
+    "explanation": "Dawes Act (1887): Divided tribal lands individually",
+    "reasoning": "Destroyed tribal culture",
+    "steps": [
+      "Assimilation."
+    ],
+    "generatedAt": "2025-11-10T00:15:168.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_159",
+    "explanation": "Chinese Exclusion Act (1882): Banned Chinese immigration",
+    "reasoning": "Racist law",
+    "steps": [
+      "Not repealed until 1943."
+    ],
+    "generatedAt": "2025-11-10T00:15:169.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_160",
+    "explanation": "Pendleton Act (1883): Civil service reform",
+    "reasoning": "Merit-based",
+    "steps": [
+      "Reduced spoils system."
+    ],
+    "generatedAt": "2025-11-10T00:15:170.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_161",
+    "explanation": "Interstate Commerce Act (1887): Regulated railroads",
+    "reasoning": "First federal regulatory agency.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:171.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_162",
+    "explanation": "Sherman Antitrust Act (1890): Outlawed monopolies",
+    "reasoning": "Weakly enforced initially",
+    "steps": [
+      "Later key."
+    ],
+    "generatedAt": "2025-11-10T00:15:172.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_163",
+    "explanation": "Pullman Strike (1894): Railroad strike",
+    "reasoning": "Federal troops intervened",
+    "steps": [
+      "Debs jailed."
+    ],
+    "generatedAt": "2025-11-10T00:15:173.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_164",
+    "explanation": "Plessy v Ferguson (1896): 'Separate but equal' constitutional",
+    "reasoning": "Legalized segregation",
+    "steps": [
+      "Stood until Brown."
+    ],
+    "generatedAt": "2025-11-10T00:15:174.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_165",
+    "explanation": "Spanish-American War (1898): 'Splendid little war.' Yellow journalism role",
+    "reasoning": "US imperialism.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:175.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_166",
+    "explanation": "Open Door Policy (1899): Equal trade access to China",
+    "reasoning": "Hay's note",
+    "steps": [
+      "US interests in Asia."
+    ],
+    "generatedAt": "2025-11-10T00:15:176.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_167",
+    "explanation": "Philippine-American War (1899-1902): Brutal suppression",
+    "reasoning": "Anti-imperialists opposed",
+    "steps": [
+      "Eventually colony."
+    ],
+    "generatedAt": "2025-11-10T00:15:177.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_168",
+    "explanation": "Panama Canal (1904-14): TR acquired zone",
+    "reasoning": "Canal built",
+    "steps": [
+      "Engineering marvel",
+      "Strategic importance."
+    ],
+    "generatedAt": "2025-11-10T00:15:178.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_169",
+    "explanation": "Roosevelt Corollary (1904): US police power in Western Hemisphere",
+    "reasoning": "Extended Monroe Doctrine.",
+    "steps": [
+      "Analyze",
+      "Contextualize",
+      "Evaluate"
+    ],
+    "generatedAt": "2025-11-10T00:15:179.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_170",
+    "explanation": "Pure Food & Drug Act (1906): Progressive reform",
+    "reasoning": "FDA origins",
+    "steps": [
+      "Sinclair's Jungle catalyst."
+    ],
+    "generatedAt": "2025-11-10T00:15:180.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_171",
+    "explanation": "Muckrakers: Investigative journalists",
+    "reasoning": "Tarbell, Steffens, Sinclair",
+    "steps": [
+      "Exposed problems."
+    ],
+    "generatedAt": "2025-11-10T00:15:181.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_172",
+    "explanation": "16th Amendment (1913): Federal income tax",
+    "reasoning": "Progressive reform",
+    "steps": [
+      "Funded expansion."
+    ],
+    "generatedAt": "2025-11-10T00:15:182.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_173",
+    "explanation": "17th Amendment (1913): Direct election of senators",
+    "reasoning": "Democratization",
+    "steps": [
+      "Reduced corruption."
+    ],
+    "generatedAt": "2025-11-10T00:15:183.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_174",
+    "explanation": "Federal Reserve (1913): Central banking system",
+    "reasoning": "Wilson",
+    "steps": [
+      "Controls money supply."
+    ],
+    "generatedAt": "2025-11-10T00:15:184.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_175",
+    "explanation": "Clayton Antitrust Act (1914): Strengthened Sherman Act",
+    "reasoning": "Exempted unions",
+    "steps": [
+      "Progressive."
+    ],
+    "generatedAt": "2025-11-10T00:15:185.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_176",
+    "explanation": "Lusitania (1915): German sub sank British ship",
+    "reasoning": "Americans died",
+    "steps": [
+      "Pushed toward war."
+    ],
+    "generatedAt": "2025-11-10T00:15:186.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_177",
+    "explanation": "Zimmermann Telegram (1917): Germany offered Mexico territory",
+    "reasoning": "Intercepted",
+    "steps": [
+      "War entry catalyst."
+    ],
+    "generatedAt": "2025-11-10T00:15:187.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_178",
+    "explanation": "Selective Service Act (1917): Conscription",
+    "reasoning": "Draft for WWI",
+    "steps": [
+      "Millions served."
+    ],
+    "generatedAt": "2025-11-10T00:15:188.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_179",
+    "explanation": "Espionage/Sedition Acts (1917-18): Restricted speech during war",
+    "reasoning": "Controversial",
+    "steps": [
+      "Schenck case."
+    ],
+    "generatedAt": "2025-11-10T00:15:189.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_180",
+    "explanation": "14 Points (1918): Wilson's peace plan",
+    "reasoning": "Self-determination, League",
+    "steps": [
+      "Partly adopted."
+    ],
+    "generatedAt": "2025-11-10T00:15:190.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_181",
+    "explanation": "Treaty of Versailles (1919): Ended WWI",
+    "reasoning": "Harsh on Germany",
+    "steps": [
+      "US rejected."
+    ],
+    "generatedAt": "2025-11-10T00:15:191.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_182",
+    "explanation": "Red Scare (1919-20): Palmer Raids",
+    "reasoning": "Fear of communism, anarchism",
+    "steps": [
+      "Civil liberties violated."
+    ],
+    "generatedAt": "2025-11-10T00:15:192.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_183",
+    "explanation": "Sacco & Vanzetti (1920-27): Italian immigrants executed",
+    "reasoning": "Controversial trial",
+    "steps": [
+      "Anti-immigrant sentiment."
+    ],
+    "generatedAt": "2025-11-10T00:15:193.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_184",
+    "explanation": "19th Amendment (1920): Women's suffrage",
+    "reasoning": "Decades of activism",
+    "steps": [
+      "Wilson finally supported."
+    ],
+    "generatedAt": "2025-11-10T00:15:194.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_185",
+    "explanation": "Scopes Trial (1925): Evolution vs creationism",
+    "reasoning": "Bryan vs Darrow",
+    "steps": [
+      "Cultural conflict."
+    ],
+    "generatedAt": "2025-11-10T00:15:195.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_186",
+    "explanation": "Harlem Renaissance: African American cultural flowering",
+    "reasoning": "Hughes, Hurston",
+    "steps": [
+      "Jazz Age."
+    ],
+    "generatedAt": "2025-11-10T00:15:196.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_187",
+    "explanation": "Teapot Dome (1921): Harding scandal",
+    "reasoning": "Oil reserves",
+    "steps": [
+      "Corruption symbol."
+    ],
+    "generatedAt": "2025-11-10T00:15:197.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_188",
+    "explanation": "Immigration Acts (1921, 1924): Quota system",
+    "reasoning": "Restricted Southern/Eastern Europeans",
+    "steps": [
+      "Racist."
+    ],
+    "generatedAt": "2025-11-10T00:15:198.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_189",
+    "explanation": "Stock Market Crash (Oct 1929): Black Tuesday",
+    "reasoning": "Triggered Depression",
+    "steps": [
+      "Speculation, margin buying."
+    ],
+    "generatedAt": "2025-11-10T00:15:199.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_190",
+    "explanation": "Hoovervilles: Shantytowns during Depression",
+    "reasoning": "Named mockingly after Hoover",
+    "steps": [
+      "Symbol of failure."
+    ],
+    "generatedAt": "2025-11-10T00:16:00.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_191",
+    "explanation": "Dust Bowl (1930s): Severe drought, poor farming",
+    "reasoning": "Oklahoma exodus",
+    "steps": [
+      "Grapes of Wrath."
+    ],
+    "generatedAt": "2025-11-10T00:16:01.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_192",
+    "explanation": "CCC (Civilian Conservation Corps): New Deal program",
+    "reasoning": "Young men planted trees, built parks.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:02.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_193",
+    "explanation": "TVA (Tennessee Valley Authority): Dams, electricity",
+    "reasoning": "Regional development",
+    "steps": [
+      "Still exists."
+    ],
+    "generatedAt": "2025-11-10T00:16:03.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_194",
+    "explanation": "Social Security Act (1935): Old-age pensions",
+    "reasoning": "Unemployment insurance",
+    "steps": [
+      "New Deal legacy."
+    ],
+    "generatedAt": "2025-11-10T00:16:04.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_195",
+    "explanation": "Court-packing plan (1937): FDR tried to expand Supreme Court",
+    "reasoning": "Failed",
+    "steps": [
+      "Damaged reputation."
+    ],
+    "generatedAt": "2025-11-10T00:16:05.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_196",
+    "explanation": "Neutrality Acts (1930s): Isolationism",
+    "reasoning": "Tried to avoid war",
+    "steps": [
+      "Pearl Harbor ended."
+    ],
+    "generatedAt": "2025-11-10T00:16:06.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_197",
+    "explanation": "Lend-Lease (1941): Aided Britain before US entry",
+    "reasoning": "'Arsenal of democracy.'",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:07.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_198",
+    "explanation": "Atlantic Charter (1941): FDR-Churchill",
+    "reasoning": "Post-war vision",
+    "steps": [
+      "UN precursor."
+    ],
+    "generatedAt": "2025-11-10T00:16:08.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_199",
+    "explanation": "Pearl Harbor (Dec 7, 1941): Japan attacked",
+    "reasoning": "'Date that will live in infamy.' US entered war.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:09.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_200",
+    "explanation": "Japanese internment: 120,000 Japanese-Americans imprisoned",
+    "reasoning": "West Coast",
+    "steps": [
+      "Korematsu case",
+      "Racist."
+    ],
+    "generatedAt": "2025-11-10T00:16:10.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_201",
+    "explanation": "D-Day (June 6, 1944): Normandy invasion",
+    "reasoning": "Largest amphibious assault",
+    "steps": [
+      "Began liberation of France."
+    ],
+    "generatedAt": "2025-11-10T00:16:11.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_202",
+    "explanation": "Battle of the Bulge (1944-45): Last German offensive",
+    "reasoning": "Allied victory",
+    "steps": [
+      "Final push."
+    ],
+    "generatedAt": "2025-11-10T00:16:12.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_203",
+    "explanation": "Yalta Conference (Feb 1945): FDR, Churchill, Stalin",
+    "reasoning": "Post-war division of Europe.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:13.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_204",
+    "explanation": "VE Day (May 8, 1945): Victory in Europe",
+    "reasoning": "Germany surrendered",
+    "steps": [
+      "Hitler suicide."
+    ],
+    "generatedAt": "2025-11-10T00:16:14.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_205",
+    "explanation": "Potsdam Conference (July 1945): Truman, Churchill/Attlee, Stalin",
+    "reasoning": "Germany occupation",
+    "steps": [
+      "Tensions."
+    ],
+    "generatedAt": "2025-11-10T00:16:15.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_206",
+    "explanation": "VJ Day (Aug 15, 1945): Victory over Japan",
+    "reasoning": "Surrender after atomic bombs.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:16.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_207",
+    "explanation": "UN Charter (1945): International organization",
+    "reasoning": "Security Council",
+    "steps": [
+      "US role central."
+    ],
+    "generatedAt": "2025-11-10T00:16:17.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_208",
+    "explanation": "Truman Doctrine (1947): Contain communism",
+    "reasoning": "Aid Greece, Turkey",
+    "steps": [
+      "Cold War policy."
+    ],
+    "generatedAt": "2025-11-10T00:16:18.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_209",
+    "explanation": "Marshall Plan (1947): Rebuild Europe",
+    "reasoning": "$13 billion",
+    "steps": [
+      "Stopped communism spread."
+    ],
+    "generatedAt": "2025-11-10T00:16:19.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_210",
+    "explanation": "Berlin Airlift (1948-49): Soviets blockaded West Berlin",
+    "reasoning": "US/UK airlifted supplies",
+    "steps": [
+      "Success."
+    ],
+    "generatedAt": "2025-11-10T00:16:20.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_211",
+    "explanation": "NATO (1949): Military alliance",
+    "reasoning": "Collective defense",
+    "steps": [
+      "Cold War institution."
+    ],
+    "generatedAt": "2025-11-10T00:16:21.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_212",
+    "explanation": "Fall of China (1949): Communists won civil war",
+    "reasoning": "Mao's PRC",
+    "steps": [
+      "'Who lost China?' debate."
+    ],
+    "generatedAt": "2025-11-10T00:16:22.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_213",
+    "explanation": "Alger Hiss case (1948-50): Accused Soviet spy",
+    "reasoning": "Divided nation",
+    "steps": [
+      "McCarthy Era beginning."
+    ],
+    "generatedAt": "2025-11-10T00:16:23.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_214",
+    "explanation": "Rosenbergs (1951-53): Executed for espionage",
+    "reasoning": "Atomic secrets",
+    "steps": [
+      "Controversial."
+    ],
+    "generatedAt": "2025-11-10T00:16:24.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_215",
+    "explanation": "Eisenhower presidency (1953-61): Interstate highways, prosperity",
+    "reasoning": "Military-industrial complex warning.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:25.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_216",
+    "explanation": "Brown v Board (1954): Separate inherently unequal",
+    "reasoning": "Warren Court",
+    "steps": [
+      "Integration ordered."
+    ],
+    "generatedAt": "2025-11-10T00:16:26.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_217",
+    "explanation": "Little Rock Nine (1957): School integration crisis",
+    "reasoning": "Eisenhower sent troops",
+    "steps": [
+      "Faubus resisted."
+    ],
+    "generatedAt": "2025-11-10T00:16:27.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_218",
+    "explanation": "Interstate Highway System (1956): Massive infrastructure",
+    "reasoning": "Defense, commerce",
+    "steps": [
+      "Suburbanization."
+    ],
+    "generatedAt": "2025-11-10T00:16:28.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_219",
+    "explanation": "Sputnik (1957): Soviet satellite",
+    "reasoning": "Shocked US",
+    "steps": [
+      "Space race, education reforms."
+    ],
+    "generatedAt": "2025-11-10T00:16:29.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_220",
+    "explanation": "U-2 incident (1960): Spy plane shot down",
+    "reasoning": "Paris summit collapsed",
+    "steps": [
+      "Eisenhower embarrassed."
+    ],
+    "generatedAt": "2025-11-10T00:16:30.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_221",
+    "explanation": "Freedom Rides (1961): Integrated bus travel South",
+    "reasoning": "Violent resistance",
+    "steps": [
+      "Kennedy intervened."
+    ],
+    "generatedAt": "2025-11-10T00:16:31.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_222",
+    "explanation": "Bay of Pigs (1961): Failed Cuba invasion",
+    "reasoning": "JFK's mistake",
+    "steps": [
+      "Castro strengthened."
+    ],
+    "generatedAt": "2025-11-10T00:16:32.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_223",
+    "explanation": "Berlin Wall (1961): Communists built",
+    "reasoning": "Divided city",
+    "steps": [
+      "Symbol of Cold War."
+    ],
+    "generatedAt": "2025-11-10T00:16:33.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_224",
+    "explanation": "Peace Corps (1961): JFK program",
+    "reasoning": "Volunteers abroad",
+    "steps": [
+      "Still exists."
+    ],
+    "generatedAt": "2025-11-10T00:16:34.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_225",
+    "explanation": "Sit-in movement: Greensboro (1960)",
+    "reasoning": "Nonviolent protest",
+    "steps": [
+      "Lunch counters integrated."
+    ],
+    "generatedAt": "2025-11-10T00:16:35.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_226",
+    "explanation": "March on Washington (1963): 'I Have a Dream' speech",
+    "reasoning": "MLK",
+    "steps": [
+      "250,000 attended."
+    ],
+    "generatedAt": "2025-11-10T00:16:36.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_227",
+    "explanation": "Birmingham campaign (1963): Police dogs, fire hoses",
+    "reasoning": "Shocked nation",
+    "steps": [
+      "Kennedy acted."
+    ],
+    "generatedAt": "2025-11-10T00:16:37.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_228",
+    "explanation": "Medgar Evers assassination (1963): Mississippi",
+    "reasoning": "Civil rights martyr",
+    "steps": [
+      "Byron De La Beckwith."
+    ],
+    "generatedAt": "2025-11-10T00:16:38.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_229",
+    "explanation": "Civil Rights Act (1964): Banned discrimination",
+    "reasoning": "Public accommodations",
+    "steps": [
+      "LBJ signed."
+    ],
+    "generatedAt": "2025-11-10T00:16:39.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_230",
+    "explanation": "Voting Rights Act (1965): Banned literacy tests",
+    "reasoning": "Federal oversight",
+    "steps": [
+      "Transformative."
+    ],
+    "generatedAt": "2025-11-10T00:16:40.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_231",
+    "explanation": "Malcolm X: Black nationalism",
+    "reasoning": "Nation of Islam",
+    "steps": [
+      "Assassinated 1965",
+      "Contrasted with MLK."
+    ],
+    "generatedAt": "2025-11-10T00:16:41.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_232",
+    "explanation": "Black Panthers (1966): Armed self-defense",
+    "reasoning": "Community programs",
+    "steps": [
+      "FBI targeted."
+    ],
+    "generatedAt": "2025-11-10T00:16:42.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_233",
+    "explanation": "Watts Riots (1965): LA",
+    "reasoning": "Police brutality spark",
+    "steps": [
+      "Urban unrest symbol."
+    ],
+    "generatedAt": "2025-11-10T00:16:43.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_234",
+    "explanation": "Selma march (1965): 'Bloody Sunday.' Voting rights",
+    "reasoning": "Influenced VRA passage.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:44.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_235",
+    "explanation": "Miranda v Arizona (1966): Rights warning",
+    "reasoning": "'Right to remain silent.' Criminal justice.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:45.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_236",
+    "explanation": "Tet Offensive (1968): Massive Viet Cong attack",
+    "reasoning": "Military victory, propaganda defeat",
+    "steps": [
+      "Turned US opinion."
+    ],
+    "generatedAt": "2025-11-10T00:16:46.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_237",
+    "explanation": "My Lai Massacre (1968): US troops killed civilians",
+    "reasoning": "War crimes",
+    "steps": [
+      "Revealed 1969",
+      "Shocking."
+    ],
+    "generatedAt": "2025-11-10T00:16:47.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_238",
+    "explanation": "MLK assassination (April 1968): Memphis",
+    "reasoning": "James Earl Ray",
+    "steps": [
+      "Riots followed",
+      "Tragic."
+    ],
+    "generatedAt": "2025-11-10T00:16:48.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_239",
+    "explanation": "RFK assassination (June 1968): Sirhan Sirhan",
+    "reasoning": "After CA primary",
+    "steps": [
+      "Devastating."
+    ],
+    "generatedAt": "2025-11-10T00:16:49.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_240",
+    "explanation": "Chicago Democratic Convention (1968): Police riot",
+    "reasoning": "Protesters beaten",
+    "steps": [
+      "Divided Democrats."
+    ],
+    "generatedAt": "2025-11-10T00:16:50.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_241",
+    "explanation": "Nixon's presidency (1969-74): D\u00e9tente, China opening",
+    "reasoning": "Watergate downfall.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:51.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_242",
+    "explanation": "Moon landing (July 1969): Armstrong, Aldrin",
+    "reasoning": "'Giant leap.' Cold War victory.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:52.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_243",
+    "explanation": "Vietnamization: Nixon's strategy",
+    "reasoning": "Withdraw US troops, train South Vietnamese",
+    "steps": [
+      "Failed."
+    ],
+    "generatedAt": "2025-11-10T00:16:53.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_244",
+    "explanation": "Kent State (1970): National Guard killed 4 students",
+    "reasoning": "Protesting Cambodia invasion",
+    "steps": [
+      "Outrage."
+    ],
+    "generatedAt": "2025-11-10T00:16:54.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_245",
+    "explanation": "Pentagon Papers (1971): Secret war history leaked",
+    "reasoning": "NYT published",
+    "steps": [
+      "First Amendment."
+    ],
+    "generatedAt": "2025-11-10T00:16:55.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_246",
+    "explanation": "D\u00e9tente: Relaxation with USSR",
+    "reasoning": "SALT I (1972)",
+    "steps": [
+      "Nixon-Kissinger policy."
+    ],
+    "generatedAt": "2025-11-10T00:16:56.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_247",
+    "explanation": "Nixon China visit (1972): Historic opening",
+    "reasoning": "Ping-pong diplomacy",
+    "steps": [
+      "Geopolitics shifted."
+    ],
+    "generatedAt": "2025-11-10T00:16:57.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_248",
+    "explanation": "ERA: Equal Rights Amendment",
+    "reasoning": "Passed Congress 1972",
+    "steps": [
+      "Never ratified",
+      "3 states short."
+    ],
+    "generatedAt": "2025-11-10T00:16:58.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_249",
+    "explanation": "Roe v Wade (1973): Abortion rights",
+    "reasoning": "Trimester framework",
+    "steps": [
+      "Controversial",
+      "Overturned 2022."
+    ],
+    "generatedAt": "2025-11-10T00:16:59.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_250",
+    "explanation": "War Powers Act (1973): Limited president's war powers",
+    "reasoning": "Congressional reassertion",
+    "steps": [
+      "Nixon vetoed, overridden."
+    ],
+    "generatedAt": "2025-11-10T00:16:60.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_251",
+    "explanation": "OPEC oil embargo (1973-74): Gas crisis",
+    "reasoning": "Lines, rationing",
+    "steps": [
+      "Economic blow."
+    ],
+    "generatedAt": "2025-11-10T00:16:61.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_252",
+    "explanation": "Saturday Night Massacre (Oct 1973): Nixon fired Cox",
+    "reasoning": "AG, deputy resigned",
+    "steps": [
+      "Constitutional crisis."
+    ],
+    "generatedAt": "2025-11-10T00:16:62.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_253",
+    "explanation": "Impeachment articles (1974): Obstruction, abuse, contempt",
+    "reasoning": "Nixon resigned before vote.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:63.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_254",
+    "explanation": "Ford presidency (1974-77): Pardoned Nixon",
+    "reasoning": "'Our long national nightmare is over.'",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:64.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_255",
+    "explanation": "Fall of Saigon (April 1975): South Vietnam collapsed",
+    "reasoning": "Helicopter evacuations",
+    "steps": [
+      "War ended."
+    ],
+    "generatedAt": "2025-11-10T00:16:65.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_256",
+    "explanation": "Camp David Accords (1978): Carter mediated",
+    "reasoning": "Israel-Egypt peace",
+    "steps": [
+      "Historic."
+    ],
+    "generatedAt": "2025-11-10T00:16:66.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_257",
+    "explanation": "Iran hostage crisis (1979-81): 52 Americans held 444 days",
+    "reasoning": "Carter's downfall.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:67.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_258",
+    "explanation": "Three Mile Island (1979): Nuclear accident",
+    "reasoning": "Pennsylvania",
+    "steps": [
+      "Anti-nuclear movement grew."
+    ],
+    "generatedAt": "2025-11-10T00:16:68.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_259",
+    "explanation": "Soviet invasion Afghanistan (1979): Carter ended d\u00e9tente",
+    "reasoning": "Boycotted Olympics",
+    "steps": [
+      "Reagan escalated."
+    ],
+    "generatedAt": "2025-11-10T00:16:69.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_260",
+    "explanation": "Reagan assassination attempt (1981): Hinckley shot Reagan",
+    "reasoning": "Brady paralyzed",
+    "steps": [
+      "Gun control."
+    ],
+    "generatedAt": "2025-11-10T00:16:70.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_261",
+    "explanation": "Reagan tax cuts (1981): Supply-side economics",
+    "reasoning": "Deficits grew",
+    "steps": [
+      "'Voodoo economics.'"
+    ],
+    "generatedAt": "2025-11-10T00:16:71.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_262",
+    "explanation": "Air traffic controllers strike (1981): Reagan fired strikers",
+    "reasoning": "Anti-union signal.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:72.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_263",
+    "explanation": "Strategic Defense Initiative (1983): 'Star Wars.' Missile defense",
+    "reasoning": "Never fully built.",
+    "steps": [
+      "Analyze",
+      "Contextualize"
+    ],
+    "generatedAt": "2025-11-10T00:16:73.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_264",
+    "explanation": "Beirut barracks bombing (1983): 241 Marines killed",
+    "reasoning": "Lebanon",
+    "steps": [
+      "Reagan withdrew."
+    ],
+    "generatedAt": "2025-11-10T00:16:74.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_265",
+    "explanation": "Grenada invasion (1983): US military action",
+    "reasoning": "Tiny island",
+    "steps": [
+      "Quick victory."
+    ],
+    "generatedAt": "2025-11-10T00:16:75.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_266",
+    "explanation": "Iran-Contra scandal (1985-87): Arms to Iran, fund Contras",
+    "reasoning": "Illegal",
+    "steps": [
+      "Reagan avoided prosecution."
+    ],
+    "generatedAt": "2025-11-10T00:16:76.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_267",
+    "explanation": "Challenger explosion (1986): Space shuttle",
+    "reasoning": "7 astronauts killed",
+    "steps": [
+      "National trauma."
+    ],
+    "generatedAt": "2025-11-10T00:16:77.000Z"
+  },
+  {
+    "questionId": "high_school_us_history_268",
+    "explanation": "INF Treaty (1987): Eliminated intermediate nuclear missiles",
+    "reasoning": "Reagan-Gorbachev",
+    "steps": [
+      "Cold War thaw."
+    ],
+    "generatedAt": "2025-11-10T00:16:78.000Z"
   }
 ]
