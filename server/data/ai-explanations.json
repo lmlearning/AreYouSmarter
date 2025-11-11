@@ -26319,5 +26319,213 @@
       "Answer: Identical procedure except for receiving treatment"
     ],
     "generatedAt": "2025-11-10T09:08:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_86",
+    "explanation": "Sample size increased from 15 to 35, but mean and SD remained approximately the same. Confidence interval width = 2 \u00d7 t* \u00d7 (s/\u221an). Since s is the same and n increased from 15 to 35, the standard error s/\u221an DECREASES (denominator increases). A smaller standard error produces a NARROWER confidence interval. Even though we use t-distribution with more degrees of freedom (which decreases t* slightly), the dominant effect is the \u221an in the denominator. With n=35 vs n=15, the factor \u221a35/\u221a15 \u2248 1.53, meaning SE decreases by factor of 1.53, making CI narrower. There IS an advantage: more precise estimate with narrower CI.",
+    "reasoning": "CI width \u221d s/\u221an. When n increases (15\u219235) with same s, SE decreases by factor \u221a(35/15) \u2248 1.53. CI becomes narrower (more precise), which is advantageous.",
+    "steps": [
+      "CI width = 2 \u00d7 t* \u00d7 (s/\u221an)",
+      "n increased: 15 \u2192 35 (more than doubled)",
+      "s stayed same",
+      "SE = s/\u221an decreases: s/\u221a35 < s/\u221a15",
+      "Narrower CI = more precision",
+      "Answer: Advantage - CI will be narrower with 35 observations"
+    ],
+    "generatedAt": "2025-11-10T09:15:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_87",
+    "explanation": "Population: strongly right-skewed, \u03bc=210, \u03c3=15. Sample size n=16 (relatively small). Sampling distribution of x\u0304: Mean of x\u0304 = \u03bc = 210 (always true). SD of x\u0304 = \u03c3/\u221an = 15/\u221a16 = 15/4 = 3.75. Shape: For CLT to make x\u0304 approximately normal, we typically need n\u226530, or the population itself must be normal. With n=16 and a STRONGLY skewed population, the sampling distribution will still retain some skewness - the shape is NOT yet approximately normal, but rather somewhat skewed right (less skewed than population, but not yet normal). The shape is 'somewhat skewed right' with parameters \u03bc=210, \u03c3=3.75.",
+    "reasoning": "With small sample (n=16) from strongly skewed population, CLT hasn't fully kicked in. Sampling distribution has correct mean (210) and SE (3.75), but shape remains somewhat skewed, not normal.",
+    "steps": [
+      "Population: right-skewed, \u03bc=210, \u03c3=15",
+      "Sample: n=16 (small)",
+      "Mean of x\u0304: \u03bc = 210 \u2713",
+      "SD of x\u0304: \u03c3/\u221an = 15/4 = 3.75 \u2713",
+      "Shape: n=16 too small for CLT with strong skew",
+      "Answer: Somewhat skewed right, mean 210, SD 3.75"
+    ],
+    "generatedAt": "2025-11-10T09:17:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_88",
+    "explanation": "Power = probability of correctly rejecting false H\u2080. Higher power is better. Let's evaluate each change: (A) Change from equal to very different group sizes: DECREASES power. Equal sizes maximize power for fixed total sample size. Unequal sizes reduce power. (B) Change from 5% to 1% significance: DECREASES power. Lower \u03b1 (more stringent rejection criteria) means lower power. (C) Reduce variability in response: INCREASES power. Less noise makes it easier to detect true effects. Lower variability \u2192 smaller standard error \u2192 larger test statistic \u2192 higher power. (D) Increase sample size: This WOULD increase power, but it doesn't change P(Type I error) - Type I error rate is set by \u03b1, not affected by sample size. Statement D is FALSE about Type I error.",
+    "reasoning": "Power increases when: signal increases (larger effect), noise decreases (less variability), sample size increases, or \u03b1 increases. Only option C (reducing variability) increases power among the choices.",
+    "steps": [
+      "Option A: Unequal sizes decrease power \u2717",
+      "Option B: Lower \u03b1 (5%\u21921%) decreases power \u2717",
+      "Option C: Less variability increases power \u2713",
+      "Option D: n doesn't affect P(Type I error) = \u03b1",
+      "Answer: Reducing variability increases power"
+    ],
+    "generatedAt": "2025-11-10T09:19:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_89",
+    "explanation": "H\u2080: \u03bc = 1.25 (proper size), H\u2090: \u03bc \u2260 1.25 (wrong size). Production is halted (H\u2080 rejected) when mean is outside 1.23-1.27. Type II error = failing to reject H\u2080 when H\u2090 is true = continuing production when ball bearings ARE actually wrong size. Let's evaluate consequences: (A) Warranted halt: This is CORRECT decision (rejecting false H\u2080), not an error. (B) Unnecessary stoppage: This is Type I error (rejecting true H\u2080). (C) Continued production of wrong size: This is Type II error - we failed to detect the problem, so production continues with defective bearings. (D) Continued production of proper size: This is correct decision (not rejecting true H\u2080).",
+    "reasoning": "Type II error = fail to reject H\u2080 when it's false = fail to detect problem = continue production despite wrong size bearings. This results in continued production of defective ball bearings.",
+    "steps": [
+      "H\u2080: \u03bc = 1.25 (proper), H\u2090: \u03bc \u2260 1.25 (wrong)",
+      "Type II error: fail to reject false H\u2080",
+      "Fail to reject \u2192 don't halt production",
+      "But H\u2080 false \u2192 bearings are wrong size",
+      "Result: continue making wrong size bearings",
+      "Answer: Continued production of wrong size ball bearings"
+    ],
+    "generatedAt": "2025-11-10T09:21:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_90",
+    "explanation": "We want to estimate proportion p of unemployed. Sample: 8% of 500 people are unemployed, so p\u0302 = 0.08. The midpoint of a confidence interval is always the point estimate, regardless of confidence level. A 95% CI would be p\u0302 \u00b1 margin of error = 0.08 \u00b1 ME. The CENTER (midpoint) of this interval is simply p\u0302 = 0.08. The margin of error affects the width but not the center. Therefore, the midpoint is 0.08.",
+    "reasoning": "Confidence interval structure: point estimate \u00b1 margin of error. The midpoint is always the point estimate p\u0302. With p\u0302 = 8% = 0.08, the midpoint of any CI is 0.08.",
+    "steps": [
+      "Sample proportion: p\u0302 = 8% = 0.08",
+      "CI structure: p\u0302 \u00b1 ME",
+      "Midpoint of interval = p\u0302",
+      "Confidence level affects ME, not midpoint",
+      "Midpoint = 0.08",
+      "Answer: None of the above (should be 0.08, not listed)"
+    ],
+    "generatedAt": "2025-11-10T09:23:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_91",
+    "explanation": "The goal is to study years between accidents for drivers in a large city. Let's evaluate sampling methods: (A) Systematic sampling from AAA members: BIASED - AAA members may differ systematically from general drivers (potentially safer, more experienced, different demographics). Not representative. (B) Randomly choose families, include all drivers: This is CLUSTER sampling (families as clusters). Could work if families are representative, though drivers within families might be correlated. (C) Large sample without randomness: FALSE - randomness is ALWAYS important regardless of size. Large biased samples are still biased. (D) None are true: Given problems with A and C, and potential issues with B, D is likely correct.",
+    "reasoning": "Option A introduces selection bias (AAA members \u2260 all drivers). Option C wrongly claims size eliminates need for randomness. Option B (cluster sampling) has potential but families may not be ideal clusters. None are ideal true statements.",
+    "steps": [
+      "A: AAA members not representative of all drivers (bias)",
+      "B: Cluster sampling - drivers in families correlated",
+      "C: Size doesn't eliminate need for randomness - FALSE",
+      "All options have problems",
+      "Answer: None of the above are true statements"
+    ],
+    "generatedAt": "2025-11-10T09:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_92",
+    "explanation": "The Central Limit Theorem (CLT) states that for large sample sizes, the sampling distribution of the sample mean approaches a normal distribution, regardless of the population distribution shape. Let's evaluate: (A) Mean of sample means approaches population mean: This is true, but it's the Law of Large Numbers, not CLT. CLT is about the SHAPE becoming normal. (B) SD of sample means approaches \u03c3/\u221an: True but not the main statement of CLT. (C) If population normal, then x\u0304 distribution becomes closer to normal: This is backwards - if population is already normal, x\u0304 is exactly normal for any n. CLT applies when population is NOT normal. (D) CLT refers to something else: The true CLT states that regardless of population shape, for large n, the sampling distribution of x\u0304 is approximately normal with mean \u03bc and SD \u03c3/\u221an.",
+    "reasoning": "CLT: For sufficiently large n, x\u0304 ~ approximately N(\u03bc, \u03c3\u00b2/n) REGARDLESS of population distribution shape. This is the key insight - non-normal populations still give approximately normal sampling distributions when n is large.",
+    "steps": [
+      "CLT key point: normality of x\u0304 distribution for large n",
+      "Works regardless of population shape",
+      "Option A: Law of Large Numbers, not CLT",
+      "Option B: True but not main CLT statement",
+      "Option C: Backwards logic",
+      "Answer: CLT refers to something else (normality for large n)"
+    ],
+    "generatedAt": "2025-11-10T09:27:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_93",
+    "explanation": "Experiment tests: 4 temperature levels \u00d7 2 pan types \u00d7 3 oven types. This is a factorial design with three factors. Total number of treatment combinations = 4 \u00d7 2 \u00d7 3 = 24 unique combinations. In a completely randomized design, cake mixes would be randomly assigned to all 24 treatment combinations (e.g., 300\u00b0F in glass pan in gas oven, 325\u00b0F in metal pan in electric oven, etc.). There are no blocks mentioned - all factors are treatments of interest. This is a completely randomized design with 24 treatment groups (one for each combination).",
+    "reasoning": "Factorial design: 4 \u00d7 2 \u00d7 3 = 24 treatment combinations. Each combination is a distinct treatment group. Completely randomized (no blocking structure mentioned). Answer: 24 treatment groups.",
+    "steps": [
+      "Factors: temperature (4 levels), pan (2 levels), oven (3 levels)",
+      "Factorial design: all combinations",
+      "Total combinations: 4 \u00d7 2 \u00d7 3 = 24",
+      "No blocking mentioned",
+      "Completely randomized design",
+      "Answer: Completely randomized with 24 treatment groups"
+    ],
+    "generatedAt": "2025-11-10T09:29:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_94",
+    "explanation": "Study: Surveyed 50 basketball players, found those who study more have higher point averages. This is an OBSERVATIONAL study (not an experiment - no random assignment to study amounts). The coach concludes studying causes higher points. Let's evaluate: (A) Study proves causation: FALSE - observational studies cannot prove causation. (B) Could be confounding variable: TRUE - many confounders possible (intelligence, discipline, time management, parental involvement, etc.). More disciplined students might both study more AND practice basketball more. (C) This is controlled experiment: FALSE - it's observational, and even if controlled, conclusion isn't justified without eliminating confounders. (D) Have them practice more to boost averages: Illogical - confuses association with causation.",
+    "reasoning": "Observational study shows correlation, not causation. Confounding variables (discipline, motivation, time management) could explain both more studying and better basketball performance. Cannot conclude causation.",
+    "steps": [
+      "Study type: observational (survey), not experiment",
+      "Found: association between study time and points",
+      "Option A: Can't prove causation from observation \u2717",
+      "Option B: Confounding variables very likely \u2713",
+      "Many factors could explain both studying and performance",
+      "Answer: Could be confounding variable responsible"
+    ],
+    "generatedAt": "2025-11-10T09:31:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_95",
+    "explanation": "Study found: number of calls explained 71% of variation in nest abundance. This means R\u00b2 = 0.71. Relationship between calls and nests makes biological sense: more birds \u2192 more calls. We expect a POSITIVE relationship. R\u00b2 = r\u00b2, so |r| = \u221a0.71 \u2248 0.84. Since the relationship is positive (more calls with more nests), r = +0.84, not -0.84. The correlation coefficient is approximately 0.84.",
+    "reasoning": "R\u00b2 = 0.71 means r\u00b2 = 0.71, so r = \u00b1\u221a0.71 \u2248 \u00b10.84. Since more calls go with more nests (positive relationship biologically sensible), r = +0.84.",
+    "steps": [
+      "Given: calls explained 71% of variation \u2192 R\u00b2 = 0.71",
+      "R\u00b2 = r\u00b2, so r\u00b2 = 0.71",
+      "r = \u00b1\u221a0.71 \u2248 \u00b10.84",
+      "More calls \u2192 more nests (positive relationship)",
+      "Therefore r = +0.84",
+      "Answer: 0.84"
+    ],
+    "generatedAt": "2025-11-10T09:33:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_96",
+    "explanation": "Procedure: Each of 5 managers randomly draws 6 names from their 200 employees. Total sample: 30 employees. Is this a Simple Random Sample (SRS)? An SRS requires that every possible group of 30 employees has equal probability of selection. Let's check: Can we get a sample with all 30 from Plant 1? NO - procedure forces exactly 6 from each plant. Therefore, not all possible groups of 30 can be selected, violating the SRS definition. While each individual employee has probability 6/200 = 0.03 of selection (equal for all), the GROUPS that can be selected are restricted. This is actually stratified sampling (stratified by plant), which is NOT the same as SRS.",
+    "reasoning": "SRS requires all possible samples of size 30 to have equal selection probability. This procedure restricts to samples with exactly 6 from each plant, so many possible samples of 30 (like all from one plant) have zero probability. Not SRS.",
+    "steps": [
+      "SRS definition: all groups of size 30 equally likely",
+      "This procedure: exactly 6 from each of 5 plants",
+      "Can't get sample with 7 from one plant, 5 from another",
+      "Not all groups possible \u2192 not all equally likely",
+      "This is stratified sampling, not SRS",
+      "Answer: No, not every group of 30 has same chance"
+    ],
+    "generatedAt": "2025-11-10T09:35:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_97",
+    "explanation": "Experiment: Patients randomly assigned to standard or new surgery technique. Compare mean recovery times between two groups. We're comparing means from two independent groups (standard vs. new technique). The appropriate test is a TWO-SAMPLE comparison. Should we use t-test or z-test? Use t-test when population standard deviations are unknown (typical in practice). Use z-test when population \u03c3's are known (rare). Since this is a new technique being tested, we don't know population parameters, so we use t-test. The correct analysis is: two-sample t-test for difference in means (also called independent samples t-test).",
+    "reasoning": "Comparing two independent groups (standard vs new) \u2192 two-sample test. Unknown population SDs \u2192 use t-test. Appropriate test: two-sample t-test for difference in means.",
+    "steps": [
+      "Two independent groups: standard vs new technique",
+      "Comparing means of two groups",
+      "Population parameters unknown",
+      "Use t-test (not z-test) with unknown \u03c3",
+      "Two-sample, not one-sample",
+      "Answer: t-test for difference in means"
+    ],
+    "generatedAt": "2025-11-10T09:37:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_98",
+    "explanation": "Researcher wants to study long-term confidence in US economy among adult population. She samples 30 adults leaving a Wall Street office building one weekday afternoon. Problems: (1) Selection bias: Wall Street workers are NOT representative of general adult population - they're likely wealthier, more financially sophisticated, more invested in markets. (2) Convenience sampling: Not truly random from target population (all adults), just convenient location. (3) Timing: Weekday afternoon might miss certain demographics. While technically a 'random' sample from those leaving the building, it's NOT a random sample from the target population (all adults). This is a poorly designed survey due to severe selection bias.",
+    "reasoning": "Target population: all adults. Sample frame: Wall Street workers (highly unrepresentative). This is selection bias - the sampling method systematically favors certain types of people, making results non-generalizable.",
+    "steps": [
+      "Target: all US adults",
+      "Sample: Wall Street office workers",
+      "Wall Street workers \u2260 representative of all adults",
+      "Selection bias: systematic difference from target",
+      "High response rate doesn't fix bad sample",
+      "Answer: Selection bias makes this poorly designed"
+    ],
+    "generatedAt": "2025-11-10T09:39:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_99",
+    "explanation": "Experiment: Testing effect of music (classical vs. light rock) on piecework output. To determine if music affects output, we need a baseline for comparison - what happens with NO music? The best control group is one that receives NO treatment (no music), keeping all other conditions identical. This allows us to isolate the effect of having music vs. not having music. Let's evaluate: (A) No music: BEST control - provides true baseline. (B) Random classical/rock daily: This is another treatment variation, not a control. (C) R&B music: Another treatment type, not a control. (D) Classical AM, rock PM: Another treatment variation. The control group should receive no music to serve as the baseline for comparison.",
+    "reasoning": "Control group purpose: provide baseline without the treatment factor being studied. Here, treatment = music. Control = no music. This isolates music's effect by comparison.",
+    "steps": [
+      "Treatment being tested: music (classical or rock)",
+      "Control group: no treatment = no music",
+      "Options B, C, D all involve music (different treatments)",
+      "Only option A provides true baseline (no music)",
+      "Best control: no music group",
+      "Answer: Third group for which no music is played"
+    ],
+    "generatedAt": "2025-11-10T09:41:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_100",
+    "explanation": "Historical data: 8.7 cyclones per year, of which 5.1 become hurricanes. Probability any cyclone becomes hurricane: p = 5.1/8.7 \u2248 0.586. This year: 5 cyclones. Assuming independence, we have binomial: n=5, p\u22480.586. Want: P(X \u2265 3) where X = number that become hurricanes. Calculate: P(X \u2265 3) = P(X=3) + P(X=4) + P(X=5). Using binomial formula: P(X=3) = C(5,3)(0.586)\u00b3(0.414)\u00b2 \u2248 10(0.201)(0.171) \u2248 0.344. P(X=4) = C(5,4)(0.586)\u2074(0.414)\u00b9 \u2248 5(0.118)(0.414) \u2248 0.244. P(X=5) = (0.586)\u2075 \u2248 0.070. Total: 0.344 + 0.244 + 0.070 \u2248 0.658.",
+    "reasoning": "Binomial with n=5, p=5.1/8.7\u22480.586. P(X\u22653) = 1-P(X\u22642) or sum P(3)+P(4)+P(5). Calculate using binomial probabilities \u2248 0.658.",
+    "steps": [
+      "p = 5.1/8.7 \u2248 0.586 (probability cyclone\u2192hurricane)",
+      "n = 5 cyclones, want P(X \u2265 3)",
+      "Binomial: P(X=k) = C(n,k)p^k(1-p)^(n-k)",
+      "P(X=3) + P(X=4) + P(X=5)",
+      "Calculate \u2248 0.344 + 0.244 + 0.070 = 0.658",
+      "Answer: 0.658"
+    ],
+    "generatedAt": "2025-11-10T09:43:00.000Z"
   }
 ]
