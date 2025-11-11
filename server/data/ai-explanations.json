@@ -11652,5 +11652,823 @@
       "Mixed results."
     ],
     "generatedAt": "2025-11-10T00:19:100.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_101",
+    "explanation": "ISIS: Islamic State",
+    "reasoning": "2014 caliphate",
+    "steps": [
+      "Syria-Iraq",
+      "Brutal",
+      "Coalition defeated"
+    ],
+    "generatedAt": "2025-11-10T00:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_102",
+    "explanation": "Ukraine Revolution 2014: Euromaidan",
+    "reasoning": "Yanukovych fled",
+    "steps": [
+      "Russia annexed Crimea",
+      "Donbas war."
+    ],
+    "generatedAt": "2025-11-10T00:20:01.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_103",
+    "explanation": "Paris Climate Agreement: 2015",
+    "reasoning": "Global warming response",
+    "steps": [
+      "Nearly universal",
+      "US withdrew, rejoined."
+    ],
+    "generatedAt": "2025-11-10T00:20:02.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_104",
+    "explanation": "Migration crisis Europe: 2015-16",
+    "reasoning": "Syria mainly",
+    "steps": [
+      "Political backlash",
+      "Borders, nationalism."
+    ],
+    "generatedAt": "2025-11-10T00:20:03.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_105",
+    "explanation": "COVID-19 pandemic: 2019-",
+    "reasoning": "Originated China",
+    "steps": [
+      "Global lockdowns",
+      "Vaccines",
+      "Economic damage."
+    ],
+    "generatedAt": "2025-11-10T00:20:04.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_106",
+    "explanation": "Ancient river civilizations: Nile, Tigris-Euphrates, Indus, Yellow",
+    "reasoning": "Agriculture basis",
+    "steps": [
+      "Writing, cities."
+    ],
+    "generatedAt": "2025-11-10T00:20:05.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_107",
+    "explanation": "Phoenicians: Mediterranean traders",
+    "reasoning": "Alphabet",
+    "steps": [
+      "Purple dye",
+      "Carthage colony",
+      "Seafaring."
+    ],
+    "generatedAt": "2025-11-10T00:20:06.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_108",
+    "explanation": "Assyrian Empire: Military power",
+    "reasoning": "Iron weapons",
+    "steps": [
+      "Libraries",
+      "Brutal",
+      "Fell 612 BCE."
+    ],
+    "generatedAt": "2025-11-10T00:20:07.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_109",
+    "explanation": "Hebrew kingdoms: Israel, Judah",
+    "reasoning": "Monotheism",
+    "steps": [
+      "Prophets",
+      "Babylonian exile",
+      "Diaspora."
+    ],
+    "generatedAt": "2025-11-10T00:20:08.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_110",
+    "explanation": "Classical Athens: Democracy, philosophy, drama",
+    "reasoning": "Pericles",
+    "steps": [
+      "Parthenon",
+      "Golden Age 5th c BCE."
+    ],
+    "generatedAt": "2025-11-10T00:20:09.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_111",
+    "explanation": "Peloponnesian War: Athens vs Sparta 431-404 BCE",
+    "reasoning": "Plague",
+    "steps": [
+      "Sicilian disaster",
+      "Sparta won."
+    ],
+    "generatedAt": "2025-11-10T00:20:10.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_112",
+    "explanation": "Alexander the Great: Macedonian",
+    "reasoning": "Conquered Persia to India",
+    "steps": [
+      "Hellenistic culture",
+      "Died 323 BCE young."
+    ],
+    "generatedAt": "2025-11-10T00:20:11.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_113",
+    "explanation": "Hellenistic period: Greek culture spread",
+    "reasoning": "Alexandria",
+    "steps": [
+      "Science,  philosophy",
+      "Rome absorbed."
+    ],
+    "generatedAt": "2025-11-10T00:20:12.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_114",
+    "explanation": "Punic Wars: Rome vs Carthage",
+    "reasoning": "Hannibal",
+    "steps": [
+      "Three wars",
+      "Rome won",
+      "Carthage destroyed 146 BCE."
+    ],
+    "generatedAt": "2025-11-10T00:20:13.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_115",
+    "explanation": "Julius Caesar: General, dictator",
+    "reasoning": "Crossed Rubicon",
+    "steps": [
+      "Gallic Wars",
+      "Assassinated 44 BCE Ides March."
+    ],
+    "generatedAt": "2025-11-10T00:20:14.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_116",
+    "explanation": "Augustus: First emperor",
+    "reasoning": "Pax Romana begun",
+    "steps": [
+      "Principate",
+      "Golden age",
+      "Died 14 CE."
+    ],
+    "generatedAt": "2025-11-10T00:20:15.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_117",
+    "explanation": "Jesus of Nazareth: Jewish teacher",
+    "reasoning": "Christianity founded",
+    "steps": [
+      "Crucified ~30 CE",
+      "Apostles spread."
+    ],
+    "generatedAt": "2025-11-10T00:20:16.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_118",
+    "explanation": "Fall of Western Rome: 476 CE",
+    "reasoning": "Barbarian invasions",
+    "steps": [
+      "Economic decline",
+      "Eastern continued."
+    ],
+    "generatedAt": "2025-11-10T00:20:17.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_119",
+    "explanation": "Justinian: Byzantine emperor 527-65",
+    "reasoning": "Reconquered West",
+    "steps": [
+      "Hagia Sophia",
+      "Code",
+      "Plague."
+    ],
+    "generatedAt": "2025-11-10T00:20:18.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_120",
+    "explanation": "Muhammad: Prophet of Islam",
+    "reasoning": "570-632 CE",
+    "steps": [
+      "Quran",
+      "Medina, Mecca",
+      "Unified Arabia."
+    ],
+    "generatedAt": "2025-11-10T00:20:19.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_121",
+    "explanation": "Umayyad Caliphate: 661-750",
+    "reasoning": "Damascus",
+    "steps": [
+      "Expanded to Spain, Central Asia",
+      "Overthrown."
+    ],
+    "generatedAt": "2025-11-10T00:20:20.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_122",
+    "explanation": "Abbasid Caliphate: 750-1258",
+    "reasoning": "Baghdad",
+    "steps": [
+      "Golden Age",
+      "Mongols destroyed."
+    ],
+    "generatedAt": "2025-11-10T00:20:21.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_123",
+    "explanation": "Charlemagne: Frankish king",
+    "reasoning": "Crowned emperor 800",
+    "steps": [
+      "Carolingian Renaissance",
+      "Holy Roman Empire."
+    ],
+    "generatedAt": "2025-11-10T00:20:22.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_124",
+    "explanation": "Viking Age: 793-1066",
+    "reasoning": "Raids, trade, exploration",
+    "steps": [
+      "Normandy, Russia, Iceland, Greenland."
+    ],
+    "generatedAt": "2025-11-10T00:20:23.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_125",
+    "explanation": "Feudalism Europe: Hierarchical",
+    "reasoning": "Lords, vassals, serfs",
+    "steps": [
+      "Land for loyalty",
+      "Medieval system."
+    ],
+    "generatedAt": "2025-11-10T00:20:24.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_126",
+    "explanation": "Norman Conquest: 1066 Hastings",
+    "reasoning": "William",
+    "steps": [
+      "England transformed",
+      "Domesday Book."
+    ],
+    "generatedAt": "2025-11-10T00:20:25.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_127",
+    "explanation": "Investiture Controversy: Pope vs Emperor",
+    "reasoning": "Who appoints bishops? Concordat Worms 1122.",
+    "steps": [
+      "Analyze",
+      "Context"
+    ],
+    "generatedAt": "2025-11-10T00:20:26.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_128",
+    "explanation": "Reconquista: Christian reconquest Iberia",
+    "reasoning": "711-1492",
+    "steps": [
+      "Granada last",
+      "Inquisition followed."
+    ],
+    "generatedAt": "2025-11-10T00:20:27.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_129",
+    "explanation": "Fourth Crusade: 1202-04",
+    "reasoning": "Sacked Constantinople",
+    "steps": [
+      "Latin Empire",
+      "Weakened Byzantium fatally."
+    ],
+    "generatedAt": "2025-11-10T00:20:28.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_130",
+    "explanation": "Mongol conquests: Genghis Khan 1206",
+    "reasoning": "Largest contiguous empire",
+    "steps": [
+      "Pax Mongolica",
+      "Brutal."
+    ],
+    "generatedAt": "2025-11-10T00:20:29.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_131",
+    "explanation": "Black Death: 1347-51",
+    "reasoning": "From Asia",
+    "steps": [
+      "Killed 30-60% Europe",
+      "Recurring",
+      "Social revolution."
+    ],
+    "generatedAt": "2025-11-10T00:20:30.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_132",
+    "explanation": "Hundred Years War: 1337-1453",
+    "reasoning": "England-France",
+    "steps": [
+      "Joan of Arc",
+      "Longbow",
+      "France won."
+    ],
+    "generatedAt": "2025-11-10T00:20:31.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_133",
+    "explanation": "Fall of Constantinople: 1453",
+    "reasoning": "Ottoman Turks",
+    "steps": [
+      "End Byzantine Empire",
+      "Hagia Sophia mosque."
+    ],
+    "generatedAt": "2025-11-10T00:20:32.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_134",
+    "explanation": "Gutenberg Bible: 1455",
+    "reasoning": "First major printed book",
+    "steps": [
+      "Information revolution",
+      "Literacy spread."
+    ],
+    "generatedAt": "2025-11-10T00:20:33.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_135",
+    "explanation": "Columbian voyages: 1492-1504",
+    "reasoning": "Americas reached",
+    "steps": [
+      "Columbian Exchange",
+      "Colonization began."
+    ],
+    "generatedAt": "2025-11-10T00:20:34.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_136",
+    "explanation": "Magellan circumnavigation: 1519-22",
+    "reasoning": "First around world",
+    "steps": [
+      "Magellan killed Philippines",
+      "Crew completed."
+    ],
+    "generatedAt": "2025-11-10T00:20:35.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_137",
+    "explanation": "Cort\u00e9s conquers Aztecs: 1519-21",
+    "reasoning": "Smallpox, allies",
+    "steps": [
+      "Tenochtitlan razed",
+      "New Spain."
+    ],
+    "generatedAt": "2025-11-10T00:20:36.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_138",
+    "explanation": "Pizarro conquers Incas: 1532-72",
+    "reasoning": "Civil war, disease",
+    "steps": [
+      "Atahualpa executed",
+      "Peru Spanish."
+    ],
+    "generatedAt": "2025-11-10T00:20:37.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_139",
+    "explanation": "Council of Trent: 1545-63",
+    "reasoning": "Catholic Counter-Reformation",
+    "steps": [
+      "Reforms, reaffirmed doctrine."
+    ],
+    "generatedAt": "2025-11-10T00:20:38.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_140",
+    "explanation": "St",
+    "reasoning": "Bartholomew's Day Massacre: 1572 France",
+    "steps": [
+      "Catholics killed Huguenots",
+      "Religious wars."
+    ],
+    "generatedAt": "2025-11-10T00:20:39.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_141",
+    "explanation": "Dutch East India Company: 1602",
+    "reasoning": "First corporation",
+    "steps": [
+      "Asian trade",
+      "Immensely profitable."
+    ],
+    "generatedAt": "2025-11-10T00:20:40.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_142",
+    "explanation": "Jamestown: 1607",
+    "reasoning": "First permanent English colony America",
+    "steps": [
+      "Tobacco",
+      "Struggled initially."
+    ],
+    "generatedAt": "2025-11-10T00:20:41.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_143",
+    "explanation": "Thirty Years War: 1618-48",
+    "reasoning": "Last religious war Europe",
+    "steps": [
+      "Germany devastated",
+      "Westphalia Peace."
+    ],
+    "generatedAt": "2025-11-10T00:20:42.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_144",
+    "explanation": "English Civil War: 1642-51",
+    "reasoning": "King vs Parliament",
+    "steps": [
+      "Cromwell",
+      "Republic",
+      "Restoration 1660."
+    ],
+    "generatedAt": "2025-11-10T00:20:43.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_145",
+    "explanation": "Qing conquest China: 1644",
+    "reasoning": "Manchus",
+    "steps": [
+      "Last dynasty",
+      "Expanded",
+      "Opium Wars weakened."
+    ],
+    "generatedAt": "2025-11-10T00:20:44.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_146",
+    "explanation": "Glorious Revolution: 1688 England",
+    "reasoning": "Bloodless",
+    "steps": [
+      "William-Mary",
+      "Bill of Rights",
+      "Constitutional monarchy."
+    ],
+    "generatedAt": "2025-11-10T00:20:45.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_147",
+    "explanation": "War of Spanish Succession: 1701-14",
+    "reasoning": "European powers",
+    "steps": [
+      "Utrecht treaties",
+      "Britain gains."
+    ],
+    "generatedAt": "2025-11-10T00:20:46.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_148",
+    "explanation": "Seven Years War: 1756-63",
+    "reasoning": "First global war",
+    "steps": [
+      "Britain beat France",
+      "Colonial dominance."
+    ],
+    "generatedAt": "2025-11-10T00:20:47.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_149",
+    "explanation": "Industrial Revolution begins: 1760s Britain",
+    "reasoning": "Steam, iron, coal",
+    "steps": [
+      "Factories",
+      "Social transformation."
+    ],
+    "generatedAt": "2025-11-10T00:20:48.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_150",
+    "explanation": "American independence: 1776 Declaration",
+    "reasoning": "Revolutionary War",
+    "steps": [
+      "Republic",
+      "Constitution 1787."
+    ],
+    "generatedAt": "2025-11-10T00:20:49.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_151",
+    "explanation": "French Revolution begins: 1789 Bastille",
+    "reasoning": "Estates-General",
+    "steps": [
+      "Rights of Man",
+      "Radical phase."
+    ],
+    "generatedAt": "2025-11-10T00:20:50.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_152",
+    "explanation": "Reign of Terror: 1793-94",
+    "reasoning": "Robespierre",
+    "steps": [
+      "Guillotine thousands",
+      "Ended Thermidor."
+    ],
+    "generatedAt": "2025-11-10T00:20:51.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_153",
+    "explanation": "Napoleon emperor: 1804",
+    "reasoning": "Conquered Europe",
+    "steps": [
+      "Codes, reforms",
+      "Waterloo 1815."
+    ],
+    "generatedAt": "2025-11-10T00:20:52.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_154",
+    "explanation": "Congress of Vienna: 1815",
+    "reasoning": "Metternich",
+    "steps": [
+      "Conservative order",
+      "Balance power",
+      "Mostly held."
+    ],
+    "generatedAt": "2025-11-10T00:20:53.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_155",
+    "explanation": "Greek independence: 1821-32",
+    "reasoning": "Ottoman revolt",
+    "steps": [
+      "Byron",
+      "Great Powers helped",
+      "Kingdom."
+    ],
+    "generatedAt": "2025-11-10T00:20:54.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_156",
+    "explanation": "July Revolution France: 1830",
+    "reasoning": "Charles X overthrown",
+    "steps": [
+      "Louis Philippe",
+      "Bourgeois monarchy."
+    ],
+    "generatedAt": "2025-11-10T00:20:55.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_157",
+    "explanation": "British Reform Act: 1832",
+    "reasoning": "Extended vote",
+    "steps": [
+      "Rotten boroughs abolished",
+      "Middle class."
+    ],
+    "generatedAt": "2025-11-10T00:20:56.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_158",
+    "explanation": "Opium War First: 1839-42",
+    "reasoning": "Britain vs China",
+    "steps": [
+      "Unequal Treaty Nanjing",
+      "Hong Kong ceded."
+    ],
+    "generatedAt": "2025-11-10T00:20:57.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_159",
+    "explanation": "Communist Manifesto: 1848",
+    "reasoning": "Marx-Engels",
+    "steps": [
+      "Class struggle",
+      "Workers unite",
+      "Revolutionary."
+    ],
+    "generatedAt": "2025-11-10T00:20:58.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_160",
+    "explanation": "Crimean War: 1853-56",
+    "reasoning": "Russia vs coalition",
+    "steps": [
+      "Modern war",
+      "Nursing",
+      "Russia lost."
+    ],
+    "generatedAt": "2025-11-10T00:20:59.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_161",
+    "explanation": "Sepoy Rebellion: 1857 India",
+    "reasoning": "Against British",
+    "steps": [
+      "Brutally suppressed",
+      "Direct Crown rule."
+    ],
+    "generatedAt": "2025-11-10T00:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_162",
+    "explanation": "Unification Italy: 1859-70",
+    "reasoning": "Cavour, Garibaldi",
+    "steps": [
+      "Kingdom proclaimed 1861",
+      "Rome 1870."
+    ],
+    "generatedAt": "2025-11-10T00:20:01.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_163",
+    "explanation": "Emancipation US: 1863 Proclamation",
+    "reasoning": "Civil War",
+    "steps": [
+      "13th Amendment 1865",
+      "Reconstruction."
+    ],
+    "generatedAt": "2025-11-10T00:20:02.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_164",
+    "explanation": "Franco-Prussian War: 1870-71",
+    "reasoning": "Bismarck engineered",
+    "steps": [
+      "France defeated",
+      "German unification."
+    ],
+    "generatedAt": "2025-11-10T00:20:03.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_165",
+    "explanation": "Berlin Conference: 1884-85",
+    "reasoning": "European powers divided Africa",
+    "steps": [
+      "No Africans present."
+    ],
+    "generatedAt": "2025-11-10T00:20:04.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_166",
+    "explanation": "Sino-Japanese War: 1894-95",
+    "reasoning": "Japan won",
+    "steps": [
+      "Taiwan ceded",
+      "Korea independent",
+      "Power shift."
+    ],
+    "generatedAt": "2025-11-10T00:20:05.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_167",
+    "explanation": "Spanish-American War: 1898",
+    "reasoning": "US won",
+    "steps": [
+      "Cuba, Philippines, Puerto Rico, Guam."
+    ],
+    "generatedAt": "2025-11-10T00:20:06.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_168",
+    "explanation": "Boxer Rebellion: 1899-1901",
+    "reasoning": "Anti-foreign China",
+    "steps": [
+      "Eight nations crushed",
+      "Indemnity."
+    ],
+    "generatedAt": "2025-11-10T00:20:07.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_169",
+    "explanation": "Russo-Japanese War: 1904-05",
+    "reasoning": "Japan won",
+    "steps": [
+      "Port Arthur",
+      "First Asian over European."
+    ],
+    "generatedAt": "2025-11-10T00:20:08.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_170",
+    "explanation": "Young Turk Revolution: 1908",
+    "reasoning": "Ottoman modernizers",
+    "steps": [
+      "Constitution restored",
+      "Empire decline."
+    ],
+    "generatedAt": "2025-11-10T00:20:09.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_171",
+    "explanation": "Mexican Revolution: 1910-20",
+    "reasoning": "D\u00edaz overthrown",
+    "steps": [
+      "Land reform",
+      "Constitution 1917",
+      "PRI."
+    ],
+    "generatedAt": "2025-11-10T00:20:10.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_172",
+    "explanation": "Xinhai Revolution: 1911 China",
+    "reasoning": "Qing overthrown",
+    "steps": [
+      "Republic proclaimed",
+      "Warlord era."
+    ],
+    "generatedAt": "2025-11-10T00:20:11.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_173",
+    "explanation": "Balkan Wars: 1912-13",
+    "reasoning": "Ottoman territories",
+    "steps": [
+      "New nations",
+      "Powder keg",
+      "WWI catalyst."
+    ],
+    "generatedAt": "2025-11-10T00:20:12.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_174",
+    "explanation": "WWI begins: 1914",
+    "reasoning": "Archduke assassination",
+    "steps": [
+      "Alliances activated",
+      "Total war."
+    ],
+    "generatedAt": "2025-11-10T00:20:13.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_175",
+    "explanation": "Armenian genocide: 1915-17",
+    "reasoning": "Ottoman Empire",
+    "steps": [
+      "1.5 million killed",
+      "First modern genocide."
+    ],
+    "generatedAt": "2025-11-10T00:20:14.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_176",
+    "explanation": "Easter Rising: 1916 Ireland",
+    "reasoning": "Failed rebellion",
+    "steps": [
+      "Leaders executed",
+      "IRA formed."
+    ],
+    "generatedAt": "2025-11-10T00:20:15.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_177",
+    "explanation": "October Revolution: 1917 Russia",
+    "reasoning": "Bolsheviks",
+    "steps": [
+      "Lenin",
+      "Soviet Union",
+      "Civil war."
+    ],
+    "generatedAt": "2025-11-10T00:20:16.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_178",
+    "explanation": "Versailles Treaty: 1919",
+    "reasoning": "Harsh on Germany",
+    "steps": [
+      "League",
+      "Redrew map",
+      "WWII seeds."
+    ],
+    "generatedAt": "2025-11-10T00:20:17.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_179",
+    "explanation": "Amritsar Massacre: 1919 India",
+    "reasoning": "British fired on crowd",
+    "steps": [
+      "379 killed",
+      "Independence movement grew."
+    ],
+    "generatedAt": "2025-11-10T00:20:18.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_180",
+    "explanation": "Turkish War Independence: 1919-23",
+    "reasoning": "Ataturk",
+    "steps": [
+      "Ottoman Empire ended",
+      "Secular republic."
+    ],
+    "generatedAt": "2025-11-10T00:20:19.000Z"
   }
 ]
