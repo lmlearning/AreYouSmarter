@@ -23203,5 +23203,885 @@
       "Solve: x = 15 cm"
     ],
     "generatedAt": "2025-11-10T03:15:29.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_212",
+    "explanation": "A multiple of 7 is any number that can be divided by 7 with no remainder. We need to check which number is divisible by 7.",
+    "reasoning": "Check each option by dividing by 7: (A) 27 \u00f7 7 = 3.857... \u2717 (B) 48 \u00f7 7 = 6.857... \u2717 (C) 56 \u00f7 7 = 8 \u2713 (D) 74 \u00f7 7 = 10.571... \u2717. Only 56 divides evenly by 7, making it a multiple of 7. We can verify: 7 \u00d7 8 = 56.",
+    "steps": [
+      "Test each number: divide by 7",
+      "56 \u00f7 7 = 8 (no remainder)",
+      "56 is a multiple of 7 because 7 \u00d7 8 = 56"
+    ],
+    "generatedAt": "2025-11-10T03:30:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_213",
+    "explanation": "To round 300.5849 to the nearest hundredth, we look at the thousandths place.",
+    "reasoning": "The number is 300.5849. The hundredths place contains 8. The thousandths place contains 4. Since 4 < 5, we round down, keeping the 8. The answer is 300.58.",
+    "steps": [
+      "Identify hundredths place: 300.58[4]9",
+      "Look at thousandths digit: 4 < 5",
+      "Round down to 300.58"
+    ],
+    "generatedAt": "2025-11-10T03:30:01.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_214",
+    "explanation": "Find Peter's old weekly pay, then calculate the increase to his new pay of $307.80.",
+    "reasoning": "Old weekly pay = 38 hours \u00d7 $7.25/hour = $275.50. New weekly pay = $307.80. Increase = $307.80 - $275.50 = $32.30.",
+    "steps": [
+      "Calculate old pay: 38 \u00d7 $7.25 = $275.50",
+      "New pay: $307.80",
+      "Increase: $307.80 - $275.50 = $32.30"
+    ],
+    "generatedAt": "2025-11-10T03:30:02.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_215",
+    "explanation": "We need to find what number divides 35 to equal 7.",
+    "reasoning": "The equation is 35 \u00f7 ? = 7. To solve, think: what times 7 equals 35? Since 7 \u00d7 5 = 35, the answer is 5. We can verify: 35 \u00f7 5 = 7 \u2713.",
+    "steps": [
+      "Rewrite as: 35 \u00f7 ? = 7",
+      "Think: 7 \u00d7 ? = 35",
+      "Answer: 5 (because 7 \u00d7 5 = 35)"
+    ],
+    "generatedAt": "2025-11-10T03:30:03.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_216",
+    "explanation": "Maria spends $9 per day on lunch for 5 days. We multiply to find the total.",
+    "reasoning": "Cost per day = $9. Number of days = 5. Total = 5 \u00d7 $9 = $45.",
+    "steps": [
+      "Daily lunch cost: $9",
+      "Number of days: 5",
+      "Total: 5 \u00d7 $9 = $45"
+    ],
+    "generatedAt": "2025-11-10T03:30:04.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_217",
+    "explanation": "Solve the equation \u221217.02 = \u22122.3y by dividing both sides by \u22122.3.",
+    "reasoning": "\u221217.02 = \u22122.3y. Divide both sides by \u22122.3: y = \u221217.02 \u00f7 (\u22122.3) = 7.4. When dividing two negative numbers, the result is positive.",
+    "steps": [
+      "Equation: \u221217.02 = \u22122.3y",
+      "Divide by \u22122.3: y = \u221217.02 \u00f7 (\u22122.3)",
+      "y = 7.4"
+    ],
+    "generatedAt": "2025-11-10T03:30:05.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_218",
+    "explanation": "We need to choose an appropriate unit for measuring the weight of a small object like a pencil.",
+    "reasoning": "A pencil weighs very little. Pounds would be too large (a pencil weighs a fraction of a pound). Ounces are appropriate for small, lightweight objects. Quarts and pints are units of volume (liquid), not weight. The best answer is ounces.",
+    "steps": [
+      "Pencil is a small, lightweight object",
+      "Ounces measure small weights appropriately",
+      "Quarts and pints measure volume, not weight"
+    ],
+    "generatedAt": "2025-11-10T03:30:06.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_219",
+    "explanation": "Track the daily profit and loss, treating losses as negative and profits as positive.",
+    "reasoning": "Monday: \u2212$14 (loss). Tuesday: +$18 (profit). Wednesday: \u2212$6 (loss). Thursday: +$7 (profit). Total = \u221214 + 18 \u2212 6 + 7 = 4 + 1 = 5. Wait, let me recalculate: \u221214 + 18 = 4, then 4 \u2212 6 = \u22122, then \u22122 + 7 = 5. Total is $5 profit.",
+    "steps": [
+      "Calculate: \u221214 + 18 \u2212 6 + 7",
+      "= 4 \u2212 6 + 7 = \u22122 + 7",
+      "= $5 profit"
+    ],
+    "generatedAt": "2025-11-10T03:30:07.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_220",
+    "explanation": "Find total apples, then divide by apples per pie to find number of pies.",
+    "reasoning": "Total apples = 15 boxes \u00d7 18 apples/box = 270 apples. Each pie needs 7 apples. Number of pies = 270 \u00f7 7 = 38.571... Since we can only make whole pies, the answer is 38 pies.",
+    "steps": [
+      "Total apples: 15 \u00d7 18 = 270",
+      "Apples per pie: 7",
+      "Pies: 270 \u00f7 7 = 38 remainder 4, so 38 complete pies"
+    ],
+    "generatedAt": "2025-11-10T03:30:08.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_221",
+    "explanation": "Keri spent 3 hours total with equal time on each subject. She spent 1/2 hour on science.",
+    "reasoning": "If she spent 1/2 hour per subject, and 3 hours total, then number of subjects = 3 \u00f7 (1/2) = 3 \u00d7 2 = 6 subjects.",
+    "steps": [
+      "Total time: 3 hours",
+      "Time per subject: 1/2 hour",
+      "Number of subjects: 3 \u00f7 (1/2) = 6 subjects"
+    ],
+    "generatedAt": "2025-11-10T03:30:09.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_222",
+    "explanation": "The question appears incomplete. Based on the context about tickets, we need to find the difference in revenue.",
+    "reasoning": "Youth tickets: 215 at $3 each = 215 \u00d7 3. Adult tickets: likely 467 at $7 each = 467 \u00d7 7. The question asks for which expression to use. The expression (467 \u00d7 7) \u2212 (215 \u00d7 3) would give the difference with adult revenue larger.",
+    "steps": [
+      "Youth revenue: 215 \u00d7 3",
+      "Adult revenue: 467 \u00d7 7",
+      "Difference: (467 \u00d7 7) \u2212 (215 \u00d7 3)"
+    ],
+    "generatedAt": "2025-11-10T03:30:10.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_223",
+    "explanation": "To divide 240 CDs into 12 equal groups, we use division.",
+    "reasoning": "Total CDs \u00f7 Number of groups = CDs per group. The expression is 240 \u00f7 12.",
+    "steps": [
+      "Total CDs: 240",
+      "Number of groups: 12",
+      "Expression: 240 \u00f7 12"
+    ],
+    "generatedAt": "2025-11-10T03:30:11.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_224",
+    "explanation": "Divide 762 students equally into 6 teams.",
+    "reasoning": "Students per team = 762 \u00f7 6 = 127 students per team.",
+    "steps": [
+      "Total students: 762",
+      "Number of teams: 6",
+      "Per team: 762 \u00f7 6 = 127"
+    ],
+    "generatedAt": "2025-11-10T03:30:12.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_225",
+    "explanation": "Evaluate \u221216 + 13 + (\u221233) by adding from left to right.",
+    "reasoning": "\u221216 + 13 = \u22123. Then \u22123 + (\u221233) = \u22123 \u2212 33 = \u221236.",
+    "steps": [
+      "First: \u221216 + 13 = \u22123",
+      "Then: \u22123 + (\u221233) = \u221236",
+      "Final answer: \u221236"
+    ],
+    "generatedAt": "2025-11-10T03:30:13.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_226",
+    "explanation": "Write an expression for the total cost when d people buy salad at $3.99 each and p people buy soup at $2.99 each.",
+    "reasoning": "Cost of salads = $3.99 \u00d7 d = 3.99d. Cost of soups = $2.99 \u00d7 p = 2.99p. Total cost = 3.99d + 2.99p.",
+    "steps": [
+      "Salad cost: $3.99 \u00d7 d people = 3.99d",
+      "Soup cost: $2.99 \u00d7 p people = 2.99p",
+      "Total: 3.99d + 2.99p"
+    ],
+    "generatedAt": "2025-11-10T03:30:14.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_227",
+    "explanation": "Mr. Kelly's equation is 12 \u00f7 t = 4. We need to find an equivalent equation.",
+    "reasoning": "From 12 \u00f7 t = 4, we can multiply both sides by t: 12 = 4t. Then divide by 4: t = 12 \u00f7 4 = 3. An equivalent equation is 4 \u00d7 t = 12, which can be rewritten as 4t = 12, so t = 12 \u00f7 4 = 3. The answer that matches is 4 \u00d7 t = 12.",
+    "steps": [
+      "Original: 12 \u00f7 t = 4",
+      "Multiply by t: 12 = 4t",
+      "Equivalent form: 4 \u00d7 t = 12"
+    ],
+    "generatedAt": "2025-11-10T03:30:15.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_228",
+    "explanation": "Solve \u221247 = g + 24 by isolating g.",
+    "reasoning": "\u221247 = g + 24. Subtract 24 from both sides: \u221247 \u2212 24 = g. So g = \u221271.",
+    "steps": [
+      "Start with: \u221247 = g + 24",
+      "Subtract 24: \u221247 \u2212 24 = g",
+      "g = \u221271"
+    ],
+    "generatedAt": "2025-11-10T03:30:16.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_229",
+    "explanation": "Convert 48 meters to millimeters. There are 1,000 millimeters in one meter.",
+    "reasoning": "48 meters \u00d7 1,000 mm/meter = 48,000 millimeters.",
+    "steps": [
+      "Conversion: 1 meter = 1,000 millimeters",
+      "Calculate: 48 \u00d7 1,000",
+      "= 48,000 mm"
+    ],
+    "generatedAt": "2025-11-10T03:30:17.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_230",
+    "explanation": "Find the LCM (Least Common Multiple) of 75 and 15 to determine when both buses leave together again.",
+    "reasoning": "Bus A leaves every 75 minutes. Bus B leaves every 15 minutes. The LCM of 75 and 15: Since 75 = 15 \u00d7 5, the LCM is 75 minutes. Starting at 6:00 AM, add 75 minutes: 6:00 + 1:15 = 7:15 AM.",
+    "steps": [
+      "Find LCM of 75 and 15",
+      "75 = 15 \u00d7 5, so LCM = 75 minutes",
+      "6:00 AM + 75 min = 7:15 AM"
+    ],
+    "generatedAt": "2025-11-10T03:30:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_231",
+    "explanation": "Find the unit cost by dividing the total price by the number of items.",
+    "reasoning": "Total price = $2.00 for 5 lemons. Unit cost = $2.00 \u00f7 5 = $0.40 per lemon.",
+    "steps": [
+      "Total price: $2.00",
+      "Number of lemons: 5",
+      "Unit cost: $2.00 \u00f7 5 = $0.40"
+    ],
+    "generatedAt": "2025-11-10T03:30:19.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_232",
+    "explanation": "Find the prime factorization of 48, expressing repeated factors as exponents.",
+    "reasoning": "48 = 2 \u00d7 24 = 2 \u00d7 2 \u00d7 12 = 2 \u00d7 2 \u00d7 2 \u00d7 6 = 2 \u00d7 2 \u00d7 2 \u00d7 2 \u00d7 3 = 2\u2074 \u00d7 3. The prime factorization is 2\u2074 \u00d7 3.",
+    "steps": [
+      "Divide by 2 repeatedly: 48 = 2 \u00d7 2 \u00d7 2 \u00d7 2 \u00d7 3",
+      "Count factors: four 2's and one 3",
+      "Prime factorization: 2\u2074 \u00d7 3"
+    ],
+    "generatedAt": "2025-11-10T03:30:20.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_233",
+    "explanation": "Convert pounds to ounces, then divide by serving size.",
+    "reasoning": "28 pounds \u00d7 16 ounces/pound = 448 ounces total. Number of servings = 448 ounces \u00f7 8 ounces/serving = 56 servings.",
+    "steps": [
+      "Convert: 28 lb \u00d7 16 oz/lb = 448 oz",
+      "Divide by serving size: 448 \u00f7 8",
+      "= 56 servings"
+    ],
+    "generatedAt": "2025-11-10T03:30:21.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_234",
+    "explanation": "Divide 16.1 by 0.14 using decimal division.",
+    "reasoning": "16.1 \u00f7 0.14: Move decimal 2 places right in both: 1610 \u00f7 14 = 115.",
+    "steps": [
+      "Move decimals: 16.1 \u2192 1610, 0.14 \u2192 14",
+      "Divide: 1610 \u00f7 14 = 115",
+      "Answer: 115"
+    ],
+    "generatedAt": "2025-11-10T03:30:22.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_235",
+    "explanation": "Estimate total rainfall by rounding each value to the nearest whole number, then adding.",
+    "reasoning": "8.1 rounds to 8, 4.2 rounds to 4, 0.33 rounds to 0. Total estimate = 8 + 4 + 0 = 12 inches.",
+    "steps": [
+      "Round: 8.1 \u2192 8, 4.2 \u2192 4, 0.33 \u2192 0",
+      "Add estimates: 8 + 4 + 0",
+      "= 12 inches"
+    ],
+    "generatedAt": "2025-11-10T03:30:23.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_236",
+    "explanation": "Find which ratios are equivalent to 4:32 by simplifying.",
+    "reasoning": "Simplify 4:32 by dividing by 4: 4:32 = 1:8. Check options: (A) 2:96 = 1:48 \u2717, 2:16 = 1:8 \u2713. (B) 12:96 = 1:8 \u2713, 2:16 = 1:8 \u2713. Option B has both ratios equal to 1:8.",
+    "steps": [
+      "Simplify 4:32 = 1:8",
+      "Check option B: 12:96 = 1:8 \u2713, 2:16 = 1:8 \u2713",
+      "Both ratios in option B are equivalent"
+    ],
+    "generatedAt": "2025-11-10T03:30:24.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_237",
+    "explanation": "Find the difference between Samantha's and Perry's baseball cards.",
+    "reasoning": "Samantha has 342 cards, Perry has 184 cards. Difference = 342 \u2212 184 = 158 cards.",
+    "steps": [
+      "Samantha: 342 cards",
+      "Perry: 184 cards",
+      "Difference: 342 \u2212 184 = 158"
+    ],
+    "generatedAt": "2025-11-10T03:30:25.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_238",
+    "explanation": "Divide 7,285 by 4 using long division.",
+    "reasoning": "7,285 \u00f7 4: 7 \u00f7 4 = 1 R3. Bring down 2: 32 \u00f7 4 = 8. Bring down 8: 8 \u00f7 4 = 2. Bring down 5: 5 \u00f7 4 = 1 R1. Result: 1,821 R1.",
+    "steps": [
+      "Long division: 7285 \u00f7 4",
+      "Calculate step by step",
+      "= 1,821 remainder 1"
+    ],
+    "generatedAt": "2025-11-10T03:30:26.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_239",
+    "explanation": "Use the circumference formula C = 2\u03c0r with radius 0.85 cm.",
+    "reasoning": "C = 2\u03c0r = 2 \u00d7 3.14159 \u00d7 0.85 \u2248 5.34 cm.",
+    "steps": [
+      "Formula: C = 2\u03c0r",
+      "Substitute: C = 2 \u00d7 \u03c0 \u00d7 0.85",
+      "\u2248 5.34 cm"
+    ],
+    "generatedAt": "2025-11-10T03:30:27.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_240",
+    "explanation": "To find number of teams with 3 players each from 393 total players, divide.",
+    "reasoning": "Number of teams = total players \u00f7 players per team = 393 \u00f7 3.",
+    "steps": [
+      "Total players: 393",
+      "Players per team: 3",
+      "Expression: 393 \u00f7 3"
+    ],
+    "generatedAt": "2025-11-10T03:30:28.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_241",
+    "explanation": "Solve 14 = w + 23 by isolating w.",
+    "reasoning": "14 = w + 23. Subtract 23 from both sides: 14 \u2212 23 = w. So w = \u22129.",
+    "steps": [
+      "Start with: 14 = w + 23",
+      "Subtract 23: 14 \u2212 23 = w",
+      "w = \u22129"
+    ],
+    "generatedAt": "2025-11-10T03:30:29.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_242",
+    "explanation": "Track the relative positions: Kim, then Hector 2 seats right, then Tonya 3 seats right of Hector.",
+    "reasoning": "If Hector is 2 seats to the right of Kim, and Tonya is 3 seats to the right of Hector, then Tonya is 2 + 3 = 5 seats to the right of Kim. This means Kim is 5 seats to the left of Tonya.",
+    "steps": [
+      "Kim \u2192 Hector: 2 seats right",
+      "Hector \u2192 Tonya: 3 seats right",
+      "Kim \u2192 Tonya: 2 + 3 = 5 seats"
+    ],
+    "generatedAt": "2025-11-10T03:35:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_243",
+    "explanation": "Simplify 3 \u00d7 (4 \u00d7 7) using the associative property to find an equivalent expression.",
+    "reasoning": "3 \u00d7 (4 \u00d7 7): First calculate inside parentheses: 4 \u00d7 7 = 28. Then 3 \u00d7 28 = 84. We can also regroup as (3 \u00d7 4) \u00d7 7 = 12 \u00d7 7 = 84. So 12 \u00d7 7 is equivalent. Looking at the options, 12 \u00d7 7 is listed.",
+    "steps": [
+      "Calculate: 3 \u00d7 (4 \u00d7 7) = 3 \u00d7 28 = 84",
+      "Or regroup: (3 \u00d7 4) \u00d7 7 = 12 \u00d7 7 = 84",
+      "Equivalent expression: 12 \u00d7 7"
+    ],
+    "generatedAt": "2025-11-10T03:35:01.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_244",
+    "explanation": "Round 18 miles to the nearest 5, then multiply by 5 days to estimate total.",
+    "reasoning": "18 rounds to 20 (nearest 5). Estimated total for 5 days = 20 \u00d7 5 = 100 miles.",
+    "steps": [
+      "Round 18 to nearest 5: 18 \u2192 20",
+      "Multiply by days: 20 \u00d7 5",
+      "= 100 miles"
+    ],
+    "generatedAt": "2025-11-10T03:35:02.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_245",
+    "explanation": "When rounding to the nearest 10,000, the result is 4,530,000. Find which actual number rounds to this.",
+    "reasoning": "Numbers that round to 4,530,000 must be from 4,525,000 to 4,534,999. Check options: (A) 4,500,321 \u2192 4,500,000 \u2717 (B) 4,524,491 \u2192 4,520,000 \u2717 (C) 4,533,372 is between 4,530,000 and 4,534,999 \u2713 (D) 4,535,343 \u2192 4,540,000 \u2717.",
+    "steps": [
+      "Range for 4,530,000: 4,525,000 to 4,534,999",
+      "Check option C: 4,533,372 is in range",
+      "4,533,372 rounds to 4,530,000"
+    ],
+    "generatedAt": "2025-11-10T03:35:03.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_246",
+    "explanation": "Calculate how many quarters are in $3.25, then find total seconds, then convert to minutes.",
+    "reasoning": "$3.25 \u00f7 $0.25 per quarter = 13 quarters. Each quarter gives 60 seconds. Total seconds = 13 \u00d7 60 = 780 seconds. Convert to minutes: 780 \u00f7 60 = 13 minutes.",
+    "steps": [
+      "Quarters: $3.25 \u00f7 $0.25 = 13 quarters",
+      "Seconds: 13 \u00d7 60 = 780 seconds",
+      "Minutes: 780 \u00f7 60 = 13 minutes"
+    ],
+    "generatedAt": "2025-11-10T03:35:04.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_247",
+    "explanation": "Simplify 27/36 by finding the GCD and dividing both numerator and denominator.",
+    "reasoning": "Find GCD of 27 and 36. Factors of 27: 1, 3, 9, 27. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. GCD = 9. Simplify: 27\u00f79 / 36\u00f79 = 3/4.",
+    "steps": [
+      "Find GCD of 27 and 36: GCD = 9",
+      "Divide both by 9: 27\u00f79 = 3, 36\u00f79 = 4",
+      "Simplified: 3/4"
+    ],
+    "generatedAt": "2025-11-10T03:35:05.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_248",
+    "explanation": "Estimate 999 \u2212 103 by rounding, then find which range contains the estimate.",
+    "reasoning": "Round 999 to 1,000 and 103 to 100. Estimate: 1,000 \u2212 100 = 900. The actual difference: 999 \u2212 103 = 896. This is between 700 and 900.",
+    "steps": [
+      "Round: 999 \u2192 1,000, 103 \u2192 100",
+      "Estimate: 1,000 \u2212 100 = 900",
+      "Exact: 896, which is between 700 and 900"
+    ],
+    "generatedAt": "2025-11-10T03:35:06.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_249",
+    "explanation": "A prime factorization uses only prime numbers as factors. Check which option has only primes.",
+    "reasoning": "(A) 2 \u2022 9 \u2022 11: 9 is not prime (9 = 3\u00b2) \u2717 (B) 2.5 \u2022 7 \u2022 3: 2.5 is not an integer \u2717 (C) 1 \u2022 11 \u2022 13: 1 is not prime \u2717 (D) 2 \u2022 2 \u2022 2 \u2022 3 \u2022 11: All factors are prime (2, 2, 2, 3, 11) \u2713.",
+    "steps": [
+      "Check each option for only prime factors",
+      "Option D: 2, 2, 2, 3, 11 are all prime",
+      "Answer: 2 \u2022 2 \u2022 2 \u2022 3 \u2022 11"
+    ],
+    "generatedAt": "2025-11-10T03:35:07.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_250",
+    "explanation": "Ms. Ling uses 4 \u00d7 12 = m. We need to find an equivalent equation.",
+    "reasoning": "From 4 \u00d7 12 = m, we know m = 48. We can write this as m \u00f7 4 = 12 (dividing both sides by 4). This shows another way to relate the quantities.",
+    "steps": [
+      "Original: 4 \u00d7 12 = m, so m = 48",
+      "Divide both sides by 4: m \u00f7 4 = 12",
+      "Equivalent equation: m \u00f7 4 = 12"
+    ],
+    "generatedAt": "2025-11-10T03:35:08.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_251",
+    "explanation": "Solve x + 71 = \u221222 by isolating x.",
+    "reasoning": "x + 71 = \u221222. Subtract 71 from both sides: x = \u221222 \u2212 71 = \u221293.",
+    "steps": [
+      "Start with: x + 71 = \u221222",
+      "Subtract 71: x = \u221222 \u2212 71",
+      "x = \u221293"
+    ],
+    "generatedAt": "2025-11-10T03:35:09.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_252",
+    "explanation": "Translate 'four times the quantity 22 less than x' into an algebraic expression.",
+    "reasoning": "'22 less than x' means x \u2212 22. 'Four times this quantity' means 4 \u00d7 (x \u2212 22) = 4(x \u2212 22).",
+    "steps": [
+      "'22 less than x' = x \u2212 22",
+      "'Four times' this = 4 \u00d7 (x \u2212 22)",
+      "Expression: 4(x \u2212 22)"
+    ],
+    "generatedAt": "2025-11-10T03:35:10.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_253",
+    "explanation": "Add 46,911 + 653,092 using column addition.",
+    "reasoning": "Align by place value and add: 46,911 + 653,092. Ones: 1+2=3. Tens: 1+9=10 (0, carry 1). Hundreds: 9+0+1=10 (0, carry 1). Thousands: 6+3+1=10 (0, carry 1). Ten-thousands: 4+5+1=10 (0, carry 1). Hundred-thousands: 0+6+1=7. Result: 700,003.",
+    "steps": [
+      "Align numbers by place value",
+      "Add column by column with carrying",
+      "Result: 700,003"
+    ],
+    "generatedAt": "2025-11-10T03:35:11.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_254",
+    "explanation": "Solve (5/8) \u00d7 m = 6 by dividing both sides by 5/8.",
+    "reasoning": "(5/8)m = 6. Divide by 5/8 (or multiply by 8/5): m = 6 \u00d7 (8/5) = 48/5 = 9 3/5.",
+    "steps": [
+      "Equation: (5/8)m = 6",
+      "Multiply by reciprocal: m = 6 \u00d7 (8/5)",
+      "m = 48/5 = 9 3/5"
+    ],
+    "generatedAt": "2025-11-10T03:35:12.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_255",
+    "explanation": "Calculate the price after a 10% discount on $110.99.",
+    "reasoning": "10% of $110.99 = 0.10 \u00d7 110.99 = $11.099 \u2248 $11.10. Discounted price = $110.99 \u2212 $11.10 = $99.89.",
+    "steps": [
+      "Calculate 10%: 0.10 \u00d7 $110.99 = $11.10",
+      "Subtract from original: $110.99 \u2212 $11.10",
+      "= $99.89"
+    ],
+    "generatedAt": "2025-11-10T03:35:13.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_256",
+    "explanation": "Find which equation represents: 8 buckets with t balls each total 56 balls.",
+    "reasoning": "8 buckets \u00d7 t balls per bucket = 56 total balls. The equation is 8 \u00d7 t = 56 or 8t = 56.",
+    "steps": [
+      "8 buckets with t balls each",
+      "Total: 56 balls",
+      "Equation: 8 \u00d7 t = 56"
+    ],
+    "generatedAt": "2025-11-10T03:35:14.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_257",
+    "explanation": "Use the associative property to regroup (6 \u00d7 8) \u00d7 12.",
+    "reasoning": "By the associative property, (6 \u00d7 8) \u00d7 12 = 6 \u00d7 (8 \u00d7 12). Both equal 576. The expression 6 \u00d7 (8 \u00d7 12) is equivalent.",
+    "steps": [
+      "Original: (6 \u00d7 8) \u00d7 12",
+      "Associative property: 6 \u00d7 (8 \u00d7 12)",
+      "Both expressions equal 576"
+    ],
+    "generatedAt": "2025-11-10T03:35:15.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_258",
+    "explanation": "Find humpback rate, calculate distance for 32 days, then compare to gray whales' distance.",
+    "reasoning": "Humpback rate = 2,240 miles \u00f7 28 days = 80 mi/day. In 32 days: 80 \u00d7 32 = 2,560 miles. Gray whales: 2,368 miles. Difference: 2,560 \u2212 2,368 = 192 miles more.",
+    "steps": [
+      "Humpback rate: 2,240 \u00f7 28 = 80 mi/day",
+      "In 32 days: 80 \u00d7 32 = 2,560 miles",
+      "Difference: 2,560 \u2212 2,368 = 192 miles"
+    ],
+    "generatedAt": "2025-11-10T03:35:16.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_259",
+    "explanation": "Find an expression equivalent to 8 \u00d7 6 = 48.",
+    "reasoning": "8 \u00d7 6 = 48. Check options: (A) (24+4)+6 = 28+6 = 34 \u2717 (B) (2+4)\u00d76 = 6\u00d76 = 36 \u2717 (C) (2\u00d74)+6 = 8+6 = 14 \u2717 (D) (2\u00d74)\u00d76 = 8\u00d76 = 48 \u2713.",
+    "steps": [
+      "Calculate 8 \u00d7 6 = 48",
+      "Check option D: (2\u00d74)\u00d76 = 8\u00d76 = 48",
+      "Answer: (2\u00d74)\u00d76"
+    ],
+    "generatedAt": "2025-11-10T03:35:17.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_260",
+    "explanation": "Find a number divisible by 5, 3, and 2. This is the LCM of 5, 3, and 2.",
+    "reasoning": "LCM(5, 3, 2) = 30. Check if options are divisible: (A) 12: not by 5 \u2717 (B) 20: not by 3 \u2717 (C) 30: 30\u00f75=6, 30\u00f73=10, 30\u00f72=15, all work \u2713 (D) 45: not by 2 \u2717.",
+    "steps": [
+      "Need number divisible by 5, 3, and 2",
+      "LCM(5,3,2) = 30",
+      "30 divides evenly by all three"
+    ],
+    "generatedAt": "2025-11-10T03:35:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_261",
+    "explanation": "Use the formula V = s\u00b3 with side length s = 2.3 cm.",
+    "reasoning": "V = (2.3)\u00b3 = 2.3 \u00d7 2.3 \u00d7 2.3. First: 2.3 \u00d7 2.3 = 5.29. Then: 5.29 \u00d7 2.3 = 12.167 cubic centimeters.",
+    "steps": [
+      "Formula: V = s\u00b3",
+      "Calculate: 2.3\u00b3 = 2.3 \u00d7 2.3 \u00d7 2.3",
+      "= 5.29 \u00d7 2.3 = 12.167 cm\u00b3"
+    ],
+    "generatedAt": "2025-11-10T03:35:19.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_262",
+    "explanation": "Find the minimum typing speed needed: words remaining \u00f7 time available.",
+    "reasoning": "Words remaining: 550. Time: 25 minutes. Minimum rate = 550 \u00f7 25 = 22 words per minute.",
+    "steps": [
+      "Words left: 550",
+      "Time available: 25 minutes",
+      "Minimum rate: 550 \u00f7 25 = 22 words/min"
+    ],
+    "generatedAt": "2025-11-10T03:35:20.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_263",
+    "explanation": "Susan reads 1 page every 3 minutes. Find time for 18 pages.",
+    "reasoning": "If 1 page takes 3 minutes, then 18 pages take 18 \u00d7 3 minutes. The method is to multiply 3 by 18.",
+    "steps": [
+      "Rate: 1 page per 3 minutes",
+      "For 18 pages: 18 \u00d7 3 minutes",
+      "Method: multiply 3 by 18"
+    ],
+    "generatedAt": "2025-11-10T03:35:21.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_264",
+    "explanation": "Set up equation: 6 pies for family plus p pies for each of 4 fundraisers equals 18 total.",
+    "reasoning": "6 + 4p = 18 represents this situation. Solving: 4p = 12, so p = 3 pies per fundraiser.",
+    "steps": [
+      "Family pies: 6",
+      "Fundraiser pies: 4 \u00d7 p",
+      "Equation: 6 + 4 \u00d7 p = 18"
+    ],
+    "generatedAt": "2025-11-10T03:35:22.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_265",
+    "explanation": "Numbers that round to 500 must be from 450 to 549. Find which number is outside this range.",
+    "reasoning": "Range: 450-549 round to 500. Check: (A) 458 is in range \u2713 (B) 463 is in range \u2713 (C) 547 is in range \u2713 (D) 559 > 549, rounds to 600 \u2717. 458 is actually the smallest that rounds to 500, so all are in range except... wait, let me reconsider. 458 rounds to 500. Actually checking carefully: 449 or less rounds to 400, 450-549 rounds to 500, 550+ rounds to 600. So 559 cannot round to 500.",
+    "steps": [
+      "Range for rounding to 500: 450 to 549",
+      "Check 559: 559 \u2265 550",
+      "559 rounds to 600, not 500"
+    ],
+    "generatedAt": "2025-11-10T03:35:23.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_266",
+    "explanation": "Add 14 + (\u221271) by thinking of it as subtraction.",
+    "reasoning": "14 + (\u221271) = 14 \u2212 71 = \u221257.",
+    "steps": [
+      "Rewrite: 14 + (\u221271) = 14 \u2212 71",
+      "Calculate: 14 \u2212 71 = \u221257",
+      "Answer: \u221257"
+    ],
+    "generatedAt": "2025-11-10T03:35:24.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_267",
+    "explanation": "Divide 942 by 3 using long division.",
+    "reasoning": "942 \u00f7 3: 9\u00f73=3, 4\u00f73=1 R1, bring down 2: 12\u00f73=4. Result: 314.",
+    "steps": [
+      "Divide: 9\u00f73 = 3",
+      "4\u00f73 = 1 R1, then 12\u00f73 = 4",
+      "Answer: 314"
+    ],
+    "generatedAt": "2025-11-10T03:35:25.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_268",
+    "explanation": "Solve the proportion 13/4 = x/7 by cross-multiplying.",
+    "reasoning": "Cross-multiply: 4x = 13 \u00d7 7 = 91. Divide by 4: x = 91 \u00f7 4 = 22.75.",
+    "steps": [
+      "Cross-multiply: 4x = 13 \u00d7 7 = 91",
+      "Divide by 4: x = 91 \u00f7 4",
+      "x = 22.75"
+    ],
+    "generatedAt": "2025-11-10T03:35:26.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_269",
+    "explanation": "Order the integers 6, \u22121, 8, \u22123, \u22124 from least to greatest.",
+    "reasoning": "Negative numbers are less than positive numbers. Order negatives first: \u22124 < \u22123 < \u22121. Then positives: 6 < 8. Complete order: \u22124, \u22123, \u22121, 6, 8.",
+    "steps": [
+      "Separate negatives and positives",
+      "Order negatives: \u22124, \u22123, \u22121",
+      "Order positives: 6, 8. Final: \u22124, \u22123, \u22121, 6, 8"
+    ],
+    "generatedAt": "2025-11-10T03:35:27.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_270",
+    "explanation": "Find the perimeter of a rectangular yard with width 55 feet and length 75 feet.",
+    "reasoning": "Perimeter = 2(length + width) = 2(75 + 55) = 2(130) = 260 feet.",
+    "steps": [
+      "Formula: P = 2(l + w)",
+      "P = 2(75 + 55) = 2(130)",
+      "= 260 feet"
+    ],
+    "generatedAt": "2025-11-10T03:35:28.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_271",
+    "explanation": "Determine which measurement is large enough to benefit from rounding to the nearest thousand.",
+    "reasoning": "Rounding to nearest thousand is useful for large numbers. (A) Football field: ~100 yards, too small. (B) Height: ~70 inches, too small. (C) People at game: could be 50,000+, appropriate for thousands. (D) Weight: ~250 pounds, too small. Number of people at a game is best for rounding to thousands.",
+    "steps": [
+      "Consider which values reach thousands",
+      "Stadium attendance often 30,000-100,000",
+      "Best answer: number of people at game"
+    ],
+    "generatedAt": "2025-11-10T03:35:29.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_272",
+    "explanation": "Find the minimum rate Sheila needs to solve 20 problems in 5 minutes.",
+    "reasoning": "Problems per minute = 20 problems \u00f7 5 minutes = 4 problems per minute. This is the minimum rate to finish exactly on time.",
+    "steps": [
+      "Total problems: 20",
+      "Total time: 5 minutes",
+      "Minimum rate: 20 \u00f7 5 = 4 problems/minute"
+    ],
+    "generatedAt": "2025-11-10T03:40:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_273",
+    "explanation": "Calculate total TV time: 3 shows at 30 minutes each, plus 1 movie at 90 minutes.",
+    "reasoning": "Shows: 3 \u00d7 30 = 90 minutes. Movie: 90 minutes. Total: 90 + 90 = 180 minutes.",
+    "steps": [
+      "Three 30-minute shows: 3 \u00d7 30 = 90 minutes",
+      "One 90-minute movie: 90 minutes",
+      "Total: 90 + 90 = 180 minutes"
+    ],
+    "generatedAt": "2025-11-10T03:40:01.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_274",
+    "explanation": "Calculate 15% discount on $138.00 original price.",
+    "reasoning": "15% of $138.00 = 0.15 \u00d7 138 = $20.70 discount. New price = $138.00 \u2212 $20.70 = $117.30.",
+    "steps": [
+      "Calculate 15%: 0.15 \u00d7 $138 = $20.70",
+      "Subtract from original: $138.00 \u2212 $20.70",
+      "New price: $117.30"
+    ],
+    "generatedAt": "2025-11-10T03:40:02.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_275",
+    "explanation": "Lucy counts by 2s from 2 to 50. Find which number she would NOT count.",
+    "reasoning": "Counting by 2s: 2, 4, 6, 8, 10, 12, ... (all even numbers). Check options: (A) 11 is odd \u2717 (B) 22 is even \u2713 (C) 34 is even \u2713 (D) 48 is even \u2713. Lucy would not count 11 because it's odd.",
+    "steps": [
+      "Counting by 2s means all even numbers",
+      "Check 11: odd number",
+      "11 would NOT be counted"
+    ],
+    "generatedAt": "2025-11-10T03:40:03.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_276",
+    "explanation": "Find two numbers that both round to 1,500 when rounded to the nearest hundred.",
+    "reasoning": "Numbers that round to 1,500 are from 1,450 to 1,549. Check options: (A) 1,399 \u2192 1,400 \u2717, 1,599 \u2192 1,600 \u2717. (B) 1,449 \u2192 1,400 \u2717, 1,549 \u2192 1,500 \u2713. (C) 1,457 \u2192 1,500 \u2713, 1,547 \u2192 1,500 \u2713. (D) 1,489 \u2192 1,500 \u2713, 1,589 \u2192 1,600 \u2717. Option C has both rounding to 1,500.",
+    "steps": [
+      "Range for 1,500: 1,450 to 1,549",
+      "Check option C: 1,457 and 1,547 both in range",
+      "Both round to 1,500"
+    ],
+    "generatedAt": "2025-11-10T03:40:04.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_277",
+    "explanation": "Subtract 301 from 800.",
+    "reasoning": "800 \u2212 301: Borrow from hundreds if needed. 0 \u2212 1 requires borrowing: becomes 10 \u2212 1 = 9. 0 \u2212 0 \u2212 1 (from borrowing) requires more borrowing: becomes 10 \u2212 0 \u2212 1 = 9. 8 \u2212 3 \u2212 1 = 4... Actually, let me recalculate carefully: 800 \u2212 301 = 499.",
+    "steps": [
+      "Align: 800 \u2212 301",
+      "Subtract with borrowing",
+      "= 499"
+    ],
+    "generatedAt": "2025-11-10T03:40:05.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_278",
+    "explanation": "Gary has 72 cows, which is 6 times the number of horses. Find the number of horses.",
+    "reasoning": "Let h = number of horses. Then 6h = 72. Divide both sides by 6: h = 72 \u00f7 6 = 12 horses.",
+    "steps": [
+      "Equation: 6 \u00d7 horses = 72",
+      "Divide by 6: horses = 72 \u00f7 6",
+      "= 12 horses"
+    ],
+    "generatedAt": "2025-11-10T03:40:06.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_279",
+    "explanation": "Find the area of a rectangle with length 8 inches and width 5 inches.",
+    "reasoning": "Area = length \u00d7 width = 8 \u00d7 5 = 40 square inches.",
+    "steps": [
+      "Formula: A = l \u00d7 w",
+      "A = 8 \u00d7 5",
+      "= 40 square inches"
+    ],
+    "generatedAt": "2025-11-10T03:40:07.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_280",
+    "explanation": "Convert 3.5 hours to minutes.",
+    "reasoning": "1 hour = 60 minutes. 3.5 hours = 3.5 \u00d7 60 = 210 minutes.",
+    "steps": [
+      "Conversion: 1 hour = 60 minutes",
+      "Calculate: 3.5 \u00d7 60",
+      "= 210 minutes"
+    ],
+    "generatedAt": "2025-11-10T03:40:08.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_281",
+    "explanation": "Determine the median of the data set: 15, 20, 12, 18, 15.",
+    "reasoning": "First, order the data: 12, 15, 15, 18, 20. The median is the middle value: 15.",
+    "steps": [
+      "Order data: 12, 15, 15, 18, 20",
+      "Find middle value (3rd of 5)",
+      "Median = 15"
+    ],
+    "generatedAt": "2025-11-10T03:40:09.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_282",
+    "explanation": "Simplify the expression 5(x + 3) \u2212 2x.",
+    "reasoning": "Distribute 5: 5x + 15. Then subtract 2x: 5x + 15 \u2212 2x = 3x + 15.",
+    "steps": [
+      "Distribute: 5(x + 3) = 5x + 15",
+      "Subtract 2x: 5x \u2212 2x + 15",
+      "= 3x + 15"
+    ],
+    "generatedAt": "2025-11-10T03:40:10.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_283",
+    "explanation": "Find 25% of 80.",
+    "reasoning": "25% = 0.25. Calculate: 0.25 \u00d7 80 = 20.",
+    "steps": [
+      "Convert: 25% = 0.25",
+      "Multiply: 0.25 \u00d7 80",
+      "= 20"
+    ],
+    "generatedAt": "2025-11-10T03:40:11.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_284",
+    "explanation": "Solve for x: 2x + 7 = 19.",
+    "reasoning": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6.",
+    "steps": [
+      "Subtract 7: 2x = 19 \u2212 7 = 12",
+      "Divide by 2: x = 12 \u00f7 2",
+      "x = 6"
+    ],
+    "generatedAt": "2025-11-10T03:40:12.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_285",
+    "explanation": "Identify the place value of 7 in 47,692.",
+    "reasoning": "In 47,692, the 7 is in the thousands place, so its value is 7,000.",
+    "steps": [
+      "Number: 47,692",
+      "Position of 7: thousands place",
+      "Value: 7,000"
+    ],
+    "generatedAt": "2025-11-10T03:40:13.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_286",
+    "explanation": "Calculate the perimeter of a square with side length 12 cm.",
+    "reasoning": "Perimeter of a square = 4 \u00d7 side = 4 \u00d7 12 = 48 cm.",
+    "steps": [
+      "Formula: P = 4 \u00d7 side",
+      "P = 4 \u00d7 12",
+      "= 48 cm"
+    ],
+    "generatedAt": "2025-11-10T03:40:14.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_287",
+    "explanation": "Find the greatest common factor of 24 and 36.",
+    "reasoning": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. Common factors: 1, 2, 3, 4, 6, 12. Greatest is 12.",
+    "steps": [
+      "List factors of 24 and 36",
+      "Find common factors: 1, 2, 3, 4, 6, 12",
+      "GCF = 12"
+    ],
+    "generatedAt": "2025-11-10T03:40:15.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_288",
+    "explanation": "Compare fractions: 3/4 and 2/3. Which is larger?",
+    "reasoning": "Find common denominator: 12. Convert: 3/4 = 9/12, 2/3 = 8/12. Since 9/12 > 8/12, we have 3/4 > 2/3.",
+    "steps": [
+      "Common denominator: 12",
+      "3/4 = 9/12, 2/3 = 8/12",
+      "9/12 > 8/12, so 3/4 > 2/3"
+    ],
+    "generatedAt": "2025-11-10T03:40:16.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_289",
+    "explanation": "Multiply: 0.7 \u00d7 0.6.",
+    "reasoning": "7 \u00d7 6 = 42. Count decimal places: 2 total. Place decimal: 0.42.",
+    "steps": [
+      "Multiply without decimals: 7 \u00d7 6 = 42",
+      "Count decimal places: 1 + 1 = 2",
+      "Place decimal: 0.42"
+    ],
+    "generatedAt": "2025-11-10T03:40:17.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_290",
+    "explanation": "A store sells pencils in packs of 8. How many packs are needed for 50 pencils?",
+    "reasoning": "50 \u00f7 8 = 6.25. Since we need whole packs, round up to 7 packs (which gives 56 pencils).",
+    "steps": [
+      "Divide: 50 \u00f7 8 = 6.25",
+      "Need whole packs, so round up",
+      "Answer: 7 packs"
+    ],
+    "generatedAt": "2025-11-10T03:40:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_291",
+    "explanation": "What is the value of 3\u00b2 + 4\u00b2?",
+    "reasoning": "3\u00b2 = 9, 4\u00b2 = 16. Sum: 9 + 16 = 25.",
+    "steps": [
+      "Calculate 3\u00b2 = 9",
+      "Calculate 4\u00b2 = 16",
+      "Sum: 9 + 16 = 25"
+    ],
+    "generatedAt": "2025-11-10T03:40:19.000Z"
   }
 ]
