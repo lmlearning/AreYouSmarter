@@ -25842,5 +25842,272 @@
       "Answer: Populations normally distributed"
     ],
     "generatedAt": "2025-11-10T07:40:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_51",
+    "explanation": "Given: P(E) = 0.32, P(F) = 0.15, P(E \u2229 F) = 0.048. Check independence: Events are independent if P(E \u2229 F) = P(E) \u00d7 P(F). Calculate: 0.32 \u00d7 0.15 = 0.048. This equals P(E \u2229 F) = 0.048, so events ARE independent. Check mutual exclusivity: Events are mutually exclusive if P(E \u2229 F) = 0. Since P(E \u2229 F) = 0.048 \u2260 0, they are NOT mutually exclusive. Conclusion: E and F are independent but NOT mutually exclusive.",
+    "reasoning": "Independence: P(E \u2229 F) = P(E) \u00d7 P(F) \u2192 0.048 = 0.32 \u00d7 0.15 \u2713. Mutually exclusive: P(E \u2229 F) = 0 \u2192 0.048 \u2260 0 \u2717. Therefore: independent but not mutually exclusive.",
+    "steps": [
+      "Test independence: 0.32 \u00d7 0.15 = 0.048 = P(E\u2229F) \u2713",
+      "Test mutual exclusivity: P(E\u2229F) = 0.048 \u2260 0 \u2717",
+      "Conclusion: Independent but not mutually exclusive",
+      "Answer: Independent but not mutually exclusive"
+    ],
+    "generatedAt": "2025-11-10T07:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_52",
+    "explanation": "In this experiment, the researchers are testing different dosages of a drug to measure tumor reduction. The explanatory variable (what researchers manipulate) is the drug dosage, which has three levels (three different dosages). The response variable (what is measured) is tumor reduction. There is ONE explanatory variable (dosage) with THREE levels, and ONE response variable (tumor reduction). This is a standard experimental design with one factor at three levels.",
+    "reasoning": "Explanatory variable = drug dosage (what's being manipulated). Levels = three different dosage amounts. Response variable = tumor reduction (what's being measured). One explanatory variable, three levels.",
+    "steps": [
+      "Explanatory variable: drug dosage (manipulated)",
+      "Levels of dosage: 3 (three different amounts)",
+      "Response variable: tumor reduction (measured)",
+      "Answer: Three levels of a single explanatory variable"
+    ],
+    "generatedAt": "2025-11-10T07:47:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_53",
+    "explanation": "The claim is that OVER 60% shop at the store. In hypothesis testing, the null hypothesis is typically the status quo or statement of equality, while the alternative is what we're trying to support. To support a claim that p > 0.60, we set: H\u2080: p \u2264 0.60 (or p = 0.60 as the boundary value), and H\u2090: p > 0.60. This is a one-sided test where we're testing if the proportion exceeds 60%. The alternative hypothesis represents the claim we want to support.",
+    "reasoning": "Claim: p > 0.60. Set up: H\u2080 as equality/status quo (p \u2264 0.60), H\u2090 as the claim to support (p > 0.60). This is a right-tailed test.",
+    "steps": [
+      "Claim to support: over 60% \u2192 p > 0.60",
+      "Null hypothesis: H\u2080: p \u2264 0.60 (or p = 0.60)",
+      "Alternative hypothesis: H\u2090: p > 0.60",
+      "One-sided test (right-tailed)",
+      "Answer: H\u2080: p \u2264 0.60 and H\u2090: p > 0.60"
+    ],
+    "generatedAt": "2025-11-10T07:49:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_54",
+    "explanation": "Correlation r is a standardized measure of linear association that is UNAFFECTED by: (A) Changes in measurement units: FALSE - correlation is unitless, so changing from inches to cm doesn't affect r. (B) Swapping x and y: FALSE - r(x,y) = r(y,x), correlation is symmetric. (C) Adding a constant to x: FALSE - correlation measures linear relationship, which is unchanged by shifting values. (D) None can affect r: TRUE - correlation is designed to be invariant to linear transformations (scale changes, shifts, and variable swapping). All of options A, B, and C do NOT affect correlation, making D correct.",
+    "reasoning": "Correlation r is invariant to: unit changes (unitless), variable swapping (symmetric), and adding constants (measures relationship, not location). Therefore, none of A, B, or C can affect r.",
+    "steps": [
+      "Option A: Unit changes don't affect r (standardized)",
+      "Option B: Swapping x,y doesn't affect r (symmetric)",
+      "Option C: Adding constant doesn't affect r (linear invariant)",
+      "All options don't affect r",
+      "Answer: None of the above can affect r"
+    ],
+    "generatedAt": "2025-11-10T07:51:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_55",
+    "explanation": "Confidence interval width depends on the standard error, which equals \u03c3/\u221an. When sample size triples (n \u2192 3n), the new SE = \u03c3/\u221a(3n) = \u03c3/(\u221a3 \u00d7 \u221an) = (1/\u221a3) \u00d7 (\u03c3/\u221an) = SE_original/\u221a3. The interval width is proportional to SE, so new width = old width/\u221a3 \u2248 old width/1.732. This means the interval gets SMALLER (divided by 1.732), not larger. Tripling sample size divides the interval size by \u221a3 \u2248 1.732.",
+    "reasoning": "CI width \u221d 1/\u221an. When n triples, width becomes original/\u221a3 = original/1.732. The interval becomes narrower (more precise).",
+    "steps": [
+      "Original SE: \u03c3/\u221an",
+      "New SE when n \u2192 3n: \u03c3/\u221a(3n) = \u03c3/(\u221a3\u00b7\u221an)",
+      "New SE = original SE / \u221a3",
+      "CI width \u221d SE",
+      "New width = original width / 1.732",
+      "Answer: Divides interval size by 1.732"
+    ],
+    "generatedAt": "2025-11-10T07:53:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_56",
+    "explanation": "Original correlation: r = 0.19. Transformations: (1) Add 0.23 to all x-values, (2) Double all y-values, (3) Interchange x and y. Effects on correlation: Adding a constant to x doesn't change r (shifts data but not relationship). Multiplying y by a constant doesn't change r (correlation is scale-invariant). Interchanging x and y doesn't change r (correlation is symmetric: r(x,y) = r(y,x)). Therefore, the correlation remains 0.19.",
+    "reasoning": "Correlation is invariant to linear transformations (adding constants, multiplying by constants) and variable interchange. All three operations preserve correlation, so r stays 0.19.",
+    "steps": [
+      "Add constant to x: r unchanged",
+      "Multiply y by constant: r unchanged",
+      "Interchange x and y: r unchanged",
+      "All transformations preserve correlation",
+      "Answer: 0.19"
+    ],
+    "generatedAt": "2025-11-10T07:55:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_57",
+    "explanation": "A standardized score (z-score) is calculated as z = (x - \u03bc)/\u03c3. When we change units from seconds to minutes, both x and \u03bc are divided by 60, and \u03c3 is also divided by 60. The new z-score is: z_new = [(x/60) - (\u03bc/60)] / (\u03c3/60) = [(x - \u03bc)/60] / (\u03c3/60) = (x - \u03bc)/\u03c3 = z_original. Changing units proportionally for all values (data, mean, and SD) leaves the standardized score UNCHANGED. The student's z-score remains 2.40.",
+    "reasoning": "Z-score is unit-free because it divides a deviation by the standard deviation. Changing units proportionally cancels out: z = (x-\u03bc)/\u03c3 = (x/60 - \u03bc/60)/(\u03c3/60) = (x-\u03bc)/\u03c3.",
+    "steps": [
+      "Original: z = (x - \u03bc)/\u03c3 = 2.40",
+      "Change to minutes: divide x, \u03bc, \u03c3 all by 60",
+      "New z = (x/60 - \u03bc/60)/(\u03c3/60)",
+      "Simplify: (x-\u03bc)/60 \u00d7 60/\u03c3 = (x-\u03bc)/\u03c3",
+      "Z-score unchanged: still 2.40",
+      "Answer: z = 2.40"
+    ],
+    "generatedAt": "2025-11-10T07:57:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_58",
+    "explanation": "This experiment has: Factor 1 = Type of paint (3 levels), Factor 2 = Sex (2 levels, used for blocking). When we have two factors, the number of treatment combinations = (levels of factor 1) \u00d7 (levels of factor 2) = 3 \u00d7 2 = 6 combinations. However, sex is used as a BLOCKING factor (dividing subjects into homogeneous groups before assigning treatments) to control for differences in how boys and girls play. The three paint types are the actual treatments being tested. This is a randomized block design with sex as the blocking factor.",
+    "reasoning": "3 paint types \u00d7 2 sex groups = 6 combinations if fully factorial. But since sex is used for blocking (controlling variability), this is a randomized block design, not a factorial experiment. Option C correctly identifies sex as a blocking factor.",
+    "steps": [
+      "3 types of paint (treatment factor)",
+      "2 sex groups (blocking factor)",
+      "Blocking: Group by sex to reduce variability",
+      "Sex is the blocking factor",
+      "Answer: Sex is a blocking factor"
+    ],
+    "generatedAt": "2025-11-10T07:59:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_59",
+    "explanation": "Correlation r = 0.9 between study hours and GPA. The coefficient of determination is R\u00b2 = r\u00b2 = 0.9\u00b2 = 0.81 = 81%. This means 81% of the variation in GPA can be explained by variation in study hours. Options analysis: (A) 90% of students who study get high grades: Incorrect - r doesn't give proportions of students. (B) 90% who get high grades study a lot: Incorrect - r doesn't give proportions. (C) 90% of variation explained: Incorrect - it's R\u00b2 = 81%, not r = 90%. (D) 81% of variation explained: Correct - R\u00b2 = 0.81 means 81% of GPA variation is explained by study hours.",
+    "reasoning": "R\u00b2 (coefficient of determination) = r\u00b2 = 0.9\u00b2 = 0.81 = 81%. This represents the proportion of variance in the response variable explained by the explanatory variable.",
+    "steps": [
+      "Given: r = 0.9",
+      "Calculate R\u00b2: r\u00b2 = 0.9\u00b2 = 0.81",
+      "Interpretation: 81% of variation in GPA explained by study hours",
+      "Options A and B misinterpret r as proportions",
+      "Option C uses r instead of R\u00b2",
+      "Answer: 81% of variation explained"
+    ],
+    "generatedAt": "2025-11-10T08:01:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_60",
+    "explanation": "Exam scores: \u03bc = 80, \u03c3 = 9, normally distributed. Estrella scored 90. Calculate her z-score: z = (90 - 80)/9 = 10/9 \u2248 1.11. Find percentile: P(Z < 1.11) \u2248 0.8665 or 86.65th percentile. To qualify, she needs to be in top 15%, meaning 85th percentile or higher. Since 86.65 > 85, she DID qualify. The answer should indicate approximately 86.65 percentile and that she qualified.",
+    "reasoning": "Z-score = (90-80)/9 = 1.11. P(Z < 1.11) \u2248 0.8665 = 86.65 percentile. Top 15% means \u226585th percentile. 86.65 > 85, so she qualifies.",
+    "steps": [
+      "Z = (90 - 80)/9 = 10/9 \u2248 1.11",
+      "Percentile = P(Z < 1.11) \u2248 0.8665 = 86.65%",
+      "Top 15% needs: \u226585th percentile",
+      "86.65 > 85, so she qualifies",
+      "Answer: 86.65; she qualified"
+    ],
+    "generatedAt": "2025-11-10T08:03:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_61",
+    "explanation": "Volunteers were randomly divided: half exercise 1 hour daily, half perform no exercise (control group). Researchers imposed the treatment (exercise regimen), making this an experiment, not observational. There IS a control group (no exercise group). Is there blinding? Subjects know whether they're exercising or not, and researchers know which group each subject is in, so there's NO blinding. This is an experiment with a control group but without blinding. However, none of the options perfectly match. Option (D) 'None of the above' might be correct if the other options don't fit.",
+    "reasoning": "Random assignment + imposed treatment = experiment. Has control group (no exercise). No blinding (subjects and researchers know groups). Closest match is experiment with control but no blinding.",
+    "steps": [
+      "Randomly assigned to exercise or no exercise",
+      "Treatment imposed \u2192 experiment",
+      "No exercise group = control group",
+      "Subjects know if they exercise \u2192 no blinding",
+      "Experiment with control, without blinding",
+      "Answer: None of the above (if options don't match exactly)"
+    ],
+    "generatedAt": "2025-11-10T08:05:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_62",
+    "explanation": "The 95% CI for the difference in mean cholesterol lowering is (18, 41). This means we're 95% confident that Lipitor lowers cholesterol an average of 18 to 41 points MORE than niacin. Let's evaluate options: (A) Niacin 18 points, Lipitor 41 points: Incorrect - these are the bounds of the DIFFERENCE, not individual effects. (B) 0.95 probability Lipitor outperforms for an individual: Incorrect - CI is about population means, not individual predictions. (C) 0.95 probability of \u226523 point difference for an individual: Incorrect - 23 is the midpoint, and this misinterprets CI. (D) None of the above: Correct - none of the above correctly interpret the CI. The proper interpretation: We're 95% confident the true mean difference is between 18 and 41 points.",
+    "reasoning": "CI for difference: (18, 41) means Lipitor reduces cholesterol 18-41 points more than niacin on average. Options A, B, C all misinterpret the CI. Correct answer is likely D.",
+    "steps": [
+      "CI (18, 41) is for DIFFERENCE in means",
+      "Interpretation: Lipitor better by 18-41 points (mean)",
+      "Option A: Misreads bounds as individual values",
+      "Option B: CIs aren't probabilities for individuals",
+      "Option C: Misinterprets midpoint and individual prediction",
+      "Answer: None of the above"
+    ],
+    "generatedAt": "2025-11-10T08:07:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_63",
+    "explanation": "The 95% confidence interval (7.58, 8.72) ounces is an interval estimate for the true mean weight of oranges of this variety. The correct interpretation of '95% confidence level' is: If we repeatedly took samples of the same size and computed 95% CIs, about 95% of those intervals would contain the true population mean. Let's evaluate: (A) 95% of intervals from repeated sampling contain true mean: CORRECT - this is the proper interpretation. (B) 95% contain the sampled mean: Incorrect - the sample mean varies; this doesn't make sense. (C) 95% of oranges in THIS sample weigh 7.58-8.72: Incorrect - CI is for the mean, not individual oranges. (D) 95% of ALL oranges weigh 7.58-8.72: Incorrect - CI is for mean, not individual weights.",
+    "reasoning": "The confidence level refers to the long-run proportion of CIs that capture the true parameter if the sampling process were repeated. Statement A correctly describes this.",
+    "steps": [
+      "CI (7.58, 8.72) estimates true population mean",
+      "95% confidence level interpretation:",
+      "95% of repeated samples \u2192 CIs that contain true \u03bc",
+      "Option A: Correct interpretation \u2713",
+      "Options B, C, D: Misinterpret what CI represents",
+      "Answer: 95% of intervals contain true mean"
+    ],
+    "generatedAt": "2025-11-10T08:09:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_64",
+    "explanation": "Game 1: Win if 45%-55% heads (close to expected 50%). Game 2: Win if >80% heads (far from expected 50%). Law of Large Numbers: Larger samples have proportions closer to the true probability. Game 1: Want to be close to 50% \u2192 prefer LARGER sample (300 flips) for more predictable results near 50%. Game 2: Want extreme result (>80%) \u2192 prefer SMALLER sample (30 flips) because small samples have more variability, giving better chance of extreme outcomes. Answer: 300 times for first game (need consistency), 30 times for second game (need extreme result).",
+    "reasoning": "Large samples \u2192 results closer to expected value (50%). Small samples \u2192 more variability, higher chance of extremes. Game 1 needs consistency (300 flips), Game 2 needs extreme outcome (30 flips).",
+    "steps": [
+      "Game 1: Need 45-55% (close to 50%)",
+      "Large sample more likely near 50% \u2192 choose 300",
+      "Game 2: Need >80% (extreme, far from 50%)",
+      "Small sample has more variability \u2192 choose 30",
+      "Answer: 300 for first, 30 for second"
+    ],
+    "generatedAt": "2025-11-10T08:11:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_65",
+    "explanation": "Two-sample t-test assumptions: (1) Independent samples (satisfied by random selection), (2) Both populations approximately normally distributed (important for small samples like n=10), (3) For pooled t-test, equal population variances are assumed. Let's evaluate: (A) Equal population variances: This IS an assumption for the standard pooled two-sample t-test (though Welch's t-test doesn't require this). (B) Unequal variances: This is the situation for Welch's t-test, not an assumption. (C) Known variances: If known, we'd use z-test, not t-test. (D) Normal distributions: This is NECESSARY, especially with small samples. Both (A) equal variances and (D) normality are necessary assumptions, but (D) is more fundamental. The question likely expects (D) or possibly (A).",
+    "reasoning": "Key t-test assumptions: normality (especially for small n) and equal variances (for pooled test). With n=10 each, normality is critical. Equal variances is also assumed in standard pooled t-test.",
+    "steps": [
+      "Small samples (n=10 each)",
+      "Normality assumption: critical for small samples \u2713",
+      "Equal variances: assumed in pooled t-test \u2713",
+      "Known variances: would use z-test instead",
+      "Most fundamental: normality",
+      "Answer: Populations normally distributed"
+    ],
+    "generatedAt": "2025-11-10T08:13:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_66",
+    "explanation": "We conduct 10 independent tests, each at \u03b1 = 0.05. For each test, P(Type I error) = 0.05. We want P(at least one Type I error in 10 tests). Use complement: P(at least one error) = 1 - P(no errors in all 10 tests). For independent tests: P(no error in all 10) = (1 - 0.05)^10 = 0.95^10 \u2248 0.5987. Therefore: P(at least one error) = 1 - 0.5987 \u2248 0.4013 \u2248 0.40. The probability is approximately 40%.",
+    "reasoning": "P(at least 1 Type I error) = 1 - P(no errors) = 1 - (0.95)^10 \u2248 1 - 0.5987 = 0.4013 \u2248 0.40.",
+    "steps": [
+      "10 independent tests, each \u03b1 = 0.05",
+      "P(no Type I error per test) = 0.95",
+      "P(no errors in all 10) = 0.95^10 \u2248 0.5987",
+      "P(at least one error) = 1 - 0.5987 = 0.4013",
+      "Answer: 0.40"
+    ],
+    "generatedAt": "2025-11-10T08:15:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_67",
+    "explanation": "Let X = lifespan (normal distribution). Given: P(X > 3) = 0.60, so P(X \u2264 3) = 0.40. Also P(X < 6) = 0.70, so P(X \u2264 6) = 0.70. For normal distribution: At X = 3: z = (3 - \u03bc)/\u03c3 corresponds to 40th percentile, so z \u2248 -0.253. At X = 6: z = (6 - \u03bc)/\u03c3 corresponds to 70th percentile, so z \u2248 0.524. Set up equations: (3 - \u03bc)/\u03c3 = -0.253 and (6 - \u03bc)/\u03c3 = 0.524. From first: 3 - \u03bc = -0.253\u03c3 \u2192 \u03bc = 3 + 0.253\u03c3. From second: 6 - \u03bc = 0.524\u03c3. Substitute: 6 - (3 + 0.253\u03c3) = 0.524\u03c3 \u2192 3 - 0.253\u03c3 = 0.524\u03c3 \u2192 3 = 0.777\u03c3 \u2192 \u03c3 \u2248 3.861. Then \u03bc = 3 + 0.253(3.861) \u2248 3 + 0.977 \u2248 3.977.",
+    "reasoning": "Use two percentile conditions to create two equations with \u03bc and \u03c3, then solve simultaneously. P(X\u22643)=0.40 \u2192 z=-0.253. P(X\u22646)=0.70 \u2192 z=0.524. Solve to get \u03bc\u22483.977, \u03c3\u22483.861.",
+    "steps": [
+      "P(X > 3) = 0.60 \u2192 P(X \u2264 3) = 0.40 \u2192 z \u2248 -0.253",
+      "P(X < 6) = 0.70 \u2192 P(X \u2264 6) = 0.70 \u2192 z \u2248 0.524",
+      "(3-\u03bc)/\u03c3 = -0.253 and (6-\u03bc)/\u03c3 = 0.524",
+      "Solve: \u03c3 = 3/(0.253+0.524) \u2248 3.861",
+      "\u03bc = 3 + 0.253(3.861) \u2248 3.977",
+      "Answer: \u03bc = 3.977, \u03c3 = 3.861"
+    ],
+    "generatedAt": "2025-11-10T08:17:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_68",
+    "explanation": "The psychologist believes POSITIVE rewards (group 1) are MORE effective than punishment (group 2), meaning \u03bc\u2081 > \u03bc\u2082, or equivalently \u03bc\u2081 - \u03bc\u2082 > 0. Hypothesis setup: H\u2080 represents no difference or the opposite of what we want to prove: H\u2080: \u03bc\u2081 - \u03bc\u2082 = 0 (or \u2264 0). H\u2090 represents what the psychologist believes: H\u2090: \u03bc\u2081 - \u03bc\u2082 > 0 (positive rewards are better). This is a one-sided (right-tailed) alternative hypothesis.",
+    "reasoning": "Belief: positive rewards better than punishment \u2192 \u03bc\u2081 > \u03bc\u2082 \u2192 \u03bc\u2081 - \u03bc\u2082 > 0. Set H\u2090 to match this belief: H\u2090: \u03bc\u2081 - \u03bc\u2082 > 0.",
+    "steps": [
+      "Belief: positive rewards (\u03bc\u2081) > punishment (\u03bc\u2082)",
+      "Equivalently: \u03bc\u2081 - \u03bc\u2082 > 0",
+      "H\u2080: \u03bc\u2081 - \u03bc\u2082 = 0 (no difference)",
+      "H\u2090: \u03bc\u2081 - \u03bc\u2082 > 0 (positive rewards better)",
+      "Answer: H\u2090: \u03bc\u2081 - \u03bc\u2082 > 0"
+    ],
+    "generatedAt": "2025-11-10T08:19:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_69",
+    "explanation": "Margin of error for a confidence interval: ME = (critical value) \u00d7 (standard error) = z* \u00d7 (s/\u221an). Factors that reduce ME: (I) Smaller confidence level \u2192 smaller z* \u2192 smaller ME. TRUE. (II) Smaller sample SD (s) \u2192 smaller s/\u221an \u2192 smaller ME. TRUE. (III) Smaller sample size (n) \u2192 larger 1/\u221an \u2192 LARGER ME. FALSE. Options I and II reduce margin of error, but III increases it. Answer: I and II.",
+    "reasoning": "ME = z* \u00d7 (s/\u221an). Smaller CL \u2192 smaller z* \u2713. Smaller s \u2192 smaller ME \u2713. Smaller n \u2192 larger ME \u2717. So I and II reduce ME.",
+    "steps": [
+      "ME = z* \u00d7 (s/\u221an)",
+      "I. Smaller confidence level \u2192 smaller z* \u2192 smaller ME \u2713",
+      "II. Smaller s \u2192 smaller ME \u2713",
+      "III. Smaller n \u2192 larger 1/\u221an \u2192 larger ME \u2717",
+      "I and II reduce ME",
+      "Answer: I and II"
+    ],
+    "generatedAt": "2025-11-10T08:21:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_70",
+    "explanation": "Important principles in experimental design: (A) Control confounding variables: IMPORTANT - need to control variables that could affect results. (B) Randomization: IMPORTANT - randomly assigns subjects to treatments to balance out unknown factors. (C) Use confounding variable to control placebo effect: NOT IMPORTANT / INCORRECT - this is a misunderstanding. We want to CONTROL confounding variables (eliminate their effect), not USE them. The placebo effect is controlled with blinding and control groups, not by using confounding variables. (D) Replication: IMPORTANT - need sufficient sample size for reliable results. Option C describes an incorrect practice.",
+    "reasoning": "Good experimental design: control confounding variables (eliminate their effects), use randomization, and replicate. We don't 'use' confounding variables - we control or eliminate them. Option C is not important and is actually incorrect.",
+    "steps": [
+      "A. Control confounding variables: Important \u2713",
+      "B. Randomization: Important \u2713",
+      "C. Use confounding to control placebo: Incorrect/not important \u2717",
+      "D. Replication: Important \u2713",
+      "Answer: Use of confounding variable to control placebo effect"
+    ],
+    "generatedAt": "2025-11-10T08:23:00.000Z"
   }
 ]
