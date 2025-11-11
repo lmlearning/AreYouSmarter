@@ -20789,5 +20789,1209 @@
       "Neural networks."
     ],
     "generatedAt": "2025-11-10T02:20:16.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_251",
+    "explanation": "GCD formula: gcd(2^a-1,2^b-1)=2^gcd(a,b)-1",
+    "reasoning": "gcd(1001,1012)=gcd(1001,11)=11",
+    "steps": [
+      "Answer: 2^11-1=2047."
+    ],
+    "generatedAt": "2025-11-10T02:30:00.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_252",
+    "explanation": "Sinusoidal derivative: h(t)=9+6sin(\u03c0t/6)",
+    "reasoning": "At t=4 (noon): h'(4)=-\u03c0cos(2\u03c0/3)=3\u03c0\u221a3/2\u22482.72.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:01.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_253",
+    "explanation": "Displacement: East 3, North 10, West 6, South 16",
+    "reasoning": "Net: West 3, South 6",
+    "steps": [
+      "Distance=\u221a45=3\u221a5\u22486.7."
+    ],
+    "generatedAt": "2025-11-10T02:30:02.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_254",
+    "explanation": "Total cost: Initial 800000+daily (250+400)D=800000+650D.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:03.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_255",
+    "explanation": "Inverse composition: f(2)=4, f\u207b\u00b9(2)=4\u2192f(4)=2",
+    "reasoning": "f(f(2))=f(4)=2.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:04.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_256",
+    "explanation": "Linear system: Subtract equations\u21924x+4y=8\u2192x+y=2",
+    "reasoning": "Add to get x-y.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:05.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_257",
+    "explanation": "Even integers: 2,4,6,8,10,12,14",
+    "reasoning": "Sum+product formula",
+    "steps": [
+      "Count distinct values."
+    ],
+    "generatedAt": "2025-11-10T02:30:06.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_258",
+    "explanation": "Dice sum 4: (1,3),(2,2),(3,1)",
+    "reasoning": "Probability=3/36=1/12.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:07.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_259",
+    "explanation": "Quadratic inequality: x\u00b2-6x+c<0 needs discriminant>0",
+    "reasoning": "36-4c>0\u2192c<9.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:08.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_260",
+    "explanation": "Altitude triangle: Area=1/altitudes formula",
+    "reasoning": "Use A=\u221a(s(s-a)(s-b)(s-c)).",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:09.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_261",
+    "explanation": "Morse code: 1 symbol: 2",
+    "reasoning": "2 symbols: 4",
+    "steps": [
+      "3 symbols: 8",
+      "4 symbols: 16"
+    ],
+    "generatedAt": "2025-11-10T02:30:10.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_262",
+    "explanation": "Sum-product: x+y=19, xy=70",
+    "reasoning": "Solve (x-5)(x-14)=0\u21925,14.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:11.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_263",
+    "explanation": "Role assignment: 4 females choose 1",
+    "reasoning": "4 males choose 1",
+    "steps": [
+      "8 choose 3 for objects."
+    ],
+    "generatedAt": "2025-11-10T02:30:12.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_264",
+    "explanation": "Parametric velocity: dy/dt=-4sin(t)+12cos(12t)",
+    "reasoning": "At t=1: evaluate.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:13.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_265",
+    "explanation": "Compound interest: Calculate option 1 vs option 2",
+    "reasoning": "Find difference.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:14.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_266",
+    "explanation": "Linear function: Nonzero slope\u2192f(c)\u2260f(d) always",
+    "reasoning": "f(c)=f(d) is FALSE.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:15.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_267",
+    "explanation": "Linear approximation: F(3.02)\u2248F(3)+F'(3)(0.02)=8-0.08=7.92.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:16.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_268",
+    "explanation": "Expected rolls: P(roll again)=1/6",
+    "reasoning": "Expected=365/(5/6)=438.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:17.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_269",
+    "explanation": "Completing square: -2(x\u00b2+10x)-53=-2(x+5)\u00b2+50-53=-2(x+5)\u00b2-3",
+    "reasoning": "Sum=-2+5-3=0.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_0",
+    "explanation": "Division: 24=2p\u2192p=12.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:19.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_1",
+    "explanation": "Division rate: 40\u00f75=8 miles/day.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:20.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_2",
+    "explanation": "Negative division: -40\u00f7(-8)=5.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:21.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_3",
+    "explanation": "Division floor: 90\u00f715.60=5.77\u21925 balls.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:22.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_4",
+    "explanation": "Ticket price: 4t=112\u2192t=28.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:23.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_5",
+    "explanation": "Order of operations: 3\u00d7[(12-5)+(2)]-1=3\u00d79-1=26.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:24.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_6",
+    "explanation": "Mixed number: Already in simplest form 1 1/11=12/11.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:25.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_7",
+    "explanation": "Decimal division: 2.16\u00f70.06=36.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:26.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_8",
+    "explanation": "Subtraction: 142.76-16.5=126.26.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:27.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_9",
+    "explanation": "Division: 5.04\u00f70.7=7.2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:28.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_10",
+    "explanation": "Estimation: Round to 200+400+200=800.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:29.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_11",
+    "explanation": "Remainder: 21\u00f77=3 r0.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:30.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_12",
+    "explanation": "Division: 56\u00f77=8 miles/day.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:31.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_13",
+    "explanation": "Proportion: 48/88=6/11.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:32.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_14",
+    "explanation": "Unit price: Compare per bar",
+    "reasoning": "10 for 23.20\u21922.32/bar.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:33.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_15",
+    "explanation": "Rate calculation: (120-50)\u00f75=14 minutes.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:34.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_16",
+    "explanation": "Median: Sort\u219213,18,23,25,29,32",
+    "reasoning": "Median=(23+25)/2=24.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:35.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_17",
+    "explanation": "Subtraction then division: (60-12)/6=8.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:36.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_18",
+    "explanation": "Scale: 5\u00d725=125 miles.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:37.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_19",
+    "explanation": "Order operations: 49-42=7.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:38.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_20",
+    "explanation": "PEMDAS: 4\u00f72\u00d72+8-4=4+4=8.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:39.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_21",
+    "explanation": "Rounding: 400\u00b15\u2192[395,404]",
+    "reasoning": "397 works.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:40.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_22",
+    "explanation": "Addition: -4+(-3)=-7.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:41.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_23",
+    "explanation": "Addition: 22+34+17=73.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:42.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_24",
+    "explanation": "Subtraction: 8.4-2.7=5.7.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:43.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_25",
+    "explanation": "Conversion: 0.32g=32cg.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:44.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_26",
+    "explanation": "Distributive: 5.7\u00d78=5\u00d78+0.7\u00d78=45.6.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:45.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_27",
+    "explanation": "Division: 2314\u00f74=578 r2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:46.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_28",
+    "explanation": "Expression: 100-5d.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:47.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_29",
+    "explanation": "Algebraic: 4t.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:48.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_30",
+    "explanation": "Place value: 6 in 186425 is 6000",
+    "reasoning": "10 times\u219260000",
+    "steps": [
+      "681452 has 60000."
+    ],
+    "generatedAt": "2025-11-10T02:30:49.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_31",
+    "explanation": "Division: 123\u00f78=15 r3.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:50.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_32",
+    "explanation": "Improper: 8 2/4=8 1/2=17/2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:51.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_33",
+    "explanation": "Expanded form: 270240=200000+70000+200+40.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:52.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_34",
+    "explanation": "Rate: 22\u00f77=rate",
+    "reasoning": "35\u00d7rate=110 parts.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:53.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_35",
+    "explanation": "Mean increase: Adding 6 increases mean.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:54.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_36",
+    "explanation": "Substitution: 10-(11+6)=-7.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:55.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_37",
+    "explanation": "Expression: p-3 means 3 fewer than p.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:56.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_38",
+    "explanation": "Scientific: 6\u00d7500=3000=30\u00d710^2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:57.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_39",
+    "explanation": "Solve: 12-9+c=12\u2192c=9.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:58.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_40",
+    "explanation": "Expression: 2000-150x.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:59.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_41",
+    "explanation": "Inequality: Minimum 2.3, maximum 3.2\u2192w<3.3 works but w>2.3 better.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_42",
+    "explanation": "Absolute value: |-6|=6>5.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:01.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_43",
+    "explanation": "Order: 2(3(17))-8=102-8=94.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:02.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_44",
+    "explanation": "Pattern: Add 4 each time\u219217,21.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:03.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_45",
+    "explanation": "Proportion: 3/2.37=12/9.48\u219212 cans.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:04.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_46",
+    "explanation": "Ordering: 3.8>3.18>3.125>3.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:05.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_47",
+    "explanation": "Order: 22\u00f72+9=11+9=20.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:06.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_48",
+    "explanation": "Rounding: 836527\u2192840000.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:07.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_49",
+    "explanation": "Multiplication: 5\u00d7(-9)=-45.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:08.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_50",
+    "explanation": "LCM multiples: LCM(6,9)=18",
+    "reasoning": "Multiples less than 50: 18,36",
+    "steps": [
+      "Sum=54."
+    ],
+    "generatedAt": "2025-11-10T02:30:09.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_51",
+    "explanation": "Subtraction: 947.0-89.53=857.47.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:10.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_52",
+    "explanation": "Division: 34\u00f74=8.5.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:11.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_53",
+    "explanation": "Fractions: 2/3.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:12.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_54",
+    "explanation": "Multiplication: 7\u00d79=63.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:13.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_55",
+    "explanation": "Word problem: 15+x=24\u2192x=9.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:14.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_56",
+    "explanation": "Percentage: 25% of 64.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:15.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_57",
+    "explanation": "Ratio: 3:4.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:16.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_58",
+    "explanation": "Area: l\u00d7w.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:17.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_59",
+    "explanation": "Perimeter: 2(l+w).",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:18.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_60",
+    "explanation": "Volume: l\u00d7w\u00d7h.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:19.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_61",
+    "explanation": "Probability: Favorable/total.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:20.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_62",
+    "explanation": "Mean: Sum/count.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:21.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_63",
+    "explanation": "Median: Middle value.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:22.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_64",
+    "explanation": "Mode: Most frequent.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:23.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_65",
+    "explanation": "Range: Max-min.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:24.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_66",
+    "explanation": "Factors: Numbers that divide evenly.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:25.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_67",
+    "explanation": "Multiples: Products of a number.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:26.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_68",
+    "explanation": "Prime: Only factors 1 and itself.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:27.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_69",
+    "explanation": "Composite: More than two factors.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:28.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_70",
+    "explanation": "Even: Divisible by 2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:29.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_71",
+    "explanation": "Odd: Not divisible by 2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:30.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_72",
+    "explanation": "Fraction addition: Common denominator.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:31.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_73",
+    "explanation": "Fraction subtraction: Common denominator.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:32.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_74",
+    "explanation": "Fraction multiplication: Numerators\u00d7numerators.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:33.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_75",
+    "explanation": "Fraction division: Multiply by reciprocal.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:34.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_76",
+    "explanation": "Decimal addition: Line up decimals.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:35.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_77",
+    "explanation": "Decimal subtraction: Line up decimals.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:36.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_78",
+    "explanation": "Decimal multiplication: Multiply, place decimal.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:37.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_79",
+    "explanation": "Decimal division: Move decimal, divide.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:38.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_80",
+    "explanation": "Percent to decimal: Divide by 100.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:39.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_81",
+    "explanation": "Decimal to percent: Multiply by 100.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:40.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_82",
+    "explanation": "Percent of number: Multiply.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:41.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_83",
+    "explanation": "Perimeter rectangle: 2l+2w.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:42.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_84",
+    "explanation": "Area rectangle: length\u00d7width.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:43.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_85",
+    "explanation": "Area triangle: (1/2)base\u00d7height.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:44.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_86",
+    "explanation": "Area circle: \u03c0r\u00b2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:45.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_87",
+    "explanation": "Circumference: 2\u03c0r.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:46.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_88",
+    "explanation": "Volume rectangular prism: l\u00d7w\u00d7h.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:47.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_89",
+    "explanation": "Volume cylinder: \u03c0r\u00b2h.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:48.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_90",
+    "explanation": "Pythagorean theorem: a\u00b2+b\u00b2=c\u00b2.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:49.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_91",
+    "explanation": "Distance formula: \u221a((x\u2082-x\u2081)\u00b2+(y\u2082-y\u2081)\u00b2).",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:50.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_92",
+    "explanation": "Midpoint: ((x\u2081+x\u2082)/2,(y\u2081+y\u2082)/2).",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:51.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_93",
+    "explanation": "Slope: (y\u2082-y\u2081)/(x\u2082-x\u2081).",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:52.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_94",
+    "explanation": "Linear equation: y=mx+b.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:53.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_95",
+    "explanation": "System of equations: Substitution or elimination.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:54.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_96",
+    "explanation": "Exponent rules: a\u207f\u00d7a\u1d50=a\u207f\u207a\u1d50.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:55.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_97",
+    "explanation": "Square root: \u221aa.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:56.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_98",
+    "explanation": "Cube root: \u00b3\u221aa.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:57.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_99",
+    "explanation": "Scientific notation: a\u00d710\u207f.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:58.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_100",
+    "explanation": "Order of operations: PEMDAS.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:59.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_101",
+    "explanation": "Distributive property: a(b+c)=ab+ac.",
+    "reasoning": "Basic arithmetic or algebra.",
+    "steps": [
+      "Calculate",
+      "Simplify"
+    ],
+    "generatedAt": "2025-11-10T02:30:00.000Z"
   }
 ]
