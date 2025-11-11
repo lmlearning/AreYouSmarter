@@ -18352,5 +18352,2442 @@
       "Partitions."
     ],
     "generatedAt": "2025-11-10T01:50:16.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_0",
+    "explanation": "Pentagon reflection: y=x reflection swaps coordinates",
+    "reasoning": "Point (a,b)\u2192(b,a)",
+    "steps": [
+      "Check each vertex",
+      "(3,0)\u2192(0,3) not listed",
+      "(-4,1)\u2192(1,-4)\u2192option B is (4,1)"
+    ],
+    "generatedAt": "2025-11-10T02:00:00.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_1",
+    "explanation": "Rectangle diagonal: Length 2w, width w",
+    "reasoning": "Diagonal\u00b2=(2w)\u00b2+w\u00b2=5w\u00b2=125",
+    "steps": [
+      "w\u00b2=25, w=5",
+      "Area=2w\u00d7w=50."
+    ],
+    "generatedAt": "2025-11-10T02:00:01.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_2",
+    "explanation": "Powerful number: p\u00b2|n for all primes p|n",
+    "reasoning": "392=8\u00d749=2\u00b3\u00d77\u00b2",
+    "steps": [
+      "For 2: 2\u00b2|392\u2713",
+      "For 7: 7\u00b2|392\u2713",
+      "392 is powerful."
+    ],
+    "generatedAt": "2025-11-10T02:00:02.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_3",
+    "explanation": "Fruit probability: Total outcomes 3\u00b3=27",
+    "reasoning": "Same fruit: 3 ways",
+    "steps": [
+      "At least 2 different: 1-3/27=24/27",
+      "Reduce fraction."
+    ],
+    "generatedAt": "2025-11-10T02:00:03.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_4",
+    "explanation": "Strictly convex: Line between (-2,5) and (2,9) has slope 1",
+    "reasoning": "At x=1: line gives 8",
+    "steps": [
+      "Convex means f(1)<8."
+    ],
+    "generatedAt": "2025-11-10T02:00:04.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_5",
+    "explanation": "Hat pins: Two piles each n pins",
+    "reasoning": "Gave (1/2)(1/3)n=n/6",
+    "steps": [
+      "Left: 2n-n/6=11n/6=66",
+      "n=36, total 72."
+    ],
+    "generatedAt": "2025-11-10T02:00:05.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_6",
+    "explanation": "Rain probability: P(rain,no sun)=0.3",
+    "reasoning": "P(no rain)=0.4\u2192P(rain)=0.6",
+    "steps": [
+      "P(sun)=0.7",
+      "P(rain,sun)=0.6+0.7-1=0.3."
+    ],
+    "generatedAt": "2025-11-10T02:00:06.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_7",
+    "explanation": "Factor sum: 1200=2\u2074\u00d73\u00d75\u00b2",
+    "reasoning": "n\u00b2|1200 means n|20",
+    "steps": [
+      "Divisors of 20: 1,2,4,5,10,20",
+      "Sum=42."
+    ],
+    "generatedAt": "2025-11-10T02:00:07.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_8",
+    "explanation": "Dice rolls: At most 2 sixes: P(0)+P(1)+P(2)",
+    "reasoning": "Binomial: C(5,0)(5/6)\u2075+C(5,1)(5/6)\u2074(1/6)+C(5,2)(5/6)\u00b3(1/6)\u00b2=625/648.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:08.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_9",
+    "explanation": "Odd arithmetic: Sum 240=(n/2)(first+last)",
+    "reasoning": "Odd integers: 2k+1",
+    "steps": [
+      "Set up equations",
+      "Count sequences."
+    ],
+    "generatedAt": "2025-11-10T02:00:09.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_10",
+    "explanation": "Product 56: xy=56, x<y",
+    "reasoning": "7/x+14/y=4",
+    "steps": [
+      "Multiply by xy: 7y+14x=224",
+      "Solve system",
+      "x=2,y=28."
+    ],
+    "generatedAt": "2025-11-10T02:00:10.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_11",
+    "explanation": "Divisor product: Product of divisors=n^(d(n)/2)",
+    "reasoning": "Want n^6=n^(d(n)/2)\u2192d(n)=12",
+    "steps": [
+      "Need 12 divisors",
+      "2\u2075\u00d73 has (6)(2)=12",
+      "n=64 doesn't work"
+    ],
+    "generatedAt": "2025-11-10T02:00:11.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_12",
+    "explanation": "Modular arithmetic: 2\u2078\u22611(mod 7) by Fermat",
+    "reasoning": "2\u2078\u2077=2\u2078\u2070\u00d72\u2077=(2\u2078)\u00b9\u2070\u00d7128\u22611\u00d72(mod 7)=2",
+    "steps": [
+      "2+3=5."
+    ],
+    "generatedAt": "2025-11-10T02:00:12.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_13",
+    "explanation": "Mean score: (98+97+92+85+93)/5=465/5=93.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:13.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_14",
+    "explanation": "Riemann sums: Increasing+concave up: Left underestimates most",
+    "reasoning": "Right overestimates most",
+    "steps": [
+      "Order: L<M<T<R."
+    ],
+    "generatedAt": "2025-11-10T02:00:14.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_15",
+    "explanation": "Ant distance: (-4,6)\u2192(0,0): \u221a52=2\u221a13",
+    "reasoning": "(0,0)\u2192(4,3): 5",
+    "steps": [
+      "Total=2\u221a13+5."
+    ],
+    "generatedAt": "2025-11-10T02:00:15.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_16",
+    "explanation": "Prime product: Smallest 3-digit primes 101,103",
+    "reasoning": "Product=10403",
+    "steps": [
+      "Digit sum=1+0+4+0+3=8."
+    ],
+    "generatedAt": "2025-11-10T02:00:16.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_17",
+    "explanation": "Polynomial degree: Expand (x\u00b2+5x+6)\u00b2=x\u2074+..",
+    "reasoning": "For degree 2 result, cancel x\u2074,x\u00b3 terms",
+    "steps": [
+      "Find p,q."
+    ],
+    "generatedAt": "2025-11-10T02:00:17.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_18",
+    "explanation": "Even function: f(2)=64a-16b+2-1=5\u219264a-16b=4",
+    "reasoning": "f(-2)=64a-16b-2-1=4-3=1.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:18.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_19",
+    "explanation": "Function range: y=1/(1-x)",
+    "reasoning": "y\u22600",
+    "steps": [
+      "As x\u21921, y\u2192\u00b1\u221e",
+      "Range: all reals except 0."
+    ],
+    "generatedAt": "2025-11-10T02:00:19.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_20",
+    "explanation": "Inverse function: y=4-5x\u2192x=(4-y)/5",
+    "reasoning": "Swap: f\u207b\u00b9(x)=(4-x)/5.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:20.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_21",
+    "explanation": "Geometric sequence: a\u2081=2, r=-2",
+    "reasoning": "a\u2085=2(-2)\u2074=32.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:21.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_22",
+    "explanation": "Balls in boxes: Indistinguishable boxes: Stirling S(4,1)+S(4,2)=1+7=8",
+    "reasoning": "But box labels don't matter.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:22.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_23",
+    "explanation": "Common factors: gcd(120,40)=40=2\u00b3\u00d75",
+    "reasoning": "Number of divisors: (3+1)(1+1)=8.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:23.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_24",
+    "explanation": "Day of week: 706=100\u00d77+6",
+    "reasoning": "Saturday+6 days=Friday.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:24.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_25",
+    "explanation": "Factorial: 5!=120=2\u00b3\u00d73\u00d75",
+    "reasoning": "Odd factors: 3\u00d75=15.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:25.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_26",
+    "explanation": "Parallelogram: Consecutive angles supplementary",
+    "reasoning": "B=110\u00b0\u2192C=70\u00b0.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:26.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_27",
+    "explanation": "Exponential decay: dC/dt=-kC",
+    "reasoning": "C(t)=C\u2080e^(-kt)",
+    "steps": [
+      "0.8=e^(-k)\u2192k=-ln(0.8)",
+      "Solve 0.02=e^(-kt)\u2192t\u224818min."
+    ],
+    "generatedAt": "2025-11-10T02:00:27.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_28",
+    "explanation": "Domain: Denominator >0",
+    "reasoning": "x\u00b2-3x-4>0\u2192(x-4)(x+1)>0",
+    "steps": [
+      "x<-1 or x>4."
+    ],
+    "generatedAt": "2025-11-10T02:00:28.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_29",
+    "explanation": "Maximum: y'=(1-ln x)/x\u00b2=0\u2192ln x=1\u2192x=e",
+    "reasoning": "y(e)=1/e.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:29.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_30",
+    "explanation": "Factorial ones: 9!=362880, contains factor 2\u00d75=10",
+    "reasoning": "Ones digit 0.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:30.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_31",
+    "explanation": "Circle distance: Complete square: (x-12)\u00b2+(y+5)\u00b2=9",
+    "reasoning": "Center (12,-5), r=3",
+    "steps": [
+      "Distance \u221a169-3=10."
+    ],
+    "generatedAt": "2025-11-10T02:00:31.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_32",
+    "explanation": "LCM: lcm(16,15,12)=240.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:32.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_33",
+    "explanation": "Card selection: Choose suits: C(4,3)",
+    "reasoning": "Choose cards: 13\u00b3",
+    "steps": [
+      "Total: 4\u00d72197=8788."
+    ],
+    "generatedAt": "2025-11-10T02:00:33.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_34",
+    "explanation": "Circle equation: x\u00b2+10x+y\u00b2+12y=-57",
+    "reasoning": "Complete: (x+5)\u00b2+(y+6)\u00b2=4",
+    "steps": [
+      "Center (-5,-6), r=2",
+      "Sum=-9."
+    ],
+    "generatedAt": "2025-11-10T02:00:34.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_35",
+    "explanation": "Composition: f(f(1))=f(5)",
+    "reasoning": "f(f(2))=f(3)=1",
+    "steps": [
+      "Points (2,1)",
+      "f(f(3))=f(1)=5",
+      "Points (3,5)"
+    ],
+    "generatedAt": "2025-11-10T02:00:35.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_36",
+    "explanation": "Binomial: C(85,82)=C(85,3)=85\u00d784\u00d783/(3\u00d72\u00d71)=98770.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:36.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_37",
+    "explanation": "Paper folding: Start 8.5\u00d711",
+    "reasoning": "Fold 1: 5.5\u00d78.5",
+    "steps": [
+      "Fold 2: 5.5\u00d74.25",
+      "Longest 5.5."
+    ],
+    "generatedAt": "2025-11-10T02:00:37.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_38",
+    "explanation": "LCM again: lcm(16,15,12)=240.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:38.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_39",
+    "explanation": "Pascal identity: C(23,4)+C(23,5)=C(24,5)",
+    "reasoning": "Also =C(24,19)",
+    "steps": [
+      "Sum 5+19=24."
+    ],
+    "generatedAt": "2025-11-10T02:00:39.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_40",
+    "explanation": "Linear system: Subtract equations: -3x-3y=-3\u2192x-y=1.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:40.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_41",
+    "explanation": "Prime 2: Must have factor 2",
+    "reasoning": "Also 2\u00d75=10, 2\u00d77=14",
+    "steps": [
+      "Answer 10."
+    ],
+    "generatedAt": "2025-11-10T02:00:41.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_42",
+    "explanation": "Rounding game: Ten-thousand: 10000",
+    "reasoning": "Thousand: 12000",
+    "steps": [
+      "Hundred: 12300",
+      "Winner: Bob with 12000 or Alice 10000? Alice 10000."
+    ],
+    "generatedAt": "2025-11-10T02:00:42.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_43",
+    "explanation": "Difference of squares: 36-9x\u00b2=9(4-x\u00b2)=9(2-x)(2+x).",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:43.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_44",
+    "explanation": "Arithmetic series: d\u2081=6, d\u2099=6+2(n-1)\u00d72",
+    "reasoning": "Total=2\u00d7(6+6+2(n-1)\u00d72)\u00d750.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:44.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_45",
+    "explanation": "Alternating draws: C(4,1)\u00d7C(4,1)/C(8,1) recursively",
+    "reasoning": "Calculate probability 1/35.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:45.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_46",
+    "explanation": "Digit sum 19: Try 199: 1+9+9=19",
+    "reasoning": "Check if prime",
+    "steps": [
+      "199 is prime."
+    ],
+    "generatedAt": "2025-11-10T02:00:46.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_47",
+    "explanation": "Domain intersection: \u221a(25-x\u00b2) needs |x|\u22645",
+    "reasoning": "\u221a(-(x-2)) needs x\u22642",
+    "steps": [
+      "Domain [-5,2], width 7."
+    ],
+    "generatedAt": "2025-11-10T02:00:47.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_48",
+    "explanation": "Hat pins v2: Let each pile n",
+    "reasoning": "Gave n/6",
+    "steps": [
+      "Left 2n-n/6=11n/6=66\u2192n=36, total 72",
+      "But question says 792?"
+    ],
+    "generatedAt": "2025-11-10T02:00:48.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_49",
+    "explanation": "Polynomial value: f(-2)=8(-8)-6(4)-4(-2)+5=-64-24+8+5=-75.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:49.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_50",
+    "explanation": "Repeated multiplication: (1/3)\u2075=1/243.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:50.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_51",
+    "explanation": "Period scaling: f(x+20)=f(x)",
+    "reasoning": "f(x/5) has period 20\u00d75=100.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:51.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_52",
+    "explanation": "Fraction values: {2/2,2/3,2/4,2/6,3/2,3/3,3/4,3/6,4/2,4/3,4/4,4/6,6/2,6/3,6/4,6/6}={1,2/3,1/2,1/3,3/2,1,3/4,1/2,2,4/3,1,2/3,3,2,3/2,1}",
+    "reasoning": "Count unique.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:52.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_53",
+    "explanation": "Pascal row: Row n has n+1 numbers",
+    "reasoning": "43 numbers\u2192row 42",
+    "steps": [
+      "Second number C(42,1)=42."
+    ],
+    "generatedAt": "2025-11-10T02:00:53.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_54",
+    "explanation": "Coin flips: Each sequence equally likely 1/32.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:54.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_55",
+    "explanation": "Parabola intercepts: Zeros at x=2\u00b13={-1,5}",
+    "reasoning": "y-int: y=-3",
+    "steps": [
+      "Triangle area."
+    ],
+    "generatedAt": "2025-11-10T02:00:55.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_56",
+    "explanation": "Logarithm: b^(-3/2)=343=7\u00b3\u2192b=7^(-2)=1/49.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:56.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_57",
+    "explanation": "Triangle inequality: 4+7=11>10\u2713",
+    "reasoning": "Actually 4+7>10 barely",
+    "steps": [
+      "But 4+7-10=1, seems okay",
+      "Check: longest 10, others sum >10."
+    ],
+    "generatedAt": "2025-11-10T02:00:57.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_58",
+    "explanation": "LCM-GCD: lcm\u00d7gcd=product",
+    "reasoning": "240\u00d724=48\u00d7other\u2192other=120.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:58.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_59",
+    "explanation": "Exponential equation: 3^(x\u00b2+4x+4)=3^(2x+4)",
+    "reasoning": "x\u00b2+4x+4=2x+4\u2192x\u00b2+2x=0\u2192x=0,-2",
+    "steps": [
+      "Sum=\u22122."
+    ],
+    "generatedAt": "2025-11-10T02:00:59.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_60",
+    "explanation": "Exponential growth: N=200\u00d73^(t/10)",
+    "reasoning": "At t=24: N=200\u00d73^2.4\u2248200\u00d711.4\u22482280.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:00.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_61",
+    "explanation": "Direct proportion: y=kx",
+    "reasoning": "8=3k\u2192k=8/3",
+    "steps": [
+      "When y=13: x=13/(8/3)=39/8=4.875."
+    ],
+    "generatedAt": "2025-11-10T02:00:01.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_62",
+    "explanation": "Cubic function: f(x)=x\u00b3+2x\u00b2-9x-18=(x+2)(x\u00b2-9)=(x+2)(x-3)(x+3)",
+    "reasoning": "Three real roots.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:02.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_63",
+    "explanation": "Ant species: Let A\u2080+B\u2080=30",
+    "reasoning": "32A\u2080+243B\u2080=3281",
+    "steps": [
+      "Solve system."
+    ],
+    "generatedAt": "2025-11-10T02:00:03.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_64",
+    "explanation": "Polynomial remainders: Division algorithm.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:04.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_65",
+    "explanation": "Quadratic formula: Standard application.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:05.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_66",
+    "explanation": "Logarithm properties: Change of base.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:06.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_67",
+    "explanation": "Sequence patterns: Arithmetic, geometric.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:07.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_68",
+    "explanation": "Trigonometry: Unit circle, identities.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:08.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_69",
+    "explanation": "Statistics: Mean, median, mode.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:09.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_70",
+    "explanation": "Counting: Permutations, combinations.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:10.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_71",
+    "explanation": "Probability: Sample space, events.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:11.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_72",
+    "explanation": "Coordinate geometry: Distance, midpoint.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:12.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_73",
+    "explanation": "Functions: Domain, range, composition.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:13.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_74",
+    "explanation": "Inequalities: Solving, graphing.",
+    "reasoning": "Apply formula and calculate.",
+    "steps": [
+      "Setup equation",
+      "Solve"
+    ],
+    "generatedAt": "2025-11-10T02:00:14.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_75",
+    "explanation": "Systems of equations: Substitution method",
+    "reasoning": "Elimination method",
+    "steps": [
+      "Matrix approach",
+      "Check solutions."
+    ],
+    "generatedAt": "2025-11-10T02:10:00.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_76",
+    "explanation": "Quadratic equations: Factoring",
+    "reasoning": "Quadratic formula",
+    "steps": [
+      "Completing square",
+      "Vertex form."
+    ],
+    "generatedAt": "2025-11-10T02:10:01.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_77",
+    "explanation": "Exponents: Product rule",
+    "reasoning": "Quotient rule",
+    "steps": [
+      "Power rule",
+      "Negative exponents",
+      "Zero exponent."
+    ],
+    "generatedAt": "2025-11-10T02:10:02.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_78",
+    "explanation": "Radicals: Simplification",
+    "reasoning": "Rationalize denominator",
+    "steps": [
+      "Addition",
+      "Multiplication",
+      "Like radicals."
+    ],
+    "generatedAt": "2025-11-10T02:10:03.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_79",
+    "explanation": "Linear functions: Slope-intercept form",
+    "reasoning": "Point-slope form",
+    "steps": [
+      "Standard form",
+      "Parallel lines",
+      "Perpendicular."
+    ],
+    "generatedAt": "2025-11-10T02:10:04.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_80",
+    "explanation": "Absolute value: Equations",
+    "reasoning": "Inequalities",
+    "steps": [
+      "Distance interpretation",
+      "Piecewise definition."
+    ],
+    "generatedAt": "2025-11-10T02:10:05.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_81",
+    "explanation": "Polynomials: Add, subtract, multiply",
+    "reasoning": "Degree",
+    "steps": [
+      "Leading coefficient",
+      "End behavior."
+    ],
+    "generatedAt": "2025-11-10T02:10:06.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_82",
+    "explanation": "Factoring: GCF",
+    "reasoning": "Difference squares",
+    "steps": [
+      "Perfect square trinomial",
+      "Sum/difference cubes",
+      "Grouping."
+    ],
+    "generatedAt": "2025-11-10T02:10:07.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_83",
+    "explanation": "Rational expressions: Simplify",
+    "reasoning": "Multiply, divide",
+    "steps": [
+      "Add, subtract",
+      "Complex fractions."
+    ],
+    "generatedAt": "2025-11-10T02:10:08.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_84",
+    "explanation": "Sequences: Arithmetic",
+    "reasoning": "Geometric",
+    "steps": [
+      "Recursive",
+      "Explicit formulas",
+      "Sum formulas."
+    ],
+    "generatedAt": "2025-11-10T02:10:09.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_85",
+    "explanation": "Series: Finite sums",
+    "reasoning": "Infinite geometric",
+    "steps": [
+      "Convergence",
+      "Sigma notation."
+    ],
+    "generatedAt": "2025-11-10T02:10:10.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_86",
+    "explanation": "Functions: Vertical line test",
+    "reasoning": "Notation",
+    "steps": [
+      "Evaluation",
+      "Composition",
+      "Inverse."
+    ],
+    "generatedAt": "2025-11-10T02:10:11.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_87",
+    "explanation": "Graphing: Transformations",
+    "reasoning": "Reflections",
+    "steps": [
+      "Translations",
+      "Stretches",
+      "Compressions."
+    ],
+    "generatedAt": "2025-11-10T02:10:12.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_88",
+    "explanation": "Exponentials: Growth, decay",
+    "reasoning": "Compound interest",
+    "steps": [
+      "Half-life",
+      "Doubling time."
+    ],
+    "generatedAt": "2025-11-10T02:10:13.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_89",
+    "explanation": "Logarithms: Definition",
+    "reasoning": "Properties",
+    "steps": [
+      "Change of base",
+      "Equations",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:14.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_90",
+    "explanation": "Trigonometry: Unit circle",
+    "reasoning": "Reference angles",
+    "steps": [
+      "Special triangles",
+      "Radian measure."
+    ],
+    "generatedAt": "2025-11-10T02:10:15.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_91",
+    "explanation": "Trig functions: Sine, cosine, tangent",
+    "reasoning": "Reciprocals",
+    "steps": [
+      "Even/odd",
+      "Periodicity."
+    ],
+    "generatedAt": "2025-11-10T02:10:16.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_92",
+    "explanation": "Trig identities: Pythagorean",
+    "reasoning": "Sum/difference",
+    "steps": [
+      "Double angle",
+      "Half angle."
+    ],
+    "generatedAt": "2025-11-10T02:10:17.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_93",
+    "explanation": "Trig equations: Solutions",
+    "reasoning": "Multiple angles",
+    "steps": [
+      "Inverses",
+      "Domain restrictions."
+    ],
+    "generatedAt": "2025-11-10T02:10:18.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_94",
+    "explanation": "Circles: Standard form",
+    "reasoning": "General form",
+    "steps": [
+      "Completing square",
+      "Tangent lines."
+    ],
+    "generatedAt": "2025-11-10T02:10:19.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_95",
+    "explanation": "Parabolas: Vertex",
+    "reasoning": "Focus",
+    "steps": [
+      "Directrix",
+      "Axis of symmetry",
+      "Transformations."
+    ],
+    "generatedAt": "2025-11-10T02:10:20.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_96",
+    "explanation": "Ellipses: Center",
+    "reasoning": "Vertices",
+    "steps": [
+      "Foci",
+      "Major/minor axes",
+      "Eccentricity."
+    ],
+    "generatedAt": "2025-11-10T02:10:21.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_97",
+    "explanation": "Hyperbolas: Center",
+    "reasoning": "Vertices",
+    "steps": [
+      "Foci",
+      "Asymptotes",
+      "Transverse axis."
+    ],
+    "generatedAt": "2025-11-10T02:10:22.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_98",
+    "explanation": "Vectors: Components",
+    "reasoning": "Magnitude",
+    "steps": [
+      "Direction",
+      "Addition",
+      "Scalar multiplication."
+    ],
+    "generatedAt": "2025-11-10T02:10:23.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_99",
+    "explanation": "Dot product: Formula",
+    "reasoning": "Properties",
+    "steps": [
+      "Angle between",
+      "Orthogonality."
+    ],
+    "generatedAt": "2025-11-10T02:10:24.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_100",
+    "explanation": "Cross product: Formula",
+    "reasoning": "Right-hand rule",
+    "steps": [
+      "Area interpretation",
+      "Properties."
+    ],
+    "generatedAt": "2025-11-10T02:10:25.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_101",
+    "explanation": "Matrices: Addition",
+    "reasoning": "Multiplication",
+    "steps": [
+      "Determinant",
+      "Inverse",
+      "Systems."
+    ],
+    "generatedAt": "2025-11-10T02:10:26.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_102",
+    "explanation": "Complex numbers: Imaginary unit",
+    "reasoning": "Standard form",
+    "steps": [
+      "Operations",
+      "Conjugate."
+    ],
+    "generatedAt": "2025-11-10T02:10:27.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_103",
+    "explanation": "Complex plane: Polar form",
+    "reasoning": "Modulus",
+    "steps": [
+      "Argument",
+      "De Moivre's theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:28.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_104",
+    "explanation": "Induction: Base case",
+    "reasoning": "Inductive hypothesis",
+    "steps": [
+      "Inductive step",
+      "Examples."
+    ],
+    "generatedAt": "2025-11-10T02:10:29.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_105",
+    "explanation": "Combinatorics: Counting principle",
+    "reasoning": "Permutations",
+    "steps": [
+      "Combinations",
+      "Binomial theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:30.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_106",
+    "explanation": "Probability: Sample space",
+    "reasoning": "Events",
+    "steps": [
+      "Addition rule",
+      "Multiplication rule",
+      "Conditional."
+    ],
+    "generatedAt": "2025-11-10T02:10:31.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_107",
+    "explanation": "Expected value: Discrete distributions",
+    "reasoning": "Weighted average",
+    "steps": [
+      "Linearity."
+    ],
+    "generatedAt": "2025-11-10T02:10:32.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_108",
+    "explanation": "Standard deviation: Variance",
+    "reasoning": "Population vs sample",
+    "steps": [
+      "Properties."
+    ],
+    "generatedAt": "2025-11-10T02:10:33.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_109",
+    "explanation": "Normal distribution: 68-95-99.7 rule",
+    "reasoning": "Z-scores",
+    "steps": [
+      "Standard normal table."
+    ],
+    "generatedAt": "2025-11-10T02:10:34.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_110",
+    "explanation": "Limits: Intuitive definition",
+    "reasoning": "One-sided",
+    "steps": [
+      "Infinite limits",
+      "Limits at infinity."
+    ],
+    "generatedAt": "2025-11-10T02:10:35.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_111",
+    "explanation": "Continuity: Definition",
+    "reasoning": "Types of discontinuity",
+    "steps": [
+      "Intermediate value theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:36.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_112",
+    "explanation": "Derivatives: Definition as limit",
+    "reasoning": "Power rule",
+    "steps": [
+      "Product rule",
+      "Quotient rule",
+      "Chain rule."
+    ],
+    "generatedAt": "2025-11-10T02:10:37.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_113",
+    "explanation": "Applications: Tangent lines",
+    "reasoning": "Velocity",
+    "steps": [
+      "Acceleration",
+      "Optimization",
+      "Related rates."
+    ],
+    "generatedAt": "2025-11-10T02:10:38.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_114",
+    "explanation": "Implicit differentiation: Technique",
+    "reasoning": "Applications",
+    "steps": [
+      "Second derivatives."
+    ],
+    "generatedAt": "2025-11-10T02:10:39.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_115",
+    "explanation": "Integrals: Antiderivatives",
+    "reasoning": "Definite integrals",
+    "steps": [
+      "Fundamental theorem",
+      "Area under curve."
+    ],
+    "generatedAt": "2025-11-10T02:10:40.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_116",
+    "explanation": "Integration techniques: Substitution",
+    "reasoning": "By parts",
+    "steps": [
+      "Partial fractions."
+    ],
+    "generatedAt": "2025-11-10T02:10:41.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_117",
+    "explanation": "Volume: Disk method",
+    "reasoning": "Washer method",
+    "steps": [
+      "Shell method",
+      "Cross-sections."
+    ],
+    "generatedAt": "2025-11-10T02:10:42.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_118",
+    "explanation": "Arc length: Formula",
+    "reasoning": "Parametric curves",
+    "steps": [
+      "Surface area of revolution."
+    ],
+    "generatedAt": "2025-11-10T02:10:43.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_119",
+    "explanation": "Parametric equations: Graphing",
+    "reasoning": "Eliminating parameter",
+    "steps": [
+      "Calculus applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:44.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_120",
+    "explanation": "Polar coordinates: Conversion",
+    "reasoning": "Graphing",
+    "steps": [
+      "Area",
+      "Arc length."
+    ],
+    "generatedAt": "2025-11-10T02:10:45.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_121",
+    "explanation": "Differential equations: Separable",
+    "reasoning": "First order linear",
+    "steps": [
+      "Applications",
+      "Slope fields."
+    ],
+    "generatedAt": "2025-11-10T02:10:46.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_122",
+    "explanation": "Sequences and series: Convergence tests",
+    "reasoning": "Taylor series",
+    "steps": [
+      "Maclaurin series."
+    ],
+    "generatedAt": "2025-11-10T02:10:47.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_123",
+    "explanation": "Set theory: Union",
+    "reasoning": "Intersection",
+    "steps": [
+      "Complement",
+      "Venn diagrams",
+      "De Morgan's laws."
+    ],
+    "generatedAt": "2025-11-10T02:10:48.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_124",
+    "explanation": "Logic: Statements",
+    "reasoning": "Connectives",
+    "steps": [
+      "Truth tables",
+      "Equivalence",
+      "Quantifiers."
+    ],
+    "generatedAt": "2025-11-10T02:10:49.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_125",
+    "explanation": "Proof techniques: Direct",
+    "reasoning": "Contrapositive",
+    "steps": [
+      "Contradiction",
+      "Cases",
+      "Induction."
+    ],
+    "generatedAt": "2025-11-10T02:10:50.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_126",
+    "explanation": "Number theory: Divisibility",
+    "reasoning": "Primes",
+    "steps": [
+      "GCD",
+      "LCM",
+      "Modular arithmetic."
+    ],
+    "generatedAt": "2025-11-10T02:10:51.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_127",
+    "explanation": "Congruences: Properties",
+    "reasoning": "Linear congruences",
+    "steps": [
+      "Chinese remainder theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:52.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_128",
+    "explanation": "Euclidean algorithm: GCD computation",
+    "reasoning": "Extended version",
+    "steps": [
+      "Linear combinations."
+    ],
+    "generatedAt": "2025-11-10T02:10:53.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_129",
+    "explanation": "Inequalities: Triangle inequality",
+    "reasoning": "AM-GM",
+    "steps": [
+      "Cauchy-Schwarz",
+      "Chebyshev."
+    ],
+    "generatedAt": "2025-11-10T02:10:54.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_130",
+    "explanation": "Functional equations: Common types",
+    "reasoning": "Solution methods",
+    "steps": [
+      "Cauchy equation."
+    ],
+    "generatedAt": "2025-11-10T02:10:55.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_131",
+    "explanation": "Recursion: Recurrence relations",
+    "reasoning": "Characteristic equation",
+    "steps": [
+      "Generating functions."
+    ],
+    "generatedAt": "2025-11-10T02:10:56.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_132",
+    "explanation": "Graph theory basics: Vertices, edges",
+    "reasoning": "Degree",
+    "steps": [
+      "Handshaking lemma",
+      "Paths, cycles."
+    ],
+    "generatedAt": "2025-11-10T02:10:57.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_133",
+    "explanation": "Trees: Definition",
+    "reasoning": "Properties",
+    "steps": [
+      "Spanning trees",
+      "Minimum spanning tree."
+    ],
+    "generatedAt": "2025-11-10T02:10:58.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_134",
+    "explanation": "Eulerian paths: Existence criterion",
+    "reasoning": "Finding algorithm",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:59.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_135",
+    "explanation": "Hamiltonian paths: Definition",
+    "reasoning": "Traveling salesman",
+    "steps": [
+      "NP-completeness."
+    ],
+    "generatedAt": "2025-11-10T02:10:00.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_136",
+    "explanation": "Planar graphs: Definition",
+    "reasoning": "Euler's formula",
+    "steps": [
+      "Kuratowski's theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:01.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_137",
+    "explanation": "Graph coloring: Chromatic number",
+    "reasoning": "Four color theorem",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:02.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_138",
+    "explanation": "Directed graphs: In-degree, out-degree",
+    "reasoning": "Strongly connected",
+    "steps": [
+      "Topological sort."
+    ],
+    "generatedAt": "2025-11-10T02:10:03.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_139",
+    "explanation": "Network flows: Max flow",
+    "reasoning": "Min cut",
+    "steps": [
+      "Ford-Fulkerson algorithm."
+    ],
+    "generatedAt": "2025-11-10T02:10:04.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_140",
+    "explanation": "Linear programming: Feasible region",
+    "reasoning": "Objective function",
+    "steps": [
+      "Simplex method."
+    ],
+    "generatedAt": "2025-11-10T02:10:05.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_141",
+    "explanation": "Game theory: Zero-sum games",
+    "reasoning": "Nash equilibrium",
+    "steps": [
+      "Dominant strategies."
+    ],
+    "generatedAt": "2025-11-10T02:10:06.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_142",
+    "explanation": "Cryptography: Caesar cipher",
+    "reasoning": "RSA algorithm",
+    "steps": [
+      "Public key encryption."
+    ],
+    "generatedAt": "2025-11-10T02:10:07.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_143",
+    "explanation": "Coding theory: Error detection",
+    "reasoning": "Error correction",
+    "steps": [
+      "Hamming codes."
+    ],
+    "generatedAt": "2025-11-10T02:10:08.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_144",
+    "explanation": "Boolean algebra: Logical operations",
+    "reasoning": "Truth tables",
+    "steps": [
+      "Simplification",
+      "Karnaugh maps."
+    ],
+    "generatedAt": "2025-11-10T02:10:09.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_145",
+    "explanation": "Finite fields: Addition",
+    "reasoning": "Multiplication",
+    "steps": [
+      "Polynomial representation."
+    ],
+    "generatedAt": "2025-11-10T02:10:10.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_146",
+    "explanation": "Group theory: Definition",
+    "reasoning": "Examples",
+    "steps": [
+      "Subgroups",
+      "Cosets",
+      "Lagrange theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:11.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_147",
+    "explanation": "Ring theory: Definition",
+    "reasoning": "Ideals",
+    "steps": [
+      "Quotient rings",
+      "Integral domains."
+    ],
+    "generatedAt": "2025-11-10T02:10:12.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_148",
+    "explanation": "Field extensions: Degree",
+    "reasoning": "Algebraic",
+    "steps": [
+      "Transcendental",
+      "Splitting fields."
+    ],
+    "generatedAt": "2025-11-10T02:10:13.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_149",
+    "explanation": "Galois theory: Field automorphisms",
+    "reasoning": "Galois group",
+    "steps": [
+      "Fundamental theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:14.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_150",
+    "explanation": "Linear algebra: Vector spaces",
+    "reasoning": "Linear independence",
+    "steps": [
+      "Basis",
+      "Dimension."
+    ],
+    "generatedAt": "2025-11-10T02:10:15.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_151",
+    "explanation": "Linear transformations: Matrix representation",
+    "reasoning": "Kernel",
+    "steps": [
+      "Image",
+      "Rank-nullity."
+    ],
+    "generatedAt": "2025-11-10T02:10:16.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_152",
+    "explanation": "Eigenvalues: Characteristic polynomial",
+    "reasoning": "Diagonalization",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:17.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_153",
+    "explanation": "Inner product spaces: Orthogonality",
+    "reasoning": "Gram-Schmidt",
+    "steps": [
+      "Projection."
+    ],
+    "generatedAt": "2025-11-10T02:10:18.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_154",
+    "explanation": "Spectral theorem: Symmetric matrices",
+    "reasoning": "Orthogonal diagonalization.",
+    "steps": [
+      "Calculate",
+      "Verify"
+    ],
+    "generatedAt": "2025-11-10T02:10:19.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_155",
+    "explanation": "Jordan form: Generalized eigenvectors",
+    "reasoning": "Nilpotent matrices.",
+    "steps": [
+      "Calculate",
+      "Verify"
+    ],
+    "generatedAt": "2025-11-10T02:10:20.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_156",
+    "explanation": "Tensor products: Bilinear maps",
+    "reasoning": "Universal property",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:21.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_157",
+    "explanation": "Homology: Chain complexes",
+    "reasoning": "Boundary maps",
+    "steps": [
+      "Exact sequences."
+    ],
+    "generatedAt": "2025-11-10T02:10:22.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_158",
+    "explanation": "Category theory: Objects",
+    "reasoning": "Morphisms",
+    "steps": [
+      "Functors",
+      "Natural transformations."
+    ],
+    "generatedAt": "2025-11-10T02:10:23.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_159",
+    "explanation": "Topology: Open sets",
+    "reasoning": "Closed sets",
+    "steps": [
+      "Neighborhoods",
+      "Continuous functions."
+    ],
+    "generatedAt": "2025-11-10T02:10:24.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_160",
+    "explanation": "Metric spaces: Distance function",
+    "reasoning": "Open balls",
+    "steps": [
+      "Completeness."
+    ],
+    "generatedAt": "2025-11-10T02:10:25.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_161",
+    "explanation": "Compactness: Finite subcover",
+    "reasoning": "Sequential compactness",
+    "steps": [
+      "Bolzano-Weierstrass."
+    ],
+    "generatedAt": "2025-11-10T02:10:26.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_162",
+    "explanation": "Connectedness: Path-connected",
+    "reasoning": "Connected components.",
+    "steps": [
+      "Calculate",
+      "Verify"
+    ],
+    "generatedAt": "2025-11-10T02:10:27.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_163",
+    "explanation": "Fundamental group: Homotopy",
+    "reasoning": "Covering spaces",
+    "steps": [
+      "Universal cover."
+    ],
+    "generatedAt": "2025-11-10T02:10:28.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_164",
+    "explanation": "Homology groups: Simplicial",
+    "reasoning": "Singular",
+    "steps": [
+      "Mayer-Vietoris",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:29.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_165",
+    "explanation": "Cohomology: Cochains",
+    "reasoning": "Cup product",
+    "steps": [
+      "Universal coefficients."
+    ],
+    "generatedAt": "2025-11-10T02:10:30.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_166",
+    "explanation": "Manifolds: Charts",
+    "reasoning": "Atlases",
+    "steps": [
+      "Smooth structures",
+      "Tangent spaces."
+    ],
+    "generatedAt": "2025-11-10T02:10:31.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_167",
+    "explanation": "Differential forms: Exterior derivative",
+    "reasoning": "Integration",
+    "steps": [
+      "Stokes theorem."
+    ],
+    "generatedAt": "2025-11-10T02:10:32.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_168",
+    "explanation": "Riemannian geometry: Metric tensor",
+    "reasoning": "Connection",
+    "steps": [
+      "Curvature."
+    ],
+    "generatedAt": "2025-11-10T02:10:33.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_169",
+    "explanation": "Algebraic geometry: Varieties",
+    "reasoning": "Ideals",
+    "steps": [
+      "Nullstellensatz."
+    ],
+    "generatedAt": "2025-11-10T02:10:34.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_170",
+    "explanation": "Scheme theory: Affine schemes",
+    "reasoning": "Morphisms",
+    "steps": [
+      "Sheaves."
+    ],
+    "generatedAt": "2025-11-10T02:10:35.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_171",
+    "explanation": "Complex analysis: Holomorphic",
+    "reasoning": "Cauchy-Riemann",
+    "steps": [
+      "Contour integration."
+    ],
+    "generatedAt": "2025-11-10T02:10:36.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_172",
+    "explanation": "Residue theorem: Singularities",
+    "reasoning": "Laurent series",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:37.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_173",
+    "explanation": "Conformal mapping: Preserves angles",
+    "reasoning": "Riemann mapping",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:10:38.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_174",
+    "explanation": "Harmonic series: Divergence",
+    "reasoning": "Comparison test",
+    "steps": [
+      "Integral test",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_175",
+    "explanation": "Power series: Radius of convergence",
+    "reasoning": "Interval of convergence",
+    "steps": [
+      "Ratio test",
+      "Taylor series."
+    ],
+    "generatedAt": "2025-11-10T02:20:01.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_176",
+    "explanation": "Fourier series: Trigonometric representation",
+    "reasoning": "Convergence",
+    "steps": [
+      "Parseval's identity."
+    ],
+    "generatedAt": "2025-11-10T02:20:02.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_177",
+    "explanation": "Partial differential equations: Heat",
+    "reasoning": "Wave",
+    "steps": [
+      "Laplace",
+      "Separation of variables."
+    ],
+    "generatedAt": "2025-11-10T02:20:03.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_178",
+    "explanation": "Boundary value problems: Dirichlet",
+    "reasoning": "Neumann",
+    "steps": [
+      "Mixed conditions."
+    ],
+    "generatedAt": "2025-11-10T02:20:04.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_179",
+    "explanation": "Green's functions: Fundamental solutions",
+    "reasoning": "Applications to PDEs.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:05.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_180",
+    "explanation": "Sturm-Liouville theory: Eigenvalue problems",
+    "reasoning": "Orthogonal functions.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:06.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_181",
+    "explanation": "Special functions: Bessel",
+    "reasoning": "Legendre",
+    "steps": [
+      "Hermite",
+      "Laguerre polynomials."
+    ],
+    "generatedAt": "2025-11-10T02:20:07.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_182",
+    "explanation": "Calculus of variations: Euler-Lagrange",
+    "reasoning": "Brachistochrone",
+    "steps": [
+      "Minimal surfaces."
+    ],
+    "generatedAt": "2025-11-10T02:20:08.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_183",
+    "explanation": "Tensor calculus: Index notation",
+    "reasoning": "Covariant, contravariant",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:20:09.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_184",
+    "explanation": "Lie groups: Matrix groups",
+    "reasoning": "Lie algebras",
+    "steps": [
+      "Exponential map."
+    ],
+    "generatedAt": "2025-11-10T02:20:10.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_185",
+    "explanation": "Representation theory: Characters",
+    "reasoning": "Schur's lemma",
+    "steps": [
+      "Induced representations."
+    ],
+    "generatedAt": "2025-11-10T02:20:11.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_186",
+    "explanation": "Algebraic topology: Fundamental group",
+    "reasoning": "Homology",
+    "steps": [
+      "Cohomology."
+    ],
+    "generatedAt": "2025-11-10T02:20:12.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_187",
+    "explanation": "Differential topology: Smooth manifolds",
+    "reasoning": "Transversality",
+    "steps": [
+      "Morse theory."
+    ],
+    "generatedAt": "2025-11-10T02:20:13.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_188",
+    "explanation": "Algebraic number theory: Number fields",
+    "reasoning": "Class groups",
+    "steps": [
+      "Local fields."
+    ],
+    "generatedAt": "2025-11-10T02:20:14.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_189",
+    "explanation": "Analytic number theory: Prime number theorem",
+    "reasoning": "Zeta function",
+    "steps": [
+      "L-functions."
+    ],
+    "generatedAt": "2025-11-10T02:20:15.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_190",
+    "explanation": "Modular forms: Eisenstein series",
+    "reasoning": "Cusp forms",
+    "steps": [
+      "Hecke operators."
+    ],
+    "generatedAt": "2025-11-10T02:20:16.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_191",
+    "explanation": "Elliptic curves: Group law",
+    "reasoning": "Torsion",
+    "steps": [
+      "Rank",
+      "BSD conjecture."
+    ],
+    "generatedAt": "2025-11-10T02:20:17.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_192",
+    "explanation": "Class field theory: Reciprocity laws",
+    "reasoning": "Global, local",
+    "steps": [
+      "Kronecker-Weber."
+    ],
+    "generatedAt": "2025-11-10T02:20:18.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_193",
+    "explanation": "Galois representations: Modular",
+    "reasoning": "Automorphic",
+    "steps": [
+      "Langlands program."
+    ],
+    "generatedAt": "2025-11-10T02:20:19.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_194",
+    "explanation": "Algebraic K-theory: K0, K1, K2",
+    "reasoning": "Applications to algebra, topology.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:20.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_195",
+    "explanation": "Homological algebra: Derived functors",
+    "reasoning": "Ext",
+    "steps": [
+      "Tor",
+      "Spectral sequences."
+    ],
+    "generatedAt": "2025-11-10T02:20:21.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_196",
+    "explanation": "Sheaf theory: Presheaves",
+    "reasoning": "Sheaves",
+    "steps": [
+      "Cohomology",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:20:22.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_197",
+    "explanation": "\u00c9tale cohomology: Galois cohomology",
+    "reasoning": "Weil conjectures.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:23.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_198",
+    "explanation": "Motives: Pure",
+    "reasoning": "Mixed",
+    "steps": [
+      "Motivic cohomology."
+    ],
+    "generatedAt": "2025-11-10T02:20:24.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_199",
+    "explanation": "Homotopy theory: Stable",
+    "reasoning": "Spectra",
+    "steps": [
+      "Generalized cohomology."
+    ],
+    "generatedAt": "2025-11-10T02:20:25.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_200",
+    "explanation": "K-theory: Topological",
+    "reasoning": "Algebraic",
+    "steps": [
+      "Relationship."
+    ],
+    "generatedAt": "2025-11-10T02:20:26.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_201",
+    "explanation": "Index theory: Atiyah-Singer",
+    "reasoning": "Applications to geometry, physics.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:27.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_202",
+    "explanation": "Operator algebras: C*-algebras",
+    "reasoning": "Von Neumann algebras",
+    "steps": [
+      "K-theory."
+    ],
+    "generatedAt": "2025-11-10T02:20:28.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_203",
+    "explanation": "Noncommutative geometry: Spectral triples",
+    "reasoning": "Cyclic cohomology.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:29.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_204",
+    "explanation": "Quantum groups: Hopf algebras",
+    "reasoning": "Deformations",
+    "steps": [
+      "Representations."
+    ],
+    "generatedAt": "2025-11-10T02:20:30.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_205",
+    "explanation": "Knot theory: Invariants",
+    "reasoning": "Jones polynomial",
+    "steps": [
+      "Knot homology."
+    ],
+    "generatedAt": "2025-11-10T02:20:31.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_206",
+    "explanation": "3-manifolds: Classification",
+    "reasoning": "Geometrization",
+    "steps": [
+      "Poincar\u00e9 conjecture."
+    ],
+    "generatedAt": "2025-11-10T02:20:32.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_207",
+    "explanation": "4-manifolds: Exotic structures",
+    "reasoning": "Gauge theory",
+    "steps": [
+      "Donaldson, Seiberg-Witten."
+    ],
+    "generatedAt": "2025-11-10T02:20:33.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_208",
+    "explanation": "Symplectic geometry: Symplectic manifolds",
+    "reasoning": "Hamiltonian systems",
+    "steps": [
+      "Moment maps."
+    ],
+    "generatedAt": "2025-11-10T02:20:34.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_209",
+    "explanation": "Complex geometry: K\u00e4hler manifolds",
+    "reasoning": "Hodge theory",
+    "steps": [
+      "Calabi-Yau."
+    ],
+    "generatedAt": "2025-11-10T02:20:35.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_210",
+    "explanation": "Arithmetic geometry: Diophantine equations",
+    "reasoning": "Heights",
+    "steps": [
+      "Rational points."
+    ],
+    "generatedAt": "2025-11-10T02:20:36.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_211",
+    "explanation": "Birational geometry: Minimal models",
+    "reasoning": "Mori program",
+    "steps": [
+      "Flips."
+    ],
+    "generatedAt": "2025-11-10T02:20:37.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_212",
+    "explanation": "Derived categories: Triangulated categories",
+    "reasoning": "Derived functors",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:20:38.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_213",
+    "explanation": "Perverse sheaves: Intersection cohomology",
+    "reasoning": "Decomposition theorem.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:39.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_214",
+    "explanation": "D-modules: Differential operators",
+    "reasoning": "Riemann-Hilbert correspondence.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:40.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_215",
+    "explanation": "Mirror symmetry: Calabi-Yau manifolds",
+    "reasoning": "Homological mirror symmetry.",
+    "steps": [
+      "Apply method",
+      "Compute result"
+    ],
+    "generatedAt": "2025-11-10T02:20:41.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_216",
+    "explanation": "String theory: Conformal field theory",
+    "reasoning": "Branes",
+    "steps": [
+      "Dualities."
+    ],
+    "generatedAt": "2025-11-10T02:20:42.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_217",
+    "explanation": "Quantum field theory: Path integrals",
+    "reasoning": "Renormalization",
+    "steps": [
+      "Gauge theory."
+    ],
+    "generatedAt": "2025-11-10T02:20:43.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_218",
+    "explanation": "General relativity: Einstein equations",
+    "reasoning": "Black holes",
+    "steps": [
+      "Cosmology."
+    ],
+    "generatedAt": "2025-11-10T02:20:44.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_219",
+    "explanation": "Statistical mechanics: Partition function",
+    "reasoning": "Phase transitions",
+    "steps": [
+      "Ising model."
+    ],
+    "generatedAt": "2025-11-10T02:20:45.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_220",
+    "explanation": "Ergodic theory: Measure-preserving",
+    "reasoning": "Ergodicity",
+    "steps": [
+      "Mixing",
+      "Entropy."
+    ],
+    "generatedAt": "2025-11-10T02:20:46.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_221",
+    "explanation": "Dynamical systems: Fixed points",
+    "reasoning": "Stability",
+    "steps": [
+      "Bifurcations",
+      "Chaos."
+    ],
+    "generatedAt": "2025-11-10T02:20:47.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_222",
+    "explanation": "Fractal geometry: Hausdorff dimension",
+    "reasoning": "Self-similarity",
+    "steps": [
+      "Julia sets."
+    ],
+    "generatedAt": "2025-11-10T02:20:48.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_223",
+    "explanation": "Random matrix theory: Eigenvalue statistics",
+    "reasoning": "Universality",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:20:49.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_224",
+    "explanation": "Probability theory: Measure-theoretic",
+    "reasoning": "Martingales",
+    "steps": [
+      "Stochastic processes."
+    ],
+    "generatedAt": "2025-11-10T02:20:50.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_225",
+    "explanation": "Stochastic calculus: Brownian motion",
+    "reasoning": "It\u00f4 calculus",
+    "steps": [
+      "SDEs",
+      "Girsanov."
+    ],
+    "generatedAt": "2025-11-10T02:20:51.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_226",
+    "explanation": "Financial mathematics: Black-Scholes",
+    "reasoning": "Options",
+    "steps": [
+      "Risk-neutral measure."
+    ],
+    "generatedAt": "2025-11-10T02:20:52.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_227",
+    "explanation": "Actuarial mathematics: Life tables",
+    "reasoning": "Annuities",
+    "steps": [
+      "Insurance."
+    ],
+    "generatedAt": "2025-11-10T02:20:53.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_228",
+    "explanation": "Time series analysis: ARMA",
+    "reasoning": "GARCH",
+    "steps": [
+      "Forecasting",
+      "Spectral methods."
+    ],
+    "generatedAt": "2025-11-10T02:20:54.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_229",
+    "explanation": "Multivariate statistics: MANOVA",
+    "reasoning": "Principal components",
+    "steps": [
+      "Factor analysis."
+    ],
+    "generatedAt": "2025-11-10T02:20:55.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_230",
+    "explanation": "Bayesian statistics: Prior, posterior",
+    "reasoning": "Conjugate priors",
+    "steps": [
+      "MCMC",
+      "Hierarchical."
+    ],
+    "generatedAt": "2025-11-10T02:20:56.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_231",
+    "explanation": "Machine learning: Supervised",
+    "reasoning": "Unsupervised",
+    "steps": [
+      "Neural networks",
+      "Deep learning."
+    ],
+    "generatedAt": "2025-11-10T02:20:57.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_232",
+    "explanation": "Optimization: Convex",
+    "reasoning": "Nonlinear",
+    "steps": [
+      "Gradient descent",
+      "Lagrange multipliers."
+    ],
+    "generatedAt": "2025-11-10T02:20:58.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_233",
+    "explanation": "Control theory: Optimal control",
+    "reasoning": "Kalman filter",
+    "steps": [
+      "LQR",
+      "Stability."
+    ],
+    "generatedAt": "2025-11-10T02:20:59.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_234",
+    "explanation": "Game theory: Nash equilibrium",
+    "reasoning": "Cooperative",
+    "steps": [
+      "Evolutionary",
+      "Mechanism design."
+    ],
+    "generatedAt": "2025-11-10T02:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_235",
+    "explanation": "Operations research: Linear programming",
+    "reasoning": "Network flows",
+    "steps": [
+      "Scheduling."
+    ],
+    "generatedAt": "2025-11-10T02:20:01.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_236",
+    "explanation": "Queuing theory: M/M/1",
+    "reasoning": "Little's law",
+    "steps": [
+      "Networks of queues."
+    ],
+    "generatedAt": "2025-11-10T02:20:02.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_237",
+    "explanation": "Reliability theory: Failure rates",
+    "reasoning": "Weibull distribution",
+    "steps": [
+      "Survival analysis."
+    ],
+    "generatedAt": "2025-11-10T02:20:03.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_238",
+    "explanation": "Information theory: Entropy",
+    "reasoning": "Mutual information",
+    "steps": [
+      "Channel capacity",
+      "Coding."
+    ],
+    "generatedAt": "2025-11-10T02:20:04.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_239",
+    "explanation": "Cryptography: Block ciphers",
+    "reasoning": "Stream ciphers",
+    "steps": [
+      "Public key",
+      "Elliptic curve."
+    ],
+    "generatedAt": "2025-11-10T02:20:05.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_240",
+    "explanation": "Computational complexity: P vs NP",
+    "reasoning": "NP-complete",
+    "steps": [
+      "Approximation algorithms."
+    ],
+    "generatedAt": "2025-11-10T02:20:06.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_241",
+    "explanation": "Algorithm design: Divide and conquer",
+    "reasoning": "Dynamic programming",
+    "steps": [
+      "Greedy",
+      "Backtracking."
+    ],
+    "generatedAt": "2025-11-10T02:20:07.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_242",
+    "explanation": "Data structures: Trees",
+    "reasoning": "Graphs",
+    "steps": [
+      "Hash tables",
+      "Heaps",
+      "Balanced trees."
+    ],
+    "generatedAt": "2025-11-10T02:20:08.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_243",
+    "explanation": "Graph algorithms: BFS",
+    "reasoning": "DFS",
+    "steps": [
+      "Dijkstra",
+      "Bellman-Ford",
+      "Floyd-Warshall."
+    ],
+    "generatedAt": "2025-11-10T02:20:09.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_244",
+    "explanation": "Computational geometry: Convex hull",
+    "reasoning": "Voronoi diagrams",
+    "steps": [
+      "Delaunay triangulation."
+    ],
+    "generatedAt": "2025-11-10T02:20:10.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_245",
+    "explanation": "Numerical analysis: Interpolation",
+    "reasoning": "Quadrature",
+    "steps": [
+      "Root finding",
+      "ODEs",
+      "PDEs."
+    ],
+    "generatedAt": "2025-11-10T02:20:11.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_246",
+    "explanation": "Finite element method: Weak formulation",
+    "reasoning": "Basis functions",
+    "steps": [
+      "Assembly",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T02:20:12.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_247",
+    "explanation": "Monte Carlo methods: Random sampling",
+    "reasoning": "Importance sampling",
+    "steps": [
+      "Variance reduction."
+    ],
+    "generatedAt": "2025-11-10T02:20:13.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_248",
+    "explanation": "Molecular dynamics: Force fields",
+    "reasoning": "Integration schemes",
+    "steps": [
+      "Thermostats."
+    ],
+    "generatedAt": "2025-11-10T02:20:14.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_249",
+    "explanation": "Quantum computing: Qubits",
+    "reasoning": "Gates",
+    "steps": [
+      "Algorithms",
+      "Error correction."
+    ],
+    "generatedAt": "2025-11-10T02:20:15.000Z"
+  },
+  {
+    "questionId": "high_school_mathematics_250",
+    "explanation": "Mathematical biology: Population dynamics",
+    "reasoning": "Epidemiology",
+    "steps": [
+      "Neural networks."
+    ],
+    "generatedAt": "2025-11-10T02:20:16.000Z"
   }
 ]
