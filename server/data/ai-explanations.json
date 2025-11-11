@@ -26527,5 +26527,59 @@
       "Answer: 0.658"
     ],
     "generatedAt": "2025-11-10T09:43:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_101",
+    "explanation": "For a chi-square test of independence on a contingency table, degrees of freedom = (number of rows - 1) \u00d7 (number of columns - 1). Given: 3 \u00d7 4 table (3 rows, 4 columns). Calculate: df = (3 - 1) \u00d7 (4 - 1) = 2 \u00d7 3 = 6. This formula accounts for the constraints that row and column totals are fixed, reducing the number of freely varying cells.",
+    "reasoning": "Chi-square independence test df formula: df = (r-1)(c-1). For 3\u00d74 table: df = (3-1)(4-1) = 2\u00d73 = 6.",
+    "steps": [
+      "Contingency table: 3 rows \u00d7 4 columns",
+      "Formula: df = (rows - 1)(columns - 1)",
+      "Calculate: (3 - 1)(4 - 1) = 2 \u00d7 3",
+      "df = 6",
+      "Answer: 6"
+    ],
+    "generatedAt": "2025-11-10T09:50:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_102",
+    "explanation": "ER visit durations: \u03bc=167 min, \u03c3=76 min, normally distributed. Want middle 80% of durations. Middle 80% leaves 10% in each tail. Find z-scores: For 10% in left tail: z \u2248 -1.282. For 10% in right tail: z \u2248 +1.282. Convert to minutes: Lower bound = 167 + (-1.282)(76) = 167 - 97.4 \u2248 70 minutes. Upper bound = 167 + (1.282)(76) = 167 + 97.4 \u2248 264 minutes. The middle 80% interval is approximately 70 to 264 minutes.",
+    "reasoning": "Middle 80% \u2192 10% in each tail. Find z for 10th percentile (z\u2248-1.282) and 90th percentile (z\u22481.282). Convert: 167 \u00b1 1.282(76) \u2248 70 to 264 minutes.",
+    "steps": [
+      "Middle 80% \u2192 leave 10% in each tail",
+      "z-score for 10th percentile: -1.282",
+      "z-score for 90th percentile: +1.282",
+      "Lower: 167 - 1.282(76) \u2248 70 min",
+      "Upper: 167 + 1.282(76) \u2248 264 min",
+      "Answer: 70 to 264 minutes"
+    ],
+    "generatedAt": "2025-11-10T09:52:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_103",
+    "explanation": "Regression equation: Grade = 50.25 + 10.2h, where h is study hours. This equation predicts grade based on hours studied. If a student studies for 2 hours (h=2): Grade = 50.25 + 10.2(2) = 50.25 + 20.4 = 70.65. However, the question asks how her grade will BE AFFECTED if she studies 2 hours. The slope is 10.2, meaning each additional hour increases grade by 10.2 points. For 2 hours of study, the effect is 2 \u00d7 10.2 = 20.4 points above baseline (the 50.25 intercept). So her grade goes up by 20.4 points due to the 2 hours of studying.",
+    "reasoning": "Slope = 10.2 points per hour. For 2 hours: 2 \u00d7 10.2 = 20.4 point increase. The grade increases by 20.4 points (not the total grade, but the increase).",
+    "steps": [
+      "Regression: Grade = 50.25 + 10.2h",
+      "Slope: 10.2 points per hour",
+      "For h = 2 hours: contribution from studying = 10.2 \u00d7 2",
+      "Grade increase: 20.4 points",
+      "Answer: Grade goes up by 20.4 points"
+    ],
+    "generatedAt": "2025-11-10T09:54:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_104",
+    "explanation": "Experiment: Volunteers apply old formula on one side of face, new formula on other side (randomly assigned). Response = difference in pimples (old - new) for SAME person. This is PAIRED data - two measurements on the same subject. Each person serves as their own control. For paired data, we use a MATCHED PAIRS (or PAIRED) t-test, which tests whether the mean difference is different from zero. This is different from two-sample t-test, which compares independent groups. Here, the two sides of each person's face are not independent - they're paired measurements on the same individual.",
+    "reasoning": "Data structure: two measurements per person (old side vs new side). Paired/matched data \u2192 use matched pairs t-test (or one-sample t-test on the differences).",
+    "steps": [
+      "Design: both formulas on same person (different face sides)",
+      "Data: paired measurements on each subject",
+      "Response: difference (old - new) for each person",
+      "Not independent groups \u2192 not two-sample test",
+      "Paired data \u2192 matched pairs t-test",
+      "Answer: Matched pairs t-test"
+    ],
+    "generatedAt": "2025-11-10T09:56:00.000Z"
   }
 ]
