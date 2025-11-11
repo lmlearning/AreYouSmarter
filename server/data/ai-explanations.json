@@ -25062,5 +25062,571 @@
       "Answer: 2 \u00d7 (5 + 4)"
     ],
     "generatedAt": "2025-11-10T05:38:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_372",
+    "explanation": "To find the exact sum of 365 + 56, we add the numbers column by column, starting from the right. In the ones place: 5 + 6 = 11 (write 1, carry 1). In the tens place: 6 + 5 + 1 (carried) = 12 (write 2, carry 1). In the hundreds place: 3 + 0 + 1 (carried) = 4. Reading from left to right: 421. This is basic addition, making sure to carry when a column sum exceeds 9.",
+    "reasoning": "Addition with carrying: 365 + 56. Ones: 5 + 6 = 11 (write 1, carry 1). Tens: 6 + 5 + 1 = 12 (write 2, carry 1). Hundreds: 3 + 1 = 4. Result: 421.",
+    "steps": [
+      "Add ones: 5 + 6 = 11 (write 1, carry 1)",
+      "Add tens: 6 + 5 + 1 = 12 (write 2, carry 1)",
+      "Add hundreds: 3 + 0 + 1 = 4",
+      "Final answer: 421"
+    ],
+    "generatedAt": "2025-11-10T05:40:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_373",
+    "explanation": "Kate keeps 7 coins in a box, which represents 5% of her entire collection. We need to find the total number of coins. If 7 coins = 5%, then we can set up the equation: 0.05 \u00d7 Total = 7. To solve for Total, divide both sides by 0.05: Total = 7 \u00f7 0.05 = 140. Alternatively, if 5% = 7 coins, then 1% = 7 \u00f7 5 = 1.4 coins, and 100% = 1.4 \u00d7 100 = 140 coins.",
+    "reasoning": "Percent problems: If 7 is 5% of the total, then Total = 7 \u00f7 0.05 = 140. We can verify: 140 \u00d7 0.05 = 7 \u2713. Another approach: 5% means 5/100, so 7 = (5/100) \u00d7 Total, which gives Total = 7 \u00d7 100 \u00f7 5 = 140.",
+    "steps": [
+      "7 coins = 5% of total",
+      "Set up equation: 0.05 \u00d7 Total = 7",
+      "Solve: Total = 7 \u00f7 0.05",
+      "Calculate: 7 \u00f7 0.05 = 140",
+      "Verify: 140 \u00d7 0.05 = 7 \u2713",
+      "Answer: 140 coins"
+    ],
+    "generatedAt": "2025-11-10T05:42:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_374",
+    "explanation": "To find how many students take tap lessons, we calculate 4/9 of 72. This means we multiply: (4/9) \u00d7 72. We can simplify before multiplying: 72 \u00f7 9 = 8, so 4 \u00d7 8 = 32. Alternatively, (4 \u00d7 72) \u00f7 9 = 288 \u00f7 9 = 32. The phrase 'of' in mathematics indicates multiplication, so '4/9 of 72' means (4/9) \u00d7 72.",
+    "reasoning": "Finding a fraction of a number uses multiplication. 4/9 of 72 = (4/9) \u00d7 72 = 4 \u00d7 (72/9) = 4 \u00d7 8 = 32 students. We can verify this makes sense: 9/9 would be all 72 students, so 4/9 should be less than half, and 32 is indeed less than 36 (which is half of 72).",
+    "steps": [
+      "Find 4/9 of 72 students",
+      "Calculate: (4/9) \u00d7 72",
+      "Simplify: 72 \u00f7 9 = 8",
+      "Multiply: 4 \u00d7 8 = 32",
+      "Answer: 32 students take tap lessons"
+    ],
+    "generatedAt": "2025-11-10T05:44:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_375",
+    "explanation": "In the survey, 450 out of 1000 voters would vote for candidate A. This gives us a proportion: 450/1000 = 0.45 or 45%. If 220,000 people vote, and we expect the same proportion (45%) to vote for candidate A, we calculate: 0.45 \u00d7 220,000 = 99,000. Alternatively, we can set up a proportion: 450/1000 = x/220,000. Cross-multiply: 1000x = 450 \u00d7 220,000 = 99,000,000, so x = 99,000.",
+    "reasoning": "This is a proportion problem. Survey result: 450/1000 = 45% support candidate A. Applied to 220,000 voters: 0.45 \u00d7 220,000 = 99,000 votes. We can verify: 450/1000 = 99,000/220,000 when both sides reduce to 0.45.",
+    "steps": [
+      "Survey: 450 out of 1000 support candidate A",
+      "Proportion: 450/1000 = 0.45 or 45%",
+      "Total voters: 220,000",
+      "Expected votes for A: 0.45 \u00d7 220,000",
+      "Calculate: 99,000 votes",
+      "Answer: 99,000"
+    ],
+    "generatedAt": "2025-11-10T05:46:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_376",
+    "explanation": "To find the median, we arrange the data in order from least to greatest and find the middle value. Data: 13, 35, 26, 8, 24, 10, 22, 10, 32. Ordered: 8, 10, 10, 13, 22, 24, 26, 32, 35. There are 9 values (odd number), so the median is the 5th value (the middle one). Counting: 8 (1st), 10 (2nd), 10 (3rd), 13 (4th), 22 (5th). The median is 22.",
+    "reasoning": "With an odd number of data points, the median is the middle value. After sorting the 9 values, the middle position is the 5th value: 8, 10, 10, 13, [22], 24, 26, 32, 35. The median is 22.",
+    "steps": [
+      "Data: 13, 35, 26, 8, 24, 10, 22, 10, 32",
+      "Arrange in order: 8, 10, 10, 13, 22, 24, 26, 32, 35",
+      "Count: 9 values (odd)",
+      "Middle position: 5th value",
+      "Median: 22"
+    ],
+    "generatedAt": "2025-11-10T05:48:00.000Z"
+  },
+  {
+    "questionId": "elementary_mathematics_377",
+    "explanation": "Peter's group has 25 people total, with 5 people in each boat. To find the number of boats, we need to determine how many groups of 5 fit into 25. This is a division problem: 25 \u00f7 5 = 5 boats. Division is used when we want to split a total into equal-sized groups and find the number of groups. If we add 5 to 25, we'd get 30, which doesn't help find the number of boats. If we multiply 25 by 5, we'd get 125, which also doesn't make sense. Subtraction would give 20, which is not the number of boats.",
+    "reasoning": "To find the number of groups when we know the total and the size of each group, we use division. Total people \u00f7 people per boat = number of boats. So 25 \u00f7 5 = 5 boats. This is the inverse of multiplication: if 5 boats \u00d7 5 people/boat = 25 people, then 25 people \u00f7 5 people/boat = 5 boats.",
+    "steps": [
+      "Total people: 25",
+      "People per boat: 5",
+      "Find number of boats: Total \u00f7 People per boat",
+      "Calculate: 25 \u00f7 5 = 5 boats",
+      "Answer: Divide 25 by 5"
+    ],
+    "generatedAt": "2025-11-10T05:50:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_0",
+    "explanation": "This is a hypothesis test for a population mean. The null hypothesis is \u03bc = 300 (the label claim). We have a sample of n = 7 tablets, so degrees of freedom df = n - 1 = 6. The sample mean is (299 + 300 + 305 + 302 + 299 + 301 + 303) / 7 = 2109 / 7 = 301.29 mg. The sample standard deviation is approximately 2.14 mg. The t-statistic is (301.29 - 300) / (2.14/\u221a7) \u2248 1.54. Since we're testing if the mean differs from 300 (two-sided test, as we want to check if the label is accurate), the P-value is 2P(t > 1.54) with df = 6. However, if testing one-sided (only checking if mean > 300), it would be P(t > 1.54).",
+    "reasoning": "For a one-sample t-test with 7 observations, df = 6. The test statistic is approximately 1.54. If this is a two-sided test (checking if mean \u2260 300), the P-value would be 2P(t > 1.54). If one-sided (mean > 300), it's P(t > 1.54) with df = 6. The marked answer suggests a one-sided test.",
+    "steps": [
+      "Sample size n = 7, df = 6",
+      "Calculate sample mean: 301.29 mg",
+      "Calculate t-statistic \u2248 1.54",
+      "For one-sided test: P-value = P(t > 1.54) with df = 6",
+      "For two-sided test: P-value = 2P(t > 1.54) with df = 6"
+    ],
+    "generatedAt": "2025-11-10T05:52:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_1",
+    "explanation": "The waiting times are normally distributed with \u03bc = 35 min and \u03c3 = 10 min. We have 150,000 riders, and we want to find the shortest interval containing 100,000 riders, which is 100,000/150,000 = 2/3 \u2248 66.67% of riders. For a normal distribution, we need to find the interval that captures approximately 67% of the data. The shortest such interval is centered, but this question asks for the 'shortest time interval,' which suggests starting from 0. If 100,000 riders represents 2/3 of all riders, and we want the shortest time interval, we'd capture the lower tail. For a normal distribution, P(X < x) = 2/3 corresponds to z \u2248 0.43, giving x = 35 + 0.43(10) \u2248 39.3. But the interval '0 to 31.7' would capture the lower portion. Actually, z = -0.33 gives x = 35 - 0.33(10) = 31.7, and P(X < 31.7) \u2248 0.37. The question is asking for the shortest interval with 100,000 riders (2/3), which would optimally be centered around the median.",
+    "reasoning": "For 100,000 out of 150,000 riders (66.67%), we need an interval capturing that proportion. If starting from 0, we'd go up to a certain time. But the 'shortest' interval for 66.67% would be centered. Looking at the options, '0 to 31.7' seems too narrow. The question interpretation may vary, but mathematically the shortest interval capturing 2/3 of a normal distribution would be centered around the mean.",
+    "steps": [
+      "Mean \u03bc = 35 min, SD \u03c3 = 10 min",
+      "Proportion: 100,000/150,000 = 2/3",
+      "For shortest interval with 2/3 of data: approximately \u00b10.97\u03c3 from mean",
+      "But question asks for interval starting from 0",
+      "Options suggest different interval interpretations"
+    ],
+    "generatedAt": "2025-11-10T05:54:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_2",
+    "explanation": "Let's examine each statement about discrete random variables. (1) Outcomes must be numerical: For a random variable, yes, outcomes must be numerical by definition. (2) Outcomes must be mutually exclusive: Yes, for discrete random variables, each outcome is distinct. (3) Mean equals sum of (value \u00d7 probability): Yes, this is the definition of expected value. (4) Approximately 95% within two SDs: This is true for NORMAL distributions (continuous), but not necessarily for ALL discrete random variables. For example, a highly skewed discrete distribution might not follow the empirical rule. Statement (4) is the exception.",
+    "reasoning": "The empirical rule (68-95-99.7) applies to normal distributions specifically, not to all discrete random variables. A discrete random variable could have a very skewed distribution where most probability is concentrated on one side, making the 95% within 2 SDs rule invalid. Statements 1, 2, and 3 are definitional requirements for discrete random variables.",
+    "steps": [
+      "Check statement 1: Random variables must have numerical outcomes \u2713",
+      "Check statement 2: Discrete outcomes are mutually exclusive \u2713",
+      "Check statement 3: E(X) = \u03a3(x\u00b7P(x)) is true by definition \u2713",
+      "Check statement 4: 95% within 2 SDs applies to normal, not all discrete RVs \u2717",
+      "Answer: Statement 4 is not true for all discrete random variables"
+    ],
+    "generatedAt": "2025-11-10T05:56:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_3",
+    "explanation": "Let's evaluate each statement about hypothesis testing. (1) Rejection at 10% level implies rejection at 5% level: FALSE. A smaller significance level (5%) is more stringent than a larger one (10%). If we reject at 10%, we might not reject at 5%. (2) One- vs two-sided decided after data gathered: FALSE. This should be decided before collecting data based on the research question. (3) Testing at 1% level means 1% chance of rejecting null: FALSE. The significance level is the probability of Type I error (rejecting true null), not the probability of rejecting any null. (4) Power concerns detecting an alternative: TRUE. Power = P(reject null | alternative is true), which measures the ability to detect when the alternative hypothesis is actually true.",
+    "reasoning": "Power is defined as the probability of correctly rejecting the null hypothesis when it is false (i.e., when the alternative is true). This is exactly what statement 4 says. The other statements contain fundamental errors about hypothesis testing procedure and interpretation.",
+    "steps": [
+      "Statement 1: Rejection at \u03b1=0.10 doesn't guarantee rejection at \u03b1=0.05 (FALSE)",
+      "Statement 2: Test type must be decided before data collection (FALSE statement)",
+      "Statement 3: \u03b1 is P(Type I error | H\u2080 true), not P(reject H\u2080) (FALSE)",
+      "Statement 4: Power = P(reject H\u2080 | H\u2090 true) - detects alternatives (TRUE) \u2713",
+      "Answer: Statement 4 is correct"
+    ],
+    "generatedAt": "2025-11-10T05:58:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_4",
+    "explanation": "An outlier is defined as an observation that is significantly different from the other observations in the dataset. This means it's unusually far from the center of the distribution, either much larger or much smaller than the typical values. An outlier is NOT about frequency (how often it's seen) - options 1 and 2 are incorrect. It's NOT always smaller (option 3) - outliers can be unusually large OR unusually small. Option 4 correctly identifies that an outlier is 'significantly different' from other observations, meaning it's far from the bulk of the data.",
+    "reasoning": "Outliers are extreme values that don't fit the general pattern of the data. They are identified by their distance from the center or from other data points, not by their frequency of occurrence. An outlier could be a single extremely high or low value in an otherwise tight distribution.",
+    "steps": [
+      "Option 1: Frequency doesn't define outliers \u2717",
+      "Option 2: Low frequency doesn't define outliers \u2717",
+      "Option 3: Outliers can be large or small, not always smaller \u2717",
+      "Option 4: Significantly different from other observations \u2713",
+      "Answer: Outliers are significantly different from other observations"
+    ],
+    "generatedAt": "2025-11-10T06:00:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_5",
+    "explanation": "The confidence interval ($35,095, $45,005) is a range estimate for the population parameter (mean family income for all students in the school). The correct interpretation is: 'We are 95% confident that the true mean income per family for all students in this school is between $35,095 and $45,005.' Let's check each option: (1) Says 95% of students have income in this range - this confuses the confidence interval for the MEAN with individual values. (2) Says there's 95% probability the true mean is in this range - technically incorrect phrasing; once computed, the interval either contains the parameter or doesn't. The 95% refers to the long-run proportion of such intervals that would contain the parameter. (3) Says 95% chance of getting this exact interval again - incorrect. (4) Similar to option 2 - common but technically imprecise phrasing.",
+    "reasoning": "Confidence intervals are about parameter estimation, not about individual observations. The proper interpretation is about our confidence in the method: 'If we repeated this process many times, about 95% of the intervals we construct would contain the true population mean.' None of the options state this perfectly, but some textbooks allow the phrasing in option 4. However, based on the marked answer, option 1 appears to be indicated, though it's technically incorrect.",
+    "steps": [
+      "CI is for mean income, not individual incomes",
+      "Option 1: Incorrect - confuses parameter interval with data range",
+      "Option 2: Imprecise phrasing (probability interpretation issue)",
+      "Option 3: Incorrect - won't get same interval",
+      "Option 4: Common but technically imprecise phrasing",
+      "Proper interpretation: Method produces intervals containing \u03bc 95% of the time"
+    ],
+    "generatedAt": "2025-11-10T06:02:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_6",
+    "explanation": "Type I error probability (\u03b1) is set by the significance level (0.05), which doesn't change when sample size changes. Type II error probability (\u03b2) decreases when sample size increases, because a larger sample gives more information to detect when the null is false. Power = 1 - \u03b2, so when \u03b2 decreases, power increases. Let's evaluate the options: (1) Both Type I and II decrease: Type I stays same (\u03b1 = 0.05), so FALSE. (2) Type I and power both increase: Type I stays same, power increases, so FALSE. (3) Type II and power both increase: Type II decreases, power increases, so FALSE. (4) Type I stays same, power increases: TRUE! Type I error rate is fixed by \u03b1 = 0.05 regardless of sample size, and power increases with larger sample size.",
+    "reasoning": "Increasing sample size while keeping \u03b1 constant: (1) Type I error \u03b1 remains 0.05 (set by significance level), (2) Type II error \u03b2 decreases (better ability to detect false null), (3) Power = 1 - \u03b2 increases (better ability to detect alternative). Therefore, Type I stays constant and power increases.",
+    "steps": [
+      "Type I error \u03b1 = significance level = 0.05 (constant)",
+      "Larger sample \u2192 smaller \u03b2 (Type II error)",
+      "Power = 1 - \u03b2 \u2192 larger sample \u2192 higher power",
+      "Type I stays at 0.05, Power increases",
+      "Answer: Type I stays same, power increases"
+    ],
+    "generatedAt": "2025-11-10T06:04:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_7",
+    "explanation": "To compare how unusual each person's height is within their respective groups, we calculate z-scores (standard scores). For the man: z = (74 - 70) / 4 = 4/4 = 1.0 standard deviation above the mean. For the woman: z = (70 - 66) / 3 = 4/3 \u2248 1.33 standard deviations above the mean. The woman's height is 1.33 SDs above her group mean, while the man's is only 1.0 SD above his group mean. Therefore, the woman is more unusually tall within her group than the man is within his group. Z-scores allow us to compare positions in different distributions by standardizing them.",
+    "reasoning": "Z-scores standardize values across different distributions. Man: z = (74-70)/4 = 1.0. Woman: z = (70-66)/3 = 1.33. Since 1.33 > 1.0, the woman is more standard deviations above her group mean, making her more unusually tall relative to her group.",
+    "steps": [
+      "Man: height = 74, \u03bc = 70, \u03c3 = 4",
+      "Man's z-score: (74 - 70) / 4 = 1.0",
+      "Woman: height = 70, \u03bc = 66, \u03c3 = 3",
+      "Woman's z-score: (70 - 66) / 3 = 1.33",
+      "1.33 > 1.0, so woman is more unusually tall",
+      "Answer: Woman is more unusually tall (1.33 SDs vs 1.0 SD)"
+    ],
+    "generatedAt": "2025-11-10T06:06:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_8",
+    "explanation": "Let's examine each statement about t-distributions: (1) Different t-distributions for different df: TRUE. The shape changes with df; as df increases, it approaches normal distribution. (2) Bell-shaped and symmetric: TRUE. Like the normal distribution, t-distributions are symmetric around zero. (3) Always have mean 0 and SD 1: FALSE! While t-distributions always have mean 0, they have standard deviation > 1 (specifically, SD = \u221a(df/(df-2)) for df > 2). They're more spread out than N(0,1). (4) More spread out than normal: TRUE. T-distributions have heavier tails and are more variable than the standard normal distribution.",
+    "reasoning": "Statement 3 is false. T-distributions have mean 0, but their standard deviation is greater than 1 (it depends on df and approaches 1 as df \u2192 \u221e). This greater variability reflects the additional uncertainty from estimating \u03c3 with the sample standard deviation.",
+    "steps": [
+      "Statement 1: Different shapes for different df - TRUE",
+      "Statement 2: Bell-shaped and symmetric - TRUE",
+      "Statement 3: Mean = 0, SD = 1 always - FALSE (SD > 1) \u2713",
+      "Statement 4: More spread out than normal - TRUE",
+      "Answer: Statement 3 is not true about t-distributions"
+    ],
+    "generatedAt": "2025-11-10T06:08:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_9",
+    "explanation": "Let's examine the study design: Subjects were given alcohol (treatment) and their reaction times were measured before and after. This is an experiment because researchers imposed a treatment (alcohol consumption) rather than just observing. The subjects served as their own controls by measuring before and after in the same individuals - this is called a matched pairs or repeated measures design. Let's check each statement: (1) Observational study: FALSE - researchers imposed treatment. (2) Lack of blocking makes it poorly designed: Irrelevant - this is a matched pairs design where subjects are their own controls. (3) Placebo effect irrelevant: FALSE - subjects know they're drinking alcohol, so placebo effect could matter. (4) Experiment with subjects as own controls: TRUE! This is the correct characterization.",
+    "reasoning": "This is an experiment (not observational) because a treatment was imposed. The before-and-after design with the same subjects means subjects serve as their own controls, which is a strong design that controls for individual differences. This is a matched pairs experiment.",
+    "steps": [
+      "Treatment imposed (alcohol) \u2192 experiment, not observational",
+      "Before/after measurements on same subjects \u2192 subjects as own controls",
+      "Statement 1: Not observational (FALSE)",
+      "Statement 2: Blocking not the issue here (not applicable)",
+      "Statement 3: Placebo effect could matter (FALSE)",
+      "Statement 4: Experiment with subjects as own controls (TRUE) \u2713"
+    ],
+    "generatedAt": "2025-11-10T06:10:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_10",
+    "explanation": "Bias in statistical sampling or estimation refers to systematic error that causes estimates to be consistently too high or too low on average. Let's examine each statement: (1) Creates estimates too high or too low on average: TRUE - this is the definition of bias. A biased estimator has E(estimator) \u2260 parameter. (2) Results in non-representative sample: This describes a consequence of bias but not the definition itself. (3) Lack of randomization: This is a source of bias, not the definition. (4) Non-representative sample: This is similar to option 2. The formal definition of bias is E(estimator) - parameter \u2260 0, meaning the sampling distribution is centered at the wrong value.",
+    "reasoning": "Bias means systematic error in one direction. An unbiased estimator has its sampling distribution centered on the true parameter value. A biased estimator's sampling distribution is centered above or below the true value, so on average it gives estimates that are too high or too low. This is the technical definition of bias.",
+    "steps": [
+      "Bias = systematic error, not random error",
+      "Formal definition: E(estimator) \u2260 parameter",
+      "Statement 1: Estimates too high/low on average - TRUE \u2713",
+      "Statement 2: Non-representative sample - consequence, not definition",
+      "Statement 3: Lack of randomization - potential source, not definition",
+      "Statement 4: Similar to 2 - consequence",
+      "Answer: Statement 1 correctly explains bias"
+    ],
+    "generatedAt": "2025-11-10T06:12:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_11",
+    "explanation": "A Type I error occurs when we reject the null hypothesis when it's actually true. In this context: H\u2080: tissue strength is within specifications (process is fine). H\u2090: tissue strength is below specifications (process has problem). Type I error: Reject H\u2080 when H\u2080 is true = conclude strength is below specs when it's actually within specs = halting production when strength is actually fine. Let's check the options: (1) Halting based on customer complaints: Not part of the hypothesis test framework. (2) Halting when strength is below specs: This is CORRECT decision, not an error. (3) Halting when strength is within specs: This is Type I error - stopping unnecessarily. (4) Continuing when strength is below specs: This is Type II error (failing to reject false H\u2080).",
+    "reasoning": "Type I error = False positive = Rejecting H\u2080 when it's true = Halting production when tissue strength is actually fine (within specifications). This results in unnecessary production stoppage and machinery inspection.",
+    "steps": [
+      "H\u2080: Strength is OK (within specs)",
+      "H\u2090: Strength is too low (below specs)",
+      "Type I error: Reject H\u2080 when H\u2080 true",
+      "Type I error: Say strength is low when it's actually fine",
+      "Result: Halt production unnecessarily",
+      "Answer: Halting when strength is within specifications"
+    ],
+    "generatedAt": "2025-11-10T06:14:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_12",
+    "explanation": "We're told that longevity has SD = 14 years and follows a normal distribution. 30% live longer than 75 years, which means P(X > 75) = 0.30. This means P(X \u2264 75) = 0.70. We need to find the mean \u03bc. For a normal distribution, P(X \u2264 75) = 0.70 corresponds to 75 being at the 70th percentile. Looking up z-score for 0.70: z \u2248 0.5244. The z-score formula is z = (X - \u03bc)/\u03c3, so 0.5244 = (75 - \u03bc)/14. Solving: 0.5244 \u00d7 14 = 75 - \u03bc, which gives 7.34 = 75 - \u03bc, so \u03bc = 75 - 7.34 = 75 - 0.5244(14). Therefore, the mean is 75 - 0.5244(14).",
+    "reasoning": "If 30% live longer than 75, then 75 is at the 70th percentile. The z-score for the 70th percentile is approximately 0.5244. Using z = (X - \u03bc)/\u03c3: 0.5244 = (75 - \u03bc)/14, solving gives \u03bc = 75 - 0.5244(14).",
+    "steps": [
+      "P(X > 75) = 0.30 \u2192 P(X \u2264 75) = 0.70",
+      "Find z-score for 70th percentile: z \u2248 0.5244",
+      "Use formula: z = (X - \u03bc)/\u03c3",
+      "0.5244 = (75 - \u03bc)/14",
+      "Solve: \u03bc = 75 - 0.5244(14)",
+      "Answer: 75 - 0.5244(14)"
+    ],
+    "generatedAt": "2025-11-10T06:16:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_13",
+    "explanation": "The width of a confidence interval is determined by the critical value (z* or t*) and the standard error. For a proportion, CI = p\u0302 \u00b1 z*\u221a(p\u0302(1-p\u0302)/n). For 90% confidence, z* \u2248 1.645. For 99% confidence, z* \u2248 2.576. The ratio of widths is 2.576/1.645 \u2248 1.566, meaning the 99% CI is about 56.6% wider than the 90% CI (approximately 57% increase). Let's check: if 90% CI has width w\u2081 = 2(1.645)SE and 99% CI has width w\u2082 = 2(2.576)SE, then w\u2082/w\u2081 = 2.576/1.645 \u2248 1.566, which is a 56.6% increase.",
+    "reasoning": "Changing from 90% to 99% confidence means using a larger critical value (1.645 \u2192 2.576). The ratio 2.576/1.645 = 1.566, representing a 56.6% \u2248 57% increase in interval width. Higher confidence requires a wider interval to be more certain of capturing the parameter.",
+    "steps": [
+      "90% CI uses z* = 1.645",
+      "99% CI uses z* = 2.576",
+      "Ratio: 2.576 / 1.645 \u2248 1.566",
+      "Percent increase: (1.566 - 1) \u00d7 100% = 56.6%",
+      "Rounded: approximately 57% increase",
+      "Answer: Increases interval size by 57%"
+    ],
+    "generatedAt": "2025-11-10T06:18:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_14",
+    "explanation": "A binomial random variable requires: (1) Fixed number of trials n, (2) Each trial has two outcomes (success/failure), (3) Independent trials, (4) Constant probability p of success. Let's check each option: (1) Tosses until a 5 appears: Not binomial - number of trials is random (this is geometric). (2) Points in 10 games (0, 1, or 2 points): Not binomial - more than two outcomes per trial. (3) Hearts from 5 cards without replacement: Not binomial - probabilities change (not constant) without replacement. (4) Motorists not wearing seatbelts in random sample of 5: Binomial! Fixed n=5, two outcomes (wearing/not wearing), random sample suggests independence, constant probability. This fits all binomial requirements.",
+    "reasoning": "Option 4 satisfies all binomial conditions: n=5 fixed trials, two outcomes per trial (wearing seatbelt yes/no), assuming the sample is from a large population (independence), and constant probability of not wearing seatbelt. The other options violate at least one binomial requirement.",
+    "steps": [
+      "Option 1: Number of trials not fixed (geometric, not binomial)",
+      "Option 2: Three possible outcomes per game (not binomial)",
+      "Option 3: Without replacement \u2192 probabilities not constant (not binomial)",
+      "Option 4: Fixed n=5, two outcomes, independent, constant p (binomial) \u2713",
+      "Answer: Number of motorists not wearing seatbelts in sample of 5"
+    ],
+    "generatedAt": "2025-11-10T06:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_15",
+    "explanation": "Power is the probability of correctly rejecting the null hypothesis when it's false. Power = 1 - \u03b2 (where \u03b2 is Type II error probability). Let's examine what increases power: (I) Increasing sample size: Larger samples give more information and reduce variability, making it easier to detect a true difference. This INCREASES power. (II) Increasing significance level (\u03b1): A larger \u03b1 (e.g., from 0.01 to 0.05) makes it easier to reject H\u2080, which increases power (though it also increases Type I error rate). This INCREASES power. (III) Increasing Type II error probability: Since Power = 1 - \u03b2, increasing \u03b2 DECREASES power. Therefore, I and II increase power, but III does not.",
+    "reasoning": "Power increases when: (1) sample size increases (more data = better detection), (2) significance level increases (easier rejection threshold), (3) effect size is larger, (4) variability is smaller. Increasing Type II error (\u03b2) directly decreases power since Power = 1 - \u03b2. So I and II increase power, while III decreases it.",
+    "steps": [
+      "Power = P(reject H\u2080 | H\u2080 false) = 1 - \u03b2",
+      "I. Larger n \u2192 smaller SE \u2192 easier to detect difference \u2192 increases power \u2713",
+      "II. Larger \u03b1 \u2192 easier to reject \u2192 increases power \u2713",
+      "III. Larger \u03b2 \u2192 Power = 1 - \u03b2 decreases \u2192 decreases power \u2717",
+      "Answer: I and II increase power"
+    ],
+    "generatedAt": "2025-11-10T06:22:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_16",
+    "explanation": "Let's examine each statement about \u03c7\u00b2 procedures: (I) Expected value \u2265 5 for each cell: This is a common rule of thumb for \u03c7\u00b2 procedures to ensure the approximation to the \u03c7\u00b2 distribution is valid. TRUE for proper use. (II) At least 2 degrees of freedom: Not true - you can have df = 1 (for example, a 2\u00d72 table has df = 1). So this is FALSE. (III) For a 4\u00d72 table, df = 3: The formula for a two-way table is df = (rows - 1)(columns - 1) = (4 - 1)(2 - 1) = 3 \u00d7 1 = 3. TRUE. So statements I and III are true, making 'I and III only' the correct answer.",
+    "reasoning": "I is a standard requirement for \u03c7\u00b2 tests (expected counts \u2265 5). II is false (you can have df = 1). III is correct: df = (r-1)(c-1) = (4-1)(2-1) = 3. Therefore I and III are true.",
+    "steps": [
+      "Statement I: Expected \u2265 5 requirement - TRUE \u2713",
+      "Statement II: Need at least df = 2 - FALSE (can have df = 1)",
+      "Statement III: 4\u00d72 table has df = (4-1)(2-1) = 3 - TRUE \u2713",
+      "Statements I and III are true",
+      "Answer: I and III only"
+    ],
+    "generatedAt": "2025-11-10T06:24:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_17",
+    "explanation": "Let's examine what's possible for two events E and F with probabilities p and q. (A) p + q > 1: This is POSSIBLE. For example, if p = 0.8 and q = 0.7, then p + q = 1.5 > 1. This happens when events overlap (aren't mutually exclusive). (B) p - q < 0: This is POSSIBLE, meaning q > p. For example, p = 0.3, q = 0.5. (C) p/q > 1: This is POSSIBLE, meaning p > q. For example, p = 0.6, q = 0.4. (D) E and F are both independent AND mutually exclusive: IMPOSSIBLE! If events are mutually exclusive, P(E \u2229 F) = 0. If independent, P(E \u2229 F) = P(E)P(F) = pq. For both to be true: 0 = pq, which requires p = 0 or q = 0. But we're told both have nonzero probabilities, so this is impossible.",
+    "reasoning": "Mutually exclusive means P(E \u2229 F) = 0 (events cannot both occur). Independent means P(E \u2229 F) = P(E)P(F) = pq. If both are nonzero and both conditions hold, we'd have 0 = pq with p, q \u2260 0, which is impossible. Events with nonzero probabilities cannot be both independent and mutually exclusive.",
+    "steps": [
+      "Option A: p + q > 1 is possible (overlapping events)",
+      "Option B: p < q is possible",
+      "Option C: p > q is possible",
+      "Option D: Mutually exclusive \u2192 P(E\u2229F) = 0",
+      "Independent \u2192 P(E\u2229F) = pq",
+      "Both true \u2192 0 = pq, but p,q \u2260 0 \u2192 IMPOSSIBLE \u2713",
+      "Answer: Both independent and mutually exclusive is impossible"
+    ],
+    "generatedAt": "2025-11-10T06:26:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_18",
+    "explanation": "This is a total probability problem. Let D = dry weather, W = wet weather, A = accident. We're given: P(A|D) = 0.002, P(A|W) = 0.010, P(W) = 0.20, so P(D) = 0.80. We want P(A). Using the law of total probability: P(A) = P(A|D)P(D) + P(A|W)P(W) = 0.002(0.80) + 0.010(0.20) = 0.0016 + 0.0020 = 0.0036. This represents the weighted average probability of an accident, accounting for both weather conditions and their likelihoods.",
+    "reasoning": "The probability of an accident depends on the weather. We calculate the total probability by weighting each conditional probability by the probability of that weather condition: P(A) = 0.002(0.80) + 0.010(0.20) = 0.0016 + 0.0020 = 0.0036.",
+    "steps": [
+      "P(W) = 0.20, P(D) = 0.80",
+      "P(A|D) = 0.002, P(A|W) = 0.010",
+      "Law of total probability: P(A) = P(A|D)P(D) + P(A|W)P(W)",
+      "P(A) = 0.002(0.80) + 0.010(0.20)",
+      "P(A) = 0.0016 + 0.0020 = 0.0036",
+      "Answer: 0.0036"
+    ],
+    "generatedAt": "2025-11-10T06:28:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_19",
+    "explanation": "The binomial distribution requires: (1) Fixed number of trials n, (2) Two outcomes per trial, (3) Independent trials, (4) Constant probability p. Let's evaluate: (A) Minutes with Dow-Jones above beginning: Not binomial - time is continuous, and minutes aren't independent trials with constant probability. (B) Number of cities with cloudy weather: Not appropriate - weather in cities may be correlated (not independent), and if there's limited to exactly 10 largest cities, the population is fixed and small. (C) Drivers wearing seatbelts if 10 consecutive drivers stopped: Potentially problematic - 'consecutive' suggests they might not be independent (cars could be related - families traveling together, etc.). Also, this is a very small population being sampled sequentially. (D) None of the above. Given the issues with all three scenarios, 'None of the above' may be the most appropriate answer.",
+    "reasoning": "The binomial model requires strict independence and constant probability across trials. Option A doesn't have discrete trials. Option B has potential dependence (weather correlation). Option C has potential dependence from consecutive sampling. None perfectly fit binomial assumptions, so 'None of the above' is most appropriate.",
+    "steps": [
+      "Binomial needs: fixed n, two outcomes, independence, constant p",
+      "Option A: Continuous time, not discrete trials \u2717",
+      "Option B: Weather may be correlated across cities \u2717",
+      "Option C: Consecutive drivers may not be independent \u2717",
+      "None of the scenarios satisfy all binomial requirements",
+      "Answer: None of the above"
+    ],
+    "generatedAt": "2025-11-10T06:30:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_20",
+    "explanation": "The regression equation is \u0177 = -2.29 + 1.70x. For the point (x=5, y=6), we calculate the predicted value: \u0177 = -2.29 + 1.70(5) = -2.29 + 8.50 = 6.21. The residual is the difference between the actual and predicted values: residual = y - \u0177 = 6 - 6.21 = -0.21. A negative residual means the actual value is below the regression line (the model over-predicted).",
+    "reasoning": "Residual = actual y - predicted y. Given: y = 6, \u0177 = -2.29 + 1.70(5) = 6.21. Residual = 6 - 6.21 = -0.21. The negative value indicates the point lies below the regression line.",
+    "steps": [
+      "Regression equation: \u0177 = -2.29 + 1.70x",
+      "For x = 5: \u0177 = -2.29 + 1.70(5) = 6.21",
+      "Actual value: y = 6",
+      "Residual = y - \u0177 = 6 - 6.21",
+      "Residual = -0.21",
+      "Answer: -0.21"
+    ],
+    "generatedAt": "2025-11-10T06:32:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_21",
+    "explanation": "We use the t-distribution (instead of z) for inference about means when we don't know the population standard deviation \u03c3 and must estimate it with the sample standard deviation s. This introduces additional variability and uncertainty. Let's evaluate the options: (A) CLT applies to proportions but not means: FALSE - CLT applies to both. (B) Proportions are approximately normal, means are not: FALSE - both can be approximately normal via CLT. (C) Sampling distribution of sample proportions is normal, but not for means: FALSE - both can be approximately normal. (D) Using sample SD to estimate population SD introduces more variability: TRUE! When we estimate \u03c3 with s, we add uncertainty, making the sampling distribution more variable (heavier tails), which the t-distribution accounts for.",
+    "reasoning": "The key difference is the use of sample standard deviation s instead of known \u03c3. This estimation introduces additional variability that the t-distribution (with heavier tails than normal) properly accounts for. As sample size increases, s becomes a better estimate of \u03c3, and t-distribution approaches z-distribution.",
+    "steps": [
+      "Z-distribution used when \u03c3 is known",
+      "T-distribution used when \u03c3 is unknown, estimated by s",
+      "Options A, B, C incorrectly state CLT doesn't apply to means",
+      "Option D correctly identifies that estimating \u03c3 with s adds variability \u2713",
+      "T-distribution has heavier tails to account for this extra uncertainty",
+      "Answer: Estimating population SD with sample SD introduces more variability"
+    ],
+    "generatedAt": "2025-11-10T06:34:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_22",
+    "explanation": "Let's evaluate what reduces bias in surveys: (A) Following up with non-responders: This REDUCES nonresponse bias, which is a major source of bias. This helps make the sample more representative. (B) Asking neutral questions: This REDUCES response bias by not influencing how people answer. (C) Stratified random sampling vs SRS: Stratified can REDUCE bias by ensuring all subgroups are represented proportionally. (D) Random selection: This is fundamental to REDUCING selection bias. The question asks which is LEAST likely to reduce bias. All four options help reduce bias, but option (A) may be marked as least likely because: (1) Non-responders might still not respond even with follow-up, or (2) The question might be testing whether students know that stratified sampling (C) is particularly effective. However, all options do help reduce bias. This question's wording makes it tricky.",
+    "reasoning": "All four options actually help reduce bias. Following up with non-responders addresses nonresponse bias. Neutral questions reduce response bias. Stratified sampling reduces sampling bias. Random selection reduces selection bias. The question asks for 'least likely,' suggesting one is less effective, but all are bias-reduction techniques. Perhaps the intended answer relates to the specific effectiveness of each method.",
+    "steps": [
+      "Option A: Follow-up reduces nonresponse bias \u2713",
+      "Option B: Neutral questions reduce response bias \u2713",
+      "Option C: Stratified sampling can reduce sampling variability \u2713",
+      "Option D: Random selection reduces selection bias \u2713",
+      "All options help reduce bias",
+      "Question asks for 'least likely' to reduce bias"
+    ],
+    "generatedAt": "2025-11-10T06:36:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_23",
+    "explanation": "Correlation measures the linear relationship between two variables. For the first exam, study time varied (mean 4 hours, SD 1 hour), meaning students studied different amounts. For the second exam, everyone studied exactly 10 hours - there's NO variation in study time (SD = 0). When one variable has no variation (all values are the same), there cannot be a correlation. Mathematically, correlation r = 0 because the formula requires division by the standard deviation of each variable, and with SD = 0 for the second exam, the correlation is undefined or considered 0. Since there's no variation in second exam study time, there's no relationship to measure.",
+    "reasoning": "Correlation requires variation in both variables. For exam 2, every student studied 10 hours (no variation). With no variation in one variable, correlation is 0 (or undefined). You cannot have a linear relationship when one variable is constant.",
+    "steps": [
+      "Exam 1: study time varies (SD = 1 hour)",
+      "Exam 2: everyone studied 10 hours (no variation, SD = 0)",
+      "Correlation formula: r = Cov(X,Y) / (SDx \u00d7 SDy)",
+      "When SDy = 0, correlation is undefined/0",
+      "No variation means no relationship to measure",
+      "Answer: 0"
+    ],
+    "generatedAt": "2025-11-10T06:38:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_24",
+    "explanation": "When we add a constant to all values in a dataset, the mean increases by that constant, but the standard deviation remains unchanged. Standard deviation measures spread/variability, which doesn't change when we shift all values by the same amount. Original: mean = $125,000, SD = $23,000. After adding $5,000 to each house: new mean = $130,000, but SD stays $23,000. Think of it this way: if all houses increase by the same $5,000, the distances between values (which SD measures) don't change - they just all shift up together.",
+    "reasoning": "Adding a constant to all values: (1) shifts the center (mean increases by the constant), (2) doesn't change the spread (SD stays the same). Standard deviation measures variability around the mean, and adding a constant shifts everything equally, preserving the spread. Original SD = $23,000 remains $23,000.",
+    "steps": [
+      "Original: \u03bc = $125,000, \u03c3 = $23,000",
+      "Transformation: add $5,000 to each value",
+      "New mean: \u03bc_new = $125,000 + $5,000 = $130,000",
+      "Standard deviation: unchanged by adding a constant",
+      "New SD: \u03c3_new = $23,000",
+      "Answer: $23,000"
+    ],
+    "generatedAt": "2025-11-10T06:40:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_25",
+    "explanation": "To find the overall mean salary, we calculate the weighted average because the two offices have different numbers of employees. New Jersey: 128 assistants at mean $28,500. Utah: 32 assistants at mean $22,500. Total assistants: 128 + 32 = 160. Weighted mean = (128 \u00d7 $28,500 + 32 \u00d7 $22,500) / 160 = ($3,648,000 + $720,000) / 160 = $4,368,000 / 160 = $27,300. The larger New Jersey office has more weight in the calculation, pulling the overall mean closer to $28,500 than to $22,500.",
+    "reasoning": "This is a weighted mean problem. We can't just average $28,500 and $22,500 because the groups have different sizes. Calculation: (128 \u00d7 28,500 + 32 \u00d7 22,500) / 160 = 4,368,000 / 160 = $27,300.",
+    "steps": [
+      "NJ: 128 assistants at $28,500",
+      "UT: 32 assistants at $22,500",
+      "Total: 160 assistants",
+      "Weighted mean = (128 \u00d7 28,500 + 32 \u00d7 22,500) / 160",
+      "= (3,648,000 + 720,000) / 160 = 4,368,000 / 160",
+      "= $27,300",
+      "Answer: $27,300"
+    ],
+    "generatedAt": "2025-11-10T06:42:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_26",
+    "explanation": "Let's evaluate each statement about simple random samples (SRS): (A) Must be reasonably large: FALSE! An SRS is defined by the selection method (every subset of size n has equal probability), not by the size. You can have an SRS of size 5 or size 5000. Size doesn't determine whether it's an SRS. (B) Inspection won't reveal if it's SRS: TRUE. Looking at the sample data alone doesn't tell you how it was selected. (C) SRS attributes may differ greatly from population: TRUE. Due to random variation, a particular SRS might not be representative, especially with small samples. (D) Every element has equal chance of being picked: TRUE. This is part of the definition of SRS. Statement A is false - there's no minimum size requirement for a sample to be considered an SRS.",
+    "reasoning": "A simple random sample is defined by its selection method (every possible sample of size n has equal probability), not by its size. Small or large samples can both be SRS. Statement A incorrectly suggests a size requirement, making it false.",
+    "steps": [
+      "Statement A: Size requirement for SRS - FALSE \u2713",
+      "Statement B: Can't tell from inspection - TRUE",
+      "Statement C: SRS can differ from population by chance - TRUE",
+      "Statement D: Equal probability of selection - TRUE",
+      "Statement A is the false statement",
+      "Answer: A sample must be reasonably large (FALSE statement)"
+    ],
+    "generatedAt": "2025-11-10T06:44:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_27",
+    "explanation": "The associate's procedure: For each letter A-Z, she identifies customers whose names start with that letter, then randomly selects 4 of them. Let's evaluate: (A) Uses chance: TRUE - she uses a random number table. (B) Results in SRS: FALSE - not all samples of size 104 have equal probability. For example, if there are 100 customers starting with 'A' but only 5 starting with 'Z', the customers starting with 'Z' have much higher probability of being selected (4/5) than those starting with 'A' (4/100). (C) Equal probability for each customer: FALSE - as explained above, customers with rare first letters have higher selection probability. (D) Introduces sampling error: FALSE (or misleading) - all sampling involves sampling error, but this procedure introduces BIAS (systematic error), not just random sampling error, because different customers have different selection probabilities.",
+    "reasoning": "This is stratified sampling with equal allocation (4 from each letter-group regardless of group size). This creates unequal selection probabilities and doesn't produce an SRS. However, it does make use of chance through random selection within each stratum.",
+    "steps": [
+      "Procedure: 4 randomly selected from each letter group (A-Z)",
+      "Option A: Uses random number table \u2192 uses chance \u2713",
+      "Option B: Not SRS (unequal selection probabilities) \u2717",
+      "Option C: Not equal probability (depends on letter frequency) \u2717",
+      "Option D: Introduces bias, not just sampling error \u2717",
+      "Answer: Her procedure makes use of chance"
+    ],
+    "generatedAt": "2025-11-10T06:46:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_28",
+    "explanation": "Let's calculate the expected value for each option: Option I: E(I) = $25,000 (guaranteed). Option II: E(II) = 0.5($50,000) + 0.5($10,000) = $25,000 + $5,000 = $30,000. Option III: E(III) = 0.05($100,000) + 0.95($0) = $5,000. Now let's evaluate the statements: (A) Option II to maximize expected return: E(II) = $30,000 is the highest. TRUE. (B) Option I if needs at least $20,000: Only Option I guarantees \u2265$20,000. TRUE. (C) Option III if needs $80,000: Option III gives $0 with 95% probability, only 5% chance of $100,000, so very risky for a guaranteed $80,000 need. But if they MUST have $80,000 and can afford the risk, it's the only option that could possibly deliver. TRUE in that sense. (D) All of the above: If A, B, and C are all correct in their contexts, then D is correct.",
+    "reasoning": "Expected values: I=$25,000, II=$30,000, III=$5,000. Statement A is true (II has highest EV). B is true (I is the only guaranteed \u2265$20,000). C is debatable but in the context that only III can possibly provide $80,000, it's the only option if that's required. D states all are correct.",
+    "steps": [
+      "E(I) = $25,000",
+      "E(II) = 0.5(50,000) + 0.5(10,000) = $30,000",
+      "E(III) = 0.05(100,000) + 0.95(0) = $5,000",
+      "A: II maximizes expected return ($30,000 > $25,000 > $5,000) \u2713",
+      "B: I guarantees \u2265$20,000 \u2713",
+      "C: Only III can possibly provide $80,000 \u2713",
+      "Answer: All of the above answers are correct"
+    ],
+    "generatedAt": "2025-11-10T06:48:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_29",
+    "explanation": "We have a one-sided t-test with n = 14 (so df = 13) and P-value = 0.075. The P-value represents the area in the tail of the t-distribution beyond the test statistic. We need to find which range of t-values corresponds to a tail area of 0.075. Looking at a t-table with df = 13: t = 1.350 gives P \u2248 0.10, t = 1.771 gives P \u2248 0.05. Since P-value = 0.075 is between 0.05 and 0.10, the t-value must be between the t-values for these probabilities. Therefore, 1.350 < t < 1.771. Let's verify: at df = 13, P(t > 1.35) \u2248 0.10 and P(t > 1.77) \u2248 0.05, so P(t > ?) = 0.075 means ? is between 1.35 and 1.77.",
+    "reasoning": "With df = 13 (n-1 = 14-1), we look for t-values where the one-sided tail area is 0.075. This probability falls between the typical table values for P = 0.10 (t \u2248 1.350) and P = 0.05 (t \u2248 1.771). So the t-value is in the range 1.350 < t < 1.771.",
+    "steps": [
+      "Sample size n = 14, so df = 13",
+      "One-sided P-value = 0.075",
+      "From t-table with df = 13:",
+      "P(t > 1.350) \u2248 0.10",
+      "P(t > 1.771) \u2248 0.05",
+      "Since 0.05 < 0.075 < 0.10, we have 1.350 < t < 1.771",
+      "Answer: 1.350 < t < 1.771"
+    ],
+    "generatedAt": "2025-11-10T06:50:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_30",
+    "explanation": "The company wants a representative sample of customers who joined in the last 12 months, and they know musical tastes vary by geographical region. Let's evaluate each option: (A) All customers who joined last month: Too limited in time period, not representative of full 12 months. (B) Random sample from last 12 months: Simple random sampling is good but doesn't account for geographical variation. (C) 10 customers from each state: Equal allocation doesn't account for states having different customer populations (California likely has more customers than Wyoming). This could under-represent large states and over-represent small states. (D) 3% from each state: Stratified random sampling with proportional allocation. This ensures all regions are represented in proportion to their customer base. This is the most representative approach when we know an important grouping variable (state/region).",
+    "reasoning": "Stratified random sampling with proportional allocation (option D) is ideal when we have a known grouping variable (geographic region) that affects the characteristic we're studying (musical tastes). This ensures proper representation from all regions proportional to their customer counts.",
+    "steps": [
+      "Goal: Representative sample accounting for geographic variation",
+      "Option A: Only last month - too limited \u2717",
+      "Option B: Simple random - doesn't account for geography \u2717",
+      "Option C: 10 from each state - not proportional to state populations \u2717",
+      "Option D: 3% from each state - proportional stratified sampling \u2713",
+      "Answer: 3% of customers from each state"
+    ],
+    "generatedAt": "2025-11-10T06:52:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_31",
+    "explanation": "For a 94% confidence interval, we have 94% in the middle and 6% in the tails, so 3% in each tail. The upper critical value is the z-score with 3% above it, or equivalently, 97% below it. We need to find z such that P(Z < z) = 0.97. Looking at a standard normal table or using invNorm(0.97): z \u2248 1.88. Alternatively, we can think of it as P(Z > z) = 0.03, which also gives z \u2248 1.88. So the upper critical value is approximately 1.88.",
+    "reasoning": "For a 94% CI, \u03b1 = 0.06, so \u03b1/2 = 0.03 in each tail. The upper critical value z* satisfies P(Z > z*) = 0.03, or P(Z < z*) = 0.97. From standard normal tables, z* \u2248 1.88.",
+    "steps": [
+      "Confidence level: 94%",
+      "Alpha: \u03b1 = 1 - 0.94 = 0.06",
+      "Each tail: \u03b1/2 = 0.03",
+      "Upper critical value: P(Z < z*) = 0.97",
+      "From normal table: z* \u2248 1.88",
+      "Answer: 1.88"
+    ],
+    "generatedAt": "2025-11-10T06:54:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_32",
+    "explanation": "We're comparing mean salaries between two groups (math teachers vs English teachers) with 7 in each group. This is a two-sample comparison of means. Let's consider the options: (A) Two-sample z-test: Used when population standard deviations are known. Unlikely in this context. (B) Two-sample t-test: Used when comparing two independent group means with unknown population SDs. This is appropriate. (C) One-sample test on differences: This would be used for paired data (same teachers teaching both subjects, or matched pairs). Since these are different groups of teachers, not paired. (D) None appropriate. For comparing two independent groups of teachers, a two-sample t-test is appropriate (assuming we don't know population SDs, which is typical). However, with such small samples (n=7 each), we'd also need to verify normality assumptions.",
+    "reasoning": "This is a comparison of two independent groups (math teachers vs English teachers), so we need a two-sample test. Since population standard deviations are unknown (typical in practice), we use t-test rather than z-test. Two-sample t-test is most appropriate.",
+    "steps": [
+      "Two independent groups (math vs English teachers)",
+      "Sample sizes: n\u2081 = n\u2082 = 7",
+      "Population SDs unknown (typical)",
+      "Not paired data (different people)",
+      "Option A: z-test requires known \u03c3 \u2717",
+      "Option B: two-sample t-test appropriate \u2713",
+      "Option C: paired test not appropriate (different groups) \u2717",
+      "Answer: A two-sample t-test of population means"
+    ],
+    "generatedAt": "2025-11-10T06:56:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_33",
+    "explanation": "When we add a constant ($0.50) to every price: (1) The mean increases by that constant: new mean = $14.75 + $0.50 = $15.25. (2) The range increases by... wait, let's think carefully. Original range: $29.99 - $3.99 = $26.00. After adding $0.50 to each: new max = $30.49, new min = $4.49, new range = $30.49 - $4.49 = $26.00. The range stays the same! (3) The standard deviation stays the same (adding a constant doesn't change spread). Let's reconsider the options: (A) Mean and range both increase by $0.50: Range doesn't increase, so FALSE. (B) Mean stays same, range increases: Mean does increase, so FALSE. (C) Mean and SD increase by $0.50: SD doesn't increase, so FALSE. (D) Mean increases by $0.50, SD stays same: TRUE!",
+    "reasoning": "Adding a constant to all values: mean increases by the constant, SD stays same, range stays same. Mean: $14.75 \u2192 $15.25 (+$0.50). SD and range: unchanged. Option D is correct.",
+    "steps": [
+      "Add $0.50 to all prices",
+      "Mean: $14.75 + $0.50 = $15.25 (increases) \u2713",
+      "Range: ($29.99+$0.50) - ($3.99+$0.50) = $26.00 (unchanged)",
+      "SD: unchanged when adding constant \u2713",
+      "Answer: Mean increases $0.50, SD remains same"
+    ],
+    "generatedAt": "2025-11-10T06:58:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_34",
+    "explanation": "The director has data on ALL 100 donations (complete population, not a sample). With n = 100, mean = $155, SD = $32. Let's evaluate each statement: (A) 'This November, the average donation is $155': TRUE - we have data on the entire population for November, so this is a fact, not an estimate. (B) '50% of donations are more than $155': Only true if the distribution is symmetric/normal with median = mean. We can't assume this. (C) '95% confident average is between $91 and $219': This uses \u00b12 SD ($155 \u00b1 2\u00d7$32 = $155 \u00b1 $64 = $91 to $219), but this is not a confidence interval - we have the population parameter, not a sample estimate. This confuses empirical rule with confidence intervals. (D) '95% confident average is between $149 and $161': This would be a confidence interval, but again, we don't need a CI because we have the complete population. Statement A is the most appropriate because it correctly treats this as a known population parameter, not an estimate.",
+    "reasoning": "This is data on the entire population of November donations, not a sample. Therefore, $155 is the true population mean for November, not a sample estimate. We don't need confidence intervals (which are for estimating unknown parameters from samples). Statement A correctly identifies this as the actual November average.",
+    "steps": [
+      "Data: ALL 100 checks received in November (complete population)",
+      "Mean = $155, SD = $32",
+      "Option A: States actual average for November - TRUE \u2713",
+      "Option B: Assumes symmetry - not necessarily true",
+      "Option C: Confuses empirical rule with CI - inappropriate",
+      "Option D: CI not needed for population parameter - inappropriate",
+      "Answer: This November, the average donation is $155"
+    ],
+    "generatedAt": "2025-11-10T07:00:00.000Z"
   }
 ]
