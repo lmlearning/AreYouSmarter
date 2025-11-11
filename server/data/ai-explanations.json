@@ -12470,5 +12470,5887 @@
       "Secular republic."
     ],
     "generatedAt": "2025-11-10T00:20:19.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_181",
+    "explanation": "May Fourth Movement: 1919 China",
+    "reasoning": "Student protests",
+    "steps": [
+      "Anti-imperialist",
+      "Intellectual revolution",
+      "Communism roots."
+    ],
+    "generatedAt": "2025-11-10T00:21:00.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_182",
+    "explanation": "Weimar hyperinflation: 1923 Germany",
+    "reasoning": "Currency collapse",
+    "steps": [
+      "Savings destroyed",
+      "Middle class anger",
+      "Hitler gained."
+    ],
+    "generatedAt": "2025-11-10T00:21:01.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_183",
+    "explanation": "Mustafa Kemal Atat\u00fcrk: Modern Turkey founder",
+    "reasoning": "Secular reforms",
+    "steps": [
+      "Westernization",
+      "Abolished caliphate."
+    ],
+    "generatedAt": "2025-11-10T00:21:02.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_184",
+    "explanation": "Stalin power consolidation: 1920s",
+    "reasoning": "Defeated rivals",
+    "steps": [
+      "Trotsky exiled",
+      "Totalitarian control established."
+    ],
+    "generatedAt": "2025-11-10T00:21:03.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_185",
+    "explanation": "Long March: 1934-35 China",
+    "reasoning": "Communist retreat",
+    "steps": [
+      "Mao emerged leader",
+      "Legend building."
+    ],
+    "generatedAt": "2025-11-10T00:21:04.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_186",
+    "explanation": "Italian invasion Ethiopia: 1935-36",
+    "reasoning": "Mussolini",
+    "steps": [
+      "League failed",
+      "Haile Selassie",
+      "Annexed."
+    ],
+    "generatedAt": "2025-11-10T00:21:05.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_187",
+    "explanation": "Spanish Civil War: 1936-39",
+    "reasoning": "Fascist Franco vs Republic",
+    "steps": [
+      "International brigades",
+      "Guernica",
+      "Franco won."
+    ],
+    "generatedAt": "2025-11-10T00:21:06.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_188",
+    "explanation": "Anschluss: 1938",
+    "reasoning": "Germany annexed Austria",
+    "steps": [
+      "Hitler's homeland",
+      "No resistance",
+      "Plebiscite."
+    ],
+    "generatedAt": "2025-11-10T00:21:07.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_189",
+    "explanation": "Kristallnacht: 1938 Germany",
+    "reasoning": "Anti-Jewish pogrom",
+    "steps": [
+      "Synagogues, shops destroyed",
+      "Prelude Holocaust."
+    ],
+    "generatedAt": "2025-11-10T00:21:08.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_190",
+    "explanation": "Molotov-Ribbentrop Pact: 1939",
+    "reasoning": "Nazi-Soviet",
+    "steps": [
+      "Divided Poland",
+      "Secret protocols",
+      "Shocked world."
+    ],
+    "generatedAt": "2025-11-10T00:21:09.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_191",
+    "explanation": "Invasion Poland: Sept 1939",
+    "reasoning": "WWII began",
+    "steps": [
+      "Blitzkrieg",
+      "Divided Germany-USSR",
+      "France, Britain declared war."
+    ],
+    "generatedAt": "2025-11-10T00:21:10.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_192",
+    "explanation": "Winter War: 1939-40",
+    "reasoning": "USSR invaded Finland",
+    "steps": [
+      "Finnish resistance",
+      "Costly Soviet victory",
+      "Territory lost."
+    ],
+    "generatedAt": "2025-11-10T00:21:11.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_193",
+    "explanation": "Fall of France: May-June 1940",
+    "reasoning": "Rapid German victory",
+    "steps": [
+      "Dunkirk evacuation",
+      "Vichy regime",
+      "Free French."
+    ],
+    "generatedAt": "2025-11-10T00:21:12.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_194",
+    "explanation": "Battle of Britain: Summer 1940",
+    "reasoning": "Luftwaffe vs RAF",
+    "steps": [
+      "Churchill 'finest hour.' Invasion prevented."
+    ],
+    "generatedAt": "2025-11-10T00:21:13.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_195",
+    "explanation": "Tripartite Pact: 1940",
+    "reasoning": "Germany, Italy, Japan",
+    "steps": [
+      "Axis alliance formed",
+      "Against democracies."
+    ],
+    "generatedAt": "2025-11-10T00:21:14.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_196",
+    "explanation": "Lend-Lease: 1941",
+    "reasoning": "US aid Allies",
+    "steps": [
+      "'Arsenal of democracy.' Before entering war."
+    ],
+    "generatedAt": "2025-11-10T00:21:15.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_197",
+    "explanation": "Operation Barbarossa: June 1941",
+    "reasoning": "Largest invasion",
+    "steps": [
+      "Nazi vs USSR",
+      "Initially successful",
+      "Moscow saved."
+    ],
+    "generatedAt": "2025-11-10T00:21:16.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_198",
+    "explanation": "Pearl Harbor: Dec 7, 1941",
+    "reasoning": "Japan attacked US",
+    "steps": [
+      "'Day of infamy.' US entered war."
+    ],
+    "generatedAt": "2025-11-10T00:21:17.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_199",
+    "explanation": "Battle of Midway: June 1942",
+    "reasoning": "US defeated Japanese fleet",
+    "steps": [
+      "Turning point Pacific",
+      "Code-breaking key."
+    ],
+    "generatedAt": "2025-11-10T00:21:18.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_200",
+    "explanation": "El Alamein: Oct-Nov 1942",
+    "reasoning": "Montgomery defeated Rommel",
+    "steps": [
+      "North Africa turning point."
+    ],
+    "generatedAt": "2025-11-10T00:21:19.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_201",
+    "explanation": "Stalingrad: Aug 1942-Feb 1943",
+    "reasoning": "Bloodiest battle",
+    "steps": [
+      "Soviet victory",
+      "German 6th Army destroyed",
+      "Turning point."
+    ],
+    "generatedAt": "2025-11-10T00:21:20.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_202",
+    "explanation": "Casablanca Conference: Jan 1943",
+    "reasoning": "FDR-Churchill",
+    "steps": [
+      "Unconditional surrender",
+      "Second front."
+    ],
+    "generatedAt": "2025-11-10T00:21:21.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_203",
+    "explanation": "Warsaw Ghetto Uprising: April 1943",
+    "reasoning": "Jewish resistance",
+    "steps": [
+      "Brutally crushed",
+      "Heroic."
+    ],
+    "generatedAt": "2025-11-10T00:21:22.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_204",
+    "explanation": "Tehran Conference: Nov 1943",
+    "reasoning": "Big Three",
+    "steps": [
+      "Overlord planned",
+      "Post-war discussed."
+    ],
+    "generatedAt": "2025-11-10T00:21:23.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_205",
+    "explanation": "D-Day: June 6, 1944",
+    "reasoning": "Normandy invasion",
+    "steps": [
+      "Eisenhower",
+      "Liberation Western Europe began."
+    ],
+    "generatedAt": "2025-11-10T00:21:24.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_206",
+    "explanation": "Operation Valkyrie: July 20, 1944",
+    "reasoning": "Failed Hitler assassination",
+    "steps": [
+      "Von Stauffenberg",
+      "Executed."
+    ],
+    "generatedAt": "2025-11-10T00:21:25.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_207",
+    "explanation": "Warsaw Uprising: Aug-Oct 1944",
+    "reasoning": "Polish resistance",
+    "steps": [
+      "Soviets waited",
+      "Germans crushed",
+      "Tragic."
+    ],
+    "generatedAt": "2025-11-10T00:21:26.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_208",
+    "explanation": "Battle of the Bulge: Dec 1944-Jan 1945",
+    "reasoning": "Last German offensive",
+    "steps": [
+      "Ardennes",
+      "Allied victory."
+    ],
+    "generatedAt": "2025-11-10T00:21:27.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_209",
+    "explanation": "Yalta Conference: Feb 1945",
+    "reasoning": "Big Three",
+    "steps": [
+      "Divided Germany",
+      "UN",
+      "Poland"
+    ],
+    "generatedAt": "2025-11-10T00:21:28.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_210",
+    "explanation": "Iwo Jima: Feb-March 1945",
+    "reasoning": "Bloody island battle",
+    "steps": [
+      "Flag raising photo",
+      "High casualties."
+    ],
+    "generatedAt": "2025-11-10T00:21:29.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_211",
+    "explanation": "Firebombing Dresden: Feb 1945",
+    "reasoning": "Allied bombing",
+    "steps": [
+      "25,000 killed",
+      "Controversial",
+      "Civilian."
+    ],
+    "generatedAt": "2025-11-10T00:21:30.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_212",
+    "explanation": "Okinawa: April-June 1945",
+    "reasoning": "Last Pacific battle",
+    "steps": [
+      "Kamikaze",
+      "200,000 dead",
+      "Invasion Japan feared."
+    ],
+    "generatedAt": "2025-11-10T00:21:31.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_213",
+    "explanation": "Hitler suicide: April 30, 1945",
+    "reasoning": "Berlin bunker",
+    "steps": [
+      "Germany collapse",
+      "Eva Braun."
+    ],
+    "generatedAt": "2025-11-10T00:21:32.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_214",
+    "explanation": "VE Day: May 8, 1945",
+    "reasoning": "Victory Europe",
+    "steps": [
+      "Germany surrendered",
+      "Celebrations",
+      "War continued Japan."
+    ],
+    "generatedAt": "2025-11-10T00:21:33.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_215",
+    "explanation": "Potsdam Conference: July-Aug 1945",
+    "reasoning": "Truman, Stalin, Churchill/Attlee",
+    "steps": [
+      "Japan ultimatum",
+      "Tensions."
+    ],
+    "generatedAt": "2025-11-10T00:21:34.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_216",
+    "explanation": "Atomic bombs: Aug 6, 9, 1945",
+    "reasoning": "Hiroshima, Nagasaki",
+    "steps": [
+      "200,000+ killed",
+      "Japan surrendered."
+    ],
+    "generatedAt": "2025-11-10T00:21:35.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_217",
+    "explanation": "VJ Day: Aug 15, 1945",
+    "reasoning": "Victory Japan",
+    "steps": [
+      "WWII ended",
+      "Celebrations worldwide."
+    ],
+    "generatedAt": "2025-11-10T00:21:36.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_218",
+    "explanation": "Nuremberg Trials: 1945-46",
+    "reasoning": "Nazi war criminals",
+    "steps": [
+      "Crimes against humanity",
+      "International law."
+    ],
+    "generatedAt": "2025-11-10T00:21:37.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_219",
+    "explanation": "Iron Curtain speech: March 1946",
+    "reasoning": "Churchill Fulton",
+    "steps": [
+      "Warned Soviet threat",
+      "Cold War term."
+    ],
+    "generatedAt": "2025-11-10T00:21:38.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_220",
+    "explanation": "Greek Civil War: 1946-49",
+    "reasoning": "Communists vs government",
+    "steps": [
+      "Truman Doctrine tested",
+      "Government won."
+    ],
+    "generatedAt": "2025-11-10T00:21:39.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_221",
+    "explanation": "Independence India/Pakistan: Aug 1947",
+    "reasoning": "Partition violence",
+    "steps": [
+      "Million dead",
+      "Gandhi, Jinnah, Nehru."
+    ],
+    "generatedAt": "2025-11-10T00:21:40.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_222",
+    "explanation": "Israeli independence: May 1948",
+    "reasoning": "Declared statehood",
+    "steps": [
+      "Arab-Israeli War",
+      "Palestinians displaced Nakba."
+    ],
+    "generatedAt": "2025-11-10T00:21:41.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_223",
+    "explanation": "Berlin Airlift: 1948-49",
+    "reasoning": "Soviet blockade",
+    "steps": [
+      "Western powers supplied city by air",
+      "Stalin backed down."
+    ],
+    "generatedAt": "2025-11-10T00:21:42.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_224",
+    "explanation": "NATO founded: April 1949",
+    "reasoning": "North Atlantic Treaty",
+    "steps": [
+      "Collective defense",
+      "Cold War alliance."
+    ],
+    "generatedAt": "2025-11-10T00:21:43.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_225",
+    "explanation": "People's Republic China: Oct 1949",
+    "reasoning": "Mao proclaimed",
+    "steps": [
+      "Communist victory",
+      "Nationalists fled Taiwan."
+    ],
+    "generatedAt": "2025-11-10T00:21:44.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_226",
+    "explanation": "Korean War begins: June 1950",
+    "reasoning": "North invaded South",
+    "steps": [
+      "UN/US intervened",
+      "China entered",
+      "Stalemate."
+    ],
+    "generatedAt": "2025-11-10T00:21:45.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_227",
+    "explanation": "Rosenberg executions: 1953",
+    "reasoning": "Atomic spy case",
+    "steps": [
+      "Controversial",
+      "Death penalty",
+      "Cold War hysteria."
+    ],
+    "generatedAt": "2025-11-10T00:21:46.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_228",
+    "explanation": "Korean Armistice: July 1953",
+    "reasoning": "Fighting stopped",
+    "steps": [
+      "38th parallel",
+      "Still technically at war."
+    ],
+    "generatedAt": "2025-11-10T00:21:47.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_229",
+    "explanation": "CIA coup Iran: 1953",
+    "reasoning": "Overthrew Mossadegh",
+    "steps": [
+      "Restored Shah",
+      "Oil interests",
+      "1979 consequences."
+    ],
+    "generatedAt": "2025-11-10T00:21:48.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_230",
+    "explanation": "Dien Bien Phu: 1954",
+    "reasoning": "French defeated Vietnam",
+    "steps": [
+      "Geneva Conference",
+      "Vietnam divided",
+      "US involvement began."
+    ],
+    "generatedAt": "2025-11-10T00:21:49.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_231",
+    "explanation": "Bandung Conference: 1955",
+    "reasoning": "Afro-Asian nations",
+    "steps": [
+      "Non-Aligned Movement",
+      "Nehru, Nasser, Sukarno."
+    ],
+    "generatedAt": "2025-11-10T00:21:50.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_232",
+    "explanation": "Warsaw Pact: 1955",
+    "reasoning": "Soviet bloc military alliance",
+    "steps": [
+      "Response to NATO",
+      "Eastern Europe."
+    ],
+    "generatedAt": "2025-11-10T00:21:51.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_233",
+    "explanation": "Suez Crisis: 1956",
+    "reasoning": "Egypt nationalized canal",
+    "steps": [
+      "Britain, France, Israel attacked",
+      "US, USSR opposed",
+      "Failure."
+    ],
+    "generatedAt": "2025-11-10T00:21:52.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_234",
+    "explanation": "Hungarian Revolution: Oct-Nov 1956",
+    "reasoning": "Anti-Soviet uprising",
+    "steps": [
+      "Nagy",
+      "Tanks crushed",
+      "3000 killed."
+    ],
+    "generatedAt": "2025-11-10T00:21:53.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_235",
+    "explanation": "Ghana independence: 1957",
+    "reasoning": "Nkrumah",
+    "steps": [
+      "First sub-Saharan colony independent",
+      "Pan-Africanism."
+    ],
+    "generatedAt": "2025-11-10T00:21:54.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_236",
+    "explanation": "Sputnik: Oct 1957",
+    "reasoning": "First satellite",
+    "steps": [
+      "Soviet",
+      "Space race began",
+      "US shocked."
+    ],
+    "generatedAt": "2025-11-10T00:21:55.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_237",
+    "explanation": "Great Leap Forward: 1958-62",
+    "reasoning": "Mao's campaign",
+    "steps": [
+      "Communes",
+      "Failed",
+      "30+ million famine deaths."
+    ],
+    "generatedAt": "2025-11-10T00:21:56.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_238",
+    "explanation": "Cuban Revolution: 1959",
+    "reasoning": "Castro, Guevara",
+    "steps": [
+      "Batista overthrown",
+      "Communist",
+      "US hostile."
+    ],
+    "generatedAt": "2025-11-10T00:21:57.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_239",
+    "explanation": "Belgian Congo independence: 1960",
+    "reasoning": "Lumumba",
+    "steps": [
+      "Chaos",
+      "Secession",
+      "Mobutu coup"
+    ],
+    "generatedAt": "2025-11-10T00:21:58.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_240",
+    "explanation": "Sharpeville Massacre: 1960 South Africa",
+    "reasoning": "Police killed 69",
+    "steps": [
+      "Pass laws protest",
+      "Anti-apartheid."
+    ],
+    "generatedAt": "2025-11-10T00:21:59.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_241",
+    "explanation": "Bay of Pigs: April 1961",
+    "reasoning": "Failed CIA invasion Cuba",
+    "steps": [
+      "JFK embarrassed",
+      "Castro strengthened."
+    ],
+    "generatedAt": "2025-11-10T00:21:00.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_242",
+    "explanation": "Berlin Wall built: Aug 1961",
+    "reasoning": "East Germany stopped emigration",
+    "steps": [
+      "Divided city",
+      "Symbol Cold War."
+    ],
+    "generatedAt": "2025-11-10T00:21:01.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_243",
+    "explanation": "Algerian independence: 1962",
+    "reasoning": "Long brutal war",
+    "steps": [
+      "France withdrew",
+      "De Gaulle",
+      "OAS terrorism."
+    ],
+    "generatedAt": "2025-11-10T00:21:02.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_244",
+    "explanation": "Cuban Missile Crisis: Oct 1962",
+    "reasoning": "USSR missiles Cuba",
+    "steps": [
+      "Nuclear brink",
+      "Kennedy blockade",
+      "Khrushchev withdrew."
+    ],
+    "generatedAt": "2025-11-10T00:21:03.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_245",
+    "explanation": "Sino-Soviet split: Early 1960s",
+    "reasoning": "Ideological",
+    "steps": [
+      "Border clashes",
+      "Communist world divided."
+    ],
+    "generatedAt": "2025-11-10T00:21:04.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_246",
+    "explanation": "Nuclear Test Ban Treaty: 1963",
+    "reasoning": "Partial ban",
+    "steps": [
+      "Underground allowed",
+      "Atmospheric stopped."
+    ],
+    "generatedAt": "2025-11-10T00:21:05.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_247",
+    "explanation": "JFK assassination: Nov 22, 1963",
+    "reasoning": "Dallas",
+    "steps": [
+      "Oswald",
+      "Conspiracy theories",
+      "National trauma."
+    ],
+    "generatedAt": "2025-11-10T00:21:06.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_248",
+    "explanation": "Gulf of Tonkin: Aug 1964",
+    "reasoning": "Alleged attack",
+    "steps": [
+      "Johnson",
+      "Escalation Vietnam",
+      "Controversial."
+    ],
+    "generatedAt": "2025-11-10T00:21:07.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_249",
+    "explanation": "Malcolm X assassination: Feb 1965",
+    "reasoning": "Former Nation of Islam",
+    "steps": [
+      "Radical",
+      "Rivals killed."
+    ],
+    "generatedAt": "2025-11-10T00:21:08.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_250",
+    "explanation": "Six-Day War: June 1967",
+    "reasoning": "Israel vs Egypt, Syria, Jordan",
+    "steps": [
+      "Decisive Israeli victory",
+      "Territories occupied."
+    ],
+    "generatedAt": "2025-11-10T00:21:09.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_251",
+    "explanation": "Biafran War: 1967-70",
+    "reasoning": "Nigerian civil war",
+    "steps": [
+      "Secession attempt",
+      "Starvation",
+      "Million died."
+    ],
+    "generatedAt": "2025-11-10T00:21:10.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_252",
+    "explanation": "Tet Offensive: Jan-Feb 1968",
+    "reasoning": "Massive Viet Cong attack",
+    "steps": [
+      "Military loss, propaganda victory",
+      "US opinion turned."
+    ],
+    "generatedAt": "2025-11-10T00:21:11.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_253",
+    "explanation": "MLK assassination: April 4, 1968",
+    "reasoning": "Memphis",
+    "steps": [
+      "James Earl Ray",
+      "Riots",
+      "Civil rights martyr."
+    ],
+    "generatedAt": "2025-11-10T00:21:12.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_254",
+    "explanation": "RFK assassination: June 5, 1968",
+    "reasoning": "Los Angeles",
+    "steps": [
+      "Sirhan Sirhan",
+      "After primary",
+      "Devastating."
+    ],
+    "generatedAt": "2025-11-10T00:21:13.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_255",
+    "explanation": "Prague Spring: 1968",
+    "reasoning": "Czech liberalization",
+    "steps": [
+      "Dub\u010dek",
+      "'Socialism with human face.' Soviet tanks crushed Aug."
+    ],
+    "generatedAt": "2025-11-10T00:21:14.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_256",
+    "explanation": "My Lai Massacre: March 1968",
+    "reasoning": "US troops killed Vietnamese civilians",
+    "steps": [
+      "War crimes",
+      "Revealed 1969."
+    ],
+    "generatedAt": "2025-11-10T00:21:15.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_257",
+    "explanation": "Moon landing: July 20, 1969",
+    "reasoning": "Armstrong, Aldrin",
+    "steps": [
+      "'Giant leap.' Cold War victory",
+      "Inspiring."
+    ],
+    "generatedAt": "2025-11-10T00:21:16.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_258",
+    "explanation": "Woodstock: Aug 1969",
+    "reasoning": "Music festival",
+    "steps": [
+      "400,000",
+      "Peace, love",
+      "Counterculture symbol."
+    ],
+    "generatedAt": "2025-11-10T00:21:17.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_259",
+    "explanation": "Strategic Arms Limitation: 1972",
+    "reasoning": "SALT I",
+    "steps": [
+      "Nixon-Brezhnev",
+      "D\u00e9tente",
+      "ABM Treaty."
+    ],
+    "generatedAt": "2025-11-10T00:21:18.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_260",
+    "explanation": "Munich Olympics massacre: Sept 1972",
+    "reasoning": "Palestinian terrorists",
+    "steps": [
+      "Israeli athletes killed",
+      "Tragedy."
+    ],
+    "generatedAt": "2025-11-10T00:21:19.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_261",
+    "explanation": "Allende overthrown Chile: Sept 1973",
+    "reasoning": "Pinochet coup",
+    "steps": [
+      "CIA role",
+      "Dictatorship",
+      "Thousands killed."
+    ],
+    "generatedAt": "2025-11-10T00:21:20.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_262",
+    "explanation": "Yom Kippur War: Oct 1973",
+    "reasoning": "Egypt-Syria vs Israel",
+    "steps": [
+      "Initial Arab success",
+      "Israeli recovery",
+      "Oil embargo."
+    ],
+    "generatedAt": "2025-11-10T00:21:21.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_263",
+    "explanation": "OPEC embargo: 1973-74",
+    "reasoning": "Oil weapon",
+    "steps": [
+      "Prices quadrupled",
+      "Energy crisis",
+      "Western economies."
+    ],
+    "generatedAt": "2025-11-10T00:21:22.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_264",
+    "explanation": "Watergate scandal: 1972-74",
+    "reasoning": "Nixon cover-up",
+    "steps": [
+      "Saturday Night Massacre",
+      "Resignation Aug 1974."
+    ],
+    "generatedAt": "2025-11-10T00:21:23.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_265",
+    "explanation": "Fall of Saigon: April 30, 1975",
+    "reasoning": "North Vietnam victory",
+    "steps": [
+      "US evacuated",
+      "War ended",
+      "Reunification."
+    ],
+    "generatedAt": "2025-11-10T00:21:24.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_266",
+    "explanation": "Khmer Rouge: 1975-79",
+    "reasoning": "Pol Pot",
+    "steps": [
+      "Cambodia",
+      "Year Zero",
+      "Genocide 2 million"
+    ],
+    "generatedAt": "2025-11-10T00:21:25.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_267",
+    "explanation": "Angola Civil War: 1975-2002",
+    "reasoning": "MPLA vs UNITA",
+    "steps": [
+      "Cuban troops",
+      "South Africa",
+      "Cold War proxy."
+    ],
+    "generatedAt": "2025-11-10T00:21:26.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_268",
+    "explanation": "Soweto Uprising: June 1976",
+    "reasoning": "South African students",
+    "steps": [
+      "Apartheid protest",
+      "Police violence",
+      "Resistance symbol."
+    ],
+    "generatedAt": "2025-11-10T00:21:27.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_269",
+    "explanation": "Mao death: Sept 1976",
+    "reasoning": "Communist China founder",
+    "steps": [
+      "Gang of Four arrested",
+      "Deng reforms followed."
+    ],
+    "generatedAt": "2025-11-10T00:21:28.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_270",
+    "explanation": "Camp David Accords: Sept 1978",
+    "reasoning": "Carter mediated",
+    "steps": [
+      "Begin-Sadat",
+      "Israel-Egypt peace",
+      "Historic."
+    ],
+    "generatedAt": "2025-11-10T00:21:29.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_271",
+    "explanation": "Iranian Revolution: 1979",
+    "reasoning": "Shah overthrown",
+    "steps": [
+      "Khomeini",
+      "Islamic Republic",
+      "Hostage crisis"
+    ],
+    "generatedAt": "2025-11-10T00:21:30.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_272",
+    "explanation": "Soviet Afghanistan: Dec 1979-Feb 1989",
+    "reasoning": "Invasion",
+    "steps": [
+      "Mujahideen resisted",
+      "US aided",
+      "Soviet defeat"
+    ],
+    "generatedAt": "2025-11-10T00:21:31.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_273",
+    "explanation": "Zimbabwe independence: 1980",
+    "reasoning": "Rhodesia ended",
+    "steps": [
+      "Mugabe",
+      "Liberation",
+      "Later dictatorship."
+    ],
+    "generatedAt": "2025-11-10T00:21:32.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_274",
+    "explanation": "Iran-Iraq War: 1980-88",
+    "reasoning": "Brutal stalemate",
+    "steps": [
+      "Million dead",
+      "Chemical weapons",
+      "Both exhausted."
+    ],
+    "generatedAt": "2025-11-10T00:21:33.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_275",
+    "explanation": "Solidarity Poland: 1980-89",
+    "reasoning": "Wa\u0142\u0119sa",
+    "steps": [
+      "Trade union",
+      "Martial law 1981",
+      "Eventually triumphed 1989."
+    ],
+    "generatedAt": "2025-11-10T00:21:34.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_276",
+    "explanation": "AIDS epidemic: 1980s",
+    "reasoning": "Global pandemic",
+    "steps": [
+      "Millions died",
+      "Stigma",
+      "Antiretrovirals later."
+    ],
+    "generatedAt": "2025-11-10T00:21:35.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_277",
+    "explanation": "Falklands War: 1982",
+    "reasoning": "Argentina vs UK",
+    "steps": [
+      "Thatcher",
+      "Nationalism",
+      "British victory"
+    ],
+    "generatedAt": "2025-11-10T00:21:36.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_278",
+    "explanation": "Lebanese Civil War: 1975-90",
+    "reasoning": "Complex sectarian",
+    "steps": [
+      "Israeli invasion",
+      "Beirut bombing",
+      "Syria dominant."
+    ],
+    "generatedAt": "2025-11-10T00:21:37.000Z"
+  },
+  {
+    "questionId": "high_school_world_history_279",
+    "explanation": "Bhopal disaster: Dec 1984",
+    "reasoning": "India",
+    "steps": [
+      "Gas leak",
+      "15,000+ died",
+      "Industrial catastrophe."
+    ],
+    "generatedAt": "2025-11-10T00:21:38.000Z"
+  },
+  {
+    "questionId": "prehistory_0",
+    "explanation": "Minoan warfare: Minimal evidence",
+    "reasoning": "Peaceful society",
+    "steps": [
+      "Trade-focused",
+      "Little militarization",
+      "Few weapons found."
+    ],
+    "generatedAt": "2025-11-10T01:00:00.000Z"
+  },
+  {
+    "questionId": "prehistory_1",
+    "explanation": "Giza pyramids: Khufu, Khafre, Menkaure",
+    "reasoning": "4th Dynasty",
+    "steps": [
+      "Burial monuments",
+      "Old Kingdom."
+    ],
+    "generatedAt": "2025-11-10T01:00:01.000Z"
+  },
+  {
+    "questionId": "prehistory_2",
+    "explanation": "Middle East arrival: Neandertals present",
+    "reasoning": "Interbreeding occurred",
+    "steps": [
+      "Evolutionary descendants",
+      "Gene flow evidence."
+    ],
+    "generatedAt": "2025-11-10T01:00:02.000Z"
+  },
+  {
+    "questionId": "prehistory_3",
+    "explanation": "Lion Man: Mobiliary art",
+    "reasoning": "Portable sculpture",
+    "steps": [
+      "Upper Paleolithic",
+      "Carved ivory",
+      "Anthropomorphic figure."
+    ],
+    "generatedAt": "2025-11-10T01:00:03.000Z"
+  },
+  {
+    "questionId": "prehistory_4",
+    "explanation": "Knossos palace: 1,000+ rooms",
+    "reasoning": "Minoan center",
+    "steps": [
+      "Bronze Age",
+      "Administrative complex",
+      "Multi-story."
+    ],
+    "generatedAt": "2025-11-10T01:00:04.000Z"
+  },
+  {
+    "questionId": "prehistory_5",
+    "explanation": "Hopewell culture: Monumental earthworks present",
+    "reasoning": "Lacked formal government",
+    "steps": [
+      "No cities",
+      "Complex society."
+    ],
+    "generatedAt": "2025-11-10T01:00:05.000Z"
+  },
+  {
+    "questionId": "prehistory_6",
+    "explanation": "Huaca del Sol: Markings identify producers",
+    "reasoning": "Local group signatures",
+    "steps": [
+      "Construction organization",
+      "Labor tribute."
+    ],
+    "generatedAt": "2025-11-10T01:00:06.000Z"
+  },
+  {
+    "questionId": "prehistory_7",
+    "explanation": "Stonehenge structure: Sarsens upright",
+    "reasoning": "Lintels horizontal",
+    "steps": [
+      "Megalithic construction",
+      "Neolithic monument."
+    ],
+    "generatedAt": "2025-11-10T01:00:07.000Z"
+  },
+  {
+    "questionId": "prehistory_8",
+    "explanation": "Altricial babies: Narrowed birth canal",
+    "reasoning": "Bipedalism constraint",
+    "steps": [
+      "Brain growth post-birth",
+      "Evolutionary adaptation."
+    ],
+    "generatedAt": "2025-11-10T01:00:08.000Z"
+  },
+  {
+    "questionId": "prehistory_9",
+    "explanation": "C3/C4 pathways: Nuts/fruits to grasses",
+    "reasoning": "Dietary shift",
+    "steps": [
+      "Plant community change",
+      "Hominid adaptation."
+    ],
+    "generatedAt": "2025-11-10T01:00:09.000Z"
+  },
+  {
+    "questionId": "prehistory_10",
+    "explanation": "Middle Stone Age plants: Sibudu Cave lining",
+    "reasoning": "Plant material floors",
+    "steps": [
+      "South Africa",
+      "Bedding evidence."
+    ],
+    "generatedAt": "2025-11-10T01:00:10.000Z"
+  },
+  {
+    "questionId": "prehistory_11",
+    "explanation": "Neandertal DNA: Gene flow after Africa",
+    "reasoning": "Migration timing",
+    "steps": [
+      "Interbreeding outside Africa",
+      "Modern non-African DNA."
+    ],
+    "generatedAt": "2025-11-10T01:00:11.000Z"
+  },
+  {
+    "questionId": "prehistory_12",
+    "explanation": "Beringia: Late Glacial Maximum",
+    "reasoning": "Low sea level",
+    "steps": [
+      "Land bridge exposed",
+      "Siberia-Alaska connection."
+    ],
+    "generatedAt": "2025-11-10T01:00:12.000Z"
+  },
+  {
+    "questionId": "prehistory_13",
+    "explanation": "Large-scale modification: Aerial photography",
+    "reasoning": "Bird's-eye view",
+    "steps": [
+      "Pattern recognition",
+      "Landscape archaeology."
+    ],
+    "generatedAt": "2025-11-10T01:00:13.000Z"
+  },
+  {
+    "questionId": "prehistory_14",
+    "explanation": "Lapita pottery: Cultural complex designation",
+    "reasoning": "Pacific migration",
+    "steps": [
+      "Distinctive decoration",
+      "Oceanic expansion."
+    ],
+    "generatedAt": "2025-11-10T01:00:14.000Z"
+  },
+  {
+    "questionId": "prehistory_15",
+    "explanation": "Complex foragers: Few productive resources",
+    "reasoning": "Sedentary lifestyle",
+    "steps": [
+      "Social hierarchy",
+      "Specialized exploitation."
+    ],
+    "generatedAt": "2025-11-10T01:00:15.000Z"
+  },
+  {
+    "questionId": "prehistory_16",
+    "explanation": "Frere's discovery: Beneath extinct animals",
+    "reasoning": "Stratigraphic evidence",
+    "steps": [
+      "Great antiquity",
+      "Human-animal coexistence."
+    ],
+    "generatedAt": "2025-11-10T01:00:16.000Z"
+  },
+  {
+    "questionId": "prehistory_17",
+    "explanation": "Early writing: Cuneiform in Mesopotamia",
+    "reasoning": "Earliest script",
+    "steps": [
+      "Sumerian civilization",
+      "~3400 BCE."
+    ],
+    "generatedAt": "2025-11-10T01:00:17.000Z"
+  },
+  {
+    "questionId": "prehistory_18",
+    "explanation": "Social stratification: Hierarchy of levels",
+    "reasoning": "Unequal access",
+    "steps": [
+      "Ranked positions",
+      "Class structure."
+    ],
+    "generatedAt": "2025-11-10T01:00:18.000Z"
+  },
+  {
+    "questionId": "prehistory_19",
+    "explanation": "Minoan vulnerability: Maritime trade reliance",
+    "reasoning": "Sea-based economy",
+    "steps": [
+      "Natural disaster risk",
+      "Thera eruption."
+    ],
+    "generatedAt": "2025-11-10T01:00:19.000Z"
+  },
+  {
+    "questionId": "prehistory_20",
+    "explanation": "Moche kingdom: AD 400 peak",
+    "reasoning": "South America",
+    "steps": [
+      "North coast Peru",
+      "Ceremonial centers."
+    ],
+    "generatedAt": "2025-11-10T01:00:20.000Z"
+  },
+  {
+    "questionId": "prehistory_21",
+    "explanation": "Denali Complex: Arctic technology",
+    "reasoning": "Wedge-shaped cores",
+    "steps": [
+      "Micro-blades",
+      "Beringia tradition."
+    ],
+    "generatedAt": "2025-11-10T01:00:21.000Z"
+  },
+  {
+    "questionId": "prehistory_22",
+    "explanation": "Soil removal tools: All of the above",
+    "reasoning": "Brushes, trowels, picks",
+    "steps": [
+      "Excavation techniques",
+      "Careful exposure."
+    ],
+    "generatedAt": "2025-11-10T01:00:22.000Z"
+  },
+  {
+    "questionId": "prehistory_23",
+    "explanation": "Supraorbital torus: Brow ridge",
+    "reasoning": "Projecting bone",
+    "steps": [
+      "Eye orbit feature",
+      "Archaic human trait."
+    ],
+    "generatedAt": "2025-11-10T01:00:23.000Z"
+  },
+  {
+    "questionId": "prehistory_24",
+    "explanation": "Chaco Canyon: 75 settlements",
+    "reasoning": "300+ communities",
+    "steps": [
+      "Ancestral Puebloan",
+      "Multi-site system."
+    ],
+    "generatedAt": "2025-11-10T01:00:24.000Z"
+  },
+  {
+    "questionId": "prehistory_25",
+    "explanation": "Yang-shao to Lung-Shan: After 5,000 B.P",
+    "reasoning": "Chinese Neolithic",
+    "steps": [
+      "Cultural transition",
+      "Yellow River."
+    ],
+    "generatedAt": "2025-11-10T01:00:25.000Z"
+  },
+  {
+    "questionId": "prehistory_26",
+    "explanation": "Post-Pleistocene Europe: Resource diversity",
+    "reasoning": "Varied environments",
+    "steps": [
+      "Broad spectrum",
+      "Multiple species."
+    ],
+    "generatedAt": "2025-11-10T01:00:26.000Z"
+  },
+  {
+    "questionId": "prehistory_27",
+    "explanation": "Wild grain Israel: 23,000 B.P",
+    "reasoning": "Early harvesting",
+    "steps": [
+      "Ohalo II site",
+      "Pre-agricultural."
+    ],
+    "generatedAt": "2025-11-10T01:00:27.000Z"
+  },
+  {
+    "questionId": "prehistory_28",
+    "explanation": "Indus Valley: All of the above",
+    "reasoning": "Planned cities",
+    "steps": [
+      "Standardized measures",
+      "Centralized economy."
+    ],
+    "generatedAt": "2025-11-10T01:00:28.000Z"
+  },
+  {
+    "questionId": "prehistory_29",
+    "explanation": "Ancestral Pueblo elites: Astronomical prediction",
+    "reasoning": "Ritual knowledge",
+    "steps": [
+      "Eclipse forecasting",
+      "Specialized power."
+    ],
+    "generatedAt": "2025-11-10T01:00:29.000Z"
+  },
+  {
+    "questionId": "prehistory_30",
+    "explanation": "Teotihuac\u00e1n rise: Cuicuilco volcanic eruption",
+    "reasoning": "Basin of Mexico",
+    "steps": [
+      "Rival eliminated",
+      "Xitle volcano."
+    ],
+    "generatedAt": "2025-11-10T01:00:30.000Z"
+  },
+  {
+    "questionId": "prehistory_31",
+    "explanation": "Social complexity: Food surplus needed",
+    "reasoning": "Sedentism enabled",
+    "steps": [
+      "Specialization possible",
+      "Northwest coast evidence."
+    ],
+    "generatedAt": "2025-11-10T01:00:31.000Z"
+  },
+  {
+    "questionId": "prehistory_32",
+    "explanation": "Primatology: Studies living relatives",
+    "reasoning": "Primate behavior",
+    "steps": [
+      "Comparative anatomy",
+      "Evolutionary context."
+    ],
+    "generatedAt": "2025-11-10T01:00:32.000Z"
+  },
+  {
+    "questionId": "prehistory_33",
+    "explanation": "Aurignacian vs Mousterian: Aurignacian more blade surface",
+    "reasoning": "Upper Paleolithic",
+    "steps": [
+      "Greater efficiency",
+      "Longer cutting edges."
+    ],
+    "generatedAt": "2025-11-10T01:00:33.000Z"
+  },
+  {
+    "questionId": "prehistory_34",
+    "explanation": "Complex society evidence: All of the above",
+    "reasoning": "Monumental works",
+    "steps": [
+      "Grave goods",
+      "Sedentism."
+    ],
+    "generatedAt": "2025-11-10T01:00:34.000Z"
+  },
+  {
+    "questionId": "prehistory_35",
+    "explanation": "Homo erectus face: Prognathous",
+    "reasoning": "Jutting jaw",
+    "steps": [
+      "Intermediate features",
+      "Less than habilis."
+    ],
+    "generatedAt": "2025-11-10T01:00:35.000Z"
+  },
+  {
+    "questionId": "prehistory_36",
+    "explanation": "Aztec capital: Tenochtitl\u00e1n",
+    "reasoning": "Montezuma ruler",
+    "steps": [
+      "Mexico Basin",
+      "Lake Texcoco."
+    ],
+    "generatedAt": "2025-11-10T01:00:36.000Z"
+  },
+  {
+    "questionId": "prehistory_37",
+    "explanation": "Diffusionism: Egypt origin theory",
+    "reasoning": "Cultural spread",
+    "steps": [
+      "Single source",
+      "Discredited hypothesis."
+    ],
+    "generatedAt": "2025-11-10T01:00:37.000Z"
+  },
+  {
+    "questionId": "prehistory_38",
+    "explanation": "Brain-to-body ratio: Modern Homo sapiens",
+    "reasoning": "Largest proportion",
+    "steps": [
+      "Encephalization quotient",
+      "Cognitive capacity."
+    ],
+    "generatedAt": "2025-11-10T01:00:38.000Z"
+  },
+  {
+    "questionId": "prehistory_39",
+    "explanation": "Shang royal graves: All of the above",
+    "reasoning": "Jade, bronze artifacts",
+    "steps": [
+      "Chariots, horses",
+      "Human sacrifice."
+    ],
+    "generatedAt": "2025-11-10T01:00:39.000Z"
+  },
+  {
+    "questionId": "prehistory_40",
+    "explanation": "Australopithecus sediba: Malapa Cave",
+    "reasoning": "South Africa",
+    "steps": [
+      "Transitional features",
+      "Recent discovery."
+    ],
+    "generatedAt": "2025-11-10T01:00:40.000Z"
+  },
+  {
+    "questionId": "prehistory_41",
+    "explanation": "Surplus and complexity: Resource-rich environments",
+    "reasoning": "Non-agricultural surpluses",
+    "steps": [
+      "Northwest coast",
+      "Economic inequality."
+    ],
+    "generatedAt": "2025-11-10T01:00:41.000Z"
+  },
+  {
+    "questionId": "prehistory_42",
+    "explanation": "Fire advantage: Makes meat digestible",
+    "reasoning": "Kills bacteria",
+    "steps": [
+      "Nutritional benefit",
+      "Food safety."
+    ],
+    "generatedAt": "2025-11-10T01:00:42.000Z"
+  },
+  {
+    "questionId": "prehistory_43",
+    "explanation": "Palynology: Pollen study",
+    "reasoning": "Plant communities",
+    "steps": [
+      "Climate reconstruction",
+      "Environmental history."
+    ],
+    "generatedAt": "2025-11-10T01:00:43.000Z"
+  },
+  {
+    "questionId": "prehistory_44",
+    "explanation": "Olmec unifying element: Religious iconography",
+    "reasoning": "Shared symbols",
+    "steps": [
+      "Were-jaguar motif",
+      "Cultural cohesion."
+    ],
+    "generatedAt": "2025-11-10T01:00:44.000Z"
+  },
+  {
+    "questionId": "prehistory_45",
+    "explanation": "Indus script: Not fully deciphered",
+    "reasoning": "Undeciphered writing",
+    "steps": [
+      "Short inscriptions",
+      "Language unknown."
+    ],
+    "generatedAt": "2025-11-10T01:00:45.000Z"
+  },
+  {
+    "questionId": "prehistory_46",
+    "explanation": "Pinnacle Point: 71,000-year microblade",
+    "reasoning": "Complex technology",
+    "steps": [
+      "South Africa",
+      "Heat treatment."
+    ],
+    "generatedAt": "2025-11-10T01:00:46.000Z"
+  },
+  {
+    "questionId": "prehistory_47",
+    "explanation": "Early Mayan complexity: Decorated stepped platforms",
+    "reasoning": "2650 B.P",
+    "steps": [
+      "Monumental architecture",
+      "Ritual centers."
+    ],
+    "generatedAt": "2025-11-10T01:00:47.000Z"
+  },
+  {
+    "questionId": "prehistory_48",
+    "explanation": "Americas entry timing: Sled dog domestication irrelevant",
+    "reasoning": "Migration factors",
+    "steps": [
+      "Bering crossing",
+      "Archaeological dating."
+    ],
+    "generatedAt": "2025-11-10T01:00:48.000Z"
+  },
+  {
+    "questionId": "prehistory_49",
+    "explanation": "Australian interior: 35,000-40,000 years ago",
+    "reasoning": "Harsh environment",
+    "steps": [
+      "Aboriginal expansion",
+      "Arid zone occupation."
+    ],
+    "generatedAt": "2025-11-10T01:00:49.000Z"
+  },
+  {
+    "questionId": "prehistory_50",
+    "explanation": "Hassunan-Samarran: Both agricultural",
+    "reasoning": "Mesopotamian Neolithic",
+    "steps": [
+      "Irrigation farming",
+      "Village societies."
+    ],
+    "generatedAt": "2025-11-10T01:00:50.000Z"
+  },
+  {
+    "questionId": "prehistory_51",
+    "explanation": "South American crop: Potatoes",
+    "reasoning": "European introduction",
+    "steps": [
+      "Andean origin",
+      "Staple crop."
+    ],
+    "generatedAt": "2025-11-10T01:00:51.000Z"
+  },
+  {
+    "questionId": "prehistory_52",
+    "explanation": "Mesolithic trade: Less distance, more goods",
+    "reasoning": "Regional exchange",
+    "steps": [
+      "Settlement density",
+      "Resource distribution."
+    ],
+    "generatedAt": "2025-11-10T01:00:52.000Z"
+  },
+  {
+    "questionId": "prehistory_53",
+    "explanation": "Potlatch: Wealth redistribution",
+    "reasoning": "Northwest coast",
+    "steps": [
+      "Status ceremony",
+      "Gift-giving feast."
+    ],
+    "generatedAt": "2025-11-10T01:00:53.000Z"
+  },
+  {
+    "questionId": "prehistory_54",
+    "explanation": "Trace element: Neutron activation, X-ray",
+    "reasoning": "Chemical composition",
+    "steps": [
+      "Source identification",
+      "Provenance analysis."
+    ],
+    "generatedAt": "2025-11-10T01:00:54.000Z"
+  },
+  {
+    "questionId": "prehistory_55",
+    "explanation": "Scapulimancy: Bone divination",
+    "reasoning": "Chinese oracle bones",
+    "steps": [
+      "Shang Dynasty",
+      "Future prediction."
+    ],
+    "generatedAt": "2025-11-10T01:00:55.000Z"
+  },
+  {
+    "questionId": "prehistory_56",
+    "explanation": "Indus cities: Grid patterns",
+    "reasoning": "Planned layout",
+    "steps": [
+      "Drainage systems",
+      "Urban planning."
+    ],
+    "generatedAt": "2025-11-10T01:00:56.000Z"
+  },
+  {
+    "questionId": "prehistory_57",
+    "explanation": "Olmec La Venta: 900-400 BCE",
+    "reasoning": "Gulf coast",
+    "steps": [
+      "Ceremonial center",
+      "Massive earthworks."
+    ],
+    "generatedAt": "2025-11-10T01:00:57.000Z"
+  },
+  {
+    "questionId": "prehistory_58",
+    "explanation": "Agricultural spread: Independent development",
+    "reasoning": "Multiple centers",
+    "steps": [
+      "Convergent evolution",
+      "Not diffusion."
+    ],
+    "generatedAt": "2025-11-10T01:00:58.000Z"
+  },
+  {
+    "questionId": "prehistory_59",
+    "explanation": "Teotihuac\u00e1n population: 100,000+ peak",
+    "reasoning": "Mesoamerica's largest",
+    "steps": [
+      "AD 500",
+      "Urban center."
+    ],
+    "generatedAt": "2025-11-10T01:00:59.000Z"
+  },
+  {
+    "questionId": "prehistory_60",
+    "explanation": "Mayan astronomy: Venus cycles tracked",
+    "reasoning": "Calendar development",
+    "steps": [
+      "Astronomical observations",
+      "Ritual timing."
+    ],
+    "generatedAt": "2025-11-10T01:01:00.000Z"
+  },
+  {
+    "questionId": "prehistory_61",
+    "explanation": "Catalhoyuk: 8,000 people",
+    "reasoning": "Neolithic Turkey",
+    "steps": [
+      "Dense settlement",
+      "No streets."
+    ],
+    "generatedAt": "2025-11-10T01:01:01.000Z"
+  },
+  {
+    "questionId": "prehistory_62",
+    "explanation": "Fertile Crescent: Wild wheat, barley",
+    "reasoning": "Sheep, goats domesticated",
+    "steps": [
+      "Agricultural origins",
+      "Southwest Asia."
+    ],
+    "generatedAt": "2025-11-10T01:01:02.000Z"
+  },
+  {
+    "questionId": "prehistory_63",
+    "explanation": "Mesopotamian irrigation: Complex systems",
+    "reasoning": "Canal networks",
+    "steps": [
+      "Water management",
+      "Agricultural intensification."
+    ],
+    "generatedAt": "2025-11-10T01:01:03.000Z"
+  },
+  {
+    "questionId": "prehistory_64",
+    "explanation": "Shang bronze: Advanced metallurgy",
+    "reasoning": "Ritual vessels",
+    "steps": [
+      "Lost-wax casting",
+      "Elite control."
+    ],
+    "generatedAt": "2025-11-10T01:01:04.000Z"
+  },
+  {
+    "questionId": "prehistory_65",
+    "explanation": "Cahokia: Monks Mound largest",
+    "reasoning": "Mississippi culture",
+    "steps": [
+      "AD 1050-1200",
+      "20,000 population."
+    ],
+    "generatedAt": "2025-11-10T01:01:05.000Z"
+  },
+  {
+    "questionId": "prehistory_66",
+    "explanation": "Maize domestication: Teosinte ancestor",
+    "reasoning": "9,000 years ago",
+    "steps": [
+      "Mesoamerica",
+      "Gradual selection."
+    ],
+    "generatedAt": "2025-11-10T01:01:06.000Z"
+  },
+  {
+    "questionId": "prehistory_67",
+    "explanation": "Harappan decline: Climate change",
+    "reasoning": "River shifts",
+    "steps": [
+      "Trade collapse",
+      "Multiple factors."
+    ],
+    "generatedAt": "2025-11-10T01:01:07.000Z"
+  },
+  {
+    "questionId": "prehistory_68",
+    "explanation": "Maya collapse: Multi-causal",
+    "reasoning": "Drought, warfare, deforestation",
+    "steps": [
+      "9th century AD",
+      "Southern lowlands."
+    ],
+    "generatedAt": "2025-11-10T01:01:08.000Z"
+  },
+  {
+    "questionId": "prehistory_69",
+    "explanation": "Olmec colossal heads: Basalt stone",
+    "reasoning": "Leader portraits",
+    "steps": [
+      "San Lorenzo, La Venta",
+      "20+ tons."
+    ],
+    "generatedAt": "2025-11-10T01:01:09.000Z"
+  },
+  {
+    "questionId": "prehistory_70",
+    "explanation": "Natufian culture: Sedentary foragers",
+    "reasoning": "Levant region",
+    "steps": [
+      "15,000-11,500 BP",
+      "Pre-agricultural."
+    ],
+    "generatedAt": "2025-11-10T01:01:10.000Z"
+  },
+  {
+    "questionId": "prehistory_71",
+    "explanation": "Monte Verde: Chile site",
+    "reasoning": "14,800 years old",
+    "steps": [
+      "Pre-Clovis",
+      "Coastal migration."
+    ],
+    "generatedAt": "2025-11-10T01:01:11.000Z"
+  },
+  {
+    "questionId": "prehistory_72",
+    "explanation": "Ancestral Puebloan: Cliff dwellings",
+    "reasoning": "Mesa Verde",
+    "steps": [
+      "AD 1190-1300",
+      "Defense, community."
+    ],
+    "generatedAt": "2025-11-10T01:01:12.000Z"
+  },
+  {
+    "questionId": "prehistory_73",
+    "explanation": "Inca road system: 25,000 miles",
+    "reasoning": "Andes network",
+    "steps": [
+      "Administrative control",
+      "Communication."
+    ],
+    "generatedAt": "2025-11-10T01:01:13.000Z"
+  },
+  {
+    "questionId": "prehistory_74",
+    "explanation": "Egyptian hieroglyphics: Rosetta Stone key",
+    "reasoning": "Champollion deciphered",
+    "steps": [
+      "1822 breakthrough",
+      "Trilingual inscription."
+    ],
+    "generatedAt": "2025-11-10T01:01:14.000Z"
+  },
+  {
+    "questionId": "prehistory_75",
+    "explanation": "Stonehenge phases: 5,000 year development",
+    "reasoning": "Multiple rebuildings",
+    "steps": [
+      "Neolithic to Bronze Age",
+      "Evolving monument."
+    ],
+    "generatedAt": "2025-11-10T01:01:15.000Z"
+  },
+  {
+    "questionId": "prehistory_76",
+    "explanation": "Homo floresiensis: Island dwarfism",
+    "reasoning": "Indonesia discovery",
+    "steps": [
+      "'Hobbit'",
+      "18,000 years old."
+    ],
+    "generatedAt": "2025-11-10T01:01:16.000Z"
+  },
+  {
+    "questionId": "prehistory_77",
+    "explanation": "Mesopotamian ziggurat: Temple platform",
+    "reasoning": "Mud-brick construction",
+    "steps": [
+      "Multi-tiered",
+      "Religious center."
+    ],
+    "generatedAt": "2025-11-10T01:01:17.000Z"
+  },
+  {
+    "questionId": "prehistory_78",
+    "explanation": "Qin Dynasty: Terra-cotta army",
+    "reasoning": "First emperor",
+    "steps": [
+      "221-206 BCE",
+      "Unified China."
+    ],
+    "generatedAt": "2025-11-10T01:01:18.000Z"
+  },
+  {
+    "questionId": "prehistory_79",
+    "explanation": "Australian megafauna: Extinct 46,000 BP",
+    "reasoning": "Human impact debated",
+    "steps": [
+      "Climate change factor",
+      "Diprotodon, giant kangaroo."
+    ],
+    "generatedAt": "2025-11-10T01:01:19.000Z"
+  },
+  {
+    "questionId": "prehistory_80",
+    "explanation": "Lapita expansion: 3,500 years ago",
+    "reasoning": "Oceanic voyaging",
+    "steps": [
+      "Long-distance navigation",
+      "Remote Pacific."
+    ],
+    "generatedAt": "2025-11-10T01:01:20.000Z"
+  },
+  {
+    "questionId": "prehistory_81",
+    "explanation": "Moai statues: Easter Island",
+    "reasoning": "Ancestral figures",
+    "steps": [
+      "Ahu platforms",
+      "Transport mystery."
+    ],
+    "generatedAt": "2025-11-10T01:01:21.000Z"
+  },
+  {
+    "questionId": "prehistory_82",
+    "explanation": "G\u00f6bekli Tepe: 11,600 years old",
+    "reasoning": "Turkey",
+    "steps": [
+      "Pre-pottery Neolithic",
+      "Ritual center."
+    ],
+    "generatedAt": "2025-11-10T01:01:22.000Z"
+  },
+  {
+    "questionId": "prehistory_83",
+    "explanation": "Andean verticality: Multiple elevation zones",
+    "reasoning": "Resource diversity",
+    "steps": [
+      "Complementary production",
+      "Ecological adaptation."
+    ],
+    "generatedAt": "2025-11-10T01:01:23.000Z"
+  },
+  {
+    "questionId": "prehistory_84",
+    "explanation": "Angkor Wat: Khmer Empire",
+    "reasoning": "Cambodia",
+    "steps": [
+      "12th century",
+      "Hindu-Buddhist temple."
+    ],
+    "generatedAt": "2025-11-10T01:01:24.000Z"
+  },
+  {
+    "questionId": "prehistory_85",
+    "explanation": "Great Zimbabwe: Stone enclosures",
+    "reasoning": "Shona civilization",
+    "steps": [
+      "AD 1100-1450",
+      "Trade center."
+    ],
+    "generatedAt": "2025-11-10T01:01:25.000Z"
+  },
+  {
+    "questionId": "prehistory_86",
+    "explanation": "Polynesian navigation: Star compass",
+    "reasoning": "Ocean swells",
+    "steps": [
+      "Bird movements",
+      "Oral traditions."
+    ],
+    "generatedAt": "2025-11-10T01:01:26.000Z"
+  },
+  {
+    "questionId": "prehistory_87",
+    "explanation": "Jomon pottery: Japan",
+    "reasoning": "16,000 years old",
+    "steps": [
+      "World's oldest",
+      "Cord-marked decoration."
+    ],
+    "generatedAt": "2025-11-10T01:01:27.000Z"
+  },
+  {
+    "questionId": "prehistory_88",
+    "explanation": "Mesa Verde abandonment: Late 1200s AD",
+    "reasoning": "Drought",
+    "steps": [
+      "Resource depletion",
+      "Migration south."
+    ],
+    "generatedAt": "2025-11-10T01:01:28.000Z"
+  },
+  {
+    "questionId": "prehistory_89",
+    "explanation": "Poverty Point: Louisiana",
+    "reasoning": "3,700-3,100 BP",
+    "steps": [
+      "Earthwork ridges",
+      "Hunter-gatherer complexity."
+    ],
+    "generatedAt": "2025-11-10T01:01:29.000Z"
+  },
+  {
+    "questionId": "prehistory_90",
+    "explanation": "Halaf culture: Mesopotamia",
+    "reasoning": "Painted pottery",
+    "steps": [
+      "6,500-5,500 BCE",
+      "Village farming."
+    ],
+    "generatedAt": "2025-11-10T01:01:30.000Z"
+  },
+  {
+    "questionId": "prehistory_91",
+    "explanation": "Ban Chiang: Thailand",
+    "reasoning": "Bronze Age",
+    "steps": [
+      "Rice agriculture",
+      "Painted pottery."
+    ],
+    "generatedAt": "2025-11-10T01:01:31.000Z"
+  },
+  {
+    "questionId": "prehistory_92",
+    "explanation": "Ubaid period: Southern Mesopotamia",
+    "reasoning": "Temple architecture",
+    "steps": [
+      "6,500-3,800 BCE",
+      "Proto-urban."
+    ],
+    "generatedAt": "2025-11-10T01:01:32.000Z"
+  },
+  {
+    "questionId": "prehistory_93",
+    "explanation": "Tiwanaku: Bolivian altiplano",
+    "reasoning": "AD 500-1000",
+    "steps": [
+      "Raised-field agriculture",
+      "Monumental stone."
+    ],
+    "generatedAt": "2025-11-10T01:01:33.000Z"
+  },
+  {
+    "questionId": "prehistory_94",
+    "explanation": "Dong Son culture: Vietnam",
+    "reasoning": "Bronze drums",
+    "steps": [
+      "Iron Age",
+      "1000 BCE-100 CE."
+    ],
+    "generatedAt": "2025-11-10T01:01:34.000Z"
+  },
+  {
+    "questionId": "prehistory_95",
+    "explanation": "Hopewell exchange: Obsidian, copper, mica",
+    "reasoning": "Long-distance trade",
+    "steps": [
+      "100 BCE-500 CE",
+      "Eastern Woodlands."
+    ],
+    "generatedAt": "2025-11-10T01:01:35.000Z"
+  },
+  {
+    "questionId": "prehistory_96",
+    "explanation": "Anasazi-Puebloan: Same culture",
+    "reasoning": "Name preference changed",
+    "steps": [
+      "Ancestral Puebloan preferred",
+      "Descendant respect."
+    ],
+    "generatedAt": "2025-11-10T01:01:36.000Z"
+  },
+  {
+    "questionId": "prehistory_97",
+    "explanation": "Basketmaker period: Pre-Puebloan",
+    "reasoning": "Pit houses",
+    "steps": [
+      "AD 1-750",
+      "Maize cultivation."
+    ],
+    "generatedAt": "2025-11-10T01:01:37.000Z"
+  },
+  {
+    "questionId": "prehistory_98",
+    "explanation": "Chaco roads: Straight paths",
+    "reasoning": "Engineered construction",
+    "steps": [
+      "Regional integration",
+      "Pilgrimage routes."
+    ],
+    "generatedAt": "2025-11-10T01:01:38.000Z"
+  },
+  {
+    "questionId": "prehistory_99",
+    "explanation": "Mimbres pottery: Black-on-white",
+    "reasoning": "Geometric, figurative",
+    "steps": [
+      "Kill holes",
+      "Burial practice."
+    ],
+    "generatedAt": "2025-11-10T01:01:39.000Z"
+  },
+  {
+    "questionId": "prehistory_100",
+    "explanation": "Mogollon culture: Southwest",
+    "reasoning": "AD 200-1450",
+    "steps": [
+      "Mountain adaptation",
+      "Pithouse to pueblo."
+    ],
+    "generatedAt": "2025-11-10T01:01:40.000Z"
+  },
+  {
+    "questionId": "prehistory_101",
+    "explanation": "Hohokam: Phoenix Basin",
+    "reasoning": "Canal irrigation",
+    "steps": [
+      "Ball courts",
+      "AD 1-1450."
+    ],
+    "generatedAt": "2025-11-10T01:01:41.000Z"
+  },
+  {
+    "questionId": "prehistory_102",
+    "explanation": "Adena culture: Ohio Valley",
+    "reasoning": "Burial mounds",
+    "steps": [
+      "800-100 BCE",
+      "Early Woodland."
+    ],
+    "generatedAt": "2025-11-10T01:01:42.000Z"
+  },
+  {
+    "questionId": "prehistory_103",
+    "explanation": "Fremont culture: Utah",
+    "reasoning": "AD 1-1300",
+    "steps": [
+      "Hunter-gatherers and farmers",
+      "Rock art."
+    ],
+    "generatedAt": "2025-11-10T01:01:43.000Z"
+  },
+  {
+    "questionId": "prehistory_104",
+    "explanation": "Clovis technology: Fluted points",
+    "reasoning": "13,000 years ago",
+    "steps": [
+      "Big game hunting",
+      "Widespread North America."
+    ],
+    "generatedAt": "2025-11-10T01:01:44.000Z"
+  },
+  {
+    "questionId": "prehistory_105",
+    "explanation": "Folsom points: Post-Clovis",
+    "reasoning": "Bison hunting",
+    "steps": [
+      "12,000-10,000 BP",
+      "Great Plains."
+    ],
+    "generatedAt": "2025-11-10T01:01:45.000Z"
+  },
+  {
+    "questionId": "prehistory_106",
+    "explanation": "Archaic period: 10,000-3,000 BP",
+    "reasoning": "Post-Pleistocene adaptation",
+    "steps": [
+      "Regional diversification",
+      "Broad spectrum."
+    ],
+    "generatedAt": "2025-11-10T01:01:46.000Z"
+  },
+  {
+    "questionId": "prehistory_107",
+    "explanation": "Woodland period: Eastern US",
+    "reasoning": "3,000-1,000 BP",
+    "steps": [
+      "Pottery, mounds",
+      "Agriculture begins."
+    ],
+    "generatedAt": "2025-11-10T01:01:47.000Z"
+  },
+  {
+    "questionId": "prehistory_108",
+    "explanation": "Mississippian: AD 800-1600",
+    "reasoning": "Maize agriculture",
+    "steps": [
+      "Chiefdoms",
+      "Platform mounds."
+    ],
+    "generatedAt": "2025-11-10T01:01:48.000Z"
+  },
+  {
+    "questionId": "prehistory_109",
+    "explanation": "Shell middens: Coastal sites",
+    "reasoning": "Refuse accumulation",
+    "steps": [
+      "Subsistence evidence",
+      "Dating tool."
+    ],
+    "generatedAt": "2025-11-10T01:01:49.000Z"
+  },
+  {
+    "questionId": "prehistory_110",
+    "explanation": "Megaliths: Large stones",
+    "reasoning": "Monumental construction",
+    "steps": [
+      "Neolithic-Bronze Age",
+      "Ritual, burial."
+    ],
+    "generatedAt": "2025-11-10T01:01:50.000Z"
+  },
+  {
+    "questionId": "prehistory_111",
+    "explanation": "Dolmen: Stone chamber tomb",
+    "reasoning": "Capstone covering",
+    "steps": [
+      "Megalithic",
+      "Neolithic burial."
+    ],
+    "generatedAt": "2025-11-10T01:01:51.000Z"
+  },
+  {
+    "questionId": "prehistory_112",
+    "explanation": "Menhir: Standing stone",
+    "reasoning": "Single upright",
+    "steps": [
+      "Megalithic",
+      "Ritual marker."
+    ],
+    "generatedAt": "2025-11-10T01:01:52.000Z"
+  },
+  {
+    "questionId": "prehistory_113",
+    "explanation": "Cairn: Stone heap",
+    "reasoning": "Burial marker",
+    "steps": [
+      "Memorial",
+      "Neolithic-Bronze Age."
+    ],
+    "generatedAt": "2025-11-10T01:01:53.000Z"
+  },
+  {
+    "questionId": "prehistory_114",
+    "explanation": "Cursus: Linear earthwork",
+    "reasoning": "England",
+    "steps": [
+      "Neolithic",
+      "Processional pathway."
+    ],
+    "generatedAt": "2025-11-10T01:01:54.000Z"
+  },
+  {
+    "questionId": "prehistory_115",
+    "explanation": "Henge: Circular earthwork",
+    "reasoning": "Bank and ditch",
+    "steps": [
+      "Ritual enclosure",
+      "Neolithic Britain."
+    ],
+    "generatedAt": "2025-11-10T01:01:55.000Z"
+  },
+  {
+    "questionId": "prehistory_116",
+    "explanation": "Passage tomb: Burial chamber",
+    "reasoning": "Stone corridor",
+    "steps": [
+      "Newgrange type",
+      "Neolithic."
+    ],
+    "generatedAt": "2025-11-10T01:01:56.000Z"
+  },
+  {
+    "questionId": "prehistory_117",
+    "explanation": "Court tomb: Irish megalith",
+    "reasoning": "Forecourt area",
+    "steps": [
+      "Neolithic",
+      "Communal burial."
+    ],
+    "generatedAt": "2025-11-10T01:01:57.000Z"
+  },
+  {
+    "questionId": "prehistory_118",
+    "explanation": "Wedge tomb: Ireland",
+    "reasoning": "Bronze Age",
+    "steps": [
+      "Trapezoidal chamber",
+      "Western distribution."
+    ],
+    "generatedAt": "2025-11-10T01:01:58.000Z"
+  },
+  {
+    "questionId": "prehistory_119",
+    "explanation": "Portal tomb: Dolmen type",
+    "reasoning": "Two uprights, capstone",
+    "steps": [
+      "Neolithic",
+      "Dramatic appearance."
+    ],
+    "generatedAt": "2025-11-10T01:01:59.000Z"
+  },
+  {
+    "questionId": "prehistory_120",
+    "explanation": "Beaker culture: Bell-shaped pottery",
+    "reasoning": "Bronze Age",
+    "steps": [
+      "2800-1800 BCE",
+      "Western Europe."
+    ],
+    "generatedAt": "2025-11-10T01:01:00.000Z"
+  },
+  {
+    "questionId": "prehistory_121",
+    "explanation": "Corded Ware: Pottery decoration",
+    "reasoning": "Northern Europe",
+    "steps": [
+      "2900-2350 BCE",
+      "Copper Age."
+    ],
+    "generatedAt": "2025-11-10T01:01:01.000Z"
+  },
+  {
+    "questionId": "prehistory_122",
+    "explanation": "Linear Pottery: Neolithic Europe",
+    "reasoning": "5500-4500 BCE",
+    "steps": [
+      "First farmers",
+      "Bandkeramik."
+    ],
+    "generatedAt": "2025-11-10T01:01:02.000Z"
+  },
+  {
+    "questionId": "prehistory_123",
+    "explanation": "Funnel Beaker: Northern Europe",
+    "reasoning": "4000-2700 BCE",
+    "steps": [
+      "Megalithic builders",
+      "TRB culture."
+    ],
+    "generatedAt": "2025-11-10T01:01:03.000Z"
+  },
+  {
+    "questionId": "prehistory_124",
+    "explanation": "Battle Axe: Corded Ware variant",
+    "reasoning": "Scandinavia",
+    "steps": [
+      "Boat-axe",
+      "Single grave."
+    ],
+    "generatedAt": "2025-11-10T01:01:04.000Z"
+  },
+  {
+    "questionId": "prehistory_125",
+    "explanation": "Cahokia: 120 earthen mounds",
+    "reasoning": "10,000 population",
+    "steps": [
+      "Mississippian center",
+      "Monks Mound largest."
+    ],
+    "generatedAt": "2025-11-10T01:10:00.000Z"
+  },
+  {
+    "questionId": "prehistory_126",
+    "explanation": "Indus Valley climate: Drought caused collapse",
+    "reasoning": "Oxygen isotope evidence",
+    "steps": [
+      "Gastropod shells",
+      "Climate change."
+    ],
+    "generatedAt": "2025-11-10T01:10:01.000Z"
+  },
+  {
+    "questionId": "prehistory_127",
+    "explanation": "Clovis points: Not in Alaska",
+    "reasoning": "Below ice sheets",
+    "steps": [
+      "Widespread south",
+      "Big game hunting."
+    ],
+    "generatedAt": "2025-11-10T01:10:02.000Z"
+  },
+  {
+    "questionId": "prehistory_128",
+    "explanation": "Southwest sedentary: Mogollon culture",
+    "reasoning": "Pit houses to pueblos",
+    "steps": [
+      "AD 200-1450",
+      "Mountain adaptation."
+    ],
+    "generatedAt": "2025-11-10T01:10:03.000Z"
+  },
+  {
+    "questionId": "prehistory_129",
+    "explanation": "Morgan's stages: Savagery, Barbarism, Civilization",
+    "reasoning": "19th century",
+    "steps": [
+      "Unilinear evolution",
+      "Outdated theory."
+    ],
+    "generatedAt": "2025-11-10T01:10:04.000Z"
+  },
+  {
+    "questionId": "prehistory_130",
+    "explanation": "Mayan culture elements: No bronze industry",
+    "reasoning": "Jade, ball games",
+    "steps": [
+      "Writing, calendar",
+      "Stone tools."
+    ],
+    "generatedAt": "2025-11-10T01:10:05.000Z"
+  },
+  {
+    "questionId": "prehistory_131",
+    "explanation": "Machu Picchu: Elite getaway",
+    "reasoning": "Royal estate",
+    "steps": [
+      "Mountain retreat",
+      "Inca emperor."
+    ],
+    "generatedAt": "2025-11-10T01:10:06.000Z"
+  },
+  {
+    "questionId": "prehistory_132",
+    "explanation": "Neandertal hunting: Animal bones evidence",
+    "reasoning": "Stone tool cut marks",
+    "steps": [
+      "Large game",
+      "Meat consumption."
+    ],
+    "generatedAt": "2025-11-10T01:10:07.000Z"
+  },
+  {
+    "questionId": "prehistory_133",
+    "explanation": "Neandertal knowledge: Cave preservation",
+    "reasoning": "European sites",
+    "steps": [
+      "Burial evidence",
+      "More remains found."
+    ],
+    "generatedAt": "2025-11-10T01:10:08.000Z"
+  },
+  {
+    "questionId": "prehistory_134",
+    "explanation": "Elite consumption: If you've got it, flaunt it",
+    "reasoning": "Conspicuous consumption",
+    "steps": [
+      "Wealth display",
+      "Status."
+    ],
+    "generatedAt": "2025-11-10T01:10:09.000Z"
+  },
+  {
+    "questionId": "prehistory_135",
+    "explanation": "Frere 1797: Primitive stone tools",
+    "reasoning": "Great depth",
+    "steps": [
+      "Ancient humans",
+      "Stratigraphic context."
+    ],
+    "generatedAt": "2025-11-10T01:10:10.000Z"
+  },
+  {
+    "questionId": "prehistory_136",
+    "explanation": "Three-age system: Stone, Bronze, Iron",
+    "reasoning": "Thomsen's classification",
+    "steps": [
+      "Material culture",
+      "Chronological framework."
+    ],
+    "generatedAt": "2025-11-10T01:10:11.000Z"
+  },
+  {
+    "questionId": "prehistory_137",
+    "explanation": "Tiwanaku: Highest altitude kingdom",
+    "reasoning": "Lake Titicaca",
+    "steps": [
+      "3,800+ meters",
+      "Andean civilization."
+    ],
+    "generatedAt": "2025-11-10T01:10:12.000Z"
+  },
+  {
+    "questionId": "prehistory_138",
+    "explanation": "Monte Alban: Valley of Oaxaca",
+    "reasoning": "Zapotec builders",
+    "steps": [
+      "Hilltop city",
+      "Mesoamerican center."
+    ],
+    "generatedAt": "2025-11-10T01:10:13.000Z"
+  },
+  {
+    "questionId": "prehistory_139",
+    "explanation": "Holocene Africa: Iberomaurusian to Capsian",
+    "reasoning": "North African cultures",
+    "steps": [
+      "Microlithic technology",
+      "Cultural transition."
+    ],
+    "generatedAt": "2025-11-10T01:10:14.000Z"
+  },
+  {
+    "questionId": "prehistory_140",
+    "explanation": "Mesopotamian development: Not concentrating away from rivers",
+    "reasoning": "Near water resources",
+    "steps": [
+      "Irrigation agriculture",
+      "Alluvial plains."
+    ],
+    "generatedAt": "2025-11-10T01:10:15.000Z"
+  },
+  {
+    "questionId": "prehistory_141",
+    "explanation": "Hopewell crops: Maize not important",
+    "reasoning": "Sunflower, squash, knotweed",
+    "steps": [
+      "Eastern Agricultural Complex",
+      "Pre-maize."
+    ],
+    "generatedAt": "2025-11-10T01:10:16.000Z"
+  },
+  {
+    "questionId": "prehistory_142",
+    "explanation": "Symbolic art: 77,000 BP Blombos",
+    "reasoning": "Ochre engravings",
+    "steps": [
+      "Beads",
+      "South Africa."
+    ],
+    "generatedAt": "2025-11-10T01:10:17.000Z"
+  },
+  {
+    "questionId": "prehistory_143",
+    "explanation": "Hang-t'u: Stamped earth",
+    "reasoning": "Chinese construction",
+    "steps": [
+      "Defensive walls",
+      "Pounded soil."
+    ],
+    "generatedAt": "2025-11-10T01:10:18.000Z"
+  },
+  {
+    "questionId": "prehistory_144",
+    "explanation": "Lake Forest Archaic: Lacustrine resources",
+    "reasoning": "Lakes focus",
+    "steps": [
+      "Maritime hunted pelagic",
+      "Ocean creatures."
+    ],
+    "generatedAt": "2025-11-10T01:10:19.000Z"
+  },
+  {
+    "questionId": "prehistory_145",
+    "explanation": "Modern Inuit: Thule descendants",
+    "reasoning": "Arctic expansion",
+    "steps": [
+      "AD 1000",
+      "Replaced Dorset."
+    ],
+    "generatedAt": "2025-11-10T01:10:20.000Z"
+  },
+  {
+    "questionId": "prehistory_146",
+    "explanation": "Anatomically modern tools: Aurignacian technology",
+    "reasoning": "Upper Paleolithic",
+    "steps": [
+      "Blade production",
+      "European assemblage."
+    ],
+    "generatedAt": "2025-11-10T01:10:21.000Z"
+  },
+  {
+    "questionId": "prehistory_147",
+    "explanation": "Absolute vs relative: Absolute year/range",
+    "reasoning": "Relative chronological order",
+    "steps": [
+      "Dating methods",
+      "Temporal context."
+    ],
+    "generatedAt": "2025-11-10T01:10:22.000Z"
+  },
+  {
+    "questionId": "prehistory_148",
+    "explanation": "Verrazzano observation: Natives resembled Orientals",
+    "reasoning": "Asian features",
+    "steps": [
+      "Indigenous Americans",
+      "Migration evidence."
+    ],
+    "generatedAt": "2025-11-10T01:10:23.000Z"
+  },
+  {
+    "questionId": "prehistory_149",
+    "explanation": "Teotihuac\u00e1n planning: Grid pattern",
+    "reasoning": "Planned city",
+    "steps": [
+      "Urban design",
+      "Street layout."
+    ],
+    "generatedAt": "2025-11-10T01:10:24.000Z"
+  },
+  {
+    "questionId": "prehistory_150",
+    "explanation": "Valley of Mexico: Chinampas agriculture",
+    "reasoning": "Raised fields",
+    "steps": [
+      "Terraces, irrigation",
+      "Intensive farming."
+    ],
+    "generatedAt": "2025-11-10T01:10:25.000Z"
+  },
+  {
+    "questionId": "prehistory_151",
+    "explanation": "Anthropology subfield: Archaeology studies garbage",
+    "reasoning": "Material culture",
+    "steps": [
+      "Refuse analysis",
+      "Past societies."
+    ],
+    "generatedAt": "2025-11-10T01:10:26.000Z"
+  },
+  {
+    "questionId": "prehistory_152",
+    "explanation": "Moche construction: Temple and workshop complex",
+    "reasoning": "Urban center",
+    "steps": [
+      "Huaca del Sol",
+      "Ceremonial architecture."
+    ],
+    "generatedAt": "2025-11-10T01:10:27.000Z"
+  },
+  {
+    "questionId": "prehistory_153",
+    "explanation": "Mayan city-states: Similar to Egypt",
+    "reasoning": "Autonomous dynasties",
+    "steps": [
+      "Agricultural support",
+      "Population centers."
+    ],
+    "generatedAt": "2025-11-10T01:10:28.000Z"
+  },
+  {
+    "questionId": "prehistory_154",
+    "explanation": "Early stone tools: 3.3 million years",
+    "reasoning": "Lomekwi 3 site",
+    "steps": [
+      "Simple cores, flakes",
+      "West Turkana."
+    ],
+    "generatedAt": "2025-11-10T01:10:29.000Z"
+  },
+  {
+    "questionId": "prehistory_155",
+    "explanation": "Maya rainfall: Drought and decline",
+    "reasoning": "Oxygen isotope evidence",
+    "steps": [
+      "Stalagmite record",
+      "Construction reduction."
+    ],
+    "generatedAt": "2025-11-10T01:10:30.000Z"
+  },
+  {
+    "questionId": "prehistory_156",
+    "explanation": "Universe history film: Final 3 seconds",
+    "reasoning": "Human evolution recent",
+    "steps": [
+      "Geological time scale",
+      "Deep time."
+    ],
+    "generatedAt": "2025-11-10T01:10:31.000Z"
+  },
+  {
+    "questionId": "prehistory_157",
+    "explanation": "Stonehenge description: Megalithic monument",
+    "reasoning": "Neolithic construction",
+    "steps": [
+      "Salisbury Plain",
+      "Stone circle."
+    ],
+    "generatedAt": "2025-11-10T01:10:32.000Z"
+  },
+  {
+    "questionId": "prehistory_158",
+    "explanation": "Anasazi name: Ancient enemies",
+    "reasoning": "Navajo language",
+    "steps": [
+      "Ancestral Puebloan preferred",
+      "Cultural sensitivity."
+    ],
+    "generatedAt": "2025-11-10T01:10:33.000Z"
+  },
+  {
+    "questionId": "prehistory_159",
+    "explanation": "Australia occupation: 60,000 B.P",
+    "reasoning": "Early migration",
+    "steps": [
+      "Sahul continent",
+      "Paleogenetic evidence."
+    ],
+    "generatedAt": "2025-11-10T01:10:34.000Z"
+  },
+  {
+    "questionId": "prehistory_160",
+    "explanation": "Egyptian hieroglyphics: Developed suddenly",
+    "reasoning": "Pictographic system",
+    "steps": [
+      "Nile civilization",
+      "3200 BCE."
+    ],
+    "generatedAt": "2025-11-10T01:10:35.000Z"
+  },
+  {
+    "questionId": "prehistory_161",
+    "explanation": "Stonehenge animals: Brought from outside",
+    "reasoning": "Isotope analysis",
+    "steps": [
+      "Animal teeth evidence",
+      "Regional gathering."
+    ],
+    "generatedAt": "2025-11-10T01:10:36.000Z"
+  },
+  {
+    "questionId": "prehistory_162",
+    "explanation": "Neandertal genes: Fat metabolism, diseases",
+    "reasoning": "Lupus association",
+    "steps": [
+      "Both b and c",
+      "Genetic legacy."
+    ],
+    "generatedAt": "2025-11-10T01:10:37.000Z"
+  },
+  {
+    "questionId": "prehistory_163",
+    "explanation": "Nazca geoglyphs: Ceremonial pathways and effigies",
+    "reasoning": "Desert lines",
+    "steps": [
+      "Spirits and gods",
+      "Ritual landscape."
+    ],
+    "generatedAt": "2025-11-10T01:10:38.000Z"
+  },
+  {
+    "questionId": "prehistory_164",
+    "explanation": "Teotihuac\u00e1n housing: High living standards",
+    "reasoning": "Quality construction",
+    "steps": [
+      "Common residences",
+      "Social welfare."
+    ],
+    "generatedAt": "2025-11-10T01:10:39.000Z"
+  },
+  {
+    "questionId": "prehistory_165",
+    "explanation": "Ceibal timing: Contradicts Olmec inspiration",
+    "reasoning": "Independent development",
+    "steps": [
+      "Internal Maya process",
+      "Monumental construction."
+    ],
+    "generatedAt": "2025-11-10T01:10:40.000Z"
+  },
+  {
+    "questionId": "prehistory_166",
+    "explanation": "Chinese origins: Chiefdoms throughout China",
+    "reasoning": "Multiple regions",
+    "steps": [
+      "Diverse development",
+      "Not single center."
+    ],
+    "generatedAt": "2025-11-10T01:10:41.000Z"
+  },
+  {
+    "questionId": "prehistory_167",
+    "explanation": "Food control: 12,000 years ago",
+    "reasoning": "Agricultural revolution",
+    "steps": [
+      "Neolithic transition",
+      "Domestication begins."
+    ],
+    "generatedAt": "2025-11-10T01:10:42.000Z"
+  },
+  {
+    "questionId": "prehistory_168",
+    "explanation": "Neandertal evidence: All of the above",
+    "reasoning": "Burials, adornment, tools",
+    "steps": [
+      "Complex behavior",
+      "Cultural sophistication."
+    ],
+    "generatedAt": "2025-11-10T01:10:43.000Z"
+  },
+  {
+    "questionId": "prehistory_169",
+    "explanation": "Australia consensus: After 60,000 years",
+    "reasoning": "Most agree",
+    "steps": [
+      "Migration timing",
+      "Archaeological dates."
+    ],
+    "generatedAt": "2025-11-10T01:10:44.000Z"
+  },
+  {
+    "questionId": "prehistory_170",
+    "explanation": "Trapped energy dating: Luminescence and OSL",
+    "reasoning": "Heat-based",
+    "steps": [
+      "Thermoluminescence",
+      "Quartz and feldspar."
+    ],
+    "generatedAt": "2025-11-10T01:10:45.000Z"
+  },
+  {
+    "questionId": "prehistory_171",
+    "explanation": "Neandertal tools: Mousterian technology",
+    "reasoning": "Middle Paleolithic",
+    "steps": [
+      "Levallois technique",
+      "Prepared core."
+    ],
+    "generatedAt": "2025-11-10T01:10:46.000Z"
+  },
+  {
+    "questionId": "prehistory_172",
+    "explanation": "Conflict vs integration: Internal vs external",
+    "reasoning": "State formation",
+    "steps": [
+      "Competing models",
+      "Tension sources."
+    ],
+    "generatedAt": "2025-11-10T01:10:47.000Z"
+  },
+  {
+    "questionId": "prehistory_173",
+    "explanation": "Erectus vs habilis: Erectus larger brain",
+    "reasoning": "Greater cranial capacity",
+    "steps": [
+      "More advanced",
+      "Evolutionary progression."
+    ],
+    "generatedAt": "2025-11-10T01:10:48.000Z"
+  },
+  {
+    "questionId": "prehistory_174",
+    "explanation": "Modern human consensus: Africa to Southwest Asia",
+    "reasoning": "150,000-100,000 BP",
+    "steps": [
+      "Then global spread",
+      "Recent African Origin."
+    ],
+    "generatedAt": "2025-11-10T01:10:49.000Z"
+  },
+  {
+    "questionId": "prehistory_175",
+    "explanation": "Homo erectus success: Stable, long-lived",
+    "reasoning": "2 million years",
+    "steps": [
+      "Wide distribution",
+      "Evolutionary success."
+    ],
+    "generatedAt": "2025-11-10T01:10:50.000Z"
+  },
+  {
+    "questionId": "prehistory_176",
+    "explanation": "Pleistocene epoch: Colder climate",
+    "reasoning": "2.6-1.9 MYA",
+    "steps": [
+      "Ice ages",
+      "Glacial periods."
+    ],
+    "generatedAt": "2025-11-10T01:10:51.000Z"
+  },
+  {
+    "questionId": "prehistory_177",
+    "explanation": "Mayan iconography: Mutilation and violence",
+    "reasoning": "Warfare depictions",
+    "steps": [
+      "Sacrifice scenes",
+      "Bloodletting rituals."
+    ],
+    "generatedAt": "2025-11-10T01:10:52.000Z"
+  },
+  {
+    "questionId": "prehistory_178",
+    "explanation": "Taphonomy: Study of deposition",
+    "reasoning": "Material placement",
+    "steps": [
+      "Post-depositional processes",
+      "Site formation."
+    ],
+    "generatedAt": "2025-11-10T01:10:53.000Z"
+  },
+  {
+    "questionId": "prehistory_179",
+    "explanation": "Pleistocene megafauna: Large extinct herbivores",
+    "reasoning": "Mammoth, mastodon",
+    "steps": [
+      "Ice age animals",
+      "Quaternary extinction."
+    ],
+    "generatedAt": "2025-11-10T01:10:54.000Z"
+  },
+  {
+    "questionId": "prehistory_180",
+    "explanation": "Tikal: Mayan city",
+    "reasoning": "Guatemala",
+    "steps": [
+      "Classic period",
+      "Major center."
+    ],
+    "generatedAt": "2025-11-10T01:10:55.000Z"
+  },
+  {
+    "questionId": "prehistory_181",
+    "explanation": "Oldowan tools: Earliest stone industry",
+    "reasoning": "2.6 MYA",
+    "steps": [
+      "Simple choppers",
+      "Homo habilis."
+    ],
+    "generatedAt": "2025-11-10T01:10:56.000Z"
+  },
+  {
+    "questionId": "prehistory_182",
+    "explanation": "Acheulean: Hand axes",
+    "reasoning": "Symmetrical bifacial",
+    "steps": [
+      "Homo erectus",
+      "1.76 MYA."
+    ],
+    "generatedAt": "2025-11-10T01:10:57.000Z"
+  },
+  {
+    "questionId": "prehistory_183",
+    "explanation": "Levallois: Prepared core",
+    "reasoning": "Mousterian",
+    "steps": [
+      "Predetermined flakes",
+      "Middle Paleolithic."
+    ],
+    "generatedAt": "2025-11-10T01:10:58.000Z"
+  },
+  {
+    "questionId": "prehistory_184",
+    "explanation": "Blade production: Upper Paleolithic",
+    "reasoning": "Parallel-sided",
+    "steps": [
+      "Efficient use",
+      "Modern humans."
+    ],
+    "generatedAt": "2025-11-10T01:10:59.000Z"
+  },
+  {
+    "questionId": "prehistory_185",
+    "explanation": "Microblade: Small blades",
+    "reasoning": "Composite tools",
+    "steps": [
+      "Arctic adaptation",
+      "Late Pleistocene."
+    ],
+    "generatedAt": "2025-11-10T01:10:00.000Z"
+  },
+  {
+    "questionId": "prehistory_186",
+    "explanation": "Clovis first: Debunked theory",
+    "reasoning": "Pre-Clovis sites",
+    "steps": [
+      "Monte Verde",
+      "Meadowcroft."
+    ],
+    "generatedAt": "2025-11-10T01:10:01.000Z"
+  },
+  {
+    "questionId": "prehistory_187",
+    "explanation": "Solutrean hypothesis: Rejected theory",
+    "reasoning": "Atlantic crossing",
+    "steps": [
+      "No evidence",
+      "European origin claim."
+    ],
+    "generatedAt": "2025-11-10T01:10:02.000Z"
+  },
+  {
+    "questionId": "prehistory_188",
+    "explanation": "Kennewick Man: 9,000 years old",
+    "reasoning": "Washington State",
+    "steps": [
+      "Legal controversy",
+      "Ancient One."
+    ],
+    "generatedAt": "2025-11-10T01:10:03.000Z"
+  },
+  {
+    "questionId": "prehistory_189",
+    "explanation": "Atlatl: Spear-thrower",
+    "reasoning": "Leverage device",
+    "steps": [
+      "Increased range",
+      "Paleoindian weapon."
+    ],
+    "generatedAt": "2025-11-10T01:10:04.000Z"
+  },
+  {
+    "questionId": "prehistory_190",
+    "explanation": "Bola: Throwing weapon",
+    "reasoning": "Weighted cords",
+    "steps": [
+      "Entangles prey",
+      "South American."
+    ],
+    "generatedAt": "2025-11-10T01:10:05.000Z"
+  },
+  {
+    "questionId": "prehistory_191",
+    "explanation": "Bow and arrow: Late adoption",
+    "reasoning": "Holocene technology",
+    "steps": [
+      "Projectile innovation",
+      "Improved hunting."
+    ],
+    "generatedAt": "2025-11-10T01:10:06.000Z"
+  },
+  {
+    "questionId": "prehistory_192",
+    "explanation": "Groundstone tools: Neolithic",
+    "reasoning": "Polished axes",
+    "steps": [
+      "Woodworking",
+      "Agricultural tools."
+    ],
+    "generatedAt": "2025-11-10T01:10:07.000Z"
+  },
+  {
+    "questionId": "prehistory_193",
+    "explanation": "Pottery invention: Multiple origins",
+    "reasoning": "20,000+ years BP",
+    "steps": [
+      "Storage containers",
+      "Jomon earliest."
+    ],
+    "generatedAt": "2025-11-10T01:10:08.000Z"
+  },
+  {
+    "questionId": "prehistory_194",
+    "explanation": "Weaving evidence: Impressions, spindle whorls",
+    "reasoning": "Textile production",
+    "steps": [
+      "Neolithic craft",
+      "Organic preservation rare."
+    ],
+    "generatedAt": "2025-11-10T01:10:09.000Z"
+  },
+  {
+    "questionId": "prehistory_195",
+    "explanation": "Metallurgy origins: Copper first",
+    "reasoning": "7,000 BCE",
+    "steps": [
+      "Anatolia",
+      "Hammering native copper."
+    ],
+    "generatedAt": "2025-11-10T01:10:10.000Z"
+  },
+  {
+    "questionId": "prehistory_196",
+    "explanation": "Bronze Age: Tin-copper alloy",
+    "reasoning": "3,300 BCE",
+    "steps": [
+      "Near East",
+      "Technological advance."
+    ],
+    "generatedAt": "2025-11-10T01:10:11.000Z"
+  },
+  {
+    "questionId": "prehistory_197",
+    "explanation": "Iron Age: Smelting technology",
+    "reasoning": "1,200 BCE",
+    "steps": [
+      "Hittites",
+      "Harder metal."
+    ],
+    "generatedAt": "2025-11-10T01:10:12.000Z"
+  },
+  {
+    "questionId": "prehistory_198",
+    "explanation": "Lost-wax casting: Complex shapes",
+    "reasoning": "Bronze sculptures",
+    "steps": [
+      "Ancient technique",
+      "Mold destruction."
+    ],
+    "generatedAt": "2025-11-10T01:10:13.000Z"
+  },
+  {
+    "questionId": "prehistory_199",
+    "explanation": "Plough agriculture: Animal traction",
+    "reasoning": "Increased productivity",
+    "steps": [
+      "Bronze Age",
+      "Surplus generation."
+    ],
+    "generatedAt": "2025-11-10T01:10:14.000Z"
+  },
+  {
+    "questionId": "prehistory_200",
+    "explanation": "Pastoral nomadism: Herding societies",
+    "reasoning": "Mobile lifestyle",
+    "steps": [
+      "Central Asian steppes",
+      "Animal husbandry."
+    ],
+    "generatedAt": "2025-11-10T01:20:00.000Z"
+  },
+  {
+    "questionId": "prehistory_201",
+    "explanation": "Transhumance: Seasonal migration",
+    "reasoning": "Elevation changes",
+    "steps": [
+      "Pastoral strategy",
+      "Alps, Andes."
+    ],
+    "generatedAt": "2025-11-10T01:20:01.000Z"
+  },
+  {
+    "questionId": "prehistory_202",
+    "explanation": "Swidden agriculture: Slash-and-burn",
+    "reasoning": "Tropical forests",
+    "steps": [
+      "Shifting cultivation",
+      "Nutrient cycling."
+    ],
+    "generatedAt": "2025-11-10T01:20:02.000Z"
+  },
+  {
+    "questionId": "prehistory_203",
+    "explanation": "Chinampas: Artificial islands",
+    "reasoning": "Aztec farming",
+    "steps": [
+      "Lake Texcoco",
+      "Intensive agriculture."
+    ],
+    "generatedAt": "2025-11-10T01:20:03.000Z"
+  },
+  {
+    "questionId": "prehistory_204",
+    "explanation": "Terrace farming: Hillside modification",
+    "reasoning": "Soil retention",
+    "steps": [
+      "Andean innovation",
+      "Inca agriculture."
+    ],
+    "generatedAt": "2025-11-10T01:20:04.000Z"
+  },
+  {
+    "questionId": "prehistory_205",
+    "explanation": "Qanat system: Underground canals",
+    "reasoning": "Persian innovation",
+    "steps": [
+      "Desert irrigation",
+      "Water transport."
+    ],
+    "generatedAt": "2025-11-10T01:20:05.000Z"
+  },
+  {
+    "questionId": "prehistory_206",
+    "explanation": "Shaduf: Lever device",
+    "reasoning": "Water lifting",
+    "steps": [
+      "Egyptian irrigation",
+      "Nile agriculture."
+    ],
+    "generatedAt": "2025-11-10T01:20:06.000Z"
+  },
+  {
+    "questionId": "prehistory_207",
+    "explanation": "Obsidian trade: Volcanic glass",
+    "reasoning": "Long-distance exchange",
+    "steps": [
+      "Sharp tools",
+      "Mesoamerican economy."
+    ],
+    "generatedAt": "2025-11-10T01:20:07.000Z"
+  },
+  {
+    "questionId": "prehistory_208",
+    "explanation": "Turquoise sources: Southwest trade",
+    "reasoning": "Prestige material",
+    "steps": [
+      "Chaco Canyon",
+      "Regional exchange."
+    ],
+    "generatedAt": "2025-11-10T01:20:08.000Z"
+  },
+  {
+    "questionId": "prehistory_209",
+    "explanation": "Shell exchange: Coastal-inland trade",
+    "reasoning": "Ornaments",
+    "steps": [
+      "Status symbols",
+      "Hopewell network."
+    ],
+    "generatedAt": "2025-11-10T01:20:09.000Z"
+  },
+  {
+    "questionId": "prehistory_210",
+    "explanation": "Amber trade: Baltic Sea",
+    "reasoning": "Prehistoric Europe",
+    "steps": [
+      "Fossilized resin",
+      "Elite goods."
+    ],
+    "generatedAt": "2025-11-10T01:20:10.000Z"
+  },
+  {
+    "questionId": "prehistory_211",
+    "explanation": "Jade culture: Mesoamerica, China",
+    "reasoning": "Precious stone",
+    "steps": [
+      "Ritual objects",
+      "Elite association."
+    ],
+    "generatedAt": "2025-11-10T01:20:11.000Z"
+  },
+  {
+    "questionId": "prehistory_212",
+    "explanation": "Cylinder seals: Mesopotamian administration",
+    "reasoning": "Rolling stamp",
+    "steps": [
+      "Ownership marks",
+      "Clay impressions."
+    ],
+    "generatedAt": "2025-11-10T01:20:12.000Z"
+  },
+  {
+    "questionId": "prehistory_213",
+    "explanation": "Khipu: Inca record-keeping",
+    "reasoning": "Knotted strings",
+    "steps": [
+      "Numerical data",
+      "Administrative tool."
+    ],
+    "generatedAt": "2025-11-10T01:20:13.000Z"
+  },
+  {
+    "questionId": "prehistory_214",
+    "explanation": "Quipu: Same as khipu",
+    "reasoning": "Andean accounting",
+    "steps": [
+      "Color-coded",
+      "Statistical records."
+    ],
+    "generatedAt": "2025-11-10T01:20:14.000Z"
+  },
+  {
+    "questionId": "prehistory_215",
+    "explanation": "Talking drums: West Africa",
+    "reasoning": "Long-distance communication",
+    "steps": [
+      "Tone patterns",
+      "Information transmission."
+    ],
+    "generatedAt": "2025-11-10T01:20:15.000Z"
+  },
+  {
+    "questionId": "prehistory_216",
+    "explanation": "Signal fires: Visual communication",
+    "reasoning": "Beacon system",
+    "steps": [
+      "Warning networks",
+      "Inca relay."
+    ],
+    "generatedAt": "2025-11-10T01:20:16.000Z"
+  },
+  {
+    "questionId": "prehistory_217",
+    "explanation": "Runner messengers: Inca chasqui",
+    "reasoning": "Relay system",
+    "steps": [
+      "Royal roads",
+      "Information speed."
+    ],
+    "generatedAt": "2025-11-10T01:20:17.000Z"
+  },
+  {
+    "questionId": "prehistory_218",
+    "explanation": "Pictographs: Rock art",
+    "reasoning": "Image symbols",
+    "steps": [
+      "Worldwide distribution",
+      "Communication function."
+    ],
+    "generatedAt": "2025-11-10T01:20:18.000Z"
+  },
+  {
+    "questionId": "prehistory_219",
+    "explanation": "Petroglyphs: Carved images",
+    "reasoning": "Stone surfaces",
+    "steps": [
+      "Permanent record",
+      "Ritual significance."
+    ],
+    "generatedAt": "2025-11-10T01:20:19.000Z"
+  },
+  {
+    "questionId": "prehistory_220",
+    "explanation": "Cave art: Lascaux, Altamira",
+    "reasoning": "Upper Paleolithic",
+    "steps": [
+      "Animal depictions",
+      "Ritual purpose."
+    ],
+    "generatedAt": "2025-11-10T01:20:20.000Z"
+  },
+  {
+    "questionId": "prehistory_221",
+    "explanation": "Venus figurines: Female representations",
+    "reasoning": "Upper Paleolithic",
+    "steps": [
+      "Fertility symbols",
+      "Wide distribution."
+    ],
+    "generatedAt": "2025-11-10T01:20:21.000Z"
+  },
+  {
+    "questionId": "prehistory_222",
+    "explanation": "Anthropomorphic: Human-like form",
+    "reasoning": "Deity representations",
+    "steps": [
+      "Figurine characteristics",
+      "Religious art."
+    ],
+    "generatedAt": "2025-11-10T01:20:22.000Z"
+  },
+  {
+    "questionId": "prehistory_223",
+    "explanation": "Zoomorphic: Animal form",
+    "reasoning": "Spirit representation",
+    "steps": [
+      "Shamanic tradition",
+      "Sacred animals."
+    ],
+    "generatedAt": "2025-11-10T01:20:23.000Z"
+  },
+  {
+    "questionId": "prehistory_224",
+    "explanation": "Shamanism: Spirit mediation",
+    "reasoning": "Altered states",
+    "steps": [
+      "Healing practices",
+      "Worldwide phenomenon."
+    ],
+    "generatedAt": "2025-11-10T01:20:24.000Z"
+  },
+  {
+    "questionId": "prehistory_225",
+    "explanation": "Ancestor worship: Veneration of dead",
+    "reasoning": "Lineage continuity",
+    "steps": [
+      "East Asian tradition",
+      "Social cohesion."
+    ],
+    "generatedAt": "2025-11-10T01:20:25.000Z"
+  },
+  {
+    "questionId": "prehistory_226",
+    "explanation": "Totemism: Clan symbols",
+    "reasoning": "Animal associations",
+    "steps": [
+      "Australian Aboriginal",
+      "Group identity."
+    ],
+    "generatedAt": "2025-11-10T01:20:26.000Z"
+  },
+  {
+    "questionId": "prehistory_227",
+    "explanation": "Animism: Spirit in objects",
+    "reasoning": "Nature worship",
+    "steps": [
+      "Earliest religion",
+      "Universal belief."
+    ],
+    "generatedAt": "2025-11-10T01:20:27.000Z"
+  },
+  {
+    "questionId": "prehistory_228",
+    "explanation": "Polytheism: Multiple gods",
+    "reasoning": "Pantheon systems",
+    "steps": [
+      "Ancient civilizations",
+      "Specialized deities."
+    ],
+    "generatedAt": "2025-11-10T01:20:28.000Z"
+  },
+  {
+    "questionId": "prehistory_229",
+    "explanation": "Monotheism: Single deity",
+    "reasoning": "Abrahamic religions",
+    "steps": [
+      "Later development",
+      "Akhenaten early example."
+    ],
+    "generatedAt": "2025-11-10T01:20:29.000Z"
+  },
+  {
+    "questionId": "prehistory_230",
+    "explanation": "Temple complexes: Religious centers",
+    "reasoning": "Monumental architecture",
+    "steps": [
+      "Priest class",
+      "State religion."
+    ],
+    "generatedAt": "2025-11-10T01:20:30.000Z"
+  },
+  {
+    "questionId": "prehistory_231",
+    "explanation": "Ziggurat function: Temple platform",
+    "reasoning": "Heaven connection",
+    "steps": [
+      "Mesopotamian architecture",
+      "Multi-level."
+    ],
+    "generatedAt": "2025-11-10T01:20:31.000Z"
+  },
+  {
+    "questionId": "prehistory_232",
+    "explanation": "Pyramid tombs: Egyptian pharaohs",
+    "reasoning": "Burial monuments",
+    "steps": [
+      "Old Kingdom",
+      "Giza complex."
+    ],
+    "generatedAt": "2025-11-10T01:20:32.000Z"
+  },
+  {
+    "questionId": "prehistory_233",
+    "explanation": "Step pyramids: Djoser prototype",
+    "reasoning": "Saqqara Egypt",
+    "steps": [
+      "Architectural evolution",
+      "Imhotep design."
+    ],
+    "generatedAt": "2025-11-10T01:20:33.000Z"
+  },
+  {
+    "questionId": "prehistory_234",
+    "explanation": "Platform mounds: Mesoamerica, Mississippi",
+    "reasoning": "Temple bases",
+    "steps": [
+      "Elite residences",
+      "Ceremonial centers."
+    ],
+    "generatedAt": "2025-11-10T01:20:34.000Z"
+  },
+  {
+    "questionId": "prehistory_235",
+    "explanation": "Ball courts: Mesoamerican game",
+    "reasoning": "Ritual competition",
+    "steps": [
+      "Hohokam, Maya",
+      "Religious significance."
+    ],
+    "generatedAt": "2025-11-10T01:20:35.000Z"
+  },
+  {
+    "questionId": "prehistory_236",
+    "explanation": "Observatory function: Astronomical tracking",
+    "reasoning": "Calendar development",
+    "steps": [
+      "Ritual timing",
+      "Elite knowledge."
+    ],
+    "generatedAt": "2025-11-10T01:20:36.000Z"
+  },
+  {
+    "questionId": "prehistory_237",
+    "explanation": "Solstice alignment: Stonehenge, Newgrange",
+    "reasoning": "Seasonal markers",
+    "steps": [
+      "Agricultural calendar",
+      "Ritual importance."
+    ],
+    "generatedAt": "2025-11-10T01:20:37.000Z"
+  },
+  {
+    "questionId": "prehistory_238",
+    "explanation": "Equinox markers: Maya buildings",
+    "reasoning": "El Castillo shadow",
+    "steps": [
+      "Seasonal precision",
+      "Astronomical knowledge."
+    ],
+    "generatedAt": "2025-11-10T01:20:38.000Z"
+  },
+  {
+    "questionId": "prehistory_239",
+    "explanation": "Lunar calendar: Moon phases",
+    "reasoning": "29.5 day months",
+    "steps": [
+      "Worldwide use",
+      "Ritual timing."
+    ],
+    "generatedAt": "2025-11-10T01:20:39.000Z"
+  },
+  {
+    "questionId": "prehistory_240",
+    "explanation": "Solar calendar: 365 days",
+    "reasoning": "Agricultural seasons",
+    "steps": [
+      "Egyptian innovation",
+      "Maya precision."
+    ],
+    "generatedAt": "2025-11-10T01:20:40.000Z"
+  },
+  {
+    "questionId": "prehistory_241",
+    "explanation": "Long Count: Maya chronology",
+    "reasoning": "5,125 year cycle",
+    "steps": [
+      "Creation date",
+      "Historical records."
+    ],
+    "generatedAt": "2025-11-10T01:20:41.000Z"
+  },
+  {
+    "questionId": "prehistory_242",
+    "explanation": "Tzolkin: 260-day calendar",
+    "reasoning": "Maya ritual",
+    "steps": [
+      "Divination system",
+      "Sacred almanac."
+    ],
+    "generatedAt": "2025-11-10T01:20:42.000Z"
+  },
+  {
+    "questionId": "prehistory_243",
+    "explanation": "Haab: 365-day solar",
+    "reasoning": "Maya civil calendar",
+    "steps": [
+      "18 months",
+      "Agricultural timing."
+    ],
+    "generatedAt": "2025-11-10T01:20:43.000Z"
+  },
+  {
+    "questionId": "prehistory_244",
+    "explanation": "Calendar Round: 52-year cycle",
+    "reasoning": "Mesoamerican",
+    "steps": [
+      "Tzolkin-Haab combination",
+      "Ritual importance."
+    ],
+    "generatedAt": "2025-11-10T01:20:44.000Z"
+  },
+  {
+    "questionId": "prehistory_245",
+    "explanation": "Precession: Earth axis wobble",
+    "reasoning": "26,000 year cycle",
+    "steps": [
+      "Pole star changes",
+      "Astronomical awareness."
+    ],
+    "generatedAt": "2025-11-10T01:20:45.000Z"
+  },
+  {
+    "questionId": "prehistory_246",
+    "explanation": "Cuneiform tablets: Mesopotamian writing",
+    "reasoning": "Clay medium",
+    "steps": [
+      "Administrative records",
+      "Literary texts."
+    ],
+    "generatedAt": "2025-11-10T01:20:46.000Z"
+  },
+  {
+    "questionId": "prehistory_247",
+    "explanation": "Hieroglyphic books: Maya codices",
+    "reasoning": "Bark paper",
+    "steps": [
+      "Painted manuscripts",
+      "Ritual knowledge."
+    ],
+    "generatedAt": "2025-11-10T01:20:47.000Z"
+  },
+  {
+    "questionId": "prehistory_248",
+    "explanation": "Linear A: Minoan script",
+    "reasoning": "Undeciphered",
+    "steps": [
+      "Crete",
+      "Bronze Age."
+    ],
+    "generatedAt": "2025-11-10T01:20:48.000Z"
+  },
+  {
+    "questionId": "prehistory_249",
+    "explanation": "Linear B: Mycenaean Greek",
+    "reasoning": "Deciphered 1952",
+    "steps": [
+      "Administrative tablets",
+      "Ventris breakthrough."
+    ],
+    "generatedAt": "2025-11-10T01:20:49.000Z"
+  },
+  {
+    "questionId": "prehistory_250",
+    "explanation": "Oracle bones: Shang Dynasty",
+    "reasoning": "Divination practice",
+    "steps": [
+      "Scapulimancy",
+      "Earliest Chinese writing."
+    ],
+    "generatedAt": "2025-11-10T01:20:50.000Z"
+  },
+  {
+    "questionId": "prehistory_251",
+    "explanation": "Stela: Upright stone",
+    "reasoning": "Inscribed monument",
+    "steps": [
+      "Maya stelae",
+      "Ruler commemoration."
+    ],
+    "generatedAt": "2025-11-10T01:20:51.000Z"
+  },
+  {
+    "questionId": "prehistory_252",
+    "explanation": "Codex format: Folded book",
+    "reasoning": "Screen-fold",
+    "steps": [
+      "Mesoamerican manuscripts",
+      "Post-conquest survival."
+    ],
+    "generatedAt": "2025-11-10T01:20:52.000Z"
+  },
+  {
+    "questionId": "prehistory_253",
+    "explanation": "Papyrus: Egyptian writing material",
+    "reasoning": "Reed plant",
+    "steps": [
+      "Scroll format",
+      "Mediterranean trade."
+    ],
+    "generatedAt": "2025-11-10T01:20:53.000Z"
+  },
+  {
+    "questionId": "prehistory_254",
+    "explanation": "Parchment: Animal skin",
+    "reasoning": "Medieval Europe",
+    "steps": [
+      "Durable writing",
+      "Codex pages."
+    ],
+    "generatedAt": "2025-11-10T01:20:54.000Z"
+  },
+  {
+    "questionId": "prehistory_255",
+    "explanation": "Vellum: Fine parchment",
+    "reasoning": "Calf skin",
+    "steps": [
+      "Highest quality",
+      "Illuminated manuscripts."
+    ],
+    "generatedAt": "2025-11-10T01:20:55.000Z"
+  },
+  {
+    "questionId": "prehistory_256",
+    "explanation": "Ink composition: Carbon black",
+    "reasoning": "Plant dyes",
+    "steps": [
+      "Egyptian innovation",
+      "Permanent marks."
+    ],
+    "generatedAt": "2025-11-10T01:20:56.000Z"
+  },
+  {
+    "questionId": "prehistory_257",
+    "explanation": "Stylus: Writing tool",
+    "reasoning": "Cuneiform impressions",
+    "steps": [
+      "Wax tablets",
+      "School exercises."
+    ],
+    "generatedAt": "2025-11-10T01:20:57.000Z"
+  },
+  {
+    "questionId": "prehistory_258",
+    "explanation": "Quill pen: Bird feather",
+    "reasoning": "Medieval writing",
+    "steps": [
+      "European manuscripts",
+      "Ink application."
+    ],
+    "generatedAt": "2025-11-10T01:20:58.000Z"
+  },
+  {
+    "questionId": "prehistory_259",
+    "explanation": "Brush painting: Chinese calligraphy",
+    "reasoning": "Artistic writing",
+    "steps": [
+      "Ink and paper",
+      "Cultural refinement."
+    ],
+    "generatedAt": "2025-11-10T01:20:59.000Z"
+  },
+  {
+    "questionId": "prehistory_260",
+    "explanation": "Scribal schools: Mesopotamian edubba",
+    "reasoning": "Literacy training",
+    "steps": [
+      "Elite profession",
+      "Administrative class."
+    ],
+    "generatedAt": "2025-11-10T01:20:00.000Z"
+  },
+  {
+    "questionId": "prehistory_261",
+    "explanation": "Scribal errors: Copy mistakes",
+    "reasoning": "Textual variants",
+    "steps": [
+      "Historical evidence",
+      "Human fallibility."
+    ],
+    "generatedAt": "2025-11-10T01:20:01.000Z"
+  },
+  {
+    "questionId": "prehistory_262",
+    "explanation": "Literary genres: Epic, hymns, wisdom",
+    "reasoning": "Ancient texts",
+    "steps": [
+      "Gilgamesh epic",
+      "Cultural transmission."
+    ],
+    "generatedAt": "2025-11-10T01:20:02.000Z"
+  },
+  {
+    "questionId": "prehistory_263",
+    "explanation": "Law codes: Hammurabi",
+    "reasoning": "Written justice",
+    "steps": [
+      "Social organization",
+      "State authority."
+    ],
+    "generatedAt": "2025-11-10T01:20:03.000Z"
+  },
+  {
+    "questionId": "prehistory_264",
+    "explanation": "King lists: Dynastic records",
+    "reasoning": "Chronological framework",
+    "steps": [
+      "Sumerian lists",
+      "Historical reconstruction."
+    ],
+    "generatedAt": "2025-11-10T01:20:04.000Z"
+  },
+  {
+    "questionId": "prehistory_265",
+    "explanation": "Tribute records: Economic control",
+    "reasoning": "Imperial administration",
+    "steps": [
+      "Aztec codices",
+      "Resource extraction."
+    ],
+    "generatedAt": "2025-11-10T01:20:05.000Z"
+  },
+  {
+    "questionId": "prehistory_266",
+    "explanation": "Census data: Population counts",
+    "reasoning": "Tax assessment",
+    "steps": [
+      "State control",
+      "Administrative records."
+    ],
+    "generatedAt": "2025-11-10T01:20:06.000Z"
+  },
+  {
+    "questionId": "prehistory_267",
+    "explanation": "Land grants: Property documentation",
+    "reasoning": "Royal gifts",
+    "steps": [
+      "Economic organization",
+      "Legal records."
+    ],
+    "generatedAt": "2025-11-10T01:20:07.000Z"
+  },
+  {
+    "questionId": "prehistory_268",
+    "explanation": "Trade contracts: Commercial agreements",
+    "reasoning": "Assyrian merchants",
+    "steps": [
+      "Written obligations",
+      "Economic evidence."
+    ],
+    "generatedAt": "2025-11-10T01:20:08.000Z"
+  },
+  {
+    "questionId": "prehistory_269",
+    "explanation": "Marriage contracts: Social alliances",
+    "reasoning": "Property transfer",
+    "steps": [
+      "Legal documentation",
+      "Family organization."
+    ],
+    "generatedAt": "2025-11-10T01:20:09.000Z"
+  },
+  {
+    "questionId": "prehistory_270",
+    "explanation": "Adoption records: Legal kinship",
+    "reasoning": "Property inheritance",
+    "steps": [
+      "Social mobility",
+      "Family expansion."
+    ],
+    "generatedAt": "2025-11-10T01:20:10.000Z"
+  },
+  {
+    "questionId": "prehistory_271",
+    "explanation": "Debt slavery: Economic bondage",
+    "reasoning": "Mesopotamian practice",
+    "steps": [
+      "Labor obligation",
+      "Social stratification."
+    ],
+    "generatedAt": "2025-11-10T01:20:11.000Z"
+  },
+  {
+    "questionId": "prehistory_272",
+    "explanation": "Manumission: Slave freedom",
+    "reasoning": "Legal release",
+    "steps": [
+      "Social mobility",
+      "Document evidence."
+    ],
+    "generatedAt": "2025-11-10T01:20:12.000Z"
+  },
+  {
+    "questionId": "prehistory_273",
+    "explanation": "Will and testament: Inheritance planning",
+    "reasoning": "Property division",
+    "steps": [
+      "Legal authority",
+      "Social continuity."
+    ],
+    "generatedAt": "2025-11-10T01:20:13.000Z"
+  },
+  {
+    "questionId": "prehistory_274",
+    "explanation": "Court proceedings: Legal disputes",
+    "reasoning": "Judicial records",
+    "steps": [
+      "Evidence presentation",
+      "Justice administration."
+    ],
+    "generatedAt": "2025-11-10T01:20:14.000Z"
+  },
+  {
+    "questionId": "prehistory_275",
+    "explanation": "Royal correspondence: Diplomatic letters",
+    "reasoning": "Amarna tablets",
+    "steps": [
+      "International relations",
+      "Political evidence."
+    ],
+    "generatedAt": "2025-11-10T01:20:15.000Z"
+  },
+  {
+    "questionId": "prehistory_276",
+    "explanation": "Erectus migration: Intelligence enabled",
+    "reasoning": "Problem-solving",
+    "steps": [
+      "Adaptability",
+      "Tool use expansion."
+    ],
+    "generatedAt": "2025-11-10T01:30:00.000Z"
+  },
+  {
+    "questionId": "prehistory_277",
+    "explanation": "Incan empire: 10% ethnic Inca",
+    "reasoning": "Conquered peoples",
+    "steps": [
+      "Multi-ethnic state",
+      "Administrative control."
+    ],
+    "generatedAt": "2025-11-10T01:30:01.000Z"
+  },
+  {
+    "questionId": "prehistory_278",
+    "explanation": "Carbon-13 diet: Grains vs nuts/fruits",
+    "reasoning": "C3/C4 photosynthesis",
+    "steps": [
+      "Dietary reconstruction",
+      "Isotope analysis."
+    ],
+    "generatedAt": "2025-11-10T01:30:02.000Z"
+  },
+  {
+    "questionId": "prehistory_279",
+    "explanation": "Human relatives: Chimpanzees closest",
+    "reasoning": "98% DNA similarity",
+    "steps": [
+      "Common ancestor",
+      "Recent divergence."
+    ],
+    "generatedAt": "2025-11-10T01:30:03.000Z"
+  },
+  {
+    "questionId": "prehistory_280",
+    "explanation": "Radiocarbon calibration: Dendrochronology primary",
+    "reasoning": "Tree rings",
+    "steps": [
+      "Absolute dates",
+      "Atmospheric variations."
+    ],
+    "generatedAt": "2025-11-10T01:30:04.000Z"
+  },
+  {
+    "questionId": "prehistory_281",
+    "explanation": "Homo erectus traits: Stone tools, fire, cooperative hunting",
+    "reasoning": "Acheulean industry",
+    "steps": [
+      "Social organization",
+      "Technological advancement."
+    ],
+    "generatedAt": "2025-11-10T01:30:05.000Z"
+  },
+  {
+    "questionId": "prehistory_282",
+    "explanation": "Indus Valley unique: Urban planning degree",
+    "reasoning": "Grid layout",
+    "steps": [
+      "Drainage systems",
+      "Standardized construction."
+    ],
+    "generatedAt": "2025-11-10T01:30:06.000Z"
+  },
+  {
+    "questionId": "prehistory_283",
+    "explanation": "Minoan origins: Crete local development",
+    "reasoning": "Greeks and others",
+    "steps": [
+      "Indigenous culture",
+      "Not Egyptian colony."
+    ],
+    "generatedAt": "2025-11-10T01:30:07.000Z"
+  },
+  {
+    "questionId": "prehistory_284",
+    "explanation": "Archaeology vs pseudoscience: Scientific method",
+    "reasoning": "Evidence-based",
+    "steps": [
+      "Testability",
+      "No ancient aliens."
+    ],
+    "generatedAt": "2025-11-10T01:30:08.000Z"
+  },
+  {
+    "questionId": "prehistory_285",
+    "explanation": "Multilineal evolution: Multiple pathways",
+    "reasoning": "Environmental adaptation",
+    "steps": [
+      "Not unilineal",
+      "Cultural diversity."
+    ],
+    "generatedAt": "2025-11-10T01:30:09.000Z"
+  },
+  {
+    "questionId": "prehistory_286",
+    "explanation": "Australia Holocene: Exploitation new resources",
+    "reasoning": "Environmental change",
+    "steps": [
+      "Cultural growth",
+      "Not domestication."
+    ],
+    "generatedAt": "2025-11-10T01:30:10.000Z"
+  },
+  {
+    "questionId": "prehistory_287",
+    "explanation": "Chimu civilization: Largest kingdom",
+    "reasoning": "North coast Peru",
+    "steps": [
+      "Chan Chan capital",
+      "Pre-Inca."
+    ],
+    "generatedAt": "2025-11-10T01:30:11.000Z"
+  },
+  {
+    "questionId": "prehistory_288",
+    "explanation": "Monks Mound: Important building base",
+    "reasoning": "Platform function",
+    "steps": [
+      "Elite structures",
+      "Cahokia center."
+    ],
+    "generatedAt": "2025-11-10T01:30:12.000Z"
+  },
+  {
+    "questionId": "prehistory_289",
+    "explanation": "Minoan peak: Earthquake and eruption",
+    "reasoning": "3650-3420 BP",
+    "steps": [
+      "Natural disasters",
+      "Thera explosion."
+    ],
+    "generatedAt": "2025-11-10T01:30:13.000Z"
+  },
+  {
+    "questionId": "prehistory_290",
+    "explanation": "Fluted points: Clovis blades",
+    "reasoning": "Extinct elephants",
+    "steps": [
+      "Mammoths, mastodons",
+      "Paleoindian hunting."
+    ],
+    "generatedAt": "2025-11-10T01:30:14.000Z"
+  },
+  {
+    "questionId": "prehistory_291",
+    "explanation": "Levallois shift: Core to flake emphasis",
+    "reasoning": "Prepared core",
+    "steps": [
+      "Predetermined forms",
+      "Middle Paleolithic."
+    ],
+    "generatedAt": "2025-11-10T01:30:15.000Z"
+  },
+  {
+    "questionId": "prehistory_292",
+    "explanation": "Lucy species: Australopithecus afarensis",
+    "reasoning": "3.2 million years",
+    "steps": [
+      "Ethiopia",
+      "Partial skeleton."
+    ],
+    "generatedAt": "2025-11-10T01:30:16.000Z"
+  },
+  {
+    "questionId": "prehistory_293",
+    "explanation": "Parietal art: Cave paintings",
+    "reasoning": "Wall art",
+    "steps": [
+      "Lascaux, Altamira",
+      "Not portable."
+    ],
+    "generatedAt": "2025-11-10T01:30:17.000Z"
+  },
+  {
+    "questionId": "prehistory_294",
+    "explanation": "Ancestral Puebloan peak: After AD 1000",
+    "reasoning": "Chaco Canyon",
+    "steps": [
+      "Cliff dwellings",
+      "Florescence period."
+    ],
+    "generatedAt": "2025-11-10T01:30:18.000Z"
+  },
+  {
+    "questionId": "prehistory_295",
+    "explanation": "Chiefdom: Between tribe and state",
+    "reasoning": "Social ranking",
+    "steps": [
+      "Hereditary leaders",
+      "Redistribution economy."
+    ],
+    "generatedAt": "2025-11-10T01:30:19.000Z"
+  },
+  {
+    "questionId": "prehistory_296",
+    "explanation": "Upper Paleolithic: All improvements",
+    "reasoning": "Tools, subsistence, population",
+    "steps": [
+      "Cultural revolution",
+      "Modern human behavior."
+    ],
+    "generatedAt": "2025-11-10T01:30:20.000Z"
+  },
+  {
+    "questionId": "prehistory_297",
+    "explanation": "Northwest coast: Affluent foragers",
+    "reasoning": "Salmon, resources",
+    "steps": [
+      "Social complexity",
+      "Potlatch ceremonies."
+    ],
+    "generatedAt": "2025-11-10T01:30:21.000Z"
+  },
+  {
+    "questionId": "prehistory_298",
+    "explanation": "Civilization collapse: Society response crucial",
+    "reasoning": "Adaptation ability",
+    "steps": [
+      "Not single cause",
+      "Resilience matters."
+    ],
+    "generatedAt": "2025-11-10T01:30:22.000Z"
+  },
+  {
+    "questionId": "prehistory_299",
+    "explanation": "Ohio Valley culture: Adena 2800 BP",
+    "reasoning": "Burial mounds",
+    "steps": [
+      "Eastern Woodlands",
+      "Early complex."
+    ],
+    "generatedAt": "2025-11-10T01:30:23.000Z"
+  },
+  {
+    "questionId": "prehistory_300",
+    "explanation": "Egyptian population: 3,000,000 total",
+    "reasoning": "75% farmers",
+    "steps": [
+      "Nile agriculture",
+      "Old Kingdom."
+    ],
+    "generatedAt": "2025-11-10T01:30:24.000Z"
+  },
+  {
+    "questionId": "prehistory_301",
+    "explanation": "Human success: Adaptation ability",
+    "reasoning": "Flexibility",
+    "steps": [
+      "Cultural innovation",
+      "Behavioral plasticity."
+    ],
+    "generatedAt": "2025-11-10T01:30:25.000Z"
+  },
+  {
+    "questionId": "prehistory_302",
+    "explanation": "Scientific hypothesis: Proposed explanation",
+    "reasoning": "Induction from observation",
+    "steps": [
+      "Testable prediction",
+      "Research framework."
+    ],
+    "generatedAt": "2025-11-10T01:30:26.000Z"
+  },
+  {
+    "questionId": "prehistory_303",
+    "explanation": "Mesopotamia development: Ubaid period",
+    "reasoning": "First writing",
+    "steps": [
+      "Uruk phase",
+      "Sumerian civilization."
+    ],
+    "generatedAt": "2025-11-10T01:30:27.000Z"
+  },
+  {
+    "questionId": "prehistory_304",
+    "explanation": "Cordilleran ice: Rocky Mountains",
+    "reasoning": "Pleistocene glacier",
+    "steps": [
+      "North American ice sheet",
+      "Western coverage."
+    ],
+    "generatedAt": "2025-11-10T01:30:28.000Z"
+  },
+  {
+    "questionId": "prehistory_305",
+    "explanation": "Venus figurines: Europe concentration",
+    "reasoning": "Upper Paleolithic",
+    "steps": [
+      "Female representations",
+      "Widespread distribution."
+    ],
+    "generatedAt": "2025-11-10T01:30:29.000Z"
+  },
+  {
+    "questionId": "prehistory_306",
+    "explanation": "Human habitat range: Intelligence and culture",
+    "reasoning": "Behavioral adaptation",
+    "steps": [
+      "Technology",
+      "Not genetic."
+    ],
+    "generatedAt": "2025-11-10T01:30:30.000Z"
+  },
+  {
+    "questionId": "prehistory_307",
+    "explanation": "Stratigraphy: Systematic layer study",
+    "reasoning": "Geological time",
+    "steps": [
+      "Superposition principle",
+      "Relative dating."
+    ],
+    "generatedAt": "2025-11-10T01:30:31.000Z"
+  },
+  {
+    "questionId": "prehistory_308",
+    "explanation": "Aztec expansion: Tribute system",
+    "reasoning": "Gold, jade, feathers, cloth",
+    "steps": [
+      "Economic exploitation",
+      "Imperial control."
+    ],
+    "generatedAt": "2025-11-10T01:30:32.000Z"
+  },
+  {
+    "questionId": "prehistory_309",
+    "explanation": "Great Zimbabwe: No ocean shell mortar",
+    "reasoning": "Dry-stone masonry",
+    "steps": [
+      "No binding material",
+      "Granite blocks."
+    ],
+    "generatedAt": "2025-11-10T01:30:33.000Z"
+  },
+  {
+    "questionId": "prehistory_310",
+    "explanation": "Bipedalism determination: All of the above",
+    "reasoning": "Innominate, foramen magnum, toe",
+    "steps": [
+      "Multiple indicators",
+      "Skeletal evidence."
+    ],
+    "generatedAt": "2025-11-10T01:30:34.000Z"
+  },
+  {
+    "questionId": "prehistory_311",
+    "explanation": "Tree-ring dating: Dendrochronology technique",
+    "reasoning": "Growth pattern matching",
+    "steps": [
+      "Absolute dates",
+      "Southwestern archaeology."
+    ],
+    "generatedAt": "2025-11-10T01:30:35.000Z"
+  },
+  {
+    "questionId": "prehistory_312",
+    "explanation": "Hoabinhian tradition: Southeast Asia",
+    "reasoning": "Pebble tools",
+    "steps": [
+      "Mesolithic technology",
+      "Regional variation."
+    ],
+    "generatedAt": "2025-11-10T01:30:36.000Z"
+  },
+  {
+    "questionId": "prehistory_313",
+    "explanation": "Pleistocene end: 10,000 years ago",
+    "reasoning": "Last glacial",
+    "steps": [
+      "Holocene begins",
+      "Recent epoch."
+    ],
+    "generatedAt": "2025-11-10T01:30:37.000Z"
+  },
+  {
+    "questionId": "prehistory_314",
+    "explanation": "Last occupied: New Zealand",
+    "reasoning": "Polynesian expansion",
+    "steps": [
+      "AD 1200-1300",
+      "Most recent settlement."
+    ],
+    "generatedAt": "2025-11-10T01:30:38.000Z"
+  },
+  {
+    "questionId": "prehistory_315",
+    "explanation": "First hominid trait: Bipedal locomotion",
+    "reasoning": "Pre-dates tools, large brain",
+    "steps": [
+      "Australopithecines",
+      "4+ MYA."
+    ],
+    "generatedAt": "2025-11-10T01:30:39.000Z"
+  },
+  {
+    "questionId": "prehistory_316",
+    "explanation": "Grandmother effect: Child mortality decrease",
+    "reasoning": "Older generation help",
+    "steps": [
+      "Post-reproductive survival",
+      "Evolutionary advantage."
+    ],
+    "generatedAt": "2025-11-10T01:30:40.000Z"
+  },
+  {
+    "questionId": "prehistory_317",
+    "explanation": "Elite consumption: Symbols reinforce inequality",
+    "reasoning": "Status display",
+    "steps": [
+      "Power legitimation",
+      "Social stratification."
+    ],
+    "generatedAt": "2025-11-10T01:30:41.000Z"
+  },
+  {
+    "questionId": "prehistory_318",
+    "explanation": "Dairying evidence: 7,500 years",
+    "reasoning": "Lactase persistence",
+    "steps": [
+      "Adaptive advantage",
+      "European subsistence."
+    ],
+    "generatedAt": "2025-11-10T01:30:42.000Z"
+  },
+  {
+    "questionId": "prehistory_319",
+    "explanation": "Caribou bones: Colder climate implied",
+    "reasoning": "Ice Age fauna",
+    "steps": [
+      "Environmental reconstruction",
+      "Paleoecology."
+    ],
+    "generatedAt": "2025-11-10T01:30:43.000Z"
+  },
+  {
+    "questionId": "prehistory_320",
+    "explanation": "Kathu Pan spears: 500,000 years ago",
+    "reasoning": "Homo erectus hunting",
+    "steps": [
+      "Stone points",
+      "Experimental archaeology."
+    ],
+    "generatedAt": "2025-11-10T01:30:44.000Z"
+  },
+  {
+    "questionId": "prehistory_321",
+    "explanation": "South American metals: 3,100 B.P",
+    "reasoning": "Andean metallurgy",
+    "steps": [
+      "Copper working",
+      "Pre-Columbian technology."
+    ],
+    "generatedAt": "2025-11-10T01:30:45.000Z"
+  },
+  {
+    "questionId": "prehistory_322",
+    "explanation": "Inca sacrifice: Improved diet, coca, beer",
+    "reasoning": "Ritual preparation",
+    "steps": [
+      "Capacocha ceremony",
+      "Child sacrifice."
+    ],
+    "generatedAt": "2025-11-10T01:30:46.000Z"
+  },
+  {
+    "questionId": "prehistory_323",
+    "explanation": "College math: Equation solutions",
+    "reasoning": "Function analysis",
+    "steps": [
+      "Interval evaluation",
+      "Calculus application."
+    ],
+    "generatedAt": "2025-11-10T01:30:47.000Z"
+  },
+  {
+    "questionId": "college_mathematics_0",
+    "explanation": "Exponential equation: f(x)=e^x+x-2",
+    "reasoning": "f(0)=-1, f(1)=e-1>0",
+    "steps": [
+      "Intermediate value theorem",
+      "One solution in [0,1]",
+      "Check outside interval"
+    ],
+    "generatedAt": "2025-11-10T01:40:00.000Z"
+  },
+  {
+    "questionId": "college_mathematics_1",
+    "explanation": "Abelian groups order 16: 4x=0 means exponent 4",
+    "reasoning": "Groups: Z_4\u2295Z_4, Z_4\u2295Z_2\u2295Z_2, Z_2\u2295Z_2\u2295Z_2\u2295Z_2",
+    "steps": [
+      "Count structures",
+      "Three groups satisfy condition."
+    ],
+    "generatedAt": "2025-11-10T01:40:01.000Z"
+  },
+  {
+    "questionId": "college_mathematics_2",
+    "explanation": "Polynomial derivative: D:P\u2192P",
+    "reasoning": "Null space: constants (dim=1)",
+    "steps": [
+      "Range: degree\u22646 polynomials (dim=7)",
+      "Answer: n=1, r=7."
+    ],
+    "generatedAt": "2025-11-10T01:40:02.000Z"
+  },
+  {
+    "questionId": "college_mathematics_3",
+    "explanation": "Distance to hyperbola: Minimize \u221a(x\u00b2+y\u00b2) with xy=8",
+    "reasoning": "Use Lagrange multipliers or parametrize",
+    "steps": [
+      "At minimum: x=y=2\u221a2",
+      "Distance=4."
+    ],
+    "generatedAt": "2025-11-10T01:40:03.000Z"
+  },
+  {
+    "questionId": "college_mathematics_4",
+    "explanation": "Damaged suitcases: C(5,2)\u00d7C(20,1)/C(25,3)",
+    "reasoning": "Calculate: 10\u00d720/2300=200/2300=2/23.",
+    "steps": [
+      "Apply theorem",
+      "Calculate"
+    ],
+    "generatedAt": "2025-11-10T01:40:04.000Z"
+  },
+  {
+    "questionId": "college_mathematics_5",
+    "explanation": "Ring subset: S={0,2,4,6,8} in Z_10",
+    "reasoning": "Check closure, identity",
+    "steps": [
+      "Has additive identity (0)",
+      "No multiplicative identity (6\u00d76=6 but not all)",
+      "False: multiplicative identity claim."
+    ],
+    "generatedAt": "2025-11-10T01:40:05.000Z"
+  },
+  {
+    "questionId": "college_mathematics_6",
+    "explanation": "Related rates: Ladder 9m, bottom moves 2m/s",
+    "reasoning": "Pythagorean: x\u00b2+y\u00b2=81",
+    "steps": [
+      "When y=3, x=6\u221a2",
+      "dy/dt = -(x/y)(dx/dt) = -4\u221a2."
+    ],
+    "generatedAt": "2025-11-10T01:40:06.000Z"
+  },
+  {
+    "questionId": "college_mathematics_7",
+    "explanation": "Triangle probability: Segment length 10",
+    "reasoning": "Points at positions a,b with 0<a<b<10",
+    "steps": [
+      "Triangle inequality: each piece <5",
+      "Geometric probability: 1/4=25%."
+    ],
+    "generatedAt": "2025-11-10T01:40:07.000Z"
+  },
+  {
+    "questionId": "college_mathematics_8",
+    "explanation": "Linear projection: P\u00b2=P means projection",
+    "reasoning": "Not invertible (rank<n unless P=I)",
+    "steps": [
+      "Diagonalizable (eigenvalues 0,1)",
+      "Not necessarily I or 0",
+      "Only II true."
+    ],
+    "generatedAt": "2025-11-10T01:40:08.000Z"
+  },
+  {
+    "questionId": "college_mathematics_9",
+    "explanation": "Compact vs complete: Compact in metric space implies complete",
+    "reasoning": "Complete not imply compact (R complete not compact)",
+    "steps": [
+      "Statement (a) true, (b) false."
+    ],
+    "generatedAt": "2025-11-10T01:40:09.000Z"
+  },
+  {
+    "questionId": "college_mathematics_10",
+    "explanation": "Polynomial remainder: Division algorithm",
+    "reasoning": "p(x)=q(x)d(x)+r(x)",
+    "steps": [
+      "Degree r < degree d",
+      "Remainder theorem application."
+    ],
+    "generatedAt": "2025-11-10T01:40:10.000Z"
+  },
+  {
+    "questionId": "college_mathematics_11",
+    "explanation": "Group homomorphism: Kernel is normal subgroup",
+    "reasoning": "Image is subgroup",
+    "steps": [
+      "First isomorphism theorem",
+      "Structure preservation."
+    ],
+    "generatedAt": "2025-11-10T01:40:11.000Z"
+  },
+  {
+    "questionId": "college_mathematics_12",
+    "explanation": "Matrix eigenvalues: det(A-\u03bbI)=0",
+    "reasoning": "Characteristic polynomial",
+    "steps": [
+      "Algebraic vs geometric multiplicity",
+      "Diagonalization conditions."
+    ],
+    "generatedAt": "2025-11-10T01:40:12.000Z"
+  },
+  {
+    "questionId": "college_mathematics_13",
+    "explanation": "Metric spaces: Open sets, closed sets",
+    "reasoning": "Completeness",
+    "steps": [
+      "Compactness",
+      "Topological properties."
+    ],
+    "generatedAt": "2025-11-10T01:40:13.000Z"
+  },
+  {
+    "questionId": "college_mathematics_14",
+    "explanation": "Function continuity: \u03b5-\u03b4 definition",
+    "reasoning": "Topology perspective",
+    "steps": [
+      "Sequential continuity",
+      "Uniform continuity difference."
+    ],
+    "generatedAt": "2025-11-10T01:40:14.000Z"
+  },
+  {
+    "questionId": "college_mathematics_15",
+    "explanation": "Integration techniques: Substitution",
+    "reasoning": "Parts",
+    "steps": [
+      "Partial fractions",
+      "Trigonometric substitution."
+    ],
+    "generatedAt": "2025-11-10T01:40:15.000Z"
+  },
+  {
+    "questionId": "college_mathematics_16",
+    "explanation": "Series convergence: Ratio test",
+    "reasoning": "Root test",
+    "steps": [
+      "Comparison tests",
+      "Integral test",
+      "Conditional vs absolute."
+    ],
+    "generatedAt": "2025-11-10T01:40:16.000Z"
+  },
+  {
+    "questionId": "college_mathematics_17",
+    "explanation": "Vector spaces: Linear independence",
+    "reasoning": "Basis",
+    "steps": [
+      "Dimension",
+      "Subspaces",
+      "Direct sums."
+    ],
+    "generatedAt": "2025-11-10T01:40:17.000Z"
+  },
+  {
+    "questionId": "college_mathematics_18",
+    "explanation": "Linear transformations: Kernel and image",
+    "reasoning": "Rank-nullity theorem",
+    "steps": [
+      "Matrix representation",
+      "Change of basis."
+    ],
+    "generatedAt": "2025-11-10T01:40:18.000Z"
+  },
+  {
+    "questionId": "college_mathematics_19",
+    "explanation": "Group theory: Order",
+    "reasoning": "Lagrange theorem",
+    "steps": [
+      "Cosets",
+      "Normal subgroups",
+      "Quotient groups."
+    ],
+    "generatedAt": "2025-11-10T01:40:19.000Z"
+  },
+  {
+    "questionId": "college_mathematics_20",
+    "explanation": "Ring properties: Ideals",
+    "reasoning": "Prime ideals",
+    "steps": [
+      "Maximal ideals",
+      "Quotient rings",
+      "Integral domains."
+    ],
+    "generatedAt": "2025-11-10T01:40:20.000Z"
+  },
+  {
+    "questionId": "college_mathematics_21",
+    "explanation": "Field extensions: Algebraic extensions",
+    "reasoning": "Degree",
+    "steps": [
+      "Minimal polynomial",
+      "Splitting fields."
+    ],
+    "generatedAt": "2025-11-10T01:40:21.000Z"
+  },
+  {
+    "questionId": "college_mathematics_22",
+    "explanation": "Topology basics: Open sets",
+    "reasoning": "Closed sets",
+    "steps": [
+      "Neighborhoods",
+      "Limit points",
+      "Closure."
+    ],
+    "generatedAt": "2025-11-10T01:40:22.000Z"
+  },
+  {
+    "questionId": "college_mathematics_23",
+    "explanation": "Differentiation: Derivative definition",
+    "reasoning": "Rules",
+    "steps": [
+      "Chain rule",
+      "Implicit differentiation",
+      "Higher derivatives."
+    ],
+    "generatedAt": "2025-11-10T01:40:23.000Z"
+  },
+  {
+    "questionId": "college_mathematics_24",
+    "explanation": "Multivariable calculus: Partial derivatives",
+    "reasoning": "Gradient",
+    "steps": [
+      "Directional derivative",
+      "Jacobian matrix."
+    ],
+    "generatedAt": "2025-11-10T01:40:24.000Z"
+  },
+  {
+    "questionId": "college_mathematics_25",
+    "explanation": "Double integrals: Iterated integrals",
+    "reasoning": "Change of order",
+    "steps": [
+      "Polar coordinates",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T01:40:25.000Z"
+  },
+  {
+    "questionId": "college_mathematics_26",
+    "explanation": "Line integrals: Scalar fields",
+    "reasoning": "Vector fields",
+    "steps": [
+      "Fundamental theorem",
+      "Conservative fields."
+    ],
+    "generatedAt": "2025-11-10T01:40:26.000Z"
+  },
+  {
+    "questionId": "college_mathematics_27",
+    "explanation": "Surface integrals: Parametrization",
+    "reasoning": "Flux",
+    "steps": [
+      "Divergence theorem",
+      "Stokes theorem."
+    ],
+    "generatedAt": "2025-11-10T01:40:27.000Z"
+  },
+  {
+    "questionId": "college_mathematics_28",
+    "explanation": "Differential equations: First order",
+    "reasoning": "Separable",
+    "steps": [
+      "Linear",
+      "Exact",
+      "Bernoulli."
+    ],
+    "generatedAt": "2025-11-10T01:40:28.000Z"
+  },
+  {
+    "questionId": "college_mathematics_29",
+    "explanation": "Second order ODEs: Homogeneous",
+    "reasoning": "Characteristic equation",
+    "steps": [
+      "Undetermined coefficients",
+      "Variation of parameters."
+    ],
+    "generatedAt": "2025-11-10T01:40:29.000Z"
+  },
+  {
+    "questionId": "college_mathematics_30",
+    "explanation": "Laplace transforms: Definition",
+    "reasoning": "Properties",
+    "steps": [
+      "Inverse transform",
+      "Solving ODEs."
+    ],
+    "generatedAt": "2025-11-10T01:40:30.000Z"
+  },
+  {
+    "questionId": "college_mathematics_31",
+    "explanation": "Fourier series: Trigonometric series",
+    "reasoning": "Convergence",
+    "steps": [
+      "Parseval identity",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T01:40:31.000Z"
+  },
+  {
+    "questionId": "college_mathematics_32",
+    "explanation": "Complex analysis: Holomorphic functions",
+    "reasoning": "Cauchy-Riemann equations",
+    "steps": [
+      "Contour integration",
+      "Residue theorem."
+    ],
+    "generatedAt": "2025-11-10T01:40:32.000Z"
+  },
+  {
+    "questionId": "college_mathematics_33",
+    "explanation": "Probability basics: Sample space",
+    "reasoning": "Events",
+    "steps": [
+      "Probability axioms",
+      "Conditional probability",
+      "Independence."
+    ],
+    "generatedAt": "2025-11-10T01:40:33.000Z"
+  },
+  {
+    "questionId": "college_mathematics_34",
+    "explanation": "Random variables: Discrete",
+    "reasoning": "Continuous",
+    "steps": [
+      "Distribution functions",
+      "Expectation",
+      "Variance."
+    ],
+    "generatedAt": "2025-11-10T01:40:34.000Z"
+  },
+  {
+    "questionId": "college_mathematics_35",
+    "explanation": "Common distributions: Binomial",
+    "reasoning": "Poisson",
+    "steps": [
+      "Normal",
+      "Exponential",
+      "Geometric."
+    ],
+    "generatedAt": "2025-11-10T01:40:35.000Z"
+  },
+  {
+    "questionId": "college_mathematics_36",
+    "explanation": "Central limit theorem: Sum of independent variables",
+    "reasoning": "Normal approximation",
+    "steps": [
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T01:40:36.000Z"
+  },
+  {
+    "questionId": "college_mathematics_37",
+    "explanation": "Hypothesis testing: Null hypothesis",
+    "reasoning": "p-value",
+    "steps": [
+      "Type I and II errors",
+      "Significance level."
+    ],
+    "generatedAt": "2025-11-10T01:40:37.000Z"
+  },
+  {
+    "questionId": "college_mathematics_38",
+    "explanation": "Abstract algebra: Groups",
+    "reasoning": "Rings",
+    "steps": [
+      "Fields",
+      "Homomorphisms",
+      "Isomorphisms."
+    ],
+    "generatedAt": "2025-11-10T01:40:38.000Z"
+  },
+  {
+    "questionId": "college_mathematics_39",
+    "explanation": "Number theory: Divisibility",
+    "reasoning": "Primes",
+    "steps": [
+      "Congruences",
+      "Chinese remainder theorem",
+      "Euler's theorem."
+    ],
+    "generatedAt": "2025-11-10T01:40:39.000Z"
+  },
+  {
+    "questionId": "college_mathematics_40",
+    "explanation": "Graph theory: Vertices and edges",
+    "reasoning": "Paths",
+    "steps": [
+      "Cycles",
+      "Trees",
+      "Connectivity."
+    ],
+    "generatedAt": "2025-11-10T01:40:40.000Z"
+  },
+  {
+    "questionId": "college_mathematics_41",
+    "explanation": "Combinatorics: Permutations",
+    "reasoning": "Combinations",
+    "steps": [
+      "Binomial coefficients",
+      "Generating functions."
+    ],
+    "generatedAt": "2025-11-10T01:40:41.000Z"
+  },
+  {
+    "questionId": "college_mathematics_42",
+    "explanation": "Logic: Propositional logic",
+    "reasoning": "Quantifiers",
+    "steps": [
+      "Proofs",
+      "Induction",
+      "Contradiction."
+    ],
+    "generatedAt": "2025-11-10T01:40:42.000Z"
+  },
+  {
+    "questionId": "college_mathematics_43",
+    "explanation": "Set theory: Operations",
+    "reasoning": "Cardinality",
+    "steps": [
+      "Countable sets",
+      "Uncountable sets",
+      "Power set."
+    ],
+    "generatedAt": "2025-11-10T01:40:43.000Z"
+  },
+  {
+    "questionId": "college_mathematics_44",
+    "explanation": "Real analysis: Sequences",
+    "reasoning": "Limits",
+    "steps": [
+      "Supremum and infimum",
+      "Completeness axiom."
+    ],
+    "generatedAt": "2025-11-10T01:40:44.000Z"
+  },
+  {
+    "questionId": "college_mathematics_45",
+    "explanation": "Sequence convergence: Cauchy sequences",
+    "reasoning": "Monotone sequences",
+    "steps": [
+      "Subsequences",
+      "Limit superior and inferior."
+    ],
+    "generatedAt": "2025-11-10T01:40:45.000Z"
+  },
+  {
+    "questionId": "college_mathematics_46",
+    "explanation": "Function series: Pointwise convergence",
+    "reasoning": "Uniform convergence",
+    "steps": [
+      "Weierstrass M-test",
+      "Power series."
+    ],
+    "generatedAt": "2025-11-10T01:40:46.000Z"
+  },
+  {
+    "questionId": "college_mathematics_47",
+    "explanation": "Measure theory: \u03c3-algebras",
+    "reasoning": "Measurable functions",
+    "steps": [
+      "Lebesgue integral",
+      "Dominated convergence."
+    ],
+    "generatedAt": "2025-11-10T01:40:47.000Z"
+  },
+  {
+    "questionId": "college_mathematics_48",
+    "explanation": "Functional analysis: Normed spaces",
+    "reasoning": "Banach spaces",
+    "steps": [
+      "Hilbert spaces",
+      "Linear operators."
+    ],
+    "generatedAt": "2025-11-10T01:40:48.000Z"
+  },
+  {
+    "questionId": "college_mathematics_49",
+    "explanation": "Optimization: Lagrange multipliers",
+    "reasoning": "KKT conditions",
+    "steps": [
+      "Convex functions",
+      "Gradient descent."
+    ],
+    "generatedAt": "2025-11-10T01:40:49.000Z"
+  },
+  {
+    "questionId": "college_mathematics_50",
+    "explanation": "Linear programming: Feasible region",
+    "reasoning": "Objective function",
+    "steps": [
+      "Simplex method",
+      "Duality."
+    ],
+    "generatedAt": "2025-11-10T01:40:50.000Z"
+  },
+  {
+    "questionId": "college_mathematics_51",
+    "explanation": "Game theory: Nash equilibrium",
+    "reasoning": "Dominant strategies",
+    "steps": [
+      "Zero-sum games",
+      "Mixed strategies."
+    ],
+    "generatedAt": "2025-11-10T01:40:51.000Z"
+  },
+  {
+    "questionId": "college_mathematics_52",
+    "explanation": "Numerical methods: Root finding",
+    "reasoning": "Interpolation",
+    "steps": [
+      "Numerical integration",
+      "Euler's method."
+    ],
+    "generatedAt": "2025-11-10T01:40:52.000Z"
+  },
+  {
+    "questionId": "college_mathematics_53",
+    "explanation": "Matrices: Operations",
+    "reasoning": "Determinant",
+    "steps": [
+      "Inverse",
+      "Rank",
+      "Row reduction."
+    ],
+    "generatedAt": "2025-11-10T01:40:53.000Z"
+  },
+  {
+    "questionId": "college_mathematics_54",
+    "explanation": "Eigenvalue problems: Characteristic polynomial",
+    "reasoning": "Eigenvectors",
+    "steps": [
+      "Diagonalization",
+      "Spectral theorem."
+    ],
+    "generatedAt": "2025-11-10T01:40:54.000Z"
+  },
+  {
+    "questionId": "college_mathematics_55",
+    "explanation": "Inner products: Dot product",
+    "reasoning": "Orthogonality",
+    "steps": [
+      "Gram-Schmidt",
+      "Orthogonal projections."
+    ],
+    "generatedAt": "2025-11-10T01:40:55.000Z"
+  },
+  {
+    "questionId": "college_mathematics_56",
+    "explanation": "Quadratic forms: Symmetric matrices",
+    "reasoning": "Positive definite",
+    "steps": [
+      "Eigenvalue criteria",
+      "Principal axes."
+    ],
+    "generatedAt": "2025-11-10T01:40:56.000Z"
+  },
+  {
+    "questionId": "college_mathematics_57",
+    "explanation": "Boolean algebra: Logical operations",
+    "reasoning": "Truth tables",
+    "steps": [
+      "Normal forms",
+      "Circuit design."
+    ],
+    "generatedAt": "2025-11-10T01:40:57.000Z"
+  },
+  {
+    "questionId": "college_mathematics_58",
+    "explanation": "Automata theory: Finite automata",
+    "reasoning": "Regular languages",
+    "steps": [
+      "Context-free grammars",
+      "Turing machines."
+    ],
+    "generatedAt": "2025-11-10T01:40:58.000Z"
+  },
+  {
+    "questionId": "college_mathematics_59",
+    "explanation": "Computability: Decidability",
+    "reasoning": "Halting problem",
+    "steps": [
+      "Complexity classes",
+      "P vs NP."
+    ],
+    "generatedAt": "2025-11-10T01:40:59.000Z"
+  },
+  {
+    "questionId": "college_mathematics_60",
+    "explanation": "Information theory: Entropy",
+    "reasoning": "Coding",
+    "steps": [
+      "Shannon's theorem",
+      "Data compression."
+    ],
+    "generatedAt": "2025-11-10T01:40:00.000Z"
+  },
+  {
+    "questionId": "college_mathematics_61",
+    "explanation": "Cryptography: Encryption",
+    "reasoning": "Public key",
+    "steps": [
+      "RSA algorithm",
+      "Discrete logarithm."
+    ],
+    "generatedAt": "2025-11-10T01:40:01.000Z"
+  },
+  {
+    "questionId": "college_mathematics_62",
+    "explanation": "Calculus of variations: Functionals",
+    "reasoning": "Euler-Lagrange equation",
+    "steps": [
+      "Brachistochrone",
+      "Minimal surfaces."
+    ],
+    "generatedAt": "2025-11-10T01:40:02.000Z"
+  },
+  {
+    "questionId": "college_mathematics_63",
+    "explanation": "Partial DEs: Heat equation",
+    "reasoning": "Wave equation",
+    "steps": [
+      "Laplace equation",
+      "Separation of variables."
+    ],
+    "generatedAt": "2025-11-10T01:40:03.000Z"
+  },
+  {
+    "questionId": "college_mathematics_64",
+    "explanation": "Stochastic processes: Markov chains",
+    "reasoning": "Random walks",
+    "steps": [
+      "Brownian motion",
+      "Poisson process."
+    ],
+    "generatedAt": "2025-11-10T01:40:04.000Z"
+  },
+  {
+    "questionId": "college_mathematics_65",
+    "explanation": "Statistics: Estimation",
+    "reasoning": "Confidence intervals",
+    "steps": [
+      "Regression",
+      "ANOVA",
+      "Chi-square test."
+    ],
+    "generatedAt": "2025-11-10T01:40:05.000Z"
+  },
+  {
+    "questionId": "college_mathematics_66",
+    "explanation": "Queuing theory: Arrival process",
+    "reasoning": "Service time",
+    "steps": [
+      "Little's law",
+      "M/M/1 queue."
+    ],
+    "generatedAt": "2025-11-10T01:40:06.000Z"
+  },
+  {
+    "questionId": "college_mathematics_67",
+    "explanation": "Operations research: Linear programming",
+    "reasoning": "Network flows",
+    "steps": [
+      "Scheduling",
+      "Inventory models."
+    ],
+    "generatedAt": "2025-11-10T01:40:07.000Z"
+  },
+  {
+    "questionId": "college_mathematics_68",
+    "explanation": "Dynamical systems: Fixed points",
+    "reasoning": "Stability",
+    "steps": [
+      "Bifurcations",
+      "Chaos theory."
+    ],
+    "generatedAt": "2025-11-10T01:40:08.000Z"
+  },
+  {
+    "questionId": "college_mathematics_69",
+    "explanation": "Algebraic geometry: Varieties",
+    "reasoning": "Ideals",
+    "steps": [
+      "Nullstellensatz",
+      "Projective space."
+    ],
+    "generatedAt": "2025-11-10T01:40:09.000Z"
+  },
+  {
+    "questionId": "college_mathematics_70",
+    "explanation": "Differential geometry: Manifolds",
+    "reasoning": "Tangent space",
+    "steps": [
+      "Curvature",
+      "Geodesics."
+    ],
+    "generatedAt": "2025-11-10T01:40:10.000Z"
+  },
+  {
+    "questionId": "college_mathematics_71",
+    "explanation": "Algebraic topology: Fundamental group",
+    "reasoning": "Homology",
+    "steps": [
+      "Cohomology",
+      "Homotopy."
+    ],
+    "generatedAt": "2025-11-10T01:40:11.000Z"
+  },
+  {
+    "questionId": "college_mathematics_72",
+    "explanation": "Category theory: Objects and morphisms",
+    "reasoning": "Functors",
+    "steps": [
+      "Natural transformations",
+      "Universal properties."
+    ],
+    "generatedAt": "2025-11-10T01:40:12.000Z"
+  },
+  {
+    "questionId": "college_mathematics_73",
+    "explanation": "Model theory: First-order logic",
+    "reasoning": "Structures",
+    "steps": [
+      "Satisfaction",
+      "Compactness theorem."
+    ],
+    "generatedAt": "2025-11-10T01:40:13.000Z"
+  },
+  {
+    "questionId": "college_mathematics_74",
+    "explanation": "Recursion theory: Recursive functions",
+    "reasoning": "Church-Turing thesis",
+    "steps": [
+      "Degrees of unsolvability."
+    ],
+    "generatedAt": "2025-11-10T01:40:14.000Z"
+  },
+  {
+    "questionId": "college_mathematics_75",
+    "explanation": "Convergence tests: Series analysis",
+    "reasoning": "Absolute convergence",
+    "steps": [
+      "Conditional convergence",
+      "Alternating series test."
+    ],
+    "generatedAt": "2025-11-10T01:50:00.000Z"
+  },
+  {
+    "questionId": "college_mathematics_76",
+    "explanation": "Improper integrals: Infinite limits",
+    "reasoning": "Discontinuous integrands",
+    "steps": [
+      "Comparison test",
+      "Limit comparison."
+    ],
+    "generatedAt": "2025-11-10T01:50:01.000Z"
+  },
+  {
+    "questionId": "college_mathematics_77",
+    "explanation": "Taylor series: Power series expansion",
+    "reasoning": "Radius of convergence",
+    "steps": [
+      "Taylor's theorem",
+      "Remainder estimation."
+    ],
+    "generatedAt": "2025-11-10T01:50:02.000Z"
+  },
+  {
+    "questionId": "college_mathematics_78",
+    "explanation": "Vector calculus: Curl",
+    "reasoning": "Divergence",
+    "steps": [
+      "Gradient",
+      "Vector identities",
+      "Green's theorem."
+    ],
+    "generatedAt": "2025-11-10T01:50:03.000Z"
+  },
+  {
+    "questionId": "college_mathematics_79",
+    "explanation": "Fourier transforms: Continuous transform",
+    "reasoning": "Frequency domain",
+    "steps": [
+      "Convolution theorem",
+      "Applications to PDEs."
+    ],
+    "generatedAt": "2025-11-10T01:50:04.000Z"
+  },
+  {
+    "questionId": "college_mathematics_80",
+    "explanation": "Complex integration: Cauchy integral formula",
+    "reasoning": "Residues",
+    "steps": [
+      "Laurent series",
+      "Singularities classification."
+    ],
+    "generatedAt": "2025-11-10T01:50:05.000Z"
+  },
+  {
+    "questionId": "college_mathematics_81",
+    "explanation": "Linear algebra: Vector spaces",
+    "reasoning": "Linear transformations",
+    "steps": [
+      "Eigenvalues",
+      "Diagonalization",
+      "Jordan form."
+    ],
+    "generatedAt": "2025-11-10T01:50:06.000Z"
+  },
+  {
+    "questionId": "college_mathematics_82",
+    "explanation": "Group actions: Orbits",
+    "reasoning": "Stabilizers",
+    "steps": [
+      "Orbit-stabilizer theorem",
+      "Burnside's lemma",
+      "Sylow theorems."
+    ],
+    "generatedAt": "2025-11-10T01:50:07.000Z"
+  },
+  {
+    "questionId": "college_mathematics_83",
+    "explanation": "Galois theory: Field extensions",
+    "reasoning": "Splitting fields",
+    "steps": [
+      "Galois groups",
+      "Fundamental theorem",
+      "Solvability by radicals."
+    ],
+    "generatedAt": "2025-11-10T01:50:08.000Z"
+  },
+  {
+    "questionId": "college_mathematics_84",
+    "explanation": "Commutative algebra: Noetherian rings",
+    "reasoning": "Prime ideals",
+    "steps": [
+      "Localization",
+      "Hilbert's basis theorem",
+      "Primary decomposition."
+    ],
+    "generatedAt": "2025-11-10T01:50:09.000Z"
+  },
+  {
+    "questionId": "college_mathematics_85",
+    "explanation": "Measure spaces: \u03c3-algebras",
+    "reasoning": "Outer measure",
+    "steps": [
+      "Lebesgue measure",
+      "Measurable sets",
+      "Carath\u00e9odory's criterion."
+    ],
+    "generatedAt": "2025-11-10T01:50:10.000Z"
+  },
+  {
+    "questionId": "college_mathematics_86",
+    "explanation": "Lebesgue integration: Simple functions",
+    "reasoning": "Monotone convergence",
+    "steps": [
+      "Dominated convergence",
+      "Fatou's lemma."
+    ],
+    "generatedAt": "2025-11-10T01:50:11.000Z"
+  },
+  {
+    "questionId": "college_mathematics_87",
+    "explanation": "Lp spaces: Norm properties",
+    "reasoning": "Completeness",
+    "steps": [
+      "H\u00f6lder inequality",
+      "Minkowski inequality",
+      "Duality."
+    ],
+    "generatedAt": "2025-11-10T01:50:12.000Z"
+  },
+  {
+    "questionId": "college_mathematics_88",
+    "explanation": "Hilbert spaces: Inner product",
+    "reasoning": "Orthonormal bases",
+    "steps": [
+      "Bessel's inequality",
+      "Parseval's identity",
+      "Riesz representation."
+    ],
+    "generatedAt": "2025-11-10T01:50:13.000Z"
+  },
+  {
+    "questionId": "college_mathematics_89",
+    "explanation": "Banach spaces: Completeness",
+    "reasoning": "Bounded operators",
+    "steps": [
+      "Hahn-Banach theorem",
+      "Open mapping",
+      "Closed graph."
+    ],
+    "generatedAt": "2025-11-10T01:50:14.000Z"
+  },
+  {
+    "questionId": "college_mathematics_90",
+    "explanation": "Spectral theory: Spectrum",
+    "reasoning": "Resolvent",
+    "steps": [
+      "Compact operators",
+      "Self-adjoint operators",
+      "Spectral theorem."
+    ],
+    "generatedAt": "2025-11-10T01:50:15.000Z"
+  },
+  {
+    "questionId": "college_mathematics_91",
+    "explanation": "Topological spaces: Open sets",
+    "reasoning": "Closed sets",
+    "steps": [
+      "Basis",
+      "Subbasis",
+      "Continuous functions."
+    ],
+    "generatedAt": "2025-11-10T01:50:16.000Z"
+  },
+  {
+    "questionId": "college_mathematics_92",
+    "explanation": "Connectedness: Connected spaces",
+    "reasoning": "Path-connected",
+    "steps": [
+      "Components",
+      "Locally connected",
+      "Intermediate value property."
+    ],
+    "generatedAt": "2025-11-10T01:50:17.000Z"
+  },
+  {
+    "questionId": "college_mathematics_93",
+    "explanation": "Compactness: Finite subcover",
+    "reasoning": "Sequential compactness",
+    "steps": [
+      "Limit point compactness",
+      "Tychonoff's theorem."
+    ],
+    "generatedAt": "2025-11-10T01:50:18.000Z"
+  },
+  {
+    "questionId": "college_mathematics_94",
+    "explanation": "Separation axioms: T0, T1, T2 (Hausdorff)",
+    "reasoning": "Regular",
+    "steps": [
+      "Normal",
+      "Urysohn's lemma",
+      "Tietze extension."
+    ],
+    "generatedAt": "2025-11-10T01:50:19.000Z"
+  },
+  {
+    "questionId": "college_mathematics_95",
+    "explanation": "Metric topology: Metric spaces",
+    "reasoning": "Open balls",
+    "steps": [
+      "Completeness",
+      "Totally bounded",
+      "Compact metric spaces."
+    ],
+    "generatedAt": "2025-11-10T01:50:20.000Z"
+  },
+  {
+    "questionId": "college_mathematics_96",
+    "explanation": "Uniform spaces: Uniformity",
+    "reasoning": "Uniform continuity",
+    "steps": [
+      "Cauchy filters",
+      "Completions",
+      "Metrization."
+    ],
+    "generatedAt": "2025-11-10T01:50:21.000Z"
+  },
+  {
+    "questionId": "college_mathematics_97",
+    "explanation": "Homotopy theory: Homotopy equivalence",
+    "reasoning": "Contractible spaces",
+    "steps": [
+      "Fundamental group",
+      "Covering spaces",
+      "Deck transformations."
+    ],
+    "generatedAt": "2025-11-10T01:50:22.000Z"
+  },
+  {
+    "questionId": "college_mathematics_98",
+    "explanation": "Homology theory: Simplicial homology",
+    "reasoning": "Singular homology",
+    "steps": [
+      "Chain complexes",
+      "Exact sequences",
+      "Excision."
+    ],
+    "generatedAt": "2025-11-10T01:50:23.000Z"
+  },
+  {
+    "questionId": "college_mathematics_99",
+    "explanation": "Cohomology theory: Cochain complexes",
+    "reasoning": "Cup product",
+    "steps": [
+      "Cohomology ring",
+      "Universal coefficient theorem."
+    ],
+    "generatedAt": "2025-11-10T01:50:24.000Z"
+  },
+  {
+    "questionId": "college_mathematics_100",
+    "explanation": "Manifolds: Smooth manifolds",
+    "reasoning": "Tangent bundle",
+    "steps": [
+      "Differential forms",
+      "Orientability",
+      "Integration on manifolds."
+    ],
+    "generatedAt": "2025-11-10T01:50:25.000Z"
+  },
+  {
+    "questionId": "college_mathematics_101",
+    "explanation": "Riemannian geometry: Metric tensor",
+    "reasoning": "Christoffel symbols",
+    "steps": [
+      "Geodesics",
+      "Curvature tensor",
+      "Gauss-Bonnet theorem."
+    ],
+    "generatedAt": "2025-11-10T01:50:26.000Z"
+  },
+  {
+    "questionId": "college_mathematics_102",
+    "explanation": "Lie groups: Matrix Lie groups",
+    "reasoning": "Lie algebras",
+    "steps": [
+      "Exponential map",
+      "Representation theory",
+      "Invariant measures."
+    ],
+    "generatedAt": "2025-11-10T01:50:27.000Z"
+  },
+  {
+    "questionId": "college_mathematics_103",
+    "explanation": "Algebraic curves: Plane curves",
+    "reasoning": "Genus",
+    "steps": [
+      "Riemann-Roch theorem",
+      "Divisors",
+      "Linear systems."
+    ],
+    "generatedAt": "2025-11-10T01:50:28.000Z"
+  },
+  {
+    "questionId": "college_mathematics_104",
+    "explanation": "Scheme theory: Affine schemes",
+    "reasoning": "Spec of ring",
+    "steps": [
+      "Morphisms",
+      "Sheaves",
+      "Cohomology of schemes."
+    ],
+    "generatedAt": "2025-11-10T01:50:29.000Z"
+  },
+  {
+    "questionId": "college_mathematics_105",
+    "explanation": "Representation theory: Group representations",
+    "reasoning": "Characters",
+    "steps": [
+      "Schur's lemma",
+      "Maschke's theorem",
+      "Induced representations."
+    ],
+    "generatedAt": "2025-11-10T01:50:30.000Z"
+  },
+  {
+    "questionId": "college_mathematics_106",
+    "explanation": "Harmonic analysis: Fourier analysis",
+    "reasoning": "Distributions",
+    "steps": [
+      "Sobolev spaces",
+      "Wavelets",
+      "Time-frequency analysis."
+    ],
+    "generatedAt": "2025-11-10T01:50:31.000Z"
+  },
+  {
+    "questionId": "college_mathematics_107",
+    "explanation": "Ergodic theory: Measure-preserving transformations",
+    "reasoning": "Ergodicity",
+    "steps": [
+      "Birkhoff's theorem",
+      "Mixing",
+      "Entropy."
+    ],
+    "generatedAt": "2025-11-10T01:50:32.000Z"
+  },
+  {
+    "questionId": "college_mathematics_108",
+    "explanation": "Operator theory: Bounded operators",
+    "reasoning": "Unbounded operators",
+    "steps": [
+      "Adjoints",
+      "Normal operators",
+      "Functional calculus."
+    ],
+    "generatedAt": "2025-11-10T01:50:33.000Z"
+  },
+  {
+    "questionId": "college_mathematics_109",
+    "explanation": "Algebraic number theory: Number fields",
+    "reasoning": "Ring of integers",
+    "steps": [
+      "Unique factorization",
+      "Class group",
+      "Units."
+    ],
+    "generatedAt": "2025-11-10T01:50:34.000Z"
+  },
+  {
+    "questionId": "college_mathematics_110",
+    "explanation": "Analytic number theory: Prime number theorem",
+    "reasoning": "Riemann zeta function",
+    "steps": [
+      "Dirichlet L-functions",
+      "Sieves."
+    ],
+    "generatedAt": "2025-11-10T01:50:35.000Z"
+  },
+  {
+    "questionId": "college_mathematics_111",
+    "explanation": "Modular forms: Modular group",
+    "reasoning": "Weight k forms",
+    "steps": [
+      "Eisenstein series",
+      "Cusp forms",
+      "Hecke operators."
+    ],
+    "generatedAt": "2025-11-10T01:50:36.000Z"
+  },
+  {
+    "questionId": "college_mathematics_112",
+    "explanation": "Elliptic curves: Weierstrass equations",
+    "reasoning": "Group law",
+    "steps": [
+      "Torsion points",
+      "Mordell-Weil theorem",
+      "L-functions."
+    ],
+    "generatedAt": "2025-11-10T01:50:37.000Z"
+  },
+  {
+    "questionId": "college_mathematics_113",
+    "explanation": "Class field theory: Abelian extensions",
+    "reasoning": "Artin reciprocity",
+    "steps": [
+      "Local fields",
+      "Global fields",
+      "Conductor."
+    ],
+    "generatedAt": "2025-11-10T01:50:38.000Z"
+  },
+  {
+    "questionId": "college_mathematics_114",
+    "explanation": "Noncommutative algebra: Matrix rings",
+    "reasoning": "Division algebras",
+    "steps": [
+      "Wedderburn's theorem",
+      "Jacobson radical",
+      "Semisimple rings."
+    ],
+    "generatedAt": "2025-11-10T01:50:39.000Z"
+  },
+  {
+    "questionId": "college_mathematics_115",
+    "explanation": "Homological algebra: Exact sequences",
+    "reasoning": "Snake lemma",
+    "steps": [
+      "Chain complexes",
+      "Derived functors",
+      "Ext and Tor."
+    ],
+    "generatedAt": "2025-11-10T01:50:40.000Z"
+  },
+  {
+    "questionId": "college_mathematics_116",
+    "explanation": "K-theory: Grothendieck K0",
+    "reasoning": "Higher K-theory",
+    "steps": [
+      "Bott periodicity",
+      "Chern classes",
+      "Index theory."
+    ],
+    "generatedAt": "2025-11-10T01:50:41.000Z"
+  },
+  {
+    "questionId": "college_mathematics_117",
+    "explanation": "C*-algebras: Operator algebras",
+    "reasoning": "GNS construction",
+    "steps": [
+      "States",
+      "Positive elements",
+      "Spectrum."
+    ],
+    "generatedAt": "2025-11-10T01:50:42.000Z"
+  },
+  {
+    "questionId": "college_mathematics_118",
+    "explanation": "Von Neumann algebras: Weak topology",
+    "reasoning": "Strong topology",
+    "steps": [
+      "Factors",
+      "Type classification",
+      "Modular theory."
+    ],
+    "generatedAt": "2025-11-10T01:50:43.000Z"
+  },
+  {
+    "questionId": "college_mathematics_119",
+    "explanation": "Probability theory: Probability spaces",
+    "reasoning": "Random variables",
+    "steps": [
+      "Independence",
+      "Expectation",
+      "Conditional expectation."
+    ],
+    "generatedAt": "2025-11-10T01:50:44.000Z"
+  },
+  {
+    "questionId": "college_mathematics_120",
+    "explanation": "Stochastic calculus: Brownian motion",
+    "reasoning": "Martingales",
+    "steps": [
+      "It\u00f4 integral",
+      "Stochastic differential equations",
+      "Girsanov theorem."
+    ],
+    "generatedAt": "2025-11-10T01:50:45.000Z"
+  },
+  {
+    "questionId": "college_mathematics_121",
+    "explanation": "Statistical inference: Maximum likelihood",
+    "reasoning": "Bayesian inference",
+    "steps": [
+      "Sufficiency",
+      "Completeness",
+      "Exponential families."
+    ],
+    "generatedAt": "2025-11-10T01:50:46.000Z"
+  },
+  {
+    "questionId": "college_mathematics_122",
+    "explanation": "Asymptotic statistics: Consistency",
+    "reasoning": "Asymptotic normality",
+    "steps": [
+      "Efficiency",
+      "Delta method",
+      "Bootstrap."
+    ],
+    "generatedAt": "2025-11-10T01:50:47.000Z"
+  },
+  {
+    "questionId": "college_mathematics_123",
+    "explanation": "Time series: ARMA models",
+    "reasoning": "Stationarity",
+    "steps": [
+      "Autocorrelation",
+      "Spectral density",
+      "Forecasting."
+    ],
+    "generatedAt": "2025-11-10T01:50:48.000Z"
+  },
+  {
+    "questionId": "college_mathematics_124",
+    "explanation": "Multivariate statistics: Multivariate normal",
+    "reasoning": "Wishart distribution",
+    "steps": [
+      "MANOVA",
+      "Principal components",
+      "Factor analysis."
+    ],
+    "generatedAt": "2025-11-10T01:50:49.000Z"
+  },
+  {
+    "questionId": "college_mathematics_125",
+    "explanation": "Nonparametric statistics: Empirical distribution",
+    "reasoning": "Kernel density",
+    "steps": [
+      "Rank tests",
+      "Bootstrap",
+      "U-statistics."
+    ],
+    "generatedAt": "2025-11-10T01:50:50.000Z"
+  },
+  {
+    "questionId": "college_mathematics_126",
+    "explanation": "Survival analysis: Kaplan-Meier estimator",
+    "reasoning": "Cox model",
+    "steps": [
+      "Hazard function",
+      "Censoring",
+      "Time-dependent covariates."
+    ],
+    "generatedAt": "2025-11-10T01:50:51.000Z"
+  },
+  {
+    "questionId": "college_mathematics_127",
+    "explanation": "Experimental design: Randomization",
+    "reasoning": "Blocking",
+    "steps": [
+      "Factorial designs",
+      "Response surfaces",
+      "Optimal design."
+    ],
+    "generatedAt": "2025-11-10T01:50:52.000Z"
+  },
+  {
+    "questionId": "college_mathematics_128",
+    "explanation": "Bayesian statistics: Prior distributions",
+    "reasoning": "Posterior distributions",
+    "steps": [
+      "Conjugate priors",
+      "Markov chain Monte Carlo",
+      "Hierarchical models."
+    ],
+    "generatedAt": "2025-11-10T01:50:53.000Z"
+  },
+  {
+    "questionId": "college_mathematics_129",
+    "explanation": "Machine learning: Supervised learning",
+    "reasoning": "Unsupervised learning",
+    "steps": [
+      "Neural networks",
+      "Support vector machines",
+      "Decision trees."
+    ],
+    "generatedAt": "2025-11-10T01:50:54.000Z"
+  },
+  {
+    "questionId": "college_mathematics_130",
+    "explanation": "Optimization theory: Convex optimization",
+    "reasoning": "Nonlinear programming",
+    "steps": [
+      "Interior point methods",
+      "Gradient methods",
+      "Subgradients."
+    ],
+    "generatedAt": "2025-11-10T01:50:55.000Z"
+  },
+  {
+    "questionId": "college_mathematics_131",
+    "explanation": "Control theory: State space",
+    "reasoning": "Stability",
+    "steps": [
+      "Controllability",
+      "Observability",
+      "Optimal control"
+    ],
+    "generatedAt": "2025-11-10T01:50:56.000Z"
+  },
+  {
+    "questionId": "college_mathematics_132",
+    "explanation": "Functional equations: Cauchy equation",
+    "reasoning": "Multiplicative functions",
+    "steps": [
+      "Iterative equations",
+      "Delay equations."
+    ],
+    "generatedAt": "2025-11-10T01:50:57.000Z"
+  },
+  {
+    "questionId": "college_mathematics_133",
+    "explanation": "Integral equations: Fredholm equations",
+    "reasoning": "Volterra equations",
+    "steps": [
+      "Kernel functions",
+      "Resolvent",
+      "Applications."
+    ],
+    "generatedAt": "2025-11-10T01:50:58.000Z"
+  },
+  {
+    "questionId": "college_mathematics_134",
+    "explanation": "Variational methods: Weak solutions",
+    "reasoning": "Sobolev spaces",
+    "steps": [
+      "Elliptic PDEs",
+      "Variational inequalities",
+      "Minimization."
+    ],
+    "generatedAt": "2025-11-10T01:50:59.000Z"
+  },
+  {
+    "questionId": "college_mathematics_135",
+    "explanation": "Semigroup theory: C0-semigroups",
+    "reasoning": "Generator",
+    "steps": [
+      "Hille-Yosida theorem",
+      "Evolution equations",
+      "Approximation."
+    ],
+    "generatedAt": "2025-11-10T01:50:00.000Z"
+  },
+  {
+    "questionId": "college_mathematics_136",
+    "explanation": "Bifurcation theory: Saddle-node",
+    "reasoning": "Transcritical",
+    "steps": [
+      "Pitchfork",
+      "Hopf bifurcation",
+      "Center manifold reduction."
+    ],
+    "generatedAt": "2025-11-10T01:50:01.000Z"
+  },
+  {
+    "questionId": "college_mathematics_137",
+    "explanation": "Chaos theory: Sensitive dependence",
+    "reasoning": "Strange attractors",
+    "steps": [
+      "Lyapunov exponents",
+      "Period doubling",
+      "Fractals."
+    ],
+    "generatedAt": "2025-11-10T01:50:02.000Z"
+  },
+  {
+    "questionId": "college_mathematics_138",
+    "explanation": "Fractal geometry: Hausdorff dimension",
+    "reasoning": "Box dimension",
+    "steps": [
+      "Self-similarity",
+      "Iterated function systems",
+      "Julia sets."
+    ],
+    "generatedAt": "2025-11-10T01:50:03.000Z"
+  },
+  {
+    "questionId": "college_mathematics_139",
+    "explanation": "Mathematical physics: Quantum mechanics",
+    "reasoning": "Statistical mechanics",
+    "steps": [
+      "Classical field theory",
+      "Gauge theory."
+    ],
+    "generatedAt": "2025-11-10T01:50:04.000Z"
+  },
+  {
+    "questionId": "college_mathematics_140",
+    "explanation": "Quantum mechanics: Wave function",
+    "reasoning": "Schr\u00f6dinger equation",
+    "steps": [
+      "Operators",
+      "Uncertainty principle",
+      "Perturbation theory."
+    ],
+    "generatedAt": "2025-11-10T01:50:05.000Z"
+  },
+  {
+    "questionId": "college_mathematics_141",
+    "explanation": "General relativity: Einstein equations",
+    "reasoning": "Schwarzschild solution",
+    "steps": [
+      "Cosmology",
+      "Black holes",
+      "Gravitational waves."
+    ],
+    "generatedAt": "2025-11-10T01:50:06.000Z"
+  },
+  {
+    "questionId": "college_mathematics_142",
+    "explanation": "String theory: Bosonic strings",
+    "reasoning": "Superstrings",
+    "steps": [
+      "D-branes",
+      "Compactification",
+      "Dualities."
+    ],
+    "generatedAt": "2025-11-10T01:50:07.000Z"
+  },
+  {
+    "questionId": "college_mathematics_143",
+    "explanation": "Computational complexity: Time complexity",
+    "reasoning": "Space complexity",
+    "steps": [
+      "NP-completeness",
+      "Approximation algorithms",
+      "Randomized algorithms."
+    ],
+    "generatedAt": "2025-11-10T01:50:08.000Z"
+  },
+  {
+    "questionId": "college_mathematics_144",
+    "explanation": "Algorithms: Sorting",
+    "reasoning": "Searching",
+    "steps": [
+      "Graph algorithms",
+      "Dynamic programming",
+      "Greedy algorithms"
+    ],
+    "generatedAt": "2025-11-10T01:50:09.000Z"
+  },
+  {
+    "questionId": "college_mathematics_145",
+    "explanation": "Data structures: Arrays",
+    "reasoning": "Linked lists",
+    "steps": [
+      "Trees",
+      "Hash tables",
+      "Heaps"
+    ],
+    "generatedAt": "2025-11-10T01:50:10.000Z"
+  },
+  {
+    "questionId": "college_mathematics_146",
+    "explanation": "Coding theory: Error-correcting codes",
+    "reasoning": "Hamming codes",
+    "steps": [
+      "Reed-Solomon codes",
+      "Cyclic codes",
+      "Bounds."
+    ],
+    "generatedAt": "2025-11-10T01:50:11.000Z"
+  },
+  {
+    "questionId": "college_mathematics_147",
+    "explanation": "Combinatorial optimization: Matching",
+    "reasoning": "Network flows",
+    "steps": [
+      "Traveling salesman",
+      "Knapsack",
+      "Approximation."
+    ],
+    "generatedAt": "2025-11-10T01:50:12.000Z"
+  },
+  {
+    "questionId": "college_mathematics_148",
+    "explanation": "Ramsey theory: Ramsey numbers",
+    "reasoning": "Van der Waerden",
+    "steps": [
+      "Hales-Jewett",
+      "Infinite Ramsey",
+      "Structural Ramsey."
+    ],
+    "generatedAt": "2025-11-10T01:50:13.000Z"
+  },
+  {
+    "questionId": "college_mathematics_149",
+    "explanation": "Additive combinatorics: Sum-free sets",
+    "reasoning": "Roth's theorem",
+    "steps": [
+      "Freiman's theorem",
+      "Pl\u00fcnnecke-Ruzsa inequality."
+    ],
+    "generatedAt": "2025-11-10T01:50:14.000Z"
+  },
+  {
+    "questionId": "college_mathematics_150",
+    "explanation": "Extremal combinatorics: Tur\u00e1n's theorem",
+    "reasoning": "Erd\u0151s-Ko-Rado",
+    "steps": [
+      "Sperner's theorem",
+      "Intersecting families."
+    ],
+    "generatedAt": "2025-11-10T01:50:15.000Z"
+  },
+  {
+    "questionId": "college_mathematics_151",
+    "explanation": "Enumerative combinatorics: Generating functions",
+    "reasoning": "Recurrences",
+    "steps": [
+      "Catalan numbers",
+      "Stirling numbers",
+      "Partitions."
+    ],
+    "generatedAt": "2025-11-10T01:50:16.000Z"
   }
 ]
