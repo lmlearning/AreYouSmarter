@@ -30172,5 +30172,277 @@
       "Answer: D - area"
     ],
     "generatedAt": "2025-01-10T12:15:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_10",
+    "explanation": "Footloose industries are manufacturing activities that are not strongly tied to a particular location and can locate in a variety of places. They are least dependent on labor costs (option D is incorrect\u2014they ARE often dependent on labor costs).\n\nFootloose industries are characterized by:\n\n**Low dependency on:**\n- Raw materials (products are lightweight or use ubiquitous materials)\n- Transportation costs (high value-to-weight ratio)\n- Specific physical geography\n- Access to heavy resources\n\n**High dependency on:**\n- **Labor costs** (often a primary factor\u2014they seek low-wage locations)\n- Skilled workforce availability\n- Infrastructure (airports, internet)\n- Business environment\n\n**Examples**: Electronics assembly, software development, call centers, precision instruments\n\nThese industries often relocate to areas with lower labor costs, making labor costs a KEY dependency, not something they're least dependent on. The question asks what they're LEAST dependent on, so labor costs is incorrect as an answer.\n\nLooking at typical geography texts, footloose industries are LEAST dependent on:\n- Heavy raw materials\n- Proximity to energy sources\n- Transportation infrastructure for bulk goods\n\nThe marked answer is D (labor costs), but this seems contradictory since footloose industries often choose locations specifically based on labor costs. They are typically LEAST dependent on raw materials or specific physical resources.",
+    "reasoning": "Footloose industries: not location-bound. Low dependency on raw materials/transport. High dependency on labor costs (seek low wages). Question asks least dependent. Answer marked as D (labor), but typically least dependent on raw materials.",
+    "steps": [
+      "Footloose industries: location-flexible manufacturing",
+      "Characteristics: light products, high value",
+      "Not tied to raw material sources",
+      "Not tied to heavy transport needs",
+      "CAN relocate based on labor costs",
+      "Often seek low-wage locations",
+      "Labor costs = major factor (high dependency)",
+      "Least dependent on: raw materials, physical resources",
+      "Marked answer: D - labor costs"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_11",
+    "explanation": "The gravity model of migration is based on the principle that migration between two places is influenced by the population sizes of both places and the distance between them (option B).\n\nThe **gravity model** adapts Newton's law of universal gravitation to human geography:\n\n**Formula**: Migration \u221d (Population\u2081 \u00d7 Population\u2082) / Distance\u00b2\n\nOr more precisely:\nMigration = k \u00d7 (P\u2081 \u00d7 P\u2082) / d^n\n\nWhere:\n- P\u2081, P\u2082 = populations of origin and destination\n- d = distance between them\n- n = distance exponent (often 2, but varies)\n- k = constant\n\n**Key principles:**\n1. **Population size**: Larger populations generate and attract more migrants\n   - More people = more potential migrants (origin)\n   - More opportunities = more attraction (destination)\n\n2. **Distance**: Greater distance reduces migration (distance decay)\n   - Higher costs (economic, social, psychological)\n   - Less information about distant places\n\n**Why other options are wrong:**\n- Option A (origin population only): Ignores destination attraction\n- Option C (economic factors only): Gravity model is about population and distance, not economics specifically\n- Option D (climate/culture): Not part of basic gravity model\n\nThe gravity model mathematically predicts migration flow based on population mass and distance friction.",
+    "reasoning": "Gravity model: Migration \u221d (Pop\u2081 \u00d7 Pop\u2082) / Distance\u00b2. Both population sizes matter (origin supply, destination demand). Distance creates friction. Answer: B - population and distance.",
+    "steps": [
+      "Gravity model adapted from Newton's law",
+      "Migration like gravitational attraction",
+      "Larger populations = more migration",
+      "Origin population: more potential migrants",
+      "Destination population: more opportunities/attraction",
+      "Greater distance = less migration",
+      "Formula: M \u221d (P\u2081 \u00d7 P\u2082) / d\u00b2",
+      "Key variables: both populations and distance",
+      "Answer: B - population sizes and distance"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_12",
+    "explanation": "The ability of a state to govern its territory free from control of its internal affairs by other states is called sovereignty (option C).\n\n**Sovereignty** is the supreme authority within a territory and a fundamental principle of international relations. It has two dimensions:\n\n**Internal sovereignty:**\n- Exclusive authority over territory and population\n- Right to make and enforce laws\n- Control over internal affairs\n- Monopoly on legitimate use of force\n\n**External sovereignty:**\n- Recognition by other states\n- Freedom from external control or interference\n- Right to enter international agreements\n- Territorial integrity\n\n**Historical context:**\n- Established by Peace of Westphalia (1648)\n- Foundation of modern state system\n- Principle of non-intervention in domestic affairs\n\n**Other options explained:**\n- Centrifugal forces (A): Forces that divide or destabilize a state\n- Devolution (B): Transfer of power from central to regional governments\n- Nationalism (D): Identification with and loyalty to a nation\n\nSovereignty is the legal and political concept describing independent state authority. It means the state answers to no higher authority and controls its own territory and affairs.",
+    "reasoning": "Supreme authority over territory, free from external control = sovereignty. Core principle of statehood. Internal authority + external independence. Established by Westphalia (1648). Answer: C.",
+    "steps": [
+      "Ability to govern territory independently",
+      "Free from external control",
+      "Internal affairs not controlled by others",
+      "Supreme authority within borders",
+      "This defines sovereignty",
+      "Two aspects: internal + external",
+      "Foundation of modern state system",
+      "Westphalian sovereignty (1648)",
+      "Answer: C - sovereignty"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_13",
+    "explanation": "The spread of specialty coffee shops across the United States in the 1990s is an example of hierarchical diffusion (option B).\n\n**Hierarchical diffusion** is the spread of an innovation or trend from larger, more influential places to smaller, less influential places, following an urban hierarchy.\n\n**How specialty coffee spread:**\n1. **Origin**: Started in major cities (Seattle - Starbucks founding in 1971, expansion in 1980s-90s)\n2. **Primary cities**: Spread to other major urban centers (San Francisco, New York, Chicago)\n3. **Secondary cities**: Then to medium-sized cities\n4. **Smaller towns**: Finally to smaller communities\n5. **Pattern**: Top-down through urban hierarchy, not gradually across space\n\n**Characteristics of hierarchical diffusion:**\n- Leapfrogs from city to city\n- Skips over intervening areas initially\n- Follows power/influence structures\n- Urban centers adopt before rural areas\n\n**Other diffusion types:**\n- Relocation (A): People physically move, carrying trait with them\n- Contagious (C): Spreads through direct contact, like disease\n- Stimulus (D): Underlying idea spreads, but form changes\n\nSpecialty coffee shops spread from major cities downward through the urban hierarchy, classic hierarchical diffusion. The innovation jumped from Seattle to other major cities before reaching smaller markets.",
+    "reasoning": "Specialty coffee: Seattle \u2192 major cities \u2192 medium cities \u2192 small towns. Top-down through urban hierarchy. Leapfrogged between cities. Classic hierarchical diffusion. Answer: B.",
+    "steps": [
+      "Specialty coffee origin: Seattle (Starbucks)",
+      "1990s: spread across U.S.",
+      "Pattern: major cities first",
+      "Then secondary cities",
+      "Finally smaller towns",
+      "Did not spread gradually across space",
+      "Jumped between urban centers",
+      "Followed urban hierarchy top-down",
+      "This is hierarchical diffusion",
+      "Answer: B - hierarchical diffusion"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_14",
+    "explanation": "The industrialization and mechanization of agriculture in the United States has resulted in a decrease in the number of farmers and an increase in the size of farms (option A).\n\nThis reflects fundamental changes in American agriculture over the past century:\n\n**Decreasing number of farmers:**\n- 1900: ~40% of U.S. workforce in agriculture\n- 1950: ~12% in agriculture\n- 2020: <2% in agriculture\n- Fewer people needed due to mechanization\n- Rural-to-urban migration\n\n**Increasing farm size:**\n- 1900: Average farm ~150 acres\n- 1950: Average farm ~200 acres\n- 2020: Average farm ~450 acres\n- Economies of scale favor larger operations\n- Machinery more efficient on larger acreage\n- Small farms consolidated or abandoned\n\n**Causes:**\n1. **Mechanization**: Tractors, combines, automated systems replace human labor\n2. **Technology**: Improved seeds, fertilizers, irrigation increase productivity\n3. **Economics**: Capital-intensive farming favors large-scale operations\n4. **Consolidation**: Large farms absorb smaller ones\n\n**Result**: Fewer, larger, more productive farms producing more food with less labor. This pattern is consistent across all developed countries.\n\nOption A correctly describes this agricultural transformation: fewer farmers, bigger farms.",
+    "reasoning": "Mechanization \u2192 labor efficiency \u2192 fewer farmers needed. Economies of scale \u2192 consolidation \u2192 larger farms. Historical trend: 40% workforce (1900) \u2192 <2% (2020). Farm size: ~150 acres \u2192 ~450 acres. Answer: A.",
+    "steps": [
+      "Industrialization of agriculture since 1900",
+      "Mechanization: tractors, combines, automation",
+      "Result 1: Less labor needed",
+      "Farmers decline: 40% \u2192 <2% of workforce",
+      "Result 2: Economies of scale",
+      "Small farms can't compete",
+      "Consolidation into larger farms",
+      "Average size: 150 \u2192 450 acres",
+      "Fewer farmers, larger farms",
+      "Answer: A"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_15",
+    "explanation": "The Rhine River is a significant trade route in Europe because it connects the industrial heart of Europe with important North Sea ports (option B).\n\nThe **Rhine River** is Europe's most important inland waterway:\n\n**Geographic extent:**\n- Source: Swiss Alps\n- Flows through: Switzerland, Liechtenstein, Austria, Germany, France, Netherlands\n- Mouth: North Sea (Rotterdam)\n- Length: ~1,230 km (765 miles)\n\n**Economic importance:**\n\n1. **Industrial regions**: Connects major industrial areas:\n   - Ruhr Valley (Germany's industrial heartland)\n   - Rhine-Main region (Frankfurt area)\n   - Basel (Switzerland)\n   - Dutch industrial zones\n\n2. **Port access**: Links inland Europe to North Sea ports:\n   - Rotterdam (world's largest port by cargo tonnage historically)\n   - Amsterdam\n   - Antwerp (via connections)\n\n3. **Trade volume**: Carries ~300 million tons of cargo annually\n   - Manufactured goods\n   - Raw materials (coal, iron ore)\n   - Petroleum products\n   - Agricultural products\n\n**Why significant:**\n- Navigable for large vessels for much of its length\n- Connects landlocked industrial regions to ocean shipping\n- Much cheaper than road/rail transport for bulk goods\n- Historic trade route (Roman times to present)\n\nThe Rhine's significance lies in connecting Europe's industrial core to global trade via North Sea ports.",
+    "reasoning": "Rhine River: Swiss Alps \u2192 North Sea. Passes through Ruhr Valley (industrial heart) \u2192 Rotterdam (major port). Connects landlocked industry to ocean shipping. Critical trade artery. Answer: B.",
+    "steps": [
+      "Rhine River: major European waterway",
+      "Flows: Switzerland \u2192 Netherlands \u2192 North Sea",
+      "Passes through Germany's Ruhr Valley",
+      "Ruhr = industrial heartland of Europe",
+      "Terminates at Rotterdam (major port)",
+      "Connects: inland industry \u2194 ocean shipping",
+      "300M tons cargo annually",
+      "Navigable, cheap transport",
+      "Links industrial heart to North Sea ports",
+      "Answer: B"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_16",
+    "explanation": "The lingua franca is a language that is adopted as a common language between speakers whose native languages are different (option C).\n\n**Lingua franca** (plural: lingua francas or linguae francae) literally means \"Frankish language\" in Italian, originally referring to a Mediterranean pidgin used for trade.\n\n**Definition and characteristics:**\n- Bridge language for communication between groups\n- Not necessarily the native language of either party\n- Facilitates trade, diplomacy, and cultural exchange\n- Can be simplified or pidginized version\n\n**Historical examples:**\n- Mediterranean Lingua Franca (Medieval/Renaissance trade)\n- Latin (Medieval Europe - scholarship, church)\n- French (18th-19th century diplomacy)\n- English (current global lingua franca)\n\n**Modern examples:**\n- English in international business/aviation\n- Swahili in East Africa\n- Hindi in parts of India\n- Russian in former Soviet states\n\n**Other options explained:**\n- Official language (A): Legally designated by government\n- Language of an ethnic group (B): Native/heritage language\n- Language with most speakers (D): Demographic majority\n\nA lingua franca may or may not be official, may or may not be anyone's native language, and may or may not have the most speakers. Its defining feature is use as a common language for inter-group communication.",
+    "reasoning": "Lingua franca: bridge language between speakers of different native languages. Facilitates communication across language barriers. Example: English in international business. Answer: C - common language between different native speakers.",
+    "steps": [
+      "Lingua franca = bridge language",
+      "Used when native languages differ",
+      "Allows communication between groups",
+      "Not necessarily native to either party",
+      "Examples: English (global), Swahili (E. Africa)",
+      "Facilitates: trade, diplomacy, exchange",
+      "From Italian 'Frankish language'",
+      "Defining feature: common adoption for communication",
+      "Answer: C - common language between different speakers"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_17",
+    "explanation": "The multiplier effect is most closely associated with the economic concept of ancillary or supporting industries developing in response to a primary industry (option D).\n\nThe **multiplier effect** (or economic multiplier) describes how an initial economic change leads to larger overall economic impact through successive rounds of spending.\n\n**How it works:**\n\n1. **Initial injection**: New industry/investment/spending enters economy\n2. **Direct effect**: Initial jobs and income created\n3. **Indirect effect**: Workers spend income \u2192 creates demand \u2192 more jobs\n4. **Induced effect**: Those workers spend \u2192 further rounds of job creation\n\n**Example - Auto plant:**\n- Primary industry: Auto manufacturing plant opens (1,000 jobs)\n- Ancillary industries develop:\n  - Parts suppliers\n  - Transportation/logistics\n  - Business services\n  - Construction (housing for workers)\n- Supporting services expand:\n  - Retail (workers spend wages)\n  - Restaurants\n  - Schools\n  - Healthcare\n- Total economic impact: May create 3,000-5,000 total jobs\n\n**Multiplier calculation:**\nMultiplier = Total economic impact / Initial investment\n\nTypically 1.5 to 4.0 in regional economics.\n\n**Why option D is correct:**\nAncillary industries developing is the physical manifestation of the multiplier effect\u2014the ripple of economic activity spreading from an initial investment.",
+    "reasoning": "Multiplier effect: initial economic activity \u2192 ripple of additional activity \u2192 ancillary industries develop. Primary industry creates demand for suppliers, services, retail. Economic impact > initial investment. Answer: D.",
+    "steps": [
+      "Multiplier effect: economic ripples",
+      "Initial investment/industry creates jobs",
+      "Workers spend wages locally",
+      "Creates demand for goods/services",
+      "New businesses open to serve demand",
+      "Ancillary/supporting industries develop",
+      "Suppliers, services, retail expand",
+      "Total impact > initial investment",
+      "Physical manifestation: ancillary industries",
+      "Answer: D - ancillary industries developing"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_18",
+    "explanation": "The process of urbanization is best described as the movement of people from rural to urban areas and the increase in the proportion of people living in urban areas (option A).\n\n**Urbanization** is one of the most important demographic and economic transformations in human history.\n\n**Two key components:**\n\n1. **Population movement**: Rural-to-urban migration\n   - People leave countryside for cities\n   - Seeking employment, education, services\n   - Push factors: agricultural mechanization, land scarcity, poverty\n   - Pull factors: jobs, wages, opportunities, amenities\n\n2. **Proportional change**: Increasing percentage urban\n   - Even if rural population stays constant\n   - Urban population grows faster\n   - Urban percentage of total population increases\n\n**Global trends:**\n- 1800: ~3% urban globally\n- 1950: ~30% urban\n- 2020: ~56% urban\n- 2050: Projected ~68% urban\n\n**Measurement:**\nUrbanization rate = % of total population living in urban areas\n\nNot just absolute urban growth, but proportion shifting from rural to urban.\n\n**Why other options incomplete:**\n- Option B (city growth): Cities can grow without urbanization if rural areas grow equally\n- Option C (suburban sprawl): Specific urban form, not urbanization itself\n- Option D (megacities): Result of urbanization, not definition\n\nOption A captures both essential elements: movement and proportional increase.",
+    "reasoning": "Urbanization = rural \u2192 urban migration + increasing % urban. Historical shift: 3% (1800) \u2192 56% (2020) urban. Two components: movement + proportional change. Answer: A.",
+    "steps": [
+      "Urbanization: fundamental demographic shift",
+      "Component 1: rural-to-urban migration",
+      "People move from countryside to cities",
+      "Component 2: proportional increase",
+      "% of population in urban areas rises",
+      "Historical: 3% \u2192 56% urban globally",
+      "Not just city growth (absolute)",
+      "But shift in proportion (relative)",
+      "Both movement and proportion define it",
+      "Answer: A - movement to urban + % increase"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_19",
+    "explanation": "The theory that explains the distribution of cities and their services based on the functions they perform is central place theory (option C).\n\n**Central Place Theory** was developed by German geographer Walter Christaller in 1933.\n\n**Key concepts:**\n\n1. **Central places**: Urban settlements (cities, towns) that provide services to surrounding areas\n\n2. **Range**: Maximum distance people will travel for a service\n   - Higher-order services (hospitals): longer range\n   - Lower-order services (grocery): shorter range\n\n3. **Threshold**: Minimum market size needed to support a service\n   - Specialized services: high threshold (need large market)\n   - Common services: low threshold (need small market)\n\n4. **Hierarchy**: Cities arranged in hierarchical tiers\n   - Large cities: many high-order + all low-order services\n   - Small towns: only low-order services\n   - Market areas nested within each other\n\n**Spatial pattern:**\n- Christaller proposed hexagonal market areas (most efficient shape)\n- k=3, k=4, k=7 systems (different hierarchical arrangements)\n- Regular spacing based on service provision\n\n**Predictions:**\n- Larger cities are farther apart\n- Smaller towns more numerous and closer together\n- Service availability correlates with city size\n\n**Other options:**\n- Urban hierarchy (A): Related concept but not the comprehensive theory\n- Concentric zone model (B): Internal structure of cities (Burgess)\n- Gravity model (D): Migration/interaction, not settlement distribution\n\nCentral place theory specifically explains WHY cities are distributed spatially based on their service functions.",
+    "reasoning": "Central place theory (Christaller 1933): cities distributed based on services they provide. Range, threshold, hierarchy. Hexagonal market areas. Explains settlement patterns. Answer: C.",
+    "steps": [
+      "Need theory for city distribution patterns",
+      "Walter Christaller (1933): central place theory",
+      "Cities = central places providing services",
+      "Range: max distance for service",
+      "Threshold: min market size",
+      "Cities hierarchically organized by services",
+      "Large cities: high-order services, far apart",
+      "Small towns: low-order services, close together",
+      "Hexagonal market areas (optimal)",
+      "Explains distribution based on functions",
+      "Answer: C - central place theory"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_20",
+    "explanation": "The Green Revolution refers to the development and transfer of high-yield varieties of grains, chemical fertilizers, and irrigation technology to developing countries (option B).\n\nThe **Green Revolution** was a period of agricultural transformation primarily from the 1940s-1960s that dramatically increased food production in developing countries.\n\n**Key components:**\n\n1. **High-Yield Varieties (HYVs)**:\n   - Dwarf wheat and rice varieties\n   - Developed by Norman Borlaug (wheat) and others\n   - More grain per plant, disease-resistant\n   - Required more inputs (water, fertilizer)\n\n2. **Chemical inputs**:\n   - Synthetic fertilizers (nitrogen, phosphorus, potassium)\n   - Pesticides and herbicides\n   - Increased yields per acre\n\n3. **Irrigation technology**:\n   - Expanded water infrastructure\n   - Tube wells, canal systems\n   - Enabled year-round cropping\n\n4. **Mechanization**: Tractors and equipment\n\n**Geographic spread:**\n- Mexico: Wheat programs (1940s-50s)\n- India: Wheat and rice (1960s-70s) - averted famine\n- Philippines: Rice research center (IRRI)\n- Spread across Asia, Latin America\n\n**Impact:**\n- Doubled/tripled yields in many regions\n- Prevented mass starvation\n- Made countries like India self-sufficient in food\n\n**Criticisms:**\n- Environmental: pesticide use, water depletion\n- Social: Favored wealthy farmers\n- Economic: Dependence on expensive inputs\n\nThe Green Revolution was fundamentally about technology transfer to increase food production in developing countries.",
+    "reasoning": "Green Revolution (1940s-60s): HYV grains + chemical fertilizers + irrigation \u2192 dramatically increased yields in developing countries. Borlaug's wheat, IRRI rice. Prevented famines. Answer: B - high-yield varieties and technology transfer.",
+    "steps": [
+      "Green Revolution: agricultural transformation",
+      "Period: 1940s-1960s primarily",
+      "Target: developing countries",
+      "Component 1: High-Yield Varieties (HYVs)",
+      "Dwarf wheat/rice, more productive",
+      "Component 2: Chemical fertilizers",
+      "Increased yields per acre",
+      "Component 3: Irrigation technology",
+      "Enabled more intensive farming",
+      "Result: doubled/tripled production",
+      "Prevented mass starvation (India, etc.)",
+      "Technology transfer to developing world",
+      "Answer: B - HYVs, fertilizers, irrigation to developing countries"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_21",
+    "explanation": "The process by which a group's cultural features are altered to resemble those of another group is called acculturation (option A).\n\n**Acculturation** is a key concept in cultural geography and anthropology describing cultural change through contact.\n\n**Definition:**\nAcculturation occurs when groups with different cultures come into continuous firsthand contact, resulting in changes to the cultural patterns of one or both groups.\n\n**Characteristics:**\n1. **Continuous contact**: Not brief or superficial interaction\n2. **Cultural borrowing**: Adoption of language, customs, values, technologies\n3. **Usually asymmetric**: Minority/immigrant group changes more than dominant group\n4. **Selective process**: Some traits adopted, others retained\n5. **Can be bidirectional**: Both groups may change (though often unequal)\n\n**Example:**\nImmigrants to the United States:\n- May learn English (language)\n- Adopt American clothing styles\n- Celebrate American holidays\n- Modify dietary habits\n- But may retain native language at home, religious practices\n\n**Degrees of acculturation:**\n- Full: Complete cultural transformation\n- Partial: Bicultural identity\n- Minimal: Retention of original culture\n\n**Other options:**\n- Assimilation (B): Complete absorption into dominant culture (loss of original identity)\n- Syncretism (C): Blending of different beliefs (often religious)\n- Multiculturalism (D): Maintaining separate cultural identities in diverse society\n\nAcculturation is broader than assimilation (which is complete) and more general than syncretism (which is specific to belief systems).",
+    "reasoning": "Acculturation: cultural features altered through contact with another group. Continuous contact \u2192 cultural borrowing. Often asymmetric (minority adapts). Different from assimilation (complete) or syncretism (beliefs). Answer: A.",
+    "steps": [
+      "Cultural change through group contact",
+      "Continuous firsthand interaction",
+      "Group adopts features of another group",
+      "Cultural patterns altered/modified",
+      "Examples: language, customs, dress, food",
+      "Usually minority \u2192 dominant culture",
+      "Selective: some traits adopted, some retained",
+      "Can be partial or complete",
+      "This process = acculturation",
+      "Answer: A - acculturation"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_22",
+    "explanation": "The most important reason for the growth of cities during the Industrial Revolution was the concentration of jobs in factories located in cities (option C).\n\nThe **Industrial Revolution** (roughly 1760-1840 in Britain, later elsewhere) fundamentally transformed urban geography.\n\n**Why factories drove urbanization:**\n\n1. **Job concentration**: Factories required large workforces in single locations\n   - Textile mills: hundreds to thousands of workers\n   - Iron works, coal processing, manufacturing\n   - Jobs concentrated unlike dispersed agricultural work\n\n2. **Worker proximity**: Workers needed to live near factories\n   - Daily commute required\n   - No modern transportation initially\n   - Housing built near industrial sites\n\n3. **Economies of agglomeration**:\n   - Factories clustered near resources (coal, water power)\n   - Supporting industries located nearby\n   - Created industrial cities (Manchester, Birmingham, Pittsburgh)\n\n4. **Rural push factors**: Agricultural changes pushed people off land\n   - Enclosure movement\n   - Farm mechanization\n   - Population growth\n\n**Result**: Massive rural-to-urban migration\n- Manchester: 90,000 (1801) \u2192 400,000 (1861)\n- London: 1 million (1800) \u2192 6.7 million (1900)\n\n**Why other options insufficient:**\n- Better living conditions (A): FALSE - early industrial cities had terrible conditions\n- Sanitation (B): FALSE - urban sanitation was poor, improved later\n- Transportation (D): Important but secondary - jobs were primary pull\n\nFactory employment was THE driving force of industrial urbanization.",
+    "reasoning": "Industrial Revolution: factories concentrated jobs in cities \u2192 workers migrated for employment \u2192 urban growth. Manchester 90k \u2192 400k. Jobs were primary pull factor. Answer: C - factory job concentration.",
+    "steps": [
+      "Industrial Revolution: ~1760-1840+",
+      "Key change: factory system emerges",
+      "Factories require large workforces",
+      "Jobs concentrated in single locations",
+      "Workers must live near factories (daily commute)",
+      "Rural-to-urban migration for work",
+      "Cities grow around industrial sites",
+      "Example: Manchester 90k \u2192 400k in 60 years",
+      "Primary driver: job concentration",
+      "Answer: C - concentration of factory jobs"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_23",
+    "explanation": "The demographic equation for calculating population change is: Population change = (Births - Deaths) + (Immigration - Emigration), which can be written as Natural Increase + Net Migration (option B).\n\nThis is the fundamental equation of population geography.\n\n**Components:**\n\n1. **Natural Increase = Births - Deaths**\n   - Natural component of population change\n   - Depends on fertility and mortality rates\n   - Can be positive (more births) or negative (more deaths)\n\n2. **Net Migration = Immigration - Emigration**\n   - Migration component of population change\n   - Immigration: people entering\n   - Emigration: people leaving\n   - Net migration can be positive (net in-migration) or negative (net out-migration)\n\n**Complete equation:**\n\u0394P = (B - D) + (I - E)\n\nWhere:\n- \u0394P = population change\n- B = births\n- D = deaths\n- I = immigration\n- E = emigration\n\n**Alternative forms:**\n- \u0394P = Natural Increase + Net Migration\n- \u0394P = RNI + NM (using abbreviations)\n\n**Application:**\nTo find population at time t+1:\nP(t+1) = P(t) + (B - D) + (I - E)\n\n**Why other options wrong:**\n- Options A, C, D: Include only births/deaths OR immigration/emigration, not both\n\nPopulation change requires accounting for both natural change (births minus deaths) AND migration (immigration minus emigration). Option B correctly includes both components.",
+    "reasoning": "Population change has two components: natural (births - deaths) and migration (immigration - emigration). Complete equation: \u0394P = (B-D) + (I-E) = Natural Increase + Net Migration. Answer: B.",
+    "steps": [
+      "Population change from two sources",
+      "Source 1: Natural change",
+      "Births add to population",
+      "Deaths subtract from population",
+      "Natural Increase = Births - Deaths",
+      "Source 2: Migration",
+      "Immigration adds to population",
+      "Emigration subtracts from population",
+      "Net Migration = Immigration - Emigration",
+      "Total: \u0394P = (B-D) + (I-E)",
+      "= Natural Increase + Net Migration",
+      "Answer: B"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_24",
+    "explanation": "According to the rank-size rule, if the largest city in a country has a population of 10 million, the second-largest city should have a population of approximately 5 million (option B).\n\nThe **rank-size rule** is an empirical observation about the distribution of city sizes in some countries.\n\n**Formula:**\nP(r) = P\u2081 / r\n\nWhere:\n- P(r) = population of city at rank r\n- P\u2081 = population of largest city (rank 1)\n- r = rank of the city\n\n**Application to this question:**\n- Largest city (rank 1): P\u2081 = 10,000,000\n- Second city (rank 2): P(2) = P\u2081 / 2 = 10,000,000 / 2 = 5,000,000\n- Third city (rank 3): P(3) = P\u2081 / 3 = 10,000,000 / 3 \u2248 3,333,333\n- Fourth city (rank 4): P(4) = P\u2081 / 4 = 2,500,000\n\n**Pattern:**\nCity sizes form a regular, predictable sequence where each city is proportionally smaller based on its rank.\n\n**Where it applies:**\n- United States (approximate fit)\n- Some European countries\n- Brazil (reasonable fit)\n\n**Where it doesn't apply:**\n- Primate city countries (Paris in France, Bangkok in Thailand)\n- Countries with one dominant city much larger than expected\n\n**Contrast with primate city:**\nPrimate city pattern: Largest city is disproportionately large (more than 2\u00d7 second city)\nRank-size rule: Regular distribution following mathematical relationship\n\nFor rank 2, the answer is P\u2081/2 = 10 million/2 = 5 million.",
+    "reasoning": "Rank-size rule: P(r) = P\u2081/r. Second city: P(2) = 10,000,000/2 = 5,000,000. Regular mathematical relationship between city ranks and sizes. Answer: B - 5 million.",
+    "steps": [
+      "Rank-size rule: P(r) = P\u2081 / r",
+      "P\u2081 = largest city = 10 million",
+      "Second-largest: rank r = 2",
+      "P(2) = 10,000,000 / 2",
+      "P(2) = 5,000,000",
+      "Third would be: 10M / 3 \u2248 3.33M",
+      "Fourth would be: 10M / 4 = 2.5M",
+      "Regular proportional decrease",
+      "Second city = 5 million",
+      "Answer: B - 5 million"
+    ],
+    "generatedAt": "2025-01-10T12:20:00.000Z"
   }
 ]
