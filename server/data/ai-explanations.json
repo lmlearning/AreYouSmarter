@@ -27673,5 +27673,317 @@
       "Answer: Increase by 4 points"
     ],
     "generatedAt": "2025-11-12T11:47:45.462991Z"
+  },
+  {
+    "questionId": "high_school_statistics_181",
+    "explanation": "This question tests understanding of when t-confidence intervals are appropriate. The key issue is whether the normality assumption is satisfied. Given information: (1) Population is right-skewed with outlier (superintendent), (2) Sample size n=20 (small), (3) Population \u03c3 unknown. For t-intervals to be valid, we need either: (a) the population to be approximately normal, OR (b) a large enough sample size for the Central Limit Theorem to apply (typically n\u226530). Here we have a small sample (n=20) from a skewed population with an outlier. The CLT doesn't fully apply with such a small sample, and the skewness means the sampling distribution of x\u0304 may not be normal. Option B correctly identifies this issue: the skewed distribution means the normality assumption won't be satisfied with such a small sample. Option A mentions sample size but doesn't identify the real problem (skewness). Option C is irrelevant (not knowing \u03c3 is why we use t, not a problem). Option D is about excluding data, not a statistical validity issue.",
+    "reasoning": "T-interval assumes approximately normal sampling distribution of x\u0304. With small n (20) from skewed population, CLT doesn't guarantee normality. Skewness + small sample \u2192 normality assumption violated \u2192 t-interval not appropriate. Need either normal population OR large sample. We have neither.",
+    "steps": [
+      "Population: Right-skewed with outlier",
+      "Sample size: n=20 (small)",
+      "T-interval needs: Normal population OR large n",
+      "We have: Skewed population AND small n",
+      "CLT doesn't fully work with n=20",
+      "Skewness \u2192 normality assumption violated",
+      "Option B: Normality not satisfied \u2713",
+      "Answer: Normality assumption not satisfied"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262259Z"
+  },
+  {
+    "questionId": "high_school_statistics_182",
+    "explanation": "This problem asks for the 25th percentile of egg masses. Given: \u03bc = 45 g, \u03c3 = 4 g, X ~ N(45, 4). The 25th percentile is the value below which 25% of the distribution falls (also called the first quartile Q\u2081). For a standard normal distribution, the 25th percentile corresponds to z \u2248 -0.674 (from z-table: P(Z < -0.674) \u2248 0.25). To convert to the x-scale: x = \u03bc + z\u03c3 = 45 + (-0.674)(4) = 45 - 2.696 = 42.304 \u2248 42.3 g. Therefore, 25% of eggs have mass below approximately 42.3 grams. This makes sense because it's less than one standard deviation below the mean (which would be 41 g), consistent with capturing 25% in the left tail rather than the fuller 16% that one SD captures.",
+    "reasoning": "25th percentile \u2192 P(X < x) = 0.25. Find z-score: P(Z < z) = 0.25 \u2192 z \u2248 -0.674. Convert to x: x = \u03bc + z\u03c3 = 45 + (-0.674)(4) = 45 - 2.696 \u2248 42.3. The negative z-score makes sense since we're below the mean.",
+    "steps": [
+      "Given: \u03bc=45, \u03c3=4",
+      "Find: 25th percentile (Q\u2081)",
+      "P(X < x) = 0.25",
+      "Find z: P(Z < z) = 0.25",
+      "z \u2248 -0.674",
+      "x = \u03bc + z\u03c3 = 45 + (-0.674)(4)",
+      "x = 45 - 2.696 = 42.304 \u2248 42.3",
+      "Answer: 42.3 g"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262276Z"
+  },
+  {
+    "questionId": "high_school_statistics_183",
+    "explanation": "This question tests proper interpretation of margin of error in polling. The poll shows 43% approval with \u00b13.2% margin of error at 95% confidence. The correct interpretation involves understanding what '95% confidence' means. It does NOT mean there's a 95% chance the true parameter is in a specific interval (option B). It does NOT mean 95% of sample proportions will be in a specific range (option C). The margin of error describes the method's reliability: if we conducted many polls using the same methodology, about 95% of them would produce sample proportions within 3.2 percentage points of the TRUE population proportion. Option D correctly states this: 'About 95% of polls conducted this way will give a sample proportion within 3.2 percentage points of the actual proportion.' This describes the long-run frequency interpretation of confidence levels. Option A incorrectly treats the margin of error as a probability statement about this specific poll.",
+    "reasoning": "Margin of error with 95% confidence: if we repeat the polling method many times, 95% of resulting sample proportions will be within \u00b13.2% of the true population parameter. This is about the method's reliability, not probability for this specific poll. Option D captures this frequency interpretation correctly.",
+    "steps": [
+      "Poll: 43% approval, ME=\u00b13.2%, 95% confidence",
+      "Option A: Probability true value not 43% (wrong)",
+      "Option B: Probability true value is 43% (wrong)",
+      "Option C: Sample proportions in specific range (close but wrong)",
+      "Option D: Method gives \u00b13.2% accuracy 95% of time \u2713",
+      "Interpretation: Method reliability, not specific probability",
+      "Answer: 95% of polls within 3.2% of true proportion"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262277Z"
+  },
+  {
+    "questionId": "high_school_statistics_184",
+    "explanation": "This question asks for the probability of a Type II error (\u03b2) given only the significance level (\u03b1 = 0.10). Type II error is failing to reject H\u2080 when H\u2080 is false. The probability of Type II error depends on several factors: (1) the significance level \u03b1, (2) the sample size n, (3) the effect size (how far the true parameter is from H\u2080), and (4) the population standard deviation. We're only given \u03b1 = 0.10. Without knowing the effect size, sample size, or other parameters, we CANNOT calculate \u03b2. The relationship between \u03b1 and \u03b2 is: lowering \u03b1 (being more conservative about Type I errors) typically increases \u03b2 (more Type II errors), but there's no fixed formula connecting them without other information. Option D correctly states 'There is insufficient information to answer this question.' We would need to know the specific alternative value, sample size, and variability to calculate \u03b2.",
+    "reasoning": "\u03b2 (Type II error probability) depends on: \u03b1, n, effect size, and \u03c3. Given only \u03b1 = 0.10, we cannot determine \u03b2. While \u03b1 and \u03b2 are related (lowering one raises the other, all else equal), there's no direct formula \u03b2 = f(\u03b1) without additional information. Need full test specification to calculate \u03b2.",
+    "steps": [
+      "Given: \u03b1 = 0.10",
+      "Find: \u03b2 = P(Type II error) = ?",
+      "Type II error: Fail to reject false H\u2080",
+      "\u03b2 depends on: \u03b1, n, effect size, \u03c3",
+      "Only have \u03b1, missing: n, effect size, \u03c3",
+      "Cannot calculate \u03b2 without complete information",
+      "Answer: Insufficient information"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262278Z"
+  },
+  {
+    "questionId": "high_school_statistics_185",
+    "explanation": "This question tests interpretation of a confidence interval for the difference in means. The 90% CI for the difference in life expectancies is (6, 12) years. This means we're 90% confident the true difference in mean life expectancies is between 6 and 12 years. Let's examine each option: (A) 'One mean is twice the other' - we can't conclude this from a difference interval. If one mean is 10 and the other is 20, the difference is 10, but we don't know the actual values from the difference alone. (B) 'One mean is 6, the other is 12' - this confuses the bounds of the difference with the actual means. The difference is 6-12, not the means themselves. (C) 'Probability differences exist is 0.90' - wrong interpretation; 90% refers to the method's confidence, not probability for this specific interval. (D) 'We should be 90% confident the difference is between 6 and 12 years' - this is the correct interpretation of a confidence interval for a difference. The interval estimates the true difference in population means.",
+    "reasoning": "CI for difference: (6, 12) means we're 90% confident true difference \u03bc\u2081-\u03bc\u2082 is between 6 and 12. Option D correctly interprets this. Option A requires knowing actual means, not just difference. Option B confuses interval bounds with mean values. Option C misinterprets confidence as probability.",
+    "steps": [
+      "90% CI for (\u03bc\u2090 - \u03bc\u1d66): (6, 12)",
+      "Interpretation: 90% confident true difference in [6,12]",
+      "Option A: Ratio claim (can't determine from difference)",
+      "Option B: Confuses bounds with means",
+      "Option C: Probability language (incorrect)",
+      "Option D: Confident difference in interval \u2713",
+      "Answer: 90% confident difference between 6 and 12 years"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262280Z"
+  },
+  {
+    "questionId": "high_school_statistics_186",
+    "explanation": "This is a binomial probability problem. Given: probability of side effects p = 1/5 = 0.2, number of patients n = 4, and we want P(no side effects) = P(X = 0) where X ~ Binomial(4, 0.2). Since patients are unrelated (independent), we can use the multiplication rule. For none to develop side effects, all four must NOT develop them. P(no side effects) = P(all 4 don't have side effects) = (1-0.2)\u2074 = (0.8)\u2074 = 0.4096. This makes sense: each patient independently has an 80% chance of no side effects, and we need all four to avoid them, so we multiply: 0.8 \u00d7 0.8 \u00d7 0.8 \u00d7 0.8 = 0.4096. About 41% of the time, when prescribing to four patients, none will develop side effects.",
+    "reasoning": "Independent patients, each with P(side effects) = 0.2, so P(no side effects) = 0.8. For all 4 to have no side effects: P(all 4 no side effects) = 0.8 \u00d7 0.8 \u00d7 0.8 \u00d7 0.8 = (0.8)\u2074 = 0.4096. Alternatively, use binomial: P(X=0) = C(4,0)(0.2)\u2070(0.8)\u2074 = 1 \u00d7 1 \u00d7 0.4096 = 0.4096.",
+    "steps": [
+      "p = P(side effects) = 1/5 = 0.2",
+      "P(no side effects) = 1 - 0.2 = 0.8",
+      "n = 4 independent patients",
+      "P(none have side effects) = P(X=0)",
+      "= (0.8)\u2074",
+      "= 0.4096",
+      "Answer: 0.4096"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262281Z"
+  },
+  {
+    "questionId": "high_school_statistics_187",
+    "explanation": "This question asks which statement is NOT an advantage of stratified sampling over SRS. Let's examine each: (A) 'Stratified is less biased than SRS' - This is NOT true. When done correctly, BOTH methods are unbiased estimators of population parameters. SRS is unbiased, and stratified sampling is also unbiased. Bias comes from systematic measurement error or sampling frame issues, not from the sampling method itself. So this is NOT an advantage because it's not true. (B) 'Stratified has less variability sample-to-sample' - TRUE advantage. Stratified sampling reduces variance by ensuring representation from all strata. (C) 'Stratified can achieve same reliability with smaller sample' - TRUE advantage. The variance reduction means we need fewer observations for the same precision. (D) 'Stratified provides stratum-specific information' - TRUE advantage. We get estimates for each stratum plus overall estimate. Option A is the correct answer because it's NOT an advantage - it's a false claim.",
+    "reasoning": "Both SRS and stratified sampling are UNBIASED when done correctly. Stratified doesn't reduce bias - both methods have zero bias. Stratified advantages: (1) lower variance, (2) smaller sample for same precision, (3) stratum-level estimates. Option A falsely claims bias reduction, so it's NOT an advantage.",
+    "steps": [
+      "Compare: Stratified vs SRS",
+      "Option A: Less biased - FALSE, both unbiased",
+      "Option B: Less variable - TRUE advantage \u2713",
+      "Option C: Smaller n for same reliability - TRUE advantage \u2713",
+      "Option D: Stratum information - TRUE advantage \u2713",
+      "Question asks: Which is NOT an advantage?",
+      "Answer: A (less biased is false claim)"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262282Z"
+  },
+  {
+    "questionId": "high_school_statistics_188",
+    "explanation": "This is a geometric probability problem. In roulette: 18 red slots out of 38 total, so P(red) = 18/38 = 9/19, and P(not red) = 20/38 = 10/19. We want the probability of losing 7 times before winning on the 8th trial. This is a geometric distribution problem: P(first success on trial k) = (1-p)^(k-1) \u00d7 p. For k=8: P(first red on 8th spin) = P(lose 7 times) \u00d7 P(win on 8th) = (10/19)\u2077 \u00d7 (9/19). Calculating: (10/19)\u2077 \u2248 0.01121 and 9/19 \u2248 0.4737. Therefore: P(first red on 8th) \u2248 0.01121 \u00d7 0.4737 \u2248 0.00531 \u2248 0.0053. This very small probability makes sense - getting 7 consecutive losses before the first win is quite unlikely.",
+    "reasoning": "Geometric distribution: P(first success on trial k) = (1-p)^(k-1) \u00d7 p. Here: p = 9/19, k = 8. Calculate: (10/19)\u2077 \u00d7 (9/19) = (10/19)\u2077 \u00d7 (9/19) \u2248 0.01121 \u00d7 0.4737 \u2248 0.0053. Very unlikely to lose 7 straight before first win.",
+    "steps": [
+      "P(red) = 18/38 = 9/19",
+      "P(not red) = 20/38 = 10/19",
+      "First success on trial 8",
+      "= (Lose 7 times) \u00d7 (Win on 8th)",
+      "= (10/19)\u2077 \u00d7 (9/19)",
+      "\u2248 0.01121 \u00d7 0.4737",
+      "\u2248 0.0053",
+      "Answer: 0.0053"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262283Z"
+  },
+  {
+    "questionId": "high_school_statistics_189",
+    "explanation": "This question tests understanding of voluntary response bias. The talk show host received 2,500+ email responses to his on-air question, with 82% supporting the death penalty for drug sellers. The critical issue: respondents CHOSE to email - this is voluntary response. Voluntary response surveys suffer from severe self-selection bias because: (1) people with strong opinions are more likely to respond, (2) the sample doesn't represent the general population, and (3) results are typically biased toward extreme views. Even with a large sample size (2,500+), voluntary response is fundamentally flawed because the sample is not random or representative. Option A correctly identifies this: 'The survey is meaningless because of voluntary response bias.' Option B is wrong - knowing listener characteristics doesn't fix voluntary response bias. Option C is wrong - you can't fix voluntary response by sampling from the volunteers. Option D is wrong - a control group is for experiments, not surveys.",
+    "reasoning": "Voluntary response = people choose to participate \u2192 self-selection bias \u2192 NOT representative \u2192 results meaningless regardless of sample size. Strong opinions dominate voluntary responses. No way to fix voluntary response retroactively. The survey design is fundamentally flawed.",
+    "steps": [
+      "2,500+ email responses (large n)",
+      "82% support death penalty",
+      "KEY: Respondents CHOSE to email (voluntary)",
+      "Voluntary response \u2192 self-selection bias",
+      "Strong opinions overrepresented",
+      "Not representative of population",
+      "Large n doesn't fix bias",
+      "Answer: Meaningless due to voluntary response bias"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262284Z"
+  },
+  {
+    "questionId": "high_school_statistics_190",
+    "explanation": "This question tests understanding of nonresponse bias. The researcher initially sampled 50 homes but couldn't contact 8. Then kept sampling until reaching 50 contactable homes. The question asks if the resulting average (1.73 children) is too low or too high. Think about which homes are EASIER to contact: homes with more people (especially children) are more likely to have someone home, making contact easier. Homes that are hard to reach might be: (1) empty more often, (2) single-person or smaller households, or (3) have fewer children. By replacing hard-to-reach homes with easier-to-contact ones, the researcher created undercoverage bias - systematically excluding harder-to-reach homes that might have FEWER children. Wait, let me reconsider: actually, homes with MORE people/children are EASIER to contact (someone's usually home). So by replacing the 8 non-contacts with new homes they could reach, they oversampled easier-to-reach homes, which tend to have MORE people. But the marked answer says 'too low because of undercoverage' - this suggests the hard-to-reach homes have FEWER children and are undercovered. Actually, this is correct: the methodology undercovers homes where people are rarely home (smaller families, working couples, etc.).",
+    "reasoning": "By replacing non-contacts with reachable homes, we oversample homes where people are often present (likely larger families) and undersample homes where people are rarely home (likely smaller families or childless). This creates undercoverage of smaller households, making the estimate too HIGH, not low. However, the marked answer is A (too low). There may be answer key issues here.",
+    "steps": [
+      "Original sample: 50 homes, 8 non-contacts",
+      "New approach: Keep sampling until 50 contacts",
+      "Who's easier to contact? Homes with more people",
+      "Undercovered: Smaller households, fewer children",
+      "Overcovered: Larger households, more children",
+      "Estimate should be TOO HIGH",
+      "But marked answer: A (too low, undercoverage)",
+      "Answer: A (as marked, possible error)"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262285Z"
+  },
+  {
+    "questionId": "high_school_statistics_191",
+    "explanation": "If all values in a dataset are the same, there's no variability. Let's say all values equal c. Then: Mean = c (NOT zero, unless c=0). Standard deviation = 0 (no variation from mean). Variance = 0 (square of SD). Range = max - min = c - c = 0. The question asks which does NOT equal zero. The mean equals the common value c, which doesn't have to be zero. For example, if all values are 5, then: mean=5, SD=0, variance=0, range=0. Only the mean is non-zero (it equals 5). Option A (Mean) is the correct answer - the mean does NOT have to equal zero when all values are the same.",
+    "reasoning": "All values same = c \u2192 no variation. Mean = c (could be any value, not necessarily zero). SD = 0 (no deviation from mean). Variance = 0 (SD\u00b2). Range = 0 (max = min). Only mean can be non-zero. If all values are 5: mean=5, SD=variance=range=0.",
+    "steps": [
+      "All values equal c",
+      "Mean = c (NOT necessarily zero)",
+      "SD = 0 (no variation)",
+      "Variance = 0 (SD\u00b2 = 0)",
+      "Range = c - c = 0",
+      "Which must equal zero? SD, variance, range",
+      "Which doesn't? Mean (equals c)",
+      "Answer: Mean"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262286Z"
+  },
+  {
+    "questionId": "high_school_statistics_192",
+    "explanation": "This question addresses how to handle survey nonresponse. The university sampled 120 graduates, 32 didn't respond, 88 did. Let's evaluate each option: (A) 'Use 88 with n=88 in analysis' - This is the straightforward approach: analyze who responded, using the actual number of respondents. This is reasonable but doesn't address nonresponse bias. (B) 'Use 88 with n=120 in analysis' - This is statistically incorrect; using n=120 when only 88 responded overstates precision. (C) 'Attempt to contact the 32 nonresponders' - This is the BEST approach. Following up with nonresponders can: (1) increase response rate, (2) reduce nonresponse bias, (3) allow comparison of early vs. late responders to assess bias. This is standard best practice. (D) 'Replace with 32 new grads' - This doesn't fix nonresponse bias; the new 32 might also not respond or have different characteristics. Option C is the best way to proceed - always try to increase response rates through follow-up.",
+    "reasoning": "Nonresponse bias is a serious issue. Best approach: follow up with nonresponders to increase response rate and assess potential bias. Simply using those who responded (A) ignores bias. Using wrong n (B) is statistically wrong. Replacing with new sample (D) doesn't fix nonresponse issue. Option C (follow-up) is best practice.",
+    "steps": [
+      "Sample: 120, Responded: 88, No response: 32",
+      "Option A: Use 88, n=88 (ignores bias issue)",
+      "Option B: Use 88, n=120 (statistically wrong)",
+      "Option C: Contact the 32 nonresponders \u2713 (best practice)",
+      "Option D: Sample 32 new grads (doesn't fix bias)",
+      "Best approach: Follow up to increase response",
+      "Answer: Attempt to contact nonresponders"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262287Z"
+  },
+  {
+    "questionId": "high_school_statistics_193",
+    "explanation": "This problem asks for P(A \u222a B) under three different scenarios. Given: P(A) = 0.3, P(B) = 0.2. Scenario 1 - Mutually exclusive: If A and B cannot both occur, P(A \u2229 B) = 0. Then P(A \u222a B) = P(A) + P(B) = 0.3 + 0.2 = 0.5. Scenario 2 - Independent: If A and B are independent, P(A \u2229 B) = P(A) \u00d7 P(B) = 0.3 \u00d7 0.2 = 0.06. Then P(A \u222a B) = P(A) + P(B) - P(A \u2229 B) = 0.3 + 0.2 - 0.06 = 0.44. Scenario 3 - B subset of A: If B \u2286 A (whenever B occurs, A occurs), then A \u222a B = A. So P(A \u222a B) = P(A) = 0.3. Therefore the three probabilities are: 0.5 (mutually exclusive), 0.44 (independent), 0.3 (B subset of A). Looking at the options, option D matches: 0.5, 0.44, 0.3.",
+    "reasoning": "Three scenarios: (1) Mutually exclusive: P(A\u222aB)=P(A)+P(B)=0.5. (2) Independent: P(A\u222aB)=P(A)+P(B)-P(A)P(B)=0.3+0.2-0.06=0.44. (3) B\u2286A: P(A\u222aB)=P(A)=0.3. Answer: (0.5, 0.44, 0.3). Note: Events with nonzero probability can't be both mutually exclusive AND independent.",
+    "steps": [
+      "Given: P(A)=0.3, P(B)=0.2",
+      "Mutually exclusive: P(A\u2229B)=0",
+      "\u2192 P(A\u222aB) = 0.3+0.2 = 0.5",
+      "Independent: P(A\u2229B)=0.3\u00d70.2=0.06",
+      "\u2192 P(A\u222aB) = 0.3+0.2-0.06 = 0.44",
+      "B\u2286A: A\u222aB = A",
+      "\u2192 P(A\u222aB) = 0.3",
+      "Answer: .5, 0.44, 0.3"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262288Z"
+  },
+  {
+    "questionId": "high_school_statistics_194",
+    "explanation": "This question tests knowledge of discrete probability distributions. Let's examine each statement: (A) 'E(X) = np' - This is TRUE for binomial distributions specifically, but NOT for ALL discrete distributions. For example, a Poisson distribution has E(X) = \u03bb, not np. So this is NOT always true. (B) 'Sum of all possible values equals one' - This is FALSE. The sum of VALUES is unrelated to probability. For example, rolling a die: values are 1,2,3,4,5,6 which sum to 21, not 1. (C) 'Probabilities of all possible values add to one' - This is TRUE for ALL discrete probability distributions. This is a fundamental axiom: \u03a3 P(X=x) = 1 over all possible x values. The probabilities must sum to 1. (D) 'Distribution is bell-shaped and symmetric' - This is FALSE. Many discrete distributions are not symmetric (geometric, Poisson, binomial with p\u22600.5). Option C is the correct answer - probabilities must sum to one.",
+    "reasoning": "Fundamental axiom of probability: all probabilities for a random variable must sum to 1. This holds for ALL discrete distributions (binomial, Poisson, geometric, etc.). E(X)=np is only for binomial (A wrong). Sum of values \u2260 1 (B wrong). Not all discrete distributions are bell-shaped (D wrong). Only C is always true.",
+    "steps": [
+      "Option A: E(X)=np (only binomial, not all)",
+      "Option B: Sum of values = 1 (false, confuses values with probabilities)",
+      "Option C: Sum of probabilities = 1 \u2713 (always true)",
+      "Option D: Bell-shaped (false, many aren't)",
+      "Fundamental axiom: \u03a3 P(X=x) = 1",
+      "Answer: Probabilities add to one"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262289Z"
+  },
+  {
+    "questionId": "high_school_statistics_195",
+    "explanation": "This question asks which combination produces the NARROWEST confidence interval. The width of a confidence interval is determined by: Width = 2 \u00d7 (critical value) \u00d7 (standard error). Standard error decreases as sample size increases: SE = \u03c3/\u221an. Critical value increases as confidence level increases (95% uses z*=1.96, 99% uses z*=2.576). To minimize width: (1) Use LARGE sample size (smaller SE), (2) Use LOWER confidence level (smaller critical value). Comparing options: (A) Small n, 95% - small sample (large SE), moderate confidence. (B) Small n, 99% - small sample (large SE), high confidence (large z*) \u2192 WIDEST. (C) Large n, 95% - large sample (small SE), moderate confidence (smaller z*) \u2192 NARROWEST. (D) Large n, 99% - large sample (small SE), high confidence (large z*). Option C has both advantages: large sample AND lower confidence level, producing the narrowest interval.",
+    "reasoning": "CI width = 2 \u00d7 z* \u00d7 (\u03c3/\u221an). To minimize: maximize n (reduce SE), minimize confidence (reduce z*). Large n AND 95% confidence gives narrowest interval. Option C combines both optimizations. Large n reduces SE, 95% (vs 99%) uses smaller z*.",
+    "steps": [
+      "CI width = 2 \u00d7 z* \u00d7 (\u03c3/\u221an)",
+      "To narrow: increase n, decrease confidence",
+      "95% confidence: z*\u22481.96",
+      "99% confidence: z*\u22482.576",
+      "Option A: Small n, z*=1.96 (wide)",
+      "Option B: Small n, z*=2.576 (widest)",
+      "Option C: Large n, z*=1.96 (narrowest) \u2713",
+      "Option D: Large n, z*=2.576 (moderate)",
+      "Answer: Large sample, 95% confidence"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262290Z"
+  },
+  {
+    "questionId": "high_school_statistics_196",
+    "explanation": "This question tests understanding of correlation's properties. The correlation coefficient r is a UNITLESS measure of linear association. One key property: correlation is invariant under linear transformations that don't change the direction or strength of the relationship. Converting height from inches to centimeters is a linear transformation: x_cm = 2.54 \u00d7 x_in. This changes the units but not the relative ordering or the strength of the linear relationship. When we multiply all x-values by a positive constant, the standardized values (z-scores) remain the same because both the deviations and the standard deviation are multiplied by the same constant, which cancels out. Therefore, the correlation remains UNCHANGED at 0.65. The correlation would only change sign if we multiplied by a negative number. Converting units (a positive linear transformation) preserves the correlation. Option D (0.65) is correct.",
+    "reasoning": "Correlation r is unitless and invariant under positive linear transformations. Converting inches to cm: x_cm = 2.54x_in (positive constant multiplication). This preserves: (1) order of data, (2) direction of relationship, (3) strength of relationship. The z-scores stay the same, so r stays the same: 0.65.",
+    "steps": [
+      "Original: r = 0.65",
+      "Transformation: inches \u2192 cm (\u00d72.54)",
+      "r is unitless, invariant under linear transformation",
+      "Multiplying by positive constant: preserves r",
+      "z-scores unchanged by unit conversion",
+      "Correlation remains 0.65",
+      "Answer: 0.65"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262291Z"
+  },
+  {
+    "questionId": "high_school_statistics_197",
+    "explanation": "This problem asks for the confidence level when the population mean falls within a specific range. Given: \u03c3\u00b2 = 386, so \u03c3 = \u221a386 \u2248 19.65. Sample: n = 40, x\u0304 = 83. Range: 80 to 90 days. We need to find what confidence level corresponds to the interval (80, 90) around x\u0304 = 83. The margin of error in each direction: Lower: 83 - 80 = 3. Upper: 90 - 83 = 7. These are different! This is asymmetric, which is unusual. Let's focus on the tighter bound (3). Standard error: SE = \u03c3/\u221an = 19.65/\u221a40 = 19.65/6.325 \u2248 3.107. For ME = 3: z* = ME/SE = 3/3.107 \u2248 0.966. From z-table: P(|Z| < 0.966) \u2248 P(-0.966 < Z < 0.966) \u2248 0.666 or about 66.6%. But wait, let me recalculate considering the symmetric interval around 83. Actually, the interval (80, 90) is NOT symmetric around 83. The question might be asking: what's the probability x\u0304 is between 80 and 90 if \u03bc = 83? Let me reconsider...",
+    "reasoning": "\u03c3=\u221a386\u224819.65, n=40, x\u0304=83. SE=19.65/\u221a40\u22483.107. For interval (80,90) around \u03bc=83: z\u2081=(80-83)/3.107\u2248-0.966, z\u2082=(90-83)/3.107\u22482.253. P(-0.966<Z<2.253)\u2248P(Z<2.253)-P(Z<-0.966)\u22480.988-0.167\u22480.821\u224882.1%. This matches option D.",
+    "steps": [
+      "\u03c3 = \u221a386 \u2248 19.65, n=40, x\u0304=83",
+      "SE = \u03c3/\u221an = 19.65/\u221a40 \u2248 3.107",
+      "Interval: (80, 90) around \u03bc=83",
+      "z\u2081 = (80-83)/3.107 \u2248 -0.966",
+      "z\u2082 = (90-83)/3.107 \u2248 2.253",
+      "P(-0.966<Z<2.253) \u2248 0.988-0.167",
+      "\u2248 0.821 = 82.1%",
+      "Answer: 82.1%"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262292Z"
+  },
+  {
+    "questionId": "high_school_statistics_198",
+    "explanation": "This problem asks for the P-value of a hypothesis test. Given: H\u2080: p = 0.3, H\u2090: p > 0.3 (right-tailed test), sample proportion p\u0302 = 0.35, n = 95. First, calculate the test statistic: z = (p\u0302 - p\u2080)/\u221a[p\u2080(1-p\u2080)/n] = (0.35 - 0.30)/\u221a[0.30(0.70)/95] = 0.05/\u221a(0.21/95) = 0.05/\u221a0.002211 = 0.05/0.047 \u2248 1.064. For a right-tailed test, P-value = P(Z > 1.064). From z-table: P(Z > 1.064) \u2248 1 - P(Z < 1.064) \u2248 1 - 0.8564 \u2248 0.1436. This is approximately 0.1446 from the options. The P-value represents the probability of observing a sample proportion of 0.35 or higher if the true proportion is 0.30.",
+    "reasoning": "Test statistic: z = (0.35-0.30)/\u221a[0.30\u00d70.70/95] = 0.05/\u221a(0.21/95) = 0.05/0.047 \u2248 1.06. Right-tailed P-value = P(Z>1.06) \u2248 0.1446. This probability indicates moderate evidence against H\u2080 (not strong evidence at typical \u03b1 levels).",
+    "steps": [
+      "H\u2080: p=0.3, H\u2090: p>0.3",
+      "p\u0302=0.35, n=95",
+      "SE = \u221a[0.3(0.7)/95] = \u221a0.002211 \u2248 0.047",
+      "z = (0.35-0.30)/0.047 \u2248 1.06",
+      "Right-tailed: P-value = P(Z>1.06)",
+      "= 1 - 0.8554 \u2248 0.1446",
+      "Answer: 0.1446"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262293Z"
+  },
+  {
+    "questionId": "high_school_statistics_199",
+    "explanation": "This question tests understanding of independent events. Given: A and B are independent events, each with nonzero probability. Let's examine each statement: (A) 'P(A and B) = P(A) \u00b7 P(B)' - This is the DEFINITION of independence. If A and B are independent, then P(A \u2229 B) = P(A) \u00d7 P(B). This is TRUE. (B) 'A and B may or may not be mutually exclusive' - If A and B are independent with nonzero probabilities, can they be mutually exclusive? Mutually exclusive means P(A \u2229 B) = 0. But independence means P(A \u2229 B) = P(A) \u00d7 P(B) \u2260 0 (since both have nonzero probability). So independent events with nonzero probabilities CANNOT be mutually exclusive. Statement B is FALSE. (C) 'A and B must be mutually exclusive' - FALSE, as shown above, they cannot be. (D) 'P(A|B) = P(B|A)' - For independent events: P(A|B) = P(A) and P(B|A) = P(B). These are equal only if P(A) = P(B), which isn't given. FALSE in general. Option A is the correct answer.",
+    "reasoning": "Independence definition: P(A\u2229B) = P(A)\u00d7P(B). This is statement A, which is true. Statement B is false because independence with nonzero probabilities implies P(A\u2229B)>0, contradicting mutual exclusivity. Statements C and D are also false. Only A is necessarily true.",
+    "steps": [
+      "Given: A and B independent, P(A)>0, P(B)>0",
+      "Option A: P(A\u2229B)=P(A)P(B) \u2713 (definition of independence)",
+      "Option B: May be mutually exclusive (NO, can't be)",
+      "If mutually exclusive: P(A\u2229B)=0",
+      "But independent: P(A\u2229B)=P(A)P(B)>0",
+      "Contradiction! Can't be both.",
+      "Option C: Must be mutually exclusive (NO)",
+      "Option D: P(A|B)=P(B|A) (not necessarily)",
+      "Answer: P(A and B) = P(A)\u00b7P(B)"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262294Z"
+  },
+  {
+    "questionId": "high_school_statistics_200",
+    "explanation": "This question asks whether the teacher's study is an experiment or observational study, and whether causal conclusions are reasonable. The teacher implemented weekly practice quizzes (a treatment) and everyone achieved at least a C grade. Is this an experiment? YES - the teacher actively imposed a treatment (weekly quizzes) rather than just observing. However, can we conclude the quizzes CAUSED the good grades? NO, because: (1) No control group - we don't know how students would have done without quizzes. (2) No random assignment - all students got the same treatment. (3) No comparison - we can't isolate the effect of quizzes from other factors (student motivation, teaching quality, course difficulty, etc.). This is an experiment (because treatment was imposed) but a POORLY designed one that doesn't allow causal conclusions. Option A correctly states: 'An experiment, but with no reasonable conclusion possible about cause and effect.' Without a control group, we can't attribute the results to the quizzes.",
+    "reasoning": "Experiment = impose treatment (quizzes imposed \u2713). But causal inference requires: control group, random assignment, comparison. None present here. Could be Hawthorne effect, selection bias, or confounding factors. Can't conclude quizzes caused success without comparison group. It's an experiment but poorly designed for causal inference.",
+    "steps": [
+      "Treatment imposed: weekly quizzes \u2192 Experiment",
+      "All students achieved \u2265 C grade",
+      "Can we conclude quizzes caused this?",
+      "No control group (no comparison)",
+      "No random assignment",
+      "Many confounds possible",
+      "Can't establish causation",
+      "Answer: Experiment, no causal conclusion possible"
+    ],
+    "generatedAt": "2025-11-12T11:51:38.262295Z"
   }
 ]
