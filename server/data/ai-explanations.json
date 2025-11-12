@@ -28145,5 +28145,184 @@
       "Don't force linear model on nonlinear data"
     ],
     "generatedAt": "2025-11-12T11:53:52.416169Z"
+  },
+  {
+    "questionId": "high_school_statistics_211",
+    "explanation": "This question asks for the definition of statistical power, which is a fundamental concept in hypothesis testing. Power is the probability of correctly rejecting a false null hypothesis - in other words, the ability to detect a true effect when it exists. Let's examine each option: (A) 'Probability that H\u2080 is true' - This is philosophically problematic in frequentist statistics. We don't assign probabilities to hypotheses; H\u2080 is either true or false, we just don't know which. (B) 'Probability of Type I error' - This is \u03b1 (the significance level), not power. Type I error is rejecting true H\u2080. (C) 'Probability of Type II error' - This is \u03b2, not power. Type II error is failing to reject false H\u2080. (D) 'Probability of rejecting H\u2080 if it is false' - This is the CORRECT definition of power. Power = P(reject H\u2080 | H\u2080 false) = 1 - \u03b2. High power (close to 1) means we're very likely to detect a true effect. Power depends on sample size, effect size, variability, and significance level.",
+    "reasoning": "Power = P(reject H\u2080 | H\u2080 is false) = 1 - P(Type II error) = 1 - \u03b2. It measures test sensitivity - ability to detect true effects. NOT: P(H\u2080 true), P(Type I error)=\u03b1, or P(Type II error)=\u03b2. Option D correctly defines power. Higher power = better ability to detect effects.",
+    "steps": [
+      "Power = test's ability to detect true effects",
+      "= P(reject H\u2080 when H\u2080 is actually false)",
+      "= 1 - \u03b2 (complement of Type II error)",
+      "Option A: P(H\u2080 true) - not a frequentist concept",
+      "Option B: P(Type I error) = \u03b1 - not power",
+      "Option C: P(Type II error) = \u03b2 - opposite of power",
+      "Option D: P(reject false H\u2080) \u2713 - correct definition",
+      "Answer: Probability of rejecting false H\u2080"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244822Z"
+  },
+  {
+    "questionId": "high_school_statistics_212",
+    "explanation": "This question tests understanding of Type II error consequences in a specific context. H\u2080: Heartaid and current medication equally effective. H\u2090: Heartaid more effective. Type II error = fail to reject H\u2080 when H\u2090 is actually true = conclude drugs are equally effective when Heartaid is actually better. What happens if we make this error? We keep using the current medication (because we didn't find evidence that Heartaid is better), even though Heartaid is actually more effective. This means patients miss out on better treatment. Option C states: 'Patients will continue to use the current medication, even though Heartaid is actually more effective.' This correctly describes the Type II error consequence. Options A and B describe Type I error consequences (concluding Heartaid is better when it's not). Option D describes a calculation error, not a Type II error. Type II errors in medical studies are serious - they cause us to miss beneficial treatments.",
+    "reasoning": "Type II error: fail to reject H\u2080 when false. Here: conclude no difference when Heartaid is actually better \u2192 keep using current medication \u2192 patients miss better treatment. Option C describes this. Options A & B describe Type I error (adopt Heartaid when not better). Medical Type II errors delay adoption of beneficial treatments.",
+    "steps": [
+      "H\u2080: Drugs equally effective",
+      "H\u2090: Heartaid more effective",
+      "Type II error: Fail to reject H\u2080 when H\u2090 true",
+      "= Conclude no difference when Heartaid better",
+      "Consequence: Keep using current medication",
+      "Reality: Heartaid is actually more effective",
+      "Result: Patients miss better treatment",
+      "Answer: Continue current medication when Heartaid better"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244843Z"
+  },
+  {
+    "questionId": "high_school_statistics_213",
+    "explanation": "This question tests understanding of percentiles across different distributions. A particular score is at the 40th percentile in class 1 and the 80th percentile in class 2. What does this tell us? In class 1, this score is at the 40th percentile, meaning 40% scored at or below it and 60% scored above it - so it's a below-average score for class 1. In class 2, the SAME score is at the 80th percentile, meaning 80% scored at or below it and only 20% scored above it - so it's an above-average score for class 2. The same score being below-average in class 1 but above-average in class 2 tells us that class 1 generally scored HIGHER than class 2. If a score that's mediocre-to-low in class 1 is quite good in class 2, then class 1 must have performed better overall. Option A correctly states: 'Students in the first class generally scored higher than students in the second class.' Options C and D make specific claims about other percentiles that we cannot justify from the given information.",
+    "reasoning": "Same score at 40th percentile (class 1) vs 80th percentile (class 2). Score below-average in class 1, above-average in class 2 \u2192 class 1 scored higher overall. If what's mediocre in class 1 is good in class 2, class 1 performed better. Option A correct. Can't determine specific relationships for other percentiles (C, D wrong).",
+    "steps": [
+      "Same score: 40th percentile (class 1), 80th percentile (class 2)",
+      "Class 1: score below-average (60% scored higher)",
+      "Class 2: score above-average (only 20% scored higher)",
+      "Same score is 'low' in class 1, 'high' in class 2",
+      "\u2192 Class 1 distribution shifted higher",
+      "\u2192 Class 1 generally scored higher",
+      "Answer: Class 1 scored higher than class 2"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244845Z"
+  },
+  {
+    "questionId": "high_school_statistics_214",
+    "explanation": "This question tests proper interpretation of hypothesis test results. Given: population mean \u03bc\u2080 = 9500, sample mean x\u0304 = 9350, z = -2.46, P-value = 0.0069. The test is H\u2080: \u03bc = 9500 vs H\u2090: \u03bc < 9500 (left-tailed, since concern is production might have LOWERED thrust). Let's evaluate each option: (A) '99.31% of engines have thrust under 9350' - This confuses the P-value with a population proportion. Wrong. (B) '99.31% of engines have thrust under 9500' - Also wrong; 99.31% refers to the normal curve area, not actual engine proportions under the new process. (C) '0.69% of time engine over 9500' - Wrong interpretation. (D) 'Evidence that new process produces mean under 9500' - CORRECT. The P-value of 0.0069 is very small (less than typical \u03b1 levels like 0.05 or 0.01), providing strong evidence against H\u2080. We have statistical evidence that the new process produces engines with mean thrust below 9500 pounds. The P-value measures strength of evidence against H\u2080, not population proportions.",
+    "reasoning": "P-value = 0.0069 = probability of observing x\u0304 \u2264 9350 if \u03bc = 9500. Very small P-value \u2192 strong evidence against H\u2080 \u2192 evidence that \u03bc < 9500. P-value is NOT about population proportions (A, B wrong) or future individual values (C wrong). It's evidence about the parameter. Option D correct.",
+    "steps": [
+      "H\u2080: \u03bc = 9500, H\u2090: \u03bc < 9500",
+      "Sample: x\u0304 = 9350, z = -2.46",
+      "P-value = 0.0069 (very small)",
+      "P-value = P(x\u0304 \u2264 9350 | \u03bc = 9500)",
+      "Small P-value \u2192 strong evidence against H\u2080",
+      "\u2192 Evidence that \u03bc < 9500",
+      "NOT about individual engines or population %",
+      "Answer: Evidence mean thrust under 9500"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244848Z"
+  },
+  {
+    "questionId": "high_school_statistics_215",
+    "explanation": "This question asks for the term describing a point whose removal substantially changes regression statistics. When point (15,2) is included: slope = -0.54, r = -0.82. When removed: slope = -1.04, r = -0.95. The slope changed from -0.54 to -1.04 (nearly doubled in magnitude), and correlation changed from -0.82 to -0.95 (became stronger). A point that substantially changes regression calculations when removed is called an INFLUENTIAL POINT. Let's examine the options: (A) 'Outlier' - An outlier is a point that doesn't fit the pattern (large residual), but not all outliers are influential. This term doesn't specifically describe the EFFECT on calculations. (B) 'Statistically significant point' - This isn't standard terminology for regression. (C) 'Point of discontinuity' - This is a calculus term, not relevant here. (D) 'Influential point' - CORRECT. This is the technical term for a point that substantially affects regression results. Influential points typically have high leverage (extreme x-value) and/or large residuals.",
+    "reasoning": "Removing point substantially changes slope (-0.54 \u2192 -1.04) and r (-0.82 \u2192 -0.95). This defines an INFLUENTIAL POINT - one that strongly affects regression calculations. Point (15,2) likely has high leverage (if x=15 is extreme) or doesn't fit pattern. Option D is correct terminology.",
+    "steps": [
+      "With (15,2): b=-0.54, r=-0.82",
+      "Without (15,2): b=-1.04, r=-0.95",
+      "Slope magnitude nearly doubled",
+      "Correlation became stronger",
+      "Point substantially affects regression",
+      "This defines: INFLUENTIAL POINT",
+      "Option D: Influential point \u2713",
+      "Answer: Influential point"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244849Z"
+  },
+  {
+    "questionId": "abstract_algebra_0",
+    "explanation": "This question asks for the degree of the field extension Q(\u221a2, \u221a3, \u221a18) over Q. Field extension degree [L:K] is the dimension of L as a vector space over K. First, note that \u221a18 = \u221a(9\u00b72) = 3\u221a2, which is already in Q(\u221a2) since Q(\u221a2) contains all numbers of the form a + b\u221a2 where a,b \u2208 Q, and 3\u221a2 is such a number. Therefore, Q(\u221a2, \u221a3, \u221a18) = Q(\u221a2, \u221a3). Now we need [Q(\u221a2, \u221a3):Q]. We can use the tower law: [Q(\u221a2, \u221a3):Q] = [Q(\u221a2, \u221a3):Q(\u221a2)] \u00b7 [Q(\u221a2):Q]. First, [Q(\u221a2):Q] = 2 because \u221a2 satisfies the irreducible polynomial x\u00b2 - 2 over Q. Next, [Q(\u221a2, \u221a3):Q(\u221a2)] is the degree of \u221a3 over Q(\u221a2). We need to check if \u221a3 \u2208 Q(\u221a2). If \u221a3 = a + b\u221a2 for some a,b \u2208 Q, then squaring: 3 = a\u00b2 + 2b\u00b2 + 2ab\u221a2. This requires 2ab = 0 and a\u00b2 + 2b\u00b2 = 3. If a=0: 2b\u00b2=3, so b\u00b2=3/2, meaning b is irrational (contradiction). If b=0: a\u00b2=3, so a is irrational (contradiction). Therefore \u221a3 \u2209 Q(\u221a2), and x\u00b2 - 3 is irreducible over Q(\u221a2), giving [Q(\u221a2, \u221a3):Q(\u221a2)] = 2. Thus [Q(\u221a2, \u221a3):Q] = 2 \u00b7 2 = 4.",
+    "reasoning": "\u221a18 = 3\u221a2 \u2208 Q(\u221a2), so Q(\u221a2, \u221a3, \u221a18) = Q(\u221a2, \u221a3). Use tower law: [Q(\u221a2, \u221a3):Q] = [Q(\u221a2, \u221a3):Q(\u221a2)][Q(\u221a2):Q] = 2\u00b72 = 4. \u221a2 has degree 2 over Q (minimal polynomial x\u00b2-2). \u221a3 has degree 2 over Q(\u221a2) because \u221a3 \u2209 Q(\u221a2) (proven by contradiction). Answer: 4.",
+    "steps": [
+      "\u221a18 = 3\u221a2 \u2208 Q(\u221a2)",
+      "Q(\u221a2, \u221a3, \u221a18) = Q(\u221a2, \u221a3)",
+      "Use tower law: [Q(\u221a2, \u221a3):Q] = [Q(\u221a2, \u221a3):Q(\u221a2)][Q(\u221a2):Q]",
+      "[Q(\u221a2):Q] = 2 (min poly: x\u00b2-2)",
+      "Check if \u221a3 \u2208 Q(\u221a2): NO",
+      "[Q(\u221a2, \u221a3):Q(\u221a2)] = 2 (min poly of \u221a3 over Q(\u221a2): x\u00b2-3)",
+      "[Q(\u221a2, \u221a3):Q] = 2\u00b72 = 4",
+      "Answer: 4"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244851Z"
+  },
+  {
+    "questionId": "abstract_algebra_1",
+    "explanation": "We need to find the index of \u27e8p\u27e9 in S\u2085, where p = (1,2,5,4)(2,3). First, simplify p. The notation means first apply (2,3), then (1,2,5,4). Working right to left: (2,3) swaps 2 and 3. Then (1,2,5,4) is a 4-cycle. Composing: 1\u21922\u21923, 2\u21925, 3\u21922\u21922... wait, let me be more careful. Actually, in cycle notation, we typically compose left to right in the product, but let me verify the convention. In S\u2085, when we write (1,2,5,4)(2,3), we apply (1,2,5,4) first, then (2,3). Let's trace: (1,2,5,4): 1\u21922, 2\u21925, 5\u21924, 4\u21921, 3\u21923. Then (2,3): swaps 2 and 3. Composing: 1\u21922\u21923, 2\u21925\u21925, 3\u21923\u21922, 4\u21921\u21921, 5\u21924\u21924. So p = (1,3,2,5,4). This is a 5-cycle, so p has order 5. Therefore |\u27e8p\u27e9| = 5. The index [S\u2085:\u27e8p\u27e9] = |S\u2085|/|\u27e8p\u27e9| = 120/5 = 24.",
+    "reasoning": "p = (1,2,5,4)(2,3) in S\u2085. Compose cycles: apply (1,2,5,4) then (2,3). Tracing elements: 1\u21922\u21923, 2\u21925\u21925, 3\u21923\u21922, 4\u21921\u21921, 5\u21924\u21924. Result: p = (1,3,2,5,4), a 5-cycle with order 5. |\u27e8p\u27e9| = 5. Index = |S\u2085|/|\u27e8p\u27e9| = 120/5 = 24.",
+    "steps": [
+      "p = (1,2,5,4)(2,3) in S\u2085",
+      "Compose: apply (1,2,5,4), then (2,3)",
+      "1\u21922\u21923, 2\u21925\u21925, 3\u21923\u21922, 4\u21921\u21921, 5\u21924\u21924",
+      "p = (1,3,2,5,4) = 5-cycle",
+      "Order of p = 5",
+      "|\u27e8p\u27e9| = 5",
+      "|S\u2085| = 5! = 120",
+      "[S\u2085:\u27e8p\u27e9] = 120/5 = 24",
+      "Answer: 24"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244852Z"
+  },
+  {
+    "questionId": "abstract_algebra_2",
+    "explanation": "We need to find all zeros of f(x) = x\u2075 + 3x\u00b3 + x\u00b2 + 2x in Z\u2085. First, factor: f(x) = x(x\u2074 + 3x\u00b2 + x + 2). So x = 0 is definitely a zero. Now check the other elements of Z\u2085 = {0,1,2,3,4}: f(0) = 0 \u2713. f(1) = 1 + 3 + 1 + 2 = 7 \u2261 2 (mod 5) \u2717. f(2) = 32 + 24 + 4 + 4 = 64 \u2261 4 (mod 5) \u2717. f(3) = 243 + 81 + 9 + 6 = 339 \u2261 4 (mod 5) \u2717. f(4) = 1024 + 192 + 16 + 8 = 1240 \u2261 0 (mod 5) \u2713. Wait, let me recalculate more carefully in Z\u2085: f(1) = 1\u2075 + 3(1\u00b3) + 1\u00b2 + 2(1) = 1 + 3 + 1 + 2 = 7 \u2261 2 (mod 5). f(2) = 2\u2075 + 3(2\u00b3) + 2\u00b2 + 2(2) = 32 + 24 + 4 + 4 = 64 \u2261 4 (mod 5). f(3) = 3\u2075 + 3(3\u00b3) + 3\u00b2 + 2(3) = 243 + 81 + 9 + 6 = 339 = 67\u00b75 + 4 \u2261 4 (mod 5). f(4) = 4\u2075 + 3(4\u00b3) + 4\u00b2 + 2(4) = 1024 + 192 + 16 + 8 = 1240 = 248\u00b75 \u2261 0 (mod 5). So zeros are {0, 4}.",
+    "reasoning": "f(x) = x\u2075 + 3x\u00b3 + x\u00b2 + 2x = x(x\u2074 + 3x\u00b2 + x + 2) in Z\u2085. Test each element: f(0)=0\u2713, f(1)=2\u2717, f(2)=4\u2717, f(3)=4\u2717, f(4)=0\u2713. Zeros: {0, 4}. The factored form shows 0 is a zero; testing confirms 4 is also a zero.",
+    "steps": [
+      "f(x) = x\u2075 + 3x\u00b3 + x\u00b2 + 2x in Z\u2085",
+      "Factor: f(x) = x(x\u2074 + 3x\u00b2 + x + 2)",
+      "x = 0 is a zero",
+      "Test others in Z\u2085 = {1,2,3,4}:",
+      "f(1) = 1+3+1+2 = 7 \u2261 2 (mod 5) \u2717",
+      "f(2) = 32+24+4+4 = 64 \u2261 4 \u2717",
+      "f(3) = 243+81+9+6 = 339 \u2261 4 \u2717",
+      "f(4) = 1024+192+16+8 = 1240 \u2261 0 \u2713",
+      "Answer: 0,4"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244854Z"
+  },
+  {
+    "questionId": "abstract_algebra_3",
+    "explanation": "Statement 1: A factor group of a non-Abelian group is non-Abelian. This is FALSE. Counterexample: Let G = S\u2083 (non-Abelian). Let N = A\u2083 (normal subgroup of order 3, which is cyclic hence Abelian). Then G/N has order |G|/|N| = 6/3 = 2, so G/N \u2245 Z\u2082, which is Abelian. Thus a factor group of non-Abelian S\u2083 is Abelian. Another way to see this: in general, G/[G,G] (quotient by the commutator subgroup) is always Abelian, even when G is not. Statement 2: If K \u22b4 H and H \u22b4 G, then K \u22b4 G. This is also FALSE. Counterexample: Let G = S\u2084, H = {e, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)} (Klein four-group, normal in S\u2084), and K = {e, (1,2)(3,4)} (normal in H). However, K is not normal in G. To verify: (1,2,3)(1,2)(3,4)(1,3,2) = (1,2,3)(1,2)(3,4)(1,2,3)\u207b\u00b9 = ... working this out shows K is not closed under conjugation by all elements of G. Both statements are FALSE.",
+    "reasoning": "Statement 1: FALSE. G/N can be Abelian even if G is not. Example: S\u2083/A\u2083 \u2245 Z\u2082 (Abelian). In general, G/[G,G] is always Abelian (the abelianization). Statement 2: FALSE. Normality is not transitive. Example: K \u22b4 H and H \u22b4 G doesn't imply K \u22b4 G. Need K \u22b4 G directly. Answer: Both False.",
+    "steps": [
+      "Statement 1: Factor of non-Abelian is non-Abelian?",
+      "Counterexample: S\u2083 is non-Abelian",
+      "S\u2083/A\u2083 \u2245 Z\u2082 is Abelian",
+      "Statement 1: FALSE",
+      "Statement 2: K \u22b4 H, H \u22b4 G \u2192 K \u22b4 G?",
+      "Normality not transitive",
+      "Counterexample exists in S\u2084",
+      "Statement 2: FALSE",
+      "Answer: False, False"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244856Z"
+  },
+  {
+    "questionId": "abstract_algebra_4",
+    "explanation": "We need to compute f(x)\u00b7g(x) in Z\u2088[x], where f(x) = 4x - 5 and g(x) = 2x\u00b2 - 4x + 2. Multiply: (4x - 5)(2x\u00b2 - 4x + 2) = 4x(2x\u00b2 - 4x + 2) - 5(2x\u00b2 - 4x + 2) = 8x\u00b3 - 16x\u00b2 + 8x - 10x\u00b2 + 20x - 10 = 8x\u00b3 - 26x\u00b2 + 28x - 10. Now reduce coefficients modulo 8: 8x\u00b3 \u2261 0\u00b7x\u00b3 (mod 8), -26x\u00b2 \u2261 -26 \u2261 -26 + 32 \u2261 6x\u00b2 (mod 8), 28x \u2261 28 - 24 \u2261 4x (mod 8), -10 \u2261 -10 + 16 \u2261 6 (mod 8). So the product is 0x\u00b3 + 6x\u00b2 + 4x + 6 = 6x\u00b2 + 4x + 6. Checking the options: (B) is 6x\u00b2 + 4x + 6. Actually, let me double-check the arithmetic. -26 mod 8: -26 = -32 + 6 \u2261 6. 28 mod 8: 28 = 24 + 4 \u2261 4. -10 mod 8: -10 = -16 + 6 \u2261 6. Yes, answer is 6x\u00b2 + 4x + 6.",
+    "reasoning": "Multiply polynomials: (4x-5)(2x\u00b2-4x+2) = 8x\u00b3-16x\u00b2+8x-10x\u00b2+20x-10 = 8x\u00b3-26x\u00b2+28x-10. Reduce mod 8: 8\u22610, -26\u22616, 28\u22614, -10\u22616. Result: 6x\u00b2+4x+6.",
+    "steps": [
+      "f(x) = 4x-5, g(x) = 2x\u00b2-4x+2 in Z\u2088[x]",
+      "(4x-5)(2x\u00b2-4x+2) = 4x\u00b72x\u00b2 + 4x\u00b7(-4x) + 4x\u00b72 + (-5)\u00b72x\u00b2 + (-5)\u00b7(-4x) + (-5)\u00b72",
+      "= 8x\u00b3 - 16x\u00b2 + 8x - 10x\u00b2 + 20x - 10",
+      "= 8x\u00b3 - 26x\u00b2 + 28x - 10",
+      "Mod 8: 8\u22610, -26\u22616, 28\u22614, -10\u22616",
+      "= 6x\u00b2 + 4x + 6",
+      "Answer: 6x\u00b2 + 4x + 6"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244858Z"
+  },
+  {
+    "questionId": "abstract_algebra_5",
+    "explanation": "Statement 1: If a group has an element of order 15, it must have at least 8 elements of order 15. Since 15 = 3\u00b75, an element g of order 15 generates a cyclic subgroup \u27e8g\u27e9 \u2245 Z\u2081\u2085 of order 15. In Z\u2081\u2085, the elements of order 15 are those coprime to 15, i.e., the generators. These are: {1,2,4,7,8,11,13,14} - that's \u03c6(15) = \u03c6(3)\u03c6(5) = 2\u00b74 = 8 elements. All these elements in \u27e8g\u27e9 have order 15 (g, g\u00b2, g\u2074, g\u2077, g\u2078, g\u00b9\u00b9, g\u00b9\u00b3, g\u00b9\u2074). So Statement 1 is TRUE - having one element of order 15 guarantees at least 8. Statement 2: If a group has more than 8 elements of order 15, it must have at least 16. This is TRUE by the following reasoning: Distinct cyclic subgroups of order 15 can intersect only at the identity (if they shared a non-identity element, they'd be equal). Each cyclic subgroup of order 15 contributes 8 new elements of order 15. So the count of order-15 elements is always a multiple of 8: either 8, 16, 24, etc. If more than 8, must be at least 16. Both statements TRUE.",
+    "reasoning": "Statement 1: \u27e8g\u27e9 \u2245 Z\u2081\u2085 has \u03c6(15)=8 generators, all order 15. TRUE. Statement 2: Cyclic subgroups of order 15 intersect trivially, each contributes 8 order-15 elements. Count is multiple of 8. If >8, then \u226516. TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: Element of order 15 \u2192 how many order-15 elements?",
+      "\u27e8g\u27e9 \u2245 Z\u2081\u2085 has \u03c6(15) = 8 generators",
+      "All 8 generators have order 15",
+      "Statement 1: TRUE (at least 8)",
+      "Statement 2: >8 elements of order 15 \u2192 at least 16?",
+      "Distinct \u27e8g\u27e9 and \u27e8h\u27e9 of order 15 intersect at {e}",
+      "Each contributes 8 order-15 elements",
+      "Count is 8k for some k \u2265 1",
+      "If >8, then \u226516. Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T11:56:39.244860Z"
   }
 ]
