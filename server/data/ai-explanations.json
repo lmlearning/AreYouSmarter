@@ -31482,5 +31482,215 @@
       "Answer: C (Winn-Dixie), marked A (incorrect)"
     ],
     "generatedAt": "2025-01-10T12:40:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_84",
+    "explanation": "The city model that contains a distinct **residential spine** proceeding outward from center city along the main boulevard is the **Latin American** city model (option D).\n\n**Latin American City Model** (Griffin-Ford Model, 1980):\n\n**Key features:**\n\n**1. Spine (Sector of Elite Residential):**\n- **Most distinctive feature**\n- High-income residential area extends from CBD outward\n- Follows main commercial boulevard\n- Elite housing, modern amenities\n- Western-style development\n- Extends to periphery (often mall at edge)\n\n**2. CBD (Commercial Business District):**\n- Colonial plaza at center\n- Cathedral, government buildings\n- Traditional core\n\n**3. Zone of Maturity:**\n- Around CBD\n- Well-established middle/upper-middle class\n\n**4. Zone of In-Situ Accretion:**\n- Peripheral areas\n- Self-built housing improving over time\n\n**5. Zone of Peripheral Squatter Settlements:**\n- Informal housing\n- Favelas, barrios, colonias\n- Poor migrants\n\n**The Spine is diagnostic:**\n- Wealthy live along main boulevard extending outward\n- Continuous from center to periphery\n- Separates from poor areas\n- Unique to Latin American model\n\n**Why other models don't have spine:**\n- **European** (A): Concentric zones, no spine\n- **Muslim** (B): Medina (old city), no spine\n- **Sub-Saharan African** (C): Colonial core, no spine\n\n**Examples**: S\u00e3o Paulo, Rio, Mexico City, Buenos Aires, Lima\n\nThe marked answer is European (A), but European cities don't have this spine feature. **Latin American** (D) is correct.",
+    "reasoning": "Residential spine along main boulevard from center outward = Latin American city model (Griffin-Ford). Distinctive feature. Elite housing extends linearly. European/Muslim/Sub-Saharan lack this. Answer should be D (Latin American), marked as A (European).",
+    "steps": [
+      "Residential spine from center outward",
+      "Along main boulevard",
+      "Distinctive feature of Latin American model",
+      "Elite housing corridor",
+      "European: no spine",
+      "Answer: D (Latin American), marked A (wrong)"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_85",
+    "explanation": "Most European languages belong to the **Indo-European** language family (option C).\n\n**Indo-European family** includes:\n\n**Germanic branch:**\n- English, German, Dutch, Swedish, Norwegian, Danish, Icelandic\n- West, North, East Germanic sub-branches\n\n**Romance branch:**\n- Spanish, French, Italian, Portuguese, Romanian\n- From Latin\n\n**Slavic branch:**\n- Russian, Polish, Czech, Serbian, Bulgarian, Ukrainian\n- East, West, South Slavic\n\n**Celtic branch:**\n- Irish, Welsh, Breton, Scottish Gaelic\n- Mostly British Isles\n\n**Baltic branch:**\n- Lithuanian, Latvian\n\n**Hellenic:**\n- Greek\n\n**Albanian**\n\n**Coverage**: ~95% of European population speaks Indo-European languages\n\n**Non-Indo-European in Europe:**\n- **Uralic** (A - mentioned but wrong): Finnish, Hungarian, Estonian (~4%)\n- **Basque** (B): Isolated, Spain/France border (~1 million)\n- **Turkic**: Turkish\n\nThe marked answer is Ural-Altaic (A), which is a small minority. The correct answer is **Indo-European** (C) - the vast majority of European languages.",
+    "reasoning": "Most European languages: Indo-European (Germanic, Romance, Slavic, Celtic = English, Spanish, Russian, French, etc.). ~95% of Europeans. Uralic = minority (Finnish, Hungarian). Answer should be C (Indo-European), marked as A (Ural-Altaic-minority).",
+    "steps": [
+      "European language family",
+      "Indo-European: Germanic + Romance + Slavic + Celtic",
+      "English, Spanish, German, French, Russian all Indo-European",
+      "~95% of Europe",
+      "Uralic: minority (Finnish, Hungarian)",
+      "Answer: C (Indo-European), marked A (wrong)"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_86",
+    "explanation": "Apartheid, ethnic cleansing, and integration all relate to **forms of residential segregation** (option B), though they represent different points on a spectrum from extreme segregation to desegregation.\n\n**Common theme: Spatial separation/integration of ethnic groups**\n\n**Apartheid** (South Africa, 1948-1994):\n- **Extreme segregation** enforced by law\n- Separate neighborhoods (townships), facilities\n- Group Areas Act: races assigned to areas\n- Forced removals\n- Examples: Soweto, District Six removal\n\n**Ethnic cleansing**:\n- **Extreme segregation** through violence\n- Forced removal/killing of ethnic group\n- Create ethnically homogeneous area\n- Examples: Bosnia (1990s), Rwanda (1994), Myanmar (Rohingya)\n\n**Integration**:\n- **Opposite**: Mixing ethnic groups in same spaces\n- Breaking down segregation\n- Desegregation\n- Examples: U.S. Civil Rights era school integration\n\n**Common thread:**\nAll three address the spatial relationship between ethnic groups:\n- Apartheid & ethnic cleansing: ENFORCE separation\n- Integration: REMOVE separation\n\nThey are all **forms of or responses to residential segregation**.\n\n**Why other options wrong:**\n- **Nazi Germany WWI** (A - marked): Factually wrong (WWII, not WWI; apartheid was South Africa)\n- **Ways to integrate** (C): Only integration does this\n- **Same concept** (D): They're opposites (segregation vs integration)\n\n**Option B** is correct - they're all related to residential segregation (enforcing it or ending it).",
+    "reasoning": "Apartheid & ethnic cleansing = extreme segregation (forced). Integration = desegregation (mixing). All address spatial separation of ethnic groups = residential segregation forms. Answer should be B (residential segregation), marked as A (Nazi Germany-factually wrong).",
+    "steps": [
+      "What relates apartheid, ethnic cleansing, integration?",
+      "Apartheid: legal segregation (SA)",
+      "Ethnic cleansing: violent segregation",
+      "Integration: ending segregation",
+      "All address residential segregation",
+      "Answer: B (residential segregation), marked A (wrong facts)"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_87",
+    "explanation": "The statement that correctly describes immigrants in Europe is: **They are usually restricted to certain neighborhoods** (option D).\n\n**Immigrant settlement patterns in Europe:**\n\n**Concentrated in specific neighborhoods:**\n- Turkish immigrants in Berlin (Kreuzberg)\n- North African immigrants in Paris suburbs (banlieues)\n- South Asian immigrants in London (Tower Hamlets, Southall)\n- Spatial segregation common\n\n**Reasons:**\n- **Economic**: Affordable housing concentrated\n- **Social**: Ethnic networks, community support\n- **Discrimination**: Limited housing options\n- **Language**: Near co-ethnic services\n\n**Why other options wrong:**\n\n**Easy citizenship** (A - marked): WRONG\n- Europe has STRICT citizenship laws\n- Jus sanguinis (blood) vs. jus soli (birthplace)\n- Difficult for immigrants to naturalize\n\n**Well integrated** (B): WRONG\n- Integration challenges significant\n- 2005 French riots, discrimination issues\n- Cultural/religious tensions\n\n**Rarely bring families** (C): WRONG\n- Family reunification common\n- Families do migrate\n\nOption D correctly identifies neighborhood concentration/restriction as the reality for European immigrants.",
+    "reasoning": "European immigrants: concentrated in specific neighborhoods (ethnic enclaves). Citizenship HARD to get (not easy). Integration challenged. Families DO come. Answer: D (restricted to neighborhoods) \u2713, though marked as A (easy citizenship-wrong).",
+    "steps": [
+      "Immigrants in Europe",
+      "Concentrated neighborhoods (banlieues, ethnic areas)",
+      "Citizenship: difficult, not easy",
+      "Integration: challenged",
+      "Answer: D (neighborhood restriction), marked A (wrong)"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_88",
+    "explanation": "**Mining copper** (option C) is NOT a secondary economic activity.\n\n**Economic sectors:**\n\n**Primary** (extraction): Mining, farming, fishing, forestry\n- Direct from nature\n- **Mining copper** = PRIMARY \u2713\n\n**Secondary** (processing/manufacturing): Transform raw materials\n- **Assembling automotive parts** (A) = SECONDARY\n- **Sewing shirts** (B) = SECONDARY  \n- **Binding books** (C) = SECONDARY\n\n**Tertiary** (services): Retail, healthcare, education\n\nMining extracts ore from ground - this is extraction (primary), not processing (secondary).\n\nThe marked answer is \"Assembling automotive parts\" (A), which IS secondary. The correct answer is **C (Mining copper)** - this is primary, not secondary.",
+    "reasoning": "Secondary = processing/manufacturing. Assembling, sewing, binding = secondary \u2713. Mining = extraction = primary (NOT secondary). Answer should be C (mining-primary), marked as A (assembling-IS secondary).",
+    "steps": [
+      "NOT secondary activity?",
+      "Secondary: processing/manufacturing",
+      "Assembling, sewing, binding: secondary",
+      "Mining: extraction from ground = primary",
+      "Answer: C (mining-NOT secondary), marked A (wrong)"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_89",
+    "explanation": "What makes Johnny and Susie's move to Scotland a **migration** is that **they are moving permanently** (option C).\n\n**Migration definition:**\nPermanent or semi-permanent change of residence across significant distance.\n\n**Key criterion: PERMANENCE**\n- Intent to stay long-term\n- Not temporary (tourism, business trip)\n- Change of residence\n\n**Scenario analysis:**\n\"Renovate and live in the family castle\" indicates **permanent relocation**.\n\n**Why other options insufficient:**\n\n**Crossing borders** (A - marked):\n- Necessary for international migration\n- But NOT sufficient alone (tourism crosses borders too)\n- Needs permanence\n\n**Not taking anything** (B):\n- Irrelevant to migration definition\n- Can migrate with or without possessions\n\n**Gone more than year** (D):\n- Duration matters\n- But \"permanent\" is key, not specific time\n\nThe defining characteristic of migration is **permanent change of residence** (C). While crossing borders (A) is part of this international move, permanence is what makes it migration vs. tourism.\n\nMarked answer is A (crossing borders), but C (moving permanently) is the fundamental defining characteristic.",
+    "reasoning": "Migration = permanent change of residence. \"Live in castle\" = permanent. Crossing borders necessary but not sufficient (tourists cross borders). Permanence defines migration. Answer should be C (permanent), marked as A (borders-insufficient alone).",
+    "steps": [
+      "What makes it migration?",
+      "Migration = permanent residence change",
+      "Living in castle = permanent",
+      "Crossing borders: necessary but not sufficient",
+      "Permanence is defining factor",
+      "Answer: C (moving permanently), marked A (borders)"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_90",
+    "explanation": "A **state** is a political entity with territory, population, government, and sovereignty. Without seeing the options, typical examples include:\n\n**States:** France, Japan, Mexico, Germany, Egypt\n- Defined territory\n- Permanent population\n- Effective government\n- Sovereignty (independence)\n- International recognition\n\n**NOT states:**\n- **Nations without states**: Kurds, Palestinians (disputed)\n- **Regions**: Texas, California (part of U.S. state)\n- **Cities**: Paris, Tokyo\n- **International organizations**: UN, EU\n- **Territories**: Puerto Rico, Guam (not independent)\n\n**Four criteria for statehood** (Montevideo Convention, 1933):\n1. Permanent population\n2. Defined territory\n3. Government\n4. Capacity to enter relations with other states\n\nThe answer would be whichever option is a sovereign independent country meeting these criteria.",
+    "reasoning": "State = sovereign political entity with territory, population, government, independence. Examples: countries (France, Japan). NOT regions, cities, or territories. Answer depends on options provided.",
+    "steps": [
+      "What is a state?",
+      "Sovereign independent country",
+      "Territory + population + government + sovereignty",
+      "Examples: France, Japan, etc.",
+      "NOT regions/cities/territories",
+      "Answer: whichever option is a country"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_91",
+    "explanation": "The most abundant fossil fuel is **coal** (though the specific options aren't visible).\n\n**Fossil fuel reserves** (proven recoverable):\n\n**Coal**:\n- Most abundant\n- ~1 trillion+ tons worldwide\n- Enough for 100+ years at current consumption\n- Found on all continents\n- Cheap, abundant, but dirtiest\n\n**Natural gas**:\n- Second most abundant\n- Large reserves (Russia, Iran, Qatar)\n- Cleaner than coal/oil\n\n**Oil (petroleum)**:\n- Less abundant than coal/gas\n- ~50 years at current consumption\n- Most valuable economically\n\n**Why coal is most abundant:**\n- Formed from ancient plant matter\n- Widespread deposits\n- Less processing to extract\n- Geologically common\n\nCoal is definitively the most abundant fossil fuel, though it's being phased out due to carbon emissions.",
+    "reasoning": "Most abundant fossil fuel: Coal (1 trillion+ tons, 100+ years supply). More than oil or natural gas. Widespread, cheap. Answer: Coal.",
+    "steps": [
+      "Most abundant fossil fuel?",
+      "Coal: 1 trillion+ tons",
+      "100+ years supply",
+      "More than oil/gas",
+      "All continents",
+      "Answer: Coal"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_92",
+    "explanation": "A rejection of or indifference to religion in a country is called **secularism** (though specific options not visible).\n\n**Secularism:**\n- Separation of religion and state\n- Government neutrality toward religion\n- Public sphere non-religious\n\n**Related concepts:**\n\n**Secularization**: Process of society becoming less religious\n- Declining church attendance\n- Less religious influence\n- Examples: Western Europe (France, Sweden, Netherlands)\n\n**Atheism**: Active disbelief in God\n- Individual belief\n- Can be personal or state-promoted\n\n**Agnosticism**: Uncertainty about God\n\n**Secular state**: Government separate from religion\n- Examples: France (la\u00efcit\u00e9), Turkey, U.S. (First Amendment)\n\n**Examples of secular/secularizing societies:**\n- France: Strict separation (la\u00efcit\u00e9)\n- Sweden, Denmark: Highly secular despite state churches\n- Czech Republic: Most atheist country in Europe\n- East Germany: Secular after communist era\n\nThe term for rejection/indifference to religion at societal level is **secularism** or **secularization**.",
+    "reasoning": "Rejection/indifference to religion in country = secularism/secularization. Society/government non-religious. Examples: France, Sweden. Related: atheism (disbelief), agnosticism (uncertainty). Answer: Secularism.",
+    "steps": [
+      "Rejection/indifference to religion",
+      "Societal/state level",
+      "Secularism/secularization",
+      "Non-religious public sphere",
+      "Examples: France, Sweden",
+      "Answer: Secularism"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_93",
+    "explanation": "In a postindustrial economy, **information/knowledge** is considered the most important resource.\n\n**Postindustrial economy** (Daniel Bell, 1973):\n\n**Characteristics:**\n- Service sector dominates (70-80% of GDP)\n- Manufacturing declines\n- Knowledge/information central\n- Technology-driven\n\n**Most important resources:**\n\n**1. Information/Knowledge**:\n- Data, research, expertise\n- Intellectual property\n- Education, skills\n- Innovation capacity\n\n**2. Human capital**:\n- Educated workforce\n- Creativity\n- Problem-solving\n\n**3. Technology**:\n- Computers, internet\n- Digital infrastructure\n\n**Examples of postindustrial economies:**\n- United States: 80% services\n- UK, Japan, Western Europe\n- Silicon Valley: Information economy\n\n**Contrast:**\n- **Industrial**: Manufacturing, physical capital\n- **Agricultural**: Land, labor\n- **Postindustrial**: Information, knowledge\n\nThe defining resource of postindustrial economies is **information/knowledge** - the \"knowledge economy.\"",
+    "reasoning": "Postindustrial economy: services dominate, knowledge-based. Most important resource: information/knowledge/human capital. Not physical resources. Examples: US, UK (80% services). Answer: Information/knowledge.",
+    "steps": [
+      "Postindustrial economy",
+      "Services 70-80% of GDP",
+      "Knowledge-based",
+      "Most important: information/knowledge",
+      "Human capital, education, data",
+      "Answer: Information/knowledge"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_94",
+    "explanation": "A primate city is one that is **disproportionately large compared to the second-largest city** in a country, typically at least twice as large.\n\n**Primate city** (Mark Jefferson, 1939):\n\n**Characteristics:**\n- Dominates country economically, politically, culturally\n- Often capital city\n- Much larger than #2 city\n- Contains major institutions, headquarters\n- \"Primate\" = first/primary\n\n**Examples:**\n\n**Strong primate cities:**\n- **Paris, France**: 10.9M metro (Marseille #2: 1.8M) - 6\u00d7 larger\n- **Bangkok, Thailand**: 10.5M (Nonthaburi #2: 0.3M) - 35\u00d7 larger\n- **Lima, Peru**: 10M (Arequipa #2: 1M) - 10\u00d7 larger\n- **Buenos Aires, Argentina**: 15M (Cordoba #2: 1.6M) - 9\u00d7 larger\n- **Seoul, South Korea**: 25M (Busan #2: 3.5M) - 7\u00d7 larger\n\n**Non-primate (rank-size) countries:**\n- **United States**: NYC 18.8M, LA 12.5M, Chicago 8.9M (more balanced)\n- **China**: Shanghai 26M, Beijing 21M, Guangzhou 15M\n- **India**: Mumbai 20M, Delhi 19M, Bangalore 12M\n\n**Causes:**\n- Colonial legacy (single port city)\n- Centralized government\n- Economic concentration\n- Rural-urban migration to single city\n\n**Problems:**\n- Overconcentration\n- Congestion\n- Regional inequality\n- Infrastructure strain\n\nA primate city dominates its country, being much larger than other cities.",
+    "reasoning": "Primate city: disproportionately large #1 city (2\u00d7 or more bigger than #2). Dominates country. Examples: Paris, Bangkok, Lima. Causes: colonialism, centralization. Answer: Disproportionately large city.",
+    "steps": [
+      "Primate city definition",
+      "Much larger than #2 city",
+      "Dominates country",
+      "Examples: Paris (6\u00d7 #2), Bangkok (35\u00d7 #2)",
+      "Colonial/centralization causes",
+      "Answer: Disproportionately large"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_95",
+    "explanation": "**Absolute location** is the exact position of a place using a coordinate system, typically **latitude and longitude**.\n\n**Absolute location:**\n- Precise, unchanging coordinates\n- Latitude (N-S): 0\u00b0 Equator, \u00b190\u00b0 poles\n- Longitude (E-W): 0\u00b0 Prime Meridian, \u00b1180\u00b0\n- Example: NYC = 40.7\u00b0N, 74.0\u00b0W\n- Universal, objective\n\n**Relative location:**\n- Position relative to other places\n- Example: \"NYC is on the U.S. East Coast, north of Philadelphia\"\n- Context-dependent\n\n**Site vs. Situation:**\n- **Site**: Physical characteristics of location (terrain, climate)\n- **Situation**: Relative location and regional context\n\nAbsolute location uses mathematical coordinates (lat/long or other grid systems like UTM) to pinpoint exact position.",
+    "reasoning": "Absolute location: exact coordinates using lat/long. NYC = 40.7\u00b0N, 74.0\u00b0W. Precise, unchanging. Vs. relative location (position to other places). Answer: Latitude and longitude coordinates.",
+    "steps": [
+      "Absolute location",
+      "Exact position",
+      "Coordinate system",
+      "Latitude (N-S) + Longitude (E-W)",
+      "Example: 40.7\u00b0N, 74.0\u00b0W",
+      "Answer: Lat/long coordinates"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_96",
+    "explanation": "**Sustainable development** is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.\n\n**Brundtland definition** (\"Our Common Future,\" 1987):\n\"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.\"\n\n**Three pillars:**\n\n**1. Economic:**\n- Growth, prosperity\n- Jobs, income\n- But within environmental limits\n\n**2. Social:**\n- Equity, health, education\n- Quality of life\n- Meeting human needs\n\n**3. Environmental:**\n- Resource conservation\n- Ecosystem protection\n- Pollution reduction\n- Climate action\n\n**Key principles:**\n- Intergenerational equity (fairness to future)\n- Environmental limits\n- Integration of economy-society-environment\n\n**Examples:**\n- Renewable energy (vs. fossil fuels)\n- Sustainable agriculture (vs. soil depletion)\n- Circular economy (vs. waste)\n- Green buildings\n\n**UN Sustainable Development Goals** (SDGs, 2015-2030):\n- 17 goals addressing sustainability\n\n**Challenges:**\n- Balancing growth and conservation\n- Implementation\n- Global coordination\n\nSustainable development integrates economic, social, and environmental goals for long-term well-being.",
+    "reasoning": "Sustainable development: meets present needs without compromising future generations. Three pillars: economic, social, environmental. Brundtland definition (1987). Examples: renewables, circular economy. Answer: Present needs without harming future.",
+    "steps": [
+      "Sustainable development definition",
+      "Present needs without compromising future",
+      "Brundtland (1987)",
+      "Three pillars: economic, social, environmental",
+      "Intergenerational equity",
+      "Answer: Meet present, protect future"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_97",
+    "explanation": "**Gentrification** is the process by which wealthier people move into and renovate deteriorating urban neighborhoods, raising property values and often displacing lower-income residents.\n\n**Gentrification characteristics:**\n\n**Physical changes:**\n- Building renovation\n- New construction (upscale)\n- Infrastructure improvements\n- Aesthetic upgrades\n\n**Demographic changes:**\n- Wealthier, educated residents move in\n- Often younger professionals\n- Original lower-income residents displaced\n- Racial/ethnic composition often changes\n\n**Economic changes:**\n- Rising property values and rents\n- New businesses (boutiques, cafes)\n- Higher tax revenues\n- Increased cost of living\n\n**Typical sequence:**\n1. Artists/pioneers (low rents, \"authentic\")\n2. Early gentrifiers (professionals)\n3. Rapid development\n4. Full transformation, displacement\n\n**Examples:**\n- Brooklyn (Williamsburg, Park Slope)\n- San Francisco (Mission District)\n- London (East End)\n- Washington DC (Shaw, U Street)\n\n**Debate:**\n**Pros**: Economic revitalization, reduced crime, improved services\n**Cons**: Displacement, loss of affordable housing, cultural erasure\n\nGentrification transforms neighborhoods through influx of wealth, with controversial effects on original residents.",
+    "reasoning": "Gentrification: wealthier people renovate poor neighborhoods \u2192 rising values \u2192 displacement. Physical, demographic, economic changes. Controversial: revitalization vs. displacement. Examples: Brooklyn, San Francisco. Answer: Wealthy influx, renovation, displacement.",
+    "steps": [
+      "Gentrification process",
+      "Wealthier people move to poor area",
+      "Renovation, improvement",
+      "Property values rise",
+      "Original residents displaced (can't afford)",
+      "Controversial transformation",
+      "Answer: Wealthy influx, displacement"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_98",
+    "explanation": "**Dependency ratio** is the ratio of dependents (children and elderly) to the working-age population, indicating economic burden on workers.\n\n**Formula:**\nDependency Ratio = [(Population 0-14) + (Population 65+)] / (Population 15-64) \u00d7 100\n\n**Interpretation:**\n- Higher ratio = more dependents per worker\n- Economic burden on working-age\n- Impacts tax revenue, social services\n\n**Types:**\n\n**Youth dependency:** (0-14) / (15-64)\n- High in developing countries (high birth rates)\n\n**Old-age dependency:** (65+) / (15-64)\n- High in developed countries (aging populations)\n- Japan, Italy, Germany\n\n**Total dependency:** Youth + Old-age\n\n**Examples:**\n- **Niger**: 112 (high youth dependency)\n- **Japan**: 71 (high old-age dependency)\n- **United States**: 53\n- **World average**: ~52\n\n**Demographic transition impact:**\n- Stage 2: High youth dependency\n- Stage 3-4: Falling dependency (demographic dividend)\n- Stage 5: Rising old-age dependency (aging crisis)\n\n**Policy implications:**\n- Social security, pensions\n- Healthcare costs\n- Education needs\n- Labor force planning\n\nDependency ratio measures economic pressure of non-working populations on workers.",
+    "reasoning": "Dependency ratio: (children + elderly) / working-age \u00d7 100. Measures economic burden. High in developing (youth) and developed (elderly) countries. Japan 71, Niger 112. Impacts: pensions, healthcare, education. Answer: Dependents per worker ratio.",
+    "steps": [
+      "Dependency ratio",
+      "(0-14 + 65+) / (15-64) \u00d7 100",
+      "Dependents per worker",
+      "Youth: high in developing",
+      "Old-age: high in developed (Japan, Italy)",
+      "Economic burden measure",
+      "Answer: Dependents/workers ratio"
+    ],
+    "generatedAt": "2025-01-10T12:45:00.000Z"
   }
 ]
