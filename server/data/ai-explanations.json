@@ -27063,5 +27063,290 @@
       "Answer: 0.833 or 5/6"
     ],
     "generatedAt": "2025-11-10T11:18:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_141",
+    "explanation": "Let's examine each statement about t-distributions: (A) t-distributions are symmetric: TRUE - like the normal distribution, t-distributions are bell-shaped and symmetric around zero. (B) t-distributions lower at mean, higher at tails (more spread out than normal): TRUE - this is a defining characteristic of t-distributions. They have heavier tails than normal. (C) Greater df \u2192 closer to normal: TRUE - as degrees of freedom increase, t-distribution approaches the standard normal distribution. (D) Smaller df \u2192 68-95-99.7 Rule works better: FALSE! The empirical rule (68-95-99.7) is specifically for NORMAL distributions. With smaller df, t-distributions deviate MORE from normal (heavier tails), so the rule works WORSE, not better. This is the false statement.",
+    "reasoning": "The 68-95-99.7 rule is for normal distributions. Smaller df means t-distribution differs MORE from normal (heavier tails), so the rule applies WORSE. Statement D is false.",
+    "steps": [
+      "Statement A: Symmetric - TRUE",
+      "Statement B: Heavier tails than normal - TRUE",
+      "Statement C: More df \u2192 more normal-like - TRUE",
+      "Statement D: Less df \u2192 empirical rule works better - FALSE",
+      "Empirical rule is for normal; less df = less normal-like",
+      "Answer: Statement D is false"
+    ],
+    "generatedAt": "2025-11-10T11:30:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_142",
+    "explanation": "H\u2080: Equipment performing satisfactorily. Type I error: Reject true H\u2080 (stop when equipment is fine). Type II error: Fail to reject false H\u2080 (continue when equipment is bad). Dialysis center: Equipment failure could KILL patients. Type II error (missing bad equipment) is CATASTROPHIC - patients die. Type I error (stopping good equipment) is inconvenient but safe. Type II is more serious. Towel factory: Type I error (stopping good machines) costs money unnecessarily. Type II error (continuing with bad machines) makes wrong-sized towels but no one dies. Type I is more serious economically. Answer: Dialysis Type II (life-threatening), Towel Type I (economic waste).",
+    "reasoning": "Dialysis: Missing bad equipment (Type II) = patient deaths = most serious. Towel: Stopping good equipment (Type I) = wasted costs = most serious. Different industries, different critical errors.",
+    "steps": [
+      "Dialysis: Type II error = miss bad equipment = deaths",
+      "Dialysis: Type I error = stop good equipment = inconvenience",
+      "Dialysis: Type II more serious (lives at stake)",
+      "Towel: Type II error = make wrong towels = minor",
+      "Towel: Type I error = stop production = wasted money",
+      "Answer: Dialysis Type II, Towel Type I"
+    ],
+    "generatedAt": "2025-11-10T11:32:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_143",
+    "explanation": "Company has offices in 5 countries. Views on smoking vary by country (local social structures). This is a case where subgroups (countries) have different characteristics relevant to the question. STRATIFIED sampling is appropriate when: (1) population naturally divides into homogeneous subgroups (strata), (2) characteristic of interest varies across strata, (3) we want to ensure representation from all strata. Here, countries are natural strata with different views. Stratified sampling ensures each country is represented proportionally. Cluster sampling would treat each office as a complete unit and randomly select some offices entirely (losing representation from unselected countries). SRS wouldn't guarantee representation from all countries.",
+    "reasoning": "Different countries have different views (heterogeneous between countries, homogeneous within). Stratify by country to ensure all countries represented and to reduce variability. This is classic stratified sampling scenario.",
+    "steps": [
+      "5 countries with different smoking views",
+      "Population naturally divided into strata (countries)",
+      "Characteristic varies by stratum",
+      "Want representation from all countries",
+      "Stratified sampling appropriate",
+      "Answer: Stratified sample by country offices"
+    ],
+    "generatedAt": "2025-11-10T11:34:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_144",
+    "explanation": "Die outcomes: 1-2 (big breakfast, P=2/6=1/3), 3-6 (light breakfast, P=4/6=2/3). Probabilities of being late: Big breakfast: 15% = 0.15. Light breakfast: 6% = 0.06. Want: P(on time). Method 1 - Direct: P(on time) = P(big and on time) + P(light and on time) = (1/3)(0.85) + (2/3)(0.94) = 0.2833 + 0.6267 = 0.91. Method 2 - Complement: P(late) = (1/3)(0.15) + (2/3)(0.06) = 0.05 + 0.04 = 0.09, so P(on time) = 1 - 0.09 = 0.91.",
+    "reasoning": "Law of total probability: P(on time) = P(on time|big)P(big) + P(on time|light)P(light) = 0.85(1/3) + 0.94(2/3) \u2248 0.91.",
+    "steps": [
+      "P(big breakfast) = 2/6 = 1/3",
+      "P(light breakfast) = 4/6 = 2/3",
+      "P(on time | big) = 0.85",
+      "P(on time | light) = 0.94",
+      "P(on time) = (1/3)(0.85) + (2/3)(0.94)",
+      "= 0.2833 + 0.6267 = 0.91",
+      "Answer: 0.91"
+    ],
+    "generatedAt": "2025-11-10T11:36:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_145",
+    "explanation": "Salary distribution: many moderately paid teachers, few highly paid administrators. This creates a RIGHT-SKEWED distribution (long right tail from high administrator salaries). In right-skewed distributions: Mean > Median > Mode (mean pulled toward high values). Teachers' union wants to show salaries are LOW to justify raises. They should quote the MEDIAN, which is lower than the mean (not inflated by administrator salaries). The district would prefer to quote the MEAN (inflated by administrators, making salaries seem higher). Mode would be misleading (most common salary). Standard deviation describes spread, not typical value.",
+    "reasoning": "Right-skewed: Mean pulled up by high administrator salaries. Median better represents typical teacher salary. Union wants to show lower salaries \u2192 quote median, not mean.",
+    "steps": [
+      "Distribution: many moderate, few very high salaries",
+      "Shape: right-skewed",
+      "Right-skewed: Mean > Median",
+      "Mean inflated by administrator salaries",
+      "Median represents typical teacher better",
+      "Union wants lower figure \u2192 quote median",
+      "Answer: The median of all salaries"
+    ],
+    "generatedAt": "2025-11-10T11:38:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_146",
+    "explanation": "Manager used ALL engineers from both offices (15 in Atlanta, 14 in New Orleans) - this is the complete POPULATION of engineers, not a sample. Statistical inference (t-tests, confidence intervals) is used to make inferences about a POPULATION based on a SAMPLE. When you have the entire population, there's no sampling variability, no need for inference. The parameters (mean salaries) are KNOWN exactly - we can just compute them directly and compare. Using a t-test is inappropriate because: (1) There's no sample, (2) There's no sampling variability to account for, (3) We already KNOW the population parameters. The correct approach is simply to compare the two population means directly.",
+    "reasoning": "Inference tools (t-tests) are for estimating population parameters from samples. With complete population data, parameters are known exactly. No inference needed or appropriate.",
+    "steps": [
+      "Used all 15 Atlanta engineers (entire population)",
+      "Used all 14 New Orleans engineers (entire population)",
+      "No sampling - have complete population data",
+      "t-test is for sample \u2192 population inference",
+      "No sampling variability here",
+      "Answer: No, entire population used, no samples"
+    ],
+    "generatedAt": "2025-11-10T11:40:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_147",
+    "explanation": "Residuals = observed y - predicted y. Properties of residuals in regression: (A) Influential scores have large residuals: FALSE - influential points have high LEVERAGE (far from x\u0304) and may or may not have large residuals. Points with high leverage and small residuals actually have strong influence. (B) Good model \u2192 equal positive and negative residuals: FALSE - could have all positive or all negative if odd sample size. (C) Mean of residuals is always zero: TRUE - by construction of least squares, \u03a3(residuals) = 0, so mean = 0. (D) If r = 0, distinct pattern in residual plot: FALSE - if r = 0, no linear relationship, so residual plot should show random scatter, not a distinct pattern.",
+    "reasoning": "Least squares regression minimizes \u03a3(residuals)\u00b2. A property of this minimization is that \u03a3(residuals) = 0, making the mean residual always equal to zero.",
+    "steps": [
+      "Residual = observed - predicted",
+      "Option A: Influential \u2260 large residual (leverage matters)",
+      "Option B: Not necessarily equal counts",
+      "Option C: \u03a3(residuals) = 0 by least squares \u2713",
+      "Mean residual = 0 always",
+      "Option D: r=0 gives random scatter, not pattern",
+      "Answer: Mean of residuals is always zero"
+    ],
+    "generatedAt": "2025-11-10T11:42:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_148",
+    "explanation": "Experimental design: 8th graders get 4 hours extra reading, 7th graders get 2 hours, 6th graders get 0 hours (control). Problem: GRADE LEVEL is confounded with READING TIME. We can't tell if GPA differences are due to reading time OR due to grade level (older students naturally perform differently). This is a LURKING VARIABLE problem. To establish causation, the treatment (reading time) must be the only systematic difference between groups. Here, groups differ in BOTH reading time AND grade level. Proper design: randomly assign students of THE SAME grade to different reading amounts. This experiment CAN show association but CANNOT establish cause-and-effect because of confounding.",
+    "reasoning": "Confounding: treatment (reading time) varies with grade level. Can't separate reading effect from grade level effect. This violates key experimental design principle - only one variable should differ systematically between groups.",
+    "steps": [
+      "8th graders: 4 hours extra",
+      "7th graders: 2 hours extra",
+      "6th graders: 0 hours (control)",
+      "Problem: Grade level AND reading time both vary",
+      "Grade level confounded with treatment",
+      "Can't determine if differences due to reading or grade",
+      "Answer: No, grade level is lurking/confounded variable"
+    ],
+    "generatedAt": "2025-11-10T11:44:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_149",
+    "explanation": "A sampling distribution is the probability distribution of a STATISTIC (like sample mean, sample proportion) across all possible samples of a given size from a population. Let's evaluate: (A) Distribution of all statistics in one sample: NO - this describes the sample itself. (B) Visual representation of a sample: NO - this is a sample distribution, not sampling distribution. (C) A normal distribution of some statistic: NO - not all sampling distributions are normal. (D) Distribution of all values of a statistic from all possible samples of given size: YES! This is the correct definition. For example, the sampling distribution of x\u0304 shows all possible sample mean values and their probabilities.",
+    "reasoning": "Sampling distribution: distribution of a statistic (x\u0304, p\u0302, etc.) across all possible samples. It's theoretical - what would happen if we took every possible sample and calculated the statistic each time.",
+    "steps": [
+      "Sampling distribution: distribution of a statistic",
+      "Consider ALL possible samples of size n",
+      "Calculate statistic for each sample",
+      "Distribution of those statistic values",
+      "Option D: Correct definition \u2713",
+      "Answer: Distribution of statistic from all possible samples"
+    ],
+    "generatedAt": "2025-11-10T11:46:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_150",
+    "explanation": "Test: H\u2080: \u03bc=4.0 vs H\u2090: \u03bc>4.0 (one-sided), \u03b1=0.05. Data: n=16, x\u0304=4.3, s=0.6. Normally distributed population. Calculate test statistic: t = (x\u0304 - \u03bc\u2080)/(s/\u221an) = (4.3 - 4.0)/(0.6/\u221a16) = 0.3/(0.6/4) = 0.3/0.15 = 2.0. With n=16, df=15. This is a t-test (not z-test) because we're using sample SD, not population \u03c3. P-value for one-sided test: P(t > 2.0) with df=15. The correct answer is option (C): P(t > 2) with 15 degrees of freedom.",
+    "reasoning": "Use t-test (sample SD, small n). Test statistic t = (4.3-4.0)/(0.6/4) = 2.0. One-sided test: P-value = P(t > 2) with df = n-1 = 15.",
+    "steps": [
+      "t = (x\u0304 - \u03bc\u2080)/(s/\u221an)",
+      "t = (4.3 - 4.0)/(0.6/4)",
+      "t = 0.3/0.15 = 2.0",
+      "df = n - 1 = 15",
+      "One-sided (>): P-value = P(t > 2)",
+      "Answer: P(t > 2) with 15 df"
+    ],
+    "generatedAt": "2025-11-10T11:48:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_151",
+    "explanation": "Study setup: told workers music would change daily, noted production. EVERY music change increased production. This is NOT due to music itself - it's the HAWTHORNE EFFECT (or placebo effect in broader sense). When people know they're being observed or that something is being changed, they modify their behavior, often improving performance. The workers responded to being in a study and having changes made, not to the specific music. This is a classic example of the placebo/Hawthorne effect - the psychological impact of being observed/treated, rather than the treatment itself causing the change.",
+    "reasoning": "Production increased with EVERY change, regardless of music type. This suggests response to being studied and experiencing change (attention/novelty), not to music itself. Classic placebo/Hawthorne effect.",
+    "steps": [
+      "Every music change \u2192 production increase",
+      "Not about specific music (all changes worked)",
+      "Workers knew about study and changes",
+      "Responded to attention and novelty",
+      "Classic placebo/Hawthorne effect",
+      "Answer: The placebo effect"
+    ],
+    "generatedAt": "2025-11-10T11:50:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_152",
+    "explanation": "Design: 30 patients randomly assigned to two groups (current medicine vs experimental). Lab technician unaware of which medicine (single-blind). Each patient gets ONE treatment. This is a COMPLETELY RANDOMIZED DESIGN - subjects randomly assigned to treatments, no blocking or pairing structure. The two medicines are TREATMENTS (what we're comparing), not blocks (which would be grouping variables). It's NOT matched pairs (would need same patient receiving both treatments or pairs matched on characteristics). It's NOT randomized block (would need identified blocking variable like disease severity). Single-blind is a feature of the design but doesn't change that it's completely randomized.",
+    "reasoning": "Random assignment to two treatment groups with no blocking structure = completely randomized design. The two medicines are treatments being compared.",
+    "steps": [
+      "30 patients randomly assigned to 2 groups",
+      "Each patient gets one treatment",
+      "No blocking or matching described",
+      "Two medicines = two treatments",
+      "Random assignment with no structure",
+      "Answer: Completely randomized, two treatments"
+    ],
+    "generatedAt": "2025-11-10T11:52:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_153",
+    "explanation": "Truck weights normally distributed. Given: P(X > 12,000) = 0.70, P(X > 10,000) = 0.80. From P(X > 12,000) = 0.70, we get P(X \u2264 12,000) = 0.30, so z \u2248 -0.524 (30th percentile). From P(X > 10,000) = 0.80, we get P(X \u2264 10,000) = 0.20, so z \u2248 -0.842 (20th percentile). Set up equations: (12,000 - \u03bc)/\u03c3 = -0.524 and (10,000 - \u03bc)/\u03c3 = -0.842. From first: 12,000 - \u03bc = -0.524\u03c3 \u2192 \u03bc = 12,000 + 0.524\u03c3. From second: 10,000 - \u03bc = -0.842\u03c3 \u2192 \u03bc = 10,000 + 0.842\u03c3. Set equal: 12,000 + 0.524\u03c3 = 10,000 + 0.842\u03c3 \u2192 2,000 = 0.318\u03c3 \u2192 \u03c3 \u2248 6,289 \u2248 6,100. Then \u03bc = 12,000 + 0.524(6,100) \u2248 15,196 \u2248 14,900 or 15,100.",
+    "reasoning": "Two conditions give two equations with \u03bc and \u03c3. Solve simultaneously: difference in means divided by difference in z-scores gives \u03c3, then solve for \u03bc.",
+    "steps": [
+      "P(X>12000)=0.70 \u2192 z=-0.524",
+      "P(X>10000)=0.80 \u2192 z=-0.842",
+      "12000-\u03bc = -0.524\u03c3",
+      "10000-\u03bc = -0.842\u03c3",
+      "Subtract: 2000 = 0.318\u03c3 \u2192 \u03c3\u22486300",
+      "\u03bc = 10000 + 0.842(6300) \u2248 15,300",
+      "Answer: \u03bc=15,300, \u03c3=6,300"
+    ],
+    "generatedAt": "2025-11-10T11:54:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_154",
+    "explanation": "Agent succeeds 20% of the time. For simulation, need to assign digits to represent success/failure with correct probability. With 10 digits (0-9): 20% success means 2 out of 10 digits should represent success. Evaluate options: (A) 0,1 = success (2/10 = 20%), 2-9 = failure (8/10 = 80%): CORRECT probability. (B) 0,1 = success (2/5 = 40%), 2-4 = failure (3/5 = 60%): Only uses 5 digits, wrong probabilities. (C) 0 = success (1/2 = 50%), 1 = failure (1/2 = 50%): Wrong probabilities. (D) 0-4 = success (5/10 = 50%), 5-9 = failure: Wrong, gives 50% success rate, not 20%.",
+    "reasoning": "Need 20% success rate. With 10 digits available (0-9), assign 2 digits to success (20%) and 8 to failure (80%). Option A does this correctly.",
+    "steps": [
+      "Success rate: 20% = 0.20",
+      "Using digits 0-9 (10 total)",
+      "Need 2 digits for success, 8 for failure",
+      "Option A: 0,1=success (20%), 2-9=failure (80%) \u2713",
+      "Other options: wrong probabilities",
+      "Answer: Assign 0,1 to success, 2-9 to failure"
+    ],
+    "generatedAt": "2025-11-10T11:56:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_155",
+    "explanation": "Midterm: \u03bc=52, \u03c3=4. Final: \u03bc=112, \u03c3=10. Student scored 58 on midterm. Find her z-score: z = (58-52)/4 = 6/4 = 1.5. If she has the SAME z-score on final, then: 1.5 = (x-112)/10. Solve: 1.5(10) = x-112 \u2192 15 = x-112 \u2192 x = 127. Her final exam score must be 127 points to have the same standardized score (1.5 standard deviations above the mean).",
+    "reasoning": "Same z-score means same position relative to distribution. Midterm z = 1.5. For final: 1.5 = (x-112)/10 \u2192 x = 112 + 15 = 127.",
+    "steps": [
+      "Midterm z-score: (58-52)/4 = 1.5",
+      "Same z-score on final: z = 1.5",
+      "Final: 1.5 = (x-112)/10",
+      "Solve: x = 112 + 1.5(10)",
+      "x = 112 + 15 = 127",
+      "Answer: 127 points"
+    ],
+    "generatedAt": "2025-11-10T11:58:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_156",
+    "explanation": "Central Limit Theorem (CLT): For sufficiently large n, the sampling distribution of x\u0304 is approximately normal, REGARDLESS of the population distribution shape. Key points: (A) Need both normal population AND large n: FALSE - if population is normal, x\u0304 is exactly normal for any n. If population is non-normal, need large n. (B) Need to know \u03c3: FALSE - shape of sampling distribution doesn't depend on knowing \u03c3. (C) If n large, approximately normal regardless of population: TRUE - this IS the CLT. For n \u2265 30 (rule of thumb), x\u0304 is approximately normal even if population is non-normal. (D) Normal regardless of n or population: FALSE - need either normal population OR large n.",
+    "reasoning": "CLT states: large n makes x\u0304 approximately normal regardless of population shape. This is the power of CLT - normality of sampling distribution even from non-normal populations.",
+    "steps": [
+      "CLT: large n \u2192 x\u0304 approximately normal",
+      "Works for any population shape if n large enough",
+      "Don't need population to be normal if n large",
+      "Option C: Correct statement of CLT \u2713",
+      "Answer: If n large, normal regardless of population"
+    ],
+    "generatedAt": "2025-11-10T12:00:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_157",
+    "explanation": "Given: H\u2080: p=0.6, test for H\u2090: p=0.7, power=0.8. Power = P(reject H\u2080 | H\u2090 true) = 0.8. This means: P(correctly reject when p=0.7) = 0.8. Type II error \u03b2 = P(fail to reject H\u2080 | H\u2090 true) = 1 - power = 1 - 0.8 = 0.2. So: (A) P(Type I error) = 0.1: We're not told \u03b1, so can't confirm this. (B) If H\u2090 true, P(fail to reject H\u2080) = 0.2: TRUE - this is definition of Type II error = 1 - power = 0.2. (C) P(Type II error) = 0.3: FALSE - it's 0.2, not 0.3. (D) All above valid: FALSE - only B is confirmed true.",
+    "reasoning": "Power = 0.8 means P(reject H\u2080 when H\u2090 true) = 0.8. Therefore P(fail to reject when H\u2090 true) = 1 - 0.8 = 0.2. This is the Type II error probability (or 1-power).",
+    "steps": [
+      "Power = 0.8 given",
+      "Power = P(reject | H\u2090 true)",
+      "P(fail to reject | H\u2090 true) = 1 - power = 0.2",
+      "This is Type II error probability",
+      "Option B: P(fail to reject if H\u2090 true) = 0.2 \u2713",
+      "Answer: If H\u2090 true, P(fail to reject) = 0.2"
+    ],
+    "generatedAt": "2025-11-10T12:02:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_158",
+    "explanation": "Salaries normally distributed: \u03bc=$55,800, Q1=$48,815. First quartile Q1 is the 25th percentile, corresponding to z \u2248 -0.674. Use formula: Q1 = \u03bc + z\u00b7\u03c3. We have: 48,815 = 55,800 + (-0.674)\u03c3. Solve: -6,985 = -0.674\u03c3 \u2192 \u03c3 = 6,985/0.674 \u2248 10,364 \u2248 $10,356.",
+    "reasoning": "Q1 at 25th percentile \u2192 z \u2248 -0.674. Use Q1 = \u03bc + z\u03c3 to solve for \u03c3: 48,815 = 55,800 - 0.674\u03c3 \u2192 \u03c3 \u2248 10,356.",
+    "steps": [
+      "Q1 = 25th percentile \u2192 z \u2248 -0.674",
+      "Formula: Q1 = \u03bc + z\u03c3",
+      "48,815 = 55,800 + (-0.674)\u03c3",
+      "48,815 = 55,800 - 0.674\u03c3",
+      "-6,985 = -0.674\u03c3",
+      "\u03c3 = 6,985/0.674 \u2248 10,356",
+      "Answer: $10,356"
+    ],
+    "generatedAt": "2025-11-10T12:04:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_159",
+    "explanation": "Rainfall: \u03bc=6 inches, \u03c3=1.6 inches, normally distributed. Want: highest amount for 10% driest months. '10% driest' means 10% with LEAST rainfall, i.e., 10th percentile. For 10th percentile: z \u2248 -1.282. Calculate: x = \u03bc + z\u03c3 = 6 + (-1.282)(1.6) = 6 - 2.051 = 3.949 \u2248 3.95 inches. Months with \u2264 3.95 inches are among the 10% driest.",
+    "reasoning": "10% driest = bottom 10% = 10th percentile. z for 10th percentile \u2248 -1.282. x = 6 + (-1.282)(1.6) \u2248 3.95 inches.",
+    "steps": [
+      "10% driest = 10th percentile",
+      "z for 10th percentile \u2248 -1.282",
+      "x = \u03bc + z\u03c3",
+      "x = 6 + (-1.282)(1.6)",
+      "x = 6 - 2.051 \u2248 3.95",
+      "Answer: 3.95 inches"
+    ],
+    "generatedAt": "2025-11-10T12:06:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_160",
+    "explanation": "Establishing cause-and-effect relationships: (A) Complete census: NO - even with entire population, observational data cannot prove causation. (B) Regression line with high correlation: NO - correlation does not imply causation, no matter how strong. (C) Simple random sample (SRS): NO - SRS is good for reducing bias, but observation alone (even with good sampling) cannot prove causation. (D) An experiment: YES - controlled experiments with random assignment to treatments can establish cause-and-effect by eliminating confounding and showing that treatment causes the observed difference in response. Only experiments can strongly suggest causation.",
+    "reasoning": "Causation requires: manipulation of explanatory variable, control of confounders, random assignment. Only experiments provide this. Observational data (census, surveys, correlations) cannot prove causation.",
+    "steps": [
+      "Causation needs: manipulation + control",
+      "Census: observational, can't prove causation",
+      "Correlation: never proves causation",
+      "SRS: good sampling, but still observational",
+      "Experiment: manipulates treatment, controls confounding \u2713",
+      "Answer: An experiment"
+    ],
+    "generatedAt": "2025-11-10T12:08:00.000Z"
   }
 ]
