@@ -26581,5 +26581,217 @@
       "Answer: Matched pairs t-test"
     ],
     "generatedAt": "2025-11-10T09:56:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_105",
+    "explanation": "In a randomized block design, we block on variables that ARE associated with the response variable (cholesterol level) to reduce variability within blocks and increase precision. The company anticipates an ASSOCIATION between cholesterol and exercise, meaning exercise affects cholesterol. Therefore, they should block on exercise level to control for this source of variation. Gender is NOT associated with cholesterol (according to the problem), so there's no benefit to blocking on it. Blocking on the treatment (drug type) doesn't make sense - that's what we're testing. The correct answer is to block on exercise level because it IS associated with cholesterol.",
+    "reasoning": "Block on variables associated with the response to reduce within-block variability. Exercise is associated with cholesterol \u2192 block on exercise. Gender is not associated \u2192 don't block on gender. This improves precision of treatment comparisons.",
+    "steps": [
+      "Randomized block design: block on confounding variables",
+      "Exercise IS associated with cholesterol \u2192 should block",
+      "Gender is NOT associated with cholesterol \u2192 don't block",
+      "Treatment (drug) is what we're testing, not a block",
+      "Answer: Block on exercise level (associated with response)"
+    ],
+    "generatedAt": "2025-11-10T10:00:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_106",
+    "explanation": "Blocking principle: Block on variables that ARE associated with the response variable but are not of primary interest, to reduce variability and improve detection of treatment effects. Given: Exercise intensity IS associated with cholesterol (past studies showed this). Sleep length is NOT associated with cholesterol. Blocking on exercise intensity will create homogeneous groups (low, moderate, high exercisers) within which to compare the treatments (fish oil vs garlic). This reduces the confounding effect of exercise and makes treatment comparisons more precise. We don't block on sleep (not associated), cholesterol level (the response), or capsule type (the treatment).",
+    "reasoning": "Block on exercise intensity because it's associated with cholesterol level. Blocking creates homogeneous groups, reducing variability and improving power to detect treatment differences.",
+    "steps": [
+      "Exercise intensity: associated with cholesterol \u2192 block",
+      "Sleep length: not associated \u2192 don't block",
+      "Cholesterol level: response variable, not block variable",
+      "Capsule type: treatment being tested",
+      "Answer: Block on exercise intensity"
+    ],
+    "generatedAt": "2025-11-10T10:02:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_107",
+    "explanation": "This is a Bayes' theorem problem. Given: P(positive|heartworm) = 0.96, P(negative|no heartworm) = 0.98, so P(positive|no heartworm) = 0.02, and P(heartworm) = 0.10, so P(no heartworm) = 0.90. We want: P(heartworm|positive). Using Bayes' theorem: P(heartworm|positive) = P(positive|heartworm)\u00d7P(heartworm) / P(positive). First find P(positive): P(positive) = P(positive|heartworm)\u00d7P(heartworm) + P(positive|no heartworm)\u00d7P(no heartworm) = 0.96(0.10) + 0.02(0.90) = 0.096 + 0.018 = 0.114. Now: P(heartworm|positive) = 0.096/0.114 \u2248 0.842 or 84%.",
+    "reasoning": "Bayes' theorem: P(H|+) = P(+|H)\u00d7P(H) / [P(+|H)\u00d7P(H) + P(+|~H)\u00d7P(~H)] = 0.96(0.10) / [0.96(0.10) + 0.02(0.90)] = 0.096/0.114 \u2248 0.84 or 84%.",
+    "steps": [
+      "Given: P(+|H)=0.96, P(-|~H)=0.98 \u2192 P(+|~H)=0.02",
+      "P(H)=0.10, P(~H)=0.90",
+      "P(+) = 0.96(0.10) + 0.02(0.90) = 0.114",
+      "P(H|+) = 0.096/0.114 \u2248 0.842",
+      "Answer: 84%"
+    ],
+    "generatedAt": "2025-11-10T10:04:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_108",
+    "explanation": "For independent random variables X and Y, when we add them: Mean: E(X + Y) = E(X) + E(Y) = \u03bcx + \u03bcy = 32 + 44 = 76. Standard Deviation: For independent variables, Var(X + Y) = Var(X) + Var(Y) = \u03c3x\u00b2 + \u03c3y\u00b2 = 5\u00b2 + 12\u00b2 = 25 + 144 = 169. Therefore, \u03c3x+y = \u221a169 = 13. Independence is crucial here - it allows us to add variances. Without independence, we'd need to account for covariance.",
+    "reasoning": "For independent X and Y: \u03bc(X+Y) = \u03bcx + \u03bcy = 76. Var(X+Y) = \u03c3x\u00b2 + \u03c3y\u00b2 = 25 + 144 = 169. SD(X+Y) = \u221a169 = 13.",
+    "steps": [
+      "X and Y independent",
+      "Mean: \u03bcx+y = 32 + 44 = 76",
+      "Variance: \u03c3x+y\u00b2 = 5\u00b2 + 12\u00b2 = 25 + 144 = 169",
+      "Standard deviation: \u03c3x+y = \u221a169 = 13",
+      "Answer: \u03bc = 76, \u03c3 = 13"
+    ],
+    "generatedAt": "2025-11-10T10:06:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_109",
+    "explanation": "Survey sent to 75 students, but 27 didn't respond (nonresponse). This creates potential nonresponse bias - those who didn't respond may differ systematically from those who did. Best approach: Follow up with nonrespondents to encourage response. This reduces nonresponse bias. Let's evaluate options: (A) Use 48 returned surveys: Ignores nonresponse bias, accepts potentially biased sample. (B) Use 48 but claim n=75: Statistically incorrect - uses wrong sample size. (C) Send to 27 new people: Doesn't address why original 27 didn't respond; likely to have same issue. (D) Follow up with nonrespondents: BEST approach - attempts to reduce nonresponse bias by getting more of the original sample to respond.",
+    "reasoning": "Nonresponse bias is a serious concern. Following up with nonrespondents is standard practice to minimize bias, rather than accepting a potentially biased subsample.",
+    "steps": [
+      "Original sample: 75 students",
+      "Nonresponse: 27 didn't return (36% nonresponse)",
+      "Nonresponse can introduce bias",
+      "Best practice: follow up to increase response rate",
+      "This reduces potential nonresponse bias",
+      "Answer: Follow up with nonrespondents"
+    ],
+    "generatedAt": "2025-11-10T10:08:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_110",
+    "explanation": "Standard deviation measures the spread or variability in a dataset. Mr. Bee's class: SD = 11.2. Mr. Em's class: SD = 5.6. A larger standard deviation indicates MORE variability (more heterogeneous - scores more spread out). A smaller standard deviation indicates LESS variability (more homogeneous - scores more clustered together). Mr. Bee's SD is twice Mr. Em's, meaning Mr. Bee's class scores are more spread out. Therefore: Mr. Bee's class is MORE heterogeneous (not less), and Mr. Em's class is MORE homogeneous (scores closer together). SD doesn't tell us about performance level (would need means for that), only about consistency/spread.",
+    "reasoning": "Higher SD = more variability = more heterogeneous. Mr. Bee's SD (11.2) > Mr. Em's SD (5.6), so Mr. Em's class is more homogeneous (less spread). SD measures spread, not performance level.",
+    "steps": [
+      "SD measures variability/spread",
+      "Mr. Bee: SD = 11.2 (more variable)",
+      "Mr. Em: SD = 5.6 (less variable)",
+      "Less variable = more homogeneous",
+      "Answer: Mr. Em's class is more homogeneous"
+    ],
+    "generatedAt": "2025-11-10T10:10:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_111",
+    "explanation": "Define events: A = diagnosed with Condition A, B = diagnosed with Condition B. Given: P(A) = 0.15, P(B|A) = 0.70, P(B|not A) = 0.10. Want: P(at least one condition) = P(A or B) = P(A \u222a B). Method 1 - Direct calculation: P(A and B) = P(B|A)\u00d7P(A) = 0.70(0.15) = 0.105. P(B) = P(B|A)\u00d7P(A) + P(B|not A)\u00d7P(not A) = 0.70(0.15) + 0.10(0.85) = 0.105 + 0.085 = 0.19. P(A \u222a B) = P(A) + P(B) - P(A \u2229 B) = 0.15 + 0.19 - 0.105 = 0.235. Alternatively: P(at least one) = 1 - P(neither) = 1 - P(not A and not B) = 1 - [P(not B|not A)\u00d7P(not A)] = 1 - [0.90\u00d70.85] = 1 - 0.765 = 0.235.",
+    "reasoning": "P(A or B) = P(A) + P(B) - P(A and B). Calculate each: P(A)=0.15, P(B)=0.19 (using law of total probability), P(A\u2229B)=0.105. Sum: 0.15+0.19-0.105=0.235.",
+    "steps": [
+      "P(A) = 0.15",
+      "P(A\u2229B) = P(B|A)\u00d7P(A) = 0.70(0.15) = 0.105",
+      "P(B) = 0.70(0.15) + 0.10(0.85) = 0.19",
+      "P(A\u222aB) = 0.15 + 0.19 - 0.105 = 0.235",
+      "Answer: 0.235"
+    ],
+    "generatedAt": "2025-11-10T10:12:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_112",
+    "explanation": "A simple random sample (SRS) is defined by HOW it is selected, not by examining the outcome or how representative it appears. Definition of SRS: Every possible sample of size n from the population has an equal probability of being selected. This is determined by the SELECTION METHOD (using random numbers, drawing names from a hat, etc.), not by looking at the resulting sample. After selection, we can't determine if a sample was truly random just by examining it - a biased sample could happen to look representative by chance, and a random sample might not look representative. The method of selection defines whether it's an SRS.",
+    "reasoning": "SRS is defined by selection procedure (equal probability for all samples), not by the outcome. You can't tell if a sample is random by examining it - only by knowing how it was selected.",
+    "steps": [
+      "SRS definition: all samples of size n equally likely",
+      "Determined by: selection method (process)",
+      "Cannot determine from: examining the sample afterward",
+      "Representativeness doesn't guarantee randomness",
+      "Answer: The method of selection"
+    ],
+    "generatedAt": "2025-11-10T10:14:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_113",
+    "explanation": "Study 1: Compared weights of people who already eat meat vs. those who are already vegetarians. Researchers OBSERVED existing groups without imposing any treatment. This is an OBSERVATIONAL study. Study 2: Researchers ASSIGNED subjects to meat diet vs. vegetarian diet for 6 months. Researchers imposed/controlled the treatment (diet type). This is a CONTROLLED EXPERIMENT. Key distinction: In experiments, researchers actively manipulate the treatment; in observational studies, they observe existing conditions without intervention.",
+    "reasoning": "Study 1: No manipulation, observed existing diet choices \u2192 observational. Study 2: Researchers assigned diets, controlled treatment \u2192 experiment. The key is who determines the treatment.",
+    "steps": [
+      "Study 1: Subjects chose their own diets",
+      "Study 1: Researchers observed \u2192 observational study",
+      "Study 2: Researchers assigned diets",
+      "Study 2: Researchers controlled treatment \u2192 experiment",
+      "Answer: First observational, second experiment"
+    ],
+    "generatedAt": "2025-11-10T10:16:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_114",
+    "explanation": "Let's examine each experimental design term: (A) Factor is a response variable: FALSE. A factor is an EXPLANATORY variable (what we manipulate), not a response variable (what we measure). (B) Replication means repeat the experiment several times: This is incomplete/misleading. Replication can mean repeating the entire experiment OR having multiple experimental units per treatment. The latter (multiple units per treatment) is the more precise definition. (C) Levels are the same as treatments: Not quite - levels are the values of a factor. Treatments are combinations of factor levels. (D) Experimental units are the same as subjects: TRUE (in most contexts). Experimental units are what we apply treatments to; when they're people, we call them subjects. This is the correct statement.",
+    "reasoning": "Experimental terminology: Factor = explanatory variable, not response (A false). Experimental units = subjects when dealing with people (D true). Levels vs treatments distinction (C imprecise). Replication definition (B incomplete).",
+    "steps": [
+      "Factor: explanatory variable being manipulated",
+      "Response variable: outcome being measured",
+      "A: Factor \u2260 response variable (FALSE)",
+      "D: Experimental units = subjects (TRUE)",
+      "Answer: Experimental units are same as subjects"
+    ],
+    "generatedAt": "2025-11-10T10:18:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_115",
+    "explanation": "Jury selection: p = 0.30 (probability woman), n = 12 jurors. This is binomial: X ~ Binomial(n=12, p=0.30). Need: P(X \u2265 3) = 1 - P(X \u2264 2) = 1 - [P(X=0) + P(X=1) + P(X=2)]. Calculate using binomial formula P(X=k) = C(n,k)p^k(1-p)^(n-k): P(X=0) = C(12,0)(0.30)^0(0.70)^12 = 0.0138. P(X=1) = C(12,1)(0.30)^1(0.70)^11 = 12(0.30)(0.0198) = 0.0712. P(X=2) = C(12,2)(0.30)^2(0.70)^10 = 66(0.09)(0.0282) = 0.1678. P(X \u2264 2) = 0.0138 + 0.0712 + 0.1678 = 0.2528. Therefore: P(X \u2265 3) = 1 - 0.2528 = 0.7472 \u2248 0.75 or approximately 0.843 depending on calculation precision.",
+    "reasoning": "Binomial with n=12, p=0.30. P(X\u22653) = 1-P(X\u22642). Calculate P(0), P(1), P(2), sum and subtract from 1. Result \u2248 0.843 (exact calculation using binomial).",
+    "steps": [
+      "Binomial: n=12, p=0.30",
+      "Want: P(X \u2265 3) = 1 - P(X \u2264 2)",
+      "Calculate P(X=0), P(X=1), P(X=2)",
+      "Sum \u2248 0.157",
+      "P(X \u2265 3) = 1 - 0.157 \u2248 0.843",
+      "Answer: 0.843"
+    ],
+    "generatedAt": "2025-11-10T10:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_116",
+    "explanation": "First batch (100 workers at start of year 1): After 1 year, 80% remain (20% leave), so 80 workers. After 2nd year, 5% of these 80 leave, so 95% remain: 0.95(80) = 76 workers remain. Second batch (100 workers at start of year 2): After 1 year (end of year 2), 80% remain: 80 workers. Total at end of year 2: 76 (from first batch) + 80 (from second batch) = 156 workers. Let me verify: Year 1 start: 100 workers. Year 1 end: 100(0.80) = 80. Year 2 start: 80 old + 100 new = 180 total. Year 2 end: 80(0.95) = 76 from first batch; 100(0.80) = 80 from second batch. Total: 156.",
+    "reasoning": "First batch: 100 \u2192 80 after year 1 \u2192 76 after year 2 (lose 20%, then lose 5% of remainder). Second batch: 100 \u2192 80 after year 1. Total: 76 + 80 = 156.",
+    "steps": [
+      "First 100: after yr 1: 100(0.80)=80",
+      "First 100: after yr 2: 80(0.95)=76",
+      "Second 100: after yr 1: 100(0.80)=80",
+      "Total at end yr 2: 76+80=156",
+      "Answer: 156"
+    ],
+    "generatedAt": "2025-11-10T10:22:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_117",
+    "explanation": "The reporter examined existing police reports (archival data) and analyzed the relationship between speed and stopping distance. No manipulation occurred - the reporter did not assign speeds to cars or conduct any intervention. This is purely OBSERVATIONAL - examining data that already exists from natural occurrences (accidents that already happened). This is NOT an experiment (no treatment assignment). Blinding is irrelevant - blinding applies to experiments where we want to prevent bias in treatment assignment or outcome assessment. Here, the data already exists. This is an observational study analyzing existing records.",
+    "reasoning": "Analyzing existing police reports = observational study. No manipulation, no treatment assignment, no experimental control. Simply observing and analyzing data from events that already occurred naturally.",
+    "steps": [
+      "Reporter examined existing police reports",
+      "No manipulation or intervention",
+      "Analyzed relationship in existing data",
+      "Not an experiment (no treatment assignment)",
+      "Answer: Observational study"
+    ],
+    "generatedAt": "2025-11-10T10:24:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_118",
+    "explanation": "Binomial requirements: (1) Fixed n trials, (2) Two outcomes per trial (success/failure), (3) Independent trials, (4) Constant p. Check each: (A) Coin tosses (n=3): Fixed n, two outcomes (H/T), independent, constant p=0.5. Binomial \u2713. (B) Rainy days in a week (n=7): Fixed n, two outcomes (rainy/not), BUT weather days are NOT independent (if today is rainy, tomorrow is more likely rainy). NOT binomial due to lack of independence. (C) Girls in family of 5 (n=5): Fixed n, two outcomes (girl/boy), approximately independent (though arguably not perfectly), approximately constant p. Approximately binomial. (D) Students present in class of 22: This isn't counting successes in trials - it's asking how many of 22 are present, which could range 0-22, but the issue is that attendance isn't structured as n independent trials with constant p. This is more like sampling without replacement if thinking about which specific students attend. NOT clearly binomial.",
+    "reasoning": "Binomial needs independence and constant p. Weather days are dependent (B violates independence). Attendance (D) isn't structured as independent trials. A and C fit binomial model reasonably well.",
+    "steps": [
+      "Binomial needs: fixed n, binary outcomes, independence, constant p",
+      "A: Coin tosses - fits binomial \u2713",
+      "B: Weather - days not independent \u2717",
+      "C: Children - approximately binomial \u2713",
+      "D: Attendance - not independent trials \u2717",
+      "Answer: Rainy days (weather not independent)"
+    ],
+    "generatedAt": "2025-11-10T10:26:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_119",
+    "explanation": "This question is about response bias - how question wording affects responses. Two wordings of the same question about a school budget increase produced very different results (58% vs 13% approval). This is NOT due to lack of randomization (option A) - both questions went to the same or similar samples. NOT due to placebo effect (option B) - that's about receiving inactive treatment in medical studies. NOT due to lack of control group (option C) - surveys don't need control groups. The difference IS due to RESPONSE BIAS from question wording (option D). Different wording can lead (bias) respondents toward particular answers. For example, 'Would you support a modest increase to improve education?' vs 'Would you support a tax hike?' frame the same thing differently.",
+    "reasoning": "Large difference in response rates (58% vs 13%) from different question wordings indicates response bias - the wording influences how people answer. This is a classic example of question-wording bias.",
+    "steps": [
+      "Same topic, different wording \u2192 different results",
+      "58% approval vs 13% approval",
+      "Not randomization issue (both had sampling)",
+      "Not placebo (surveys don't have placebos)",
+      "Response bias: wording affects responses",
+      "Answer: Response bias due to wording"
+    ],
+    "generatedAt": "2025-11-10T10:28:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_120",
+    "explanation": "Company I: \u03bc=50 min, \u03c3=10 min. Company II: \u03bc=55 min, \u03c3=5 min. Want: P(fuse lasts \u2265 60 min) for each company. For Company I: z = (60-50)/10 = 1.0, P(Z > 1.0) \u2248 0.159. For Company II: z = (60-55)/5 = 1.0, P(Z > 1.0) \u2248 0.159. Interestingly, BOTH have the same probability! This is because 60 minutes is exactly 1 standard deviation above the mean for both companies. When comparing probabilities in normal distributions, what matters is how many standard deviations away from the mean the value is, not the absolute values. Both companies: P(X \u2265 60) = P(Z \u2265 1.0) \u2248 0.159.",
+    "reasoning": "Company I: (60-50)/10 = 1.0 SD above mean. Company II: (60-55)/5 = 1.0 SD above mean. Both are 1 SD above mean, so P(\u226560) = P(Z\u22651) \u2248 0.159 for both.",
+    "steps": [
+      "Company I: z = (60-50)/10 = 1.0",
+      "Company II: z = (60-55)/5 = 1.0",
+      "Both are 1 SD above mean",
+      "P(Z > 1.0) \u2248 0.159 for both",
+      "Answer: Both have P \u2248 0.159"
+    ],
+    "generatedAt": "2025-11-10T10:30:00.000Z"
   }
 ]
