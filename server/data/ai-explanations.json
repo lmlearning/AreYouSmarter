@@ -28324,5 +28324,159 @@
       "Answer: True, True"
     ],
     "generatedAt": "2025-11-12T11:56:39.244860Z"
+  },
+  {
+    "questionId": "abstract_algebra_6",
+    "explanation": "Statement 1: Every homomorphic image of a group G is isomorphic to a factor group of G. This is TRUE by the First Isomorphism Theorem. If \u03c6: G \u2192 H is a homomorphism, then Im(\u03c6) \u2245 G/ker(\u03c6). The image is isomorphic to the factor group G/ker(\u03c6), where ker(\u03c6) is a normal subgroup. Statement 2: The homomorphic images of G are the same (up to isomorphism) as the factor groups of G. This is also TRUE. By the First Isomorphism Theorem, every homomorphic image is isomorphic to some factor group G/N. Conversely, every factor group G/N is the homomorphic image of the natural projection \u03c0: G \u2192 G/N. Thus there's a bijection (up to isomorphism) between homomorphic images and factor groups. Both statements are TRUE. This is a fundamental result connecting homomorphisms, kernels, and quotient groups.",
+    "reasoning": "First Isomorphism Theorem: \u03c6: G\u2192H gives Im(\u03c6) \u2245 G/ker(\u03c6). Statement 1: Every image is isomorphic to some factor group. TRUE. Statement 2: Bijection between homomorphic images and factor groups (up to isomorphism). TRUE. Both statements express the FIT.",
+    "steps": [
+      "Statement 1: Homomorphic image \u2245 factor group?",
+      "First Isomorphism Theorem: Im(\u03c6) \u2245 G/ker(\u03c6)",
+      "Every image is G/N for some normal N",
+      "Statement 1: TRUE",
+      "Statement 2: Images \u2245 factor groups?",
+      "FIT: Im(\u03c6) \u2245 G/ker(\u03c6) (images \u2192 factor groups)",
+      "Natural projection: G/N is image of \u03c0 (factor groups \u2192 images)",
+      "Bijection up to isomorphism",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879484Z"
+  },
+  {
+    "questionId": "abstract_algebra_7",
+    "explanation": "Statement 1: A ring homomorphism is one-to-one if and only if the kernel is {0}. This is TRUE. For ring homomorphism \u03c6: R \u2192 S, ker(\u03c6) = {r \u2208 R : \u03c6(r) = 0}. If \u03c6 is injective and \u03c6(r) = 0, then r = 0 (since \u03c6(0) = 0 and \u03c6 injective), so ker(\u03c6) = {0}. Conversely, if ker(\u03c6) = {0} and \u03c6(a) = \u03c6(b), then \u03c6(a-b) = \u03c6(a) - \u03c6(b) = 0, so a-b \u2208 ker(\u03c6) = {0}, meaning a = b. Thus \u03c6 is injective. Statement 2: Q is an ideal in R. This is FALSE and unclear. If R is the ring of real numbers \u211d, then Q (rationals) is a subring but NOT an ideal. For Q to be an ideal, we'd need r\u00b7q \u2208 Q for all r \u2208 R and q \u2208 Q. But \u03c0\u00b71 = \u03c0 \u2209 Q, where \u03c0 \u2208 R and 1 \u2208 Q. Generally, Q is not an ideal in any ring containing irrational numbers. Statement 1 is TRUE, Statement 2 is FALSE.",
+    "reasoning": "Statement 1: ker(\u03c6)={0} \u2194 \u03c6 injective. TRUE (standard result for ring homomorphisms, analogous to group homomorphisms). Statement 2: Q ideal in R? FALSE. Q\u2282\u211d is subring, not ideal (\u03c0\u00b71=\u03c0\u2209Q). Answer: True, False.",
+    "steps": [
+      "Statement 1: \u03c6 injective \u2194 ker(\u03c6)={0}?",
+      "ker(\u03c6)={0} \u2192 \u03c6(a)=\u03c6(b) \u2192 \u03c6(a-b)=0 \u2192 a-b=0 \u2192 a=b",
+      "\u03c6 injective \u2192 \u03c6(r)=0 and \u03c6(0)=0 \u2192 r=0",
+      "Statement 1: TRUE",
+      "Statement 2: Q ideal in R?",
+      "If R=\u211d, then \u03c0\u2208R, 1\u2208Q, but \u03c0\u00b71=\u03c0\u2209Q",
+      "Q not closed under multiplication by R",
+      "Statement 2: FALSE",
+      "Answer: True, False"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879501Z"
+  },
+  {
+    "questionId": "abstract_algebra_8",
+    "explanation": "We need to find [Q(\u221a2+\u221a3):Q]. Let \u03b1 = \u221a2+\u221a3. We need to find the minimal polynomial of \u03b1 over Q. Note that \u03b1\u00b2 = (\u221a2+\u221a3)\u00b2 = 2 + 2\u221a6 + 3 = 5 + 2\u221a6. So \u03b1\u00b2 - 5 = 2\u221a6, and (\u03b1\u00b2-5)\u00b2 = 4\u00b76 = 24. This gives (\u03b1\u00b2-5)\u00b2 = 24, i.e., \u03b1\u2074 - 10\u03b1\u00b2 + 25 = 24, or \u03b1\u2074 - 10\u03b1\u00b2 + 1 = 0. So \u03b1 is a root of x\u2074 - 10x\u00b2 + 1. This polynomial is irreducible over Q (can be verified using rational root test and checking it doesn't factor into quadratics over Q). Therefore [Q(\u221a2+\u221a3):Q] = 4. Alternatively, note that Q(\u221a2+\u221a3) = Q(\u221a2, \u221a3) since \u221a2+\u221a3 generates both square roots (we can solve for \u221a2 and \u221a3). We showed earlier that [Q(\u221a2, \u221a3):Q] = 4 using the tower law. So the answer is 4.",
+    "reasoning": "\u03b1=\u221a2+\u221a3. Find minimal polynomial: \u03b1\u00b2=5+2\u221a6 \u2192 (\u03b1\u00b2-5)\u00b2=24 \u2192 \u03b1\u2074-10\u03b1\u00b2+1=0. This polynomial is irreducible over Q, degree 4. Therefore [Q(\u03b1):Q]=4. Alternatively, Q(\u221a2+\u221a3)=Q(\u221a2,\u221a3), which has degree 4.",
+    "steps": [
+      "\u03b1 = \u221a2+\u221a3",
+      "\u03b1\u00b2 = 2 + 2\u221a2\u221a3 + 3 = 5 + 2\u221a6",
+      "\u03b1\u00b2 - 5 = 2\u221a6",
+      "(\u03b1\u00b2-5)\u00b2 = 4\u00b76 = 24",
+      "\u03b1\u2074 - 10\u03b1\u00b2 + 25 = 24",
+      "\u03b1\u2074 - 10\u03b1\u00b2 + 1 = 0",
+      "Minimal polynomial has degree 4 (irreducible over Q)",
+      "[Q(\u221a2+\u221a3):Q] = 4",
+      "Answer: 4"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879503Z"
+  },
+  {
+    "questionId": "abstract_algebra_9",
+    "explanation": "We need to find zeros of f(x) = x\u00b3 + 2x + 2 in Z\u2087. Test each element of Z\u2087 = {0,1,2,3,4,5,6}: f(0) = 0 + 0 + 2 = 2 \u2260 0. f(1) = 1 + 2 + 2 = 5 \u2260 0. f(2) = 8 + 4 + 2 = 14 \u2261 0 (mod 7) \u2713. f(3) = 27 + 6 + 2 = 35 \u2261 0 (mod 7) \u2713. f(4) = 64 + 8 + 2 = 74 \u2261 4 (mod 7) \u2717. f(5) = 125 + 10 + 2 = 137 \u2261 4 (mod 7) \u2717. f(6) = 216 + 12 + 2 = 230 \u2261 6 (mod 7) \u2717. So the zeros are {2, 3}. Let me verify: f(2) = 2\u00b3 + 2(2) + 2 = 8 + 4 + 2 = 14 = 2\u00b77 \u2261 0 \u2713. f(3) = 3\u00b3 + 2(3) + 2 = 27 + 6 + 2 = 35 = 5\u00b77 \u2261 0 \u2713. The answer is {2, 3}.",
+    "reasoning": "Test all elements of Z\u2087: f(0)=2, f(1)=5, f(2)=14\u22610\u2713, f(3)=35\u22610\u2713, f(4)=74\u22614, f(5)=137\u22614, f(6)=230\u22616. Zeros are {2, 3}.",
+    "steps": [
+      "f(x) = x\u00b3 + 2x + 2 in Z\u2087",
+      "Test all elements:",
+      "f(0) = 2 \u2717",
+      "f(1) = 1+2+2 = 5 \u2717",
+      "f(2) = 8+4+2 = 14 \u2261 0 \u2713",
+      "f(3) = 27+6+2 = 35 \u2261 0 \u2713",
+      "f(4) = 64+8+2 = 74 \u2261 4 \u2717",
+      "f(5) = 125+10+2 = 137 \u2261 4 \u2717",
+      "f(6) = 216+12+2 = 230 \u2261 6 \u2717",
+      "Answer: 2,3"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879727Z"
+  },
+  {
+    "questionId": "abstract_algebra_10",
+    "explanation": "Statement 1: If H is a subgroup of G and a \u2208 G, then |aH| = |Ha|. This is TRUE. The left coset aH = {ah : h \u2208 H} and right coset Ha = {ha : h \u2208 H} always have the same cardinality as H. The map \u03c6: aH \u2192 Ha given by \u03c6(ah) = ha\u207b\u00b9a is a bijection (though this specific map requires care; more directly, both aH and Ha are in bijection with H via left/right multiplication). Since |aH| = |H| = |Ha|, we have |aH| = |Ha|. Statement 2: If H is a subgroup of G and a, b \u2208 G, then aH and Hb are identical or disjoint. This is FALSE. aH and Hb are different types of cosets (left vs right) and can partially overlap without being identical. For example, in S\u2083, let H = {e, (1,2)}, a = (1,2,3), b = (1,3,2). Then aH and Hb might intersect non-trivially without being equal. The correct statement would be: two LEFT cosets aH and bH are identical or disjoint, and two RIGHT cosets Ha and Hb are identical or disjoint. Statement 1 TRUE, Statement 2 FALSE.",
+    "reasoning": "Statement 1: |aH|=|H|=|Ha| always (bijections by multiplication). TRUE. Statement 2: aH (left coset) and Hb (right coset) don't follow identical-or-disjoint rule. That rule applies to cosets of the same type. FALSE. Answer: True, False.",
+    "steps": [
+      "Statement 1: |aH| = |Ha|?",
+      "aH = {ah : h\u2208H}, |aH| = |H|",
+      "Ha = {ha : h\u2208H}, |Ha| = |H|",
+      "Therefore |aH| = |Ha|",
+      "Statement 1: TRUE",
+      "Statement 2: aH and Hb identical or disjoint?",
+      "aH is LEFT coset, Hb is RIGHT coset",
+      "Different types, can overlap without being identical",
+      "Identical-or-disjoint applies within same type",
+      "Statement 2: FALSE",
+      "Answer: True, False"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879735Z"
+  },
+  {
+    "questionId": "abstract_algebra_11",
+    "explanation": "We have A = {1,2,3} and S = {(1,1), (2,2)}. Let's check properties: Reflexive: Need (a,a) \u2208 S for all a \u2208 A. We have (1,1), (2,2) but NOT (3,3). NOT reflexive. Symmetric: For all (a,b) \u2208 S, need (b,a) \u2208 S. S only has (1,1) and (2,2), both symmetric. S IS symmetric. Anti-symmetric: For all (a,b), (b,a) \u2208 S with a\u2260b, need a=b. Since we only have (1,1) and (2,2) (no distinct pairs), the condition is vacuously satisfied. S IS anti-symmetric. Transitive: For (a,b), (b,c) \u2208 S, need (a,c) \u2208 S. Only have (1,1) and (2,2), and (1,1)\u2218(1,1)=(1,1)\u2713, (2,2)\u2218(2,2)=(2,2)\u2713. IS transitive. Equivalence relation: Needs reflexive, symmetric, transitive. Since NOT reflexive, NOT equivalence. S is both symmetric AND anti-symmetric. The answer is (C) both symmetric and anti-symmetric.",
+    "reasoning": "S = {(1,1),(2,2)} on A={1,2,3}. Symmetric: (a,a) is always symmetric \u2713. Anti-symmetric: no distinct pairs, vacuously true \u2713. Reflexive: missing (3,3) \u2717. Equivalence: needs reflexive \u2717. Answer: Both symmetric and anti-symmetric.",
+    "steps": [
+      "A = {1,2,3}, S = {(1,1),(2,2)}",
+      "Reflexive? Need (3,3) - NO",
+      "Symmetric? (a,a) always symmetric - YES",
+      "Anti-symmetric? No distinct pairs - YES (vacuous)",
+      "Transitive? Compositions work - YES",
+      "Equivalence? Needs reflexive - NO",
+      "S is BOTH symmetric AND anti-symmetric",
+      "Answer: Both symmetric and anti-symmetric"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879738Z"
+  },
+  {
+    "questionId": "abstract_algebra_12",
+    "explanation": "We need to find the order of (Z\u2081\u2081 \u00d7 Z\u2081\u2085)/<(1,1)>. First, |Z\u2081\u2081 \u00d7 Z\u2081\u2085| = 11 \u00d7 15 = 165. The element (1,1) generates a cyclic subgroup <(1,1)>. The order of (1,1) is lcm(ord\u2081\u2081(1), ord\u2081\u2085(1)). In Z\u2081\u2081, the element 1 has order 11 (since 11\u00b71 \u2261 0). In Z\u2081\u2085, the element 1 has order 15 (since 15\u00b71 \u2261 0). Therefore ord(1,1) = lcm(11, 15) = 165 (since gcd(11,15) = 1). So |<(1,1)>| = 165. The factor group (Z\u2081\u2081 \u00d7 Z\u2081\u2085)/<(1,1)> has order |Z\u2081\u2081 \u00d7 Z\u2081\u2085|/|<(1,1)>| = 165/165 = 1. The factor group is trivial, containing only the identity element (the coset <(1,1)> itself). Answer is 1.",
+    "reasoning": "|Z\u2081\u2081\u00d7Z\u2081\u2085|=165. ord(1,1)=lcm(11,15)=165 (1 generates each factor). |<(1,1)>|=165. Factor group order = 165/165 = 1. The subgroup is the entire group, so quotient is trivial.",
+    "steps": [
+      "|Z\u2081\u2081 \u00d7 Z\u2081\u2085| = 11\u00b715 = 165",
+      "ord(1,1) in Z\u2081\u2081\u00d7Z\u2081\u2085",
+      "= lcm(ord(1 in Z\u2081\u2081), ord(1 in Z\u2081\u2085))",
+      "= lcm(11, 15) = 165",
+      "|<(1,1)>| = 165",
+      "|(Z\u2081\u2081\u00d7Z\u2081\u2085)/<(1,1)>| = 165/165 = 1",
+      "Answer: 1"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879774Z"
+  },
+  {
+    "questionId": "abstract_algebra_13",
+    "explanation": "We need to factor x\u00b3 + 2x\u00b2 + 2x + 1 in Z\u2087[x]. From question abstract_algebra_9, we found that x\u00b3 + 2x + 2 has zeros {2,3}. But this is a different polynomial. Let's find zeros of f(x) = x\u00b3 + 2x\u00b2 + 2x + 1: f(0) = 1 \u2717. f(1) = 1+2+2+1 = 6 \u2717. f(2) = 8+8+4+1 = 21 \u2261 0 \u2713. f(3) = 27+18+6+1 = 52 \u2261 3 \u2717. f(4) = 64+32+8+1 = 105 \u2261 0 \u2713. f(5) = 125+50+10+1 = 186 \u2261 4 \u2717. f(6) = 216+72+12+1 = 301 \u2261 0 \u2713. So zeros are {2, 4, 6}. Therefore f(x) = (x-2)(x-4)(x-6). In Z\u2087: x-2, x-4, x-6. Now (A) is (x-2)(x+2)(x-1) which has zeros {2, -2\u22615, 1}. (B) is (x+1)(x+4)(x-2) = (x-6)(x-3)(x-2) with zeros {6, 3, 2}. Not matching. Let me recalculate f(4): 4\u00b3+2(4\u00b2)+2(4)+1 = 64+32+8+1 = 105 = 15\u00b77 \u2261 0 \u2713. And f(6) = 216+72+12+1 = 301 = 43\u00b77 \u2261 0 \u2713. So zeros are {2,4,6}. Option (C) is (x+1)(x-4)(x-2) with zeros {-1\u22616, 4, 2} \u2713 This matches!",
+    "reasoning": "Find zeros by testing: f(2)=21\u22610, f(4)=105\u22610, f(6)=301\u22610. Zeros: {2,4,6}. Factorization: (x-2)(x-4)(x-6). In Z\u2087: -1\u22616, so (x-6)=(x+1), (x-4)=(x+3\u2261x-4), (x-2)=(x-2). Check options for zeros {2,4,6}. Option (C): (x+1)(x-4)(x-2) has zeros {6,4,2} \u2713.",
+    "steps": [
+      "f(x) = x\u00b3+2x\u00b2+2x+1 in Z\u2087",
+      "Find zeros:",
+      "f(2) = 8+8+4+1 = 21 \u2261 0 \u2713",
+      "f(4) = 64+32+8+1 = 105 \u2261 0 \u2713",
+      "f(6) = 216+72+12+1 = 301 \u2261 0 \u2713",
+      "Zeros: {2,4,6}",
+      "Factorization: (x-2)(x-4)(x-6)",
+      "In Z\u2087: (x-2)(x-4)(x+1)",
+      "Answer: (x+1)(x-4)(x-2)"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879775Z"
+  },
+  {
+    "questionId": "abstract_algebra_14",
+    "explanation": "We need to find the maximum possible order of an element in S\u2081\u2080. In S\u2099, the order of a permutation is the lcm of the lengths of its disjoint cycles. To maximize the order, we want to partition 10 into positive integers whose lcm is as large as possible. The key insight: to maximize lcm, use distinct primes and their powers, avoiding repetition. For n=10, we try partitions: 10 = 10 \u2192 lcm = 10. 10 = 7+3 \u2192 lcm(7,3) = 21. 10 = 5+5 \u2192 lcm(5,5) = 5. 10 = 6+4 \u2192 lcm(6,4) = 12. 10 = 5+3+2 \u2192 lcm(5,3,2) = 30 \u2713. 10 = 7+2+1 \u2192 lcm(7,2,1) = 14. 10 = 4+3+2+1 \u2192 lcm(4,3,2,1) = 12. The partition {5,3,2} gives lcm = 30. Can we do better? 10 = 5+4+1 \u2192 lcm(5,4,1) = 20. No, 30 appears to be maximum. An element like (1,2,3,4,5)(6,7,8)(9,10) has order lcm(5,3,2) = 30. Answer is 30.",
+    "reasoning": "Order of permutation = lcm of cycle lengths. Partition 10 to maximize lcm. Try: 10=10\u219210, 10=7+3\u219221, 10=5+3+2\u219230\u2713, 10=6+4\u219212. Best: 5+3+2 gives lcm(5,3,2)=30. This is maximum for S\u2081\u2080.",
+    "steps": [
+      "Max order in S\u2099 = max lcm of partition of n",
+      "n = 10, find partition with max lcm:",
+      "10 \u2192 lcm(10) = 10",
+      "7+3 \u2192 lcm(7,3) = 21",
+      "6+4 \u2192 lcm(6,4) = 12",
+      "5+5 \u2192 lcm(5,5) = 5",
+      "5+3+2 \u2192 lcm(5,3,2) = 30 \u2713",
+      "Example: (1,2,3,4,5)(6,7,8)(9,10)",
+      "Answer: 30"
+    ],
+    "generatedAt": "2025-11-12T11:58:47.879777Z"
   }
 ]
