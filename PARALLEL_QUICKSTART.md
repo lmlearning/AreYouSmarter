@@ -2,17 +2,20 @@
 
 **For LLM workers generating explanations in parallel**
 
+**⚠️ IMPORTANT: Workers coordinate via GitHub, not local filesystem**
+
 ## 🚀 Super Quick Start (3 steps)
 
 ### 1. Claim a batch
 ```bash
 cd /home/user/AreYouSmarter
-./claim-batch.sh auto
+./claim-batch-github.sh auto
 ```
 
 This will:
+- Pull latest from GitHub
 - Find the next available batch
-- Create a claim file to prevent conflicts
+- Add claim to `claims.json` and commit/push to GitHub
 - Download questions to `/tmp/my_batch_START_END.json`
 
 ### 2. Generate explanations
@@ -27,14 +30,16 @@ Create file `/tmp/generated_batch_START_END.json` with high-quality explanations
 
 ### 3. Complete and push
 ```bash
-./complete-batch.sh START END worker_id
+./complete-batch-github.sh START END worker_id
 ```
 
 This will:
-- Append your batch to main file
-- Commit with descriptive message
-- Push to remote
-- Clean up temp files and claim
+- Pull latest from GitHub
+- Append your batch to main file (with duplicate detection)
+- Remove your claim from `claims.json`
+- Commit both files with descriptive message
+- Push to GitHub (with retry logic)
+- Clean up temp files
 
 ---
 
@@ -54,10 +59,19 @@ Shows:
 
 ## 🔧 Manual Workflow (if scripts don't work)
 
+**All coordination happens via `claims.json` in the GitHub repository**
+
 ### Claim
 ```bash
-mkdir -p /tmp/claims
-echo "$(date -Iseconds)|$(hostname)|worker_1" > /tmp/claims/claim_3000_3019.txt
+# Pull latest
+git pull origin claude/precompute-ai-explanations-011CUzpKujAXgqfipY1P1QLy
+
+# Add claim to claims.json manually, then:
+git add claims.json
+git commit -m "Claim batch 3000-3019 by worker_1"
+git push origin claude/precompute-ai-explanations-011CUzpKujAXgqfipY1P1QLy
+
+# Get questions
 node get-batch.mjs 20 > /tmp/my_batch_3000_3019.json
 ```
 
@@ -84,22 +98,44 @@ print(f"New total: {len(all_exp)}/14042")
 
 ### Commit & Push
 ```bash
-git add server/data/ai-explanations.json
-git commit -m "Add 20 explanations (3000-3019)"
-git push -u origin claude/precompute-ai-explanations-011CUzpKujAXgqfipY1P1QLy
-rm /tmp/claims/claim_3000_3019.txt
+# Pull latest first
+git pull origin claude/precompute-ai-explanations-011CUzpKujAXgqfipY1P1QLy
+
+# Remove your claim from claims.json, then:
+git add server/data/ai-explanations.json claims.json
+git commit -m "Add 20 explanations (3000-3019) by worker_1"
+git push origin claude/precompute-ai-explanations-011CUzpKujAXgqfipY1P1QLy
 ```
 
 ---
 
+## 🌐 GitHub Coordination
+
+**Key points:**
+- **All coordination via `claims.json`** in the repository
+- Workers run in **separate environments** (different machines/containers)
+- **Must pull before claiming** to see others' claims
+- **Must push claim immediately** so others see it
+- **Stale claims** (>2 hours) automatically cleaned by scripts
+- **Claim format:**
+  ```json
+  {
+    "start": 3000,
+    "end": 3019,
+    "worker": "worker_1",
+    "timestamp": "2025-01-10T13:00:00Z"
+  }
+  ```
+
 ## ⚠️ Important Rules
 
-1. **Always claim before starting** - Prevents duplicate work
-2. **Small batches (15-20)** - Faster turnaround, fewer conflicts
-3. **High quality** - Better 10 excellent than 50 poor explanations
-4. **Follow format** - See `PARALLEL_EXPLANATION_GENERATION.md` for details
-5. **Check for conflicts** - Pull before push if someone else committed
+1. **Always pull first** - Get latest claims before starting
+2. **Always claim before starting** - Add to claims.json and push
+3. **Small batches (15-20)** - Faster turnaround, fewer conflicts
+4. **High quality** - Better 10 excellent than 50 poor explanations
+5. **Follow format** - See `PARALLEL_EXPLANATION_GENERATION.md` for details
 6. **Remove claims when done** - So others know batch is complete
+7. **Handle push conflicts** - If push fails, pull and retry
 
 ---
 
@@ -107,14 +143,15 @@ rm /tmp/claims/claim_3000_3019.txt
 
 ### "Batch already claimed"
 ```bash
-# Check claims
-ls -lah /tmp/claims/
+# Check current claims
+git pull origin claude/precompute-ai-explanations-011CUzpKujAXgqfipY1P1QLy
+cat claims.json | python3 -m json.tool
 
-# Remove stale claims (>2 hours old)
-find /tmp/claims -name "claim_*.txt" -mmin +120 -delete
+# Try different range or wait for claim to complete
+./claim-batch-github.sh 3020 3039 worker_1
 
-# Try again or pick different range
-./claim-batch.sh 3020 3039 worker_1
+# Or use auto mode to find next available
+./claim-batch-github.sh auto
 ```
 
 ### "Git push failed"
