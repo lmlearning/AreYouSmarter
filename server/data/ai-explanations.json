@@ -30444,5 +30444,285 @@
       "Answer: B - 5 million"
     ],
     "generatedAt": "2025-01-10T12:20:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_25",
+    "explanation": "The von Th\u00fcnen model of agricultural land use is based on the principle that land use patterns are determined by transportation costs and land rent, creating concentric rings around a central market (option C).\n\nThe **von Th\u00fcnen model** (1826) was the first theoretical model of agricultural land use, developed by German economist Johann Heinrich von Th\u00fcnen.\n\n**Key assumptions:**\n1. **Isolated state**: Single market city in uniform plain\n2. **Uniform land**: Equal fertility, topography everywhere\n3. **Single transportation mode**: Cost proportional to distance\n4. **Profit maximization**: Farmers seek to maximize profit\n\n**Core principle:**\n**Land Rent = Yield \u00d7 (Market Price - Production Cost) - Transportation Cost \u00d7 Distance**\n\nFarmers bid for land based on profitability. Different crops have different:\n- Market prices\n- Transportation costs (perishability, bulk, weight)\n- Production costs\n- Yields\n\n**Resulting pattern - Concentric rings:**\n1. **Inner ring**: Market gardening (vegetables, dairy)\n   - High transportation cost (perishable)\n   - High land rent justified\n   \n2. **Middle rings**: Forestry, grains\n   - Lower transportation costs\n   - Lower land rent\n   \n3. **Outer ring**: Ranching, extensive agriculture\n   - Lowest transportation cost per unit value\n   - Lowest land rent\n\n**Why concentric?**\nLand use transitions occur where rent curves intersect\u2014crops with steeper rent gradients (high transport costs) locate near market; those with flatter gradients locate farther out.\n\n**Modern relevance:**\nStill explains patterns around cities (though modified by roads, refrigeration, varying land quality).",
+    "reasoning": "Von Th\u00fcnen model: land use determined by transport costs and land rent. Perishable/bulky goods near market (high rent). Extensive agriculture far (low rent). Creates concentric rings. Answer: C.",
+    "steps": [
+      "Von Th\u00fcnen model (1826): agricultural land use",
+      "Isolated market city in uniform plain",
+      "Land rent = revenue - costs - (transport \u00d7 distance)",
+      "Different crops have different profiles:",
+      "Vegetables: perishable, high transport cost",
+      "Must be near market \u2192 bid high rent",
+      "Grains: less perishable, moderate costs",
+      "Can be farther \u2192 medium rent",
+      "Ranching: low transport cost per value",
+      "Can be far \u2192 low rent acceptable",
+      "Result: concentric rings by transport cost",
+      "Answer: C - concentric rings based on transport/rent"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_26",
+    "explanation": "The term that describes the maximum distance people are willing to travel to obtain a particular good or service is the range of a good (option A).\n\nThis is a fundamental concept in central place theory and retail geography.\n\n**Range** (or range of a good/service):\n- Maximum distance consumers will travel to obtain a good or service\n- Beyond this distance, people won't make the trip (cost/effort too high)\n- Creates a circular market area around the service provider\n\n**Factors affecting range:**\n1. **Type of good/service**:\n   - Convenience goods (bread, milk): short range (minutes)\n   - Shopping goods (clothing, electronics): medium range (30 min - 1 hour)\n   - Specialty goods (cars, furniture): long range (1+ hours)\n   \n2. **Price and quality**: Higher value \u2192 longer range\n3. **Transportation**: Better roads/transit \u2192 longer range\n4. **Competition**: More alternatives \u2192 shorter range\n5. **Urban vs. rural**: Urban consumers travel less far\n\n**Related concepts:**\n- **Threshold**: Minimum market size needed to support a business (different concept)\n- **Complementarity**: Reason for interaction (not distance)\n- **Transferability**: Ease of movement (not maximum distance)\n\n**Example:**\n- Grocery store range: 5-10 minutes\n- Regional hospital range: 60+ minutes\n- International airport range: 2+ hours\n\nRange determines the spatial extent of a market area. Option A is the correct term for maximum travel distance consumers will accept.",
+    "reasoning": "Range of a good: maximum distance consumers travel to obtain it. Varies by good type (convenience \u2192 specialty). Creates market area. Different from threshold (minimum market). Answer: A - range.",
+    "steps": [
+      "Maximum distance people travel for good/service",
+      "Beyond this distance: won't travel",
+      "This creates market area boundary",
+      "Term: range of a good",
+      "Varies by good type:",
+      "Convenience: short range",
+      "Specialty: long range",
+      "Threshold = different concept (min market size)",
+      "Complementarity = reason for interaction",
+      "Transferability = ease of movement",
+      "Maximum travel distance = range",
+      "Answer: A - range"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_27",
+    "explanation": "The term organic agriculture refers to farming practices that avoid synthetic chemical inputs such as pesticides and fertilizers, relying instead on natural methods (option B).\n\n**Organic agriculture** is a production system that sustains ecosystem health while producing food.\n\n**Key principles:**\n\n1. **Prohibited inputs**:\n   - Synthetic chemical pesticides\n   - Synthetic fertilizers\n   - Genetically modified organisms (GMOs)\n   - Synthetic growth hormones\n   - Irradiation\n   \n2. **Approved methods**:\n   - Crop rotation for soil health\n   - Cover crops and green manures\n   - Composted animal manures\n   - Biological pest control (beneficial insects)\n   - Mechanical weed control\n   - Natural fertilizers (bone meal, rock phosphate)\n   \n3. **Certification requirements**:\n   - USDA Organic (US), EU Organic (Europe), etc.\n   - 3-year transition period\n   - Regular inspections\n   - Documentation of practices\n\n**Benefits (claimed):**\n- Reduced chemical runoff\n- Better soil health\n- Increased biodiversity\n- Lower environmental impact\n\n**Challenges:**\n- Lower yields (typically 10-20% less)\n- Higher labor requirements\n- Higher prices\n- Pest/disease management difficulties\n\n**Growth:**\n- Expanding market sector globally\n- ~1.5% of global farmland (2020)\n- Premium prices (20-100% higher)\n\n**Why other options wrong:**\n- Subsistence (A): Farming for own consumption, not about methods\n- Genetic modification (C): OPPOSITE of organic\n- Monoculture (D): Growing single crop, often NOT organic (though not mutually exclusive)\n\nOrganic agriculture is specifically defined by avoidance of synthetic chemical inputs.",
+    "reasoning": "Organic agriculture: avoids synthetic pesticides/fertilizers. Uses natural methods (rotation, compost, biological control). Certified system. Emphasizes ecosystem health. Answer: B - avoids synthetic chemicals.",
+    "steps": [
+      "Organic agriculture definition",
+      "Key feature: NO synthetic chemicals",
+      "No synthetic pesticides",
+      "No synthetic fertilizers",
+      "No GMOs",
+      "Instead uses: rotation, compost, natural controls",
+      "Certified (USDA, EU standards)",
+      "Emphasizes natural inputs and methods",
+      "Answer: B - avoids synthetic chemical inputs"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_28",
+    "explanation": "The sector model of urban structure, developed by Homer Hoyt, suggests that cities develop in wedge-shaped sectors along transportation routes (option C).\n\nThe **sector model** (1939) is one of three classical models of urban internal structure.\n\n**Key features:**\n\n1. **Sectors (wedges)**: Land uses form wedge-shaped sectors radiating from CBD\n   - NOT concentric rings (Burgess model)\n   - Follow transportation corridors\n   - Extend outward from center\n\n2. **Transportation orientation**:\n   - High-income sectors: along rail lines, highways, scenic routes\n   - Industrial sectors: along railroads, waterways\n   - Low-income housing: near industrial areas\n   - Once established, sectors extend outward maintaining character\n\n3. **Growth pattern**:\n   - New development extends existing sectors\n   - High-rent areas spawn high-rent suburbs in same sector\n   - Industrial areas extend along rail/water corridors\n\n**Example - Chicago:**\n- North Shore: High-income sector along lakefront\n- South Side: Industrial sector along railroads\n- West Side: Working-class sectors\n\n**Comparison with other models:**\n- **Burgess concentric zone** (A): Rings expanding from center\n- **Multiple nuclei** (D): Several centers, not one CBD\n- **Sector model** (C): Wedges along transport routes \u2713\n\n**Why sectors form:**\n- Transportation lines create preferential growth corridors\n- Similar activities cluster for agglomeration benefits\n- Once established, patterns reinforce themselves\n- High-income groups influence development direction\n\nThe sector model emphasizes the role of transportation in shaping urban geography, with land uses forming wedge-shaped sectors rather than concentric circles.",
+    "reasoning": "Sector model (Hoyt 1939): cities develop in wedge-shaped sectors radiating from CBD along transport routes. Not concentric rings. Different from Burgess/multiple nuclei. Answer: C - wedge-shaped sectors.",
+    "steps": [
+      "Sector model by Homer Hoyt (1939)",
+      "Urban land use patterns",
+      "NOT concentric rings (that's Burgess)",
+      "Pattern: wedge-shaped sectors",
+      "Radiate from CBD",
+      "Follow transportation corridors",
+      "High-income: along preferred routes",
+      "Industrial: along rail/water",
+      "Sectors extend outward maintaining character",
+      "Wedges/sectors along transport = sector model",
+      "Answer: C - wedge-shaped sectors"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_29",
+    "explanation": "The carrying capacity of an environment refers to the maximum population size that an environment can support sustainably (option D).\n\n**Carrying capacity** (often denoted as K in ecology) is a fundamental concept in population geography and ecology.\n\n**Definition:**\nThe maximum number of individuals of a species that an environment can support indefinitely without degrading the environment.\n\n**Limiting factors:**\n\n1. **Resources**:\n   - Food/water availability\n   - Living space\n   - Shelter\n   - Energy sources\n   \n2. **Environmental constraints**:\n   - Waste assimilation capacity\n   - Disease and parasites\n   - Climate extremes\n   - Competition\n\n**Key characteristics:**\n\n1. **Sustainability**: Population at carrying capacity can be maintained long-term\n2. **Dynamic**: Carrying capacity changes with technology, climate, management\n3. **Overshoot**: Populations can temporarily exceed K, but will decline\n4. **Different for different species**: Same environment has different K for deer vs. rabbits\n\n**For humans:**\n- More complex than animals\n- Technology can increase carrying capacity\n- Resource consumption varies by lifestyle\n- Global vs. regional carrying capacity\n- Debated: Earth's carrying capacity for humans (estimates: 4-16 billion)\n\n**Population dynamics:**\n- Below K: Population grows\n- At K: Population stabilizes (zero growth)\n- Above K: Resource depletion, population decline\n\n**Why other options wrong:**\n- Birth rate (A): Demographic measure, not capacity\n- Land area (B): Physical space, not sustainable population\n- Economic development (C): Level of advancement, not population limit\n\nCarrying capacity specifically refers to the sustainable maximum population size.",
+    "reasoning": "Carrying capacity (K): maximum sustainable population size for an environment. Limited by resources (food, water, space). Can support indefinitely without degradation. Answer: D - maximum sustainable population.",
+    "steps": [
+      "Carrying capacity (K) definition",
+      "Maximum population size",
+      "That environment can support",
+      "Indefinitely/sustainably",
+      "Without environmental degradation",
+      "Limited by: food, water, space, waste assimilation",
+      "Dynamic: changes with technology",
+      "Overshoot possible but temporary",
+      "At K: population stabilizes",
+      "Maximum sustainable population = carrying capacity",
+      "Answer: D"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_30",
+    "explanation": "The process by which cities expand outward, often in a low-density, automobile-dependent pattern, is called urban sprawl (option B).\n\n**Urban sprawl** is a controversial pattern of urban development that has characterized much of American growth since the 1950s.\n\n**Characteristics:**\n\n1. **Low density**: Single-family homes on large lots\n2. **Automobile dependence**: Designed around cars, not walkability\n3. **Spatial segregation**: Separated land uses (residential, commercial, industrial)\n4. **Leapfrog development**: Skips over land, leaving gaps\n5. **Strip commercial**: Retail along highways\n6. **Lack of public spaces**: Few town centers or gathering places\n\n**Causes:**\n\n1. **Transportation**: Interstate highways enabled long commutes\n2. **Economic**: Cheaper land on periphery\n3. **Cultural**: American preference for single-family homes, yards\n4. **Policy**: Zoning laws, mortgage policies favored suburbs\n5. **Racial**: White flight from urban cores (in U.S.)\n6. **Technology**: Cars made distance manageable\n\n**Consequences:**\n\n**Environmental:**\n- Loss of farmland and natural areas\n- Increased vehicle emissions\n- Water runoff and pollution\n- Habitat fragmentation\n\n**Social:**\n- Social segregation\n- Time spent commuting\n- Reduced community interaction\n\n**Economic:**\n- Expensive infrastructure (roads, utilities spread out)\n- Reduced city tax base\n- Higher transportation costs\n\n**Alternatives:**\n- Smart growth\n- New urbanism\n- Transit-oriented development\n- Urban growth boundaries\n\n**Other options:**\n- Gentrification (A): Upgrading of urban neighborhoods, displacing low-income residents\n- Suburbanization (C): Movement to suburbs (related but broader than sprawl)\n- Urbanization (D): General movement to cities\n\nUrban sprawl specifically describes low-density, automobile-dependent outward expansion.",
+    "reasoning": "Urban sprawl: low-density, car-dependent outward expansion. Single-family homes, separated uses, leapfrog development. Environmental/social costs. Since 1950s in U.S. Answer: B - urban sprawl.",
+    "steps": [
+      "Cities expanding outward",
+      "Low-density pattern",
+      "Single-family homes, large lots",
+      "Automobile-dependent design",
+      "Separated land uses",
+      "Leapfrog development leaving gaps",
+      "Enabled by highways, cheap peripheral land",
+      "Environmental costs: farmland loss, emissions",
+      "This pattern = urban sprawl",
+      "Answer: B - urban sprawl"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_31",
+    "explanation": "The demographic term for the number of deaths per 1,000 individuals in a population per year is the crude death rate (option C).\n\n**Crude Death Rate (CDR)** is one of the basic measures of mortality in a population.\n\n**Formula:**\nCDR = (Number of deaths in a year / Mid-year population) \u00d7 1,000\n\n**Example:**\nCountry with 500,000 deaths and population of 50,000,000:\nCDR = (500,000 / 50,000,000) \u00d7 1,000 = 10 per 1,000\n\n**Interpretation:**\nCDR of 10 means 10 people die per 1,000 population per year, or 1% of the population dies annually.\n\n**Global patterns:**\n- **Low CDR** (5-8 per 1,000): Developed countries with young populations (e.g., UAE, Qatar)\n- **Medium CDR** (8-12 per 1,000): Most countries (U.S. ~8.9, world average ~7.7)\n- **High CDR** (12-20+ per 1,000): Less developed countries, or developed countries with aging populations (Bulgaria ~15)\n\n**\"Crude\" means:**\nNot adjusted for age structure. Two populations with same CDR may have very different health conditions if age structures differ:\n- Developing country: High CDR due to poor healthcare\n- Developed country: High CDR due to elderly population\n\n**Related measures:**\n- Age-specific death rate: Deaths in particular age group\n- Infant mortality rate (A): Deaths under age 1 per 1,000 live births (different formula)\n- Life expectancy (B): Average years a person lives (not a rate)\n- Mortality rate (D): Generic term; CDR is the specific measure\n\n**Components:**\nCDR is used with CBR (crude birth rate) to calculate:\nRate of Natural Increase (RNI) = CBR - CDR\n\nThe crude death rate is the specific term for deaths per 1,000 per year.",
+    "reasoning": "Crude Death Rate (CDR): deaths per 1,000 population per year. Formula: (deaths/population) \u00d7 1,000. 'Crude' = not age-adjusted. Basic mortality measure. Answer: C - crude death rate.",
+    "steps": [
+      "Deaths per 1,000 individuals per year",
+      "Formula: (deaths / population) \u00d7 1,000",
+      "Standard demographic measure",
+      "\"Crude\" = not age-adjusted",
+      "Example: 500k deaths / 50M people \u00d7 1,000 = 10",
+      "Global average: ~7.7 per 1,000",
+      "Used with CBR to find natural increase",
+      "Specific term: Crude Death Rate (CDR)",
+      "Answer: C"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_32",
+    "explanation": "The concept that describes the unequal distribution of resources and development between the world's wealthier core countries and poorer peripheral countries is the core-periphery model (option B).\n\nThe **core-periphery model** is a foundational concept in development geography and world-systems theory.\n\n**Origins:**\n- Immanuel Wallerstein's World-Systems Theory (1970s)\n- Earlier: Dependency theory (1960s)\n- Ra\u00fal Prebisch and economic structuralism\n\n**Structure:**\n\n1. **Core countries**:\n   - Wealthy, industrialized nations\n   - High technology, capital-intensive production\n   - Control global finance and technology\n   - High wages, consumption\n   - Examples: U.S., Western Europe, Japan\n   \n2. **Periphery countries**:\n   - Less developed, poorer nations\n   - Raw material extraction, labor-intensive production\n   - Low technology\n   - Low wages, limited consumption\n   - Economic dependence on core\n   - Examples: Much of Sub-Saharan Africa, parts of Asia, Latin America\n   \n3. **Semi-periphery** (intermediate):\n   - Characteristics of both\n   - Examples: Brazil, India, China (though China increasingly core-like)\n\n**Relationship:**\n- **Unequal exchange**: Core extracts resources and labor from periphery at low cost\n- **Dependency**: Periphery depends on core for capital, technology, markets\n- **Capital flow**: Profits flow from periphery to core\n- **Development gap**: Reinforces and widens inequality\n\n**Mechanisms:**\n- Colonial exploitation (historical)\n- Terms of trade (raw materials vs. manufactured goods)\n- Debt relationships\n- Technology transfer limitations\n- Brain drain\n\n**Criticism:**\n- Oversimplifies complex relationships\n- Some peripheral countries have developed (East Asian Tigers)\n- Globalization changes dynamics\n\n**Other options:**\n- Modernization theory (A): Linear development stages (different model)\n- Dependency theory (C): Related but more specific subset\n- Globalization (D): Process, not structural model\n\nThe core-periphery model specifically describes the structural inequality between wealthier and poorer regions.",
+    "reasoning": "Core-periphery model: structural inequality between wealthy core (industrialized) and poor periphery (raw materials). Unequal exchange, dependency. World-systems theory. Answer: B - core-periphery model.",
+    "steps": [
+      "Unequal distribution of resources/development",
+      "Wealthy vs. poorer countries",
+      "Structural relationship",
+      "Core: wealthy, industrial, high-tech",
+      "Periphery: poor, raw materials, low-tech",
+      "Unequal exchange extracts value",
+      "Periphery depends on core",
+      "Reinforces inequality",
+      "World-systems theory (Wallerstein)",
+      "Core-periphery model",
+      "Answer: B"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_33",
+    "explanation": "The geographic term for the average number of people per unit of land area is population density (option A).\n\n**Population density** is one of the most fundamental measures in population geography.\n\n**Formula:**\nPopulation Density = Total Population / Total Land Area\n\nTypically expressed as:\n- People per square kilometer (persons/km\u00b2)\n- People per square mile (persons/mi\u00b2)\n\n**Example:**\nCountry with 50 million people and 500,000 km\u00b2 land:\nDensity = 50,000,000 / 500,000 = 100 people per km\u00b2\n\n**Types of density:**\n\n1. **Arithmetic (crude) density**: Total population / total land area\n   - Most common measure\n   - Includes all land (deserts, mountains, etc.)\n   \n2. **Physiological density**: Total population / arable land area\n   - More meaningful for agricultural capacity\n   - Egypt: Low arithmetic density (~100/km\u00b2) but very high physiological density (Nile Valley)\n   \n3. **Agricultural density**: Rural population / arable land area\n   - Indicates agricultural intensiveness\n   - Higher in developing countries\n\n**Global patterns:**\n- **Highest densities**: City-states (Singapore ~8,000/km\u00b2, Monaco ~19,000/km\u00b2)\n- **High national densities**: Bangladesh (~1,200/km\u00b2), Netherlands (~500/km\u00b2)\n- **Low densities**: Australia (~3/km\u00b2), Canada (~4/km\u00b2), Mongolia (~2/km\u00b2)\n- **World average**: ~60 people/km\u00b2\n\n**Factors affecting density:**\n- Climate and resources\n- Topography\n- Economic development\n- Historical settlement patterns\n- Government policies\n\n**Other options:**\n- Population distribution (B): How population is spread (pattern, not measure)\n- Population concentration (C): Clustering in specific areas (related concept)\n- Population dispersion (D): Spreading out (opposite of concentration)\n\nPopulation density is the specific term for people per unit area.",
+    "reasoning": "Population density: people per unit land area. Formula: population / area. Usually persons/km\u00b2. Basic geographic measure. Different from distribution (pattern) or concentration (clustering). Answer: A - population density.",
+    "steps": [
+      "Average people per unit land area",
+      "Formula: population / area",
+      "Units: people per km\u00b2 or mi\u00b2",
+      "Example: 50M people / 500k km\u00b2 = 100/km\u00b2",
+      "Types: arithmetic, physiological, agricultural",
+      "Global average: ~60/km\u00b2",
+      "High: Bangladesh ~1,200/km\u00b2",
+      "Low: Australia ~3/km\u00b2",
+      "Standard geographic measure",
+      "Term: population density",
+      "Answer: A"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_34",
+    "explanation": "The term for a city with more than 10 million inhabitants is a megacity (option D).\n\n**Megacity** is a classification used by the United Nations and urban geographers.\n\n**Definition:**\n- Metropolitan area with population > 10 million\n- Based on metropolitan/urban agglomeration, not just city proper\n- Includes suburbs and continuous urban area\n\n**Historical growth:**\n- 1975: 3 megacities (Tokyo, New York, Mexico City)\n- 1990: 10 megacities\n- 2000: 17 megacities\n- 2020: 34 megacities\n- 2030: Projected 43 megacities\n\n**Current largest (2020s):**\n1. Tokyo, Japan (~37 million)\n2. Delhi, India (~31 million)\n3. Shanghai, China (~28 million)\n4. S\u00e3o Paulo, Brazil (~22 million)\n5. Mexico City, Mexico (~22 million)\n6. Cairo, Egypt (~21 million)\n7. Dhaka, Bangladesh (~21 million)\n8. Mumbai, India (~20 million)\n9. Beijing, China (~20 million)\n10. Osaka, Japan (~19 million)\n\n**Geographic distribution:**\n- Majority in Asia (especially East and South Asia)\n- Growing rapidly in Africa\n- Latin America has several\n- Few in Europe and North America\n\n**Challenges:**\n- Infrastructure strain\n- Housing shortages and slums\n- Traffic congestion\n- Air and water pollution\n- Service provision (water, sanitation, electricity)\n- Governance complexity\n\n**Related terms:**\n- **Metacity**: Sometimes used for >20 million (not standard)\n- **Global city** (A): Different concept - influence in global economy (London, NYC, Tokyo)\n- **Primate city** (B): City disproportionately larger than second city\n- **World city** (C): Similar to global city - international importance\n\nMegacity specifically refers to the >10 million population threshold.",
+    "reasoning": "Megacity: metropolitan area with >10 million people. UN definition. 34 megacities globally (2020). Most in Asia. Examples: Tokyo (37M), Delhi (31M). Answer: D - megacity.",
+    "steps": [
+      "City with >10 million people",
+      "Metropolitan/urban agglomeration",
+      "UN standard classification",
+      "1975: 3 megacities",
+      "2020: 34 megacities",
+      "Examples: Tokyo (37M), Delhi (31M), Shanghai (28M)",
+      "Majority in Asia",
+      "Rapid growth globally",
+      "Specific term: megacity",
+      "Answer: D - megacity"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_35",
+    "explanation": "The Rust Belt in the United States refers to a region that has experienced deindustrialization and economic decline, particularly in manufacturing (option C).\n\nThe **Rust Belt** is an informal region in the northeastern and midwestern United States.\n\n**Geographic extent:**\n- Core states: Pennsylvania, Ohio, Michigan, Indiana, Illinois, Wisconsin\n- Extended region: Parts of New York, West Virginia, Iowa, Missouri\n- Major cities: Detroit, Cleveland, Pittsburgh, Buffalo, Milwaukee, Gary\n\n**Historical context:**\n\n**Manufacturing Belt era (1850s-1970s):**\n- Center of American industry\n- Steel production (Pittsburgh, Gary)\n- Automobile manufacturing (Detroit - \"Motor City\")\n- Heavy machinery, rubber (Akron), appliances\n- High wages, strong unions\n- Economic prosperity\n\n**Deindustrialization (1970s-present):**\n\n1. **Causes:**\n   - Global competition (Japan, Germany, later China)\n   - Automation reducing labor needs\n   - Capital flight to lower-wage regions (U.S. South, overseas)\n   - Oil crises and economic recessions\n   - Free trade agreements (NAFTA)\n   - Outdated infrastructure\n\n2. **Effects:**\n   - Factory closures\n   - Massive job losses (manufacturing employment declined 50%+)\n   - Population decline (Detroit: 1.8M \u2192 670k)\n   - Urban blight and abandoned buildings (literal rust)\n   - Economic hardship\n   - Brain drain (educated workers leaving)\n\n**\"Rust\" imagery:**\n- Abandoned, rusting factories\n- Decaying infrastructure\n- Economic corrosion\n- Contrasts with former industrial glory\n\n**Recent developments:**\n- Some cities revitalizing (Pittsburgh: tech/healthcare)\n- Others still struggling (Flint, Gary)\n- Political significance in elections\n\n**Other options:**\n- Sun Belt (A): Southern/southwestern growth region\n- Bible Belt (B): Southeastern region, culturally conservative\n- Corn Belt (D): Midwestern agricultural region\n\nRust Belt specifically denotes deindustrialized manufacturing region.",
+    "reasoning": "Rust Belt: northeastern/midwestern region with deindustrialization. Former Manufacturing Belt (steel, auto). Decline since 1970s: factory closures, job losses, population decline. 'Rust' = abandoned factories. Answer: C - deindustrialization and decline.",
+    "steps": [
+      "Rust Belt: informal U.S. region",
+      "Geographic area: OH, MI, PA, IN, IL, WI",
+      "Historical: Manufacturing Belt (1850s-1970s)",
+      "Heavy industry: steel, autos, machinery",
+      "1970s+: deindustrialization begins",
+      "Causes: competition, automation, capital flight",
+      "Effects: closures, job losses, population decline",
+      "Abandoned rusting factories (literal)",
+      "Economic decline from former prosperity",
+      "Region of deindustrialization and decline",
+      "Answer: C"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_36",
+    "explanation": "The theory stating that population grows geometrically while food production grows arithmetically, leading to potential overpopulation and resource scarcity, is Malthusian theory (option A).\n\n**Malthusian theory** was proposed by Thomas Robert Malthus in \"An Essay on the Principle of Population\" (1798).\n\n**Core argument:**\n\n1. **Population growth**: Geometric (exponential)\n   - 1 \u2192 2 \u2192 4 \u2192 8 \u2192 16 \u2192 32...\n   - Doubling each generation if unchecked\n   - Natural human reproduction capacity\n\n2. **Food production growth**: Arithmetic (linear)\n   - 1 \u2192 2 \u2192 3 \u2192 4 \u2192 5 \u2192 6...\n   - Constrained by land availability\n   - Diminishing returns in agriculture\n\n3. **Result**: Population eventually outstrips food supply\n\n**Checks on population:**\n\n**Positive checks** (increase death rate):\n- Famine\n- Disease\n- War\n- Natural disasters\n\n**Preventive checks** (decrease birth rate):\n- Delayed marriage\n- Sexual abstinence\n- Moral restraint\n\n**Malthusian catastrophe:**\nWhen population exceeds carrying capacity, positive checks restore equilibrium through suffering.\n\n**Historical context:**\n- Written during early Industrial Revolution\n- Influenced by observations of poverty\n- Response to optimistic views of human progress\n\n**Criticisms and reality:**\n\n1. **Agricultural revolution**: Food production increased faster than Malthus predicted\n   - Green Revolution\n   - Mechanization\n   - Chemical fertilizers\n   - GMOs\n\n2. **Demographic transition**: Birth rates fell in developed countries\n   - Contraception\n   - Education\n   - Urbanization\n   - Women's empowerment\n\n3. **Technology**: Continually expands resource availability\n\n**Neo-Malthusianism:**\n- Modern revival focusing on environmental limits\n- Climate change, resource depletion\n- Carrying capacity concerns\n\n**Other theories:**\n- Boserup (B): Population growth stimulates agricultural innovation (opposite of Malthus)\n- Rostow (C): Stages of economic growth\n- Dependency (D): Core-periphery exploitation\n\nMalthusian theory is the specific theory about geometric vs. arithmetic growth.",
+    "reasoning": "Malthusian theory (1798): population grows geometrically, food arithmetically \u2192 overpopulation \u2192 catastrophe. Malthus predicted suffering. Reality: agricultural/demographic revolutions prevented catastrophe. Answer: A - Malthusian.",
+    "steps": [
+      "Population vs. food production growth rates",
+      "Thomas Malthus (1798)",
+      "Population: geometric/exponential (2,4,8,16...)",
+      "Food: arithmetic/linear (1,2,3,4...)",
+      "Population eventually exceeds food supply",
+      "Result: famine, disease, war (positive checks)",
+      "Malthusian catastrophe predicted",
+      "Historical reality: technology exceeded predictions",
+      "But core theory: geometric vs. arithmetic",
+      "Malthusian theory",
+      "Answer: A"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_37",
+    "explanation": "The geographic concept referring to the increasing interconnectedness of economies, cultures, and populations through trade, technology, and communication is globalization (option D).\n\n**Globalization** is one of the defining processes of the contemporary era.\n\n**Dimensions of globalization:**\n\n1. **Economic globalization**:\n   - International trade expansion\n   - Multinational corporations\n   - Global supply chains\n   - Capital flows across borders\n   - Economic interdependence\n   - Examples: iPhone assembled in China from global components\n\n2. **Cultural globalization**:\n   - Spread of ideas, values, cultural products\n   - Media (Hollywood, K-pop, Bollywood)\n   - Food (McDonald's, sushi, pizza worldwide)\n   - Language (English as lingua franca)\n   - Homogenization vs. hybridization debate\n\n3. **Technological globalization**:\n   - Internet and digital communication\n   - Transportation improvements (container shipping, air travel)\n   - Information flows\n   - Social media connecting globally\n\n4. **Political globalization**:\n   - International organizations (UN, WTO, IMF)\n   - Global governance issues\n   - Transnational agreements\n\n**Drivers:**\n- Technology (internet, transportation)\n- Trade liberalization\n- Capital mobility\n- Political changes (end of Cold War)\n\n**Effects:**\n\n**Positive:**\n- Economic growth in some regions\n- Access to diverse products and ideas\n- Technology transfer\n- Poverty reduction (esp. East Asia)\n\n**Negative:**\n- Inequality (within and between countries)\n- Cultural homogenization concerns\n- Job displacement in developed countries\n- Environmental degradation\n- Loss of local control\n\n**Timeline:**\n- Early globalization: Silk Road, Age of Exploration\n- First modern wave: 1870-1914 (steam, telegraph)\n- Post-WWII: Bretton Woods system\n- Contemporary: 1980s-present (accelerated)\n\n**Other options:**\n- Localization (A): Opposite - emphasis on local\n- Nationalism (B): Emphasis on national identity/sovereignty\n- Regionalization (C): Integration within regions (EU, ASEAN)\n\nGlobalization is the specific term for global interconnectedness.",
+    "reasoning": "Globalization: increasing interconnectedness of economies, cultures, populations. Economic (trade), cultural (media), technological (internet), political (international orgs). Accelerated 1980s+. Answer: D - globalization.",
+    "steps": [
+      "Increasing interconnectedness globally",
+      "Economies: trade, supply chains, capital flows",
+      "Cultures: media, values, products spread",
+      "Populations: communication, migration",
+      "Enabled by: technology, trade liberalization",
+      "Internet, transportation, communication",
+      "Examples: global supply chains, cultural products",
+      "Accelerated since 1980s",
+      "Term: globalization",
+      "Answer: D - globalization"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_38",
+    "explanation": "The process by which wealthier individuals move into and renovate deteriorated urban neighborhoods, often displacing lower-income residents, is called gentrification (option B).\n\n**Gentrification** is a contentious process of urban change that has accelerated since the 1980s in many cities.\n\n**Characteristics:**\n\n1. **Physical changes**:\n   - Renovation of old buildings\n   - New construction (often upscale)\n   - Improved infrastructure and services\n   - Business changes (boutiques, cafes replace discount stores)\n   - Aesthetic improvements\n\n2. **Demographic changes**:\n   - Influx of wealthier, educated residents\n   - Often younger professionals\n   - Racial/ethnic composition changes (often White gentrifiers in minority neighborhoods)\n   - Displacement of long-term, lower-income residents\n\n3. **Economic changes**:\n   - Rising property values and rents\n   - Higher tax revenues for city\n   - New businesses catering to affluent\n   - Increased cost of living\n\n**Typical sequence:**\n\nStage 1: Pioneers (artists, bohemians) attracted by low rents, authentic character\nStage 2: Early gentrifiers (young professionals) follow\nStage 3: Mainstream influx, rapid development\nStage 4: Full transformation, original residents largely displaced\n\n**Causes:**\n\n1. **Demand-side**:\n   - Preferences for urban living\n   - Shorter commutes\n   - Cultural amenities\n   - Walkability\n\n2. **Supply-side**:\n   - Rent gap (difference between actual and potential land value)\n   - Developer incentives\n   - Government policies (tax incentives, zoning changes)\n\n**Debate:**\n\n**Proponents argue**:\n- Economic revitalization\n- Reduced crime\n- Improved services\n- Tax base expansion\n- Building preservation\n\n**Critics argue**:\n- Displacement of long-term residents\n- Loss of affordable housing\n- Community disruption\n- Cultural erasure\n- Racial/class injustice\n\n**Examples:**\n- Brooklyn, NYC (Williamsburg, Park Slope)\n- San Francisco (Mission District)\n- London (East End)\n- Washington DC (Shaw, U Street)\n\n**Other options:**\n- Urbanization (A): General movement to cities\n- Suburbanization (C): Movement to suburbs (opposite direction)\n- Urban renewal (D): Government-led demolition and rebuilding (different process, 1950s-60s)\n\nGentrification specifically describes the process of wealthier residents moving into and transforming lower-income neighborhoods, typically with displacement.",
+    "reasoning": "Gentrification: wealthier individuals renovate/move into deteriorated urban neighborhoods \u2192 displacement of lower-income residents. Rising rents, demographic change. Contentious urban process. Answer: B - gentrification.",
+    "steps": [
+      "Wealthier individuals move into urban neighborhoods",
+      "Previously deteriorated/lower-income areas",
+      "Renovation and improvement",
+      "Property values and rents rise",
+      "Original lower-income residents displaced",
+      "Can't afford rising costs",
+      "Demographic and economic transformation",
+      "Contentious: revitalization vs. displacement",
+      "Examples: Brooklyn, San Francisco",
+      "Process: gentrification",
+      "Answer: B"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
+  },
+  {
+    "questionId": "high_school_geography_39",
+    "explanation": "The primary purpose of the United Nations' Sustainable Development Goals (SDGs) is to address global challenges including poverty, inequality, climate change, and peace (option A).\n\nThe **Sustainable Development Goals** (SDGs), also known as the Global Goals, were adopted by the United Nations in 2015.\n\n**Background:**\n- Adopted: September 2015 at UN Summit\n- Replaced: Millennium Development Goals (MDGs, 2000-2015)\n- Target year: 2030\n- Universal: Apply to all countries, not just developing nations\n\n**The 17 SDGs:**\n\n1. No Poverty\n2. Zero Hunger\n3. Good Health and Well-being\n4. Quality Education\n5. Gender Equality\n6. Clean Water and Sanitation\n7. Affordable and Clean Energy\n8. Decent Work and Economic Growth\n9. Industry, Innovation, and Infrastructure\n10. Reduced Inequalities\n11. Sustainable Cities and Communities\n12. Responsible Consumption and Production\n13. Climate Action\n14. Life Below Water\n15. Life on Land\n16. Peace, Justice, and Strong Institutions\n17. Partnerships for the Goals\n\n**Key features:**\n\n1. **Comprehensive**: Economic, social, environmental dimensions\n2. **Universal**: All countries, developed and developing\n3. **Integrated**: Goals interconnected\n4. **Inclusive**: Leave no one behind\n5. **Measurable**: 169 targets, 232 indicators\n\n**Main themes:**\n- **Poverty and inequality**: Goals 1, 2, 10\n- **Environmental sustainability**: Goals 13, 14, 15\n- **Peace and governance**: Goal 16\n- **Health and education**: Goals 3, 4\n- **Infrastructure and economy**: Goals 8, 9, 11\n\n**Implementation:**\n- Voluntary national reviews\n- Multi-stakeholder partnerships\n- Government, private sector, civil society\n- Funding from various sources\n\n**Challenges:**\n- Financing gap (trillions needed)\n- Political will varies\n- COVID-19 setback\n- Climate crisis accelerating\n\n**Why other options wrong:**\n- Option B (economic growth only): Too narrow, SDGs include environment, social equity\n- Option C (military alliances): Not SDG purpose (though Goal 16 addresses peace)\n- Option D (trade barriers): Opposite - SDGs promote cooperation\n\nThe SDGs are comprehensive, addressing poverty, inequality, climate, peace, and more.",
+    "reasoning": "SDGs (2015-2030): 17 goals addressing poverty, inequality, climate, peace, health, education. Comprehensive: economic, social, environmental. Universal. Purpose: address global challenges. Answer: A.",
+    "steps": [
+      "Sustainable Development Goals (SDGs)",
+      "UN adoption: 2015, target: 2030",
+      "17 goals, 169 targets",
+      "Comprehensive scope:",
+      "Poverty (Goal 1), inequality (Goal 10)",
+      "Climate change (Goal 13)",
+      "Peace (Goal 16)",
+      "Plus health, education, environment, economy",
+      "Universal: all countries",
+      "Purpose: address global challenges comprehensively",
+      "Answer: A - poverty, inequality, climate, peace"
+    ],
+    "generatedAt": "2025-01-10T12:25:00.000Z"
   }
 ]
