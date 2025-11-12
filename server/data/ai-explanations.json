@@ -29740,5 +29740,186 @@
       "Answer: True, True (as marked)"
     ],
     "generatedAt": "2025-11-12T12:20:45.876460Z"
+  },
+  {
+    "questionId": "abstract_algebra_85",
+    "explanation": "Statement 1: A homomorphism is one-to-one if and only if the kernel consists of the identity element alone. This is TRUE. A homomorphism \u03c6: G \u2192 H is injective (one-to-one) iff ker(\u03c6) = {e_G}. Proof: (\u2192) If \u03c6 is injective and \u03c6(g) = e_H, then \u03c6(g) = \u03c6(e_G), so g = e_G by injectivity. Thus ker(\u03c6) = {e_G}. (\u2190) If ker(\u03c6) = {e_G} and \u03c6(a) = \u03c6(b), then \u03c6(ab\u207b\u00b9) = \u03c6(a)\u03c6(b)\u207b\u00b9 = e_H, so ab\u207b\u00b9 \u2208 ker(\u03c6) = {e_G}, thus ab\u207b\u00b9 = e_G, so a = b. Statement 2: The image of a group of 6 elements under some homomorphism may have 4 elements. This is FALSE. By Lagrange's theorem, the order of the image must divide the order of the domain. If |G| = 6 and \u03c6: G \u2192 H is a homomorphism, then |Im(\u03c6)| divides |G| = 6 by the First Isomorphism Theorem (since Im(\u03c6) \u2245 G/ker(\u03c6)). The divisors of 6 are {1,2,3,6}, so |Im(\u03c6)| \u2208 {1,2,3,6}. Since 4 \u2224 6, the image cannot have 4 elements. Statement 1 TRUE, Statement 2 FALSE. Answer: (C) True, False.",
+    "reasoning": "Statement 1: \u03c6 injective \u2194 ker(\u03c6)={e} (standard theorem). TRUE. Statement 2: |Im(\u03c6)| must divide |G|. 4\u22246. FALSE. Answer: True, False.",
+    "steps": [
+      "Statement 1: \u03c6 injective \u2194 ker(\u03c6)={e}?",
+      "\u2192: \u03c6 injective, \u03c6(g)=e \u2192 g=e",
+      "\u2190: ker={e}, \u03c6(a)=\u03c6(b) \u2192 ab\u207b\u00b9\u2208ker \u2192 a=b",
+      "Statement 1: TRUE",
+      "Statement 2: |G|=6, can |Im(\u03c6)|=4?",
+      "|Im(\u03c6)| divides |G| (Lagrange via FIT)",
+      "Divisors of 6: {1,2,3,6}",
+      "4 \u2209 {1,2,3,6}",
+      "Statement 2: FALSE",
+      "Answer: True, False"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092032Z"
+  },
+  {
+    "questionId": "abstract_algebra_86",
+    "explanation": "Statement 1: If H and K are subgroups of G, then |HK| = |H||K|/|H \u2229 K|. This is TRUE. This is the product formula for subgroups. HK = {hk : h \u2208 H, k \u2208 K} is the set of products. The formula counts elements by accounting for the overlap: |HK| \u00b7 |H \u2229 K| = |H| \u00b7 |K|. Proof sketch: Each element of HK can be written as hk in |H| \u00b7 |K|/|H \u2229 K| ways, accounting for the common elements in the intersection. Statement 2: A group of order 2p where p is an odd prime is cyclic or isomorphic to D_p. This is TRUE. By Sylow theorems, the group has subgroups of orders 2 and p. Since p is odd and the only group of order p is Z_p (cyclic), we have a normal subgroup of order p. The group is either cyclic (if the element of order 2 commutes with the generator of order p, giving Z_{2p}) or dihedral D_p (if they don't commute, giving the dihedral group structure). Both statements TRUE. Answer: (A) True, True.",
+    "reasoning": "Statement 1: Product formula |HK|=|H||K|/|H\u2229K| (standard result). TRUE. Statement 2: Order 2p \u2192 cyclic or D_p (classification by Sylow). TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: |HK| = |H||K|/|H\u2229K|?",
+      "Product formula for subgroups",
+      "Accounts for overlap in H\u2229K",
+      "Statement 1: TRUE",
+      "Statement 2: Order 2p (p odd prime) \u2192 cyclic or D_p?",
+      "Sylow: normal subgroup order p",
+      "If commutative: Z_{2p} (cyclic)",
+      "If not: D_p (dihedral)",
+      "Classification theorem",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092059Z"
+  },
+  {
+    "questionId": "abstract_algebra_87",
+    "explanation": "We have a linear transformation T: Z \u00d7 Z \u2192 Z with T(1,0) = 3 and T(0,1) = -5. We need T(-3,2). By linearity: T(-3,2) = T(-3\u00b7(1,0) + 2\u00b7(0,1)) = -3\u00b7T(1,0) + 2\u00b7T(0,1) = -3\u00b73 + 2\u00b7(-5) = -9 + (-10) = -19. The answer is -19. This uses the fundamental property of linear transformations: T(av + bw) = aT(v) + bT(w).",
+    "reasoning": "Linear transformation: T(-3,2) = -3\u00b7T(1,0) + 2\u00b7T(0,1) = -3(3) + 2(-5) = -9 - 10 = -19. Answer: -19.",
+    "steps": [
+      "T: Z\u00d7Z \u2192 Z linear",
+      "T(1,0) = 3, T(0,1) = -5",
+      "Find T(-3,2)",
+      "(-3,2) = -3(1,0) + 2(0,1)",
+      "T(-3,2) = -3\u00b7T(1,0) + 2\u00b7T(0,1)",
+      "= -3(3) + 2(-5)",
+      "= -9 - 10",
+      "= -19",
+      "Answer: -19"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092063Z"
+  },
+  {
+    "questionId": "abstract_algebra_88",
+    "explanation": "We need to compute (12)(16) in Z\u2082\u2084. Multiply: 12 \u00d7 16 = 192. Now reduce modulo 24: 192 = 8 \u00d7 24 + 0, so 192 \u2261 0 (mod 24). Therefore (12)(16) = 0 in Z\u2082\u2084. We can also see this using the fact that 12 and 24 share a common factor: gcd(12,24) = 12. When we multiply elements in Z_n that share factors with n, we can get 0 (zero divisors). Here, 12 \u00d7 16 = 12 \u00d7 2 \u00d7 8 = 24 \u00d7 8 \u2261 0. The answer is 0.",
+    "reasoning": "12 \u00d7 16 = 192. 192 = 8\u00b724, so 192 \u2261 0 (mod 24). Alternatively: 12 and 16 are zero divisors in Z\u2082\u2084. Answer: 0.",
+    "steps": [
+      "Compute (12)(16) in Z\u2082\u2084",
+      "12 \u00d7 16 = 192",
+      "Reduce mod 24:",
+      "192 \u00f7 24 = 8 remainder 0",
+      "192 = 8\u00b724",
+      "192 \u2261 0 (mod 24)",
+      "Alternative: 12 = 24/2, so 12\u00b72 = 24 \u2261 0",
+      "12\u00b716 = 12\u00b7(2\u00b78) = (12\u00b72)\u00b78 = 24\u00b78 \u2261 0",
+      "Answer: 0"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092066Z"
+  },
+  {
+    "questionId": "abstract_algebra_89",
+    "explanation": "Statement 1: Every permutation is a one-to-one function. This is TRUE. A permutation of a set S is defined as a bijection (one-to-one and onto) from S to itself. By definition, all permutations are one-to-one (injective). Statement 2: Every function is a permutation if and only if it is one-to-one. This is FALSE. For a function f: S \u2192 S to be a permutation, it must be both one-to-one (injective) AND onto (surjective), i.e., a bijection. Being one-to-one alone is not sufficient. Counterexample: For infinite sets, f: \u2115 \u2192 \u2115 defined by f(n) = 2n is one-to-one but not onto (misses all odd numbers), so it's not a permutation. Even for finite sets, we need surjectivity: though for finite sets, injective implies surjective. The statement as written is false because it doesn't specify finite sets and doesn't require surjectivity. Statement 1 TRUE, Statement 2 FALSE. Answer: (C) True, False.",
+    "reasoning": "Statement 1: Permutation \u2192 bijection \u2192 one-to-one. TRUE. Statement 2: Function is permutation \u2194 one-to-one? Need BOTH injective AND surjective. FALSE (missing surjectivity). Answer: True, False.",
+    "steps": [
+      "Statement 1: Every permutation one-to-one?",
+      "Permutation = bijection S\u2192S",
+      "Bijection \u2192 injective (one-to-one)",
+      "Statement 1: TRUE",
+      "Statement 2: Function permutation \u2194 one-to-one?",
+      "Permutation needs bijection",
+      "= injective + surjective",
+      "One-to-one alone insufficient",
+      "Counterexample: f(n)=2n on \u2115",
+      "Statement 2: FALSE",
+      "Answer: True, False"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092069Z"
+  },
+  {
+    "questionId": "abstract_algebra_90",
+    "explanation": "Statement 1: If a finite group has order n, then the group contains a subgroup of order d for every positive divisor d of n. This is FALSE. While Lagrange's theorem says that the order of any subgroup must divide the group order, the CONVERSE is not true. Not every divisor of |G| corresponds to a subgroup. Counterexample: A\u2084 (alternating group on 4 elements) has order 12, and 6 divides 12, but A\u2084 has no subgroup of order 6. Statement 2: If a belongs to a finite group, then |a| divides |G|. This is TRUE. The order of an element equals the order of the cyclic subgroup it generates: |a| = |\u27e8a\u27e9|. By Lagrange's theorem, |\u27e8a\u27e9| divides |G|, so |a| divides |G|. Statement 1 FALSE, Statement 2 TRUE. Answer: (D) False, True.",
+    "reasoning": "Statement 1: Order n \u2192 subgroup of all divisor orders? NO (converse of Lagrange false). Counterexample: A\u2084 order 12, no subgroup order 6. FALSE. Statement 2: |a| divides |G|? |a|=|\u27e8a\u27e9|, Lagrange applies. TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: |G|=n \u2192 subgroup order d for all d|n?",
+      "Lagrange converse is FALSE",
+      "Counterexample: A\u2084, |A\u2084|=12",
+      "6|12 but no subgroup order 6",
+      "Statement 1: FALSE",
+      "Statement 2: |a| divides |G|?",
+      "|a| = |\u27e8a\u27e9|",
+      "\u27e8a\u27e9 is subgroup",
+      "Lagrange: |\u27e8a\u27e9| | |G|",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092071Z"
+  },
+  {
+    "questionId": "abstract_algebra_91",
+    "explanation": "We need all cosets of the subgroup 4Z in the group 2Z (under addition). First note that 4Z \u2282 2Z since every multiple of 4 is a multiple of 2. The cosets of 4Z in 2Z are of the form a + 4Z for a \u2208 2Z. We need to find all distinct cosets. 0 + 4Z = 4Z = {...,-8,-4,0,4,8,...}. 2 + 4Z = {...,-6,-2,2,6,10,...}. 4 + 4Z = {...,-4,0,4,8,12,...} = 4Z (same as first). So there are exactly 2 distinct cosets: 4Z and 2+4Z. This makes sense because [2Z : 4Z] = |2Z|/|4Z| is not well-defined for infinite groups, but we can compute it as the index by noting that 2Z/4Z has representatives {0,2} in the range [0,4). The answer is 4Z, 2+4Z, which is option (B).",
+    "reasoning": "Cosets of 4Z in 2Z: a+4Z for a\u22082Z. Representatives: 0+4Z=4Z, 2+4Z. Index [2Z:4Z]=2. Two cosets: 4Z and 2+4Z. Answer: 4Z, 2+4Z.",
+    "steps": [
+      "Find cosets of 4Z in 2Z",
+      "4Z \u2282 2Z (subgroup)",
+      "Cosets: a + 4Z for a \u2208 2Z",
+      "0 + 4Z = {...,-4,0,4,8,...} = 4Z",
+      "2 + 4Z = {...,-2,2,6,10,...}",
+      "4 + 4Z = 4Z (repeats)",
+      "Index = 2",
+      "Two cosets: 4Z and 2+4Z",
+      "Answer: 4Z, 2+4Z"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092073Z"
+  },
+  {
+    "questionId": "abstract_algebra_92",
+    "explanation": "Let's examine each statement: (A) Every equivalence relation is a partial ordering. FALSE. Equivalence relations require reflexive, symmetric, and transitive. Partial orderings require reflexive, anti-symmetric, and transitive. These differ in symmetry vs. anti-symmetry. Example: equality is both, but general equivalence relations are symmetric while partial orders are anti-symmetric. (B) Number of relations from A={x,y,z} to B={1,2} is 64. A relation from A to B is a subset of A\u00d7B. |A\u00d7B| = 3\u00d72 = 6, so there are 2\u2076 = 64 possible relations (each element of A\u00d7B can be included or not). TRUE! (C) Empty relation is reflexive. FALSE. Empty relation has no pairs, so it doesn't contain (a,a) for any a. Not reflexive. (D) Symmetric and asymmetric are negatives of each other. FALSE. A relation is asymmetric if whenever (a,b) is in R, then (b,a) is NOT in R (with a\u2260b). The negation of symmetric is 'not symmetric', not 'asymmetric'. These are different concepts. The correct answer is (B).",
+    "reasoning": "Check each: (A) Equivalence \u2260 partial order (symmetric vs anti-symmetric). (B) Relations A\u2192B: subsets of A\u00d7B. |A\u00d7B|=6, so 2\u2076=64 relations. TRUE! (C) Empty not reflexive. (D) Symmetric/asymmetric not negatives. Answer: (B).",
+    "steps": [
+      "A: Equivalence \u2192 partial order?",
+      "Equivalence: symmetric. Partial order: anti-symmetric",
+      "FALSE",
+      "B: # relations {x,y,z}\u2192{1,2}?",
+      "Relation = subset of A\u00d7B",
+      "|A\u00d7B| = 3\u00d72 = 6",
+      "# subsets = 2\u2076 = 64 \u2713",
+      "TRUE",
+      "C: Empty relation reflexive? NO",
+      "D: Symmetric \u2194 asymmetric? Different concepts",
+      "Answer: B (64 relations)"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092075Z"
+  },
+  {
+    "questionId": "abstract_algebra_93",
+    "explanation": "We need the maximum possible order for an element in S\u2086. As established in question 14, the order of a permutation equals the lcm of its cycle lengths. To maximize the order, we partition 6 into parts whose lcm is maximized. Try partitions: 6 = 6 \u2192 lcm(6) = 6. 6 = 5+1 \u2192 lcm(5,1) = 5. 6 = 4+2 \u2192 lcm(4,2) = 4. 6 = 3+3 \u2192 lcm(3,3) = 3. 6 = 3+2+1 \u2192 lcm(3,2,1) = 6. 6 = 2+2+2 \u2192 lcm(2,2,2) = 2. 6 = 2+2+1+1 \u2192 lcm(2,2,1,1) = 2. The maximum is 6, achieved by either a single 6-cycle or the partition 3+2+1 (though 3+2+1 gives lcm=6). Example: (1,2,3,4,5,6) has order 6, or (1,2,3)(4,5) has order lcm(3,2)=6. The answer is 6.",
+    "reasoning": "Max order in S_n = max lcm of partition of n. For n=6: try partitions. 6\u21926, 5+1\u21925, 4+2\u21924, 3+3\u21923, 3+2+1\u21926. Maximum is 6. Answer: 6.",
+    "steps": [
+      "Max order in S\u2086",
+      "Order = lcm of cycle lengths",
+      "Partition 6, maximize lcm:",
+      "6 \u2192 lcm(6) = 6",
+      "5+1 \u2192 lcm(5,1) = 5",
+      "4+2 \u2192 lcm(4,2) = 4",
+      "3+3 \u2192 lcm(3,3) = 3",
+      "3+2+1 \u2192 lcm(3,2,1) = 6",
+      "Maximum = 6",
+      "Answer: 6"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092078Z"
+  },
+  {
+    "questionId": "abstract_algebra_94",
+    "explanation": "Statement 1: Q is an extension field of Z\u2082. This is FALSE. An extension field F of a field K must contain K as a subfield. But Q (rationals with characteristic 0) and Z\u2082 (field with characteristic 2) have different characteristics, so Z\u2082 cannot be a subfield of Q. In fact, no field of characteristic p can be an extension of a field of characteristic q when p \u2260 q. They're incompatible. Statement 2: Every non-constant polynomial over a field has a zero in some extension field. This is TRUE. This is the fundamental theorem of algebra generalized. For any field F and non-constant polynomial p(x) \u2208 F[x], there exists an extension field E containing F such that p(x) has a root in E. This extension is called the splitting field. We can construct it explicitly by adjoining a root. Both statements cannot be True,True. Statement 1 is FALSE, Statement 2 is TRUE. Answer: (D) False, True.",
+    "reasoning": "Statement 1: Q extension of Z\u2082? Different characteristics (0 vs 2) \u2192 incompatible. FALSE. Statement 2: Every polynomial has root in some extension (fundamental result). TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: Q extension of Z\u2082?",
+      "Extension field must contain subfield",
+      "char(Q) = 0, char(Z\u2082) = 2",
+      "Different characteristics \u2192 incompatible",
+      "Statement 1: FALSE",
+      "Statement 2: Non-constant polynomial has root in extension?",
+      "Fundamental theorem (generalized)",
+      "Can construct splitting field",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:26:58.092080Z"
   }
 ]
