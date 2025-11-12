@@ -26793,5 +26793,209 @@
       "Answer: Both have P \u2248 0.159"
     ],
     "generatedAt": "2025-11-10T10:30:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_121",
+    "explanation": "Confidence interval for difference in proportions (Toyota - Subaru) is -0.197 \u00b1 0.081, which gives (-0.278, -0.116). The interval is entirely negative. Let's evaluate: (A) Invalid because probabilities can't be negative: FALSE - this is a DIFFERENCE in proportions, not a probability itself. Differences can be negative. (B) Invalid because doesn't contain zero: FALSE - an interval not containing zero is actually SIGNIFICANT (indicates real difference). (C) Subaru owners ~19.7% more satisfied: CORRECT interpretation. The center of the interval is -0.197, meaning Toyota proportion minus Subaru proportion \u2248 -0.197, so Subaru proportion is about 0.197 or 19.7% higher. (D) We are 90% confident difference is between -0.278 and -0.116: CORRECT - this is the proper interpretation of the confidence interval.",
+    "reasoning": "CI for difference (Toyota - Subaru) is entirely negative, meaning Subaru satisfaction > Toyota satisfaction. The interval (-0.278, -0.116) is valid, and options C and D correctly interpret it.",
+    "steps": [
+      "CI: (-0.197 \u00b1 0.081) = (-0.278, -0.116)",
+      "Difference = Toyota - Subaru",
+      "Entirely negative \u2192 Subaru > Toyota",
+      "Option A: Differences can be negative (valid)",
+      "Option D: Correct CI interpretation \u2713",
+      "Answer: 90% confident difference in (-0.278, -0.116)"
+    ],
+    "generatedAt": "2025-11-10T10:35:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_122",
+    "explanation": "Let's evaluate each statement about correlation: (A) Correlation and slope may have opposite signs: FALSE - they always have the SAME sign. If r > 0, slope > 0; if r < 0, slope < 0. (B) Correlation of 1 indicates cause-and-effect: FALSE - correlation never proves causation, even perfect correlation. (C) Correlations of +0.87 and -0.87 indicate same clustering: TRUE - the absolute value |r| indicates strength of linear relationship. Both have |r| = 0.87, meaning same degree of clustering around the regression line (just opposite directions). (D) Correlation applies to quantitative and categorical: FALSE - correlation requires quantitative variables (numerical data), not categorical.",
+    "reasoning": "|r| measures strength of linear relationship. r = +0.87 and r = -0.87 have same strength (|r| = 0.87), same clustering tightness, just opposite directions (positive vs negative slope).",
+    "steps": [
+      "Option A: r and slope always have same sign \u2717",
+      "Option B: Correlation \u2260 causation \u2717",
+      "Option C: |r| = strength, sign = direction \u2713",
+      "|0.87| = |\u22120.87| \u2192 same clustering",
+      "Option D: Need quantitative data \u2717",
+      "Answer: \u00b10.87 have same degree of clustering"
+    ],
+    "generatedAt": "2025-11-10T10:37:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_123",
+    "explanation": "Two-proportion z-test requirements: (1) Independent samples, (2) Random samples, (3) Sample sizes and success/failure counts large enough: np \u2265 10 and n(1-p) \u2265 10 for each group. Check given data: Females: n=70, successes=66, failures=4. Males: n=60, successes=50, failures=10. For females: success count 66 \u2265 10 \u2713, but failure count 4 < 10 \u2717. For males: success 50 \u2265 10 \u2713, failure 10 \u2265 10 \u2713. The female group has only 4 failures, which is less than 10. This violates the sample size requirement for normal approximation. The different sample sizes (70 vs 60) are not a problem - two-proportion tests don't require equal sizes.",
+    "reasoning": "Two-proportion z-test needs n1p1, n1(1-p1), n2p2, n2(1-p2) all \u2265 10. Female group: 66 successes \u2713, 4 failures \u2717 (< 10). This violates the requirement.",
+    "steps": [
+      "Requirement: all counts (success & failure) \u2265 10",
+      "Females: 66 oppose \u2713, 4 don't oppose \u2717",
+      "Males: 50 oppose \u2713, 10 don't oppose \u2713",
+      "Female failures (4) < 10 \u2192 violates requirement",
+      "Different sample sizes OK for two-proportion test",
+      "Answer: Number of successes/failures not all large enough"
+    ],
+    "generatedAt": "2025-11-10T10:39:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_124",
+    "explanation": "Dispenser: \u03c3 = 0.3 oz, normally distributed. Want: 12-oz cup overflows < 1% of time. Overflow occurs when dispensed amount > 12 oz. We want P(X > 12) < 0.01, or equivalently P(X \u2264 12) > 0.99. Find \u03bc such that P(X \u2264 12) = 0.99. For 99th percentile: z \u2248 2.326. Using z = (x - \u03bc)/\u03c3: 2.326 = (12 - \u03bc)/0.3. Solving: 12 - \u03bc = 2.326(0.3) = 0.698. Therefore: \u03bc = 12 - 0.698 = 12 - 2.326(0.3). The mean should be set below 12 oz so that only 1% of the time does the amount exceed 12 oz.",
+    "reasoning": "Want 99% of amounts \u2264 12 oz. The 99th percentile is at z = 2.326. Set: 12 = \u03bc + 2.326(0.3), so \u03bc = 12 - 2.326(0.3).",
+    "steps": [
+      "Want: P(X > 12) < 0.01 \u2192 P(X \u2264 12) = 0.99",
+      "99th percentile: z = 2.326",
+      "Formula: 12 = \u03bc + 2.326(0.3)",
+      "Solve: \u03bc = 12 - 2.326(0.3)",
+      "Answer: 12 - 2.326(0.3) ounces"
+    ],
+    "generatedAt": "2025-11-10T10:41:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_125",
+    "explanation": "Candy bars: \u03bc = 210 calories, \u03c3 = 10 calories, normally distributed. Want: P(X > 225). Calculate z-score: z = (225 - 210)/10 = 15/10 = 1.5. Find probability: P(Z > 1.5) \u2248 0.0668 or 6.68%. This means approximately 6.68% of candy bars contain more than 225 calories.",
+    "reasoning": "Z-score: (225-210)/10 = 1.5. P(Z > 1.5) \u2248 0.0668. About 6.68% of bars exceed 225 calories.",
+    "steps": [
+      "Given: \u03bc=210, \u03c3=10, normal distribution",
+      "Want: P(X > 225)",
+      "z = (225-210)/10 = 1.5",
+      "P(Z > 1.5) \u2248 0.0668",
+      "Answer: 6.68%"
+    ],
+    "generatedAt": "2025-11-10T10:43:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_126",
+    "explanation": "Bakery: \u03bc = 2,500 loaves/day, \u03c3 = 225 loaves, normal distribution. Bakes 3,000 loaves. Runs out if demand > 3,000. Want: P(X > 3,000). Calculate z: z = (3,000 - 2,500)/225 = 500/225 \u2248 2.22. Find probability: P(Z > 2.22) \u2248 0.0132 or 1.32%. There's about a 1.32% chance the bakery will run out of bread today.",
+    "reasoning": "Demand ~ N(2500, 225). Supply = 3000. Run out when demand > 3000. Z = (3000-2500)/225 \u2248 2.22. P(Z > 2.22) \u2248 0.0132.",
+    "steps": [
+      "Demand: \u03bc=2500, \u03c3=225",
+      "Supply: 3000 loaves",
+      "Run out when demand > 3000",
+      "z = (3000-2500)/225 \u2248 2.22",
+      "P(Z > 2.22) \u2248 0.0132",
+      "Answer: 0.0132"
+    ],
+    "generatedAt": "2025-11-10T10:45:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_127",
+    "explanation": "Game: Win $20 if both dice show 6, lose $2 (cost) otherwise. P(both show 6) = (1/6)(1/6) = 1/36. P(not both 6) = 35/36. Net outcomes: Win: gain $20 - $2 cost = $18 net with probability 1/36. Lose: lose $2 cost with probability 35/36. Expected value: E = (18)(1/36) + (-2)(35/36) = 18/36 - 70/36 = -52/36 \u2248 -$1.44. The player loses about $1.44 per game on average.",
+    "reasoning": "E(gain) = (net if win)\u00d7P(win) + (net if lose)\u00d7P(lose) = 18(1/36) + (-2)(35/36) = 0.5 - 1.944 \u2248 -$1.44. Negative expected value means average loss.",
+    "steps": [
+      "P(both 6) = 1/36, P(not) = 35/36",
+      "Win: net $18 (won $20, paid $2)",
+      "Lose: net -$2",
+      "E = 18(1/36) - 2(35/36)",
+      "E = 0.5 - 1.944 = -$1.44",
+      "Answer: Lose about $1.44"
+    ],
+    "generatedAt": "2025-11-10T10:47:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_128",
+    "explanation": "Fair die tossed 3 times, got even each time. Question: what about next toss? Key concept: Dice have NO MEMORY. Each toss is independent. Previous outcomes don't affect future tosses. Let's evaluate: (A) Law of large numbers says next toss more likely odd: FALSE - law of large numbers is about long-run averages, not individual tosses. NO gambler's fallacy applies here. (B) Conditional probability makes even more likely: FALSE - independence means P(even|previous evens) = P(even) = 0.5. (C) Dice have memories: FALSE - dice are memoryless. (D) Next toss probability of even is 0.5: TRUE - each toss is independent, P(even) = 3/6 = 0.5 regardless of previous results.",
+    "reasoning": "Independence: previous outcomes don't affect future ones. P(even on next toss) = 0.5, same as always. Dice don't 'remember' or 'balance out' in short sequences.",
+    "steps": [
+      "Fair die: P(even) = P(odd) = 0.5",
+      "Independence: tosses don't affect each other",
+      "Previous results irrelevant to next toss",
+      "P(even on 4th toss) = 0.5",
+      "Answer: Probability of even is 0.5"
+    ],
+    "generatedAt": "2025-11-10T10:49:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_129",
+    "explanation": "Taxicabs: \u03bc = 75,000 miles, \u03c3 = 12,000 miles, normal distribution. Want: P(X < 100,000 | X > 80,000) - conditional probability. This is: P(80,000 < X < 100,000) / P(X > 80,000). Calculate z-scores: For 80,000: z = (80,000-75,000)/12,000 = 5,000/12,000 \u2248 0.42. For 100,000: z = (100,000-75,000)/12,000 = 25,000/12,000 \u2248 2.08. P(Z > 0.42) \u2248 0.3372. P(Z > 2.08) \u2248 0.0188. P(0.42 < Z < 2.08) = 0.3372 - 0.0188 = 0.3184. Conditional probability: 0.3184/0.3372 \u2248 0.944 or 94%.",
+    "reasoning": "P(X<100k | X>80k) = P(80k<X<100k) / P(X>80k). Calculate areas for Z>0.42 and 0.42<Z<2.08, then divide: 0.3184/0.3372 \u2248 0.94.",
+    "steps": [
+      "z\u2081 = (80000-75000)/12000 \u2248 0.42",
+      "z\u2082 = (100000-75000)/12000 \u2248 2.08",
+      "P(Z>0.42) \u2248 0.3372",
+      "P(0.42<Z<2.08) \u2248 0.3184",
+      "Conditional: 0.3184/0.3372 \u2248 0.944",
+      "Answer: 0.94"
+    ],
+    "generatedAt": "2025-11-10T10:51:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_130",
+    "explanation": "Registrar constructs 95% confidence interval from sample of 150 students. Which must be true? (A) True proportion is within the CI constructed: NOT necessarily true - for THIS specific interval, the true proportion either is or isn't in it (probability is 0 or 1). We don't know which. (B) 95% of students have correct address: FALSE - 95% refers to confidence level, not proportion of students. (C) True proportion is within CI 95% of time: INCORRECT phrasing - the parameter is fixed, the interval varies. Correct: 95% of intervals constructed this way contain the parameter. (D) Sample proportion is within the CI: This must be TRUE - the CI is constructed as p\u0302 \u00b1 ME, so p\u0302 is at the center of the interval. The sample proportion is always within its own CI.",
+    "reasoning": "CI is constructed as point estimate \u00b1 margin of error. The sample proportion p\u0302 is the center of the interval, so it's always within the CI. This is the only statement that MUST be true.",
+    "steps": [
+      "CI structure: p\u0302 \u00b1 ME",
+      "p\u0302 is at the center of the interval",
+      "Sample proportion always in its own CI",
+      "Options A,B,C: misinterpret confidence level",
+      "Option D: Must be true \u2713",
+      "Answer: Sample proportion within CI"
+    ],
+    "generatedAt": "2025-11-10T10:53:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_131",
+    "explanation": "Test: H\u2080: \u03bc = 3.5 vs H\u2090: \u03bc > 3.5 (right-tailed). Result: significant at 5% level (\u03b1 = 0.05). This means we rejected H\u2080, concluding \u03bc > 3.5. For a one-sided test at \u03b1 = 0.05, the corresponding two-sided confidence level is 90% (since 2\u00d70.05 = 0.10, leaving 90% in middle). If we reject H\u2080: \u03bc = 3.5 in favor of \u03bc > 3.5 at 5% level, then 3.5 is NOT in a 90% confidence interval - it's below the lower limit. Actually, let me reconsider: for one-sided test at \u03b1=0.05, we're looking at whether 3.5 is in a one-sided 95% CI. But the question asks about a two-sided CI. A one-sided test at 5% corresponds to a one-sided 95% CI, which has lower bound excluding 3.5. A 90% two-sided CI would also exclude 3.5 from the lower end.",
+    "reasoning": "Significant one-sided test at \u03b1=0.05 means sample mean > 3.5 significantly. The corresponding 90% CI would have 3.5 below its lower limit (or not within it, depending on the relationship between one-sided tests and two-sided CIs).",
+    "steps": [
+      "Rejected H\u2080: \u03bc=3.5 at 5% level (one-sided)",
+      "Concluded \u03bc > 3.5",
+      "One-sided \u03b1=0.05 corresponds to 90% CI",
+      "3.5 is below sample mean significantly",
+      "3.5 not within 90% CI",
+      "Answer: 3.5 not within 90% CI"
+    ],
+    "generatedAt": "2025-11-10T10:55:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_132",
+    "explanation": "Dentist: 2 out of 7 children develop cavities before age 10. Examined 5 children. Let X = number who develop cavities. Want: P(at least one) = P(X \u2265 1). Using complement: P(X \u2265 1) = 1 - P(X = 0). This is the standard approach for 'at least one' problems. Let's check options: (A) P(X = 2, 3, 4, 5, 6, 7): Nonsense - can't have more than 5 children with cavities when only examining 5. (B) P(X = 2 out of 7): Unclear/incorrect notation. (C) P(X = 1): Only gives probability of exactly one, not at least one. (D) 1 - P(X = 0): CORRECT - this is the complement rule for 'at least one'.",
+    "reasoning": "P(at least 1) = 1 - P(none) = 1 - P(X=0). This is the standard approach using the complement rule.",
+    "steps": [
+      "Want: P(X \u2265 1) = P(at least one)",
+      "Use complement: P(X \u2265 1) = 1 - P(X = 0)",
+      "Option A: Can't have X > 5 with n=5",
+      "Option C: Only P(X=1), not all X\u22651",
+      "Option D: Correct complement approach \u2713",
+      "Answer: 1 - P(X = 0)"
+    ],
+    "generatedAt": "2025-11-10T10:57:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_133",
+    "explanation": "Properties of \u03c7\u00b2 distribution: Let's check each: (A) Area under curve is 1: TRUE - all probability distributions have total area = 1. (B) Defined only for nonnegative values: TRUE - \u03c7\u00b2 is always \u2265 0. (C) Strong right-skewness for small df: TRUE - with few degrees of freedom, \u03c7\u00b2 is very right-skewed. (D) As df increases, critical value for same \u03b1 decreases: FALSE - as df increases, the \u03c7\u00b2 distribution shifts RIGHT and becomes less skewed. For the same \u03b1 (e.g., 0.05), the critical value INCREASES with more df, not decreases. For example, \u03c7\u00b2\u2080.\u2080\u2085 with df=1 is 3.84, but with df=10 is 18.31.",
+    "reasoning": "As df increases, \u03c7\u00b2 distribution shifts right. Critical values for rejection regions INCREASE with df, not decrease. Statement D is NOT true.",
+    "steps": [
+      "Option A: Total area = 1 (true for all distributions)",
+      "Option B: \u03c7\u00b2 \u2265 0 always (true)",
+      "Option C: Small df \u2192 right-skewed (true)",
+      "Option D: More df \u2192 critical value increases, not decreases (FALSE)",
+      "Answer: Statement D is NOT true"
+    ],
+    "generatedAt": "2025-11-10T10:59:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_134",
+    "explanation": "Regression: Selling price = 15.9 - 0.983(age), where price in $1,000 and age in years. The slope is -0.983, meaning for each additional year of age, the selling price decreases by 0.983 thousand dollars = $983. Let's evaluate: (A) Price drops 9.83%: Incorrect - the slope is absolute change ($983), not percentage. (B) New car costs $9,830: Incorrect - intercept is 15.9, meaning new car (age=0) costs $15,900. (C) Price drops $1,590 per year: Incorrect - slope is -0.983, not -1.590. (D) Price drops $983 per year: CORRECT - slope of -0.983 in thousands = -$983 per year.",
+    "reasoning": "Slope = -0.983 (in $1,000 units). Each year older \u2192 price drops by 0.983\u00d7$1,000 = $983. This is the interpretation of the slope coefficient.",
+    "steps": [
+      "Equation: Price = 15.9 - 0.983(age)",
+      "Slope = -0.983 (in $1,000 units)",
+      "Per year: price drops 0.983 thousand",
+      "Convert: 0.983 \u00d7 $1,000 = $983",
+      "Answer: Price drops $983 per year"
+    ],
+    "generatedAt": "2025-11-10T11:01:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_135",
+    "explanation": "Power increases when: (1) \u03b1 increases (easier to reject), (2) n increases (more data), (3) effect size increases, (4) \u03c3 decreases. Given: H\u2080: \u03bc=70, H\u2090: \u03bc<70, true \u03bc=65 (effect size = 5). Compare options for maximum power: (A) \u03b1=0.05, n=15. (B) \u03b1=0.01, n=15: Lower \u03b1 decreases power. (C) \u03b1=0.05, n=30: Same \u03b1 as (A), larger n increases power. (D) \u03b1=0.01, n=30: Compared to (C), lower \u03b1 decreases power despite same n. Winner: Option (C) has \u03b1=0.05 (higher than 0.01) and n=30 (larger than 15), giving greatest power. Both higher \u03b1 and larger n increase power, so C wins.",
+    "reasoning": "Power increases with: larger n, larger \u03b1, larger effect size. Comparing options, C has both favorable factors: \u03b1=0.05 (vs 0.01) and n=30 (vs 15).",
+    "steps": [
+      "Power increases with: larger \u03b1, larger n",
+      "Compare: \u03b1=0.05 vs 0.01 (0.05 better)",
+      "Compare: n=30 vs 15 (30 better)",
+      "Option C: \u03b1=0.05, n=30 (both optimal)",
+      "Answer: \u03b1=0.05, n=30"
+    ],
+    "generatedAt": "2025-11-10T11:03:00.000Z"
   }
 ]
