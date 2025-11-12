@@ -28648,5 +28648,181 @@
       "Answer: True, True"
     ],
     "generatedAt": "2025-11-12T12:00:49.638264Z"
+  },
+  {
+    "questionId": "abstract_algebra_25",
+    "explanation": "Let G be the set of all n\u00d7n non-singular matrices with rational number entries. Under matrix multiplication, what type of structure is G? Let's check: Closure: Product of non-singular matrices is non-singular (det(AB) = det(A)det(B) \u2260 0) \u2713. Associativity: Matrix multiplication is associative \u2713. Identity: The identity matrix I_n exists and has rational entries \u2713. Inverses: Every non-singular matrix has an inverse (by Cramer's rule, inverse has rational entries when original has rational entries) \u2713. So G is a GROUP. Is it abelian? No, matrix multiplication is not commutative in general (AB \u2260 BA for most matrices). Is it finite? No, there are infinitely many such matrices. Therefore G is an infinite, non-abelian group. This is actually the general linear group GL_n(Q). The answer is (C) infinite, non-abelian group. Note: option (A) says 'subgroup' but doesn't specify what it's a subgroup of, making it incomplete/unclear.",
+    "reasoning": "Non-singular n\u00d7n matrices over Q under multiplication: Closure \u2713, associative \u2713, identity \u2713, inverses \u2713 \u2192 GROUP. Not commutative \u2192 non-abelian. Infinitely many \u2192 infinite. This is GL_n(Q). Answer: infinite, non-abelian group.",
+    "steps": [
+      "G = n\u00d7n non-singular matrices, entries in Q",
+      "Operation: matrix multiplication",
+      "Closure: det(AB) = det(A)det(B) \u2260 0 \u2713",
+      "Associative: matrix multiplication \u2713",
+      "Identity: I_n \u2713",
+      "Inverses: A^{-1} exists, has rational entries \u2713",
+      "GROUP",
+      "Not commutative \u2192 non-abelian",
+      "Infinitely many matrices \u2192 infinite",
+      "Answer: Infinite, non-abelian group"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015695Z"
+  },
+  {
+    "questionId": "abstract_algebra_26",
+    "explanation": "Statement 1: Every group of order 42 has a normal subgroup of order 7. We have 42 = 2\u00b73\u00b77. By Sylow's theorems, the number of Sylow 7-subgroups n\u2087 satisfies: n\u2087 \u2261 1 (mod 7) and n\u2087 | 6. So n\u2087 \u2208 {1}. Thus n\u2087 = 1, meaning there's a unique Sylow 7-subgroup, which must be normal (unique subgroups of their order are normal). Statement 1 is TRUE. Statement 2: Every group of order 42 has a normal subgroup of order 8. But 8 does not divide 42, so there cannot be a subgroup of order 8 (by Lagrange's theorem). Statement 2 is FALSE. Answer: Statement 1 TRUE, Statement 2 FALSE, so option (C) True, False.",
+    "reasoning": "42 = 2\u00b73\u00b77. Statement 1: n\u2087 | 6 and n\u2087\u22611 (mod 7) \u2192 n\u2087=1 \u2192 unique Sylow 7-subgroup \u2192 normal. TRUE. Statement 2: 8\u222442 \u2192 no subgroup of order 8 by Lagrange. FALSE. Answer: True, False.",
+    "steps": [
+      "Order 42 = 2\u00b73\u00b77",
+      "Statement 1: Normal subgroup of order 7?",
+      "Sylow 7-subgroups: n\u2087\u22611 (mod 7), n\u2087|6",
+      "n\u2087 \u2208 {1,2,3,6} \u2229 {1,8,15,...} = {1}",
+      "n\u2087 = 1 \u2192 unique \u2192 normal",
+      "Statement 1: TRUE",
+      "Statement 2: Normal subgroup of order 8?",
+      "8 \u2224 42 \u2192 no subgroup of order 8 (Lagrange)",
+      "Statement 2: FALSE",
+      "Answer: True, False"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015720Z"
+  },
+  {
+    "questionId": "abstract_algebra_27",
+    "explanation": "We need to check if 8x\u00b3 + 6x\u00b2 - 9x + 24 satisfies the Eisenstein criterion for irreducibility over Q. Eisenstein's criterion: For polynomial f(x) = a\u2099x\u207f + ... + a\u2081x + a\u2080 in Z[x], if there exists a prime p such that: (1) p does not divide a\u2099 (leading coefficient), (2) p divides all other coefficients (a\u2080, a\u2081, ..., a\u2099\u208b\u2081), (3) p\u00b2 does not divide a\u2080 (constant term), then f(x) is irreducible over Q. Let's try p=2: (1) Does 2 divide 8? YES - this violates condition (1). So p=2 doesn't work. Try p=3: (1) Does 3 divide 8? NO \u2713. (2) Does 3 divide 6, -9, 24? Yes: 6=2\u00b73, -9=-3\u00b73, 24=8\u00b73 \u2713. (3) Does 9 divide 24? 24/9 = 8/3, so NO \u2713. All conditions satisfied with p=3. Answer: Yes, with p=3 (option B).",
+    "reasoning": "Eisenstein with p: p\u2224leading, p|other coefficients, p\u00b2\u2224constant. f(x) = 8x\u00b3+6x\u00b2-9x+24. Try p=3: 3\u22248 \u2713, 3|6,-9,24 \u2713, 9\u222424 \u2713. Eisenstein satisfied with p=3. Answer: Yes, with p=3.",
+    "steps": [
+      "f(x) = 8x\u00b3 + 6x\u00b2 - 9x + 24",
+      "Eisenstein criterion needs prime p:",
+      "1. p \u2224 8 (leading coef)",
+      "2. p | 6, -9, 24",
+      "3. p\u00b2 \u2224 24 (constant)",
+      "Try p=3:",
+      "3 \u2224 8 \u2713, 3|6 \u2713, 3|-9 \u2713, 3|24 \u2713",
+      "9 \u2224 24 \u2713",
+      "Eisenstein satisfied",
+      "Answer: Yes, with p=3"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015723Z"
+  },
+  {
+    "questionId": "abstract_algebra_28",
+    "explanation": "Statement 1: The image of a group of 6 elements under a homomorphism may have 12 elements. This is FALSE. If \u03c6: G \u2192 H is a homomorphism with |G| = 6, then |Im(\u03c6)| divides |G| by the First Isomorphism Theorem (since Im(\u03c6) \u2245 G/ker(\u03c6), and |G/ker(\u03c6)| = |G|/|ker(\u03c6)| divides |G|). So |Im(\u03c6)| \u2208 {1,2,3,6}. It cannot be 12 > 6. Statement 2: There is a homomorphism of some group of 6 elements into some group of 12 elements. This is TRUE. For example, let G be any group of order 6 (say Z\u2086) and let H be any group of order 12 (say Z\u2081\u2082). The trivial homomorphism \u03c6(g) = e_H for all g \u2208 G is a valid homomorphism from G into H. Or, since |Z\u2086| = 6 divides |Z\u2081\u2082| = 12, there's an injective homomorphism from Z\u2086 into Z\u2081\u2082 (multiplication by 2). Statement 1 FALSE, Statement 2 TRUE. Answer: (D) False, True.",
+    "reasoning": "Statement 1: |Im(\u03c6)| \u2264 |G| (image can't be larger than domain). FALSE. Statement 2: Can map G (order 6) to H (order 12)? YES (trivial map, or other homomorphisms exist). TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: |G|=6, |Im(\u03c6)|=12?",
+      "|Im(\u03c6)| \u2264 |G| (image can't exceed domain)",
+      "|Im(\u03c6)| divides |G| (First Isom. Thm)",
+      "12 > 6 \u2192 impossible",
+      "Statement 1: FALSE",
+      "Statement 2: \u2203\u03c6: G\u2086 \u2192 H\u2081\u2082?",
+      "Example: \u03c6(g) = e for all g (trivial)",
+      "Or: 2x: Z\u2086 \u2192 Z\u2081\u2082 (multiplication by 2)",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015726Z"
+  },
+  {
+    "questionId": "abstract_algebra_29",
+    "explanation": "Statement 1: The homomorphic image of a cyclic group is cyclic. This is TRUE. If G = \u27e8g\u27e9 is cyclic (generated by g) and \u03c6: G \u2192 H is a homomorphism, then Im(\u03c6) = \u03c6(G) = \u03c6(\u27e8g\u27e9) = \u27e8\u03c6(g)\u27e9, which is cyclic (generated by \u03c6(g)). Every element of Im(\u03c6) has the form \u03c6(g^n) = \u03c6(g)^n for some n, so Im(\u03c6) is generated by \u03c6(g). Statement 2: The homomorphic image of an Abelian group is Abelian. This is also TRUE. If G is Abelian and \u03c6: G \u2192 H is a homomorphism, then for any \u03c6(a), \u03c6(b) \u2208 Im(\u03c6), we have \u03c6(a)\u03c6(b) = \u03c6(ab) = \u03c6(ba) = \u03c6(b)\u03c6(a) (using that ab = ba in G). So Im(\u03c6) is Abelian. Homomorphisms preserve the group operation structure, and commutativity is preserved under homomorphisms. Both statements TRUE. Answer: (A) True, True.",
+    "reasoning": "Statement 1: G=\u27e8g\u27e9 \u2192 Im(\u03c6)=\u27e8\u03c6(g)\u27e9 (cyclic). TRUE. Statement 2: G Abelian \u2192 \u03c6(a)\u03c6(b)=\u03c6(ab)=\u03c6(ba)=\u03c6(b)\u03c6(a) \u2192 Im(\u03c6) Abelian. TRUE. Homomorphisms preserve structural properties. Answer: True, True.",
+    "steps": [
+      "Statement 1: Homomorphic image of cyclic is cyclic?",
+      "G = \u27e8g\u27e9 \u2192 every element g^n",
+      "\u03c6(G) = {\u03c6(g^n) : n\u2208Z} = {\u03c6(g)^n : n\u2208Z} = \u27e8\u03c6(g)\u27e9",
+      "Im(\u03c6) is cyclic",
+      "Statement 1: TRUE",
+      "Statement 2: Image of Abelian is Abelian?",
+      "ab=ba in G \u2192 \u03c6(ab)=\u03c6(ba) \u2192 \u03c6(a)\u03c6(b)=\u03c6(b)\u03c6(a)",
+      "Im(\u03c6) is Abelian",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015728Z"
+  },
+  {
+    "questionId": "abstract_algebra_30",
+    "explanation": "Statement 1: If H is a subgroup of G and a \u2208 G, then aH = Ha. This is FALSE in general. Left coset aH and right coset Ha are equal for all a if and only if H is NORMAL in G. For non-normal subgroups, aH \u2260 Ha for some elements a. For example, in S\u2083, let H = {e, (1,2)} and a = (1,2,3). Then aH = {(1,2,3), (1,3)} and Ha = {(1,2,3), (2,3)}, which are different. Statement 2: If H is normal in G and a \u2208 G, then ah = ha for all h \u2208 H. This is also FALSE. Normality means aHa\u207b\u00b9 = H (or equivalently aH = Ha), NOT that ah = ha for all h. For example, in S\u2083, A\u2083 = {e, (1,2,3), (1,3,2)} is normal, but (1,2)\u00b7(1,2,3) = (2,3) \u2260 (1,3) = (1,2,3)\u00b7(1,2). Normal means the SET aHa\u207b\u00b9 equals H, not that individual elements commute. Both statements FALSE. Answer: (B) False, False.",
+    "reasoning": "Statement 1: aH=Ha for all a \u2194 H normal. Not true for general subgroups. FALSE. Statement 2: H normal means aHa\u207b\u00b9=H (set equality), NOT ah=ha (element commutativity). FALSE. Answer: False, False.",
+    "steps": [
+      "Statement 1: aH = Ha for all a?",
+      "True \u2194 H normal in G",
+      "Not true for general subgroups",
+      "Statement 1: FALSE",
+      "Statement 2: H normal \u2192 ah=ha for all h?",
+      "Normal: aHa\u207b\u00b9 = H (set equality)",
+      "NOT: ah=ha (element commutativity)",
+      "Normality \u2260 commutativity with all elements",
+      "Statement 2: FALSE",
+      "Answer: False, False"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015731Z"
+  },
+  {
+    "questionId": "abstract_algebra_31",
+    "explanation": "If (G, \u00b7) is a group such that (ab)\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9 for all a,b \u2208 G, what can we conclude? In any group, we always have (ab)\u207b\u00b9 = b\u207b\u00b9a\u207b\u00b9 (reversed order). If (ab)\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9, then we must have b\u207b\u00b9a\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9 for all a,b \u2208 G. This means inverses commute. Taking inverses: (b\u207b\u00b9a\u207b\u00b9)\u207b\u00b9 = (a\u207b\u00b9b\u207b\u00b9)\u207b\u00b9, which gives ab = ba. Therefore G is ABELIAN (commutative). The answer is (B) abelian group. Note: option (A) says 'commutative semi group' which is weaker than what we have (we have a full group structure). Option (C) is contradictory. The condition (ab)\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9 is equivalent to commutativity in groups.",
+    "reasoning": "(ab)\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9. Normally (ab)\u207b\u00b9 = b\u207b\u00b9a\u207b\u00b9. So b\u207b\u00b9a\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9 \u2192 inverses commute \u2192 taking inverses: ab=ba \u2192 G is Abelian. Answer: abelian group.",
+    "steps": [
+      "Given: (ab)\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9 for all a,b",
+      "Normal group property: (ab)\u207b\u00b9 = b\u207b\u00b9a\u207b\u00b9",
+      "Therefore: b\u207b\u00b9a\u207b\u00b9 = a\u207b\u00b9b\u207b\u00b9",
+      "Take inverse both sides: ab = ba",
+      "G is commutative",
+      "G is already a group (given)",
+      "\u2192 G is abelian group",
+      "Answer: abelian group"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015733Z"
+  },
+  {
+    "questionId": "abstract_algebra_32",
+    "explanation": "Statement 1: In a finite dimensional vector space, every linearly independent set of vectors is contained in a basis. This is TRUE and is a fundamental result in linear algebra. Given a linearly independent set S in a finite-dimensional vector space V, we can extend S to a basis by adding vectors from V until we get a spanning set (which will then be a basis). This is possible because: if S doesn't span V, we can add a vector v not in span(S), and S \u222a {v} is still independent; repeat until we get a spanning set. Statement 2: If B\u2081 and B\u2082 are bases for the same vector space, then |B\u2081| = |B\u2082|. This is also TRUE and is the well-definedness of dimension. All bases of a given vector space have the same cardinality, which we call the dimension. This can be proven using the exchange lemma or other methods. Both statements TRUE. Answer: (A) True, True.",
+    "reasoning": "Statement 1: Independent set can be extended to basis (fundamental theorem). TRUE. Statement 2: All bases of same vector space have same size (dimension is well-defined). TRUE. Both are core results in linear algebra. Answer: True, True.",
+    "steps": [
+      "Statement 1: Independent set contained in basis?",
+      "Extension theorem: can add vectors to independent set",
+      "Continue until spanning set (= basis)",
+      "Statement 1: TRUE",
+      "Statement 2: All bases same size?",
+      "Definition of dimension: |B| for any basis B",
+      "Well-defined: all bases have same cardinality",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015735Z"
+  },
+  {
+    "questionId": "abstract_algebra_33",
+    "explanation": "Given that (G, \u2218) is abelian, which statement must be true? Let's check each: (A) g = g\u207b\u00b9 for every g \u2208 G. This means every element is its own inverse, i.e., g\u2218g = e for all g. This is NOT true for all abelian groups. Counterexample: Z under addition is abelian, but 2 \u2260 -2 (2+2=4\u22600). FALSE. (B) g = g\u00b2 for every g. This means g\u2218g = g for all g, which implies g = e (the only idempotent in most groups). FALSE. (C) (g\u2218h)\u00b2 = g\u00b2\u2218h\u00b2 for every g,h. Let's check: (g\u2218h)\u00b2 = (g\u2218h)\u2218(g\u2218h) = g\u2218h\u2218g\u2218h. If G is abelian, we can rearrange: g\u2218h\u2218g\u2218h = g\u2218g\u2218h\u2218h = g\u00b2\u2218h\u00b2. This IS true for abelian groups! TRUE. (D) G is of finite order. FALSE - Z, Q, R are infinite abelian groups. Answer is (C).",
+    "reasoning": "Abelian means g\u2218h = h\u2218g. Check (C): (g\u2218h)\u00b2 = g\u2218h\u2218g\u2218h = g\u2218g\u2218h\u2218h (using commutativity) = g\u00b2\u2218h\u00b2. TRUE. Others: (A) counterexample Z, (B) would make all elements identity, (D) infinite abelian groups exist. Answer: (g\u2218h)\u00b2=g\u00b2\u2218h\u00b2.",
+    "steps": [
+      "G is abelian: g\u2218h = h\u2218g",
+      "Option A: g=g\u207b\u00b9? Counterexample: Z, 2\u2260-2",
+      "Option B: g=g\u00b2? Only for identity",
+      "Option C: (g\u2218h)\u00b2 = g\u00b2\u2218h\u00b2?",
+      "(g\u2218h)\u00b2 = g\u2218h\u2218g\u2218h",
+      "= g\u2218g\u2218h\u2218h (commutativity)",
+      "= g\u00b2\u2218h\u00b2 \u2713",
+      "Option D: Finite? No, Z is abelian infinite",
+      "Answer: (g\u2218h)\u00b2 = g\u00b2\u2218h\u00b2"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015737Z"
+  },
+  {
+    "questionId": "abstract_algebra_34",
+    "explanation": "Statement 1: If T: V \u2192 W is linear with dim(V) < dim(W) < \u221e, then T must be injective. This is FALSE. The condition dim(V) < dim(W) doesn't guarantee injectivity. For T to be injective, we need ker(T) = {0}. But T could map all of V to {0} (the zero transformation), which has dim(Im(T)) = 0 < dim(V), contradicting injectivity. A correct statement would be: if dim(V) > dim(W), then T cannot be injective. Statement 2: Let dim(V) = n and suppose T: V \u2192 V is linear. If T is injective, then it is a bijection. This is TRUE. For finite-dimensional vector spaces, an injective linear transformation T: V \u2192 V is automatically surjective (by rank-nullity theorem: dim(V) = dim(ker(T)) + dim(Im(T)); if ker(T) = {0}, then dim(Im(T)) = n = dim(V), so Im(T) = V). Injective + surjective = bijective. Answer: Statement 1 FALSE, Statement 2 TRUE, so (D) False, True.",
+    "reasoning": "Statement 1: dim(V)<dim(W) doesn't force injectivity (zero map is counterexample). FALSE. Statement 2: For T:V\u2192V with dim(V)<\u221e, injective \u2192 surjective (rank-nullity). TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: dim(V)<dim(W) \u2192 T injective?",
+      "Counterexample: T(v)=0 for all v (zero map)",
+      "ker(T)=V\u2260{0}, not injective",
+      "Statement 1: FALSE",
+      "Statement 2: T:V\u2192V, dim(V)=n, injective \u2192 bijective?",
+      "Rank-nullity: n = dim(ker(T)) + dim(Im(T))",
+      "Injective: ker(T)={0} \u2192 dim(Im(T))=n",
+      "Im(T)=V \u2192 surjective \u2192 bijective",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:03:05.015739Z"
   }
 ]
