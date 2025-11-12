@@ -28478,5 +28478,175 @@
       "Answer: 30"
     ],
     "generatedAt": "2025-11-12T11:58:47.879777Z"
+  },
+  {
+    "questionId": "abstract_algebra_15",
+    "explanation": "Statement 1: R is a splitting field of some polynomial over Q. A splitting field of a polynomial p(x) over Q is the smallest field extension containing all roots of p(x). For R (real numbers) to be a splitting field over Q, there would need to exist a polynomial with rational coefficients whose splitting field is exactly R. However, any polynomial over Q has only finitely many roots, so its splitting field is a finite extension of Q (finite dimensional as a vector space over Q). But [R:Q] is infinite (R is uncountable while any finite extension is countable), so R cannot be a splitting field. Statement 1 is FALSE. Statement 2: There is a field with 60 elements. Finite fields exist only when the number of elements is a prime power: p^n for prime p and positive integer n. We have 60 = 4\u00b715 = 2\u00b2\u00b73\u00b75, which is NOT a prime power. Therefore, no field with 60 elements exists. Statement 2 is FALSE. Answer: Both FALSE.",
+    "reasoning": "Statement 1: Splitting field of polynomial over Q has finite degree over Q (finitely many roots). [R:Q] is infinite. R cannot be splitting field. FALSE. Statement 2: Finite field has p^n elements. 60 = 2\u00b2\u00b73\u00b75 is not prime power. No field with 60 elements. FALSE. Answer: False, False.",
+    "steps": [
+      "Statement 1: R splitting field over Q?",
+      "Splitting field of p(x) has finite degree",
+      "[R:Q] is infinite (R uncountable)",
+      "R cannot be splitting field",
+      "Statement 1: FALSE",
+      "Statement 2: Field with 60 elements?",
+      "Finite field size = p^n (prime power)",
+      "60 = 2\u00b2\u00b73\u00b75 (not prime power)",
+      "No such field exists",
+      "Statement 2: FALSE",
+      "Answer: False, False"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638222Z"
+  },
+  {
+    "questionId": "abstract_algebra_16",
+    "explanation": "We need to find the inverse of -i in the multiplicative group {1, -1, i, -i}. The inverse of an element a is the element b such that a\u00b7b = 1 (the identity). We have -i \u00b7 ? = 1. Testing: -i \u00b7 1 = -i \u2717. -i \u00b7 (-1) = i \u2717. -i \u00b7 i = -i\u00b2 = -(-1) = 1 \u2713. -i \u00b7 (-i) = i\u00b2 = -1 \u2717. Therefore, the inverse of -i is i. The answer is i (option C). We can verify: in the complex numbers, 1/(-i) = 1/(-i) \u00b7 i/i = i/(-i\u00b2) = i/1 = i. Also note that in this group, the inverse can be found from the group operation table: -i is self-inverse under the operation except we see -i \u00b7 i = 1.",
+    "reasoning": "Find x such that (-i)\u00b7x = 1. Test: (-i)\u00b7i = -i\u00b2 = -(-1) = 1 \u2713. Inverse of -i is i. Also: 1/(-i) = i/-i\u00b2 = i/1 = i. Answer: i.",
+    "steps": [
+      "Group: {1, -1, i, -i} under multiplication",
+      "Find inverse of -i",
+      "Need: (-i)\u00b7x = 1",
+      "Test: (-i)\u00b7i = ?",
+      "= -i\u00b7i = -i\u00b2 = -(-1) = 1 \u2713",
+      "Inverse of -i is i",
+      "Answer: i"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638252Z"
+  },
+  {
+    "questionId": "abstract_algebra_17",
+    "explanation": "We need to compute (2,3)(3,5) in Z\u2085 \u00d7 Z\u2089. In a direct product, multiplication is component-wise: (a,b)(c,d) = (ac, bd) where the first component is computed in Z\u2085 and the second in Z\u2089. So (2,3)(3,5) = (2\u00b73 mod 5, 3\u00b75 mod 9) = (6 mod 5, 15 mod 9) = (1, 6). The answer is (1,6), which is option (C). Let me verify: 2\u00b73 = 6 \u2261 1 (mod 5) since 6 = 1\u00b75 + 1. 3\u00b75 = 15 \u2261 6 (mod 9) since 15 = 1\u00b79 + 6. Therefore (2,3)(3,5) = (1,6).",
+    "reasoning": "Direct product: (a,b)(c,d) = (ac mod 5, bd mod 9). Calculate: (2\u00b73 mod 5, 3\u00b75 mod 9) = (6 mod 5, 15 mod 9) = (1, 6). Answer: (1,6).",
+    "steps": [
+      "(2,3)(3,5) in Z\u2085 \u00d7 Z\u2089",
+      "Component-wise multiplication:",
+      "First: 2\u00b73 in Z\u2085",
+      "= 6 mod 5 = 1",
+      "Second: 3\u00b75 in Z\u2089",
+      "= 15 mod 9 = 6",
+      "Result: (1, 6)",
+      "Answer: (1,6)"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638254Z"
+  },
+  {
+    "questionId": "abstract_algebra_18",
+    "explanation": "The question asks why the set of all real numbers under multiplication is not a group. Let's check the group axioms: 1) Closure: Product of reals is real \u2713. 2) Associativity: Multiplication is associative \u2713. 3) Identity: 1 is the multiplicative identity (a\u00b71 = a for all a) \u2713. 4) Inverses: Every element needs an inverse. For a \u2260 0, the inverse is 1/a. But for a = 0, there is NO inverse because 0\u00b7x = 0 \u2260 1 for any x. Therefore, 0 has no inverse. The correct answer is (D) 'zero has no inverse.' Option (A) is wrong because multiplication IS a binary operation on reals. Option (B) is wrong because multiplication IS associative. Option (C) is wrong because 1 IS the identity element. The failure is specifically that 0 lacks an inverse, violating the group axiom requiring every element to have an inverse.",
+    "reasoning": "Group needs: closure, associativity, identity, inverses. R under multiplication: closure \u2713, associative \u2713, identity=1 \u2713, but 0 has no inverse (0\u00b7x\u22601). Answer: zero has no inverse.",
+    "steps": [
+      "Check group axioms for (R, \u00b7):",
+      "1. Closure: a\u00b7b \u2208 R \u2713",
+      "2. Associative: (ab)c = a(bc) \u2713",
+      "3. Identity: 1\u00b7a = a \u2713",
+      "4. Inverses: a\u22600 has inverse 1/a \u2713",
+      "   But 0 has NO inverse (0\u00b7x = 0 \u2260 1)",
+      "Failure: zero has no inverse",
+      "Answer: zero has no inverse"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638256Z"
+  },
+  {
+    "questionId": "abstract_algebra_19",
+    "explanation": "Statement 1: Every group of order p\u00b2 where p is prime is Abelian. This is TRUE. If |G| = p\u00b2, then G has only p\u00b2 elements. The possible structures are: Z_{p\u00b2} (cyclic, hence Abelian) or Z_p \u00d7 Z_p (direct product of cyclic groups, hence Abelian). There are no non-Abelian groups of order p\u00b2. This can be proven using the class equation and properties of p-groups. Statement 2: For a fixed prime p, a Sylow p-subgroup P of G is normal in G if and only if it is the only Sylow p-subgroup of G. This is TRUE. By Sylow's theorems, if P \u22b4 G (normal), then P is the unique Sylow p-subgroup (since all Sylow p-subgroups are conjugate, and a normal subgroup is its own conjugacy class). Conversely, if P is the unique Sylow p-subgroup, then for any g \u2208 G, gPg\u207b\u00b9 is also a Sylow p-subgroup, but since P is unique, gPg\u207b\u00b9 = P, so P \u22b4 G. Both statements TRUE.",
+    "reasoning": "Statement 1: |G|=p\u00b2 \u2192 G \u2245 Z_{p\u00b2} or Z_p\u00d7Z_p, both Abelian. TRUE. Statement 2: Sylow p-subgroup normal \u2194 unique. By Sylow theorems: conjugates are all Sylow p-subgroups. Normal \u2192 unique conjugate \u2192 unique Sylow. Unique \u2192 conjugates equal \u2192 normal. TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: Order p\u00b2 groups Abelian?",
+      "Possible structures: Z_{p\u00b2} or Z_p\u00d7Z_p",
+      "Both are Abelian",
+      "Statement 1: TRUE",
+      "Statement 2: Sylow normal \u2194 unique?",
+      "\u2192: Normal \u2192 unique conjugate \u2192 unique Sylow",
+      "\u2190: Unique \u2192 gPg\u207b\u00b9=P for all g \u2192 normal",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638257Z"
+  },
+  {
+    "questionId": "abstract_algebra_20",
+    "explanation": "Statement 1: For finite groups G and H, |G + H| = |G||H| where G + H is the internal direct product. This is TRUE. The internal direct product (also called direct sum, written G \u2295 H or G \u00d7 H) of groups G and H has order |G|\u00b7|H|. Each element can be written uniquely as (g,h) with g \u2208 G and h \u2208 H, giving |G|\u00b7|H| total elements. Statement 2: If r divides m and s divides n, then Z_m + Z_n has a subgroup isomorphic to Z_r + Z_s. This is TRUE. If r|m, then Z_m has a subgroup of order r (specifically, rZ_m = {0, r, 2r, ..., m-r} \u2245 Z_r). Similarly, if s|n, then Z_n has a subgroup isomorphic to Z_s. Taking the direct product of these subgroups gives a subgroup of Z_m \u00d7 Z_n isomorphic to Z_r \u00d7 Z_s. Specifically, rZ_m \u00d7 sZ_n \u2245 Z_r \u00d7 Z_s is a subgroup of Z_m \u00d7 Z_n. Both statements TRUE.",
+    "reasoning": "Statement 1: |G\u00d7H| = |G|\u00b7|H| (each element uniquely (g,h)). TRUE. Statement 2: r|m, s|n \u2192 Z_m has subgroup\u2245Z_r, Z_n has subgroup\u2245Z_s \u2192 Z_m\u00d7Z_n has subgroup\u2245Z_r\u00d7Z_s. TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: |G + H| = |G||H|?",
+      "G + H = G \u00d7 H (direct product)",
+      "Elements: (g,h) with g\u2208G, h\u2208H",
+      "|G\u00d7H| = |G|\u00b7|H|",
+      "Statement 1: TRUE",
+      "Statement 2: r|m, s|n \u2192 subgroup Z_r+Z_s?",
+      "r|m \u2192 Z_m has subgroup \u2245 Z_r",
+      "s|n \u2192 Z_n has subgroup \u2245 Z_s",
+      "Direct product: Z_r\u00d7Z_s subgroup of Z_m\u00d7Z_n",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638259Z"
+  },
+  {
+    "questionId": "abstract_algebra_21",
+    "explanation": "We need to compute f(x) + g(x) in Z\u2088[x], where f(x) = 4x - 5 and g(x) = 2x\u00b2 - 4x + 2. Adding polynomials: (4x - 5) + (2x\u00b2 - 4x + 2) = 2x\u00b2 + (4-4)x + (-5+2) = 2x\u00b2 + 0x + (-3) = 2x\u00b2 - 3. Now reduce coefficients modulo 8: 2x\u00b2 stays 2x\u00b2. -3 \u2261 5 (mod 8) since -3 + 8 = 5. Therefore f(x) + g(x) = 2x\u00b2 + 5. The answer is (A) 2x\u00b2 + 5. Let me verify: 4x - 5 + 2x\u00b2 - 4x + 2 = 2x\u00b2 + (4x-4x) + (-5+2) = 2x\u00b2 + 0x - 3 = 2x\u00b2 - 3 \u2261 2x\u00b2 + 5 (mod 8).",
+    "reasoning": "Add polynomials: (4x-5) + (2x\u00b2-4x+2) = 2x\u00b2 + 0x - 3. Reduce mod 8: -3 \u2261 5. Result: 2x\u00b2 + 5. Answer: 2x\u00b2 + 5.",
+    "steps": [
+      "f(x) = 4x-5, g(x) = 2x\u00b2-4x+2 in Z\u2088[x]",
+      "f(x) + g(x) = (4x-5) + (2x\u00b2-4x+2)",
+      "= 2x\u00b2 + (4-4)x + (-5+2)",
+      "= 2x\u00b2 + 0x - 3",
+      "= 2x\u00b2 - 3",
+      "Mod 8: -3 \u2261 5",
+      "= 2x\u00b2 + 5",
+      "Answer: 2x\u00b2 + 5"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638260Z"
+  },
+  {
+    "questionId": "abstract_algebra_22",
+    "explanation": "Statement 1: Any set of two vectors in R\u00b2 is linearly independent. This is FALSE. For example, {(1,0), (2,0)} is linearly dependent because (2,0) = 2(1,0). Two vectors in R\u00b2 are linearly independent if and only if they are not scalar multiples of each other. If they are parallel (including zero vector), they're dependent. So not ANY two vectors are independent. Statement 2: If V = span(v\u2081, ..., v_k) and {v\u2081, ..., v_k} are linearly independent, then dim(V) = k. This is TRUE. If {v\u2081, ..., v_k} are linearly independent and span V, then they form a basis for V. By definition, the dimension equals the number of vectors in a basis, so dim(V) = k. This is a fundamental result in linear algebra. Answer: Statement 1 FALSE, Statement 2 TRUE, so option (D) False, True.",
+    "reasoning": "Statement 1: Two vectors in R\u00b2 not always independent. Counterexample: {(1,0), (2,0)} dependent. FALSE. Statement 2: Independent spanning set is basis \u2192 dim(V) = size of basis = k. TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: Any 2 vectors in R\u00b2 independent?",
+      "Counterexample: v\u2081=(1,0), v\u2082=(2,0)",
+      "v\u2082 = 2v\u2081 \u2192 dependent",
+      "Statement 1: FALSE",
+      "Statement 2: span(v\u2081,...,v_k) with v_i independent \u2192 dim=k?",
+      "Independent + spanning = basis",
+      "dim(V) = |basis| = k",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638261Z"
+  },
+  {
+    "questionId": "abstract_algebra_23",
+    "explanation": "The set of all nth roots of unity under multiplication forms what type of algebraic structure? The nth roots of unity are {e^{2\u03c0ik/n} : k = 0,1,...,n-1} = {\u03c9^k : k = 0,1,...,n-1} where \u03c9 = e^{2\u03c0i/n}. Let's check properties: Closure: Product of nth roots is an nth root (by properties of exponents) \u2713. Associativity: Multiplication of complex numbers is associative \u2713. Identity: 1 = \u03c9\u2070 is the identity \u2713. Inverses: For \u03c9^k, the inverse is \u03c9^{n-k} since \u03c9^k \u00b7 \u03c9^{n-k} = \u03c9^n = 1 \u2713. Commutativity: Complex multiplication is commutative \u2713. So it forms a GROUP, and specifically an ABELIAN GROUP (commutative group). The answer is (D) abelian group. Note it's actually isomorphic to Z_n. Options (A) and (B) mention semigroups, which don't require inverses, but we have a stronger structure here.",
+    "reasoning": "nth roots of unity: {1, \u03c9, \u03c9\u00b2, ..., \u03c9^{n-1}} where \u03c9=e^{2\u03c0i/n}. Closure \u2713, associative \u2713, identity=1 \u2713, inverse of \u03c9^k is \u03c9^{n-k} \u2713, commutative \u2713. Forms abelian group \u2245 Z_n. Answer: abelian group.",
+    "steps": [
+      "nth roots of unity = {e^{2\u03c0ik/n} : k=0,...,n-1}",
+      "Closure: product of roots is a root \u2713",
+      "Associative: complex multiplication \u2713",
+      "Identity: 1 \u2713",
+      "Inverses: (\u03c9^k)^{-1} = \u03c9^{n-k} \u2713",
+      "Commutative: complex multiplication \u2713",
+      "Forms abelian group",
+      "Actually \u2245 Z_n",
+      "Answer: abelian group"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638263Z"
+  },
+  {
+    "questionId": "abstract_algebra_24",
+    "explanation": "Statement 1: Every maximal ideal is a prime ideal. This is TRUE for commutative rings with unity. In a commutative ring R with 1, if I is a maximal ideal, then R/I is a field (by definition of maximal: no ideals strictly between I and R). Every field is an integral domain (no zero divisors). An ideal is prime if R/I is an integral domain. Since R/I is a field (hence integral domain), I is prime. Therefore every maximal ideal is prime. Statement 2: If I is a maximal ideal of a commutative ring R, then R/I is a field. This is TRUE and is essentially the definition of maximal ideal. An ideal I is maximal if it's proper (I \u2260 R) and there's no ideal J with I \u228a J \u228a R. This is equivalent to R/I having no nontrivial ideals, which means R/I is a field. Both statements TRUE.",
+    "reasoning": "Statement 1: Maximal ideal I \u2192 R/I field \u2192 R/I integral domain \u2192 I prime. TRUE. Statement 2: Maximal I \u2192 R/I field (by definition of maximal). TRUE. Both fundamental results in ring theory. Answer: True, True.",
+    "steps": [
+      "Statement 1: Maximal \u2192 prime?",
+      "I maximal \u2192 R/I field (def of maximal)",
+      "Field \u2192 integral domain",
+      "R/I integral domain \u2192 I prime (def of prime)",
+      "Statement 1: TRUE",
+      "Statement 2: Maximal \u2192 R/I field?",
+      "Definition of maximal ideal",
+      "I maximal \u2194 R/I field",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:00:49.638264Z"
   }
 ]
