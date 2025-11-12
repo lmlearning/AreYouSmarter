@@ -27985,5 +27985,165 @@
       "Answer: Experiment, no causal conclusion possible"
     ],
     "generatedAt": "2025-11-12T11:51:38.262295Z"
+  },
+  {
+    "questionId": "high_school_statistics_201",
+    "explanation": "A P-value is one of the most important but frequently misunderstood concepts in statistics. Let's examine each option: (A) 'Probability of making a Type I error' - NO, this is \u03b1 (the significance level), not the P-value. (B) 'Probability of making a Type II error' - NO, this is \u03b2. (C) 'Probability that H\u2080 is true' - NO, the P-value is NOT the probability that the null hypothesis is true. The null is either true or false (we just don't know which), and we don't assign probabilities to hypotheses in frequentist statistics. (D) 'Probability of obtaining a test statistic at least as extreme as the one observed, assuming H\u2080 is true' - YES, this is the correct definition. The P-value quantifies: if the null hypothesis were true, how likely would we be to observe data at least as extreme as what we actually observed? It's a conditional probability: P(data as extreme or more extreme | H\u2080 is true). Small P-values suggest the observed data would be unlikely if H\u2080 were true, providing evidence against H\u2080.",
+    "reasoning": "P-value definition: P(observing test statistic \u2265 observed value | H\u2080 true). It's NOT: probability H\u2080 is true, probability of Type I error (that's \u03b1), or probability of Type II error (that's \u03b2). P-value measures how compatible the data are with H\u2080 - small P-value = data incompatible with H\u2080.",
+    "steps": [
+      "P-value = probability of data given H\u2080",
+      "NOT: P(H\u2080 is true | data)",
+      "NOT: P(Type I error) = \u03b1",
+      "NOT: P(Type II error) = \u03b2",
+      "Correct: P(statistic \u2265 observed | H\u2080 true)",
+      "Measures: compatibility of data with H\u2080",
+      "Answer: P(statistic as extreme | H\u2080 true)"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416141Z"
+  },
+  {
+    "questionId": "high_school_statistics_202",
+    "explanation": "This question tests interpretation of confidence levels. When we construct a 90% confidence interval, what does the 90% refer to? It's about the PROCEDURE, not about any single interval. Imagine repeating the study many times: take a new sample, compute x\u0304 and s, construct a 90% CI. If we did this 1000 times, we'd get 1000 different intervals (because each sample is different). About 90% of these intervals would contain the true population parameter \u03bc, and about 10% would miss it. The confidence level (90%) is the long-run success rate of the method. For any single interval we construct, it either contains \u03bc or it doesn't (we don't know which), but we're using a method that works 90% of the time. This is the frequency interpretation of confidence: if we use 90% confidence intervals repeatedly, 90% of them will capture the parameter. The confidence refers to the reliability of the method, not to any specific interval.",
+    "reasoning": "Confidence level = long-run success rate of the method. If we repeatedly sample and construct CIs, the proportion of intervals containing the true parameter equals the confidence level. 90% confidence \u2192 90% of intervals (in repeated sampling) contain the parameter. This is about the procedure's reliability, not a specific interval.",
+    "steps": [
+      "Construct 90% CI from sample",
+      "Repeat: new sample \u2192 new CI",
+      "Do this many times \u2192 many CIs",
+      "About 90% of CIs contain true \u03bc",
+      "About 10% of CIs miss \u03bc",
+      "90% = long-run success rate",
+      "For one interval: either contains \u03bc or doesn't",
+      "Confidence = reliability of method"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416158Z"
+  },
+  {
+    "questionId": "high_school_statistics_203",
+    "explanation": "This question asks about the sampling distribution of the sample mean. When we repeatedly take samples of size n from a population and compute x\u0304 for each sample, the distribution of these x\u0304 values is the sampling distribution of the mean. Key properties: (1) Center: E(x\u0304) = \u03bc (the mean of the sampling distribution equals the population mean - unbiased estimator). (2) Spread: SD(x\u0304) = \u03c3/\u221an (the standard error decreases as sample size increases). (3) Shape: By the Central Limit Theorem, as n increases, the sampling distribution becomes approximately normal, regardless of the population distribution's shape. For large enough n (typically n \u2265 30), the sampling distribution is approximately normal even if the population isn't. If the population is already normal, the sampling distribution is exactly normal for any n. These properties make the sampling distribution fundamental to statistical inference - we use it to understand how sample statistics vary and to construct confidence intervals and hypothesis tests.",
+    "reasoning": "Sampling distribution of x\u0304: distribution of sample means from repeated sampling. Properties: mean = \u03bc (unbiased), standard error = \u03c3/\u221an (decreases with n), shape \u2192 normal as n increases (CLT). These properties enable inference about population from sample.",
+    "steps": [
+      "Sampling distribution: distribution of x\u0304 values",
+      "From repeated samples of size n",
+      "Mean of sampling dist: E(x\u0304) = \u03bc",
+      "SD of sampling dist: \u03c3_x\u0304 = \u03c3/\u221an",
+      "Shape: Approaches normal as n\u2191 (CLT)",
+      "If population normal \u2192 x\u0304 exactly normal",
+      "If population not normal \u2192 x\u0304 approx normal for large n",
+      "Basis for inference: CIs, hypothesis tests"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416160Z"
+  },
+  {
+    "questionId": "high_school_statistics_204",
+    "explanation": "This question asks how to increase the power of a hypothesis test. Power = P(reject H\u2080 | H\u2080 is false) = 1 - \u03b2 = probability of detecting a true effect. Higher power is better - it means we're less likely to miss a real effect. How to increase power: (1) Increase sample size n - larger samples give more precise estimates and make it easier to detect effects. More data \u2192 more power. (2) Increase \u03b1 (significance level) - being less strict about Type I errors (allowing more false positives) makes it easier to reject H\u2080, increasing power. But this is usually undesirable because it increases Type I error rate. (3) Increase effect size - if the true parameter is farther from H\u2080, it's easier to detect. But we can't control the true effect size; it's a property of nature. (4) Decrease variability \u03c3 - less noise makes signals easier to detect. We can sometimes achieve this through better measurement or experimental control. The most practical way to increase power is to increase sample size.",
+    "reasoning": "Power = 1-\u03b2 = P(reject H\u2080 when false). To increase power: (1) \u2191n (most common approach), (2) \u2191\u03b1 (trades Type I for Type II error), (3) larger effect size (can't control), (4) \u2193\u03c3 (improve measurement). Tradeoff: Power vs Type I error (\u2191\u03b1 increases both). Best approach usually: increase sample size.",
+    "steps": [
+      "Power = 1-\u03b2 = P(correctly reject false H\u2080)",
+      "Goal: Increase power (detect true effects)",
+      "Method 1: Increase n \u2192 more data \u2713",
+      "Method 2: Increase \u03b1 \u2192 more liberal, but \u2191Type I error",
+      "Method 3: Larger effect \u2192 can't control",
+      "Method 4: Decrease \u03c3 \u2192 better measurement",
+      "Most practical: Increase sample size",
+      "Tradeoff: Power \u2194 Type I error"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416162Z"
+  },
+  {
+    "questionId": "high_school_statistics_205",
+    "explanation": "This question tests interpretation of regression slopes. In a regression equation \u0177 = a + bx, the slope b represents the predicted change in y for a one-unit increase in x. Specifically: for every one-unit increase in x, y is predicted to change by b units (increase if b > 0, decrease if b < 0). This is the AVERAGE rate of change along the regression line. Important points: (1) This is a prediction based on the linear model, not a guarantee for individual cases. (2) It represents association, not necessarily causation. (3) The relationship is assumed to be linear within the range of the data. (4) The slope has units: (units of y)/(units of x). For example, if predicting weight (pounds) from height (inches), the slope has units pounds/inch. The slope quantifies the strength and direction of the linear relationship - larger |b| means stronger relationship, positive b means positive association, negative b means negative association.",
+    "reasoning": "Slope b in \u0177 = a + bx: predicted change in y per one-unit change in x. If x increases by 1, \u0177 increases by b. This is the average rate of change. Slope has units and represents strength/direction of linear relationship. Describes association, not necessarily causation.",
+    "steps": [
+      "Regression: \u0177 = a + bx",
+      "b = slope of regression line",
+      "Interpretation: For each 1-unit \u2191 in x",
+      "\u0177 changes by b units",
+      "Positive b \u2192 positive association",
+      "Negative b \u2192 negative association",
+      "|b| larger \u2192 stronger relationship",
+      "Units: (units of y)/(units of x)"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416163Z"
+  },
+  {
+    "questionId": "high_school_statistics_206",
+    "explanation": "This question is about residuals in regression analysis. A residual is the difference between an observed value and the predicted value from the regression line: residual = observed y - predicted y = y - \u0177. Residuals represent the ERRORS in prediction - how far each data point is from the regression line. Positive residual: actual y is above the predicted value (underestimated). Negative residual: actual y is below the predicted value (overestimated). Zero residual: point lies exactly on the regression line. Residuals are crucial for: (1) Assessing model fit - smaller residuals mean better fit. (2) Checking assumptions - residual plots help verify linearity, constant variance, normality, and independence. (3) Identifying outliers - points with large residuals are potential outliers. The sum of residuals for a least-squares regression line always equals zero (\u03a3residuals = 0), because the line is positioned to balance positive and negative deviations. Residual analysis is essential for validating regression models.",
+    "reasoning": "Residual = y - \u0177 = prediction error. Measures vertical distance from point to line. Positive \u2192 underestimated, negative \u2192 overestimated. Properties: \u03a3residuals = 0 for least-squares line. Uses: assess fit, check assumptions, find outliers. Residual plots are diagnostic tools.",
+    "steps": [
+      "Residual = observed - predicted",
+      "= y - \u0177",
+      "= vertical distance to regression line",
+      "Positive residual: y > \u0177 (underestimated)",
+      "Negative residual: y < \u0177 (overestimated)",
+      "Sum of residuals = 0 (least-squares property)",
+      "Uses: model assessment, assumption checking",
+      "Large residuals \u2192 potential outliers"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416164Z"
+  },
+  {
+    "questionId": "high_school_statistics_207",
+    "explanation": "This question tests understanding of r\u00b2 (R-squared), the coefficient of determination. r\u00b2 represents the proportion of variability in the response variable (y) that is explained by the regression on the predictor variable (x). Key properties: (1) Range: 0 \u2264 r\u00b2 \u2264 1 (0% to 100%). (2) Interpretation: r\u00b2 = 0.75 means 75% of the variation in y is explained by its linear relationship with x; the remaining 25% is unexplained (due to other factors, measurement error, or randomness). (3) Relationship to r: r\u00b2 = (correlation coefficient)\u00b2. (4) Higher r\u00b2 means better fit - more variation explained by the model. (5) r\u00b2 doesn't indicate whether the relationship is causal or whether the model is appropriate. Important: r\u00b2 measures association strength but doesn't prove causation. An r\u00b2 = 0.85 means strong association (85% of variation explained), but correlation doesn't imply causation. Also, r\u00b2 can be high even if the linear model is inappropriate (e.g., with nonlinear data).",
+    "reasoning": "r\u00b2 = proportion of y variation explained by x. Range [0,1]. r\u00b2 = 0.64 \u2192 64% of y variation explained by linear relationship with x, 36% unexplained. r\u00b2 = r\u00b2 where r is correlation. Higher r\u00b2 = better fit. But: doesn't prove causation, doesn't validate linearity assumption.",
+    "steps": [
+      "r\u00b2 = coefficient of determination",
+      "= proportion of y variation explained by x",
+      "Range: 0 \u2264 r\u00b2 \u2264 1",
+      "r\u00b2 = 0.70 \u2192 70% explained, 30% unexplained",
+      "r\u00b2 = (correlation coefficient)\u00b2",
+      "Higher r\u00b2 \u2192 stronger linear relationship",
+      "Doesn't prove: causation or model appropriateness",
+      "Measures: strength of linear association"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416165Z"
+  },
+  {
+    "questionId": "high_school_statistics_208",
+    "explanation": "This question distinguishes between outliers and influential points in regression. An OUTLIER is a point that doesn't fit the overall pattern - it has a large residual (far from the regression line vertically). An INFLUENTIAL POINT is one that strongly affects the regression line - if removed, the slope or intercept would change substantially. Key differences: (1) An outlier in x (far from x\u0304) can be highly influential because it has high leverage - it can pull the line toward itself. (2) An outlier in y (large residual) may or may not be influential. If it's near x\u0304, it won't have much leverage. (3) A point can be influential without being an outlier if it has high leverage and is in line with the pattern. (4) A point can be an outlier without being influential if it's near x\u0304. The most influential points are those with both high leverage (extreme x) AND large residuals (don't fit the pattern). Identifying influential points is crucial because they can dominate the regression, potentially masking the true relationship among the other points.",
+    "reasoning": "Outlier = large residual (y far from line). Influential = changes regression line substantially. Leverage = how far x is from x\u0304 (extreme x \u2192 high leverage). Most influential: high leverage + large residual. Point with extreme x but fitting pattern: high leverage, not outlier. Point with extreme y but near x\u0304: outlier, low leverage, less influential.",
+    "steps": [
+      "Outlier: Large residual (y far from \u0177)",
+      "Influential: Changes regression line if removed",
+      "Leverage: Distance of x from x\u0304",
+      "High leverage: Extreme x value",
+      "Most influential: High leverage + large residual",
+      "Can have: outlier without influence (near x\u0304)",
+      "Can have: influence without being outlier (extreme x, on pattern)",
+      "Assess both: residuals and leverage"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416167Z"
+  },
+  {
+    "questionId": "high_school_statistics_209",
+    "explanation": "A lurking variable (also called a confounding variable) is a variable that is not included in the study but affects both the explanatory and response variables, creating a spurious or distorted association between them. Lurking variables can: (1) Create the appearance of a relationship when none exists. (2) Hide a true relationship. (3) Reverse the direction of an association (Simpson's paradox). Classic example: Ice cream sales and drowning deaths are positively correlated, but ice cream doesn't cause drowning. The lurking variable is temperature/season - hot weather increases both ice cream sales and swimming (which increases drowning risk). Lurking variables are why 'correlation doesn't imply causation.' How to address them: (1) Randomized experiments - random assignment balances lurking variables across treatment groups. (2) Control variables - measure and adjust for potential confounders. (3) Stratification - analyze within homogeneous groups. Observational studies are particularly vulnerable to lurking variables because we can't control or randomize.",
+    "reasoning": "Lurking variable: unmeasured variable affecting both x and y, creating spurious association. Can create, hide, or reverse relationships. Why correlation \u2260 causation. Solution: randomized experiments balance lurking variables across groups. Observational studies vulnerable - can't control confounders.",
+    "steps": [
+      "Lurking variable: not in study, affects x and y",
+      "Creates spurious or distorted association",
+      "Example: temperature affects ice cream & drowning",
+      "Can: create false relationship",
+      "Can: hide true relationship",
+      "Can: reverse association (Simpson's paradox)",
+      "Control: randomization, measure confounders",
+      "Why: correlation \u2260 causation"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416168Z"
+  },
+  {
+    "questionId": "high_school_statistics_210",
+    "explanation": "This question is about when linear regression is and isn't appropriate. Linear regression assumes a LINEAR relationship between x and y. If the relationship is actually nonlinear (curved), using linear regression leads to: (1) Poor fit - large residuals even though there's a strong relationship. (2) Misleading r\u00b2 - can be low even with a perfect but nonlinear relationship. (3) Incorrect predictions - especially at the extremes. (4) Biased estimates - the linear model doesn't capture the true relationship. How to detect nonlinearity: (1) Scatterplot - look for curved patterns. (2) Residual plot - if residuals show a pattern (curved, U-shaped, etc.), the linear model is inadequate. Random scatter in residual plot suggests linearity is reasonable. If the relationship is nonlinear: (1) Transform variables (log, square root, etc.) to linearize. (2) Use polynomial regression (quadratic, cubic, etc.). (3) Use nonlinear regression methods. Never force a linear model on obviously nonlinear data - transforming or using appropriate nonlinear methods will give much better results.",
+    "reasoning": "Linear regression assumes linear relationship. Nonlinear data \u2192 poor fit, misleading r\u00b2, wrong predictions. Detect: scatterplot (curved), residual plot (pattern). Solutions: transform variables, polynomial regression, nonlinear methods. Residual plot is key diagnostic - pattern indicates nonlinearity.",
+    "steps": [
+      "Linear regression assumes: y = a + bx (linear)",
+      "If relationship actually nonlinear:",
+      "\u2192 Poor fit, large residuals",
+      "\u2192 Low r\u00b2 despite strong relationship",
+      "\u2192 Incorrect predictions",
+      "Detect: scatterplot (curve), residual plot (pattern)",
+      "Solutions: transform data, polynomial model",
+      "Example transformations: log(y), \u221ay, x\u00b2",
+      "Don't force linear model on nonlinear data"
+    ],
+    "generatedAt": "2025-11-12T11:53:52.416169Z"
   }
 ]
