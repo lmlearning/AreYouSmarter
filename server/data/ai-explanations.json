@@ -26997,5 +26997,71 @@
       "Answer: \u03b1=0.05, n=30"
     ],
     "generatedAt": "2025-11-10T11:03:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_136",
+    "explanation": "Farmer's t-test: n=18, t=-1.973, H\u2080: \u03bc=56, H\u2090: \u03bc\u226056 (two-sided), \u03b1=0.05. Degrees of freedom: df = n-1 = 17. For two-sided test at \u03b1=0.05 with df=17, critical values are approximately \u00b12.110. The test statistic t=-1.973 is LESS extreme than \u00b12.110 (since |\u22121.973| < 2.110), so we FAIL TO REJECT H\u2080. There isn't sufficient evidence that the mean differs from 56g. Let's check the options: (A) Says reject because |t| > 1.96: Incorrect - should use t-distribution critical value (\u00b12.110), not z-value (\u00b11.96). (B) Says don't reject, t less extreme than critical for df=17: CORRECT. (C) Uses df=18: Wrong df (should be n-1=17). (D) Says reject with df=18: Wrong conclusion and wrong df.",
+    "reasoning": "Two-sided t-test, df=17, critical values \u2248 \u00b12.110. |t|=1.973 < 2.110, so don't reject H\u2080. No convincing evidence mean \u2260 56g.",
+    "steps": [
+      "n=18, df=17, t=-1.973, \u03b1=0.05 (two-sided)",
+      "Critical t\u2080.\u2080\u2082\u2085,\u2081\u2087 \u2248 2.110",
+      "|t| = 1.973 < 2.110",
+      "Fail to reject H\u2080",
+      "Answer: Don't reject, not convincing evidence"
+    ],
+    "generatedAt": "2025-11-10T11:10:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_137",
+    "explanation": "School committee member lobbying for gasoline tax increase to support schools. Newspaper surveyed county residents to assess support. The population of interest is the group we want to make inferences about - ALL COUNTY RESIDENTS. The survey seeks to understand how county residents feel about this tax, so that's the target population. Not just children (option A - they don't pay taxes), not just residents with children (options C and D - the tax affects all county residents). The population of interest is all county residents because the tax would apply to all of them.",
+    "reasoning": "Population of interest = group about which we want to draw conclusions. The gasoline tax would affect all county residents, and the survey aims to assess resident support, so population = all county residents.",
+    "steps": [
+      "Survey goal: assess support for tax among residents",
+      "Tax affects: all county residents (who drive)",
+      "Want to generalize to: all county residents",
+      "Not limited to: those with children",
+      "Answer: All county residents"
+    ],
+    "generatedAt": "2025-11-10T11:12:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_138",
+    "explanation": "Systematic sampling: select every 25th student entering school. For a simple random sample (SRS), every possible sample of size n must have equal probability of selection. With systematic sampling, NOT every sample has equal chance - for example, if you select 1st, 26th, 51st, etc., you can never get a sample with 1st and 2nd students together. Many possible samples have probability zero. However, every INDIVIDUAL student has equal chance (1/25) of being selected. But equal individual probability doesn't guarantee SRS. An SRS requires random selection where all samples are equally likely. Systematic sampling is NOT an SRS, though it may be a good sampling method.",
+    "reasoning": "Systematic sampling \u2260 SRS. While each student has equal individual probability (1/25), not all samples of size n are equally likely. Many combinations are impossible.",
+    "steps": [
+      "Method: every 25th student (systematic)",
+      "Each student has P=1/25 of selection",
+      "But: not all samples of size n equally likely",
+      "Example: can't get consecutive students",
+      "SRS requires: all samples equally likely",
+      "Answer: No, not every sample has equal chance"
+    ],
+    "generatedAt": "2025-11-10T11:14:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_139",
+    "explanation": "Relationship between observational studies and experiments regarding causation: (A) Complete census only way to establish cause-effect: FALSE - even a census is observational; only controlled experiments can strongly suggest causation. (B) Observational studies can establish causation like experiments: FALSE - observational studies cannot establish causation due to confounding. (C) Controlled experiments undertaken to establish cause-effect first suggested by observational studies: TRUE - this is common in research. Observational studies identify associations, then experiments are designed to test causality. (D) Increase sample size to overcome bias: FALSE - large biased samples are still biased; size doesn't fix bias.",
+    "reasoning": "Research progression: observational studies identify associations/correlations \u2192 controlled experiments test causation. This is standard scientific practice. Statement C correctly describes this relationship.",
+    "steps": [
+      "Observational: shows association, not causation",
+      "Experiments: can establish causation",
+      "Common progression: observe association \u2192 test with experiment",
+      "Option C: describes this standard practice \u2713",
+      "Answer: Experiments follow up observational findings"
+    ],
+    "generatedAt": "2025-11-10T11:16:00.000Z"
+  },
+  {
+    "questionId": "high_school_statistics_140",
+    "explanation": "Service station: 60% request oil change, 30% request tires, 10% request both. Customer requests oil change. Want: P(not tires | oil change). Using conditional probability: P(not tires | oil) = P(oil and not tires) / P(oil). From given: P(oil) = 0.60, P(tires) = 0.30, P(both) = 0.10. P(oil and not tires) = P(oil only) = P(oil) - P(both) = 0.60 - 0.10 = 0.50. Therefore: P(not tires | oil) = 0.50 / 0.60 = 5/6 \u2248 0.833.",
+    "reasoning": "Of 60% who request oil, 10% also request tires, so 50% request oil only. Given oil change requested, P(no tires) = 50%/60% = 5/6 \u2248 0.833.",
+    "steps": [
+      "P(oil) = 0.60, P(tires) = 0.30, P(both) = 0.10",
+      "P(oil only) = 0.60 - 0.10 = 0.50",
+      "P(not tires | oil) = P(oil only) / P(oil)",
+      "= 0.50 / 0.60 = 5/6 \u2248 0.833",
+      "Answer: 0.833 or 5/6"
+    ],
+    "generatedAt": "2025-11-10T11:18:00.000Z"
   }
 ]
