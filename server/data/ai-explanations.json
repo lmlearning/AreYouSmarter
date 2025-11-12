@@ -29183,5 +29183,373 @@
       "Answer: 0 (as marked, incorrect)"
     ],
     "generatedAt": "2025-11-12T12:13:17.188683Z"
+  },
+  {
+    "questionId": "abstract_algebra_55",
+    "explanation": "Statement 1: Every free abelian group is torsion free. This is TRUE. A free abelian group is a direct sum of copies of Z: Z\u2295Z\u2295...\u2295Z. An element has finite order (is torsion) if n\u00b7g = 0 for some n > 0. In Z, the only element with finite order is 0 (since n\u00b7k = 0 implies k = 0 for n \u2260 0). Therefore, in a free abelian group, every element of finite order must be the identity, making it torsion-free. Statement 2: Every finitely generated torsion-free abelian group is a free abelian group. This is also TRUE and is a fundamental theorem. For finitely generated abelian groups, being torsion-free is equivalent to being free. This follows from the fundamental theorem of finitely generated abelian groups combined with the fact that torsion-free means no Z_n factors appear in the decomposition. Both statements TRUE. Answer: (A) True, True.",
+    "reasoning": "Statement 1: Free abelian = \u2295Z. In Z, only 0 has finite order \u2192 torsion-free. TRUE. Statement 2: Finitely generated + torsion-free \u2192 free abelian (fundamental theorem). TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: Free abelian \u2192 torsion-free?",
+      "Free abelian: Z \u2295 Z \u2295 ... \u2295 Z",
+      "In Z: n\u00b7k=0 \u2192 k=0 (for n\u22600)",
+      "No torsion elements (except 0)",
+      "Statement 1: TRUE",
+      "Statement 2: Finitely gen. + torsion-free \u2192 free abelian?",
+      "Fundamental theorem: decomposition into Z^r \u2295 torsion",
+      "Torsion-free \u2192 no Z_n factors",
+      "Must be Z^r (free abelian)",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201796Z"
+  },
+  {
+    "questionId": "abstract_algebra_56",
+    "explanation": "Statement 1: 4x - 2 is irreducible over Z. This is FALSE. In Z[x], a polynomial is irreducible if it cannot be factored into non-constant polynomials. However, 4x - 2 = 2(2x - 1), which is a factorization into two non-unit polynomials in Z[x] (2 and 2x-1 are both non-units in Z). Therefore, 4x - 2 is REDUCIBLE over Z. Note: A linear polynomial ax + b in Z[x] is irreducible if and only if gcd(a,b) = 1. Here gcd(4,2) = 2 \u2260 1. Statement 2: 4x - 2 is irreducible over Q. This is TRUE. In Q[x], any non-zero linear polynomial is irreducible because it cannot be factored into lower-degree polynomials (degree 1 is the lowest non-constant degree). The factorization 2(2x-1) in Z doesn't apply in Q[x] because 2 is a unit in Q (has inverse 1/2). Over fields, all non-zero linear polynomials are irreducible. Statement 1 FALSE, Statement 2 TRUE. Answer: (C) True, False. Wait, I need to reconsider which is which. Let me re-read: Statement 1 is about Z, Statement 2 is about Q. Statement 1 FALSE (reducible in Z), Statement 2 TRUE (irreducible in Q). So answer should be (D) False, True.",
+    "reasoning": "Statement 1: 4x-2 in Z[x]: 4x-2 = 2(2x-1), gcd(4,2)=2\u22601 \u2192 reducible. FALSE. Statement 2: 4x-2 in Q[x]: linear polynomial over field \u2192 irreducible. TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: 4x-2 irreducible over Z?",
+      "Factor: 4x-2 = 2(2x-1)",
+      "Both 2 and 2x-1 non-units in Z",
+      "Reducible in Z[x]",
+      "Statement 1: FALSE",
+      "Statement 2: 4x-2 irreducible over Q?",
+      "Linear polynomial over field",
+      "Cannot factor further (deg 1 minimal)",
+      "2 is unit in Q",
+      "Irreducible in Q[x]",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201813Z"
+  },
+  {
+    "questionId": "abstract_algebra_57",
+    "explanation": "Similar to question 38, this asks for 'the generator' of Z\u2081\u2081, which is ambiguous. For the additive group (Z\u2081\u2081, +), the generator is 1 since every element equals n\u00b71 for some n. For the multiplicative group Z\u2081\u2081* = {1,2,3,4,5,6,7,8,9,10}, we need a primitive root with order \u03c6(11) = 10. Let's check if 2 is a generator: 2\u00b9=2, 2\u00b2=4, 2\u00b3=8, 2\u2074=16\u22615, 2\u2075=32\u226110, 2\u2076=64\u22619, 2\u2077=128\u22617, 2\u2078=256\u22613, 2\u2079=512\u22616, 2\u00b9\u2070=1024\u22611. So 2 generates {2,4,8,5,10,9,7,3,6,1} = all of Z\u2081\u2081*. Therefore 2 is a primitive root. Other primitive roots exist (3, 6, 7, 8), but 2 is one of them. The marked answer is 1, suggesting additive interpretation. Answer: 1 (for additive group).",
+    "reasoning": "Additive Z\u2081\u2081: generator is 1. Multiplicative Z\u2081\u2081*: primitive root is 2 (order 10). Marked answer 1 suggests additive interpretation. Answer: 1.",
+    "steps": [
+      "Find generator for Z\u2081\u2081",
+      "Additive group: 1 generates all",
+      "Multiplicative group: need primitive root",
+      "Test 2: order = 10 (\u03c6(11)=10)",
+      "2 generates all of Z\u2081\u2081* \u2713",
+      "Marked answer: 1",
+      "Interpretation: additive group",
+      "Answer: 1"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201815Z"
+  },
+  {
+    "questionId": "abstract_algebra_58",
+    "explanation": "Statement 1: Every group of order 159 is cyclic. First, factor 159 = 3 \u00b7 53. By Sylow theorems: n\u2083 \u2261 1 (mod 3) and n\u2083 | 53, so n\u2083 \u2208 {1, 53}. Since 53 \u2262 1 (mod 3), we have n\u2083 = 1. Similarly, n\u2085\u2083 \u2261 1 (mod 53) and n\u2085\u2083 | 3, so n\u2085\u2083 \u2208 {1, 3}. Since 3 \u2262 1 (mod 53), we have n\u2085\u2083 = 1. Both Sylow subgroups are unique, hence normal. Let P\u2083 and P\u2085\u2083 be the unique Sylow 3-subgroup and 53-subgroup respectively. Since |P\u2083| = 3 and |P\u2085\u2083| = 53 (both prime), they're cyclic: P\u2083 \u2245 Z\u2083, P\u2085\u2083 \u2245 Z\u2085\u2083. Since P\u2083 and P\u2085\u2083 are both normal, their product P\u2083P\u2085\u2083 = G (by order considerations). Since gcd(3,53) = 1, we have G \u2245 P\u2083 \u00d7 P\u2085\u2083 \u2245 Z\u2083 \u00d7 Z\u2085\u2083 \u2245 Z\u2081\u2085\u2089 (cyclic). TRUE. Statement 2: Every group of order 102 has a nontrivial proper normal subgroup. Factor 102 = 2 \u00b7 3 \u00b7 17. By Sylow theorems, we can show at least one Sylow p-subgroup is unique (hence normal). For instance, n\u2081\u2087 | 6 and n\u2081\u2087 \u2261 1 (mod 17), so n\u2081\u2087 \u2208 {1}. So there's a normal subgroup of order 17. TRUE. Both TRUE.",
+    "reasoning": "Statement 1: 159=3\u00b753. Sylow analysis \u2192 unique Sylow subgroups \u2192 both normal \u2192 G\u2245Z\u2083\u00d7Z\u2085\u2083\u2245Z\u2081\u2085\u2089 (cyclic). TRUE. Statement 2: 102=2\u00b73\u00b717. Sylow \u2192 at least one unique (normal). TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: Order 159 = 3\u00b753 cyclic?",
+      "n\u2083\u2208{1,53}, 53\u22621(mod 3) \u2192 n\u2083=1",
+      "n\u2085\u2083\u2208{1,3}, 3\u22621(mod 53) \u2192 n\u2085\u2083=1",
+      "Unique Sylow subgroups \u2192 both normal",
+      "G \u2245 Z\u2083 \u00d7 Z\u2085\u2083 \u2245 Z\u2081\u2085\u2089 (cyclic)",
+      "Statement 1: TRUE",
+      "Statement 2: Order 102 = 2\u00b73\u00b717",
+      "n\u2081\u2087|6, n\u2081\u2087\u22611(mod 17) \u2192 n\u2081\u2087=1",
+      "Normal subgroup of order 17",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201816Z"
+  },
+  {
+    "questionId": "abstract_algebra_59",
+    "explanation": "Statement 1: If H and K are subgroups of G and one of H or K is normal in G, then HK is a subgroup of G. This is TRUE. If H \u22b4 G (or K \u22b4 G), then HK = {hk : h \u2208 H, k \u2208 K} forms a subgroup. Proof: (1) Identity: e = e\u00b7e \u2208 HK \u2713. (2) Closure: If h\u2081k\u2081, h\u2082k\u2082 \u2208 HK, then (h\u2081k\u2081)(h\u2082k\u2082) = h\u2081(k\u2081h\u2082)k\u2082. If H is normal, k\u2081h\u2082 = h\u2083k\u2081 for some h\u2083 \u2208 H (by normality), so (h\u2081k\u2081)(h\u2082k\u2082) = h\u2081h\u2083k\u2081k\u2082 \u2208 HK \u2713. (3) Inverses: (hk)\u207b\u00b9 = k\u207b\u00b9h\u207b\u00b9. If H normal, k\u207b\u00b9h\u207b\u00b9 = h'k\u207b\u00b9 \u2208 HK for some h' \u2208 H \u2713. So HK is a subgroup when at least one is normal. Statement 2: All groups of order p\u00b2 where p is prime are Abelian. This is TRUE, as we've established before (question 19). Answer: (A) True, True.",
+    "reasoning": "Statement 1: One of H,K normal \u2192 HK subgroup (normality allows closure). TRUE. Statement 2: Order p\u00b2 groups are Abelian (Z_{p\u00b2} or Z_p\u00d7Z_p). TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: H or K normal \u2192 HK subgroup?",
+      "Normality ensures (hk)(h'k') \u2208 HK",
+      "Using kh = h'k for h'\u2208H (normality)",
+      "HK closed, has identity, has inverses",
+      "Statement 1: TRUE",
+      "Statement 2: Order p\u00b2 \u2192 Abelian?",
+      "Only structures: Z_{p\u00b2}, Z_p\u00d7Z_p",
+      "Both abelian",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201817Z"
+  },
+  {
+    "questionId": "abstract_algebra_60",
+    "explanation": "Statement 1: The unity of a subring must be the same as the unity of the ring. This is FALSE. A subring doesn't necessarily have the same multiplicative identity as the parent ring, or may not have a multiplicative identity at all. Counterexample: 2Z = {0, \u00b12, \u00b14, ...} is a subring of Z, but 2Z has no multiplicative identity (there's no element e \u2208 2Z such that e\u00b7x = x for all x \u2208 2Z). Another example: The ring of 2\u00d72 matrices with bottom row zero is a subring of M\u2082(R), but has a different identity. Statement 2: Every field is an integral domain. This is TRUE. A field F is a commutative ring with unity where every non-zero element has a multiplicative inverse. To show it's an integral domain, we need to show it has no zero divisors. Suppose ab = 0 with a \u2260 0. Since a \u2260 0 and F is a field, a has an inverse a\u207b\u00b9. Multiplying both sides by a\u207b\u00b9: a\u207b\u00b9(ab) = a\u207b\u00b9\u00b70, so (a\u207b\u00b9a)b = 0, thus b = 0. Therefore F has no zero divisors and is an integral domain. Statement 1 FALSE, Statement 2 TRUE. Answer: (D) False, True.",
+    "reasoning": "Statement 1: Subring unity = ring unity? Counterexample: 2Z has no unity. FALSE. Statement 2: Field \u2192 integral domain? Fields have no zero divisors (use inverses). TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: Subring unity = ring unity?",
+      "Counterexample: 2Z \u2282 Z",
+      "2Z has no multiplicative identity",
+      "Statement 1: FALSE",
+      "Statement 2: Field \u2192 integral domain?",
+      "Field: every non-zero has inverse",
+      "ab=0, a\u22600 \u2192 b = a\u207b\u00b9(ab) = 0",
+      "No zero divisors",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201818Z"
+  },
+  {
+    "questionId": "abstract_algebra_61",
+    "explanation": "Statement 1: The set of 2\u00d72 matrices with integer entries and nonzero determinant is a group under matrix multiplication. This is FALSE. Let S = {A \u2208 M\u2082(Z) : det(A) \u2260 0}. While closure, associativity, and identity hold, not every element has an inverse in S. For a matrix A with det(A) \u2260 0 to have an inverse in S, we need A\u207b\u00b9 to have integer entries. By the formula A\u207b\u00b9 = (1/det(A)) \u00b7 adj(A), this requires det(A) = \u00b11 (so 1/det(A) is an integer). Counterexample: A = [[2,0],[0,1]] has det(A) = 2 \u2260 0, but A\u207b\u00b9 = [[1/2,0],[0,1]] doesn't have integer entries. So S is not a group. Statement 2: The set of 2\u00d72 matrices with integer entries and determinant 1 is a group under matrix multiplication. This is TRUE. This is the special linear group SL\u2082(Z). Closure: det(AB) = det(A)det(B) = 1\u00b71 = 1 \u2713. Identity: I has det = 1 \u2713. Inverses: If det(A) = 1, then A\u207b\u00b9 = adj(A) has integer entries (since det(A) = 1 and adj(A) has integer entries) \u2713. Statement 1 FALSE, Statement 2 TRUE. Answer: (D) False, True.",
+    "reasoning": "Statement 1: det\u22600 matrices form group? NO, need det=\u00b11 for integer inverse. FALSE. Statement 2: det=1 matrices (SL\u2082(Z)) form group. TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: {A\u2208M\u2082(Z) : det(A)\u22600} group?",
+      "Need A\u207b\u00b9 with integer entries",
+      "A\u207b\u00b9 = (1/det(A))\u00b7adj(A)",
+      "Requires det(A) = \u00b11",
+      "Counterexample: det=2 has non-integer inverse",
+      "Statement 1: FALSE",
+      "Statement 2: {A\u2208M\u2082(Z) : det(A)=1} group?",
+      "SL\u2082(Z) - special linear group",
+      "Closure, identity, inverses all work",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201819Z"
+  },
+  {
+    "questionId": "abstract_algebra_62",
+    "explanation": "Statement 1: Every quotient ring of every commutative ring is again a commutative ring. This is TRUE. If R is a commutative ring and I is an ideal, then R/I inherits commutativity from R. For any cosets a+I, b+I in R/I: (a+I)(b+I) = ab+I = ba+I = (b+I)(a+I) (using commutativity of R). So R/I is commutative. Commutativity is preserved under quotients. Statement 2: An ideal N in a ring R with unity 1 is all of R if and only if 1 \u2208 N. This is TRUE. (\u2192) If N = R, then clearly 1 \u2208 N = R. (\u2190) If 1 \u2208 N, then for any r \u2208 R, we have r = r\u00b71 \u2208 N (since N is an ideal and closed under multiplication by ring elements). Therefore R \u2286 N, and since N \u2286 R always, we have N = R. This characterizes when an ideal is the whole ring. Both statements TRUE. Answer: (A) True, True.",
+    "reasoning": "Statement 1: R commutative \u2192 R/I commutative (commutativity preserved). TRUE. Statement 2: N=R \u2194 1\u2208N. If 1\u2208N, then r=r\u00b71\u2208N for all r \u2192 N=R. TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: R commutative \u2192 R/I commutative?",
+      "(a+I)(b+I) = ab+I",
+      "= ba+I (R commutative)",
+      "= (b+I)(a+I)",
+      "R/I commutative",
+      "Statement 1: TRUE",
+      "Statement 2: N=R \u2194 1\u2208N?",
+      "\u2192: N=R \u2192 1\u2208R=N",
+      "\u2190: 1\u2208N \u2192 r=r\u00b71\u2208N for all r \u2192 N=R",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201820Z"
+  },
+  {
+    "questionId": "abstract_algebra_63",
+    "explanation": "Given A = {1,2,3,4} and ~ = {(1,2), (1,3), (4,2)}. Let's check properties: Reflexive: Need (a,a) \u2208 ~ for all a. Missing (1,1), (2,2), (3,3), (4,4). NOT reflexive. Symmetric: For each (a,b), need (b,a). Have (1,2) but not (2,1). NOT symmetric. Anti-symmetric: If (a,b) and (b,a) both in ~, then need a = b. We have (1,2) but not (2,1), so the condition is vacuously satisfied for this pair. We have (1,3) but not (3,1), vacuously satisfied. We have (4,2) but not (2,4), vacuously satisfied. So ~ IS anti-symmetric (no counterexamples). Transitive: Need (a,b), (b,c) \u2208 ~ \u2192 (a,c) \u2208 ~. Check all pairs: (1,2), (1,3) don't share middle element. (1,2), (4,2) share '2' but in wrong positions. Can't apply transitivity. No violations found, but also no chains to verify. We'd need something like (1,x), (x,y) both in ~ to test. Actually, ~ IS trivially transitive (no chains exist). The marked answer is 'not anti-symmetric', but we showed it IS anti-symmetric. Let me reconsider... We have (1,2) and need to check if (2,1) \u2208 ~. It's not, so anti-symmetric holds. The question asks what property ~ HAS. Since it's anti-symmetric, the answer 'not anti-symmetric' is incorrect. But that's the marked answer.",
+    "reasoning": "~ = {(1,2),(1,3),(4,2)}. Check: reflexive (NO), symmetric (NO), anti-symmetric (YES, no counterexamples), transitive (YES, vacuously). Marked answer: not anti-symmetric (contradicts analysis).",
+    "steps": [
+      "~ = {(1,2), (1,3), (4,2)}",
+      "Reflexive? NO (missing (1,1), etc.)",
+      "Symmetric? NO ((1,2) but not (2,1))",
+      "Anti-symmetric? Check (a,b)\u2227(b,a)\u2192a=b",
+      "No (a,b) and (b,a) both in ~",
+      "Vacuously TRUE",
+      "Transitive? No chains to verify",
+      "Vacuously TRUE",
+      "~ is anti-symmetric and transitive",
+      "Marked answer: not anti-symmetric",
+      "Answer: not anti-symmetric (as marked)"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201821Z"
+  },
+  {
+    "questionId": "abstract_algebra_64",
+    "explanation": "How many homomorphisms are there from Z to Z\u2082? Let \u03c6: Z \u2192 Z\u2082 be a homomorphism. Since \u03c6 is a group homomorphism, it's determined by where it sends the generator. Z is generated by 1 (every element n = n\u00b71), so \u03c6 is completely determined by \u03c6(1). Since \u03c6(1) \u2208 Z\u2082 = {0,1}, there are two choices. However, we must check which are valid: If \u03c6(1) = 0: Then \u03c6(n) = \u03c6(n\u00b71) = n\u00b7\u03c6(1) = n\u00b70 = 0 for all n \u2208 Z. This is the trivial homomorphism, which is valid \u2713. If \u03c6(1) = 1: Then \u03c6(2) = \u03c6(1+1) = \u03c6(1)+\u03c6(1) = 1+1 = 0 in Z\u2082. And \u03c6(-1) must satisfy \u03c6(-1)+\u03c6(1) = \u03c6(0) = 0, so \u03c6(-1) = -\u03c6(1) = -1 \u2261 1. But then \u03c6(1) = \u03c6(-1+2) = \u03c6(-1)+\u03c6(2) = 1+0 = 1 \u2713. So this works and gives a homomorphism. Wait, but for \u03c6(1)=1 to define a homomorphism, we need to verify it's well-defined. Actually, there's an issue: if \u03c6(1)=1, then \u03c6(2)=0 in Z\u2082, but 2\u00b7\u03c6(1)=2\u00b71=0 in Z\u2082. The order of \u03c6(1) must divide the order of 1 in Z, but 1 has infinite order in Z while \u03c6(1) might have finite order in Z\u2082. Actually, the image of a homomorphism from Z to Z\u2082 must be a cyclic subgroup of Z\u2082. The subgroups of Z\u2082 are {0} and Z\u2082. So there are 2 homomorphisms: trivial and... wait, can we have a surjective one? If \u03c6(1)=1 with order 2, then \u03c6(2)=0, \u03c6(3)=1, etc. This alternates and doesn't map Z's group structure consistently because 1+1=2 in Z but would need 1+1=0 in Z\u2082. Actually, there's only ONE homomorphism: the trivial one \u03c6(n)=0. A non-trivial homomorphism would require Z/ker(\u03c6) \u2245 Im(\u03c6), but Z has no non-trivial finite quotients (it's torsion-free). So the answer is 1.",
+    "reasoning": "\u03c6:Z\u2192Z\u2082 homomorphism. Z is infinite cyclic, Z\u2082 finite. Non-trivial \u03c6 would give finite quotient of Z, impossible (Z torsion-free). Only trivial homomorphism \u03c6(n)=0. Answer: 1.",
+    "steps": [
+      "Count homomorphisms \u03c6: Z \u2192 Z\u2082",
+      "\u03c6 determined by \u03c6(1)",
+      "\u03c6(1) \u2208 {0,1}",
+      "If \u03c6(1)=0: trivial homomorphism \u2713",
+      "If \u03c6(1)=1: need ord(\u03c6(1)) | ord(1)",
+      "But ord(1)=\u221e in Z, ord(1)=2 in Z\u2082",
+      "Cannot have surjective \u03c6 from Z to finite group",
+      "Z torsion-free \u2192 only trivial quotients",
+      "Only 1 homomorphism: trivial",
+      "Answer: 1"
+    ],
+    "generatedAt": "2025-11-12T12:16:17.201822Z"
+  },
+  {
+    "questionId": "abstract_algebra_65",
+    "explanation": "Statement 1: Every field is also a ring. This is TRUE. A field is defined as a commutative ring with unity in which every non-zero element has a multiplicative inverse. Since this definition explicitly mentions 'ring', fields are rings by definition (with the additional properties of commutativity and inverses). A field is a special case of a ring with extra structure. Statement 2: Every ring has a multiplicative identity. This is FALSE. Some rings don't have a multiplicative identity (unity). These are called rings without unity or rngs. Counterexample: 2Z = {0, \u00b12, \u00b14, \u00b16, ...} is a ring under addition and multiplication, but has no element e such that e\u00b7x = x for all x \u2208 2Z. If e existed, taking x=2: e\u00b72=2, so e=1. But 1 \u2209 2Z. Another example: the ring of all 2\u00d72 matrices with zero trace. Statement 1 TRUE, Statement 2 FALSE. Answer: (C) True, False.",
+    "reasoning": "Statement 1: Field is special ring (commutative with unity and inverses). TRUE by definition. Statement 2: All rings have unity? NO. Counterexample: 2Z. FALSE. Answer: True, False.",
+    "steps": [
+      "Statement 1: Field \u2192 ring?",
+      "Field defined as special ring",
+      "(commutative ring with unity + inverses)",
+      "Field is ring by definition",
+      "Statement 1: TRUE",
+      "Statement 2: All rings have unity?",
+      "Counterexample: 2Z",
+      "No element e where e\u00b7x=x for all x",
+      "Rings without unity exist",
+      "Statement 2: FALSE",
+      "Answer: True, False"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123023Z"
+  },
+  {
+    "questionId": "abstract_algebra_66",
+    "explanation": "Statement 1: If R is a ring and f(x), g(x) \u2208 R[x], then deg(f(x)+g(x)) = max(deg f(x), deg g(x)). This is FALSE in general. If the leading coefficients cancel, the degree can be less. For example, let f(x) = x\u00b2 + x and g(x) = -x\u00b2 + 1. Then f(x) + g(x) = x + 1, which has degree 1, not max(2,2) = 2. The correct statement is: deg(f+g) \u2264 max(deg f, deg g), with equality when the leading coefficients don't cancel. Statement 2: If F is a field, then every ideal of F[x] is principal. This is TRUE. F[x] (polynomials over a field) is a Euclidean domain, and all Euclidean domains are principal ideal domains (PIDs). In a PID, every ideal can be generated by a single element. For F[x], if I is an ideal, choose a non-zero polynomial of minimal degree in I; this polynomial generates I. Statement 1 FALSE, Statement 2 TRUE. Answer: (D) False, True.",
+    "reasoning": "Statement 1: deg(f+g)=max(deg f, deg g)? Can cancel if leading coefficients opposite. FALSE. Statement 2: F[x] is PID (Euclidean domain). TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: deg(f+g) = max(deg f, deg g)?",
+      "Counterexample: f=x\u00b2, g=-x\u00b2+1",
+      "f+g=1, deg=0 < max(2,2)=2",
+      "Leading coefficients can cancel",
+      "Statement 1: FALSE",
+      "Statement 2: F field \u2192 F[x] ideals principal?",
+      "F[x] is Euclidean domain",
+      "Euclidean domain \u2192 PID",
+      "Every ideal generated by single element",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123052Z"
+  },
+  {
+    "questionId": "abstract_algebra_67",
+    "explanation": "A subset H of a group (G,*) is a subgroup if it satisfies certain conditions. Let's examine each option: (A) a,b \u2208 H \u21d2 a*b \u2208 H (closure). This alone is NOT sufficient. Counterexample: \u2115 \u2282 \u2124 under addition is closed but not a subgroup (no inverses, no identity 0). (B) a \u2208 H \u21d2 a\u207b\u00b9 \u2208 H (inverses). This alone is NOT sufficient without identity and closure. (C) a,b \u2208 H \u21d2 a*b\u207b\u00b9 \u2208 H. This IS sufficient! Proof: If H \u2260 \u2205, take a \u2208 H, then e = a*a\u207b\u00b9 \u2208 H (identity). For any a \u2208 H, we have a\u207b\u00b9 = e*a\u207b\u00b9 \u2208 H (inverses). For any a,b \u2208 H, we have b\u207b\u00b9 \u2208 H, so a*b = a*(b\u207b\u00b9)\u207b\u00b9 \u2208 H (closure). This is the two-step subgroup test. (D) H contains identity. This alone is NOT sufficient (needs closure and inverses too). The answer is (C) - the one-step subgroup test.",
+    "reasoning": "One-step subgroup test: H\u2260\u2205 and (a,b\u2208H \u2192 a*b\u207b\u00b9\u2208H) \u2194 H subgroup. Option (C) gives this condition. Implies identity (a*a\u207b\u00b9), inverses (e*a\u207b\u00b9), closure (a*(b\u207b\u00b9)\u207b\u00b9). Answer: (C).",
+    "steps": [
+      "Check each condition for subgroup",
+      "A: Closure only - insufficient",
+      "B: Inverses only - insufficient",
+      "C: a,b\u2208H \u2192 a*b\u207b\u00b9\u2208H",
+      "This implies: e=a*a\u207b\u00b9\u2208H (identity)",
+      "a\u207b\u00b9=e*a\u207b\u00b9\u2208H (inverses)",
+      "a*b=a*(b\u207b\u00b9)\u207b\u00b9\u2208H (closure)",
+      "Sufficient condition!",
+      "D: Identity only - insufficient",
+      "Answer: a,b\u2208H \u2192 a*b\u207b\u00b9\u2208H"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123054Z"
+  },
+  {
+    "questionId": "abstract_algebra_68",
+    "explanation": "We need to factor x\u2074 + 4 in Z\u2085[x]. First, find roots by testing each element in Z\u2085 = {0,1,2,3,4}: f(0) = 0+4 = 4 \u2260 0. f(1) = 1+4 = 5 \u2261 0 \u2713. f(2) = 16+4 = 20 \u2261 0 \u2713. f(3) = 81+4 = 85 \u2261 0 \u2713. f(4) = 256+4 = 260 \u2261 0 \u2713. So all non-zero elements are roots! The factorization is x\u2074+4 = (x-1)(x-2)(x-3)(x-4). Let's verify the constant term: (-1)(-2)(-3)(-4) = 24 \u2261 4 (mod 5) \u2713. Now match with given options. In Z\u2085, we have: -1\u22614, -2\u22613, -3\u22612, -4\u22611. So (x-1)(x-2)(x-3)(x-4) = (x-1)(x-2)(x+2)(x+1) when written with positive representatives. Reordering: (x-2)(x+2)(x-1)(x+1) or equivalently (x-2)(x-(-2))(x-1)(x-(-1)). Option (A) matches this. The answer is (A).",
+    "reasoning": "Find roots of x\u2074+4 in Z\u2085: f(1)=f(2)=f(3)=f(4)=0. All non-zero elements are roots. Factorization: (x-1)(x-2)(x-3)(x-4). In Z\u2085: -3\u22612, -4\u22611. So (x-1)(x-2)(x+2)(x+1). Answer: (A).",
+    "steps": [
+      "Factor x\u2074+4 in Z\u2085[x]",
+      "Test roots: f(1)=5\u22610, f(2)=20\u22610",
+      "f(3)=85\u22610, f(4)=260\u22610",
+      "Four roots: 1,2,3,4",
+      "Factorization: (x-1)(x-2)(x-3)(x-4)",
+      "In Z\u2085: -1\u22614, -2\u22613, -3\u22612, -4\u22611",
+      "Equivalently: (x-1)(x-2)(x+2)(x+1)",
+      "Reorder: (x-2)(x+2)(x-1)(x+1)",
+      "Answer: (x-2)(x+2)(x-1)(x+1)"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123056Z"
+  },
+  {
+    "questionId": "abstract_algebra_69",
+    "explanation": "Statement 1: There exists a free abelian group of every positive integer rank. This is TRUE. For any positive integer n, we can construct Z^n = Z \u2295 Z \u2295 ... \u2295 Z (n times), which is a free abelian group of rank n. The rank is the number of basis elements needed. Z\u00b9 = Z (rank 1), Z\u00b2 = Z\u2295Z (rank 2), etc. So free abelian groups of all positive ranks exist. Statement 2: A finitely generated abelian group is free abelian if its Betti number equals the number of elements in some generating set. This is TRUE. The Betti number of a finitely generated abelian group G is the rank of the free part in its decomposition G \u2245 Z^r \u2295 (torsion). If the Betti number (r) equals the size of a generating set (n), and G is finitely generated, then G must have no torsion part (otherwise we'd need more generators for the torsion). Thus G \u2245 Z^r, making it free abelian. Both statements TRUE. Answer: (A) True, True.",
+    "reasoning": "Statement 1: Z^n exists for all n>0 (free abelian rank n). TRUE. Statement 2: Betti number = #generators \u2192 no torsion \u2192 free abelian. TRUE. Answer: True, True.",
+    "steps": [
+      "Statement 1: Free abelian of all ranks?",
+      "Z^n = Z\u2295...\u2295Z (n times)",
+      "Rank n, exists for all n>0",
+      "Statement 1: TRUE",
+      "Statement 2: Betti number = #generators \u2192 free?",
+      "G \u2245 Z^r \u2295 torsion",
+      "Betti number = r",
+      "If r=#generators, torsion=0",
+      "G \u2245 Z^r (free abelian)",
+      "Statement 2: TRUE",
+      "Answer: True, True"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123057Z"
+  },
+  {
+    "questionId": "abstract_algebra_70",
+    "explanation": "Given (Z,*) where a*b = a+b+1, we need to find the inverse of a. First, find the identity e: e*a = a means e+a+1 = a, so e = -1. Verify: (-1)*a = -1+a+1 = a \u2713. Now find the inverse of a, call it a\u207b\u00b9. We need a*a\u207b\u00b9 = e = -1. Using the operation: a*a\u207b\u00b9 = a+a\u207b\u00b9+1 = -1. Solving: a\u207b\u00b9 = -1-a-1 = -a-2. Therefore, the inverse of a is -a-2, which matches option (C). Let's verify: a*(-a-2) = a+(-a-2)+1 = a-a-2+1 = -1 \u2713. The answer is (C) a-2. Wait, let me recalculate: -a-2 vs a-2. We have a\u207b\u00b9 = -a-2 = -(a+2). But option (C) says a-2. Let me re-check the calculation: a+a\u207b\u00b9+1=-1 gives a\u207b\u00b9=-1-a-1=-a-2=-(a+2). Hmm, option (C) is 'a-2', not '-(a+2)=-a-2'. These are different unless we interpret it differently. Actually, looking at option (C) exactly as written: it says 'a-2'. I calculated -a-2. Let me verify which is correct by testing: a*(-a-2)=a+(-a-2)+1=-1 \u2713 correct. a*(a-2)=a+(a-2)+1=2a-1, which only equals -1 if 2a=0, not for all a. So the correct inverse is -a-2, but option (C) says a-2. The marked answer is 0, which doesn't match either. Let me reconsider: if the marked answer is 0, then a\u207b\u00b9=0 for all a? Test: a*0=a+0+1=a+1\u2260-1 in general. That doesn't work. I'll report the marked answer but note the discrepancy.",
+    "reasoning": "Identity: e=-1 (since e+a+1=a). Inverse: a*a\u207b\u00b9=-1 \u2192 a+a\u207b\u00b9+1=-1 \u2192 a\u207b\u00b9=-a-2. Expected: -a-2. Options show 'a-2' and marked answer '0'. Calculation suggests -a-2, but marked as 0.",
+    "steps": [
+      "Operation: a*b = a+b+1",
+      "Find identity: e+a+1=a \u2192 e=-1",
+      "Find inverse: a*a\u207b\u00b9=-1",
+      "a+a\u207b\u00b9+1=-1",
+      "a\u207b\u00b9=-1-a-1=-a-2",
+      "Verify: a*(-a-2)=a-a-2+1=-1 \u2713",
+      "Expected: -a-2",
+      "Options: (C) says a-2",
+      "Marked answer: 0",
+      "Answer: 0 (as marked, appears incorrect)"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123058Z"
+  },
+  {
+    "questionId": "abstract_algebra_71",
+    "explanation": "We need [Q(\u221a2\u00b7\u221a3):Q]. Note that \u221a2\u00b7\u221a3 = \u221a6. So we're finding [Q(\u221a6):Q]. The element \u221a6 satisfies x\u00b2 - 6, which is irreducible over Q by Eisenstein's criterion with p = 2 (or p = 3): Using p = 2: 2\u22241 \u2713, 2|(-6) \u2713, 4\u2224(-6) \u2713. So x\u00b2 - 6 is irreducible. Therefore [Q(\u221a6):Q] = 2. The marked answer is 0, which is incorrect. The degree should be 2. A basis for Q(\u221a6) over Q is {1, \u221a6}.",
+    "reasoning": "\u221a2\u00b7\u221a3 = \u221a6. Find [Q(\u221a6):Q]. Minimal polynomial: x\u00b2-6 (irreducible by Eisenstein p=2 or p=3). Degree = 2. Marked answer 0 is incorrect.",
+    "steps": [
+      "Find [Q(\u221a2\u00b7\u221a3):Q]",
+      "\u221a2\u00b7\u221a3 = \u221a6",
+      "[Q(\u221a6):Q] = ?",
+      "Minimal polynomial: x\u00b2-6",
+      "Eisenstein p=2: 2\u22241, 2|-6, 4\u2224-6 \u2713",
+      "Irreducible over Q",
+      "Degree = 2",
+      "[Q(\u221a6):Q] = 2",
+      "Expected: 2",
+      "Answer: 0 (as marked, incorrect)"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123059Z"
+  },
+  {
+    "questionId": "abstract_algebra_72",
+    "explanation": "We use Fermat's Little Theorem to find the remainder of 3\u2074\u2077 when divided by 23. Fermat's Little Theorem states: if p is prime and gcd(a,p) = 1, then a^(p-1) \u2261 1 (mod p). Here, p = 23 (prime) and a = 3, with gcd(3,23) = 1. So 3^(23-1) = 3\u00b2\u00b2 \u2261 1 (mod 23). Now we need to express 47 in terms of 22: 47 = 2\u00b722 + 3. Therefore: 3\u2074\u2077 = 3^(2\u00b722+3) = (3\u00b2\u00b2)\u00b2 \u00b7 3\u00b3 \u2261 1\u00b2 \u00b7 27 \u2261 27 (mod 23). Now reduce 27 modulo 23: 27 = 23 + 4, so 27 \u2261 4 (mod 23). Therefore 3\u2074\u2077 \u2261 4 (mod 23). The remainder is 4. But wait, the marked answer is 1. Let me recalculate: 3\u00b3 = 27 = 23 + 4 \u2261 4. So 3\u2074\u2077 \u2261 4 (mod 23). But the answer is marked as 1. Let me check if I made an error... Actually, maybe the question is asking for a different calculation. But based on the straightforward application of Fermat's theorem, the answer should be 4.",
+    "reasoning": "Fermat: 3\u00b2\u00b2\u22611 (mod 23). 47=2\u00b722+3, so 3\u2074\u2077=(3\u00b2\u00b2)\u00b2\u00b73\u00b3\u22611\u00b727\u22614 (mod 23). Expected: 4. Marked answer: 1 (discrepancy).",
+    "steps": [
+      "Find 3\u2074\u2077 mod 23 using Fermat",
+      "Fermat: a^(p-1)\u22611 (mod p)",
+      "3\u00b2\u00b2\u22611 (mod 23)",
+      "47 = 2\u00b722 + 3",
+      "3\u2074\u2077 = (3\u00b2\u00b2)\u00b2\u00b73\u00b3",
+      "\u2261 1\u00b2\u00b727 (mod 23)",
+      "27 = 23+4 \u2261 4 (mod 23)",
+      "3\u2074\u2077 \u2261 4 (mod 23)",
+      "Expected: 4",
+      "Answer: 1 (as marked, appears incorrect)"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123060Z"
+  },
+  {
+    "questionId": "abstract_algebra_73",
+    "explanation": "We need the characteristic of the ring Z\u2083 \u00d7 Z\u2083. The characteristic of a ring R is the smallest positive integer n such that n\u00b71 = 0 (where 1 is the multiplicative identity), or 0 if no such n exists. In Z\u2083 \u00d7 Z\u2083, the multiplicative identity is (1,1). We need to find the smallest n where n\u00b7(1,1) = (0,0). Now n\u00b7(1,1) = (n\u00b71, n\u00b71) where the components are computed in Z\u2083. In Z\u2083, we have 3\u00b71 = 0. So 3\u00b7(1,1) = (3\u00b71, 3\u00b71) = (0,0) in Z\u2083\u00d7Z\u2083. Is there a smaller positive n? For n=1: 1\u00b7(1,1) = (1,1) \u2260 (0,0). For n=2: 2\u00b7(1,1) = (2,2) \u2260 (0,0) in Z\u2083\u00d7Z\u2083. For n=3: 3\u00b7(1,1) = (0,0) \u2713. Therefore, the characteristic is 3. But the marked answer is 0. Let me reconsider... The characteristic of Z\u2083 is 3, so the characteristic of Z\u2083\u00d7Z\u2083 should also be 3 (not 0). The answer 0 would only make sense if we're thinking of additive characteristic or if there's a different definition being used.",
+    "reasoning": "Characteristic = smallest n where n\u00b7(1,1)=(0,0). In Z\u2083, 3\u00b71=0. So 3\u00b7(1,1)=(0,0). char(Z\u2083\u00d7Z\u2083)=3. Marked answer 0 appears incorrect.",
+    "steps": [
+      "Find char(Z\u2083\u00d7Z\u2083)",
+      "Multiplicative identity: (1,1)",
+      "Need smallest n: n\u00b7(1,1)=(0,0)",
+      "n\u00b7(1,1) = (n\u00b71, n\u00b71) in Z\u2083",
+      "In Z\u2083: 3\u00b71=0",
+      "3\u00b7(1,1) = (0,0)",
+      "Check smaller: 1\u00b7(1,1)=(1,1), 2\u00b7(1,1)=(2,2)",
+      "char(Z\u2083\u00d7Z\u2083) = 3",
+      "Expected: 3",
+      "Answer: 0 (as marked, appears incorrect)"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123061Z"
+  },
+  {
+    "questionId": "abstract_algebra_74",
+    "explanation": "Statement 1: If a and b are elements of a group and a \u2260 b, then a\u00b2 \u2260 b\u00b2. This is FALSE. Counterexample: In any group with an element of order 2, we have e\u00b2 = e and if g has order 2, then g\u00b2 = e, so e\u00b2 = g\u00b2 but e \u2260 g. More concretely, in Z\u2082 = {0,1} under addition modulo 2: 0\u00b2 = 0 and 1\u00b2 = 1 in the sense of group operation (but thinking multiplicatively in Z\u2084: 2\u00b2 = 0 and 0\u00b2 = 0, so 2\u00b2 = 0\u00b2 = 0 but 2 \u2260 0). Better example: In the Klein four-group V\u2084 = {e,a,b,c} where all non-identity elements have order 2, we have a\u00b2 = e = b\u00b2, but a \u2260 b. Statement 2: The set of rotations in a dihedral group form a cyclic subgroup. This is TRUE. The dihedral group D\u2099 consists of rotations and reflections of a regular n-gon. The rotations form a cyclic subgroup of order n, generated by the rotation by 360\u00b0/n. The reflections don't form a subgroup (product of two reflections is a rotation), but the rotations do form a cyclic subgroup isomorphic to Z\u2099. Statement 1 FALSE, Statement 2 TRUE. Answer: (D) False, True.",
+    "reasoning": "Statement 1: a\u2260b \u2192 a\u00b2\u2260b\u00b2? Counterexample: elements of order 2 satisfy g\u00b2=e. FALSE. Statement 2: Rotations in D\u2099 form cyclic subgroup Z\u2099. TRUE. Answer: False, True.",
+    "steps": [
+      "Statement 1: a\u2260b \u2192 a\u00b2\u2260b\u00b2?",
+      "Counterexample: Klein four-group V\u2084",
+      "All non-identity have order 2",
+      "a\u00b2=e=b\u00b2 but a\u2260b",
+      "Statement 1: FALSE",
+      "Statement 2: Rotations in D\u2099 cyclic?",
+      "Rotations = {r\u2070,r\u00b9,...,r^(n-1)}",
+      "Generated by rotation r (360\u00b0/n)",
+      "Isomorphic to Z\u2099 (cyclic)",
+      "Statement 2: TRUE",
+      "Answer: False, True"
+    ],
+    "generatedAt": "2025-11-12T12:18:23.123063Z"
   }
 ]
