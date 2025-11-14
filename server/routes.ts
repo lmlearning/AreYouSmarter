@@ -167,10 +167,11 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(404).json({ error: "Question not found in session" });
       }
 
-      const cached = await storage.getAIExplanation(questionId);
-      if (cached) {
-        console.log(`[AI Explanation] Returning cached explanation for: ${questionId}`);
-        return res.json(cached);
+      // Check for precomputed explanation first
+      const precomputed = await storage.getAIExplanation(questionId);
+      if (precomputed) {
+        console.log(`[AI Explanation] Returning precomputed explanation for: ${questionId}`);
+        return res.json(precomputed);
       }
 
       console.log(`[AI Explanation] Generating new explanation for: ${questionId}`);
