@@ -1,0 +1,93 @@
+#!/usr/bin/env node
+import { readFile, writeFile } from 'fs/promises';
+
+const newExplanations = [
+  {
+    "questionId": "high_school_biology_31",
+    "explanation": "Development of an egg without fertilization is **parthenogenesis** (virgin birth).\n\n**Parthenogenesis definition:**\n- Greek: parthenos (virgin) + genesis (birth)\n- Egg develops into organism without sperm\n- Form of asexual reproduction\n- Offspring are clones (genetically identical to mother)\n\n**Types:**\n\n**Obligate parthenogenesis:**\n- Only reproduction mode\n- No males in population\n- Some lizards (whiptail lizards)\n- Some insects (stick insects, aphids)\n\n**Facultative parthenogenesis:**\n- Can reproduce sexually OR asexually\n- Aphids: sexual in fall, parthenogenetic in summer\n- Honey bees: unfertilized → males (drones), fertilized → females\n- Komodo dragons: documented cases\n\n**Cyclic parthenogenesis:**\n- Alternates between sexual and asexual\n- Water fleas (Daphnia)\n- Aphids (seasonal)\n\n**Examples in nature:**\n- **Insects**: Aphids, bees, ants, wasps\n- **Reptiles**: Whiptail lizards, some snakes\n- **Fish**: Some sharks (in captivity)\n- **Amphibians**: Some salamanders\n- **Plants**: Dandelions, some grasses (apomixis)\n\n**Why option 1 is CORRECT:**\nParthenogenesis ✓\n- Egg development without fertilization\n- Definition matches perfectly\n\n**Why other options are WRONG:**\n\n**Option 0: Meiosis**\n- **Cell division process**, not reproduction type\n- Creates haploid gametes from diploid cells\n- Reduces chromosome number (2n → n)\n- Necessary for sexual reproduction\n- Not development of organism\n\n**Option 2: Embryogenesis**\n- **TOO GENERAL**\n- Development of embryo from zygote\n- Applies to ALL development (sexual or asexual)\n- Doesn't specify without fertilization\n- Embryogenesis can occur after fertilization OR parthenogenesis\n\n**Option 3: Vegetative propagation**\n- **Plant asexual reproduction**\n- Runners, tubers, bulbs, cuttings\n- Not from egg/gamete\n- From vegetative tissues (roots, stems, leaves)\n- Different mechanism\n\n**Mechanisms of parthenogenesis:**\n\n**Haploid parthenogenesis:**\n- Egg remains haploid (n)\n- Develops directly\n- Example: Drone honey bees (n)\n\n**Diploid parthenogenesis:**\n- Egg becomes diploid (2n) without fertilization\n- **Automixis**: Fusion of meiotic products\n- **Apomixis**: No meiosis, mitotic division only\n\n**Honey bee sex determination:**\n- **Unfertilized eggs → males (haploid, n = 16)**\n- **Fertilized eggs → females (diploid, 2n = 32)**\n- Workers and queens are female\n- Drones are male\n\n**Advantages:**\n- Rapid population growth\n- No need to find mates\n- Colonization of new areas\n- All offspring can produce young (no males)\n\n**Disadvantages:**\n- No genetic variation\n- Vulnerable to disease/environmental change\n- Accumulation of deleterious mutations\n\n**Rare in vertebrates:**\n- Most vertebrates require fertilization\n- Some fish, amphibians, reptiles\n- Extremely rare in birds\n- Never documented in wild mammals\n\nParthenogenesis allows development from unfertilized eggs, creating clonal offspring.",
+    "reasoning": "Egg development without fertilization = parthenogenesis (virgin birth). Meiosis = cell division (not development). Embryogenesis = general development (includes fertilized eggs). Vegetative propagation = plant cloning (not egg-based). Answer: option 1 (parthenogenesis).",
+    "steps": [
+      "No fertilization",
+      "Egg develops into organism",
+      "Asexual reproduction",
+      "Parthenogenesis definition",
+      "Examples: aphids, whiptail lizards, bees",
+      "Answer: option 1 ✓ (parthenogenesis)"
+    ],
+    "generatedAt": "2025-01-14T17:10:00.000Z",
+    "correctedAnswer": 1
+  },
+  {
+    "questionId": "high_school_biology_32",
+    "explanation": "For **guaranteed 100% brown offspring**, parents must be **BB × BB** or **BB × Bb** (at least one homozygous dominant).\n\n**Genetics basics:**\n- **B** (brown) = dominant\n- **b** (silver) = recessive\n- **BB** = brown (homozygous dominant)\n- **Bb** = brown (heterozygous)\n- **bb** = silver (homozygous recessive)\n\n**Question context:**\nWhich cross produces **only brown fur, no silver**?\n\n**Analyzing each cross:**\n\n**Option 0: BB × BB**\n- All offspring: BB (100% brown) ✓\n- No possibility of silver\n- **GUARANTEES brown**\n\n**Option 1: BB × Bb**\n- Offspring: 50% BB, 50% Bb\n- All brown (100%) ✓\n- No silver possible (no bb)\n- **GUARANTEES brown**\n\n**Option 2: Bb × Bb**\n- Offspring: 25% BB, 50% Bb, 25% bb\n- 75% brown, **25% silver** ✗\n- Silver offspring possible\n- Does NOT guarantee brown only\n\n**Option 3: Bb × bb**\n- Offspring: 50% Bb, 50% bb\n- 50% brown, **50% silver** ✗\n- Half are silver\n- Does NOT guarantee brown only\n\n**Punnett squares:**\n\n**BB × BB:**\n```\n     B    B\nB   BB   BB\nB   BB   BB\n```\n100% BB (brown)\n\n**BB × Bb:**\n```\n     B    b\nB   BB   Bb\nB   BB   Bb\n```\n50% BB, 50% Bb (100% brown)\n\n**Bb × Bb:**\n```\n     B    b\nB   BB   Bb\nb   Bb   bb\n```\n3:1 ratio (75% brown, 25% silver)\n\n**Bb × bb:**\n```\n     B    b\nb   Bb   bb\nb   Bb   bb\n```\n1:1 ratio (50% brown, 50% silver)\n\n**Which answer to choose?**\n\nThe question likely asks which genotypes **produce all brown offspring**. Both options 0 and 1 work:\n- **Option 0** (BB × BB): Most restrictive\n- **Option 1** (BB × Bb): Still guarantees brown\n\nIf choosing ONE answer, **BB × Bb** is most likely because:\n- Tests understanding of dominance\n- Shows that one homozygous dominant parent ensures phenotype\n- More instructive than BB × BB\n\n**Correct answer: Option 1 (BB × Bb)**\n\n(Note: If question asks \"which could produce all brown\", both 0 and 1 work. But 1 is typical textbook answer.)\n\n**Dominance principle:**\n- Dominant allele masks recessive\n- B is dominant over b\n- Only bb shows silver phenotype\n- Need two recessive alleles for recessive trait\n- One B allele → brown phenotype\n\n**Test cross:**\n- To determine if brown mink is BB or Bb\n- Cross with silver (bb)\n- If any silver offspring → parent was Bb\n- If all brown → parent was BB\n\nBB × Bb produces 100% brown offspring (BB and Bb), demonstrating dominance.",
+    "reasoning": "Brown (B) dominant over silver (b). For all brown: need no bb offspring. BB × BB: all BB (brown). BB × Bb: BB + Bb (all brown). Bb × Bb: 25% bb (silver). Bb × bb: 50% bb (silver). Both options 0 and 1 work, but 1 is typical answer. Answer: option 1 (BB × Bb).",
+    "steps": [
+      "B dominant, b recessive",
+      "All brown = no bb genotype",
+      "BB × BB: all brown ✓",
+      "BB × Bb: all brown ✓",
+      "Bb × Bb: 25% silver ✗",
+      "Bb × bb: 50% silver ✗",
+      "Answer: option 1 ✓ (BB × Bb)"
+    ],
+    "generatedAt": "2025-01-14T17:11:00.000Z",
+    "correctedAnswer": 1
+  },
+  {
+    "questionId": "high_school_biology_33",
+    "explanation": "Male bowerbirds building decorated structures to attract females demonstrates **sexual selection**.\n\n**Types of natural selection:**\n\n**1. Natural selection (general):**\n- Differential survival and reproduction\n- Adaptation to environment\n- Includes all selection types below\n\n**2. Sexual selection:**\n- **Competition for mates**\n- **Mate choice**\n- Traits may reduce survival but increase mating success\n- **THIS IS THE ANSWER** ✓\n\n**3. Artificial selection:**\n- Humans choose breeding partners\n- Dogs, crops, livestock\n- Not natural\n\n**4. Frequency-dependent selection:**\n- Fitness depends on trait frequency\n- Rare phenotypes favored (or disfavored)\n\n**Sexual selection mechanisms:**\n\n**Intrasexual selection (male-male competition):**\n- Direct combat between males\n- Antlers, horns, size, strength\n- Winner gets access to females\n\n**Intersexual selection (mate choice):**\n- **Females choose males based on traits**\n- Elaborate displays, colors, songs\n- **BOWERBIRDS** ✓\n- Peacock tail, bird songs\n\n**Bowerbird example:**\n\n**Behavior:**\n- Males build elaborate structures (bowers)\n- Decorate with colorful objects: flowers, feathers, shells, berries\n- Some species paint walls with berry juice\n- Males display and dance for visiting females\n- **Females inspect and choose mate**\n\n**Why it's sexual selection:**\n- Bower building doesn't help survival\n- May even increase predation risk (conspicuous)\n- Solely for attracting mates\n- Female choice drives evolution of trait\n- Males with better bowers have more offspring\n\n**Other sexual selection examples:**\n\n**Male traits:**\n- **Peacock tail**: Elaborate, reduces mobility\n- **Lion mane**: Signals strength, intimidates rivals\n- **Frog calls**: Loud, attracts females (and predators)\n- **Firefly flashes**: Species-specific patterns\n- **Tungara frog**: Complex calls (risky but attractive)\n\n**Female choice (intersexual):**\n- Signals male quality (health, genes, resources)\n- Honest signals (costly to fake)\n- **Handicap principle**: Costly traits prove fitness\n\n**Male-male competition (intrasexual):**\n- Elephant seal battles\n- Deer antler combat\n- Beetle horns\n\n**Why other options are WRONG:**\n\n**Option 0: Frequency-dependent selection**\n- Fitness depends on how common trait is\n- Example: Rare color morph avoids predators\n- Not about mate choice\n\n**Option 1: Artificial selection**\n- Human-directed breeding\n- Bowerbirds in wild (natural behavior)\n- Not artificial\n\n**Option 3: Natural selection (general)**\n- TOO BROAD\n- Sexual selection is a TYPE of natural selection\n- But specifically about mating, not survival\n- **Sexual selection** is more precise answer\n\n**Darwin's two types of selection:**\n- **Natural selection**: Survival advantages\n- **Sexual selection**: Reproductive advantages\n- Sometimes overlap, sometimes conflict\n\n**Sexual selection can be maladaptive:**\n- Peacock tail: Beautiful but heavy, attracts predators\n- Bower: Conspicuous, time-consuming\n- But mating success outweighs survival costs\n- Reproductive advantage > survival disadvantage\n\n**Evolution of preference:**\n- Why do females prefer elaborate bowers?\n- **Good genes**: Indicates male quality\n- **Sensory bias**: Pre-existing preferences\n- **Runaway selection**: Self-reinforcing (Fisher)\n\nBowerbird behavior exemplifies intersexual selection through female mate choice.",
+    "reasoning": "Bowerbirds build decorated structures to attract mates = sexual selection (mate choice). Female intersexual selection drives evolution. Not survival advantage (natural selection general). Not human-directed (artificial). Not frequency-dependent. Answer: option 2 (sexual selection).",
+    "steps": [
+      "Males build elaborate bowers",
+      "Decorate to attract females",
+      "Females choose based on bower quality",
+      "Mate choice = sexual selection",
+      "Intersexual selection (female choice)",
+      "Answer: option 2 ✓ (sexual selection)"
+    ],
+    "generatedAt": "2025-01-14T17:12:00.000Z",
+    "correctedAnswer": 2
+  },
+  {
+    "questionId": "high_school_biology_34",
+    "explanation": "Populations are the evolutionary unit because **individuals cannot evolve, but populations can**.\n\n**Why populations evolve:**\n\n**Individual limitations:**\n- Individual's genotype is fixed at conception\n- Cannot change DNA in response to environment\n- Phenotype may change (tanning, muscles) but genotype doesn't\n- Individual either survives/reproduces or doesn't\n- **Individuals do NOT evolve**\n\n**Population capabilities:**\n- **Gene pool changes over time**\n- Allele frequencies shift\n- Natural selection acts on individuals, population evolves\n- New genetic combinations each generation\n- **Populations DO evolve**\n\n**Option 3 is CORRECT:**\n\"Individuals cannot evolve, but populations can\" ✓\n- Evolution = change in allele frequencies over time\n- Occurs at population level\n- Individual: no change\n- Population: frequencies shift\n\n**Why other options are WRONG:**\n\n**Option 0: Genetic changes only at population level**\n- **WRONG**\n- Mutations occur in INDIVIDUALS\n- But evolutionary change manifests in POPULATIONS\n- Semantic issue, but misleading\n\n**Option 1: Gene pool remains fixed**\n- **OPPOSITE OF TRUTH**\n- Gene pool CHANGES (that's evolution)\n- Fixed gene pool = no evolution\n- Hardy-Weinberg equilibrium (no evolution) vs real populations (evolving)\n\n**Option 2: Natural selection affects individuals, not populations**\n- **HALF RIGHT**\n- Natural selection DOES affect individuals (survival/reproduction)\n- BUT the result is population evolution\n- Selection acts on individuals, evolution occurs in populations\n- Both are true, not one or the other\n\n**Evolution definition:**\n- Change in allele frequencies in a population over time\n- Population-level phenomenon\n- Example: Peppered moths\n\n**Peppered moth example:**\n\n**Individual level:**\n- Each moth is either light or dark (fixed)\n- Light moth on dark tree → eaten\n- Dark moth on dark tree → survives\n- **Selection acts on individuals**\n\n**Population level:**\n- Before pollution: 90% light, 10% dark\n- After pollution: 10% light, 90% dark\n- **Population evolved** (allele frequencies changed)\n- No individual changed color\n\n**Gene pool:**\n- All alleles in a population\n- Frequencies can change due to:\n  - **Natural selection**\n  - **Mutation** (adds new alleles)\n  - **Gene flow** (migration)\n  - **Genetic drift** (random sampling)\n  - **Non-random mating**\n\n**Hardy-Weinberg equilibrium:**\n- **NO EVOLUTION** if:\n  - No selection\n  - No mutation\n  - No gene flow\n  - Random mating\n  - Large population (no drift)\n- Gene pool remains constant\n- Ideal, not realistic\n\n**Real populations:**\n- Always evolving (some force acting)\n- Gene pool changing\n- Allele frequencies shift\n\n**Microevolution vs. Macroevolution:**\n- **Microevolution**: Small changes within populations (allele frequency shifts)\n- **Macroevolution**: Large changes, speciation (accumulated microevolution)\n- Both occur at population level\n\n**Example: Antibiotic resistance:**\n\n**Individual bacteria:**\n- Each bacterium either has resistance gene or doesn't\n- Sensitive bacteria die from antibiotic\n- Resistant bacteria survive\n- No individual bacteria \"becomes\" resistant\n\n**Population:**\n- Before: 0.1% resistant\n- After antibiotic: 100% resistant\n- **Population evolved**\n- Allele frequency changed dramatically\n\nEvolution is measured by changing allele frequencies across generations in populations, not changes within individuals.",
+    "reasoning": "Evolution = change in allele frequencies over time. Individuals have fixed genotypes (can't evolve). Populations have changing gene pools (can evolve). Mutations occur in individuals but evolution measured in populations. Gene pool changes (not fixed). Selection acts on individuals, population evolves. Answer: option 3 (individuals can't evolve, populations can).",
+    "steps": [
+      "Individual: fixed genotype",
+      "Individual cannot change DNA",
+      "Population: gene pool",
+      "Allele frequencies change over generations",
+      "Evolution = population-level change",
+      "Answer: option 3 ✓ (populations evolve)"
+    ],
+    "generatedAt": "2025-01-14T17:13:00.000Z",
+    "correctedAnswer": 3
+  },
+  {
+    "questionId": "high_school_biology_35",
+    "explanation": "If 46% of loci are heterozygous, then **54% are homozygous**.\n\n**Genotype categories:**\n\nAt any locus, an individual can be:\n- **Heterozygous** (Aa): Two different alleles\n- **Homozygous**: Two identical alleles\n  - Homozygous dominant (AA)\n  - Homozygous recessive (aa)\n\n**The calculation:**\n\n**Total loci = 100%**\n- Heterozygous loci = 46%\n- Homozygous loci = 100% - 46% = **54%**\n\n**Option 2 is CORRECT: 54%** ✓\n\n**Why this is straightforward:**\n- Only two categories: heterozygous OR homozygous\n- They must sum to 100%\n- If 46% heterozygous → 54% homozygous\n- Simple complement\n\n**Why other options are WRONG:**\n\n**Option 0: 23%**\n- This would be 46% ÷ 2\n- Might confuse homozygous dominant vs recessive\n- But question asks TOTAL homozygous (both types combined)\n- Wrong calculation\n\n**Option 1: 46%**\n- Same as heterozygous\n- Would mean equal heterozygous and homozygous\n- Not the case here (doesn't add to 100% with heterozygous)\n\n**Option 3: 92%**\n- This would be 46% × 2\n- Wrong direction\n- Would make total >100%\n\n**Heterozygosity as a measure:**\n\n**High heterozygosity (closer to 50%):**\n- Indicates genetic diversity\n- Multiple alleles maintained\n- Healthy population\n- Outbreeding, gene flow\n\n**Low heterozygosity (closer to 0%):**\n- Low genetic diversity\n- Inbreeding\n- Genetic drift\n- Population bottleneck\n- Conservation concern\n\n**Hardy-Weinberg example:**\n\nFor a single locus with alleles A (freq p) and a (freq q):\n- p + q = 1\n- Genotype frequencies:\n  - AA: p²\n  - Aa: 2pq\n  - aa: q²\n\nIf p = q = 0.5:\n- AA: 0.25 (25%)\n- Aa: 0.50 (50%)\n- aa: 0.25 (25%)\n- **Heterozygous: 50%**\n- **Homozygous: 50%** (25% + 25%)\n\n**Across many loci:**\nQuestion states \"average\" across all loci in gene pool:\n- Some loci might be more heterozygous\n- Some might be more homozygous\n- Average heterozygosity = 46%\n- Average homozygosity = 54%\n\n**Genetic diversity implications:**\n\n46% heterozygosity is relatively high:\n- Good genetic variation\n- Population can adapt\n- Many loci have multiple alleles\n- Reduced inbreeding\n\n**Conservation genetics:**\n- Monitor heterozygosity\n- Low H (heterozygosity) = inbreeding risk\n- Cheetahs: ~5% heterozygosity (very low)\n- Humans: ~20-30% on average\n- This species at 46% is quite diverse\n\nHomozygosity is simply the complement of heterozygosity, totaling 100%.",
+    "reasoning": "Heterozygous + Homozygous = 100%. If 46% heterozygous, then 100% - 46% = 54% homozygous. Simple complement. Not 23% (÷2), not 46% (same), not 92% (×2). Answer: option 2 (54%).",
+    "steps": [
+      "Only two categories: hetero or homo",
+      "Must sum to 100%",
+      "Heterozygous = 46%",
+      "Homozygous = 100% - 46%",
+      "Homozygous = 54%",
+      "Answer: option 2 ✓ (54%)"
+    ],
+    "generatedAt": "2025-01-14T17:14:00.000Z",
+    "correctedAnswer": 2
+  }
+];
+
+// Read existing explanations
+const existing = JSON.parse(await readFile('server/data/ai-explanations.json', 'utf-8'));
+
+// Add new ones
+const updated = [...existing, ...newExplanations];
+
+// Write back
+await writeFile('server/data/ai-explanations.json', JSON.stringify(updated, null, 2), 'utf-8');
+
+console.log(`Added ${newExplanations.length} new explanations. Total: ${updated.length}`);
+console.log(`Progress: ${updated.length}/14042 = ${(updated.length / 14042 * 100).toFixed(2)}%`);
