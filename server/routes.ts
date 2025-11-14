@@ -175,7 +175,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       console.log(`[AI Explanation] Generating new explanation for: ${questionId}`);
       const correctOption = question.options[question.correctAnswer];
-      const prompt = `You are an expert educator. Provide a detailed, step-by-step explanation for why the correct answer is right.
+      const incorrectOptions = question.options.filter((_, idx) => idx !== question.correctAnswer);
+
+      const prompt = `You are a world-class educator and subject matter expert. Your goal is to provide an exceptionally clear, insightful, and comprehensive explanation that helps students deeply understand both the correct answer and the underlying concepts.
 
 Question: ${question.question}
 
@@ -184,16 +186,35 @@ ${question.options.map((opt, idx) => `${idx + 1}. ${opt}`).join('\n')}
 
 Correct Answer: ${correctOption}
 
-Please provide:
-1. A clear explanation of why this answer is correct
-2. Step-by-step reasoning showing your thought process
-3. Context about the key concepts involved
+Please provide an outstanding educational explanation with the following:
 
-Format your response as JSON with these fields:
+1. EXPLANATION (2-3 sentences): Start with a clear, confident statement of why the correct answer is right. Make this immediately understandable and engaging.
+
+2. REASONING (3-4 paragraphs): Provide deep, insightful reasoning that:
+   - Explains the fundamental concepts and principles at play
+   - Shows the logical thought process a domain expert would use
+   - Connects the question to broader understanding in the field
+   - Explains WHY the correct answer works, not just THAT it works
+   - Addresses why incorrect options might seem plausible but are wrong
+
+3. STEPS (4-6 clear steps): Break down the problem-solving process into concrete, actionable steps that:
+   - Start from first principles or what we're given
+   - Build logically toward the solution
+   - Include key insights or "aha moments" along the way
+   - End with the conclusion and validation
+   - Each step should be substantive and educational (not just procedural)
+
+Make your explanation:
+- Precise and accurate, using domain-appropriate terminology
+- Rich with insight - teach concepts, not just the answer
+- Engaging and clear enough for someone learning this material
+- Comprehensive enough to prevent similar mistakes in the future
+
+Format your response as JSON with these exact fields:
 {
-  "explanation": "Brief overview of why the answer is correct",
-  "reasoning": "Detailed reasoning process",
-  "steps": ["Step 1: ...", "Step 2: ...", "Step 3: ..."]
+  "explanation": "Clear, confident 2-3 sentence overview of why this answer is correct",
+  "reasoning": "Deep, insightful 3-4 paragraph analysis covering concepts, logic, why this answer works, and why others don't",
+  "steps": ["Step 1: [Substantive step]", "Step 2: [Substantive step]", "Step 3: [Substantive step]", "Step 4: [Substantive step]"]
 }`;
 
       console.log(`[AI Explanation] Calling OpenAI Responses API with GPT-5...`);
@@ -209,7 +230,7 @@ Format your response as JSON with these fields:
           effort: "high"
         },
         text: {
-          verbosity: "medium",
+          verbosity: "high",
           format: {
             type: "json_object"
           }
