@@ -1,4 +1,4 @@
-# Are You Smarter?
+# Are You Smarter? Human vs AI Quiz
 
 An interactive quiz application for exploring how human answers compare with AI benchmark performance.
 
